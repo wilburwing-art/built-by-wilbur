@@ -1,6 +1,15 @@
 export type Audience = "ai" | "client" | "both"
 export type Status = "live" | "in-dev" | "prototype"
 
+export type PreviewKind =
+  | "agents"
+  | "rag"
+  | "voice"
+  | "ceramic"
+  | "atlas"
+  | "blueprint"
+  | "ripple"
+
 export interface Metric {
   label: string
   value: string
@@ -26,6 +35,8 @@ export interface Project {
   live?: string
   note?: string
   caseStudy?: CaseStudy
+  preview: PreviewKind
+  accent: string
 }
 
 export const projects: Project[] = [
@@ -41,6 +52,8 @@ export const projects: Project[] = [
     status: "in-dev",
     github: "https://github.com/wilburwing-art/fit-AI",
     note: "Live demo in progress — walkthrough available on request.",
+    preview: "agents",
+    accent: "from-violet-500/30 via-fuchsia-500/20 to-sky-500/20",
     caseStudy: {
       problem:
         "Off-the-shelf fitness chatbots either give generic advice or melt your token budget by stuffing every conversation into the model's context. I wanted a coach that remembers training history, adapts plans week to week, and does not cost a dollar per session.",
@@ -67,6 +80,8 @@ export const projects: Project[] = [
     status: "in-dev",
     github: "https://github.com/wilburwing-art/therapy-session-rag",
     note: "Built on synthetic data for portfolio purposes.",
+    preview: "rag",
+    accent: "from-emerald-500/25 via-teal-500/20 to-cyan-500/20",
     caseStudy: {
       problem:
         "Conversational transcripts break naive RAG. Default chunkers cut mid-sentence, lose speaker turns, and blur the emotional arc a clinician actually needs to find. Retrieval that looks fine on a technical doc quickly hallucinates on a human transcript.",
@@ -93,6 +108,8 @@ export const projects: Project[] = [
     status: "prototype",
     github: "https://github.com/wilburwing-art/voice-to-blender",
     note: "Early prototype — video walkthrough coming.",
+    preview: "voice",
+    accent: "from-orange-500/25 via-rose-500/20 to-purple-500/25",
     caseStudy: {
       problem:
         "Blender is powerful but menu-driven; every creative person I know who wants to model something gives up in the first ten clicks. I wanted to see if a voice layer plus a model could collapse the learning curve without replacing the tool.",
@@ -119,6 +136,8 @@ export const projects: Project[] = [
     status: "live",
     github: "https://github.com/wilburwing-art/formbook",
     live: "https://formbook-nine.vercel.app",
+    preview: "ceramic",
+    accent: "from-amber-500/25 via-orange-500/20 to-stone-500/20",
     caseStudy: {
       problem:
         "Potters track form specs in notebooks and phone photos. Nothing on the market rendered a proper cross-section from the measurements they already take — rim, shoulder, waist, foot — in a way you could share, archive, or compare across firings.",
@@ -145,6 +164,8 @@ export const projects: Project[] = [
     status: "live",
     github: "https://github.com/wilburwing-art/hut-atlas",
     live: "https://hutatlas.com",
+    preview: "atlas",
+    accent: "from-green-500/25 via-emerald-500/20 to-lime-500/20",
     caseStudy: {
       problem:
         "Backcountry hut information is fragmented across operator sites, PDFs, and forum threads. A planner trying to route a trip ends up with fifteen browser tabs and no way to compare capacity, access, or season at a glance.",
@@ -170,6 +191,8 @@ export const projects: Project[] = [
     audience: "client",
     status: "live",
     github: "https://github.com/wilburwing-art/fourplex-project",
+    preview: "blueprint",
+    accent: "from-blue-500/25 via-indigo-500/20 to-slate-500/20",
     caseStudy: {
       problem:
         "A fourplex build has roughly a thousand moving parts across lot research, zoning, lenders, and a 60-day pre-construction action plan. Keeping them in spreadsheets means you are always on the wrong tab when you need to be on a different tab.",
@@ -195,6 +218,8 @@ export const projects: Project[] = [
     audience: "client",
     status: "in-dev",
     github: "https://github.com/wilburwing-art/hot-springs-atlas",
+    preview: "ripple",
+    accent: "from-sky-500/25 via-cyan-500/20 to-teal-500/20",
     caseStudy: {
       problem:
         "Every niche community — hot springs, trailheads, boutique campsites, coffee roasters — has the same problem: scattered data, no canonical reference. Building each one from scratch is silly.",

@@ -21,7 +21,7 @@ function Hero({ audience }: { audience: Audience }) {
       </>
     ),
     sub:
-      "Jr AI engineer focused on agent orchestration, retrieval pipelines, and cost-aware production deployments. I ship small, test often, and instrument everything.",
+      "AI engineer focused on agent orchestration, retrieval pipelines, and cost-aware production deployments. I ship small, test often, and instrument everything.",
   }
   const clientCopy = {
     heading: (
@@ -231,7 +231,7 @@ function Contact() {
         </h2>
         <p className="text-lg text-muted-foreground leading-relaxed">
           I take on a small number of client projects each month, plus full-time
-          Jr AI Engineer roles. Email is fastest.
+          AI Engineer roles. Email is fastest.
         </p>
         <div className="flex flex-wrap gap-3 pt-2">
           <a href="mailto:WilburWing@gmail.com">
@@ -267,7 +267,7 @@ export function Home() {
         title={audience === "ai" ? "AI Engineering" : "Client Work"}
         description={
           audience === "ai"
-            ? "Wilbur Pyn — Jr AI engineer. Agents, RAG, orchestration, Claude and the Anthropic stack."
+            ? "Wilbur Pyn — AI engineer. Agents, RAG, orchestration, Claude and the Anthropic stack."
             : "Wilbur Pyn — full-stack web builder. Fast, beautiful sites and products for small and medium businesses."
         }
       />
