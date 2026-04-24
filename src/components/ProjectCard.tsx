@@ -14,6 +14,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { GithubIcon } from "@/components/icons"
 import { ProjectPreview } from "@/components/ProjectPreview"
+import { TechIcon, techKey } from "@/components/TechIcon"
 
 const STATUS_LABEL: Record<Status, string> = {
   live: "Live",
@@ -116,8 +117,9 @@ export function ProjectCard({ project }: { project: Project }) {
             {project.stack.map((item) => (
               <span
                 key={item}
-                className="text-[11px] font-mono text-muted-foreground bg-muted/60 px-1.5 py-0.5 rounded"
+                className="inline-flex items-center gap-1 text-[11px] font-mono text-muted-foreground bg-muted/60 px-1.5 py-0.5 rounded"
               >
+                {techKey(item) && <TechIcon name={item} className="size-3" />}
                 {item}
               </span>
             ))}

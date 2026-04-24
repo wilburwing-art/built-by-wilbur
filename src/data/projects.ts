@@ -45,20 +45,20 @@ export const projects: Project[] = [
     name: "Fit-AI",
     tagline: "Multi-agent AI fitness coach",
     description:
-      "FastAPI backend orchestrating PydanticAI agents over Claude Sonnet 4.5. Structured outputs, cost-aware model routing, and a streaming HTMX frontend. The interesting part isn't the chat — it's deciding which agent runs and how much context it sees.",
+      "FastAPI backend orchestrating PydanticAI agents over Claude Sonnet 4.5. Structured outputs, cost-aware model routing, and a streaming HTMX frontend. The interesting part isn't the chat, it's deciding which agent runs and how much context it sees.",
     stack: ["FastAPI", "PydanticAI", "Claude 4.5", "Postgres", "HTMX", "Tailwind"],
     tags: ["AI", "Agents"],
     audience: "ai",
     status: "in-dev",
     github: "https://github.com/wilburwing-art/fit-AI",
-    note: "Live demo in progress — walkthrough available on request.",
+    note: "Live demo in progress. Walkthrough available on request.",
     preview: "agents",
     accent: "from-violet-500/30 via-fuchsia-500/20 to-sky-500/20",
     caseStudy: {
       problem:
         "Off-the-shelf fitness chatbots either give generic advice or melt your token budget by stuffing every conversation into the model's context. I wanted a coach that remembers training history, adapts plans week to week, and does not cost a dollar per session.",
       decision:
-        "Built a small committee of PydanticAI agents — a router, a planner, a feedback agent — each with narrowly typed inputs and outputs. The router picks the cheapest model that can plausibly handle the turn; context is fetched from Postgres on demand, not pre-baked. Structured outputs keep downstream code deterministic, and streaming keeps the HTMX UI responsive.",
+        "Built a small committee of PydanticAI agents (a router, a planner, a feedback agent) each with narrowly typed inputs and outputs. The router picks the cheapest model that can plausibly handle the turn; context is fetched from Postgres on demand, not pre-baked. Structured outputs keep downstream code deterministic, and streaming keeps the HTMX UI responsive.",
       outcome:
         "Agents coordinate cleanly and I can reason about cost per turn instead of hoping. Structured outputs eliminated a whole class of parsing errors the prototype was hitting. The architecture generalizes beyond fitness, which is the real win.",
       metrics: [
@@ -88,7 +88,7 @@ export const projects: Project[] = [
       decision:
         "Chunk on speaker turns with overlap, not fixed token windows. Store speaker + timestamp as metadata and filter at query time. Route the retrieval augmentation through Claude with an explicit instruction to cite chunk IDs, so I can evaluate retrieval quality separately from generation quality. CI runs a suite of golden queries on every commit.",
       outcome:
-        "Citations make retrieval failures visible instead of plausible-sounding. The eval suite catches regressions before they ship. The pipeline generalizes to any long-form conversation — interviews, meetings, support calls.",
+        "Citations make retrieval failures visible instead of plausible-sounding. The eval suite catches regressions before they ship. The pipeline generalizes to any long-form conversation: interviews, meetings, support calls.",
       metrics: [
         { label: "Synthetic transcripts", value: "24" },
         { label: "Golden eval queries", value: "18" },
@@ -107,16 +107,16 @@ export const projects: Project[] = [
     audience: "ai",
     status: "prototype",
     github: "https://github.com/wilburwing-art/voice-to-blender",
-    note: "Early prototype — video walkthrough coming.",
+    note: "Early prototype. Video walkthrough coming.",
     preview: "voice",
     accent: "from-orange-500/25 via-rose-500/20 to-purple-500/25",
     caseStudy: {
       problem:
         "Blender is powerful but menu-driven; every creative person I know who wants to model something gives up in the first ten clicks. I wanted to see if a voice layer plus a model could collapse the learning curve without replacing the tool.",
       decision:
-        "Voice is captured locally, transcribed via Whisper, and handed to Claude with a Blender MCP tool harness. Claude decides whether to call Blender or to ask a clarifying question. No chat UI — the render is the UI.",
+        "Voice is captured locally, transcribed via Whisper, and handed to Claude with a Blender MCP tool harness. Claude decides whether to call Blender or to ask a clarifying question. No chat UI: the render is the UI.",
       outcome:
-        "Proof of concept shows that Claude plus MCP is enough to turn natural language into basic scene construction. The interesting failure cases are about Blender's geometry math, not the language model — which is exactly where an MCP-based workflow should fail.",
+        "Proof of concept shows that Claude plus MCP is enough to turn natural language into basic scene construction. The interesting failure cases are about Blender's geometry math, not the language model, which is exactly where an MCP-based workflow should fail.",
       metrics: [
         { label: "Round-trip latency", value: "~3s" },
         { label: "MCP tools exposed", value: "6" },
@@ -140,11 +140,11 @@ export const projects: Project[] = [
     accent: "from-amber-500/25 via-orange-500/20 to-stone-500/20",
     caseStudy: {
       problem:
-        "Potters track form specs in notebooks and phone photos. Nothing on the market rendered a proper cross-section from the measurements they already take — rim, shoulder, waist, foot — in a way you could share, archive, or compare across firings.",
+        "Potters track form specs in notebooks and phone photos. Nothing on the market rendered a proper cross-section from the measurements they already take (rim, shoulder, waist, foot) in a way you could share, archive, or compare across firings.",
       decision:
         "Wrote a tiny SVG renderer that turns a handful of parameters into a publication-quality section. Built the full app on Next.js App Router with Supabase for auth and Postgres, Resend for transactional email, and a minimal Tailwind design language. Kept the data model flat enough that non-technical users can actually enter forms.",
       outcome:
-        "Shipped to real studio users. The rendering pipeline is the thing that makes the app feel like a product and not a form. The backend is boring on purpose — boring backends ship.",
+        "Shipped to real studio users. The rendering pipeline is the thing that makes the app feel like a product and not a form. The backend is boring on purpose. Boring backends ship.",
       metrics: [
         { label: "Deployed", value: "Vercel" },
         { label: "DB", value: "Supabase Postgres" },
@@ -157,7 +157,7 @@ export const projects: Project[] = [
     name: "Hut Atlas",
     tagline: "Filterable map of 96+ Western backcountry huts",
     description:
-      "Hand-verified atlas — every entry checked against an operator's site. Static-first build, linter-enforced design system, Leaflet + OpenStreetMap. Shipped to Cloudflare Pages at hutatlas.com.",
+      "Hand-verified atlas. Every entry checked against an operator's site. Static-first build, linter-enforced design system, Leaflet + OpenStreetMap. Shipped to Cloudflare Pages at hutatlas.com.",
     stack: ["HTML/CSS/JS", "Leaflet", "OpenStreetMap", "Cloudflare Pages"],
     tags: ["Shipped", "Design"],
     audience: "client",
@@ -170,9 +170,9 @@ export const projects: Project[] = [
       problem:
         "Backcountry hut information is fragmented across operator sites, PDFs, and forum threads. A planner trying to route a trip ends up with fifteen browser tabs and no way to compare capacity, access, or season at a glance.",
       decision:
-        "Skipped the framework. Single-file HTML with Leaflet and a hand-curated JSON file, so the whole site loads instantly and renders without JS for search engines. Enforced the design system with CSS custom properties and a linter — every card looks consistent because it has to. Verified every hut against an operator source.",
+        "Skipped the framework. Single-file HTML with Leaflet and a hand-curated JSON file, so the whole site loads instantly and renders without JS for search engines. Enforced the design system with CSS custom properties and a linter. Every card looks consistent because it has to. Verified every hut against an operator source.",
       outcome:
-        "Shipped to hutatlas.com on Cloudflare Pages. Loads fast, indexes well, no build step to babysit. The editorial constraint — every entry is hand-verified — is the product; the tech is boring in the best way.",
+        "Shipped to hutatlas.com on Cloudflare Pages. Loads fast, indexes well, no build step to babysit. The editorial constraint (every entry is hand-verified) is the product; the tech is boring in the best way.",
       metrics: [
         { label: "Huts cataloged", value: "96+" },
         { label: "JS frameworks", value: "0" },
@@ -197,7 +197,7 @@ export const projects: Project[] = [
       problem:
         "A fourplex build has roughly a thousand moving parts across lot research, zoning, lenders, and a 60-day pre-construction action plan. Keeping them in spreadsheets means you are always on the wrong tab when you need to be on a different tab.",
       decision:
-        "Built a React app with a tab-per-workstream layout: actions, timeline, proforma, lenders, planning, lots, qualifier. Persists to localStorage so it works offline on lot visits, syncs to Supabase when back on wifi. Math updates live — no save button, no stale numbers.",
+        "Built a React app with a tab-per-workstream layout: actions, timeline, proforma, lenders, planning, lots, qualifier. Persists to localStorage so it works offline on lot visits, syncs to Supabase when back on wifi. Math updates live. No save button, no stale numbers.",
       outcome:
         "Actively used to run a real build. The offline-first decision turned out to matter more than expected; cell service at rural lots is unreliable. Switching Excel workflows to this app saved the kind of time nobody tracks until they stop losing it.",
       metrics: [
@@ -212,7 +212,7 @@ export const projects: Project[] = [
     name: "Hot Springs Atlas",
     tagline: "White-label atlas pattern for niche communities",
     description:
-      "Second atlas built from the same design system as Hut Atlas — 30+ Western hot springs, same map-driven discovery UX. Validates the atlas pattern as a productized offering: map + filter + hand-curated data, deployable in a week.",
+      "Second atlas built from the same design system as Hut Atlas. 30+ Western hot springs, same map-driven discovery UX. Validates the atlas pattern as a productized offering: map + filter + hand-curated data, deployable in a week.",
     stack: ["HTML/CSS/JS", "Leaflet", "Cloudflare Workers"],
     tags: ["Design", "Pattern"],
     audience: "client",
@@ -222,11 +222,11 @@ export const projects: Project[] = [
     accent: "from-sky-500/25 via-cyan-500/20 to-teal-500/20",
     caseStudy: {
       problem:
-        "Every niche community — hot springs, trailheads, boutique campsites, coffee roasters — has the same problem: scattered data, no canonical reference. Building each one from scratch is silly.",
+        "Every niche community (hot springs, trailheads, boutique campsites, coffee roasters) has the same problem: scattered data, no canonical reference. Building each one from scratch is silly.",
       decision:
-        "Treated Hut Atlas as the template. Cloned the design system and swapped the JSON dataset. Deployed behind Cloudflare Workers for edge caching. The thesis: this is a repeatable client offering — hand me a dataset, get a branded atlas in a week.",
+        "Treated Hut Atlas as the template. Cloned the design system and swapped the JSON dataset. Deployed behind Cloudflare Workers for edge caching. The thesis: this is a repeatable client offering. Hand me a dataset, get a branded atlas in a week.",
       outcome:
-        "Proves the pattern scales without a framework. Second atlas went from zero to data-complete in days, not months. The productized version of this is the interesting part — every niche community is a potential client.",
+        "Proves the pattern scales without a framework. Second atlas went from zero to data-complete in days, not months. The productized version of this is the interesting part. Every niche community is a potential client.",
       metrics: [
         { label: "Second deploy time", value: "days" },
         { label: "Shared components", value: "100%" },

@@ -8,47 +8,56 @@ import { useAudience } from "@/hooks/useAudience"
 import { cn } from "@/lib/utils"
 import { FadeUp, StaggerGrid, StaggerItem } from "@/components/motion"
 import { Seo } from "@/components/Seo"
+import { TechIcon, techKey } from "@/components/TechIcon"
+import {
+  AuroraBackdrop,
+  CursorSpotlight,
+  GradientText,
+  Magnetic,
+} from "@/components/Reactive"
 
 function Hero({ audience }: { audience: Audience }) {
   const aiCopy = {
-    heading: (
-      <>
-        Hi, I'm Wilbur.
-        <br />
-        <span className="text-muted-foreground">
-          I build AI-native products with Claude, PydanticAI, and RAG.
-        </span>
-      </>
-    ),
+    headingLead: "Hi, I'm Wilbur.",
+    headingAccent: "I build AI-native products with Claude, PydanticAI, and RAG.",
     sub:
       "AI engineer focused on agent orchestration, retrieval pipelines, and cost-aware production deployments. I ship small, test often, and instrument everything.",
   }
   const clientCopy = {
-    heading: (
-      <>
-        Hi, I'm Wilbur.
-        <br />
-        <span className="text-muted-foreground">
-          I design and ship beautiful, fast websites — end to end.
-        </span>
-      </>
-    ),
+    headingLead: "Hi, I'm Wilbur.",
+    headingAccent: "I design and ship beautiful, fast websites, end to end.",
     sub:
       "Full-stack web builder working in React, TypeScript, Tailwind, and Vercel. I take small and medium businesses from no-site to launched in a week, with craft on every screen.",
   }
   const copy = audience === "ai" ? aiCopy : clientCopy
 
   return (
-    <section id="top" className="mx-auto max-w-6xl px-6 pt-20 pb-16 sm:pt-28 sm:pb-20">
+    <section
+      id="top"
+      className="relative isolate mx-auto max-w-6xl px-6 pt-20 pb-16 sm:pt-28 sm:pb-20 overflow-hidden"
+    >
+      <AuroraBackdrop />
+      <CursorSpotlight />
       <div className="flex flex-col gap-6 max-w-3xl">
         <FadeUp>
-          <Badge variant="outline" className="w-fit px-3 py-1 font-mono text-xs">
-            Available for hire
+          <Badge
+            variant="outline"
+            className="w-fit px-3 py-1 font-mono text-xs group relative overflow-hidden"
+          >
+            <span className="relative z-10 flex items-center gap-1.5">
+              <span className="relative flex size-1.5">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
+                <span className="relative inline-flex size-1.5 rounded-full bg-emerald-500" />
+              </span>
+              Available for hire
+            </span>
           </Badge>
         </FadeUp>
         <FadeUp delay={0.05}>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-semibold tracking-tight leading-[1.05]">
-            {copy.heading}
+            {copy.headingLead}
+            <br />
+            <GradientText>{copy.headingAccent}</GradientText>
           </h1>
         </FadeUp>
         <FadeUp delay={0.12}>
@@ -58,18 +67,22 @@ function Hero({ audience }: { audience: Audience }) {
         </FadeUp>
         <FadeUp delay={0.18}>
           <div className="flex flex-wrap gap-3 pt-2">
-            <a href="#work">
-              <Button size="lg" className="gap-2">
-                See the work
-                <ArrowRight className="size-4" />
-              </Button>
-            </a>
-            <a href="mailto:WilburWing@gmail.com">
-              <Button size="lg" variant="outline" className="gap-2">
-                <Mail className="size-4" />
-                Get in touch
-              </Button>
-            </a>
+            <Magnetic>
+              <a href="#work">
+                <Button size="lg" className="gap-2">
+                  See the work
+                  <ArrowRight className="size-4" />
+                </Button>
+              </a>
+            </Magnetic>
+            <Magnetic>
+              <a href="mailto:WilburWing@gmail.com">
+                <Button size="lg" variant="outline" className="gap-2">
+                  <Mail className="size-4" />
+                  Get in touch
+                </Button>
+              </a>
+            </Magnetic>
           </div>
         </FadeUp>
       </div>
@@ -172,14 +185,14 @@ function About() {
         </div>
         <div className="flex flex-col gap-5 text-base leading-relaxed text-muted-foreground max-w-2xl">
           <p>
-            I build tools for the domains I actually live in — ceramics,
+            I build tools for the domains I actually live in: ceramics,
             backcountry travel, fitness, and real-estate development. Most of
             what you see above is running for real users, not tutorials.
           </p>
           <p>
             On the AI side, I work with the Anthropic SDK, PydanticAI, RAG
             pipelines, and multi-agent orchestration. I think hard about cost,
-            latency, and where an LLM is the right hammer — and where it isn't.
+            latency, and where an LLM is the right hammer, and where it isn't.
           </p>
           <p>
             On the web side, I ship in React, TypeScript, Tailwind, Next.js,
@@ -203,7 +216,17 @@ function About() {
               "Postgres",
               "Vercel",
             ].map((skill) => (
-              <Badge key={skill} variant="secondary" className="font-mono text-xs">
+              <Badge
+                key={skill}
+                variant="secondary"
+                className="group font-mono text-xs gap-1.5 transition-all hover:scale-105 hover:shadow-sm"
+              >
+                {techKey(skill) && (
+                  <TechIcon
+                    name={skill}
+                    className="size-3.5 transition-transform group-hover:scale-110"
+                  />
+                )}
                 {skill}
               </Badge>
             ))}
@@ -267,8 +290,8 @@ export function Home() {
         title={audience === "ai" ? "AI Engineering" : "Client Work"}
         description={
           audience === "ai"
-            ? "Wilbur Pyn — AI engineer. Agents, RAG, orchestration, Claude and the Anthropic stack."
-            : "Wilbur Pyn — full-stack web builder. Fast, beautiful sites and products for small and medium businesses."
+            ? "Wilbur Pyn. AI engineer. Agents, RAG, orchestration, Claude and the Anthropic stack."
+            : "Wilbur Pyn. Full-stack web builder. Fast, beautiful sites and products for small and medium businesses."
         }
       />
       <Hero audience={audience} />

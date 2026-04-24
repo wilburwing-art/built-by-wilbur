@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { GithubIcon } from "@/components/icons"
 import { Seo } from "@/components/Seo"
+import { TechIcon, techKey } from "@/components/TechIcon"
 
 const STATUS_LABEL: Record<Status, string> = {
   live: "Live",
@@ -41,7 +42,7 @@ export function ProjectCaseStudy() {
     <article className="mx-auto max-w-3xl px-6 py-12 sm:py-16">
       <Seo
         title={project.name}
-        description={project.tagline + " — " + project.description.slice(0, 140)}
+        description={project.tagline + ". " + project.description.slice(0, 140)}
         path={`/project/${project.slug}`}
         type="article"
       />
@@ -141,8 +142,9 @@ export function ProjectCaseStudy() {
             {project.stack.map((item) => (
               <span
                 key={item}
-                className="text-xs font-mono text-muted-foreground bg-muted/60 px-2 py-1 rounded"
+                className="inline-flex items-center gap-1.5 text-xs font-mono text-muted-foreground bg-muted/60 px-2 py-1 rounded"
               >
+                {techKey(item) && <TechIcon name={item} className="size-3.5" />}
                 {item}
               </span>
             ))}

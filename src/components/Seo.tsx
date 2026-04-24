@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async"
 const SITE_NAME = "Built by Wilbur"
 const SITE_URL = "https://builtbywilbur.com"
 const DEFAULT_DESC =
-  "Wilbur Pyn — AI engineer and full-stack web builder. Selected work in React, TypeScript, and the Anthropic stack."
+  "Wilbur Pyn. AI engineer and full-stack web builder. Selected work in React, TypeScript, and the Anthropic stack."
 
 interface SeoProps {
   title?: string

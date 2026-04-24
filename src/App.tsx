@@ -9,6 +9,7 @@ import { Writing } from "@/pages/Writing"
 import { Post } from "@/pages/Post"
 import { useDarkMode } from "@/hooks/useDarkMode"
 import { PageFade } from "@/components/motion"
+import { ScrollProgress } from "@/components/Reactive"
 
 function ScrollManager() {
   const location = useLocation()
@@ -73,6 +74,7 @@ function Shell() {
   const [dark, setDark] = useDarkMode()
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
+      <ScrollProgress />
       <Header dark={dark} toggleDark={() => setDark(!dark)} />
       <main className="flex-1">
         <ScrollManager />
