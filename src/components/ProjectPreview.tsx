@@ -42,12 +42,18 @@ function Scene({ kind, hovered }: { kind: PreviewKind; hovered: boolean }) {
       return <VoiceScene hovered={hovered} />
     case "ceramic":
       return <CeramicScene hovered={hovered} />
-    case "atlas":
-      return <AtlasScene hovered={hovered} />
+    case "hut":
+      return <HutScene hovered={hovered} />
     case "blueprint":
       return <BlueprintScene hovered={hovered} />
     case "ripple":
       return <RippleScene hovered={hovered} />
+    case "campground":
+      return <CampgroundScene hovered={hovered} />
+    case "canyon":
+      return <CanyonScene hovered={hovered} />
+    case "rib":
+      return <RibScene hovered={hovered} />
   }
 }
 
@@ -273,59 +279,71 @@ function CeramicScene({ hovered }: { hovered: boolean }) {
           transition={{ duration: 1.2, repeat: hovered ? Infinity : 0, delay: i * 0.2 }}
         />
       ))}
+      <g className="text-foreground" stroke="currentColor" fill="none" opacity={hovered ? 0.9 : 0.55}>
+        <line x1="188" y1="34" x2="188" y2="46" strokeWidth="1" />
+        <line x1="232" y1="34" x2="232" y2="46" strokeWidth="1" />
+        <line x1="188" y1="40" x2="232" y2="40" strokeWidth="1" />
+      </g>
+      <text
+        x="196"
+        y="30"
+        className="fill-foreground font-mono"
+        fontSize="7"
+        opacity={hovered ? 0.9 : 0.55}
+      >
+        RIM ⌀ 6.5&quot;
+      </text>
     </svg>
   )
 }
 
-function AtlasScene({ hovered }: { hovered: boolean }) {
+function HutScene({ hovered }: { hovered: boolean }) {
   const reduced = useReducedMotion()
-  const pins = [
-    { x: 60, y: 50 },
-    { x: 100, y: 80 },
-    { x: 140, y: 40 },
-    { x: 180, y: 90 },
-    { x: 220, y: 60 },
-    { x: 80, y: 120 },
-    { x: 160, y: 115 },
-    { x: 210, y: 125 },
-  ]
   return (
     <svg viewBox="0 0 280 160" className="absolute inset-0 h-full w-full">
-      {[30, 55, 80, 105, 130].map((y, i) => (
+      <path
+        d="M 0 118 Q 40 100 75 112 T 140 105 T 210 114 T 280 106"
+        fill="none"
+        stroke="currentColor"
+        strokeOpacity="0.25"
+        strokeWidth="1"
+        className="text-foreground"
+      />
+      {[
+        { x: 55, s: 14 },
+        { x: 222, s: 11 },
+      ].map((t, i) => (
         <path
           key={i}
-          d={`M 0 ${y} Q 70 ${y - 10 + (i % 2) * 8} 140 ${y} T 280 ${y}`}
-          fill="none"
-          stroke="currentColor"
-          strokeOpacity="0.2"
+          d={`M ${t.x - t.s} 130 L ${t.x} ${130 - t.s * 1.8} L ${t.x + t.s} 130 Z`}
+          className="fill-background stroke-foreground"
           strokeWidth="1"
-          className="text-foreground"
+          strokeOpacity="0.5"
         />
       ))}
-      {pins.map((p, i) => (
-        <motion.g
-          key={i}
-          animate={
-            reduced
-              ? {}
-              : {
-                  y: hovered ? [0, -3, 0] : 0,
-                }
-          }
-          transition={{ duration: 1.6, delay: i * 0.1, repeat: hovered ? Infinity : 0 }}
-        >
-          <circle cx={p.x} cy={p.y} r="4" className="fill-foreground" />
-          <circle
-            cx={p.x}
-            cy={p.y}
-            r="8"
-            fill="none"
-            stroke="currentColor"
-            strokeOpacity="0.3"
-            className="text-foreground"
-          />
-        </motion.g>
-      ))}
+      <path
+        d="M 105 130 L 140 55 L 175 130 Z"
+        className="fill-background stroke-foreground"
+        strokeWidth="1.5"
+      />
+      <rect
+        x="132"
+        y="108"
+        width="16"
+        height="22"
+        className="fill-background stroke-foreground"
+        strokeWidth="1"
+      />
+      <motion.circle
+        cx="140"
+        cy="90"
+        r="5"
+        className="fill-foreground"
+        animate={
+          reduced ? {} : hovered ? { opacity: [0.5, 1, 0.5] } : { opacity: [0.55, 0.85, 0.55] }
+        }
+        transition={{ duration: hovered ? 1 : 2.2, repeat: Infinity, ease: "easeInOut" }}
+      />
     </svg>
   )
 }
@@ -396,6 +414,11 @@ function BlueprintScene({ hovered }: { hovered: boolean }) {
 
 function RippleScene({ hovered }: { hovered: boolean }) {
   const reduced = useReducedMotion()
+  const steams = [
+    { x: 126, delay: 0 },
+    { x: 140, delay: 0.4 },
+    { x: 154, delay: 0.8 },
+  ]
   return (
     <svg viewBox="0 0 280 160" className="absolute inset-0 h-full w-full">
       {[0, 1, 2, 3].map((i) => (
@@ -425,7 +448,203 @@ function RippleScene({ hovered }: { hovered: boolean }) {
           }}
         />
       ))}
+      {!reduced &&
+        steams.map((s, i) => (
+          <motion.path
+            key={i}
+            d={`M ${s.x} 68 Q ${s.x - 6} 55 ${s.x} 42 Q ${s.x + 6} 30 ${s.x} 18`}
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1"
+            strokeOpacity="0.5"
+            className="text-foreground"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: [0, 0.6, 0], y: [6, -8] }}
+            transition={{
+              duration: hovered ? 1.6 : 2.6,
+              delay: s.delay,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+          />
+        ))}
       <circle cx="140" cy="80" r="5" className="fill-foreground" />
+      <text x="150" y="112" className="fill-foreground font-mono" fontSize="8" opacity="0.6">
+        104°F
+      </text>
+    </svg>
+  )
+}
+
+function CampgroundScene({ hovered }: { hovered: boolean }) {
+  const reduced = useReducedMotion()
+  const cols = [40, 90, 140, 190, 240]
+  const rows = [38, 58, 78, 98, 118]
+  return (
+    <svg viewBox="0 0 280 160" className="absolute inset-0 h-full w-full">
+      <rect
+        x={cols[0]}
+        y={rows[0]}
+        width={cols[4] - cols[0]}
+        height={rows[4] - rows[0]}
+        fill="none"
+        stroke="currentColor"
+        strokeOpacity="0.5"
+        strokeWidth="1.25"
+        className="text-foreground"
+      />
+      {cols.slice(1, 4).map((x, i) => (
+        <line
+          key={`c-${i}`}
+          x1={x}
+          y1={rows[0]}
+          x2={x}
+          y2={rows[4]}
+          stroke="currentColor"
+          strokeOpacity="0.25"
+          strokeWidth="1"
+          className="text-foreground"
+        />
+      ))}
+      {rows.slice(1, 4).map((y, i) => (
+        <line
+          key={`r-${i}`}
+          x1={cols[0]}
+          y1={y}
+          x2={cols[4]}
+          y2={y}
+          stroke="currentColor"
+          strokeOpacity="0.25"
+          strokeWidth="1"
+          className="text-foreground"
+        />
+      ))}
+      <motion.rect
+        x={cols[0]}
+        y={rows[2]}
+        width={cols[4] - cols[0]}
+        height={rows[3] - rows[2]}
+        className="fill-foreground"
+        animate={
+          reduced ? { opacity: 0.12 } : { opacity: hovered ? [0.08, 0.22, 0.08] : 0.1 }
+        }
+        transition={{ duration: 1.8, repeat: hovered ? Infinity : 0, ease: "easeInOut" }}
+      />
+      <path
+        d="M 246 128 L 258 106 L 270 128 Z"
+        className="fill-background stroke-foreground"
+        strokeWidth="1.25"
+      />
+      <line
+        x1="258"
+        y1="106"
+        x2="258"
+        y2="128"
+        stroke="currentColor"
+        strokeOpacity="0.5"
+        strokeWidth="1"
+        className="text-foreground"
+      />
+    </svg>
+  )
+}
+
+function CanyonScene({ hovered }: { hovered: boolean }) {
+  const reduced = useReducedMotion()
+  const leftWall = "M 110 0 L 118 20 L 108 38 L 122 56 L 112 76 L 124 96 L 114 118 L 120 140 L 112 160"
+  const rightWall = "M 170 0 L 162 22 L 174 40 L 160 58 L 172 78 L 158 98 L 170 120 L 162 140 L 170 160"
+  const dots = [
+    { x: 140, y: 40 },
+    { x: 138, y: 80 },
+    { x: 142, y: 120 },
+  ]
+  return (
+    <svg viewBox="0 0 280 160" className="absolute inset-0 h-full w-full">
+      <path
+        d={leftWall}
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeOpacity="0.7"
+        className="text-foreground"
+      />
+      <path
+        d={rightWall}
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeOpacity="0.7"
+        className="text-foreground"
+      />
+      <line
+        x1="140"
+        y1="10"
+        x2="140"
+        y2="150"
+        stroke="currentColor"
+        strokeOpacity="0.3"
+        strokeWidth="1"
+        strokeDasharray="3 4"
+        className="text-foreground"
+      />
+      {dots.map((d, i) => (
+        <motion.circle
+          key={i}
+          cx={d.x}
+          cy={d.y}
+          r="3.5"
+          className="fill-foreground"
+          animate={
+            reduced
+              ? {}
+              : hovered
+              ? { opacity: [0.5, 1, 0.5], r: [3.5, 5, 3.5] }
+              : { opacity: [0.6, 0.9, 0.6] }
+          }
+          transition={{ duration: 1.6, delay: i * 0.3, repeat: Infinity, ease: "easeInOut" }}
+        />
+      ))}
+    </svg>
+  )
+}
+
+function RibScene({ hovered }: { hovered: boolean }) {
+  const reduced = useReducedMotion()
+  return (
+    <svg viewBox="0 0 280 160" className="absolute inset-0 h-full w-full">
+      <motion.path
+        d="M 55 92 Q 140 30 225 92 Q 140 70 55 92 Z"
+        className="fill-background stroke-foreground"
+        strokeWidth="1.5"
+        initial={{ pathLength: 0 }}
+        animate={reduced ? { pathLength: 1 } : { pathLength: hovered ? 1 : [0, 1, 1] }}
+        transition={{ duration: 1.4, ease: "easeInOut" }}
+      />
+      <path
+        d="M 70 100 Q 140 118 210 100"
+        fill="none"
+        stroke="currentColor"
+        strokeOpacity="0.45"
+        strokeWidth="1"
+        strokeDasharray="2 3"
+        className="text-foreground"
+      />
+      {[0, 1, 2, 3, 4, 5].map((i) => (
+        <line
+          key={i}
+          x1={70 + i * 28}
+          y1="122"
+          x2={70 + i * 28}
+          y2="130"
+          stroke="currentColor"
+          strokeOpacity={hovered ? 0.8 : 0.4}
+          strokeWidth="1"
+          className="text-foreground"
+        />
+      ))}
+      <text x="98" y="145" className="fill-foreground font-mono" fontSize="7" opacity="0.6">
+        RIB · 1:1mm
+      </text>
     </svg>
   )
 }

@@ -6,9 +6,12 @@ export type PreviewKind =
   | "rag"
   | "voice"
   | "ceramic"
-  | "atlas"
+  | "hut"
   | "blueprint"
   | "ripple"
+  | "campground"
+  | "canyon"
+  | "rib"
 
 export interface Metric {
   label: string
@@ -164,7 +167,7 @@ export const projects: Project[] = [
     status: "live",
     github: "https://github.com/wilburwing-art/hut-atlas",
     live: "https://hutatlas.com",
-    preview: "atlas",
+    preview: "hut",
     accent: "from-green-500/25 via-emerald-500/20 to-lime-500/20",
     caseStudy: {
       problem:
@@ -212,19 +215,20 @@ export const projects: Project[] = [
     name: "Hot Springs Atlas",
     tagline: "White-label atlas pattern for niche communities",
     description:
-      "Second atlas built from the same design system as Hut Atlas. 30+ Western hot springs, same map-driven discovery UX. Validates the atlas pattern as a productized offering: map + filter + hand-curated data, deployable in a week.",
-    stack: ["HTML/CSS/JS", "Leaflet", "Cloudflare Workers"],
-    tags: ["Design", "Pattern"],
+      "Second atlas built from the same design system as Hut Atlas. 30 Western hot springs with water temperature, soak type, access, and booking details, same sortable-table discovery UX. Validates the atlas pattern as a productized offering: filter + hand-curated data, deployable in a week.",
+    stack: ["HTML/CSS/JS", "Leaflet", "Vercel"],
+    tags: ["Shipped", "Design"],
     audience: "client",
-    status: "in-dev",
+    status: "live",
     github: "https://github.com/wilburwing-art/hot-springs-atlas",
+    live: "https://hotspringsatlas.com",
     preview: "ripple",
     accent: "from-sky-500/25 via-cyan-500/20 to-teal-500/20",
     caseStudy: {
       problem:
         "Every niche community (hot springs, trailheads, boutique campsites, coffee roasters) has the same problem: scattered data, no canonical reference. Building each one from scratch is silly.",
       decision:
-        "Treated Hut Atlas as the template. Cloned the design system and swapped the JSON dataset. Deployed behind Cloudflare Workers for edge caching. The thesis: this is a repeatable client offering. Hand me a dataset, get a branded atlas in a week.",
+        "Treated Hut Atlas as the template. Cloned the design system and swapped the JSON dataset. Deployed to Vercel. The thesis: this is a repeatable client offering. Hand me a dataset, get a branded atlas in a week.",
       outcome:
         "Proves the pattern scales without a framework. Second atlas went from zero to data-complete in days, not months. The productized version of this is the interesting part. Every niche community is a potential client.",
       metrics: [
@@ -233,6 +237,52 @@ export const projects: Project[] = [
         { label: "Repeatable", value: "yes" },
       ],
     },
+  },
+  {
+    slug: "campground-atlas",
+    name: "Campground Atlas",
+    tagline: "Every campground in the US, Canada, and Mexico",
+    description:
+      "40,954 campgrounds in one sortable spreadsheet, plus a map and region browser. Open data sourced from federal, state, provincial, and OpenStreetMap records, normalized into a single schema so you can sort and filter any column instead of digging through a dozen agency sites.",
+    stack: ["HTML/CSS/JS", "Leaflet", "OpenStreetMap", "Vercel"],
+    tags: ["Shipped", "Design"],
+    audience: "client",
+    status: "live",
+    github: "https://github.com/wilburwing-art/campground-db",
+    live: "https://campgroundatlas.com",
+    preview: "campground",
+    accent: "from-amber-600/25 via-red-600/15 to-orange-500/20",
+  },
+  {
+    slug: "slot-canyon-atlas",
+    name: "Slot Canyon Atlas",
+    tagline: "Every slot canyon, in one sortable map",
+    description:
+      "790 canyons across 245 regions, filterable by difficulty class, water, and flood risk, trip-planned against current agency permit rules. Pin color on the map matches ACA difficulty class. Free, no account, no ads.",
+    stack: ["HTML/CSS/JS", "Leaflet", "OpenStreetMap", "Vercel"],
+    tags: ["Shipped", "Design"],
+    audience: "client",
+    status: "live",
+    github: "https://github.com/wilburwing-art/slot-canyon-atlas",
+    live: "https://slotcanyonatlas.com",
+    preview: "canyon",
+    accent: "from-rose-600/25 via-orange-600/15 to-amber-500/20",
+  },
+  {
+    slug: "throwform",
+    name: "ThrowForm",
+    tagline: "Parametric pottery rib tool generator",
+    description:
+      "Design a bowl profile, and the app extracts wall curvature into a rib tool shape, exports 1:1mm SVG/DXF files for laser cutting, computes wet clay weight with shrinkage compensation, and models unit economics through Amazon FBA. A dedicated Agents tab runs Claude for market research, listing copy, and vendor comparison.",
+    stack: ["React", "Vite", "Claude API"],
+    tags: ["AI", "Shipped"],
+    audience: "both",
+    status: "live",
+    github: "https://github.com/wilburwing-art/throwform",
+    live: "https://throwform.vercel.app",
+    note: "Formbook designs the form; ThrowForm cuts the rib that matches it.",
+    preview: "rib",
+    accent: "from-zinc-500/25 via-slate-500/20 to-stone-400/20",
   },
 ]
 
