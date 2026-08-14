@@ -12,10 +12,23 @@ export type PreviewKind =
   | "campground"
   | "canyon"
   | "rib"
+  | "bikeshare"
 
 export interface Metric {
   label: string
   value: string
+}
+
+/** Blocks for long-form case studies that need more than three paragraphs. */
+export type Block =
+  | { kind: "prose"; text: string }
+  | { kind: "sql"; code: string; caption?: string }
+  | { kind: "table"; head: string[]; rows: string[][]; caption?: string }
+  | { kind: "list"; items: string[] }
+
+export interface Section {
+  title: string
+  blocks: Block[]
 }
 
 export interface CaseStudy {
@@ -23,6 +36,8 @@ export interface CaseStudy {
   decision: string
   outcome: string
   metrics?: Metric[]
+  /** Full walkthrough rendered below the summary. */
+  sections?: Section[]
 }
 
 export interface Project {
@@ -34,7 +49,8 @@ export interface Project {
   tags: string[]
   audience: Audience
   status: Status
-  github: string
+  /** Absent for analysis work that has no repo. */
+  github?: string
   live?: string
   note?: string
   caseStudy?: CaseStudy
@@ -43,6 +59,228 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  {
+    slug: "cyclistic-bike-share",
+    name: "Cyclistic Bike Share Analysis",
+    tagline: "5.7M rides in BigQuery, and what separates a member from a casual",
+    description:
+      "Google Data Analytics capstone. Twelve months of public Chicago bike share data unioned into a single BigQuery table, cleaned, and queried to answer one question: how do annual members and casual riders actually use the bikes differently? The answer turned into a targeting recommendation, not a chart dump.",
+    stack: ["SQL", "BigQuery", "Spreadsheets", "Data Cleaning"],
+    tags: ["Data", "SQL"],
+    audience: "both",
+    status: "live",
+    preview: "bikeshare",
+    accent: "from-sky-600/25 via-blue-500/20 to-indigo-500/20",
+    note: "Capstone for the Google Data Analytics Professional Certificate, 2023. Data is real Divvy trip data released publicly by Motivate International Inc.",
+    caseStudy: {
+      problem:
+        "Cyclistic's marketing director believed future growth depended on converting casual riders into annual members. Nobody had established how the two groups actually differ. Without that, any conversion campaign is a guess sprayed at everyone who has ever rented a bike.",
+      decision:
+        "Twelve monthly CSVs, over five million rows, put spreadsheets out of the running immediately. I loaded all twelve into BigQuery, unioned them into one table, and did every step of cleaning and analysis in SQL so each decision stayed reproducible and auditable. Derived ride length, day of week, and month as columns rather than recomputing them per query, then cut the rows that were physically impossible before analyzing anything.",
+      outcome:
+        "Casual riders and members turned out to be nearly opposite populations: double the ride length, opposite peak days, opposite peak seasons, and only one shared station in either top ten. That killed the broad-campaign idea. The recommendation was narrow instead: target the casual riders whose behavior already looks like a member's.",
+      metrics: [
+        { label: "Rides analyzed", value: "5.7M" },
+        { label: "Months unioned", value: "12" },
+        { label: "Invalid rides cut", value: "4,272" },
+        { label: "Casual avg ride", value: "26.3 min" },
+        { label: "Member avg ride", value: "13.0 min" },
+        { label: "Casual seasonal swing", value: "2,275%" },
+      ],
+      sections: [
+        {
+          title: "Business task",
+          blocks: [
+            {
+              kind: "prose",
+              text: "Cyclistic is a Chicago bike share company with two customer types: casual riders who buy single rides or day passes, and annual members. The marketing team wanted a strategy to convert casual riders into members, and executives would only approve recommendations backed by data. My assignment was the upstream question: how do annual members and casual riders use Cyclistic bikes differently?",
+            },
+          ],
+        },
+        {
+          title: "Prepare",
+          blocks: [
+            {
+              kind: "prose",
+              text: "The data is real bike share data released publicly by Motivate International Inc., treated here as Cyclistic's own. I used the most recent twelve months available: May 2021 through April 2022, one CSV per month, all personally identifiable information already stripped. Each file carries the same 13 columns.",
+            },
+            {
+              kind: "list",
+              items: [
+                "ride_id, rideable_type",
+                "started_at, ended_at",
+                "start_station_name, start_station_id",
+                "end_station_name, end_station_id",
+                "start_lat, start_lng, end_lat, end_lng",
+                "member_casual",
+              ],
+            },
+          ],
+        },
+        {
+          title: "Process",
+          blocks: [
+            {
+              kind: "prose",
+              text: "Over five million rows ruled out a spreadsheet. I chose SQL in BigQuery, loaded each month as its own table named YYYYMM, then unioned all twelve into a single table.",
+            },
+            {
+              kind: "sql",
+              caption: "Union all twelve monthly tables",
+              code: `SELECT ride_id, rideable_type, started_at, ended_at,
+       start_station_name, start_station_id,
+       end_station_name, end_station_id,
+       start_lat, start_lng, end_lat, end_lng, member_casual
+FROM \`course50.cyclistic.202105\`
+UNION ALL
+SELECT ride_id, rideable_type, started_at, ended_at,
+       start_station_name, start_station_id,
+       end_station_name, end_station_id,
+       start_lat, start_lng, end_lat, end_lng, member_casual
+FROM \`course50.cyclistic.202106\`
+-- repeated for all 12 monthly tables`,
+            },
+            {
+              kind: "prose",
+              text: "I checked every string column for misspellings and stray values with DISTINCT, then checked for duplicate ride IDs. Five turned up. Inspecting them showed they were genuinely distinct rides that happened to share an ID, so I left them in rather than deleting real data over a cosmetic collision.",
+            },
+            {
+              kind: "sql",
+              caption: "Derive ride length, day of week, and month",
+              code: `SELECT ride_id, rideable_type, started_at, ended_at,
+       ROUND(TIMESTAMP_DIFF(ended_at, started_at, second) / 60, 1)
+         AS ride_length_minutes,
+       EXTRACT(DAYOFWEEK FROM started_at) AS day_of_week,
+       EXTRACT(MONTH     FROM started_at) AS month,
+       start_station_name, start_station_id,
+       end_station_name, end_station_id,
+       start_lat, start_lng, end_lat, end_lng, member_casual
+FROM \`course50.cyclistic.bikeshare3\``,
+            },
+            {
+              kind: "prose",
+              text: "Profiling ride_length_minutes exposed the real data quality problem. The average looked plausible at 21.1 minutes, but the minimum was negative 58 minutes and the maximum was 55,940 minutes, roughly 39 days. A ride cannot run backwards, and a bike out for over 24 hours is a lost or stolen unit, not a trip. I found 86 negative rides and 4,186 rides longer than a day, and deleted both groups before analyzing anything.",
+            },
+            {
+              kind: "sql",
+              caption: "Cut physically impossible rides",
+              code: `DELETE FROM \`course50.cyclistic.bikeshare3\`
+WHERE ride_length_minutes < 0
+   OR ride_length_minutes > 1440`,
+            },
+          ],
+        },
+        {
+          title: "Analyze",
+          blocks: [
+            {
+              kind: "prose",
+              text: "With the data clean, the average ride length settled at 18.8 minutes overall. Split by rider type, the gap is the headline finding of the whole study.",
+            },
+            {
+              kind: "table",
+              caption: "Average ride length and total rides by rider type",
+              head: ["Rider type", "Avg ride length", "Rides taken"],
+              rows: [
+                ["Member", "13.0 min", "3,199,427"],
+                ["Casual", "26.3 min", "2,517,131"],
+              ],
+            },
+            {
+              kind: "prose",
+              text: "Members take more rides but keep them short and consistent. Casual riders take fewer, longer rides. Grouping by day of week showed the two groups are close to inverted, with members peaking midweek and casual riders peaking on the weekend.",
+            },
+            {
+              kind: "table",
+              caption: "Rides by day of week (1 = Sunday, 7 = Saturday)",
+              head: ["Day", "Member rides", "Casual rides"],
+              rows: [
+                ["1 Sun", "385,022", "473,338"],
+                ["2 Mon", "442,879", "286,949"],
+                ["3 Tue", "495,632", "268,523"],
+                ["4 Wed", "503,621", "282,744"],
+                ["5 Thu", "482,723", "295,779"],
+                ["6 Fri", "450,116", "355,357"],
+                ["7 Sat", "439,434", "554,441"],
+              ],
+            },
+            {
+              kind: "prose",
+              text: "Seasonality separates them even harder. Both groups ride less in winter, but casual demand collapses and rebuilds on a completely different scale than member demand does.",
+            },
+            {
+              kind: "table",
+              caption: "Seasonal swing, low month to peak month",
+              head: ["Metric", "Members", "Casual"],
+              rows: [
+                ["Ride count growth", "356%", "2,275%"],
+                ["Ride time growth", "34%", "81%"],
+                ["Weekly ride-count swing", "30%", "106%"],
+              ],
+            },
+            {
+              kind: "prose",
+              text: "Finally I ranked stations, saving each result as its own table so I could join start counts to end counts and get total visits per station per group. Members and casual riders barely overlap: only one station appears in both top tens.",
+            },
+            {
+              kind: "table",
+              caption: "Top five stations by total visits",
+              head: ["Member stations", "Casual stations"],
+              rows: [
+                ["Kingsbury St & Kinzie St", "Streeter Dr & Grand Ave"],
+                ["Clark St & Elm St", "Millennium Park"],
+                ["Wells St & Concord Ln", "Michigan Ave & Oak St"],
+                ["Wells St & Elm St", "Shedd Aquarium"],
+                ["Dearborn St & Erie St", "Theater on the Lake"],
+              ],
+            },
+            {
+              kind: "prose",
+              text: "The member list is a commute: Loop and near-north street corners. The casual list is a waterfront tour: Navy Pier, Millennium Park, the aquarium. Not a single member in the dataset rode a docked bike, while casual riders took 289,175 docked rides.",
+            },
+          ],
+        },
+        {
+          title: "What the data says",
+          blocks: [
+            {
+              kind: "list",
+              items: [
+                "Members took roughly 56% of all rides, but casual riders rode twice as long per trip: 26.3 minutes against 13.0.",
+                "Members peak on Wednesday and bottom out on the weekend. Casual riders do the exact opposite.",
+                "Casual ride volume grew 2,275% from its January low to its July peak. Member volume grew 356%.",
+                "Weekday morning and evening commute spikes belong to members. Weekends belong to casual riders.",
+                "The two groups share only one station in the top ten. Casual riders hug the waterfront, members ride the street grid.",
+              ],
+            },
+          ],
+        },
+        {
+          title: "Recommendation",
+          blocks: [
+            {
+              kind: "prose",
+              text: "Because the populations barely overlap, a broad conversion campaign aimed at all casual riders would spend most of its budget on tourists who will never buy an annual membership in Chicago. The efficient target is the minority of casual riders who are already behaving like members. Concentrate the offer on casual riders who:",
+            },
+            {
+              kind: "list",
+              items: [
+                "start or end at a station that ranks high for members",
+                "take rides of roughly 13 minutes",
+                "ride on a weekday",
+                "ride in winter",
+                "ride during normal commuting hours",
+              ],
+            },
+            {
+              kind: "prose",
+              text: "Each of those five filters is a behavior a member already exhibits. A casual rider matching all five is commuting on single rides and is a pricing decision away from a membership. That is a targetable segment, and it is derived from the data rather than assumed.",
+            },
+          ],
+        },
+      ],
+    },
+  },
   {
     slug: "fit-ai",
     name: "Fit-AI",
@@ -158,7 +396,7 @@ export const projects: Project[] = [
   {
     slug: "hut-atlas",
     name: "Hut Atlas",
-    tagline: "Filterable map of 96+ Western backcountry huts",
+    tagline: "Filterable map of 175 backcountry huts",
     description:
       "Hand-verified atlas. Every entry checked against an operator's site. Static-first build, linter-enforced design system, Leaflet + OpenStreetMap. Shipped to Cloudflare Pages at hutatlas.com.",
     stack: ["HTML/CSS/JS", "Leaflet", "OpenStreetMap", "Cloudflare Pages"],
@@ -177,7 +415,7 @@ export const projects: Project[] = [
       outcome:
         "Shipped to hutatlas.com on Cloudflare Pages. Loads fast, indexes well, no build step to babysit. The editorial constraint (every entry is hand-verified) is the product; the tech is boring in the best way.",
       metrics: [
-        { label: "Huts cataloged", value: "96+" },
+        { label: "Huts cataloged", value: "175" },
         { label: "JS frameworks", value: "0" },
         { label: "First paint", value: "sub-second" },
       ],

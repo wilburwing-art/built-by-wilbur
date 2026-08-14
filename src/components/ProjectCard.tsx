@@ -135,15 +135,17 @@ export function ProjectCard({ project }: { project: Project }) {
                 <ArrowRight className="size-4" />
               </Link>
             )}
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              <GithubIcon className="size-4" />
-              Code
-            </a>
+            {project.github && (
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <GithubIcon className="size-4" />
+                Code
+              </a>
+            )}
             {project.live && (
               <a
                 href={project.live}

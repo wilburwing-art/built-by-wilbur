@@ -54,7 +54,80 @@ function Scene({ kind, hovered }: { kind: PreviewKind; hovered: boolean }) {
       return <CanyonScene hovered={hovered} />
     case "rib":
       return <RibScene hovered={hovered} />
+    case "bikeshare":
+      return <BikeShareScene hovered={hovered} />
   }
+}
+
+/** Member vs casual ride length by weekday, the study's core finding. */
+function BikeShareScene({ hovered }: { hovered: boolean }) {
+  const reduced = useReducedMotion()
+  const member = [14.8, 12.5, 12.1, 12.4, 12.3, 12.7, 14.6]
+  const casual = [30.4, 26.5, 23.2, 22.9, 23.0, 24.5, 28.8]
+  const scale = (v: number) => (v / 32) * 78
+
+  return (
+    <svg viewBox="0 0 280 160" className="absolute inset-0 h-full w-full">
+      <line
+        x1="30"
+        y1="118"
+        x2="256"
+        y2="118"
+        stroke="currentColor"
+        strokeOpacity="0.3"
+        strokeWidth="1"
+        className="text-foreground"
+      />
+      {member.map((m, i) => {
+        const x = 40 + i * 31
+        return (
+          <g key={i}>
+            <motion.rect
+              x={x}
+              width="11"
+              className="fill-foreground"
+              fillOpacity={hovered ? 0.75 : 0.55}
+              initial={{ height: 0, y: 118 }}
+              animate={
+                reduced
+                  ? { height: scale(casual[i]), y: 118 - scale(casual[i]) }
+                  : { height: scale(casual[i]), y: 118 - scale(casual[i]) }
+              }
+              transition={{ duration: 0.7, delay: i * 0.06, ease: "easeOut" }}
+            />
+            <motion.rect
+              x={x + 12}
+              width="11"
+              className="fill-foreground"
+              fillOpacity={hovered ? 0.3 : 0.2}
+              initial={{ height: 0, y: 118 }}
+              animate={{ height: scale(m), y: 118 - scale(m) }}
+              transition={{ duration: 0.7, delay: i * 0.06 + 0.1, ease: "easeOut" }}
+            />
+          </g>
+        )
+      })}
+      {["S", "M", "T", "W", "T", "F", "S"].map((d, i) => (
+        <text
+          key={i}
+          x={40 + i * 31 + 11}
+          y="130"
+          textAnchor="middle"
+          className="fill-foreground font-mono"
+          fontSize="7"
+          opacity="0.5"
+        >
+          {d}
+        </text>
+      ))}
+      <text x="30" y="146" className="fill-foreground font-mono" fontSize="7" opacity="0.6">
+        CASUAL 26.3m
+      </text>
+      <text x="160" y="146" className="fill-foreground font-mono" fontSize="7" opacity="0.4">
+        MEMBER 13.0m
+      </text>
+    </svg>
+  )
 }
 
 function AgentsScene({ hovered }: { hovered: boolean }) {
