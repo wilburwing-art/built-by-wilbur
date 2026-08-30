@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from "react"
+import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import type { CSSProperties } from "react"
 import { Helmet } from "react-helmet-async"
 import { useNavigate, useParams } from "react-router-dom"
@@ -9,16 +9,33 @@ import {
   bySlug,
   recipes,
 } from "@/data/recipes"
-import type { Category, Recipe } from "@/data/recipes"
+import type { Recipe } from "@/data/recipes"
 import { CookMode } from "@/components/CookMode"
+import { RecipeDirectory } from "@/components/RecipeDirectory"
 import { toPlainText } from "@/lib/recipe-text"
+import { EMPTY_FILTERS, isFiltered, selectRecipes } from "@/lib/recipe-search"
+import { TIME_FILTERS } from "@/lib/recipe-search"
+import type { Filters, SortKey } from "@/lib/recipe-search"
 import { Seo } from "@/components/Seo"
+import "./kitchen.css"
+
+const MODE_KEY = "bbw-kitchen-mode"
+
+function readMode(): "spin" | "browse" {
+  try {
+    return window.localStorage.getItem(MODE_KEY) === "browse" ? "browse" : "spin"
+  } catch {
+    return "spin"
+  }
+}
 
 export function Kitchen() {
   const { slug } = useParams()
   const navigate = useNavigate()
 
-  const [selectedCategory, setSelectedCategory] = useState<Category>("All")
+  const [mode, setModeState] = useState<"spin" | "browse">(readMode)
+  const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS)
+  const [sort, setSort] = useState<SortKey>("relevance")
   const [isSpinning, setIsSpinning] = useState(false)
   const [result, setResult] = useState<Recipe | null>(null)
   const [showResult, setShowResult] = useState(false)
@@ -35,10 +52,18 @@ export function Kitchen() {
   const intervalRef = useRef<number | null>(null)
   const timeoutRef = useRef<number | null>(null)
 
-  const filtered =
-    selectedCategory === "All"
-      ? recipes
-      : recipes.filter((r) => r.category === selectedCategory)
+  // One pool for both modes, so the counter under the wheel always tells the
+  // truth about what a spin can land on.
+  const pool = useMemo(() => selectRecipes(recipes, filters, sort), [filters, sort])
+
+  const setMode = useCallback((next: "spin" | "browse") => {
+    setModeState(next)
+    try {
+      window.localStorage.setItem(MODE_KEY, next)
+    } catch {
+      // Private window or blocked site data; the mode just will not be remembered.
+    }
+  }, [])
 
   useEffect(() => {
     if (slug && !viewingRecipe) navigate("/kitchen", { replace: true })
@@ -57,17 +82,17 @@ export function Kitchen() {
   }, [navigate])
 
   const spin = useCallback(() => {
-    if (isSpinning || filtered.length === 0) return
+    if (isSpinning || pool.length === 0) return
     setIsSpinning(true)
     setShowResult(false)
     setResult(null)
     let count = 0
     const totalTicks = 22
-    const pick = filtered[Math.floor(Math.random() * filtered.length)]
+    const pick = pool[Math.floor(Math.random() * pool.length)]
     intervalRef.current = window.setInterval(() => {
       count++
       setSpinDisplay((prev) =>
-        [filtered[Math.floor(Math.random() * filtered.length)], ...prev].slice(0, 5),
+        [pool[Math.floor(Math.random() * pool.length)], ...prev].slice(0, 5),
       )
       if (count >= totalTicks) {
         if (intervalRef.current !== null) window.clearInterval(intervalRef.current)
@@ -80,7 +105,7 @@ export function Kitchen() {
         }, 300)
       }
     }, 60 + count * 8)
-  }, [isSpinning, filtered])
+  }, [isSpinning, pool])
 
   const spinFresh = useCallback(() => {
     if (viewingRecipe) closeRecipe()
@@ -113,7 +138,7 @@ export function Kitchen() {
     }
   }, [])
 
-  const accentColor = CATEGORY_COLORS[selectedCategory]
+  const accentColor = CATEGORY_COLORS[filters.category]
 
   return (
     <div className="kitchen-root" style={{ "--accent": accentColor } as CSSProperties}>
@@ -132,140 +157,6 @@ export function Kitchen() {
         />
       </Helmet>
 
-      <style>{`
-        .kitchen-root { min-height: 100vh; background: #0D0D0D; font-family: 'Georgia', serif; color: #F0EDE6; overflow: hidden; position: relative; }
-        .kitchen-root *, .cook-mode * { box-sizing: border-box; }
-        .kitchen-glow { position: fixed; top: -30%; left: 50%; transform: translateX(-50%); width: 120vw; height: 60vh; pointer-events: none; transition: background 0.6s ease; z-index: 0; }
-        .kitchen-inner { position: relative; z-index: 1; max-width: 800px; margin: 0 auto; padding: 40px 20px; }
-        .kitchen-head { text-align: center; margin-bottom: 40px; }
-        .kitchen-head h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 6vw, 56px); font-weight: 900; letter-spacing: -0.02em; line-height: 1.1; margin: 0 0 8px; }
-        .kitchen-head p { font-family: 'DM Sans', sans-serif; font-size: 16px; color: rgba(240,237,230,0.5); margin: 0; }
-        .cat-row { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 48px; }
-        .cat-btn { border: 1.5px solid rgba(240,237,230,0.15); background: rgba(240,237,230,0.04); color: #F0EDE6; padding: 10px 18px; border-radius: 100px; font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500; cursor: pointer; transition: all 0.25s ease; display: flex; align-items: center; gap: 6px; white-space: nowrap; }
-        .cat-btn:hover { background: rgba(240,237,230,0.1); border-color: rgba(240,237,230,0.3); transform: translateY(-1px); }
-        .cat-btn.active { background: var(--accent); border-color: var(--accent); color: #0D0D0D; font-weight: 700; box-shadow: 0 4px 20px color-mix(in srgb, var(--accent) 40%, transparent); }
-        .spin-wrap { display: flex; flex-direction: column; align-items: center; gap: 32px; margin-bottom: 48px; }
-        .spin-btn { width: 200px; height: 200px; border-radius: 50%; border: 3px solid var(--accent); background: radial-gradient(circle at 40% 35%, rgba(240,237,230,0.08), transparent 70%), linear-gradient(135deg, rgba(13,13,13,0.9), rgba(30,30,30,0.9)); color: #F0EDE6; font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; cursor: pointer; transition: all 0.3s ease; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; position: relative; overflow: hidden; box-shadow: 0 0 40px color-mix(in srgb, var(--accent) 15%, transparent), inset 0 1px 0 rgba(255,255,255,0.05); }
-        .spin-btn::before { content: ''; position: absolute; inset: -2px; border-radius: 50%; background: conic-gradient(from 0deg, var(--accent), transparent 30%, transparent 70%, var(--accent)); z-index: -1; animation: none; }
-        .spin-btn:hover { transform: scale(1.05); box-shadow: 0 0 60px color-mix(in srgb, var(--accent) 25%, transparent); }
-        .spin-btn:active { transform: scale(0.97); }
-        .spin-btn.spinning { pointer-events: none; }
-        .spin-btn.spinning::before { animation: orbit 0.8s linear infinite; }
-        @keyframes orbit { to { transform: rotate(360deg); } }
-        .spin-emoji { font-size: 48px; line-height: 1; }
-        .spin-emoji.anim { animation: bounce 0.15s ease-in-out infinite alternate; }
-        @keyframes bounce { from { transform: translateY(-4px) scale(1.05); } to { transform: translateY(4px) scale(0.95); } }
-        .result-wrap { display: flex; justify-content: center; margin-bottom: 48px; }
-        .result-card { background: linear-gradient(165deg, rgba(30,30,30,0.95), rgba(20,20,20,0.98)); border: 1px solid rgba(240,237,230,0.1); border-radius: 20px; padding: 36px; max-width: 520px; width: 100%; opacity: 0; transform: translateY(30px) scale(0.95); transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1); position: relative; overflow: hidden; }
-        .result-card.visible { opacity: 1; transform: translateY(0) scale(1); }
-        .result-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--accent); }
-        .result-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
-        .result-emoji { font-size: 48px; }
-        .result-badges { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
-        .result-name { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700; line-height: 1.2; margin: 0 0 10px; color: var(--accent); cursor: pointer; transition: color 0.2s; }
-        .result-name:hover { text-decoration: underline; text-underline-offset: 4px; }
-        .result-desc { font-family: 'DM Sans', sans-serif; font-size: 15px; color: rgba(240,237,230,0.6); line-height: 1.5; margin: 0 0 16px; }
-        .result-time { font-family: 'DM Sans', sans-serif; font-size: 14px; color: rgba(240,237,230,0.5); margin-bottom: 8px; }
-        .badge { display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; border-radius: 6px; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; }
-        .history-wrap { max-width: 520px; margin: 0 auto; }
-        .history-title { font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(240,237,230,0.3); margin: 0 0 12px; }
-        .history-list { display: flex; flex-direction: column; gap: 6px; }
-        .history-item { padding: 10px 16px; border-radius: 12px; background: rgba(240,237,230,0.03); border: 1px solid rgba(240,237,230,0.06); cursor: pointer; transition: all 0.2s ease; display: flex; align-items: center; gap: 10px; text-align: left; width: 100%; color: inherit; font: inherit; }
-        .history-item:hover { background: rgba(240,237,230,0.07); transform: translateX(4px); }
-        .history-name { font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 600; flex: 1; }
-        .history-cat { font-family: 'DM Sans', sans-serif; font-size: 12px; opacity: 0.7; }
-        .counter { font-family: 'DM Sans', sans-serif; font-size: 13px; color: rgba(240,237,230,0.4); text-align: center; margin: 0; }
-        @keyframes fadeSlideIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
-        .view-btn { display: inline-flex; align-items: center; gap: 6px; margin-top: 16px; padding: 12px 20px; border-radius: 12px; border: none; background: var(--accent); color: #0D0D0D; font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 700; cursor: pointer; transition: all 0.2s ease; width: 100%; justify-content: center; }
-        .view-btn:hover { filter: brightness(1.15); transform: translateY(-1px); }
-        .spin-again-btn { margin-top: 10px; width: 100%; padding: 12px; border-radius: 12px; border: 1.5px solid var(--accent); background: transparent; color: var(--accent); font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; }
-        .spin-again-btn:hover { background: var(--accent); color: #0D0D0D; }
-        .kitchen-foot { text-align: center; margin-top: 60px; padding-top: 24px; border-top: 1px solid rgba(240,237,230,0.06); font-family: 'DM Sans', sans-serif; font-size: 12px; color: rgba(240,237,230,0.2); }
-        .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.8); backdrop-filter: blur(8px); z-index: 100; display: flex; align-items: flex-start; justify-content: center; padding: 24px; overflow-y: auto; animation: fadeIn 0.25s ease; }
-        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-        .modal-card { background: #161616; border: 1px solid rgba(240,237,230,0.1); border-radius: 24px; max-width: 620px; width: 100%; margin: 20px auto; position: relative; overflow: hidden; animation: slideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
-        @keyframes slideUp { from { opacity: 0; transform: translateY(40px) scale(0.97); } to { opacity: 1; transform: translateY(0) scale(1); } }
-        .modal-close { position: absolute; top: 16px; right: 16px; width: 36px; height: 36px; border-radius: 50%; border: 1px solid rgba(240,237,230,0.15); background: rgba(240,237,230,0.06); color: #F0EDE6; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 10; transition: all 0.2s; }
-        .modal-close:hover { background: rgba(240,237,230,0.15); }
-        .modal-head { padding: 40px 32px 28px; border-bottom: 1px solid rgba(240,237,230,0.06); }
-        .modal-badges { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
-        .modal-title-row { display: flex; align-items: center; gap: 16px; }
-        .modal-emoji { font-size: 56px; }
-        .modal-card h2 { font-family: 'Playfair Display', serif; font-size: clamp(24px, 4vw, 32px); font-weight: 700; line-height: 1.2; margin: 0 0 8px; }
-        .modal-desc { font-family: 'DM Sans', sans-serif; font-size: 14px; color: rgba(240,237,230,0.55); line-height: 1.5; margin: 0; }
-        .modal-body { padding: 28px 32px 36px; }
-        .section-title { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; margin: 0 0 16px; display: flex; align-items: center; gap: 8px; }
-        .ing-box { background: rgba(240,237,230,0.03); border-radius: 14px; padding: 4px 20px; border: 1px solid rgba(240,237,230,0.05); }
-        .ingredient-item { padding: 8px 0; border-bottom: 1px solid rgba(240,237,230,0.05); font-family: 'DM Sans', sans-serif; font-size: 14px; color: rgba(240,237,230,0.8); line-height: 1.5; display: flex; align-items: baseline; gap: 10px; }
-        .ingredient-item:last-child { border-bottom: none; }
-        .ingredient-dot { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; margin-top: 6px; }
-        .step-item { display: flex; gap: 14px; padding: 14px 0; border-bottom: 1px solid rgba(240,237,230,0.05); }
-        .step-item:last-child { border-bottom: none; }
-        .step-num { width: 28px; height: 28px; border-radius: 50%; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 700; margin-top: 1px; }
-        .step-text { font-family: 'DM Sans', sans-serif; font-size: 14px; color: rgba(240,237,230,0.8); line-height: 1.6; }
-        .action-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px; }
-        .action-btn { flex: 1 1 140px; padding: 12px 14px; border-radius: 12px; border: 1.5px solid rgba(240,237,230,0.18); background: rgba(240,237,230,0.05); color: #F0EDE6; font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; }
-        .action-btn:hover { background: rgba(240,237,230,0.12); border-color: rgba(240,237,230,0.35); }
-        .action-btn.primary { background: var(--accent); border-color: var(--accent); color: #0D0D0D; font-weight: 700; }
-        .action-btn.primary:hover { filter: brightness(1.15); background: var(--accent); }
-
-        .cook-mode { position: fixed; inset: 0; z-index: 200; background: #0D0D0D; color: #F0EDE6; display: flex; flex-direction: column; font-family: 'DM Sans', sans-serif; }
-        .cook-bar { display: flex; align-items: center; gap: 12px; padding: 16px 20px; border-bottom: 1px solid rgba(240,237,230,0.08); }
-        .cook-bar-title { font-family: 'Playfair Display', serif; font-size: 17px; font-weight: 700; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-        .cook-bar-count { font-size: 13px; color: rgba(240,237,230,0.45); white-space: nowrap; }
-        .cook-close { width: 36px; height: 36px; border-radius: 50%; border: 1px solid rgba(240,237,230,0.15); background: rgba(240,237,230,0.06); color: #F0EDE6; font-size: 16px; cursor: pointer; flex-shrink: 0; }
-        .cook-progress { height: 3px; background: rgba(240,237,230,0.08); }
-        .cook-progress-fill { height: 100%; background: var(--accent); transition: width 0.3s ease; }
-        .cook-body { flex: 1; overflow-y: auto; padding: 20px; max-width: 720px; width: 100%; margin: 0 auto; }
-        .cook-ing { margin-top: 28px; border: 1px solid rgba(240,237,230,0.08); border-radius: 14px; overflow: hidden; }
-        .cook-ing-toggle { width: 100%; display: flex; justify-content: space-between; gap: 12px; padding: 14px 16px; background: rgba(240,237,230,0.04); border: none; color: rgba(240,237,230,0.75); font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; }
-        .cook-ing-list { padding: 6px 16px 14px; }
-        .cook-ing-item { display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(240,237,230,0.05); font-size: 16px; line-height: 1.45; cursor: pointer; }
-        .cook-ing-item:last-of-type { border-bottom: none; }
-        .cook-ing-item input { width: 22px; height: 22px; accent-color: var(--accent); flex-shrink: 0; margin-top: 1px; }
-        .cook-ing-item.done span { text-decoration: line-through; color: rgba(240,237,230,0.35); }
-        .cook-ing-clear { margin-top: 10px; background: none; border: none; color: rgba(240,237,230,0.4); font: inherit; font-size: 13px; text-decoration: underline; cursor: pointer; padding: 0; }
-        .cook-step { font-size: clamp(20px, 3.4vw, 28px); line-height: 1.5; margin: 0 0 28px; }
-        .cook-timer { border-top: 1px solid rgba(240,237,230,0.08); padding-top: 20px; }
-        .cook-timer-start { width: 100%; padding: 16px; border-radius: 14px; border: 1.5px solid var(--accent); background: transparent; color: var(--accent); font: inherit; font-size: 16px; font-weight: 700; cursor: pointer; }
-        .cook-timer-start:hover { background: var(--accent); color: #0D0D0D; }
-        .cook-timer-live { text-align: center; }
-        .cook-clock { font-family: 'Playfair Display', serif; font-size: clamp(48px, 12vw, 76px); font-weight: 700; line-height: 1; color: var(--accent); font-variant-numeric: tabular-nums; }
-        .cook-clock.rang { animation: pulse 0.9s ease-in-out infinite; }
-        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
-        .cook-timer-note { font-size: 14px; color: rgba(240,237,230,0.5); margin-top: 8px; }
-        .cook-timer-controls { display: flex; gap: 8px; justify-content: center; margin-top: 16px; flex-wrap: wrap; }
-        .cook-timer-controls button { padding: 10px 18px; border-radius: 10px; border: 1px solid rgba(240,237,230,0.18); background: rgba(240,237,230,0.05); color: #F0EDE6; font: inherit; font-size: 14px; cursor: pointer; }
-        .cook-timer-controls button:hover { background: rgba(240,237,230,0.12); }
-        .cook-nav { display: flex; gap: 10px; padding: 16px 20px calc(16px + env(safe-area-inset-bottom)); border-top: 1px solid rgba(240,237,230,0.08); max-width: 720px; width: 100%; margin: 0 auto; }
-        .cook-nav-btn { flex: 1; padding: 18px; border-radius: 14px; border: 1.5px solid rgba(240,237,230,0.18); background: rgba(240,237,230,0.05); color: #F0EDE6; font: inherit; font-size: 17px; font-weight: 700; cursor: pointer; }
-        .cook-nav-btn:disabled { opacity: 0.3; cursor: default; }
-        .cook-nav-btn.primary { background: var(--accent); border-color: var(--accent); color: #0D0D0D; }
-
-        @media (max-width: 700px) {
-          .spin-btn { width: 150px; height: 150px; font-size: 16px; }
-          .spin-emoji { font-size: 36px; }
-          .result-card { padding: 24px; }
-          .modal-card { margin: 8px; }
-          .modal-head { padding: 32px 20px 24px; }
-          .modal-body { padding: 24px 20px 32px; }
-        }
-
-        @media print {
-          .kitchen-root { background: #fff !important; color: #000 !important; min-height: 0 !important; overflow: visible !important; }
-          .kitchen-glow, .kitchen-inner, .modal-close, .action-row, .spin-again-btn, .cook-mode { display: none !important; }
-          .modal-overlay { position: static !important; inset: auto !important; background: #fff !important; backdrop-filter: none !important; padding: 0 !important; overflow: visible !important; animation: none !important; display: block !important; }
-          .modal-card { background: #fff !important; border: none !important; border-radius: 0 !important; margin: 0 !important; max-width: none !important; animation: none !important; overflow: visible !important; }
-          .modal-card, .modal-card * { color: #000 !important; }
-          .modal-head { background: #fff !important; padding: 0 0 14px !important; border-bottom: 2px solid #000 !important; }
-          .modal-body { padding: 18px 0 0 !important; }
-          .badge { background: #fff !important; border: 1px solid #666 !important; }
-          .ing-box { background: #fff !important; border: 1px solid #999 !important; }
-          .ingredient-item, .step-item { border-bottom: 1px solid #ddd !important; page-break-inside: avoid; }
-          .ingredient-dot, .step-num { background: #eee !important; }
-        }
-      `}</style>
-
       <div
         className="kitchen-glow"
         style={{
@@ -278,21 +169,25 @@ export function Kitchen() {
           <h1>
             What's for{" "}
             <span style={{ color: accentColor, fontStyle: "italic", transition: "color 0.3s ease" }}>
-              {selectedCategory === "All" ? "dinner" : selectedCategory.toLowerCase()}
+              {filters.category === "All" ? "dinner" : filters.category.toLowerCase()}
             </span>
             ?
           </h1>
-          <p>Spin the wheel. Let fate decide.</p>
+          <p>
+            {mode === "spin"
+              ? "Spin the wheel. Let fate decide."
+              : "Search by name or by what is in the fridge."}
+          </p>
         </div>
 
         <div className="cat-row">
           {CATEGORIES.map((cat) => (
             <button
               key={cat}
-              className={`cat-btn ${selectedCategory === cat ? "active" : ""}`}
+              className={`cat-btn ${filters.category === cat ? "active" : ""}`}
               style={{ "--accent": CATEGORY_COLORS[cat] } as CSSProperties}
               onClick={() => {
-                setSelectedCategory(cat)
+                setFilters({ ...filters, category: cat })
                 setShowResult(false)
                 setResult(null)
                 if (viewingRecipe) closeRecipe()
@@ -304,16 +199,57 @@ export function Kitchen() {
           ))}
         </div>
 
+        <div className="mode-row">
+          <button
+            className={`mode-btn ${mode === "spin" ? "active" : ""}`}
+            onClick={() => setMode("spin")}
+          >
+            <span aria-hidden="true">🎰</span> Spin
+          </button>
+          <button
+            className={`mode-btn ${mode === "browse" ? "active" : ""}`}
+            onClick={() => setMode("browse")}
+          >
+            <span aria-hidden="true">📖</span> Browse
+          </button>
+        </div>
+
+        {mode === "spin" && (
+          <>
         <div className="spin-wrap">
-          <button className={`spin-btn ${isSpinning ? "spinning" : ""}`} onClick={spin}>
+          <button
+            className={`spin-btn ${isSpinning ? "spinning" : ""}`}
+            onClick={spin}
+            disabled={pool.length === 0}
+          >
             <span className={`spin-emoji ${isSpinning ? "anim" : ""}`}>
               {isSpinning && spinDisplay[0] ? spinDisplay[0].emoji : result ? result.emoji : "🎰"}
             </span>
             <span>{isSpinning ? "..." : "SPIN"}</span>
           </button>
           <p className="counter">
-            {filtered.length} recipe{filtered.length !== 1 ? "s" : ""} in the pot
+            {pool.length === 0
+              ? "Nothing matches those filters"
+              : `${pool.length} recipe${pool.length !== 1 ? "s" : ""} in the pot`}
           </p>
+          {/* Browse's filters narrow the wheel too, so Spin has to say why the
+              pot shrank and offer a way out without switching modes. */}
+          {isFiltered(filters) && (
+            <p className="counter pot-why">
+              {[
+                filters.query.trim() && `matching "${filters.query.trim()}"`,
+                filters.category !== "All" && filters.category.toLowerCase(),
+                filters.time !== "any" &&
+                  TIME_FILTERS.find((t) => t.key === filters.time)?.label.toLowerCase(),
+                filters.difficulty !== "Any" && `${filters.difficulty.toLowerCase()} only`,
+              ]
+                .filter(Boolean)
+                .join(" · ")}
+              <button className="dir-clear" onClick={() => setFilters({ ...EMPTY_FILTERS })}>
+                Clear
+              </button>
+            </p>
+          )}
         </div>
 
         <div className="result-wrap">
@@ -376,6 +312,21 @@ export function Kitchen() {
               ))}
             </div>
           </div>
+        )}
+
+          </>
+        )}
+
+        {mode === "browse" && (
+          <RecipeDirectory
+            results={pool}
+            total={recipes.length}
+            filters={filters}
+            setFilters={setFilters}
+            sort={sort}
+            setSort={setSort}
+            onOpen={openRecipe}
+          />
         )}
 
         <div className="kitchen-foot">{recipes.length} recipes from your collection</div>
