@@ -9,6 +9,7 @@ function formatDate(iso: string) {
     year: "numeric",
     month: "short",
     day: "numeric",
+    timeZone: "UTC",
   })
 }
 
@@ -17,7 +18,7 @@ export function Writing() {
     <section className="mx-auto max-w-3xl px-6 py-16 sm:py-20">
       <Seo
         title="Writing"
-        description="Short notes on building: AI engineering, RAG retrieval, and web craft."
+        description="Short notes on building: AI engineering, data pipelines, and web craft."
         path="/writing"
       />
       <header className="mb-12">
@@ -28,8 +29,8 @@ export function Writing() {
           Notes on building.
         </h1>
         <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
-          Short pieces on how I think about AI engineering, RAG retrieval, and
-          web craft. Drafts appear first, polished versions follow.
+          Short pieces on how I think about AI engineering, data pipelines,
+          and web craft. Drafts appear first, polished versions follow.
         </p>
       </header>
 
