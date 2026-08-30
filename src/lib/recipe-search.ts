@@ -109,7 +109,10 @@ export function selectRecipes(recipes: Recipe[], filters: Filters, sort: SortKey
         const ad = a.recipe.addedOn ?? ""
         const bd = b.recipe.addedOn ?? ""
         if (ad !== bd) return bd.localeCompare(ad)
-        return a.order - b.order
+        // Same date covers 81 rows, so fall back to insertion order with the
+        // most recently appended first. Array position is the only real
+        // ordering left once the dates tie.
+        return b.order - a.order
       }
       default:
         return byName(a.recipe, b.recipe)
