@@ -1,4 +1,4 @@
-import { useEffect } from "react"
+import { Suspense, lazy, useEffect } from "react"
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom"
 import { AnimatePresence } from "framer-motion"
 import { Header } from "@/components/Header"
@@ -10,6 +10,16 @@ import { Post } from "@/pages/Post"
 import { useDarkMode } from "@/hooks/useDarkMode"
 import { PageFade } from "@/components/motion"
 import { ScrollProgress } from "@/components/Reactive"
+
+// Split out: the recipe data is ~25 kB gzipped and the portfolio should not
+// ship it to everyone who lands on the home page.
+const Kitchen = lazy(() =>
+  import("@/pages/Kitchen").then((m) => ({ default: m.Kitchen })),
+)
+
+/** Unlisted, and deliberately without the portfolio's own chrome. */
+const isKitchen = (pathname: string) =>
+  pathname === "/kitchen" || pathname.startsWith("/kitchen/")
 
 function ScrollManager() {
   const location = useLocation()
@@ -30,9 +40,10 @@ function ScrollManager() {
 
 function AnimatedRoutes() {
   const location = useLocation()
+  const key = isKitchen(location.pathname) ? "/kitchen" : location.pathname
   return (
     <AnimatePresence mode="wait">
-      <Routes location={location} key={location.pathname}>
+      <Routes location={location} key={key}>
         <Route
           path="/"
           element={
@@ -65,6 +76,22 @@ function AnimatedRoutes() {
             </PageFade>
           }
         />
+        <Route
+          path="/kitchen"
+          element={
+            <Suspense fallback={null}>
+              <Kitchen />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/kitchen/:slug"
+          element={
+            <Suspense fallback={null}>
+              <Kitchen />
+            </Suspense>
+          }
+        />
       </Routes>
     </AnimatePresence>
   )
@@ -72,6 +99,19 @@ function AnimatedRoutes() {
 
 function Shell() {
   const [dark, setDark] = useDarkMode()
+  const bare = isKitchen(useLocation().pathname)
+
+  // useDarkMode stays mounted either way: it is the only thing that manages the
+  // .dark class on <html>, and the kitchen sets its own colours regardless.
+  if (bare) {
+    return (
+      <div className="min-h-screen">
+        <ScrollManager />
+        <AnimatedRoutes />
+      </div>
+    )
+  }
+
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
       <ScrollProgress />

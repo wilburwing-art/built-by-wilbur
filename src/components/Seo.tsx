@@ -10,6 +10,8 @@ interface SeoProps {
   description?: string
   path?: string
   type?: "website" | "article"
+  /** Unlisted pages: keep them out of search results and out of the canonical set. */
+  noindex?: boolean
 }
 
 export function Seo({
@@ -17,6 +19,7 @@ export function Seo({
   description = DEFAULT_DESC,
   path = "/",
   type = "website",
+  noindex = false,
 }: SeoProps) {
   const fullTitle = title ? `${title} · ${SITE_NAME}` : SITE_NAME
   const url = `${SITE_URL}${path}`
@@ -25,7 +28,11 @@ export function Seo({
     <Helmet>
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
-      <link rel="canonical" href={url} />
+      {noindex ? (
+        <meta name="robots" content="noindex, nofollow" />
+      ) : (
+        <link rel="canonical" href={url} />
+      )}
 
       <meta property="og:site_name" content={SITE_NAME} />
       <meta property="og:title" content={fullTitle} />
