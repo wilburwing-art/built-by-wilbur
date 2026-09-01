@@ -12,6 +12,8 @@ import {
 import type { Recipe } from "@/data/recipes"
 import { CookMode } from "@/components/CookMode"
 import { RecipeDirectory } from "@/components/RecipeDirectory"
+import { SCALES, displayIngredient, displayStep, formatScale } from "@/lib/ingredient-scale"
+import type { Units } from "@/lib/ingredient-scale"
 import { toPlainText } from "@/lib/recipe-text"
 import { EMPTY_FILTERS, isFiltered, selectRecipes } from "@/lib/recipe-search"
 import { TIME_FILTERS } from "@/lib/recipe-search"
@@ -20,12 +22,21 @@ import { Seo } from "@/components/Seo"
 import "./kitchen.css"
 
 const MODE_KEY = "bbw-kitchen-mode"
+const UNITS_KEY = "bbw-kitchen-units"
 
 function readMode(): "spin" | "browse" {
   try {
     return window.localStorage.getItem(MODE_KEY) === "browse" ? "browse" : "spin"
   } catch {
     return "spin"
+  }
+}
+
+function readUnits(): Units {
+  try {
+    return window.localStorage.getItem(UNITS_KEY) === "metric" ? "metric" : "us"
+  } catch {
+    return "us"
   }
 }
 
@@ -48,6 +59,22 @@ export function Kitchen() {
   // the back button included, cannot leave cook mode armed for the next one.
   const [cookingSlug, setCookingSlug] = useState<string | null>(null)
   const [copied, setCopied] = useState(false)
+  // The multiplier is per recipe view; the unit choice is a lasting preference.
+  const [scale, setScale] = useState(1)
+  const [units, setUnitsState] = useState<Units>(readUnits)
+
+  const setUnits = useCallback((next: Units) => {
+    setUnitsState(next)
+    try {
+      window.localStorage.setItem(UNITS_KEY, next)
+    } catch {
+      // Private window or blocked site data; the choice just will not be remembered.
+    }
+  }, [])
+
+  useEffect(() => {
+    setScale(1)
+  }, [slug])
 
   const intervalRef = useRef<number | null>(null)
   const timeoutRef = useRef<number | null>(null)
@@ -128,15 +155,18 @@ export function Kitchen() {
     return () => window.removeEventListener("keydown", handler)
   }, [closeRecipe, cookingSlug, viewingRecipe])
 
-  const copyRecipe = useCallback(async (recipe: Recipe) => {
-    try {
-      await navigator.clipboard.writeText(toPlainText(recipe))
-      setCopied(true)
-      window.setTimeout(() => setCopied(false), 2000)
-    } catch {
-      setCopied(false)
-    }
-  }, [])
+  const copyRecipe = useCallback(
+    async (recipe: Recipe) => {
+      try {
+        await navigator.clipboard.writeText(toPlainText(recipe, scale, units))
+        setCopied(true)
+        window.setTimeout(() => setCopied(false), 2000)
+      } catch {
+        setCopied(false)
+      }
+    },
+    [scale, units],
+  )
 
   const accentColor = CATEGORY_COLORS[filters.category]
 
@@ -405,6 +435,33 @@ export function Kitchen() {
                   <span style={{ color: CATEGORY_COLORS[viewingRecipe.category] }}>◆</span>{" "}
                   Ingredients
                 </h3>
+                <div className="scale-row">
+                  <div className="scale-group" role="group" aria-label="Scale quantities">
+                    {SCALES.map((s) => (
+                      <button
+                        key={s}
+                        className={`scale-btn ${scale === s ? "active" : ""}`}
+                        onClick={() => setScale(s)}
+                      >
+                        {formatScale(s)}
+                      </button>
+                    ))}
+                  </div>
+                  <div className="scale-group" role="group" aria-label="Units">
+                    <button
+                      className={`scale-btn ${units === "us" ? "active" : ""}`}
+                      onClick={() => setUnits("us")}
+                    >
+                      US
+                    </button>
+                    <button
+                      className={`scale-btn ${units === "metric" ? "active" : ""}`}
+                      onClick={() => setUnits("metric")}
+                    >
+                      Metric
+                    </button>
+                  </div>
+                </div>
                 <div className="ing-box">
                   {viewingRecipe.ingredients.map((ing, i) => (
                     <div key={i} className="ingredient-item">
@@ -412,7 +469,7 @@ export function Kitchen() {
                         className="ingredient-dot"
                         style={{ background: CATEGORY_COLORS[viewingRecipe.category] }}
                       />
-                      {ing}
+                      {displayIngredient(ing, scale, units)}
                     </div>
                   ))}
                 </div>
@@ -435,7 +492,7 @@ export function Kitchen() {
                       >
                         {i + 1}
                       </div>
-                      <div className="step-text">{stepText}</div>
+                      <div className="step-text">{displayStep(stepText, units)}</div>
                     </div>
                   ))}
                 </div>
@@ -453,6 +510,8 @@ export function Kitchen() {
         <CookMode
           recipe={viewingRecipe}
           accent={CATEGORY_COLORS[viewingRecipe.category]}
+          scale={scale}
+          units={units}
           onClose={() => setCookingSlug(null)}
         />
       )}

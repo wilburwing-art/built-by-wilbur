@@ -1,20 +1,31 @@
 import type { Recipe } from "@/data/recipes"
+import { displayIngredient, displayStep, formatScale } from "@/lib/ingredient-scale"
+import type { Units } from "@/lib/ingredient-scale"
 
 const KITCHEN_URL = "https://builtbywilbur.com/kitchen"
 
-/** Plain text for the clipboard: readable pasted into Messages, Notes, or email. */
-export function toPlainText(recipe: Recipe): string {
+/**
+ * Plain text for the clipboard: readable pasted into Messages, Notes, or
+ * email. Mirrors whatever scale and units are on screen, and says so in the
+ * header when they are not the defaults, so a pasted recipe declares what
+ * it is.
+ */
+export function toPlainText(recipe: Recipe, scale = 1, units: Units = "us"): string {
+  const notes = [
+    scale !== 1 ? `scaled ${formatScale(scale)}` : null,
+    units === "metric" ? "metric" : null,
+  ].filter(Boolean)
   const lines = [
     recipe.name,
-    `${recipe.category} · ${recipe.time} · ${recipe.difficulty}`,
+    `${recipe.category} · ${recipe.time} · ${recipe.difficulty}${notes.length > 0 ? ` · ${notes.join(" · ")}` : ""}`,
     "",
     recipe.desc,
     "",
     "INGREDIENTS",
-    ...recipe.ingredients.map((i) => `- ${i}`),
+    ...recipe.ingredients.map((i) => `- ${displayIngredient(i, scale, units)}`),
     "",
     "INSTRUCTIONS",
-    ...recipe.steps.map((s, i) => `${i + 1}. ${s}`),
+    ...recipe.steps.map((s, i) => `${i + 1}. ${displayStep(s, units)}`),
     "",
     `${KITCHEN_URL}/${recipe.slug}`,
   ]

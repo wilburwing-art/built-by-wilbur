@@ -1,11 +1,15 @@
 import { useCallback, useEffect, useRef, useState } from "react"
 import type { CSSProperties } from "react"
 import type { Recipe } from "@/data/recipes"
+import { displayIngredient, displayStep } from "@/lib/ingredient-scale"
+import type { Units } from "@/lib/ingredient-scale"
 import { formatClock, parseDuration } from "@/lib/recipe-text"
 
 interface CookModeProps {
   recipe: Recipe
   accent: string
+  scale: number
+  units: Units
   onClose: () => void
 }
 
@@ -54,7 +58,7 @@ function beep() {
   }
 }
 
-export function CookMode({ recipe, accent, onClose }: CookModeProps) {
+export function CookMode({ recipe, accent, scale, units, onClose }: CookModeProps) {
   const [stepIndex, setStepIndex] = useState(0)
   // Collapsed by default: the step is what a cook needs on screen, and the
   // full ingredient list is one tap away and was just read on the recipe page.
@@ -73,6 +77,8 @@ export function CookMode({ recipe, accent, onClose }: CookModeProps) {
   const sentinelRef = useRef<WakeLockSentinel | null>(null)
 
   const step = recipe.steps[stepIndex]
+  // The timer reads the authored text: durations are unit-independent, so
+  // temperature conversion cannot break it.
   const timer = parseDuration(step)
   const last = stepIndex === recipe.steps.length - 1
 
@@ -203,7 +209,7 @@ export function CookMode({ recipe, accent, onClose }: CookModeProps) {
       </div>
 
       <div className="cook-body">
-        <p className="cook-step">{step}</p>
+        <p className="cook-step">{displayStep(step, units)}</p>
 
         {timer && (
           <div className="cook-timer">
@@ -257,7 +263,7 @@ export function CookMode({ recipe, accent, onClose }: CookModeProps) {
                     checked={checked.includes(i)}
                     onChange={() => toggleIngredient(i)}
                   />
-                  <span>{ing}</span>
+                  <span>{displayIngredient(ing, scale, units)}</span>
                 </label>
               ))}
               {checked.length > 0 && (
