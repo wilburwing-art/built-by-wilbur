@@ -1,0 +1,131 @@
+{
+  "slug": "chipotle-tomatillo-green-chili-salsa",
+  "name": "Chipotle Tomatillo Green-Chili Salsa",
+  "category": "Sides & Snacks",
+  "emoji": "🫙",
+  "desc": "Roasted tomatillos and jalapeno blended with cumin and cilantro",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 pounds tomatillos, husks removed, halved",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "tomatillos, husks removed, halved",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 Roma tomato, halved",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "Roma tomato",
+      "prep": "halved",
+      "note": null
+    },
+    {
+      "raw": "1-2 jalapeño peppers, stemmed (seed for less heat)",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": null,
+      "item": "jalapeño peppers, stemmed (seed for less heat)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 red onion, cut into chunks",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red onion",
+      "prep": "cut into chunks",
+      "note": null
+    },
+    {
+      "raw": "2 cloves garlic",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup fresh cilantro leaves",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh cilantro leaves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 teaspoon ground cumin",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 teaspoon dried oregano",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and freshly ground black pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup lemon juice",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup lime juice",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "lime juice",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat oven to 500°F. Line a baking sheet with foil. Reserve 4 tomatillos raw; place remaining halved tomatillos and the tomato cut-side down on the sheet. Roast until lightly charred, about 20 minutes.",
+    "In a food processor, add the roasted tomatillos and tomato, reserved raw tomatillos, jalapeños (start with half if unsure), red onion, garlic, cilantro, cumin, and oregano. Pulse until mostly smooth with some texture.",
+    "Stir in lemon and lime juices. Season to taste with salt and pepper (about 1 tsp salt and 1/2 tsp pepper to start). Adjust heat by adding more jalapeño or seeds as desired. Serve chilled or at room temperature.",
+    "Chipotle Guacamole (Copycat)"
+  ]
+}

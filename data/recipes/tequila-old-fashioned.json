@@ -1,0 +1,68 @@
+{
+  "slug": "tequila-old-fashioned",
+  "name": "Tequila Old Fashioned",
+  "category": "Drinks",
+  "emoji": "🥃",
+  "desc": "The Camp infusion kit with tequila instead of bourbon, three days in the fridge",
+  "time": "72 hrs",
+  "minutes": 4320,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "12 oz reposado or anejo tequila",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "reposado or anejo tequila",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 Camp Old Fashioned infusion kit (sugar, bitters, orange and cherry)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "Camp Old Fashioned infusion kit (sugar, bitters, orange and cherry)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "A large ice cube, to serve",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "A small squeeze of lime, to serve",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Pour the tequila into the Camp kit jar over the botanicals. Blanco works, but the aged stuff brings a warmth that suits the bitters and sugar.",
+    "Seal and refrigerate 3 days. The kit supplies the sugar and bitters, so nothing else goes in.",
+    "Strain out the botanicals.",
+    "Serve over a large ice cube with a small squeeze of lime. Tequila wants acidity in a way bourbon does not, and it brightens the whole drink."
+  ]
+}

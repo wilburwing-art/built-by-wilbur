@@ -1,0 +1,131 @@
+{
+  "slug": "chipotle-fajita-quesadilla",
+  "name": "Chipotle Fajita Quesadilla",
+  "category": "Lunch",
+  "emoji": "🫔",
+  "desc": "Steak and peppers folded in a cheesy tortilla with chipotle crema",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 tbsp olive oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 white onion, thinly sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "white onion",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1/2 red bell pepper, sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red bell pepper",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1/2 green bell pepper, sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "green bell pepper",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1/2 lb sirloin steak, 1-inch pieces",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "sirloin steak, 1-inch pieces",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp cumin",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cumin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp smoked paprika",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "smoked paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp chili powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 large tortillas",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large tortillas",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups shredded Monterey Jack",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded Monterey Jack",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Chipotle vinaigrette for dipping",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat 1 tbsp oil over medium-high. Cook onions and peppers until softened, about 15 min. Set aside.",
+    "Preheat oven to 450°F. Heat remaining oil; cook steak with cumin, paprika, and chili powder until browned, 3-4 min.",
+    "Brush tortillas with oil. Layer cheese, fajita veggies, steak, and more cheese. Fold in half.",
+    "Bake on a parchment-lined sheet about 8 minutes, flipping halfway, until golden and melty."
+  ]
+}

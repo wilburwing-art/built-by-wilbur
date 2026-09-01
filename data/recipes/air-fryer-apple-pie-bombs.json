@@ -1,0 +1,85 @@
+{
+  "slug": "air-fryer-apple-pie-bombs",
+  "name": "Air Fryer Apple Pie Bombs",
+  "category": "Desserts",
+  "emoji": "💣",
+  "desc": "Biscuit dough stuffed with apple pie filling, air fried and sugar coated",
+  "time": "25 min",
+  "minutes": 25,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3/4 cup sugar",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tsp apple pie spice",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "apple pie spice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 can Pillsbury Grand biscuits",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "Pillsbury Grand biscuits",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup apple pie filling",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "apple pie filling",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp cinnamon",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup melted butter",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "melted butter",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Mix sugar and spice. Separate biscuits into 2 layers each, roll into circles.",
+    "Spoon filling into centers. Pinch closed, roll into balls.",
+    "Air fry at 350°F for 8-9 min. Dip in butter, roll in spiced sugar."
+  ]
+}

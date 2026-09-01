@@ -1,0 +1,95 @@
+{
+  "slug": "cinnamon-honey-latte",
+  "name": "Cinnamon Honey Latte",
+  "category": "Drinks",
+  "emoji": "☕",
+  "desc": "Espresso, steamed milk, and a honey-cinnamon paste stirred in while hot",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "60 ml brewed espresso (2 shots)",
+      "qty": 60,
+      "qtyMax": null,
+      "unit": "ml",
+      "item": "brewed espresso (2 shots)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "240 ml whole milk (or oat milk)",
+      "qty": 240,
+      "qtyMax": null,
+      "unit": "ml",
+      "item": "whole milk (or oat milk)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp honey",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "honey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp ground cinnamon",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp vanilla extract",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "A pinch of fine salt",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Ground cinnamon, for dusting",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "In the bottom of your mug, stir 1 tbsp honey, 1/4 tsp ground cinnamon, 1/4 tsp vanilla extract, and 0.03 tsp fine salt into a thick paste. Doing this first is what keeps the cinnamon from clumping and floating on top later.",
+    "Brew 60 ml brewed espresso (2 shots) directly into the mug over the honey paste. Stir for about 15 seconds while it is hottest, which is when the honey dissolves fully and the cinnamon disperses.",
+    "Heat 240 ml whole milk (or oat milk) to roughly 150F. With a steam wand, aerate for 3 to 4 seconds at the surface, then submerge the tip to build a smooth whirlpool. No machine: heat in a saucepan and whisk hard, or shake in a sealed jar for 30 seconds then microwave uncovered for 30 seconds.",
+    "Pour the milk into the mug from a few inches up, then drop the pitcher close at the end to bring the foam through. Dust the top with 0.06 tsp ground cinnamon, for dusting."
+  ]
+}

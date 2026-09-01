@@ -1,0 +1,75 @@
+{
+  "slug": "oreo-pie",
+  "name": "Oreo Pie",
+  "category": "Desserts",
+  "emoji": "🍫",
+  "desc": "Chocolate pudding pie loaded with crushed Oreos and whipped topping",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 cups cold milk",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cold milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 pkgs instant chocolate pudding",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "package",
+      "item": "instant chocolate pudding",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pkg Oreos, crushed",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "package",
+      "item": "Oreos",
+      "prep": "crushed",
+      "note": null
+    },
+    {
+      "raw": "1 baked pie crust",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "baked pie crust",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Whipped topping",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Beat milk and pudding until thick. Stir in Oreos. Chill 10 min.",
+    "Spread into crust. Top with whipped topping."
+  ]
+}

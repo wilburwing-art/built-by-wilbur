@@ -1,0 +1,131 @@
+{
+  "slug": "lemon-chicken-orzo-soup",
+  "name": "Lemon Chicken Orzo Soup",
+  "category": "Dinner",
+  "emoji": "🍲",
+  "desc": "Bright lemony broth with shredded chicken, orzo, and fresh herbs",
+  "time": "40 min",
+  "minutes": 40,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 onion",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "onion",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 garlic cloves",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 carrots",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "carrots",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 stalks celery",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "stalk",
+      "item": "celery",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 chicken breasts",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "chicken breasts",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "8 cups chicken broth",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chicken broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Rosemary, thyme, sage",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1.5 cups orzo",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "orzo",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup frozen peas",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "frozen peas",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Juice of 1 lemon",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Parsley",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Saute chopped onion and garlic until translucent. Add carrots and celery, cook 5 min.",
+    "Add chicken and broth with herbs. Boil, then simmer covered 10-12 min.",
+    "Remove and shred chicken. Add orzo, cook 10 min.",
+    "Return chicken, add peas, lemon juice. Season and serve with parsley."
+  ]
+}

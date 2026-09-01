@@ -1,0 +1,97 @@
+{
+  "slug": "broccoli-chicken-divan",
+  "name": "Broccoli Chicken Divan",
+  "category": "Dinner",
+  "emoji": "🥦",
+  "desc": "Weeknight casserole of broccoli and chicken under cheddar and buttered crumbs",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 lb chopped fresh broccoli",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "chopped fresh broccoli",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups cubed cooked chicken",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cubed cooked chicken",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (10.75 oz) can condensed cream of broccoli soup",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "condensed cream of broccoli soup",
+      "prep": null,
+      "note": "(10.75 oz)"
+    },
+    {
+      "raw": "1/3 cup milk",
+      "qty": 0.3333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup shredded cheddar cheese",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded cheddar cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp butter, melted",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": "melted",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp dried bread crumbs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dried bread crumbs",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat the oven to 450F.",
+    "Place the broccoli in a saucepan with enough water to cover. Bring to a boil and cook 5 minutes until tender, then drain.",
+    "Put the cooked broccoli in a 9 inch pie plate and top with the chicken.",
+    "Mix the soup and milk in a bowl and pour over the chicken. Sprinkle with the cheddar.",
+    "Mix the melted butter with the bread crumbs and scatter over the cheese.",
+    "Bake 15 to 20 minutes until bubbling and browned on top."
+  ]
+}

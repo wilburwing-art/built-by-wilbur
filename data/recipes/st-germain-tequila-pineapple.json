@@ -1,0 +1,77 @@
+{
+  "slug": "st-germain-tequila-pineapple",
+  "name": "St-Germain Tequila Pineapple",
+  "category": "Drinks",
+  "emoji": "🍍",
+  "desc": "Tequila and elderflower with pineapple and lime, the crowd pleaser of the three",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 oz tequila",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "tequila",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 oz St-Germain",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "St-Germain",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 oz pineapple juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "pineapple juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 oz fresh lime juice",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "fresh lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "A lime wheel, to garnish",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Add the tequila, St-Germain, pineapple juice and lime juice to a shaker with ice.",
+    "Shake until the outside of the shaker frosts.",
+    "Strain over fresh ice.",
+    "Garnish with a lime wheel."
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "creme-brulee",
+  "name": "Creme Brulee",
+  "category": "Desserts",
+  "emoji": "🍮",
+  "desc": "Silky vanilla custard with a crackly caramelized sugar top",
+  "time": "3 hrs",
+  "minutes": 180,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "6 egg yolks",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": null,
+      "item": "egg yolks",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 tbsp sugar",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp vanilla",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 1/2 cups heavy cream",
+      "qty": 2.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp brown sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Beat yolks, 4 tbsp sugar, and vanilla until creamy.",
+    "Heat cream until almost boiling. Stir into yolks.",
+    "Cook in double boiler until it coats a spoon. Pour into dish.",
+    "Bake 30 min at 300°F. Chill 1+ hour. Sift sugars on top, broil 2 min. Re-chill."
+  ]
+}

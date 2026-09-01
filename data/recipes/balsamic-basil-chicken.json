@@ -1,0 +1,104 @@
+{
+  "slug": "balsamic-basil-chicken",
+  "name": "Balsamic Basil Chicken",
+  "category": "Dinner",
+  "emoji": "🍗",
+  "desc": "Seared chicken thighs with balsamic glaze, zucchini, and cherry tomatoes",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1/4 cup + 2 tbsp olive oil",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "+ 2 tbsp olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp balsamic vinegar",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "balsamic vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp Dijon mustard",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Dijon mustard",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 lb bone-in chicken thighs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "bone-in chicken thighs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large zucchini, half moons",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large zucchini, half moons",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pint cherry tomatoes, halved",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pint",
+      "item": "cherry tomatoes",
+      "prep": "halved",
+      "note": null
+    },
+    {
+      "raw": "Parmesan and basil for serving",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Whisk 1/4 cup oil, vinegar, and mustard. Marinate chicken 30 min to 4 hours.",
+    "Preheat oven to 425°F. Sear chicken skin-side down 6 min, flip 6 more min.",
+    "Scatter tomatoes and zucchini around chicken. Season veggies.",
+    "Bake 15 minutes until chicken is cooked through. Garnish with Parmesan and basil."
+  ]
+}

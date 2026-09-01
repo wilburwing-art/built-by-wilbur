@@ -1,0 +1,77 @@
+{
+  "slug": "mixed-berry-bright-sorbet",
+  "name": "Mixed Berry Bright Sorbet",
+  "category": "Desserts",
+  "emoji": "🍓",
+  "desc": "Ninja Creami sorbet, zingy and light, heavy on strawberry and peach",
+  "time": "24 hrs",
+  "minutes": 1440,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "250 g frozen mixed fruit, heavy on strawberries and peach",
+      "qty": 250,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "frozen mixed fruit, heavy on strawberries and peach",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "100 g watermelon (or mango for a less icy result)",
+      "qty": 100,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "watermelon (or mango for a less icy result)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "80 to 90 g sugar",
+      "qty": 80,
+      "qtyMax": 90,
+      "unit": "g",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1.5 tbsp lemon juice",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp vodka (optional, for scoopability)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vodka (optional",
+      "prep": "for scoopability)",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Blend everything until smooth.",
+    "Chill, then pour into a Ninja Creami pint container.",
+    "Freeze flat for 24 hours.",
+    "Spin on the Sorbet setting, then re-spin with a splash of juice if needed."
+  ]
+}

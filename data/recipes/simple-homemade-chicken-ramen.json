@@ -1,0 +1,171 @@
+{
+  "slug": "simple-homemade-chicken-ramen",
+  "name": "Simple Homemade Chicken Ramen",
+  "category": "Dinner",
+  "emoji": "🍜",
+  "desc": "Roasted chicken, shiitake broth and a soft egg, on the table in under an hour",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Medium",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 chicken breasts, boneless and skin-on",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "chicken breasts, boneless and skin-on",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Kosher salt and freshly ground black pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp unsalted butter",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp sesame or vegetable oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sesame or vegetable oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp fresh ginger, minced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fresh ginger",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp fresh garlic, minced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh garlic",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "3 tbsp low-sodium soy sauce",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "low-sodium soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp mirin",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "mirin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 cups rich chicken stock",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "rich chicken stock",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 oz dried shiitake mushrooms, or 1/2 cup fresh",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "dried shiitake mushrooms, or 1/2 cup fresh",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 to 2 tsp sea salt, to taste",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "tsp",
+      "item": "sea salt",
+      "prep": "to taste",
+      "note": null
+    },
+    {
+      "raw": "2 large eggs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup scallions, sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "scallions",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "2 (3 oz) packs dried ramen noodles",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "packs dried ramen noodles",
+      "prep": null,
+      "note": "(3 oz)"
+    },
+    {
+      "raw": "Fresh jalapeno or chili slices, optional",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat the oven to 375F and season the chicken generously with salt and pepper.",
+    "Melt the butter in a large oven-safe skillet over medium heat. Add the chicken skin side down and cook until the skin is golden and releases easily, about 5 to 7 minutes.",
+    "Flip and cook another 4 to 5 minutes, then transfer the skillet to the oven and roast until cooked through, about 15 minutes. Rest, then slice.",
+    "Meanwhile, heat the sesame oil in a pot over medium. Add the ginger and garlic and cook until fragrant, about 1 minute.",
+    "Add the soy sauce, mirin, stock and mushrooms. Simmer 15 to 20 minutes, then season with sea salt.",
+    "Soft boil the eggs for 7 minutes, then shock in ice water and peel.",
+    "Cook the ramen noodles separately according to the package, then drain.",
+    "Divide the noodles between bowls, ladle over the broth, and top with sliced chicken, a halved egg, scallions and chili."
+  ]
+}

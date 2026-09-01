@@ -1,0 +1,103 @@
+{
+  "slug": "chimichurri-sauce",
+  "name": "Chimichurri Sauce",
+  "category": "Sides & Snacks",
+  "emoji": "🌿",
+  "desc": "Fresh herb sauce with parsley, garlic, red wine vinegar, and chili",
+  "time": "10 min",
+  "minutes": 10,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1/2 cup olive oil",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp red wine vinegar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "red wine vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup parsley",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "parsley",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3-4 garlic cloves",
+      "qty": 3,
+      "qtyMax": 4,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 red chilies",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red chilies",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 tsp oregano",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "pepper",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Mix all ingredients together.",
+    "Let sit 5-10 min (ideally 2+ hours).",
+    "Use to baste meats or spoon over steak to serve."
+  ]
+}

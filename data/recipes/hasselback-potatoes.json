@@ -1,0 +1,104 @@
+{
+  "slug": "hasselback-potatoes",
+  "name": "Hasselback Potatoes",
+  "category": "Sides & Snacks",
+  "emoji": "🥔",
+  "desc": "Accordion-cut potatoes with butter, cheddar, bacon, and sour cream",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "6 russet potatoes",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": null,
+      "item": "russet potatoes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup olive oil",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup melted butter",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "melted butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt, pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "8 slices thin cheddar",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "thin cheddar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 slices bacon, crumbled",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "bacon, crumbled",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup sour cream",
+      "qty": 0.3333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sour cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Green onions",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat to 450°F. Slice potatoes between chopsticks in 1/4-inch slices.",
+    "Brush with oil-butter mix, getting between slices.",
+    "Bake 50-60 min. Insert cheese between cuts. Bake 3-5 more min.",
+    "Top with sour cream, bacon, and green onions."
+  ]
+}

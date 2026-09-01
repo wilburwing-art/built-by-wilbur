@@ -1,0 +1,113 @@
+{
+  "slug": "chorizo-breakfast-tacos",
+  "name": "Chorizo Breakfast Tacos",
+  "category": "Breakfast",
+  "emoji": "🌮",
+  "desc": "Spicy chorizo scrambled with eggs, cheese, and salsa on corn tortillas",
+  "time": "20 min",
+  "minutes": 20,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "6 oz chorizo sausage",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "chorizo sausage",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "8 corn tortillas",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": null,
+      "item": "corn tortillas",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 eggs",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup milk",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded Monterey Jack cheese",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded Monterey Jack cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Hot sauce to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup salsa",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "salsa",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Crumble sausage into a skillet over medium-high heat. Cook until browned. Set aside.",
+    "Whisk eggs, milk, salt, and pepper. Scramble in a sprayed skillet over medium heat. Add sausage when eggs are nearly firm.",
+    "Warm tortillas in a hot skillet about 45 seconds per side until crispy edges but still pliable.",
+    "Sprinkle cheese on hot tortillas, top with egg and sausage, then add hot sauce and salsa."
+  ]
+}

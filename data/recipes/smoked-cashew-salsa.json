@@ -1,0 +1,86 @@
+{
+  "slug": "smoked-cashew-salsa",
+  "name": "Smoked Cashew Salsa",
+  "category": "Sides & Snacks",
+  "emoji": "🥜",
+  "desc": "Cashews smoked over applewood then blended with chipotle in adobo",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Medium",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 Tbsp small wood chips (preferably applewood), soaked 30 min, drained",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "small wood chips (preferably applewood), soaked 30 min, drained",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup raw cashews",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "raw cashews",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 canned chipotle chiles in adobo, drained, seeded",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "canned chipotle chiles in adobo",
+      "prep": "drained, seeded",
+      "note": null
+    },
+    {
+      "raw": "2 Tbsp sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Kosher salt",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 ½ cups water",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Line a stock pot with foil and add soaked wood chips. Heat on high until smoking.",
+    "Place a steamer basket in the pot and spread cashews evenly. Cover and smoke 10-15 minutes, until golden brown and aromatic.",
+    "Transfer cashews to a blender with 3 chipotles, 1 Tbsp sugar, a pinch of salt, and ¾ cup water.",
+    "Blend until very smooth. Adjust to taste with more chiles, sugar, salt, or water for consistency."
+  ]
+}

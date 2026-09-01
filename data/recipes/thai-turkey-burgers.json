@@ -1,0 +1,149 @@
+{
+  "slug": "thai-turkey-burgers",
+  "name": "Thai Turkey Burgers",
+  "category": "Lunch",
+  "emoji": "🍔",
+  "desc": "Lemongrass and ginger turkey patties with crunchy Asian slaw",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 lb ground turkey",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "ground turkey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp finely diced shallot",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "finely diced shallot",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tsp fresh ginger",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fresh ginger",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 garlic cloves, minced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp chopped lemongrass",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chopped lemongrass",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp chopped Thai basil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chopped Thai basil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp lime zest",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "lime zest",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 scallion, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "scallion",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1/2 jalapeno, seeded, finely chopped",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "jalapeno",
+      "prep": "seeded, finely chopped",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp fish sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fish sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Slaw: 1 cup grated carrots, 1 cup shredded purple cabbage, 1 scallion, 2 tbsp lime juice, 1 tbsp olive oil, 1 tsp sugar",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Aioli: 1/4 cup mayo, 1-2 tbsp sriracha",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Mix all burger ingredients together gently. Form into 3-4 patties.",
+    "Toss slaw ingredients together and set aside. Mix aioli ingredients.",
+    "Grill burgers over medium heat until cooked through, about 5-6 minutes per side.",
+    "Serve on toasted buns with slaw, aioli, and optional cucumber ribbons or avocado."
+  ]
+}

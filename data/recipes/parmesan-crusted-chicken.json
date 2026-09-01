@@ -1,0 +1,141 @@
+{
+  "slug": "parmesan-crusted-chicken",
+  "name": "Parmesan-Crusted Chicken",
+  "category": "Dinner",
+  "emoji": "🍗",
+  "desc": "Panko-parmesan chicken over creamy lemon spaghetti with roasted tomatoes",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 Roma tomatoes",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "Roma tomatoes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 garlic clove",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic clove",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lemon",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lemon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup panko",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "panko",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp Fry Seasoning",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Fry Seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup Parmesan",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "12 oz chicken breast",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "chicken breast",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp Dijon mustard",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "Dijon mustard",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp sour cream",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sour cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 oz spaghetti",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "spaghetti",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp cream cheese",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cream cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Butter",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat to 425°F. Mix panko, half the seasoning, half the Parmesan, and oil.",
+    "Roast tomatoes on one side of sheet. Coat chicken with mustard-cream mix, press on panko.",
+    "Roast 15-20 min. Cook spaghetti al dente.",
+    "Melt butter with garlic, stir in cream cheese and lemon zest for sauce.",
+    "Serve chicken over pasta with tomatoes and remaining Parmesan."
+  ]
+}

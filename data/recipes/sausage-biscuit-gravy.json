@@ -1,0 +1,78 @@
+{
+  "slug": "sausage-biscuit-gravy",
+  "name": "Sausage & Biscuit Gravy",
+  "category": "Breakfast",
+  "emoji": "🍳",
+  "desc": "Rich sausage gravy ladled over fluffy buttermilk biscuits",
+  "time": "25 min",
+  "minutes": 25,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 can refrigerated jumbo buttermilk biscuits",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "refrigerated jumbo buttermilk biscuits",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (9.6 oz) package pork sausage crumbles",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "package",
+      "item": "pork sausage crumbles",
+      "prep": null,
+      "note": "(9.6 oz)"
+    },
+    {
+      "raw": "1/4 cup flour",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 1/2 cups milk",
+      "qty": 2.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and pepper to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Bake biscuits according to package directions.",
+    "Cook sausage in a large skillet over medium heat 5-6 minutes, stirring frequently.",
+    "Stir in flour. Gradually add milk; cook until mixture boils and thickens, stirring constantly.",
+    "Reduce heat, simmer 2 minutes. Season with salt and pepper.",
+    "Split biscuits in half, top each with about 1/3 cup gravy."
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "bold-n-beefy-tacos",
+  "name": "Bold 'n' Beefy Tacos",
+  "category": "Lunch",
+  "emoji": "🌮",
+  "desc": "Tex-Mex ground beef tacos with tangy slaw and guacamole cream",
+  "time": "25 min",
+  "minutes": 25,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 yellow onion",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "yellow onion",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 Roma tomato",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "Roma tomato",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 oz cilantro",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "cilantro",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lime",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lime",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 oz coleslaw mix",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "coleslaw mix",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 tbsp guacamole",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "guacamole",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp sour cream",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sour cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "10 oz ground beef",
+      "qty": 10,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "ground beef",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 Tex-Mex paste packet",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "Tex-Mex paste packet",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 flour tortillas",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": null,
+      "item": "flour tortillas",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Dice onion, tomato, cilantro. Zest and quarter lime.",
+    "Make slaw: lime juice, olive oil, sugar, coleslaw mix. Toss and set aside.",
+    "Make guacamole cream: mix guacamole, sour cream, half the tomato, cilantro, and onion.",
+    "Make pico: remaining tomato, cilantro, lime zest, lime juice, onion.",
+    "Cook beef with remaining onion until browned. Add Tex-Mex paste and water; coat for 2-3 min.",
+    "Warm tortillas, fill with beef, top with slaw, guac cream, and pico."
+  ]
+}

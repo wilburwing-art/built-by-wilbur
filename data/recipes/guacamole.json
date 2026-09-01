@@ -1,0 +1,74 @@
+{
+  "slug": "guacamole",
+  "name": "Guacamole",
+  "category": "Sides & Snacks",
+  "emoji": "🥑",
+  "desc": "Classic guac with avocado, lime, cilantro, onion, and tomato",
+  "time": "10 min",
+  "minutes": 10,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 avocados",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "avocados",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt, lime juice, pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp onion",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "onion",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp cilantro",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cilantro",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tomato",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "tomato",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Mash avocados. Stir in all ingredients. Serve with chips."
+  ]
+}

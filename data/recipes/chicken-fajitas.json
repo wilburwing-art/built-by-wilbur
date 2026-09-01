@@ -1,0 +1,132 @@
+{
+  "slug": "chicken-fajitas",
+  "name": "Chicken Fajitas",
+  "category": "Lunch",
+  "emoji": "🌯",
+  "desc": "Spiced chicken strips with sauteed peppers and onions in warm tortillas",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3 chicken breasts",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "chicken breasts",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 medium onion",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium onion",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lime",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lime",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 bell peppers",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "bell peppers",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp olive oil, divided",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "1 tsp chili powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp smoked paprika",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "smoked paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp onion powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp cumin",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cumin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Cut onion into slivers and slice peppers.",
+    "Combine 1 tbsp oil, juice of half a lime, and all spices. Cut chicken into strips and toss with spice mixture.",
+    "Cook chicken in batches in hot oil until cooked through, 3-5 min per batch. Set aside.",
+    "Add remaining oil, cook onions 2 min, add peppers, cook 2 more min. Return chicken to pan.",
+    "Squeeze lime over top and serve in warm tortillas."
+  ]
+}

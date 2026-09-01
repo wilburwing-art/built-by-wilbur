@@ -1,0 +1,66 @@
+{
+  "slug": "strawberry-compote",
+  "name": "Strawberry Compote",
+  "category": "Sides & Snacks",
+  "emoji": "🍓",
+  "desc": "Strawberries cooked down with maple syrup, lemon and vanilla",
+  "time": "25 min",
+  "minutes": 25,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 lb fresh or frozen strawberries, hulled and chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "fresh or frozen strawberries, hulled and chopped",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup maple syrup",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "maple syrup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp fresh lemon juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp vanilla extract",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Combine the strawberries, maple syrup, lemon juice, and vanilla in a small saucepan. Bring to a simmer over medium heat and cook, stirring occasionally, for 15 to 18 minutes, or until the strawberries are soft and juicy.",
+    "Remove from the heat. The compote will thicken as it cools."
+  ]
+}

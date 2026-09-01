@@ -1,0 +1,103 @@
+{
+  "slug": "mayan-drinking-chocolate",
+  "name": "Mayan Drinking Chocolate",
+  "category": "Drinks",
+  "emoji": "🍫",
+  "desc": "Dark chocolate melted with cinnamon, cayenne, and coconut milk",
+  "time": "15 min",
+  "minutes": 15,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 cups non-dairy milk",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "non-dairy milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5 oz dark chocolate (70% cacao)",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "dark chocolate (70% cacao)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp vanilla",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp cinnamon",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/8 tsp cayenne",
+      "qty": 0.125,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cayenne",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Pinch nutmeg",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp sea salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sugar to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Simmer milk. Add chocolate, whisk until melted.",
+    "Add spices, whisk. Remove from heat, add vanilla.",
+    "Adjust to taste. Top with coconut whipped cream."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "orange-dream-machine",
+  "name": "Orange Dream Machine",
+  "category": "Drinks",
+  "emoji": "🍊",
+  "desc": "Jamba Juice copycat: OJ, soy milk, orange sherbet, and frozen yogurt",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "5 oz orange juice",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "orange juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5 oz soy milk",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "soy milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 scoops orange sherbet",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "scoop",
+      "item": "orange sherbet",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 scoops frozen yogurt",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "scoop",
+      "item": "frozen yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 scoop ice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "scoop",
+      "item": "ice",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Blend all ingredients until smooth. Pour and serve."
+  ]
+}

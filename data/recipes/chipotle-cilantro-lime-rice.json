@@ -1,0 +1,96 @@
+{
+  "slug": "chipotle-cilantro-lime-rice",
+  "name": "Chipotle Cilantro Lime Rice",
+  "category": "Sides & Snacks",
+  "emoji": "🍚",
+  "desc": "The copycat rice: basmati with bay, lime and lemon folded through",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 cups basmati rice (unrinsed), or any long-grain white rice (rinsed)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "basmati rice (unrinsed), or any long-grain white rice (rinsed)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 bay leaf",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "bay leaf",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 teaspoon olive oil or rice bran oil (optional)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil or rice bran oil (optional)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tablespoons minced fresh cilantro",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "minced fresh cilantro",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tablespoons lime juice",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tablespoons lemon juice",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Stovetop (Basmati, “pasta method”): Bring 8 cups water to a boil. Add rice, bay leaf, optional oil, and salt to taste. Boil uncovered 10-12 minutes. Remove bay leaf; drain in a fine strainer and rinse with hot water. Transfer to a bowl; stir in cilantro, lime juice, and lemon juice. Adjust salt.",
+    "Stovetop (other long-grain, absorption): Bring 4 cups water to a boil. Add rice, bay leaf, optional oil, and salt to taste; return to a boil. Reduce heat to low, cover, and cook 15 minutes. Remove bay leaf; fluff in cilantro, lime juice, and lemon juice. Adjust salt.",
+    "Rice cooker (long-grain): Add rinsed rice, water per manufacturer, bay leaf, 1 tsp salt, and optional oil. Cook per cooker instructions. Remove bay leaf; stir in cilantro, lime juice, and lemon juice. Adjust salt.",
+    "Brown rice (any method): Use the same steps as above, but cook 40 minutes (basmati on stove), 45 minutes (other long-grain on stove), or 60-70 minutes in a rice cooker (or per manufacturer).",
+    "Chipotle Tomato Salsa (Copycat)"
+  ]
+}

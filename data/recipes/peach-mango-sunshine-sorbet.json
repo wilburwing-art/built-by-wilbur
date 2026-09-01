@@ -1,0 +1,86 @@
+{
+  "slug": "peach-mango-sunshine-sorbet",
+  "name": "Peach Mango Sunshine Sorbet",
+  "category": "Desserts",
+  "emoji": "🍑",
+  "desc": "Ninja Creami sorbet, balanced and creamy without any dairy",
+  "time": "24 hrs",
+  "minutes": 1440,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "200 g mango",
+      "qty": 200,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "mango",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "150 g peaches",
+      "qty": 150,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "peaches",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "100 g banana",
+      "qty": 100,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "banana",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "70 to 80 g sugar",
+      "qty": 70,
+      "qtyMax": 80,
+      "unit": "g",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp lemon juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp vodka (optional, for scoopability)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vodka (optional",
+      "prep": "for scoopability)",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Blend everything until smooth.",
+    "Chill, then pour into a Ninja Creami pint container.",
+    "Freeze flat for 24 hours.",
+    "Spin on the Sorbet setting."
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "clover-club-cocktail",
+  "name": "Clover Club Cocktail",
+  "category": "Drinks",
+  "emoji": "🍸",
+  "desc": "Gin, lemon, raspberry syrup, and egg white, shaken to frothy perfection",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 oz gin",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "gin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 oz lemon juice",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 oz raspberry syrup",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "raspberry syrup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 egg white",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "egg white",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 raspberries",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "raspberries",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Dry shake all ingredients (no ice) 15 seconds.",
+    "Add ice, shake until chilled.",
+    "Strain into a coupe glass. Garnish with raspberries."
+  ]
+}

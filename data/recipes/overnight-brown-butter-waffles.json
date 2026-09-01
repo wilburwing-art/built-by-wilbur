@@ -1,0 +1,157 @@
+{
+  "slug": "overnight-brown-butter-waffles",
+  "name": "Overnight Brown-Butter Waffles",
+  "category": "Breakfast",
+  "emoji": "🧇",
+  "desc": "Yeast-raised batter rested overnight for a deep, crisp, almost malty waffle",
+  "time": "18 hrs",
+  "minutes": 1080,
+  "difficulty": "Medium",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "For the Waffles:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 ounces unsalted butter (6 tablespoons; 85g)",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "unsalted butter (6 tablespoons; 85g)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 ounce sugar (4 teaspoons; 20 g)",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "sugar (4 teaspoons; 20 g)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 teaspoon (4 g) Diamond Crystal kosher salt (for table salt, use half as much by volume or use the same weight)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "(4 g) Diamond Crystal kosher salt (for table salt, use half as much by volume or use the same weight)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "10 ounces cold milk; any percentage will do (1 1/4 cups; 280 g)",
+      "qty": 10,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "cold milk; any percentage will do (1 1/4 cups; 280 g)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large egg, cold",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg, cold",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "7 1/2 ounces all-purpose flour (1 1/2 cups; 210 g)",
+      "qty": 7.5,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "all-purpose flour (1 1/2 cups; 210 g)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/4 teaspoons (4 g) instant dry yeast (not rapid-rise)",
+      "qty": 1.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "(4 g) instant dry yeast (not rapid-rise)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 teaspoon baking soda",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Safflower, vegetable, or canola oil for greasing the iron, if needed",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "To Serve:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Maple syrup",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 ounces lemon chantilly (1 cup; 170 g) (optional)",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "lemon chantilly (1 cup; 170 g) (optional)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "10 ounces fresh strawberries (2 cups; 280 g), washed and sliced (optional)",
+      "qty": 10,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "fresh strawberries (2 cups; 280 g), washed and sliced (optional)",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "For the Batter: Melt butter in a 3-quart stainless steel saucier or saucepan, stirring and scraping with a heat-resistant spatula as it bubbles, and cook until golden brown. Remove from heat and immediately stir in sugar, salt, and milk, followed by egg. Sift in flour and stir until smooth. Add yeast and baking soda last, stirring to combine. Cover and refrigerate overnight, between 12 and 18 hours. The batter should be gooey and spongy at this point. For the Waffles: Set waffle iron to medium and preheat until the indicator is ready; if using cast iron, brush lightly with safflower, vegetable, or canola oil. For an 8-inch square machine, scrape in half of the batter per batch. For a 7-inch Belgian machine, scrape in about one-third. Close lid and griddle until golden brown but still steaming, 5 to 7 minutes depending on the depth and heat of your machine. (Cooked waffles can be held on a rack in a 200°F (90°C) oven while remaining batches are cooked.) Serve immediately with maple syrup, lemon chantilly, and/or strawberries.",
+    "Special Equipment",
+    "Waffle iron, 3-quart stainless steel saucepan or saucier, flexible spatula"
+  ]
+}

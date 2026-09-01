@@ -1,0 +1,95 @@
+{
+  "slug": "watermelon-basil-margarita",
+  "name": "Watermelon Basil Margarita",
+  "category": "Drinks",
+  "emoji": "🍉",
+  "desc": "Watermelon juice and gently muddled basil over blanco tequila",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 fluid ounces blanco tequila",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fluid ounces blanco tequila",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 fluid ounces watermelon juice",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fluid ounces watermelon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 fluid ounce fresh lime juice",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fluid ounce fresh lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 fluid ounce Cointreau",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fluid ounce Cointreau",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 fluid ounce simple syrup",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fluid ounce simple syrup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 fresh basil leaves",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fresh basil leaves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pinch flaky salt or Tajin for the rim",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "flaky salt or Tajin for the rim",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Rim the glass: Run a lime wedge around the rim of a rocks glass and dip in 1 pinch flaky salt or Tajin for the rim. Fill with fresh ice and set aside.",
+    "Muddle the basil: Add 4 fresh basil leaves to a shaker and gently muddle just enough to release the oils. Don't shred them or it turns bitter.",
+    "Build and shake: Add 2 fluid ounces blanco tequila, 2 fluid ounces watermelon juice, 3/4 fluid ounce fresh lime juice, 1/2 fluid ounce Cointreau, and 1/2 fluid ounce simple syrup to the shaker. Fill with ice and shake hard for about 15 seconds  until well chilled.",
+    "Strain and serve: Double strain over the fresh ice in your prepared glass. Garnish with a basil sprig or a small watermelon wedge."
+  ]
+}

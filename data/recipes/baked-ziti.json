@@ -1,0 +1,105 @@
+{
+  "slug": "baked-ziti",
+  "name": "Baked Ziti",
+  "category": "Dinner",
+  "emoji": "🧀",
+  "desc": "Layered pasta bake with meat sauce, provolone, sour cream, and mozzarella",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 lb ziti pasta",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "ziti pasta",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 onion, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "onion",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 lb lean ground beef",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "lean ground beef",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 (26 oz) jars spaghetti sauce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "jar",
+      "item": "spaghetti sauce",
+      "prep": null,
+      "note": "(26 oz)"
+    },
+    {
+      "raw": "6 oz provolone cheese, sliced",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "provolone cheese",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups sour cream",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sour cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 oz mozzarella, shredded",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "mozzarella",
+      "prep": "shredded",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp grated Parmesan",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "grated Parmesan",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Cook ziti al dente, about 8 minutes. Drain.",
+    "Brown onion and ground beef. Add spaghetti sauce, simmer 15 min.",
+    "Preheat oven to 350°F. Butter a 9x13 dish.",
+    "Layer: half ziti, provolone, sour cream, half sauce, remaining ziti, mozzarella, remaining sauce. Top with Parmesan.",
+    "Bake 30 minutes until cheeses are melted."
+  ]
+}

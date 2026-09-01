@@ -1,0 +1,102 @@
+{
+  "slug": "snickerdoodle-cookies",
+  "name": "Snickerdoodle Cookies",
+  "category": "Desserts",
+  "emoji": "🍪",
+  "desc": "Soft, tangy cookies rolled in cinnamon sugar",
+  "time": "20 min",
+  "minutes": 20,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 1/2 cups sugar",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup butter",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 eggs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 3/4 cups flour",
+      "qty": 2.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp cream of tartar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cream of tartar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp baking soda",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp sugar + 2 tsp cinnamon for coating",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sugar + 2 tsp cinnamon for coating",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Beat sugar, butter, and eggs. Mix in flour, cream of tartar, baking soda, and salt.",
+    "Roll into balls, coat in cinnamon-sugar. Bake at 400°F for 7 min."
+  ]
+}

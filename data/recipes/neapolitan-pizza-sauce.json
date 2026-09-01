@@ -1,0 +1,68 @@
+{
+  "slug": "neapolitan-pizza-sauce",
+  "name": "Neapolitan Pizza Sauce",
+  "category": "Sides & Snacks",
+  "emoji": "🥫",
+  "desc": "Crushed San Marzano tomatoes, salt, basil and oil. Nothing cooked",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "One 400 g (14 oz) can whole peeled tomatoes, preferably San Marzano",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 g (a little under 1 tsp) sea salt",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "(a little under 1 tsp) sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 to 4 leaves fresh basil",
+      "qty": 3,
+      "qtyMax": 4,
+      "unit": null,
+      "item": "leaves fresh basil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "15 g (1 tbsp) extra virgin olive oil",
+      "qty": 15,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "(1 tbsp) extra virgin olive oil",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Crush the tomatoes by hand or pass them through a food mill. Do not use a blender, which aerates the sauce and turns it pale.",
+    "Stir in the salt.",
+    "Tear in the basil and add the olive oil.",
+    "Use raw. It cooks on the pizza. This makes enough for 4 to 5 pizzas."
+  ]
+}

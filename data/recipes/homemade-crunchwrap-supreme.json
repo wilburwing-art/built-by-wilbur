@@ -1,0 +1,114 @@
+{
+  "slug": "homemade-crunchwrap-supreme",
+  "name": "Homemade Crunchwrap Supreme",
+  "category": "Lunch",
+  "emoji": "🫓",
+  "desc": "Taco meat, nacho cheese, tostada, and fixings wrapped and crisped",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 lb ground meat",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "ground meat",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 packet taco seasoning",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "packet",
+      "item": "taco seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 burrito-size flour tortillas",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": null,
+      "item": "burrito-size flour tortillas",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 tostada shells",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": null,
+      "item": "tostada shells",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup sour cream",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sour cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups shredded lettuce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded lettuce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 diced tomato",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "diced tomato",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded Mexican cheese",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded Mexican cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Nacho cheese sauce",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Cook and crumble ground beef. Drain grease. Add taco seasoning and water per packet instructions.",
+    "Warm nacho cheese and tortillas.",
+    "Layer on each tortilla: nacho cheese, taco meat, tostada shell, sour cream, lettuce, tomato, shredded cheese.",
+    "Fold tortilla edges up and around to center, creating a sealed hexagon shape.",
+    "Cook seam-side down in a sprayed skillet over medium heat, 2-3 min per side until golden brown."
+  ]
+}

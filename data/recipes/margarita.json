@@ -1,0 +1,74 @@
+{
+  "slug": "margarita",
+  "name": "Margarita",
+  "category": "Drinks",
+  "emoji": "🍹",
+  "desc": "Tequila, fresh lime juice, and Cointreau on the rocks",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1/2 cup tequila",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "tequila",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup Cointreau",
+      "qty": 0.3333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Cointreau",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup fresh lime juice",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Ice",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt for rimming",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Rim glasses with lime and salt. Shake tequila, Cointreau, and lime juice with ice. Strain over fresh ice."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "cannabis-coconut-oil",
+  "name": "Cannabis Coconut Oil",
+  "category": "Sides & Snacks",
+  "emoji": "🌿",
+  "desc": "Decarboxylate, then infuse into coconut oil with lecithin. Adults only, dose carefully",
+  "time": "2 hrs",
+  "minutes": 120,
+  "difficulty": "Medium",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "7 grams dry cannabis flower, or 3 grams hash",
+      "qty": 7,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "dry cannabis flower, or 3 grams hash",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 to 1/2 cup melted coconut oil (use less for a more concentrated oil)",
+      "qty": 0.25,
+      "qtyMax": 0.5,
+      "unit": "cup",
+      "item": "melted coconut oil (use less for a more concentrated oil)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp soy lecithin",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "soy lecithin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Equipment: an oven-safe Pyrex dish or double boiler, foil or an oven bag, a candy thermometer, and a wide-mouth jar for storage",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Grind the cannabis and preheat the oven to 220F.",
+    "Decarboxylate first, which is what activates the THC. Spread the ground flower in the Pyrex dish no thicker than 1/2 to 3/4 inch so the heat reaches all of it. Use multiple dishes for larger amounts.",
+    "If using hash, break it into chunks and sprinkle evenly. For concentrates, preheat the dish for a few minutes first, then spread the extract thin.",
+    "Wrap the dish in foil or seal it in an oven bag and heat 20 to 30 minutes. Older herb needs 15 to 20 minutes, a freshly dried crop 30 to 45.",
+    "Heat the coconut oil in a saucepan until it is just too warm to touch, ideally over 200F on the candy thermometer.",
+    "Pour the hot oil over the decarboxylated material, stir in the soy lecithin, reseal, and hold at low heat for 1 to 2 hours, stirring occasionally.",
+    "Strain through cheesecloth into a wide-mouth jar, pressing to get everything out. Store cool and dark.",
+    "Potency varies a lot batch to batch. Start with a very small amount and wait a full two hours before taking any more."
+  ]
+}

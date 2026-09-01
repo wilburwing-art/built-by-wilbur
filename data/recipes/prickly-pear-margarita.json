@@ -1,0 +1,86 @@
+{
+  "slug": "prickly-pear-margarita",
+  "name": "Prickly Pear Margarita",
+  "category": "Drinks",
+  "emoji": "🌵",
+  "desc": "Bright magenta and lightly floral, from prickly pear syrup",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 fluid ounces blanco tequila",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fluid ounces blanco tequila",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 fluid ounces prickly pear syrup or puree",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fluid ounces prickly pear syrup or puree",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 fluid ounces fresh lime juice",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fluid ounces fresh lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 fluid ounces orange liqueur (Cointreau or triple sec)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fluid ounces orange liqueur (Cointreau or triple sec)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tablespoon kosher salt or Tajin, for the rim",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "kosher salt or Tajin",
+      "prep": "for the rim",
+      "note": null
+    },
+    {
+      "raw": "3 lime wedges, for rimming and garnish",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lime wedges",
+      "prep": "for rimming and garnish",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Rim the glasses: Spread 1 tablespoon kosher salt or Tajin, for the rim on a small plate. Run a lime wedge from 3 lime wedges, for rimming and garnish around the rim of each glass, then press the rim into the salt. Fill the glasses with fresh ice and set aside.",
+    "Build the drink: Fill a cocktail shaker two-thirds with ice. Add 4 fluid ounces blanco tequila, 2 fluid ounces prickly pear syrup or puree, 2 fluid ounces fresh lime juice, and 1 fluid ounces orange liqueur.",
+    "Shake: Shake hard until the outside of the shaker is frosted, about 15 seconds .",
+    "Strain and serve: Double-strain into the prepared glasses over fresh ice. Garnish with a wedge from 3 lime wedges, for rimming and garnish."
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "buttermilk-pie",
+  "name": "Buttermilk Pie",
+  "category": "Desserts",
+  "emoji": "🥧",
+  "desc": "A Southern classic: tangy, sweet custard pie with lemon and nutmeg",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3 eggs",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup butter",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups sugar",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp flour",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup buttermilk",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "buttermilk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp vanilla",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp lemon juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Nutmeg",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Unbaked 9-inch pie crust",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Beat eggs until frothy. Add butter, sugar, and flour until smooth.",
+    "Stir in buttermilk, vanilla, lemon juice, and nutmeg. Pour into shell.",
+    "Bake at 350°F for 40-60 minutes until center is firm."
+  ]
+}

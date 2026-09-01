@@ -1,0 +1,168 @@
+{
+  "slug": "classic-pork-fried-rice",
+  "name": "Classic Pork Fried Rice",
+  "category": "Dinner",
+  "emoji": "🍚",
+  "desc": "Day-old jasmine rice with char siu pork, egg and dark soy",
+  "time": "25 min",
+  "minutes": 25,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 tablespoon hot water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "hot water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 teaspoon honey",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "honey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 teaspoon sesame oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 teaspoon Shaoxing wine (or dry cooking sherry)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "Shaoxing wine (or dry cooking sherry)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tablespoon soy sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 teaspoon dark soy sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dark soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 teaspoon white pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "white pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5 cups cooked Jasmine rice (add 1 teaspoon oil to rice when cooking)",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cooked Jasmine rice (add 1 teaspoon oil to rice when cooking)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tablespoon oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 medium onion (diced)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium onion (diced)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pound Chinese BBQ pork (450g char siu cut into 1/2 inch chunks; click here for our char siu recipe!)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "Chinese BBQ pork (450g char siu cut into 1/2 inch chunks; click here for our char siu recipe!)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 teaspoon salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup bean sprouts",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "bean sprouts",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 eggs (scrambled)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "eggs (scrambled)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 scallions (chopped)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "scallions (chopped)",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Start by combining the hot water, honey, sesame oil, shaoxing wine (if using), soy sauce, dark soy sauce, and white pepper in a small bowl. This is the sauce that you'll be adding to the rice, and it's much easier to have it combined and ready to go before you start cooking.",
+    "Take your cooked rice and fluff it with a fork or with your hands (you can rinse your hands in cold water if the rice starts sticking to them). There shouldn't be any big clumps!",
+    "With the wok over medium heat, add a tablespoon of oil and sauté the onions until translucent and then stir in the roast pork. Add the rice and mix well. If the rice is cold from the refrigerator, continue stir-frying until the rice is warmed up, which will take about 5 minutes. If the rice was made fresh, then you just need to mix until everything is incorporated.",
+    "Add the sauce mixture and salt and mix with a scooping motion until the rice is evenly coated with sauce. You will have to break up any remaining clumps of rice with the spatula as best as possible, but no need to be obsessive. The rice should be hot by this time.",
+    "Toss in your mung bean sprouts, scrambled eggs, and scallions. Mix thoroughly for another minute or two and serve!"
+  ]
+}

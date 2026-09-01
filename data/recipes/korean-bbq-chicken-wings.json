@@ -1,0 +1,131 @@
+{
+  "slug": "korean-bbq-chicken-wings",
+  "name": "Korean BBQ Chicken Wings",
+  "category": "Dinner",
+  "emoji": "🍗",
+  "desc": "Crispy wings glazed in gochujang, soy, brown sugar, and ginger",
+  "time": "2 hrs",
+  "minutes": 120,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 lbs chicken wings",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "chicken wings",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup gochujang",
+      "qty": 0.3333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "gochujang",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup brown sugar",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup soy sauce",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp water",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp sesame oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp rice wine vinegar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "rice wine vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 garlic cloves, minced",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tbsp fresh ginger",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh ginger",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt, pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sesame seeds, green onion",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Whisk together gochujang, brown sugar, soy sauce, water, sesame oil, vinegar, garlic, ginger, salt, and pepper.",
+    "Marinate wings at least 1 hour in the fridge.",
+    "Grill at 400°F, flipping every 10-15 min, for 30-40 min until crispy and 165°F.",
+    "Boil reserved marinade 1-2 minutes. Brush on wings. Garnish with sesame seeds and green onion."
+  ]
+}

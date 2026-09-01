@@ -1,0 +1,193 @@
+{
+  "slug": "whole30-coconut-chicken-curry",
+  "name": "Whole30 Coconut Chicken Curry",
+  "category": "Dinner",
+  "emoji": "🍛",
+  "desc": "Coconut curry with sweet potato, plantain and kale",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3 tablespoons coconut oil",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "coconut oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 ½ pounds skinless, boneless chicken breast halves, cubed",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "skinless, boneless chicken breast halves, cubed",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 onions, sliced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "onions",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1 red bell pepper, sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red bell pepper",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1 jalapeno pepper, seeded and minced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "jalapeno pepper",
+      "prep": "seeded and minced",
+      "note": null
+    },
+    {
+      "raw": "4 small garlic cloves, minced",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1 (1 inch) piece fresh ginger, peeled and minced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "piece",
+      "item": "fresh ginger",
+      "prep": "peeled and minced",
+      "note": "(1 inch)"
+    },
+    {
+      "raw": "1 large sweet potato, peeled and cubed",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large sweet potato",
+      "prep": "peeled and cubed",
+      "note": null
+    },
+    {
+      "raw": "1 green plantain, sliced into 1/2-inch rounds and quartered",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "green plantain",
+      "prep": "sliced into 1/2-inch rounds and quartered",
+      "note": null
+    },
+    {
+      "raw": "3 small carrots, peeled and sliced into rounds",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small carrots",
+      "prep": "peeled and sliced into rounds",
+      "note": null
+    },
+    {
+      "raw": "2 (14 ounce) cans coconut milk, shaken",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "coconut milk, shaken",
+      "prep": null,
+      "note": "(14 ounce)"
+    },
+    {
+      "raw": "1 (24 ounce) container crushed tomatoes",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "container crushed tomatoes",
+      "prep": null,
+      "note": "(24 ounce)"
+    },
+    {
+      "raw": "½ cup water",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup packed baby kale",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "packed baby kale",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tablespoons curry powder, or more to taste",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "curry powder, or more to taste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tablespoon sea salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tablespoon ground black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "ground black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 ½ teaspoons dried cilantro",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried cilantro",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat coconut oil in a heavy-bottomed skillet over medium-low heat until shimmering. Add chicken. Cook, tossing to avoid sticking and burning, until no longer pink in the center, about 7 minutes. Move chicken to a bowl.",
+    "Combine onions, red bell pepper, jalapeno pepper, garlic, and ginger in the skillet. Cook and stir until vegetables are softened, about 7 minutes. Add sweet potato, plantain, and carrots. Cook, stirring occasionally, until slightly tender, about 5 minutes.",
+    "Pour coconut milk, tomatoes, and water into the vegetable mixture; stir to combine. Cook, covered, until flavors meld, about 30 minutes. Add kale, curry powder, salt, black pepper, and cilantro. Cook until sweet potatoes and carrots are soft, about 30 minutes more"
+  ]
+}

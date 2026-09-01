@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/sync-van-docs.mjs && vite",
-    "build": "node scripts/sync-van-docs.mjs && tsc -b && vite build",
+    "dev": "node scripts/build-recipes.mjs && node scripts/sync-van-docs.mjs && vite",
+    "build": "node scripts/build-recipes.mjs && node scripts/sync-van-docs.mjs && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "gen": "node scripts/build-recipes.mjs",
     "sync:van": "node scripts/sync-van-docs.mjs"
   },
   "dependencies": {

@@ -1,0 +1,94 @@
+{
+  "slug": "banana-pudding",
+  "name": "Banana Pudding",
+  "category": "Desserts",
+  "emoji": "🍌",
+  "desc": "Layered vanilla wafers, banana slices, and creamy vanilla pudding",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 cups cold milk",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cold milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pkg instant vanilla pudding",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "package",
+      "item": "instant vanilla pudding",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 can sweetened condensed milk",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "sweetened condensed milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp vanilla",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "12 oz whipped topping",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "whipped topping",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pkg vanilla wafers",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "package",
+      "item": "vanilla wafers",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Bananas, sliced",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Beat milk and pudding 2 min. Blend in condensed milk.",
+    "Stir in vanilla, fold in whipped topping.",
+    "Layer wafers, bananas, and pudding. Chill 1+ hour."
+  ]
+}

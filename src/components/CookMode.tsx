@@ -263,7 +263,7 @@ export function CookMode({ recipe, accent, scale, units, onClose }: CookModeProp
                     checked={checked.includes(i)}
                     onChange={() => toggleIngredient(i)}
                   />
-                  <span>{displayIngredient(ing, scale, units)}</span>
+                  <span>{displayIngredient(ing.raw, scale, units)}</span>
                 </label>
               ))}
               {checked.length > 0 && (

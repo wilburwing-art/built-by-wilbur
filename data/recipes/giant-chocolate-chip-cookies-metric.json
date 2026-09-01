@@ -1,0 +1,144 @@
+{
+  "slug": "giant-chocolate-chip-cookies-metric",
+  "name": "Giant Chocolate Chip Cookies (Metric)",
+  "category": "Desserts",
+  "emoji": "🍪",
+  "desc": "The same giant cookies by weight, with the flour bumped for Salt Lake altitude",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Medium",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "396 grams all-purpose flour (380g + 16g altitude bump)",
+      "qty": 396,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "all-purpose flour (380g + 16g altitude bump)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 teaspoon fine sea salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 teaspoon baking powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 teaspoon baking soda",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "227 grams COLD unsalted butter, cubed, straight from fridge (2 sticks)",
+      "qty": 227,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "COLD unsalted butter",
+      "prep": "cubed, straight from fridge (2 sticks)",
+      "note": null
+    },
+    {
+      "raw": "150 grams granulated sugar",
+      "qty": 150,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "250 grams light brown sugar, packed",
+      "qty": 250,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "light brown sugar",
+      "prep": "packed",
+      "note": null
+    },
+    {
+      "raw": "2 large eggs (about 100g total, cracked)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs (about 100g total, cracked)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 teaspoons vanilla extract",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "255 grams semisweet chocolate chips",
+      "qty": 255,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "semisweet chocolate chips",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "170 grams semisweet chocolate chunks, hand-chopped from a bar (reserve half for topping)",
+      "qty": 170,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "semisweet chocolate chunks, hand-chopped from a bar (reserve half for topping)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pinch flaky sea salt for finishing (optional)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "flaky sea salt for finishing (optional)",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat and prep: Preheat oven to 375 F. Line two large baking sheets with parchment.",
+    "Weigh and whisk dry mix: Tare a medium bowl on the scale. Weigh in 396 grams all-purpose flour, then add 1 teaspoon fine sea salt, 1 teaspoon baking powder, and 1/4 teaspoon baking soda. Whisk well.",
+    "Weigh and beat butter and sugars: Tare the stand mixer bowl on the scale. Weigh in 227 grams COLD unsalted butter, cubed, straight from fridge (2 sticks), 150 grams granulated sugar, and 250 grams light brown sugar, packed. Beat on medium-high until combined and fluffy, 3 to 4 minutes . Cold butter takes longer than soft, that's expected. Do not use softened butter.",
+    "Add eggs and vanilla: Add 2 large eggs one at a time, then 2 teaspoons vanilla extract. Beat until combined.",
+    "Add flour and chocolate: Gradually beat in the dry mix on low, just until combined. Then beat in 255 grams semisweet chocolate chips and half of 170 grams semisweet chocolate chunks, hand-chopped from a bar.",
+    "Portion 113g balls: Portion 113 g dough balls on the scale (should get 12). Roll even, place 6 per pan, spaced far apart. Press the reserved half of 170 grams semisweet chocolate chunks, hand-chopped from a bar into the tops.",
+    "Bake, longer for crispier: Bake 15 to 18 minutes . For crispy edges, check at 17 and pull around 18 to 19 when the edge ring is golden brown and the center is puffy. Shorter = gooier, longer = crispier.",
+    "Salt and cool: Sprinkle with 1 pinch flaky sea salt for finishing (optional) right out of the oven. Cookies deflate slightly as they cool. Let them set on the pan."
+  ]
+}

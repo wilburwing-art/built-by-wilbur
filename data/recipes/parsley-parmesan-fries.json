@@ -1,0 +1,76 @@
+{
+  "slug": "parsley-parmesan-fries",
+  "name": "Parsley-Parmesan Fries",
+  "category": "Sides & Snacks",
+  "emoji": "🍟",
+  "desc": "Oven-baked russet fries with parmesan and fresh parsley",
+  "time": "55 min",
+  "minutes": 55,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 russet potatoes, cut into strips",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "russet potatoes",
+      "prep": "cut into strips",
+      "note": null
+    },
+    {
+      "raw": "4 tsp olive oil",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup Parmesan",
+      "qty": 0.3333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp parsley",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "parsley",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat to 400°F. Toss potatoes with oil and salt.",
+    "Bake 45-50 min, turning at 25 min.",
+    "Sprinkle Parmesan and parsley. Bake 5 more min."
+  ]
+}

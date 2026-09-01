@@ -1,0 +1,153 @@
+{
+  "slug": "healthy-shepherd-s-pie",
+  "name": "Healthy Shepherd's Pie",
+  "category": "Dinner",
+  "emoji": "🥧",
+  "desc": "Beef and cabbage under a mashed parsnip top instead of potato",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Medium",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 tbsp olive oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large onion, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large onion",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "4 cloves garlic, minced",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "2 large or 4 small carrots, finely diced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large or 4 small carrots",
+      "prep": "finely diced",
+      "note": null
+    },
+    {
+      "raw": "3 ribs celery, finely diced",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "ribs celery",
+      "prep": "finely diced",
+      "note": null
+    },
+    {
+      "raw": "2 lbs ground beef",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "ground beef",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (28 oz) can diced tomatoes",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "diced tomatoes",
+      "prep": null,
+      "note": "(28 oz)"
+    },
+    {
+      "raw": "2 tbsp tomato paste",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "tomato paste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup chicken stock, plus 1 1/2 cups for the parsnips",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chicken stock, plus 1 1/2 cups for the parsnips",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 small head green cabbage, thinly sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small head green cabbage",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "8 to 10 parsnips, peeled and cut into 1 inch slices",
+      "qty": 8,
+      "qtyMax": 10,
+      "unit": null,
+      "item": "parsnips",
+      "prep": "peeled and cut into 1 inch slices",
+      "note": null
+    },
+    {
+      "raw": "Salt and pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Minced parsley and chives, optional",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 375F.",
+    "In a large saute pan over medium-high heat, heat the olive oil. Add the onions, garlic, carrots, celery and beef, and cook until browned, 8 to 10 minutes.",
+    "Drain the fat if there is a lot, then add the tomatoes, tomato paste and 1 cup chicken stock. Stir until the paste is blended in.",
+    "Add the cabbage and simmer until the sauce thickens and the cabbage is tender, about 10 minutes. Season with salt and pepper.",
+    "Transfer the mixture to a 5 quart baking dish and set aside.",
+    "Bring a pot of salted water to a boil, add the parsnips, and cook until tender, 10 to 15 minutes. Drain.",
+    "Mash the parsnips with the remaining 1 1/2 cups chicken stock until smooth, then season.",
+    "Spread the parsnip mash over the beef and bake until bubbling and lightly browned on top, about 20 minutes. Finish with parsley and chives."
+  ]
+}

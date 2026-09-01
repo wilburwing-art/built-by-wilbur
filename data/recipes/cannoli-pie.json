@@ -1,0 +1,104 @@
+{
+  "slug": "cannoli-pie",
+  "name": "Cannoli Pie",
+  "category": "Desserts",
+  "emoji": "🥧",
+  "desc": "Cream cheese and ricotta filling with chocolate chips and ganache",
+  "time": "3 hrs",
+  "minutes": 180,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 pkgs cream cheese",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "package",
+      "item": "cream cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup ricotta",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "ricotta",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups cream",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup powdered sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "powdered sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Vanilla, orange zest, cinnamon",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Mini chocolate chips",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Ganache: chocolate + cream",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Whipped cream topping",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Beat filling ingredients 4-5 min. Fold in chips.",
+    "Fill cooled pie crust. Chill 2+ hours.",
+    "Pour ganache over filling. Chill 1-2 hours.",
+    "Top with whipped cream and more chips."
+  ]
+}

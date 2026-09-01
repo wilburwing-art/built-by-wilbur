@@ -22,11 +22,16 @@ export function toPlainText(recipe: Recipe, scale = 1, units: Units = "us"): str
     recipe.desc,
     "",
     "INGREDIENTS",
-    ...recipe.ingredients.map((i) => `- ${displayIngredient(i, scale, units)}`),
+    ...recipe.ingredients.map((i) => `- ${displayIngredient(i.raw, scale, units)}`),
     "",
     "INSTRUCTIONS",
     ...recipe.steps.map((s, i) => `${i + 1}. ${displayStep(s, units)}`),
     "",
+    ...(recipe.source.url
+      ? [
+          `${recipe.source.matchType === "original" ? "Source" : "Closest match"}: ${recipe.source.url}`,
+        ]
+      : []),
     `${KITCHEN_URL}/${recipe.slug}`,
   ]
   return lines.join("\n")

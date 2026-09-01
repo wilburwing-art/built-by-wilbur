@@ -1,0 +1,270 @@
+{
+  "slug": "nashville-hot-chicken-sandwich",
+  "name": "Nashville Hot Chicken Sandwich",
+  "category": "Lunch",
+  "emoji": "🔥",
+  "desc": "Buttermilk-brined thighs, double dredged, then painted with cayenne frying oil",
+  "time": "5 hrs",
+  "minutes": 300,
+  "difficulty": "Medium",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 boneless, skinless chicken thighs or breasts",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "boneless, skinless chicken thighs or breasts",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup buttermilk",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "buttermilk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp hot sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "hot sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Kosher salt and black pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups all-purpose flour",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup cornstarch",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp paprika",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp cayenne pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cayenne pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Neutral oil for frying",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Hot glaze:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup frying oil, taken after frying",
+      "qty": 0.3333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "frying oil, taken after frying",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp cayenne pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cayenne pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp brown sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp garlic powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp paprika",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp chili powder",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Slaw:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups shredded cabbage mix",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded cabbage mix",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp mayo",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "mayo",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp apple cider vinegar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "apple cider vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "To assemble:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 soft brioche buns",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "soft brioche buns",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Dill pickle chips",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Butter, for toasting the buns",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Mix the buttermilk, hot sauce, and a pinch of salt and pepper in a bowl. Add the chicken and marinate at least 4 hours, or overnight.",
+    "Mix the cabbage, mayo, vinegar, sugar, salt and pepper for the slaw and let it sit in the fridge while everything else cooks.",
+    "Set up a breading station: leftover marinade in one bowl, and the flour, cornstarch, garlic powder, paprika, cayenne, salt and pepper in another.",
+    "Dredge each piece in the flour mix, back into the buttermilk, then into the flour mix again. Press to coat well and rest on a rack for 10 minutes.",
+    "Heat oil to 325 to 350F in a heavy skillet or Dutch oven. Fry until golden brown and 165F inside, about 5 to 7 minutes per side. Drain on a wire rack.",
+    "Whisk 1/3 cup of the hot frying oil with the cayenne, brown sugar, garlic powder, paprika and chili powder until smooth.",
+    "Brush the glaze generously over both sides of the chicken while it is still hot.",
+    "Toast the buns in butter, then build with pickles, chicken and slaw."
+  ]
+}

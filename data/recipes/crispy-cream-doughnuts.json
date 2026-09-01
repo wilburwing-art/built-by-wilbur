@@ -1,0 +1,86 @@
+{
+  "slug": "crispy-cream-doughnuts",
+  "name": "Crispy Cream Doughnuts",
+  "category": "Desserts",
+  "emoji": "🍩",
+  "desc": "Yeasted doughnuts fried golden and dipped in warm vanilla glaze",
+  "time": "3 hrs",
+  "minutes": 180,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 envelopes yeast",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "envelopes yeast",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Warm water, milk",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sugar, salt, eggs, shortening",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5 cups flour",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Oil for frying",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Glaze: butter, powdered sugar, vanilla, hot water",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Dissolve yeast. Mix with milk, sugar, salt, eggs, shortening, and flour. Knead 5 min. Let rise until doubled.",
+    "Roll 1/2 inch, cut with cutter. Rise again.",
+    "Make glaze: melt butter, stir in powdered sugar, vanilla, water.",
+    "Fry at 350°F until golden. Dip in warm glaze."
+  ]
+}

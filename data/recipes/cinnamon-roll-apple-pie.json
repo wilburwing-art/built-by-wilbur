@@ -1,0 +1,95 @@
+{
+  "slug": "cinnamon-roll-apple-pie",
+  "name": "Cinnamon Roll Apple Pie",
+  "category": "Desserts",
+  "emoji": "🥧",
+  "desc": "Apple pie topped with spiraled cinnamon roll dough instead of a lattice",
+  "time": "1.5 hrs",
+  "minutes": 90,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 pie crusts",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "pie crusts",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp melted butter",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "melted butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 tsp cinnamon",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp brown sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cans apple pie filling",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "apple pie filling",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 egg",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "egg",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp turbinado sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "turbinado sugar",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Line pie plate with one crust. Pierce and refrigerate.",
+    "Roll second crust, brush with butter, sprinkle cinnamon-sugar. Roll into log, chill 30 min.",
+    "Fill pie with apple filling. Slice log into rounds, arrange on top.",
+    "Brush with egg wash, sprinkle turbinado. Bake 15 min at 400°F, then 40-45 min at 350°F."
+  ]
+}

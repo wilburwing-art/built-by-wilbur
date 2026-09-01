@@ -1,0 +1,104 @@
+{
+  "slug": "easy-chicken-pasta",
+  "name": "Easy Chicken Pasta",
+  "category": "Dinner",
+  "emoji": "🍝",
+  "desc": "Penne with chicken, broccoli and canned tomatoes in one skillet",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "12 ounces skinless, boneless chicken breast halves",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "skinless, boneless chicken breast halves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 ounces dried multigrain or whole-grain penne pasta",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "dried multigrain or whole-grain penne pasta",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tablespoon olive oil or canola oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil or canola oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 cloves garlic, minced",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "2 cups broccoli florets",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "broccoli florets",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (14.5 ounce) can diced tomatoes with green pepper, celery and onions, undrained",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "diced tomatoes with green pepper, celery and onions, undrained",
+      "prep": null,
+      "note": "(14.5 ounce)"
+    },
+    {
+      "raw": "1 tablespoon snipped fresh basil or oregano",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "snipped fresh basil or oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pinch Shaved Parmesan cheese",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "Shaved Parmesan cheese",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Cut chicken into bite-size strips; set aside. Cook pasta according to package directions. Drain.",
+    "Meanwhile, in a large nonstick skillet, heat oil over medium-high heat. Add garlic and crushed red pepper; cook and stir for 30 seconds. Add broccoli; cook and stir for 3 minutes more. Remove broccoli from skillet.",
+    "Add chicken to the hot skillet; cook and stir for 3 to 4 minutes or until no longer pink. Return broccoli to the skillet. Add undrained tomatoes and drained pasta. Cook, stirring occasionally, until heated through.",
+    "To serve, divide mixture among four shallow bowls. Sprinkle with basil or oregano and, if desired, Parmesan cheese."
+  ]
+}

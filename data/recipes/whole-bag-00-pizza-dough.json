@@ -1,0 +1,91 @@
+{
+  "slug": "whole-bag-00-pizza-dough",
+  "name": "Whole-Bag 00 Pizza Dough",
+  "category": "Dinner",
+  "emoji": "🍕",
+  "desc": "A full kilo of 00 and one whole yeast packet, scaled to zero leftovers. Six 12-inch pies",
+  "time": "24+ hrs",
+  "minutes": 1440,
+  "difficulty": "Medium",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1000 grams Type \"00\" flour (one full 1 kg bag)",
+      "qty": 1000,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "Type \"00\" flour (one full 1 kg bag)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "60 grams water, 100-110F",
+      "qty": 60,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "water, 100-110F",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 teaspoon sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "7 grams Fleischmann's Active Dry Yeast (one full packet)",
+      "qty": 7,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "Fleischmann's Active Dry Yeast (one full packet)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "570 grams water, room temperature",
+      "qty": 570,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "water",
+      "prep": "room temperature",
+      "note": null
+    },
+    {
+      "raw": "28 grams fine sea salt",
+      "qty": 28,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "fine sea salt",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Proof the yeast: Stir 1 teaspoon sugar into 60 grams water, 100-110F until dissolved, then sprinkle in 7 grams Fleischmann's Active Dry Yeast (one full packet). Leave it alone until it's foamy and smells alive. If nothing happens, the yeast is dead and the whole bag of flour is at risk, so check this before going further.",
+    "Mix the dough: Dump 1000 grams Type \"00\" flour (one full 1 kg bag) into a large bowl or stand mixer. Add 570 grams water, room temperature and the foamy yeast mixture. Mix on low or by hand just until no dry flour remains. It will look shaggy and ugly.",
+    "Rest before salt: Cover and let it sit. This autolyse hydrates the flour and cuts your kneading time roughly in half.",
+    "Add salt and knead: Sprinkle 28 grams fine sea salt over the dough and knead. Stand mixer on medium-low with a dough hook, or by hand on the counter. You're done when the dough is smooth, tacky but not sticky, and passes a windowpane test.",
+    "Bulk ferment: Ball it up, lightly oil the bowl, cover tightly. Let it rise at room temperature until noticeably puffy and roughly 50% larger. With 0.7% yeast this moves fast, so don't wander off.",
+    "Divide and ball: Turn out onto an unfloured counter. Divide into 6 pieces at 277g each. Shape each into a tight ball by dragging it against the counter to build surface tension. Tuck the seam underneath.",
+    "Cold ferment: Place balls in a lidded proofing box or on an oiled tray sealed with plastic wrap, spaced 2 inches apart. Refrigerate 24 hours . Do not push past 36 hours at this yeast level or they will overproof and tear when you open them.",
+    "Warm up: Pull the balls out and let them come fully to room temperature before shaping. Cold dough fights back and springs closed.",
+    "Shape and bake: Preheat your steel or stone at max oven temp for a full hour, top rack. Open each ball by hand from the center outward, leaving the outer inch untouched for the cornicione. Never use a rolling pin. Top lightly, launch, and bake until the crust is blistered and the cheese is bubbling. Switch to broiler for the last minute if your oven tops out at 500F."
+  ]
+}

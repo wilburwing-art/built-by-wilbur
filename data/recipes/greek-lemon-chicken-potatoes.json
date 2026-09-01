@@ -1,0 +1,96 @@
+{
+  "slug": "greek-lemon-chicken-potatoes",
+  "name": "Greek Lemon Chicken & Potatoes",
+  "category": "Dinner",
+  "emoji": "🍋",
+  "desc": "Oregano-lemon roasted chicken thighs with caramelized potatoes",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 lbs chicken thighs",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "chicken thighs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp kosher salt, 1 tbsp oregano, 1 tsp pepper, 1 tsp rosemary, pinch cayenne",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "kosher salt, 1 tbsp oregano, 1 tsp pepper, 1 tsp rosemary, pinch cayenne",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup lemon juice",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup olive oil",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 garlic cloves, minced",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "3 russet potatoes, quartered",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "russet potatoes",
+      "prep": "quartered",
+      "note": null
+    },
+    {
+      "raw": "2/3 cup chicken broth",
+      "qty": 0.6667,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chicken broth",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat oven to 425°F. Oil a roasting pan.",
+    "Season chicken with all spices. Add lemon juice, oil, and garlic. Add potatoes and toss.",
+    "Arrange chicken skin-side up. Drizzle with broth and remaining marinade.",
+    "Bake 20 min. Toss, keeping chicken skin-side up. Bake 25 more min to 165°F.",
+    "Broil potatoes 3 min until caramelized. Spoon pan juices over top."
+  ]
+}

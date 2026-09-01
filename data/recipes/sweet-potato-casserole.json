@@ -1,0 +1,106 @@
+{
+  "slug": "sweet-potato-casserole",
+  "name": "Sweet Potato Casserole",
+  "category": "Sides & Snacks",
+  "emoji": "🍠",
+  "desc": "Mashed sweet potatoes with brown sugar and pecans under toasted marshmallows",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3 pounds sweet potatoes, peeled and cut into cubes",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "sweet potatoes",
+      "prep": "peeled and cut into cubes",
+      "note": null
+    },
+    {
+      "raw": "½ cup brown sugar, packed",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "brown sugar",
+      "prep": "packed",
+      "note": null
+    },
+    {
+      "raw": "⅓ cup butter, softened",
+      "qty": 0.3333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": "softened",
+      "note": null
+    },
+    {
+      "raw": "½ teaspoon vanilla extract",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "¾ cup chopped pecans, divided",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chopped pecans",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "¼ teaspoon cinnamon (or to taste)",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cinnamon (or to taste)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups miniature marshmallows",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "miniature marshmallows",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat oven to 375°F. Grease a 9×13-inch pan.",
+    "Place sweet potatoes in a pot of boiling water and simmer for 15 minutes or until fork tender. Drain.",
+    "In a large bowl (or in the pot used for cooking), mash the sweet potatoes with brown sugar, butter, cinnamon, vanilla, salt, and pepper.",
+    "Fold in half of the pecans and spread the mixture into the prepared pan.",
+    "Sprinkle with marshmallows and the remaining pecans.",
+    "Bake for 25 minutes or until the marshmallows are golden brown and the casserole is heated through."
+  ]
+}

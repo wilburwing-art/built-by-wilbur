@@ -1,0 +1,76 @@
+{
+  "slug": "chipotle-fajita-veggies",
+  "name": "Chipotle Fajita Veggies",
+  "category": "Sides & Snacks",
+  "emoji": "🫑",
+  "desc": "Green pepper and red onion cooked down with oregano",
+  "time": "15 min",
+  "minutes": 15,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1/4 cup sunflower oil (or olive/avocado oil)",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sunflower oil (or olive/avocado oil)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 large green bell peppers, stemmed, cored, and sliced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large green bell peppers, stemmed, cored, and sliced",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large red onion, thinly sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large red onion",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1/2 teaspoon dried oregano",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat oil in a large skillet over medium-high until shimmering. Add peppers, onions, oregano, and salt to taste.",
+    "Cook, tossing occasionally, until slightly softened but still tender-crisp, about 7 minutes. Remove from heat and serve.",
+    "Chipotle Cilantro Lime Rice (Copycat)"
+  ]
+}

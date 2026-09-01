@@ -1,0 +1,76 @@
+{
+  "slug": "christmas-crack",
+  "name": "Christmas Crack",
+  "category": "Desserts",
+  "emoji": "🍫",
+  "desc": "Saltine toffee with melted chocolate, addictively sweet and salty",
+  "time": "2.5 hrs",
+  "minutes": 150,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Saltine crackers",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup butter",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup brown sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups chocolate chips",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chocolate chips",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Optional: nuts, sprinkles",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Lay crackers on foil-lined sheet. Boil butter and brown sugar 5 min.",
+    "Pour over crackers. Bake at 350°F 5 min.",
+    "Sprinkle chocolate chips, wait until shiny, spread. Add toppings. Chill 2 hrs. Break into pieces."
+  ]
+}

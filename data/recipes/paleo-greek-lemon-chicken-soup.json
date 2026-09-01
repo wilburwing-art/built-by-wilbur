@@ -1,0 +1,168 @@
+{
+  "slug": "paleo-greek-lemon-chicken-soup",
+  "name": "Paleo Greek Lemon Chicken Soup",
+  "category": "Dinner",
+  "emoji": "🍋",
+  "desc": "Avgolemono with riced cauliflower instead of orzo",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 tbsp olive oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 yellow onion, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "yellow onion",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "3 cloves garlic, minced",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1 cup carrot, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "carrot",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "2 cups cauliflower, riced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cauliflower, riced",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 cups chicken broth",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chicken broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup lemon juice",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lb shredded chicken, precooked",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "shredded chicken, precooked",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp dried dill",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried dill",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp fresh parsley (reserve some for topping)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh parsley (reserve some for topping)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp salt (salt further to taste)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt (salt further to taste)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper (omit for AIP)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper (omit for AIP)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup kale, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "kale",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "3 egg yolks (omit for AIP)",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "egg yolks (omit for AIP)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Lemon wedges and lemon zest to serve",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Using a large stockpot, heat the oil on medium-low heat.",
+    "Saute the onions on low heat for 3-4 minutes or until lightly translucent. Add the carrots and cauliflower rice and saute for an additional 5 minutes or until slightly softened.",
+    "Pour in the broth, lemon juice, and herbs and stir well to combine. Simmer on medium heat for 15 minutes. Add the cooked chicken and kale and stir to wilt the kale for about 4-5 minutes.",
+    "(Skip this step for AIP) In a small bowl whisk together the egg yolks until fully scrambled. Scoop out about a cup of hot broth from the soup. Slowly and carefully pour the cup of hot broth into the egg mixture while continuing to whisk. This will gently cook the egg yolks and make a thick sauce. Pour the yolk mixture into the rest of the soup and stir well to combine. Remove from the heat.",
+    "Allow the soup to cool and season further to taste. Serve with lemon wedges and fresh parsley."
+  ]
+}

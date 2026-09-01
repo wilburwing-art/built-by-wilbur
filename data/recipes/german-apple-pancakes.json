@@ -1,0 +1,104 @@
+{
+  "slug": "german-apple-pancakes",
+  "name": "German Apple Pancakes",
+  "category": "Breakfast",
+  "emoji": "🍎",
+  "desc": "Pannekoeken: cinnamon-sugar apples baked in a custardy batter",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 eggs, beaten",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": "beaten",
+      "note": null
+    },
+    {
+      "raw": "1 cup milk",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup flour",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup sugar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp cinnamon",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 gala apples, cut in wedges",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "gala apples",
+      "prep": "cut in wedges",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup butter for greasing",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "butter for greasing",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Whisk eggs, milk, flour, and salt until smooth.",
+    "Toss apple wedges in sugar and cinnamon mixture.",
+    "Grease a 13x9 pan with butter. Add apples and cover with batter.",
+    "Bake at 375°F for 30-35 minutes."
+  ]
+}

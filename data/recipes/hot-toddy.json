@@ -1,0 +1,75 @@
+{
+  "slug": "hot-toddy",
+  "name": "Hot Toddy",
+  "category": "Drinks",
+  "emoji": "🥃",
+  "desc": "Warm whiskey with honey, lemon juice, and hot water",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3/4 cup hot water",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "hot water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 oz whiskey",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "whiskey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2-3 tsp honey",
+      "qty": 2,
+      "qtyMax": 3,
+      "unit": "tsp",
+      "item": "honey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2-3 tsp lemon juice",
+      "qty": 2,
+      "qtyMax": 3,
+      "unit": "tsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Lemon round",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Combine whiskey, honey, and lemon juice in a mug.",
+    "Pour hot water over top. Stir. Garnish with lemon."
+  ]
+}

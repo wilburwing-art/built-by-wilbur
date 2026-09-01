@@ -1,0 +1,67 @@
+{
+  "slug": "green-bean-casserole",
+  "name": "Green Bean Casserole",
+  "category": "Sides & Snacks",
+  "emoji": "🫛",
+  "desc": "The classic: green beans, cream of mushroom, cheddar, and fried onions",
+  "time": "20 min",
+  "minutes": 20,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 cans green beans",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "green beans",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 can cream of mushroom soup",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "cream of mushroom soup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 can French fried onions",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "French fried onions",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded cheddar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded cheddar",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Mix green beans and soup. Microwave until warm. Stir in 1/2 cup cheese.",
+    "Transfer to casserole. Top with onions and remaining cheese.",
+    "Bake at 350°F until cheese melts and onions brown."
+  ]
+}

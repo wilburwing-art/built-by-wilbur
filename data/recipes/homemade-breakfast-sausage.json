@@ -1,0 +1,103 @@
+{
+  "slug": "homemade-breakfast-sausage",
+  "name": "Homemade Breakfast Sausage",
+  "category": "Breakfast",
+  "emoji": "🥓",
+  "desc": "Ground pork with sage, thyme, brown sugar, and red pepper flakes",
+  "time": "15 min",
+  "minutes": 15,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 lb ground pork",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "ground pork",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Brown sugar",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Crushed red pepper flakes",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Garlic powder",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Thyme",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sage",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Mix all ingredients into the ground pork until well combined.",
+    "Form into patties.",
+    "Cook in a skillet over medium heat until browned and cooked through on both sides."
+  ]
+}

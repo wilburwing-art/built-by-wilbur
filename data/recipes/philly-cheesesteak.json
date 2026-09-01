@@ -1,0 +1,124 @@
+{
+  "slug": "philly-cheesesteak",
+  "name": "Philly Cheesesteak",
+  "category": "Dinner",
+  "emoji": "🥪",
+  "desc": "Ribeye, caramelized onions and provolone on a garlic-buttered hoagie",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 lb ribeye steak, trimmed and thinly sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "ribeye steak",
+      "prep": "trimmed and thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp sea salt, or to taste",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sea salt, or to taste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper, or to taste",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper, or to taste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large sweet onion, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large sweet onion",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "8 slices mild provolone cheese (not aged)",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "mild provolone cheese (not aged)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 hoagie rolls, sliced 3/4 through",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "hoagie rolls",
+      "prep": "sliced 3/4 through",
+      "note": null
+    },
+    {
+      "raw": "2 tablespoons unsalted butter, softened",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": "softened",
+      "note": null
+    },
+    {
+      "raw": "1 garlic clove, pressed",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic clove, pressed",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tablespoons mayonnaise, or to taste",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "mayonnaise, or to taste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tablespoons neutral oil, divided",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "neutral oil",
+      "prep": "divided",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Toast the buns: mix the softened butter with the pressed garlic, spread on the cut sides of the hoagie rolls, and toast on a skillet or griddle over medium heat until golden. Set aside.",
+    "Caramelize the onions: add 1 tbsp of the oil to the pan and saute the diced onion until softened. Salt lightly and keep cooking until caramelized, then transfer to a bowl.",
+    "Cook the steak: raise the heat to high and add the remaining oil. Spread the sliced ribeye in an even layer and let it brown undisturbed for a couple of minutes.",
+    "Flip, season with the salt and pepper, and saute until cooked through, then stir the caramelized onions back in.",
+    "Melt the cheese: divide the meat into four piles, lay two slices of provolone over each, and cover briefly until melted.",
+    "Spread mayonnaise on the toasted rolls and scoop a pile of meat and cheese into each."
+  ]
+}

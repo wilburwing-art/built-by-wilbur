@@ -1,0 +1,88 @@
+{
+  "slug": "baked-chicken-wings",
+  "name": "Baked Chicken Wings",
+  "category": "Dinner",
+  "emoji": "🍗",
+  "desc": "Garlicky chili-rubbed wings baked low then hot so the skin crisps",
+  "time": "1.5 hrs",
+  "minutes": 90,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 lbs chicken wings",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "chicken wings",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 cup olive oil",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "12 cloves garlic, pressed (about 4 tbsp minced)",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic, pressed (about 4 tbsp minced)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp plus 2 tsp chili powder",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "plus 2 tsp chili powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 tsp garlic powder",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 to 3 tsp salt and 1 to 2 tsp black pepper, to taste",
+      "qty": 2,
+      "qtyMax": 3,
+      "unit": "tsp",
+      "item": "salt and 1 to 2 tsp black pepper",
+      "prep": "to taste",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat oven to 375°F (190°C).",
+    "In a large bowl or gallon-size resealable bag, combine olive oil, garlic, chili powder, garlic powder, salt, and pepper.",
+    "Add chicken wings and toss or shake to coat evenly.",
+    "Arrange wings on a large rimmed baking sheet (or 2 sheets for spacing).",
+    "Bake for 60-75 minutes, flipping halfway through, until crispy and cooked through (internal temp should hit 165°F).",
+    "Optional: Broil for the last 3-5 minutes for extra crispiness."
+  ]
+}

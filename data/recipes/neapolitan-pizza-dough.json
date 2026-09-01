@@ -1,0 +1,72 @@
+{
+  "slug": "neapolitan-pizza-dough",
+  "name": "Neapolitan Pizza Dough",
+  "category": "Dinner",
+  "emoji": "🍕",
+  "desc": "Four ingredients and a full day of fermentation, mixed by hand",
+  "time": "24+ hrs",
+  "minutes": 1440,
+  "difficulty": "Medium",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "922 g tipo 00 pizza flour",
+      "qty": 922,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "tipo 00 pizza flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "553 ml cool water, 60 to 72F",
+      "qty": 553,
+      "qtyMax": null,
+      "unit": "ml",
+      "item": "cool water, 60 to 72F",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "23 g fine sea salt",
+      "qty": 23,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "fine sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 g fresh yeast",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "fresh yeast",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Add the water to a mixing bowl and dissolve the salt in it.",
+    "Add about 10 percent of the flour, mixing with your hands or a wooden spoon until it has a smooth, batter-like consistency.",
+    "Add the yeast and dissolve it. Keeping it out of direct contact with the salt is the reason for the order.",
+    "Add the rest of the flour gradually, mixing until it comes together into a shaggy dough.",
+    "Knead 10 to 15 minutes until smooth and elastic. It should pass a windowpane test.",
+    "Cover and bulk ferment at room temperature about 2 hours.",
+    "Divide into 250 g balls, place in a covered proofing box, and ferment 22 to 24 hours total.",
+    "Stretch by hand, never with a rolling pin, and bake as hot as your oven will go."
+  ]
+}

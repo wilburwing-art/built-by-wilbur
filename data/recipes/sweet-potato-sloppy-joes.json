@@ -1,0 +1,131 @@
+{
+  "slug": "sweet-potato-sloppy-joes",
+  "name": "Sweet Potato Sloppy Joes",
+  "category": "Dinner",
+  "emoji": "🍠",
+  "desc": "Whole30 beef and tomato filling piled into roasted sweet potatoes",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 sweet potatoes",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "sweet potatoes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp ghee",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "ghee",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 yellow onion",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "yellow onion",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 garlic cloves",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 red bell pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red bell pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt, pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lb ground beef",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "ground beef",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 oz tomato paste",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "tomato paste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp coconut aminos",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "coconut aminos",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp smoked paprika",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "smoked paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Scallion",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Bake sweet potatoes at 400°F for 45-60 min.",
+    "Saute onion, garlic, and pepper 5-7 min.",
+    "Add beef and paprika. Stir in tomato paste and coconut aminos.",
+    "Slit potatoes open and fill. Garnish with scallion."
+  ]
+}

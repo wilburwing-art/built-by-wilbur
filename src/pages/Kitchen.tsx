@@ -481,6 +481,17 @@ export function Kitchen() {
                 <div>
                   <h2>{viewingRecipe.name}</h2>
                   <p className="modal-desc">{viewingRecipe.desc}</p>
+                  {viewingRecipe.source.url && (
+                    <a
+                      className="modal-source"
+                      href={viewingRecipe.source.url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {viewingRecipe.source.matchType === "original" ? "Source" : "Closest match"}:{" "}
+                      {viewingRecipe.source.site ?? new URL(viewingRecipe.source.url).hostname} ↗
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
@@ -535,6 +546,12 @@ export function Kitchen() {
                       Metric
                     </button>
                   </div>
+                  {viewingRecipe.servings.count !== null && (
+                    <span className="serves-note">
+                      Serves {viewingRecipe.servings.basis === "estimated" ? "~" : ""}
+                      {Math.round(viewingRecipe.servings.count * scale * 2) / 2}
+                    </span>
+                  )}
                 </div>
                 <div className="ing-box">
                   {viewingRecipe.ingredients.map((ing, i) => {
@@ -546,17 +563,17 @@ export function Kitchen() {
                           style={{ background: CATEGORY_COLORS[viewingRecipe.category] }}
                         />
                         <span className="ingredient-text">
-                          {displayIngredient(ing, scale, units)}
+                          {displayIngredient(ing.raw, scale, units)}
                         </span>
-                        {!isHeading(ing) && (
+                        {!isHeading(ing.raw) && (
                           <button
                             className={`ing-add ${onList ? "on" : ""}`}
-                            onClick={() => toggleIngredient(viewingRecipe, i, ing)}
+                            onClick={() => toggleIngredient(viewingRecipe, i, ing.raw)}
                             aria-pressed={onList}
                             aria-label={
                               onList
-                                ? `Remove ${ing} from shopping list`
-                                : `Add ${ing} to shopping list`
+                                ? `Remove ${ing.raw} from shopping list`
+                                : `Add ${ing.raw} to shopping list`
                             }
                           >
                             {onList ? "✓" : "+"}

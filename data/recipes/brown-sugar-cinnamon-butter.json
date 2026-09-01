@@ -1,0 +1,57 @@
+{
+  "slug": "brown-sugar-cinnamon-butter",
+  "name": "Brown Sugar-Cinnamon Butter",
+  "category": "Sides & Snacks",
+  "emoji": "🧈",
+  "desc": "Whipped butter with dark brown sugar and cinnamon for toast or cornbread",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "½ cup butter, softened",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": "softened",
+      "note": null
+    },
+    {
+      "raw": "¼ cup dark brown sugar",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "dark brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "¼ teaspoon ground cinnamon",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Instructions Checklist",
+    "Beat butter, brown sugar, and cinnamon together in a bowl with an electric mixer until creamy and smooth.n"
+  ]
+}

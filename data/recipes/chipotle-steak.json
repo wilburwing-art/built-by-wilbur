@@ -1,0 +1,105 @@
+{
+  "slug": "chipotle-steak",
+  "name": "Chipotle Steak",
+  "category": "Dinner",
+  "emoji": "🥩",
+  "desc": "Ancho and adobo marinated sirloin, seared and chopped",
+  "time": "13 hrs",
+  "minutes": 780,
+  "difficulty": "Medium",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3 cloves garlic",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tablespoons adobo sauce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "adobo sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tablespoons ancho chile powder",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "ancho chile powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tablespoons olive oil or rice bran oil, plus more for cooking",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil or rice bran oil",
+      "prep": "plus more for cooking",
+      "note": null
+    },
+    {
+      "raw": "2 teaspoons ground cumin",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 teaspoons dried oregano",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and freshly ground black pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 pounds steak (sirloin, round steak, or flat iron steak)",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "steak (sirloin, round steak, or flat iron steak)",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Make the Marinade: In a food processor or blender, combine garlic, adobo sauce, ancho chile powder, olive oil, cumin, oregano, 1 tablespoon salt, and 1 teaspoon pepper. Blend until smooth, adding a bit of water if needed to fully blend.",
+    "Marinate the Steak: Add steak and marinade to a large resealable bag or bowl, tossing to coat evenly. Let marinate at room temperature for 30 minutes or up to 12 hours in the refrigerator. Bring to room temperature for at least 30 minutes before cooking.",
+    "Cook the Steak: In a large skillet over medium-high heat, heat 2 tablespoons olive oil until shimmering. Add marinated steak and cook, stirring occasionally, until internal temperature reaches 120-125°F for rare or 130-135°F for medium-rare. Cook in batches if needed.",
+    "Rest and Serve: Transfer steak to a cutting board, tent with foil, and let rest for 10 minutes. Chop into small pieces, season with salt, and serve with rice, beans, guacamole, and salsa.",
+    "Fajita Veggies (Chipotle Copycat)"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "homemade-chicken-ramen",
+  "name": "Homemade Chicken Ramen",
+  "category": "Dinner",
+  "emoji": "🍜",
+  "desc": "Rich broth with roasted chicken, noodles, and a soft-boiled egg",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 chicken breasts",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "chicken breasts",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Butter",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sesame oil",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Ginger, garlic",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp soy sauce",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp mirin",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "mirin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 cups chicken stock",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chicken stock",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Dried shiitake mushrooms",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 eggs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Scallions",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 packs ramen noodles",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "packs ramen noodles",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Sear chicken in butter, roast at 375°F 15-20 min. Rest and slice.",
+    "Cook garlic and ginger in sesame oil. Add soy sauce, mirin, and stock. Simmer with mushrooms 15 min.",
+    "Boil eggs 7-8 min. Ice bath, peel, and halve.",
+    "Cook noodles 2-3 min. Divide into bowls.",
+    "Top with chicken, broth, scallions, and egg."
+  ]
+}

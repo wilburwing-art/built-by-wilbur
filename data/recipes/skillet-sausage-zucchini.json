@@ -1,0 +1,94 @@
+{
+  "slug": "skillet-sausage-zucchini",
+  "name": "Skillet Sausage & Zucchini",
+  "category": "Dinner",
+  "emoji": "🍳",
+  "desc": "Quick 20-minute sausage with zucchini, peppers, and herbs",
+  "time": "20 min",
+  "minutes": 20,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 1/2 tbsp oil",
+      "qty": 2.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 cooked sausages, sliced",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "cooked sausages",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "2 medium zucchini, cubed",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium zucchini",
+      "prep": "cubed",
+      "note": null
+    },
+    {
+      "raw": "1 onion, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "onion",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 bell pepper, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "bell pepper",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "Oregano, basil, garlic powder, onion powder, salt, pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp minced garlic",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "minced garlic",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Brown sausage in 1 tbsp oil. Remove.",
+    "Cook zucchini, onion, and pepper with spices 5-10 min.",
+    "Add sausage back with garlic. Cover 1-2 min. Garnish with fresh basil."
+  ]
+}

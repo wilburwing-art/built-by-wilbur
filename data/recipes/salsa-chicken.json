@@ -1,0 +1,77 @@
+{
+  "slug": "salsa-chicken",
+  "name": "Salsa Chicken",
+  "category": "Dinner",
+  "emoji": "🍗",
+  "desc": "The simplest baked chicken: taco seasoning, salsa, and melted cheddar",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 chicken breasts",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "chicken breasts",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 tsp taco seasoning",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "taco seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup salsa",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "salsa",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded cheddar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded cheddar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sour cream (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat to 375°F. Place chicken in a greased dish.",
+    "Season both sides with taco seasoning. Pour salsa over all.",
+    "Bake 25-35 min until juices run clear.",
+    "Top with cheese, bake 3-5 more min."
+  ]
+}

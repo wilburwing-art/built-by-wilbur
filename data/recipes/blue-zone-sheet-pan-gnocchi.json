@@ -1,0 +1,125 @@
+{
+  "slug": "blue-zone-sheet-pan-gnocchi",
+  "name": "Blue Zone Sheet Pan Gnocchi",
+  "category": "Dinner",
+  "emoji": "🫒",
+  "desc": "Lentils, gnocchi, and roasted veggies with Greek dressing and goat cheese",
+  "time": "40 min",
+  "minutes": 40,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "19 oz can lentils, drained",
+      "qty": 19,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "can lentils",
+      "prep": "drained",
+      "note": null
+    },
+    {
+      "raw": "1 pint baby tomatoes, halved",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pint",
+      "item": "baby tomatoes",
+      "prep": "halved",
+      "note": null
+    },
+    {
+      "raw": "1 yellow pepper, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "yellow pepper",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 small eggplant, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small eggplant",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 red onion, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red onion",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "2 garlic cloves, chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "500g potato gnocchi",
+      "qty": 500,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "potato gnocchi",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Dressing: 1/2 cup olive oil, 1/2 tbsp oregano, 1/2 tsp salt, pepper, juice of 1 lemon, 1/2 tbsp red wine vinegar, 2 garlic cloves",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "100g goat cheese",
+      "qty": 100,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "goat cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup fresh herbs (parsley, dill, mint)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh herbs (parsley, dill, mint)",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat oven to 400°F. Line a baking sheet with parchment.",
+    "Mix all dressing ingredients and set aside.",
+    "Add lentils, tomatoes, pepper, eggplant, onion, gnocchi, and garlic to the pan.",
+    "Drizzle dressing over everything and toss well.",
+    "Bake 25 minutes, tossing at 15 minutes.",
+    "Crumble goat cheese over pan, bake 5 more minutes.",
+    "Top with fresh herbs, olive oil drizzle, and optional olives."
+  ]
+}

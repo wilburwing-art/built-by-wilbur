@@ -1,0 +1,93 @@
+{
+  "slug": "kahlua-hot-chocolate",
+  "name": "Kahlua Hot Chocolate",
+  "category": "Drinks",
+  "emoji": "☕",
+  "desc": "Cozy cocoa spiked with Kahlua, topped with marshmallows and caramel",
+  "time": "10 min",
+  "minutes": 10,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 cups milk",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tbsp cocoa powder",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cocoa powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp cinnamon",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Pinch nutmeg",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 oz Kahlua",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "Kahlua",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Marshmallows, caramel, chocolate syrup",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat milk, sugar, cocoa, cinnamon, and nutmeg 2-3 min.",
+    "Stir in Kahlua. Top with marshmallows and drizzles."
+  ]
+}

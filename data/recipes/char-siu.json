@@ -1,0 +1,163 @@
+{
+  "slug": "char-siu",
+  "name": "Char Siu",
+  "category": "Dinner",
+  "emoji": "🥓",
+  "desc": "Chinese BBQ pork shoulder lacquered with honey, hoisin and five spice",
+  "time": "9 hrs",
+  "minutes": 540,
+  "difficulty": "Medium",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3 pounds boneless pork shoulder/pork butt(select a piece with some good fat on it)",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless pork shoulder/pork butt(select a piece with some good fat on it)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "¼ cup granulated white sugar",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "granulated white sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 teaspoons salt",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "½ teaspoon five spice powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "five spice powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "¼ teaspoon white pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "white pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "½ teaspoon sesame oil",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tablespoon Shaoxing rice wine (or dry cooking sherry; optional)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Shaoxing rice wine (or dry cooking sherry; optional)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tablespoon soy sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tablespoon hoisin sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "hoisin sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 teaspoons molasses",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "molasses",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/8 teaspoon red food coloring (optional)",
+      "qty": 0.125,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "red food coloring (optional)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 cloves finely minced garlic",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "finely minced garlic",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tablespoons maltose or honey",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "maltose or honey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tablespoon hot water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "hot water",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Cut the pork into long strips or chunks about 2 to 3 inches thick. Don’t trim any excess fat, as it will render off and add flavor.",
+    "Combine the sugar, salt, five spice powder, white pepper, sesame oil, wine, soy sauce, hoisin sauce, molasses, food coloring (if using), and garlic in a bowl to make the marinade (i.e. the BBQ sauce).",
+    "Reserve about 2 tablespoons of marinade and set it aside. Rub the pork with the rest of the marinade in a large bowl or baking dish. Cover and refrigerate overnight, or at least 8 hours. Cover and store the reserved marinade in the fridge as well.",
+    "Preheat your oven to 'bake' at 475 F (246 C) with a rack positioned in the upper third of the oven. (If you only have a convection oven, keep in mind the oven not only heats more quickly, your char siu will roast faster than what we have described here). It's amazing how oven temperatures can vary-from model to model, in different spots in the oven, and in how ovens pre-heat and maintain heat. Using an oven thermometer to double-check the actual oven temperature is a great safeguard to monitor your food (I say double-check because even oven thermostat calibrations vary and can sometimes be incorrect). Regardless, be sure to check your char siu every 10 minutes, reducing or increasing the temperature as needed.",
+    "Line a sheet pan with foil and place a metal rack on top. Using the metal rack keeps the pork off of the pan and allows it to roast more evenly, like it does in commercial ovens described above. Place the pork on the rack, leaving as much space as possible between pieces. Pour 1 ½ cups water into the pan below the rack. This prevents any drippings from burning or smoking.",
+    "Transfer the pork to your preheated oven. Roast for 25 minutes, keeping the oven setting at 475 F for the first 10 minutes of roasting, and then reduce your oven temperature to 375 F (190 C). After 25 minutes, flip the pork. If the bottom of the pan is dry, add another cup of water. Turn the pan 180 degrees to ensure even roasting. Roast another 15 minutes. Throughout the roasting time, check your char siu often (every 10 minutes) and reduce the oven temperature if it looks like it is burning!",
+    "Meanwhile, combine the reserved marinade with the maltose or honey (maltose is very viscous--you can heat it up in the microwave to make it easier to work with) and 1 tablespoon hot water. This will be the sauce you’ll use for basting the pork.",
+    "After 40 minutes of total roasting time, baste the pork, flip it, and baste the other side as well. Roast for a final 10 minutes.",
+    "Remove from the oven and baste with the last bit of reserved BBQ sauce. Let the meat rest for 10 minutes before slicing, and enjoy!"
+  ]
+}

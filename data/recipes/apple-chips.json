@@ -1,0 +1,49 @@
+{
+  "slug": "apple-chips",
+  "name": "Apple Chips",
+  "category": "Sides & Snacks",
+  "emoji": "🍎",
+  "desc": "Thinly sliced apples baked low and slow until crispy",
+  "time": "40 min",
+  "minutes": 40,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Apples",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt, pepper, chat masala",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat oven. Core apples, slice very thin.",
+    "Place on parchment without overlap.",
+    "Bake 15-20 min, flip, bake 10 more min until crisp. Season."
+  ]
+}

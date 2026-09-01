@@ -1,0 +1,86 @@
+{
+  "slug": "hash-browns",
+  "name": "Hash Browns",
+  "category": "Breakfast",
+  "emoji": "🥔",
+  "desc": "Crispy shredded potatoes with onion, pan-fried until golden",
+  "time": "20 min",
+  "minutes": 20,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 medium russet potatoes, shredded",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium russet potatoes",
+      "prep": "shredded",
+      "note": null
+    },
+    {
+      "raw": "1/2 medium onion, finely chopped",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium onion",
+      "prep": "finely chopped",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup flour",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 egg",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "egg",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup oil for frying",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "oil for frying",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt, pepper, paprika, cayenne to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Rinse shredded potatoes until water is clear, then drain and squeeze dry. Mix with onion, flour, and egg.",
+    "Heat about 1/4 inch of oil in a heavy skillet over medium-high heat.",
+    "Place potatoes in pan in a 1/2 inch thick layer. Cook until nicely browned on bottom, then flip. About 5 minutes per side.",
+    "Drain on paper towels. Season and serve immediately."
+  ]
+}

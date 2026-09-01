@@ -1,0 +1,95 @@
+{
+  "slug": "maraschino-margarita",
+  "name": "Maraschino Margarita",
+  "category": "Drinks",
+  "emoji": "🍒",
+  "desc": "Pineapple and Luxardo maraschino behind the tequila, built in parts",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 parts tequila",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "part",
+      "item": "tequila",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 part fresh lime juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "part",
+      "item": "fresh lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5 parts pineapple juice",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": "part",
+      "item": "pineapple juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 part Cointreau",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "part",
+      "item": "Cointreau",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 part Luxardo maraschino liqueur",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "part",
+      "item": "Luxardo maraschino liqueur",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 part Grand Marnier",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "part",
+      "item": "Grand Marnier",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Ice, plus a lime wedge and salt for the rim",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Rub a lime wedge around the glass rim, dip in salt, and fill the glass with fresh ice.",
+    "Add all the liquid ingredients to a shaker with ice.",
+    "Shake vigorously until the outside of the shaker frosts.",
+    "Strain into the glass and garnish with a lime wheel."
+  ]
+}

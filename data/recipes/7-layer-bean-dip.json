@@ -1,0 +1,76 @@
+{
+  "slug": "7-layer-bean-dip",
+  "name": "7 Layer Bean Dip",
+  "category": "Sides & Snacks",
+  "emoji": "🫘",
+  "desc": "Layered refried beans, cream cheese, salsa, cheese, and all the toppings",
+  "time": "15 min",
+  "minutes": 15,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 packet taco seasoning",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "packet",
+      "item": "taco seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 can refried beans",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "refried beans",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "8 oz cream cheese",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "cream cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "16 oz sour cream",
+      "qty": 16,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "sour cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salsa, tomato, green pepper, green onions, lettuce, black olives, 2 cups cheddar",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Mix taco seasoning into beans. Spread as base layer.",
+    "Blend cream cheese and sour cream. Spread on top.",
+    "Layer salsa, veggies, olives, and cheddar. Serve with chips."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "rice-krispies-treats",
+  "name": "Rice Krispies Treats",
+  "category": "Desserts",
+  "emoji": "🍚",
+  "desc": "Gooey marshmallow and butter cereal bars, soft and chewy",
+  "time": "1.5 hrs",
+  "minutes": 90,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "6 tbsp butter",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "16 oz mini marshmallows",
+      "qty": 16,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "mini marshmallows",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp vanilla",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 cups Rice Krispies",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Rice Krispies",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Melt butter, add all but 1 cup marshmallows. Stir until melted.",
+    "Remove from heat. Add vanilla, cereal, and reserved marshmallows.",
+    "Press gently into parchment-lined dish. Set 1 hour."
+  ]
+}

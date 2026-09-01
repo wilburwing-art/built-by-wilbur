@@ -1,0 +1,116 @@
+{
+  "slug": "trader-joe-s-caramel-banana-iced-latte",
+  "name": "Trader Joe's Caramel Banana Iced Latte",
+  "category": "Drinks",
+  "emoji": "🍌",
+  "desc": "Freeze-dried banana syrup, espresso, salted caramel and frothed milk over ice",
+  "time": "10 min",
+  "minutes": 10,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3 tablespoons freeze-dried banana slices (Trader Joe's), crushed",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "freeze-dried banana slices (Trader Joe's)",
+      "prep": "crushed",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp brown sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tablespoons hot water",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "hot water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 espresso shots, freshly brewed",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "espresso shots",
+      "prep": "freshly brewed",
+      "note": null
+    },
+    {
+      "raw": "2 tablespoons salted caramel sauce (Trader Jacques Fleur de Sel)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "salted caramel sauce (Trader Jacques Fleur de Sel)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup ice cubes",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "ice cubes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup whole milk (or milk of choice)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "whole milk (or milk of choice)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp vanilla sugar (Trader Joe's), for dusting",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla sugar (Trader Joe's)",
+      "prep": "for dusting",
+      "note": null
+    },
+    {
+      "raw": "2 fresh banana slices, for garnish",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fresh banana slices",
+      "prep": "for garnish",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Make banana powder: put the freeze-dried banana slices in a zip-top bag and crush with a rolling pin until finely powdered.",
+    "Build the banana base: in a small jar, combine the banana powder, brown sugar and hot water. Stir into a thick syrup.",
+    "Brew the espresso directly over the banana syrup and stir to combine.",
+    "Prep the glass: drizzle the salted caramel around the inside walls of a tall glass, swirling to coat, then fill with ice.",
+    "Froth the milk in a small pitcher or jar until light and foamy.",
+    "Pour the espresso banana mixture over the ice, then top with the frothed milk.",
+    "Dust with vanilla sugar and float the fresh banana slices on the foam. Serve immediately."
+  ]
+}

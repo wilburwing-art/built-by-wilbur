@@ -1,0 +1,94 @@
+{
+  "slug": "lemon-garlic-marinated-shrimp",
+  "name": "Lemon-Garlic Marinated Shrimp",
+  "category": "Sides & Snacks",
+  "emoji": "🦐",
+  "desc": "Cooked shrimp tossed in warm garlic oil, lemon and parsley",
+  "time": "10 min",
+  "minutes": 10,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3 tablespoons minced garlic",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "minced garlic",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tablespoons extra-virgin olive oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "extra-virgin olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "¼ cup lemon juice",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "¼ cup minced fresh parsley",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "minced fresh parsley",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "½ teaspoon kosher salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "½ teaspoon pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 ¼ pounds cooked shrimp",
+      "qty": 1.25,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "cooked shrimp",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Place the garlic and oil in a small skillet and cook over medium heat until fragrant, about 1 minute.",
+    "Add the lemon juice, parsley, salt and pepper and stir.",
+    "Toss with the cooked shrimp and marinate in an airtight container in the refrigerator for up to 2 hours before serving."
+  ]
+}

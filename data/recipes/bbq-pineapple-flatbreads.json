@@ -1,0 +1,113 @@
+{
+  "slug": "bbq-pineapple-flatbreads",
+  "name": "BBQ Pineapple Flatbreads",
+  "category": "Dinner",
+  "emoji": "🍕",
+  "desc": "Caramelized onion and pineapple flatbreads with BBQ sauce and two cheeses",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 red onion",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red onion",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 poblano pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "poblano pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 flatbreads",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "flatbreads",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 oz pineapple",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "pineapple",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 oz fresh mozzarella",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "fresh mozzarella",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 tbsp BBQ sauce",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "BBQ sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5 tsp red wine vinegar",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "red wine vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 oz cilantro",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "cilantro",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup Monterey Jack",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Monterey Jack",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat oven to 450°F. Pickle 1/4 of onion in pineapple juice and vinegar.",
+    "Cook remaining onion until softened. Add pineapple, cook until caramelized.",
+    "Brush flatbreads with oil. Top with BBQ sauce, caramelized mixture, poblano strips, and cheeses.",
+    "Bake 10-12 min until cheese melts. Top with cilantro and pickled onion."
+  ]
+}

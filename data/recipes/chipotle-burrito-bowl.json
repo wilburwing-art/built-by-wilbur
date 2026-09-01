@@ -1,0 +1,97 @@
+{
+  "slug": "chipotle-burrito-bowl",
+  "name": "Chipotle Burrito Bowl",
+  "category": "Lunch",
+  "emoji": "🍚",
+  "desc": "Copycat Chipotle bowl with cilantro lime rice, chicken, corn salsa, and guac",
+  "time": "50 min",
+  "minutes": 50,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 lbs chicken thighs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "chicken thighs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Marinade: 1/4 red onion, 2 garlic cloves, 1 tbsp adobo sauce, 1 tbsp ancho chile powder, 1 tbsp oil, 1 tsp cumin, 1 tsp oregano",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Rice: 1 cup basmati, 1 bay leaf, cilantro, lemon and lime juice",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Corn salsa: 12 oz corn, 1/4 cup red onion, 1 poblano, 1 jalapeno, cilantro, citrus juice",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Tomato salsa: 1 lb tomatoes, onion, cilantro, jalapenos, lime",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Guac: 2 avocados, lemon, lime, onion, jalapeno, cilantro",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Black beans, cheddar cheese for assembly",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Blend marinade ingredients. Marinate chicken at least 30 min or overnight.",
+    "Cook chicken in oiled skillet to 165°F. Chop into pieces.",
+    "Boil rice with bay leaf and salt 10-12 min. Drain, rinse, stir in cilantro and citrus juices.",
+    "Make corn salsa: cook corn, toss with onion, peppers, cilantro, and citrus.",
+    "Make tomato salsa and guacamole by combining their respective ingredients.",
+    "Assemble bowls: rice, chicken, beans, salsas, guac, and cheese."
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "6-can-chicken-tortilla-soup",
+  "name": "6-Can Chicken Tortilla Soup",
+  "category": "Dinner",
+  "emoji": "🍲",
+  "desc": "Dump-and-go soup with chicken, corn, black beans, and green chiles",
+  "time": "20 min",
+  "minutes": 20,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 can corn",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "corn",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cans chicken broth",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "chicken broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 can chunk chicken",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "chunk chicken",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 can black beans",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "black beans",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 can diced tomatoes with green chiles",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "diced tomatoes with green chiles",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Cilantro, sour cream, cumin, chili powder, taco seasoning",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Open all cans. Pour into a large saucepan.",
+    "Add seasonings to taste.",
+    "Simmer until heated through. Serve with toppings."
+  ]
+}

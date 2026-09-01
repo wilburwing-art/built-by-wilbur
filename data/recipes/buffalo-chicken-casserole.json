@@ -1,0 +1,122 @@
+{
+  "slug": "buffalo-chicken-casserole",
+  "name": "Buffalo Chicken Casserole",
+  "category": "Dinner",
+  "emoji": "🔥",
+  "desc": "Roasted cauliflower and chicken in creamy buffalo sauce with melted cheese",
+  "time": "50 min",
+  "minutes": 50,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 head cauliflower",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "head",
+      "item": "cauliflower",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Olive oil",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "12 oz cream cheese",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "cream cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup buffalo sauce",
+      "qty": 0.3333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "buffalo sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup ranch",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "ranch",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Green onions",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Garlic powder",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups rotisserie chicken",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "rotisserie chicken",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup cheddar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cheddar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup gouda",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "gouda",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Roast cauliflower with oil at 450°F 20 min. Reduce to 350°F.",
+    "Mix cream cheese, buffalo sauce, ranch, green onions, and garlic powder.",
+    "Toss chicken with cauliflower. Spread cream cheese mixture on top.",
+    "Top with cheeses. Bake 20 min. Garnish with ranch and green onions."
+  ]
+}

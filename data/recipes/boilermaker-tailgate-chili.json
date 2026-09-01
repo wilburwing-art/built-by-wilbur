@@ -1,0 +1,112 @@
+{
+  "slug": "boilermaker-tailgate-chili",
+  "name": "Boilermaker Tailgate Chili",
+  "category": "Dinner",
+  "emoji": "🌶️",
+  "desc": "Loaded beef and sausage chili with beans, beer, and all the fixings",
+  "time": "2.5 hrs",
+  "minutes": 150,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 lbs ground beef",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "ground beef",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lb Italian sausage",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "Italian sausage",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Chili beans (3 cans + 1 spicy)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cans diced tomatoes",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "diced tomatoes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Tomato paste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Onion, celery, bell peppers, green chiles",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Bacon bits, bouillon, beer",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Chili powder, Worcestershire, garlic, oregano, cumin, hot sauce, paprika",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Fritos and cheddar",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Brown beef and sausage. Drain.",
+    "Add all beans, tomatoes, paste, vegetables, and seasonings.",
+    "Cover and simmer at least 2 hours. Serve with Fritos and cheddar."
+  ]
+}

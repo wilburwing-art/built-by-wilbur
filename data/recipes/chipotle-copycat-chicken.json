@@ -1,0 +1,106 @@
+{
+  "slug": "chipotle-copycat-chicken",
+  "name": "Chipotle Copycat Chicken",
+  "category": "Dinner",
+  "emoji": "🌶️",
+  "desc": "Adobo-marinated chicken thighs seared hard and chopped, burrito bowl style",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Medium",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "½ medium red onion, coarsely chopped",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium red onion",
+      "prep": "coarsely chopped",
+      "note": null
+    },
+    {
+      "raw": "3 cloves garlic",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "One 7oz can of chipotle peppers in adobo sauce or (2 tablespoons adobo sauce and 2 tablespoons ancho chile powder (or 1 oz dried ancho chiles, soaked))",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tablespoons olive oil or rice bran oil, plus more for cooking",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil or rice bran oil",
+      "prep": "plus more for cooking",
+      "note": null
+    },
+    {
+      "raw": "2 teaspoons ground cumin",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 teaspoons dried oregano",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and freshly ground black pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 pounds boneless, skinless chicken",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless, skinless chicken",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Make the Marinade: In a blender or food processor, combine red onion, garlic, adobo sauce, ancho chile powder, olive oil, cumin, oregano, 1 teaspoon salt, and ½ teaspoon pepper. Blend until smooth. Pour into a measuring cup and add water to reach 1 cup.",
+    "Marinate the Chicken: Place chicken in a large freezer bag. Pour in the marinade, seal, and mash to coat evenly. Refrigerate for at least 30 minutes or overnight.",
+    "Stovetop Method: Heat 2 tablespoons oil in a large skillet over medium-high heat. Cook chicken, turning occasionally, until internal temperature reaches 165°F. Rest under foil for 10 minutes, then chop and season with salt.",
+    "Grill Method: Preheat grill to medium-high. Brush with oil. Grill chicken in batches, turning occasionally, until caramelized and 165°F, about 10-15 minutes. Rest under foil for 10 minutes, then chop and season with salt.",
+    "Oven Method (best for white meat): Preheat oven to 400°F. Coat a baking dish with oil or spray and arrange chicken in a single layer. Cover completely with parchment paper. Bake 30-40 minutes, until 165°F. Rest under foil for 10 minutes, then chop and season with salt.",
+    "Chipotle Steak"
+  ]
+}

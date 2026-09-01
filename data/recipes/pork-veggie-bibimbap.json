@@ -1,0 +1,141 @@
+{
+  "slug": "pork-veggie-bibimbap",
+  "name": "Pork & Veggie Bibimbap",
+  "category": "Dinner",
+  "emoji": "🍚",
+  "desc": "Korean rice bowl with seasoned pork, pickled scallions, and fried egg",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3/4 cup jasmine rice",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "jasmine rice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 carrots",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "carrots",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Ginger, garlic",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5 tsp vinegar",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp sriracha",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sriracha",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp soy sauce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "10 oz ground pork",
+      "qty": 10,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "ground pork",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 scallions",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "scallions",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp sesame oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Cucumber",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 eggs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Cook rice 15-18 min. Pickle scallion whites in vinegar.",
+    "Make sauce: sesame oil, half the soy sauce, sugar, sriracha.",
+    "Cook carrot ribbons 3-4 min. Set aside.",
+    "Cook pork with ginger and garlic until browned. Add remaining soy sauce.",
+    "Arrange rice, pork, and veggies in bowls. Top with pickled scallions and sauce."
+  ]
+}

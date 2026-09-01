@@ -1,0 +1,205 @@
+{
+  "slug": "paleo-chicken-cobb-salad-with-buffalo-ranch",
+  "name": "Paleo Chicken Cobb Salad with Buffalo Ranch",
+  "category": "Lunch",
+  "emoji": "🥗",
+  "desc": "Cobb with bacon, egg and avocado under a creamy buffalo ranch",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 to 6 slices nitrate-free bacon, cooked and crumbled",
+      "qty": 4,
+      "qtyMax": 6,
+      "unit": "slice",
+      "item": "nitrate-free bacon, cooked and crumbled",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 lb chicken tenderloins",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "chicken tenderloins",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 to 3 tbsp bacon fat or other cooking fat",
+      "qty": 2,
+      "qtyMax": 3,
+      "unit": "tbsp",
+      "item": "bacon fat or other cooking fat",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp onion powder",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp smoked paprika",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "smoked paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup chopped and peeled mini cucumbers",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chopped and peeled mini cucumbers",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup quartered cherry tomatoes",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "quartered cherry tomatoes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 hardboiled eggs, chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "hardboiled eggs",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1/2 medium avocado, sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium avocado",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "3 cups baby spinach, baby kale, or mixed greens",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "baby spinach, baby kale, or mixed greens",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Thinly sliced green onion, to garnish",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Buffalo ranch:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup homemade or avocado oil mayo",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "homemade or avocado oil mayo",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp fresh lemon juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp onion powder",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp dried dill",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried dill",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Hot sauce, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Cook the bacon, then reserve the fat and crumble the bacon once cool.",
+    "Season the chicken tenderloins with salt, pepper, onion powder and smoked paprika.",
+    "Cook the chicken in the bacon fat over medium heat until cooked through, about 4 minutes per side. Rest, then slice.",
+    "Whisk all the buffalo ranch ingredients together, adding hot sauce until it is as hot as you want it. Thin with a little water if it is too thick.",
+    "Arrange the greens on a platter and lay the chicken, bacon, cucumber, tomato, egg and avocado over the top in rows.",
+    "Drizzle with the buffalo ranch and finish with green onion."
+  ]
+}

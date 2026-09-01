@@ -1,0 +1,95 @@
+{
+  "slug": "elderflower-grapefruit-margarita",
+  "name": "Elderflower Grapefruit Margarita",
+  "category": "Drinks",
+  "emoji": "🍊",
+  "desc": "Grapefruit and St-Germain in place of the usual sweetener",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 parts tequila",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "part",
+      "item": "tequila",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 part fresh lime juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "part",
+      "item": "fresh lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5 parts fresh grapefruit juice",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": "part",
+      "item": "fresh grapefruit juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 part Cointreau",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "part",
+      "item": "Cointreau",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 part St-Germain",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "part",
+      "item": "St-Germain",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 part Grand Marnier (optional)",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "part",
+      "item": "Grand Marnier (optional)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Ice, plus a lime wedge and salt for the rim",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Rub a lime wedge around the glass rim, dip in salt, and fill the glass with fresh ice.",
+    "Add all the liquid ingredients to a shaker with ice.",
+    "Shake vigorously until well chilled.",
+    "Strain into the glass. For more body, swap part of the sweetener for a splash of fresh orange juice."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "ninja-creami-vanilla-ice-cream",
+  "name": "Ninja Creami Vanilla Ice Cream",
+  "category": "Desserts",
+  "emoji": "🍨",
+  "desc": "The reliable base. Cream cheese is what keeps it smooth instead of icy",
+  "time": "24 hrs",
+  "minutes": 1440,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 cup whole milk",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "whole milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 cup heavy cream",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup granulated sugar",
+      "qty": 0.3333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tablespoon cream cheese, softened",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cream cheese",
+      "prep": "softened",
+      "note": null
+    },
+    {
+      "raw": "1 teaspoon vanilla extract",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pinch salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Cream the base: Microwave 1 tablespoon cream cheese, softened and 1/3 cup granulated sugar together for about 10 seconds  , then whisk into a smooth paste.",
+    "Mix in liquids: Add 1 cup whole milk, 3/4 cup heavy cream, 1 teaspoon vanilla extract, and 1 pinch salt. Whisk until the sugar is fully dissolved.",
+    "Freeze flat: Pour into a Creami pint container, seal, and freeze on a level surface for 24 hours.",
+    "Spin: Run the Ice Cream setting on your fully frozen pint.",
+    "Respin and add mix-ins: If it looks crumbly, run Re-spin once. To add chips or cookies, bore a hole in the center, add them, and run the Mix-In setting."
+  ]
+}

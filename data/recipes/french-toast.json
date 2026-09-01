@@ -1,0 +1,103 @@
+{
+  "slug": "french-toast",
+  "name": "French Toast",
+  "category": "Breakfast",
+  "emoji": "🍞",
+  "desc": "Classic custard-dipped thick bread, golden on the griddle",
+  "time": "15 min",
+  "minutes": 15,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1/4 cup all-purpose flour",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup milk",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pinch salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 eggs",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp cinnamon",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp vanilla extract",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "12 thick slices bread",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": null,
+      "item": "thick slices bread",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Whisk flour into a large bowl. Slowly whisk in milk. Whisk in salt, eggs, cinnamon, vanilla, and sugar until smooth.",
+    "Heat a lightly oiled griddle or frying pan over medium heat.",
+    "Soak bread slices in mixture until saturated. Cook each side until golden brown. Serve hot."
+  ]
+}

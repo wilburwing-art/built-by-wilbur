@@ -1,0 +1,103 @@
+{
+  "slug": "chipotle-corn-salsa",
+  "name": "Chipotle Corn Salsa",
+  "category": "Sides & Snacks",
+  "emoji": "🌽",
+  "desc": "Roasted poblano, jalapeno and corn with lemon and lime",
+  "time": "15 min",
+  "minutes": 15,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "24 ounces frozen corn",
+      "qty": 24,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "frozen corn",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup finely chopped red onion",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "finely chopped red onion",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large roasted poblano pepper, peeled, seeded, finely chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large roasted poblano pepper",
+      "prep": "peeled, seeded, finely chopped",
+      "note": null
+    },
+    {
+      "raw": "2 jalapeño peppers, stemmed, seeded, finely chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "jalapeño peppers, stemmed, seeded, finely chopped",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup finely chopped fresh cilantro",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "finely chopped fresh cilantro",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tablespoon lemon juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tablespoon lime juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Cook corn per package directions, then spread on a baking sheet to cool.",
+    "In a large bowl, combine cooled corn, red onion, poblano, jalapeños, cilantro, lemon juice, and lime juice. Season to taste with salt and serve.",
+    "Chipotle Tomatillo Green-Chili Salsa (Copycat)"
+  ]
+}

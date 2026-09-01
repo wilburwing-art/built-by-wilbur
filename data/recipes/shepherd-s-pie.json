@@ -1,0 +1,132 @@
+{
+  "slug": "shepherd-s-pie",
+  "name": "Shepherd's Pie",
+  "category": "Dinner",
+  "emoji": "🥧",
+  "desc": "Seasoned ground beef with veggies under cheesy mashed potato crust",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 1/4 lbs Yukon Gold potatoes",
+      "qty": 1.25,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "Yukon Gold potatoes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 garlic cloves",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lb lean ground beef",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "lean ground beef",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp flour",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 cup beef broth",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "beef broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp ketchup",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "ketchup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 cups frozen mixed vegetables",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "frozen mixed vegetables",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup cheddar, divided",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cheddar",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "3/4 cup sour cream",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sour cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Boil potatoes and garlic until tender, about 20 min. Preheat oven to 375°F.",
+    "Brown ground beef. Stir in flour, then broth, ketchup, and vegetables. Cook 5 min.",
+    "Transfer beef to an ovenproof dish.",
+    "Mash potatoes with 1/4 cup cheese and sour cream. Spread over beef.",
+    "Top with remaining cheese. Bake 20-25 min until golden."
+  ]
+}

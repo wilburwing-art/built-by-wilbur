@@ -1,0 +1,86 @@
+{
+  "slug": "grilled-salmon-with-mango-salsa",
+  "name": "Grilled Salmon with Mango Salsa",
+  "category": "Dinner",
+  "emoji": "🐟",
+  "desc": "Spice-rubbed salmon topped with fresh mango, red pepper, and cilantro salsa",
+  "time": "25 min",
+  "minutes": 25,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 (6 oz) salmon fillets",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "salmon fillets",
+      "prep": null,
+      "note": "(6 oz)"
+    },
+    {
+      "raw": "1 tsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp chili powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Juice of 1 lime",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salsa: 2-3 mangoes diced, 1/2 red pepper, 1/2 red onion, 1 jalapeno, 1/4 cup cilantro",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Mix mango salsa ingredients in a bowl. Set aside.",
+    "Combine garlic powder, chili powder, salt, and pepper. Rub onto salmon.",
+    "Grill over medium heat 6-8 minutes per side (or bake at 450°F for 15 min).",
+    "Squeeze fresh lime juice over salmon, top with mango salsa."
+  ]
+}

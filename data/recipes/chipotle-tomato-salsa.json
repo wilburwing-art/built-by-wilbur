@@ -1,0 +1,95 @@
+{
+  "slug": "chipotle-tomato-salsa",
+  "name": "Chipotle Tomato Salsa",
+  "category": "Sides & Snacks",
+  "emoji": "🍅",
+  "desc": "Fresh pico with three jalapenos, lemon and lime",
+  "time": "15 min",
+  "minutes": 15,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 pound tomatoes, cut into 1/4-inch pieces",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "tomatoes",
+      "prep": "cut into 1/4-inch pieces",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup finely chopped red onion (from 1 small)",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "finely chopped red onion (from 1 small)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup finely chopped fresh cilantro",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "finely chopped fresh cilantro",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 jalapeño peppers, finely chopped",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "jalapeño peppers",
+      "prep": "finely chopped",
+      "note": null
+    },
+    {
+      "raw": "1 tablespoon lemon juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tablespoon lime juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "In a medium bowl, combine tomatoes, red onion, cilantro, jalapeño, lemon juice, and lime juice.",
+    "Season to taste with salt and stir to combine.",
+    "Serve immediately or chill until ready to use.",
+    "Chipotle Corn Salsa (Copycat)"
+  ]
+}

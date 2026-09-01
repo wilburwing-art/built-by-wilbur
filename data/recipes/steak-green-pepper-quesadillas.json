@@ -1,0 +1,104 @@
+{
+  "slug": "steak-green-pepper-quesadillas",
+  "name": "Steak & Green Pepper Quesadillas",
+  "category": "Lunch",
+  "emoji": "🫔",
+  "desc": "Southwest-spiced steak and peppers with pepper jack and smoky crema",
+  "time": "25 min",
+  "minutes": 25,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 long green pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "long green pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp Southwest spice blend",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Southwest spice blend",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup pepper jack cheese",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "pepper jack cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 tbsp smoky red pepper crema",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "smoky red pepper crema",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "10 oz diced steak",
+      "qty": 10,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "diced steak",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 flour tortillas",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "flour tortillas",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup Mexican cheese blend",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Mexican cheese blend",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp hot sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "hot sauce",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Slice green pepper into strips. Cook in oil over medium-high heat 3-4 min.",
+    "Add steak, Southwest spice, salt, and pepper. Cook until browned, 2-3 min. Remove from pan.",
+    "Sprinkle pepper jack on one half of each tortilla. Top with steak mixture and Mexican cheese. Fold in half.",
+    "Cook quesadillas in oiled pan over medium heat, 3-4 min per side until golden and cheese is melted."
+  ]
+}

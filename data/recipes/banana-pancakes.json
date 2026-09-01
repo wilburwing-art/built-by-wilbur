@@ -1,0 +1,103 @@
+{
+  "slug": "banana-pancakes",
+  "name": "Banana Pancakes",
+  "category": "Breakfast",
+  "emoji": "🥞",
+  "desc": "Fluffy pancakes loaded with mashed ripe banana",
+  "time": "20 min",
+  "minutes": 20,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 cup all-purpose flour",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp baking powder",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 egg, beaten",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "egg",
+      "prep": "beaten",
+      "note": null
+    },
+    {
+      "raw": "1 cup milk",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp vegetable oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 ripe bananas, mashed",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "ripe bananas",
+      "prep": "mashed",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Combine flour, sugar, baking powder, and salt. In a separate bowl, mix egg, milk, oil, and bananas.",
+    "Stir flour mixture into banana mixture; batter will be slightly lumpy.",
+    "Heat a lightly oiled griddle over medium-high heat. Pour about 1/4 cup batter per pancake. Cook until golden brown on both sides."
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "beignets",
+  "name": "Beignets",
+  "category": "Desserts",
+  "emoji": "☁️",
+  "desc": "Pillowy fried dough squares showered in powdered sugar",
+  "time": "2.5 hrs",
+  "minutes": 150,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Yeast, warm water",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup sugar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt, eggs",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup evaporated milk",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "evaporated milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "7 cups flour",
+      "qty": 7,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup shortening",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shortening",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Oil for frying",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Powdered sugar",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Dissolve yeast in water. Mix in sugar, salt, eggs, milk. Add flour and shortening. Chill up to 24 hrs.",
+    "Roll 1/8 inch thick. Cut into 2.5-inch squares. Let rise.",
+    "Fry at 360°F until golden. Shake powdered sugar over hot beignets."
+  ]
+}

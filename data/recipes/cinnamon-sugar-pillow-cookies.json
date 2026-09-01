@@ -1,0 +1,104 @@
+{
+  "slug": "cinnamon-sugar-pillow-cookies",
+  "name": "Cinnamon Sugar Pillow Cookies",
+  "category": "Desserts",
+  "emoji": "🍪",
+  "desc": "Soft surprise-filled cookies with a crunchy cinnamon sugar shell",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 1/2 cup flour",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Baking soda, baking powder, salt",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup sugar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 tbsp oil",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tbsp milk",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Vanilla",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Cinnamon + sugar coating",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Filling: powdered sugar + cream cheese",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Make filling: beat powdered sugar and cream cheese.",
+    "Mix dry ingredients. Stir in oil, milk, vanilla.",
+    "Roll into balls, break in half, add filling, re-roll. Chill 30 min.",
+    "Roll in cinnamon sugar. Bake at 325°F for 11 min. Cool 10 min."
+  ]
+}

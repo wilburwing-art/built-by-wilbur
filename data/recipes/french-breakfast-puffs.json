@@ -1,0 +1,131 @@
+{
+  "slug": "french-breakfast-puffs",
+  "name": "French Breakfast Puffs",
+  "category": "Breakfast",
+  "emoji": "🧁",
+  "desc": "Tender vanilla muffins drenched in butter, rolled in cinnamon sugar",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1/3 cup shortening",
+      "qty": 0.3333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shortening",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup sugar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 egg",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "egg",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups all-purpose flour",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tsp baking powder",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp ground nutmeg",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground nutmeg",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup milk",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Topping: 1/2 cup sugar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": "Topping"
+    },
+    {
+      "raw": "Topping: 1 tsp cinnamon",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cinnamon",
+      "prep": null,
+      "note": "Topping"
+    },
+    {
+      "raw": "Topping: 1/2 cup melted butter",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "melted butter",
+      "prep": null,
+      "note": "Topping"
+    }
+  ],
+  "steps": [
+    "Preheat oven to 350°F. Spray 9 muffin cups with nonstick spray.",
+    "Beat shortening, 1/2 cup sugar, and egg until smooth. Combine flour, baking powder, salt, and nutmeg; add to sugar mixture alternately with milk.",
+    "Fill muffin cups two-thirds full. Bake 20-25 minutes until a toothpick comes out clean.",
+    "Combine cinnamon and sugar in a shallow bowl. Melt butter in another. Roll hot muffins in melted butter, then in cinnamon-sugar. Serve warm."
+  ]
+}

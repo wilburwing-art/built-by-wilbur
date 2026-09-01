@@ -1,0 +1,68 @@
+{
+  "slug": "negroni",
+  "name": "Negroni",
+  "category": "Drinks",
+  "emoji": "🍸",
+  "desc": "Equal parts gin, Campari and sweet vermouth, stirred",
+  "time": "3 min",
+  "minutes": 3,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 oz London dry gin",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "London dry gin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 oz Campari",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "Campari",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 oz vermouth rosso",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "vermouth rosso",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Orange peel, to garnish",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Add the gin, Campari and vermouth to a mixing glass with ice.",
+    "Stir until well chilled and properly diluted, about 20 seconds.",
+    "Strain into a rocks glass over a large cube.",
+    "Express an orange peel over the surface and drop it in."
+  ]
+}

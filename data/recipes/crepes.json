@@ -1,0 +1,85 @@
+{
+  "slug": "crepes",
+  "name": "Crepes",
+  "category": "Breakfast",
+  "emoji": "🫓",
+  "desc": "Thin, delicate French crepes, sweet or savory",
+  "time": "20 min",
+  "minutes": 20,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 cup all-purpose flour",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 eggs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup milk",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup water",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp melted butter",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "melted butter",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Whisk together flour and eggs. Gradually add milk and water, stirring to combine. Add salt and butter; beat until smooth.",
+    "Heat a lightly oiled pan over medium-high heat. Pour about 1/4 cup batter, tilting the pan to coat evenly.",
+    "Cook about 2 minutes until the bottom is light brown. Flip and cook the other side. Serve hot."
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "slug": "french-onion-pot-roast",
+  "name": "French Onion Pot Roast",
+  "category": "Dinner",
+  "emoji": "🥩",
+  "desc": "Fall-apart chuck roast braised with caramelized onions and Gruyere",
+  "time": "4 hrs",
+  "minutes": 240,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3-4 lbs boneless chuck roast",
+      "qty": 3,
+      "qtyMax": 4,
+      "unit": "lb",
+      "item": "boneless chuck roast",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Kosher salt, black pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Olive oil",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 tbsp unsalted butter",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 large yellow onions, sliced",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large yellow onions",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "6 cloves garlic, minced",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "3/4 cup dry white wine",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "dry white wine",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp flour",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 cups beef broth",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "beef broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp Worcestershire sauce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Worcestershire sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 bay leaves",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "bay leaves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 sprigs rosemary, 4 sprigs thyme",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "sprig",
+      "item": "rosemary, 4 sprigs thyme",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded Gruyere",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded Gruyere",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sliced baguette",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat oven to 300°F. Pat roast dry, season generously.",
+    "Sear roast in hot oil 5 min per side. Remove.",
+    "Melt butter, cook onions 25-30 min until golden.",
+    "Add garlic 2 min, deglaze with wine, reduce by half. Add flour.",
+    "Add broth, Worcestershire, bay leaves, rosemary, thyme. Bring to simmer.",
+    "Return roast. Cover and braise in oven 3 1/2 hours until tender.",
+    "Increase oven to 400°F. Shred beef. Top with Gruyere, bake 5-7 min until melted.",
+    "Serve over mashed potatoes or with toasted baguette."
+  ]
+}

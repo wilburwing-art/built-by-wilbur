@@ -1,0 +1,94 @@
+{
+  "slug": "yum-yum-sauce",
+  "name": "Yum Yum Sauce",
+  "category": "Sides & Snacks",
+  "emoji": "🥢",
+  "desc": "The hibachi steakhouse sauce, better after an hour in the fridge",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 Cup Mayonnaise",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 Tablespoons Ketchup",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Ketchup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 Tablespoon Granulated Sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Granulated Sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 Tablespoon Paprika",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 teaspoons Rice Vinegar or apple cider vinegar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "Rice Vinegar or apple cider vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 teaspoons Garlic Powder",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "Garlic Powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1-4 Tablespoons Water as needed",
+      "qty": 1,
+      "qtyMax": 4,
+      "unit": "tbsp",
+      "item": "Water as needed",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Whisk all ingredients together in a medium bowl until smooth, using only 1 Tablespoon of water to start, and adding more as needed for desired consistency.",
+    "Refrigerate for at least 1 hour before serving for best flavor.",
+    "Store leftover sauce in a tightly sealed container or jar for up to 5 days."
+  ]
+}

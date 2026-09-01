@@ -1,0 +1,104 @@
+{
+  "slug": "garlic-parmesan-pasta",
+  "name": "Garlic Parmesan Pasta",
+  "category": "Dinner",
+  "emoji": "🍝",
+  "desc": "One-pan fettuccine cooked in garlic butter, broth, and parmesan",
+  "time": "25 min",
+  "minutes": 25,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 tbsp butter",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 garlic cloves",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups chicken broth",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chicken broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup milk",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "8 oz fettuccine",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "fettuccine",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt, pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup Parmesan",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp parsley",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "parsley",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Melt butter, cook garlic 1-2 min.",
+    "Add broth, milk, and fettuccine. Season.",
+    "Boil, then simmer 18-20 min until cooked.",
+    "Stir in Parmesan. Top with parsley."
+  ]
+}

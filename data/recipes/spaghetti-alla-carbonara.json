@@ -1,0 +1,97 @@
+{
+  "slug": "spaghetti-alla-carbonara",
+  "name": "Spaghetti alla Carbonara",
+  "category": "Dinner",
+  "emoji": "🍝",
+  "desc": "Classic Roman pasta with guanciale, egg, pecorino, and black pepper",
+  "time": "25 min",
+  "minutes": 25,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "12 oz spaghetti",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "spaghetti",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 large eggs + 2 yolks, room temp",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs + 2 yolks, room temp",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 oz grated pecorino Romano",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "grated pecorino Romano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 oz grated Parmesan",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "grated Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Coarsely ground black pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3.5 oz guanciale, pancetta, or bacon",
+      "qty": 3.5,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "guanciale, pancetta, or bacon",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Bring a large pot of lightly salted water to boil.",
+    "Whisk eggs, yolks, pecorino, and Parmesan. Season with salt and generous black pepper.",
+    "Heat oil, saute pork until fat renders and edges are crisp. Remove from heat.",
+    "Cook pasta a bit firmer than al dente. Reserve 1 cup pasta water.",
+    "Reheat pork if needed. Add drained pasta to skillet over low heat, stir 1 minute.",
+    "Transfer to a warm bowl. Stir in egg-cheese mixture, adding pasta water as needed for creaminess. Serve immediately with more pecorino and pepper."
+  ]
+}

@@ -54,7 +54,7 @@ function tokenRank(recipe: Recipe, token: string): number {
   if (name.startsWith(token)) return NAME_PREFIX
   if (name.includes(token)) return NAME
   if (recipe.desc.toLowerCase().includes(token)) return DESC
-  if (recipe.ingredients.some((i) => i.toLowerCase().includes(token))) return INGREDIENT
+  if (recipe.ingredients.some((i) => i.raw.toLowerCase().includes(token))) return INGREDIENT
   return MISS
 }
 

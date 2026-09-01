@@ -1,0 +1,84 @@
+{
+  "slug": "root-beer-pie",
+  "name": "Root Beer Pie",
+  "category": "Desserts",
+  "emoji": "🍺",
+  "desc": "Frozen root beer pudding pie in a graham cracker crust",
+  "time": "4 hrs",
+  "minutes": 240,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "8 oz heavy cream",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "12 oz COLD root beer",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "COLD root beer",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp root beer extract",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "root beer extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup milk",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 box instant vanilla pudding",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "box",
+      "item": "instant vanilla pudding",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Graham cracker crust",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Whip cream to stiff peaks. Mix root beer, milk, and pudding until thick.",
+    "Fold together. Pour into crust. Freeze 4 hours or refrigerate overnight."
+  ]
+}

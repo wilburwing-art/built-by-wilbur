@@ -1,0 +1,131 @@
+{
+  "slug": "homemade-ranch-dressing",
+  "name": "Homemade Ranch Dressing",
+  "category": "Sides & Snacks",
+  "emoji": "🥛",
+  "desc": "Mayo, sour cream and buttermilk with dill, chives and a squeeze of lemon",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1/2 cup mayonnaise",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup sour cream",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sour cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup buttermilk or regular milk",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "buttermilk or regular milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 to 1 tsp dried dill weed",
+      "qty": 0.75,
+      "qtyMax": 1,
+      "unit": "tsp",
+      "item": "dried dill weed",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp dried parsley",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried parsley",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp dried chives",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried chives",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp onion powder",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp garlic powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp fine sea salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/8 tsp finely cracked pepper",
+      "qty": 0.125,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "finely cracked pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 to 3 tsp freshly squeezed lemon juice, to taste",
+      "qty": 1,
+      "qtyMax": 3,
+      "unit": "tsp",
+      "item": "freshly squeezed lemon juice",
+      "prep": "to taste",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Whisk together the mayo, sour cream and milk until smooth.",
+    "Add the spices and whisk until combined.",
+    "Add the lemon juice and whisk again, tasting as you go.",
+    "Pour into a jar and chill until ready to serve. Keeps about a week in the refrigerator."
+  ]
+}

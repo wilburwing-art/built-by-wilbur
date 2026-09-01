@@ -1,0 +1,148 @@
+{
+  "slug": "black-bean-enchiladas",
+  "name": "Black Bean Enchiladas",
+  "category": "Dinner",
+  "emoji": "🌯",
+  "desc": "Poblano and black bean enchiladas under green salsa and melted cheese",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Medium",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 poblano pepper, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "poblano pepper",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1 roma tomato, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "roma tomato",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "2 scallions, sliced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "scallions",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1 (13.4 oz) can black beans, drained",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "black beans",
+      "prep": "drained",
+      "note": "(13.4 oz)"
+    },
+    {
+      "raw": "1 chili pepper, minced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "chili pepper",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp southwest spice blend",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "southwest spice blend",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 flour tortillas",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": null,
+      "item": "flour tortillas",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup green salsa",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "green salsa",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup Mexican cheese blend",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Mexican cheese blend",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup sour cream",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sour cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lime",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lime",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Oil, salt and pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Place cubed potatoes and garlic in a large pot with enough water to cover. Bring to a boil over high heat; reduce heat to medium-low, cover, and simmer until tender, about 20 minutes.",
+    "Preheat the oven to 375 degrees F (190 degrees C).",
+    "Brown ground beef over medium heat in a skillet. Stir in flour, mixing with beef drippings.",
+    "Add beef broth, ketchup and vegetables. Stir to combine. Cook for 5 minutes, until thick.",
+    "Transfer beef mixture into an oven-proof casserole dish.",
+    "Drain potatoes and smash them a little bit before adding 1/4 cup of grated cheese and sour cream. Mash together until smooth.",
+    "Spoon potatoes onto the middle of the meat mixture. With a fork, spread potatoes from the center to the edges to form the top layer.",
+    "Sprinkle with remaining 1/4 cup of grated cheese.",
+    "Bake in the preheated oven for 20-25 minutes, or until cheese is melted and golden. Let cool 15 minutes before serving.",
+    "TIP: I diced 1/4 cup onion and 1/2 cup mushrooms and cooked it in with the Lamb as I was browning it. After the meet was finished, I added in a pinch of Thyme, Paprika, and a dash of Worcestershire sauce",
+    "Chinese Chicken Fried Rice II",
+    "\"Chicken, rice, soy sauce and shredded egg stir fried together. This is a very simple recipe. It is easy, but tasty! Note: Never use rice that you have just cooked.\" MAKE SURE RICE IS COLD"
+  ]
+}

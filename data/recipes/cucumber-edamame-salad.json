@@ -1,0 +1,122 @@
+{
+  "slug": "cucumber-edamame-salad",
+  "name": "Cucumber Edamame Salad",
+  "category": "Lunch",
+  "emoji": "🥗",
+  "desc": "High-protein cucumber and edamame with yogurt, dill and everything seasoning",
+  "time": "10 min",
+  "minutes": 10,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 English cucumber, thinly sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "English cucumber",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1 cup edamame (shelled, cooked)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "edamame (shelled, cooked)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp Greek yogurt",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Greek yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp chopped fresh dill",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chopped fresh dill",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp chopped fresh basil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chopped fresh basil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp olive oil (replaces pesto’s richness)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil (replaces pesto’s richness)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp lemon juice + lemon zest (zest restores brightness pesto usually adds)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "lemon juice + lemon zest (zest restores brightness pesto usually adds)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "½ tsp garlic powder (replaces pesto garlic)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder (replaces pesto garlic)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Everything bagel seasoning (to taste)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Pinch of salt + pepper (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Slice the English cucumber and add to a bowl.",
+    "Add the edamame.",
+    "In a small bowl, whisk together:",
+    "Greek yogurt"
+  ]
+}

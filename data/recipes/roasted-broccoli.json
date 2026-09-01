@@ -1,0 +1,105 @@
+{
+  "slug": "roasted-broccoli",
+  "name": "Roasted Broccoli",
+  "category": "Sides & Snacks",
+  "emoji": "🥦",
+  "desc": "Roasted hot with garlic, then finished with lemon zest and parmesan",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 pounds broccoli",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "broccoli",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 garlic cloves peeled and sliced",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves peeled and sliced",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Good olive oil or for Keto - butter flavor coconut oil",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1½ teaspoons kosher salt",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "½ teaspoon freshly ground black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "freshly ground black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 teaspoons grated lemon zest",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "grated lemon zest",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tablespoons freshly squeezed lemon juice",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "freshly squeezed lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "⅓ cup freshly grated Parmesan cheese",
+      "qty": 0.3333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "freshly grated Parmesan cheese",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat the oven to 400°F/200°C.",
+    "Cut the broccoli florets from the thick stalks, leaving an inch or two of stalk attached to the florets, discarding the rest of the stalks. Cut the larger pieces through the base of the head with a small knife, pulling the florets apart. You should have about 8 cups of florets.",
+    "Place the broccoli florets on a sheet pan large enough to hold them in a single layer. Toss the garlic on the broccoli and drizzle with 5 tablespoons olive oil. Sprinkle with the salt and pepper.",
+    "Roast for 20 to 25 minutes, until crisp-tender and the tips of some of the florets are browned.",
+    "Remove the broccoli from the oven and immediately toss with 1½ tablespoons olive oil, the lemon zest, lemon juice, and Parmesan. Serve hot."
+  ]
+}

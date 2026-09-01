@@ -1,0 +1,77 @@
+{
+  "slug": "watermelon-refresh-sorbet",
+  "name": "Watermelon Refresh Sorbet",
+  "category": "Desserts",
+  "emoji": "🍉",
+  "desc": "Ninja Creami sorbet; watermelon is icy on its own, so banana balances it",
+  "time": "24 hrs",
+  "minutes": 1440,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "250 g watermelon",
+      "qty": 250,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "watermelon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "100 g banana",
+      "qty": 100,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "banana",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "80 g sugar",
+      "qty": 80,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp lime juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp vodka (optional, for scoopability)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vodka (optional",
+      "prep": "for scoopability)",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Blend everything until smooth. The banana is what keeps watermelon from freezing into a block.",
+    "Chill, then pour into a Ninja Creami pint container.",
+    "Freeze flat for 24 hours.",
+    "Spin on the Sorbet setting."
+  ]
+}

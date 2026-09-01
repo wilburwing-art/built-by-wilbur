@@ -1,0 +1,107 @@
+{
+  "slug": "hibiscus-margarita",
+  "name": "Hibiscus Margarita",
+  "category": "Drinks",
+  "emoji": "🌺",
+  "desc": "Blanco tequila and lime over a deep magenta hibiscus syrup you simmer yourself",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 cup dried hibiscus flowers",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "dried hibiscus flowers",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups water",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 cup sugar (or agave)",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sugar (or agave)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 oz blanco tequila",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "blanco tequila",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1.5 oz hibiscus syrup",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "hibiscus syrup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 oz fresh lime juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "fresh lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "0.5 oz triple sec or Cointreau",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "triple sec or Cointreau",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Ice, lime wedge, and salt for the rim",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Make the syrup: bring the water to a boil in a small saucepan. Add the hibiscus flowers and sugar, lower the heat to medium, and simmer until the sugar dissolves and the syrup thickens slightly, about 5 minutes.",
+    "Remove from heat, cover, and steep 15 to 20 minutes. Longer steeping deepens both colour and tartness. You want a deep magenta, nearly opaque liquid.",
+    "Strain through a mesh sieve, discard the flowers, and cool completely. Keeps 1 week in the refrigerator, and makes enough for 6 to 8 drinks.",
+    "Rub a lime wedge around the glass rim and dip in salt. To dress it up, crush dried hibiscus flowers to a powder and mix with coarse sea salt.",
+    "Fill the glass with fresh ice.",
+    "Add the tequila, syrup, lime juice and triple sec to a shaker with ice. Cover and shake vigorously.",
+    "Strain into the glass and garnish with a lime wheel."
+  ]
+}

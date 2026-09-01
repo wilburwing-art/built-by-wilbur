@@ -1,0 +1,158 @@
+{
+  "slug": "whole30-beef-stew",
+  "name": "Whole30 Beef Stew",
+  "category": "Dinner",
+  "emoji": "🥘",
+  "desc": "Hearty stew with potatoes, carrots, and peas in savory broth",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 tbsp oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2-2.5 lbs stew meat",
+      "qty": 2,
+      "qtyMax": 2.5,
+      "unit": "lb",
+      "item": "stew meat",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp salt",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1.5 lbs yellow potatoes",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "yellow potatoes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 carrots",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "carrots",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 yellow onion",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "yellow onion",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp garlic",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "garlic",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 cups beef broth",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "beef broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp coconut aminos",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "coconut aminos",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup tomato paste",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "tomato paste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 bay leaves",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "bay leaves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Parsley, thyme",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups frozen peas",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "frozen peas",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Brown stew meat in hot oil with 1 tsp salt and pepper, about 5 min.",
+    "Add all remaining ingredients except peas. Stove: boil then simmer covered 40 min.",
+    "Optional: blend 1 cup potatoes with 1 cup broth for thicker stew.",
+    "Add peas, remove bay leaves, stir, and rest 5 min."
+  ]
+}

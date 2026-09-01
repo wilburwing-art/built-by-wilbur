@@ -1,0 +1,121 @@
+{
+  "slug": "golden-fried-rice",
+  "name": "Golden Fried Rice",
+  "category": "Dinner",
+  "emoji": "🍳",
+  "desc": "Every grain coated in egg yolk before it hits the wok",
+  "time": "20 min",
+  "minutes": 20,
+  "difficulty": "Medium",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 cups cooked white rice (refrigerated overnight)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cooked white rice (refrigerated overnight)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 egg yolks",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "egg yolks",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 teaspoon sea salt (or to tatse)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sea salt (or to tatse)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 teaspoon Shaoxing wine (or dry cooking sherry)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "Shaoxing wine (or dry cooking sherry)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 teaspoon white pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "white pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 teaspoon sesame oil",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/8 teaspoon turmeric (optional)",
+      "qty": 0.125,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "turmeric (optional)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tablespoons vegetable oil",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup choy sum stems (or asparagus, broccoli stems, gai lan stems, etc.)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "choy sum stems (or asparagus, broccoli stems, gai lan stems, etc.)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 scallion (finely chopped)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "scallion (finely chopped)",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "In a medium bowl, add the cooked white rice, egg yolks, salt, Shaoxing wine, white pepper, sesame oil, and turmeric (if using). Mix until every grain of rice is well-coated. There should be no lumps or chunks of rice.",
+    "Preheat a wok over high heat until it starts to smoke. Add the oil, and swirl it around the perimeter of the wok.",
+    "Add the rice, and stir-fry continuously for 1-2 minutes. Add the vegetables, and continue stir-frying. Once the rice grains are dry and start to pop around in the wok, taste and add an additional pinch of salt if needed. (A pinch of extra salt really brings out the flavor of this golden fried rice.) Stir in the scallions, and serve immediately."
+  ]
+}

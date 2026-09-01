@@ -104,7 +104,7 @@ export const isHeading = (ingredient: string) => /:\s*$/.test(ingredient)
 /** Every line of a recipe, rendered at whatever scale and units are on screen. */
 export function recipeItems(recipe: Recipe, scale: number, units: Units): ListItem[] {
   return recipe.ingredients.flatMap((ing, i) =>
-    isHeading(ing) ? [] : [ingredientItem(recipe, i, ing, scale, units)],
+    isHeading(ing.raw) ? [] : [ingredientItem(recipe, i, ing.raw, scale, units)],
   )
 }
 

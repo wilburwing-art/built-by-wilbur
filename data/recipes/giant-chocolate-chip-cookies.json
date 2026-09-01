@@ -1,0 +1,144 @@
+{
+  "slug": "giant-chocolate-chip-cookies",
+  "name": "Giant Chocolate Chip Cookies",
+  "category": "Desserts",
+  "emoji": "🍪",
+  "desc": "Tessa Arias's quarter-pound cookies: cold butter, no chill, crisp edge and gooey middle",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Medium",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3 cups plus 2 tbsp all-purpose flour (380 g plus the altitude bump)",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "plus 2 tbsp all-purpose flour (380 g plus the altitude bump)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 teaspoon fine sea salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 teaspoon baking powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 teaspoon baking soda",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup COLD unsalted butter, cubed (2 sticks / 227g, straight from fridge)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "COLD unsalted butter",
+      "prep": "cubed (2 sticks / 227g, straight from fridge)",
+      "note": null
+    },
+    {
+      "raw": "3/4 cup granulated sugar",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/3 cups light brown sugar, packed",
+      "qty": 1.3333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "light brown sugar",
+      "prep": "packed",
+      "note": null
+    },
+    {
+      "raw": "2 large eggs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 teaspoons vanilla extract",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups semisweet chocolate chips",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "semisweet chocolate chips",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup semisweet chocolate chunks, hand-chopped from a bar (reserve half for topping)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "semisweet chocolate chunks, hand-chopped from a bar (reserve half for topping)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pinch flaky sea salt for finishing (optional but worth it)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "flaky sea salt for finishing (optional but worth it)",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat and prep: Preheat oven to 375 F. Line two large baking sheets with parchment paper.",
+    "Whisk dry ingredients: In a medium bowl, whisk together 3 cups plus 2 tbsp all-purpose flour, 1 teaspoon fine sea salt, 1 teaspoon baking powder, and 1/4 teaspoon baking soda.",
+    "Beat cold butter and sugars: In the stand mixer, beat 1 cup COLD unsalted butter, cubed with 3/4 cup granulated sugar and 1 1/3 cups light brown sugar, packed on medium-high until well combined and fluffy. Cold butter takes longer than softened, expect 3 to 4 minutes . Do not swap in soft butter, cold is what keeps these thick.",
+    "Add eggs and vanilla: Add 2 large eggs one at a time, then 2 teaspoons vanilla extract, beating until combined.",
+    "Add flour and chocolate: Gradually beat in the flour mixture on low speed just until combined. Then beat in 1 1/2 cups semisweet chocolate chips and half of 1 cup semisweet chocolate chunks, hand-chopped from a bar.",
+    "Portion quarter-pound balls: Weigh out 113 g (4 oz) portions and roll into even balls. A scale beats the scoop here, this dough runs closer to 1/2 cup per 113 g. Place 6 per pan, spaced far apart. Press the reserved chunks from 1 cup semisweet chocolate chunks, hand-chopped from a bar into the tops.",
+    "Bake, longer for crispier: Bake 15 to 18 minutes  until edges are browned and cookies are puffy. You want crispy edges, so run toward the long end: check at 17, likely pull at 18 to 19 when the edge ring is properly golden brown. Less time = gooier, more time = crispier.",
+    "Salt and cool: Sprinkle with 1 pinch flaky sea salt for finishing immediately out of the oven. Cookies deflate slightly as they cool, that's normal. Let them set on the pan before moving."
+  ]
+}

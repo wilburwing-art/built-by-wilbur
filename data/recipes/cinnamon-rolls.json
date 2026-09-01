@@ -1,0 +1,59 @@
+{
+  "slug": "cinnamon-rolls",
+  "name": "Cinnamon Rolls",
+  "category": "Desserts",
+  "emoji": "🧁",
+  "desc": "Soft yeasted rolls with brown sugar-cinnamon filling and cream cheese frosting",
+  "time": "2.5 hrs",
+  "minutes": 150,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Dough: water, butter, vanilla pudding, milk, egg, sugar, salt, bread flour, yeast",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Filling: butter, brown sugar, cinnamon, pecans",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Frosting: cream cheese, butter, powdered sugar, vanilla, milk",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Combine dough in bread machine on Dough cycle.",
+    "Roll, spread butter, sprinkle filling. Roll up, slice into 16. Place in buttered pan.",
+    "Rise 45 min. Bake at 350°F 15-20 min.",
+    "Mix frosting. Spread over warm rolls."
+  ]
+}

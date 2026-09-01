@@ -1,0 +1,145 @@
+{
+  "slug": "fall-off-the-bone-oven-baked-ribs",
+  "name": "Fall Off the Bone Oven Baked Ribs",
+  "category": "Dinner",
+  "emoji": "🍖",
+  "desc": "Baby backs baked low under foil, then broiled with a quick homemade BBQ sauce",
+  "time": "3.5 hrs",
+  "minutes": 210,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Ribs:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 to 2.5 lb baby back pork ribs",
+      "qty": 2,
+      "qtyMax": 2.5,
+      "unit": "lb",
+      "item": "baby back pork ribs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and pepper to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Bbq Sauce:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup onion, finely diced",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "onion",
+      "prep": "finely diced",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp ground cumin",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup ketchup",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "ketchup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp hot chili sauce (Sriracha)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "hot chili sauce (Sriracha)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp light brown sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "light brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp apple cider vinegar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "apple cider vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat oven to 275°F.",
+    "Remove the thin membrane from the back of the rack (slide a knife under it, then peel off with your fingers; use a kitchen towel if slippery).",
+    "Season both sides of ribs generously with salt and pepper.",
+    "Place ribs meatiest-side down in a roasting pan or rimmed baking sheet. Cut in half if needed to fit.",
+    "Cover tightly with foil (or wrap racks individually in foil packets).",
+    "Bake 2.5 to 3.5 hours until meat falls easily from the bone. Check at 2 hours. Test with a knife: no resistance = done.",
+    "While ribs bake, make the sauce: heat oil over medium, cook onion 5-8 min until soft. Add cumin, cook 30 sec. Add remaining sauce ingredients, stir, season with salt, cook 2 min. Set aside.",
+    "Remove ribs from oven, discard foil, brush both sides with BBQ sauce.",
+    "Move rack near top of oven, broil on high 3-4 min until sauce caramelizes. Watch closely."
+  ]
+}

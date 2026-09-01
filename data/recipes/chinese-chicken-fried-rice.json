@@ -1,0 +1,113 @@
+{
+  "slug": "chinese-chicken-fried-rice",
+  "name": "Chinese Chicken Fried Rice",
+  "category": "Lunch",
+  "emoji": "🍚",
+  "desc": "Cold rice stir-fried with chicken, egg, soy sauce, and onion",
+  "time": "20 min",
+  "minutes": 20,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 egg",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "egg",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp butter",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp vegetable oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 onion, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "onion",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "2 cups cooked white rice, COLD",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cooked white rice, COLD",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp soy sauce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup cooked, chopped chicken",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cooked",
+      "prep": "chopped chicken",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Beat egg with water. Melt butter in a skillet over medium-low heat. Cook egg flat 1-2 min. Remove and cut into shreds.",
+    "Heat oil in same skillet. Saute onion until soft.",
+    "Add cold rice, soy sauce, pepper, and chicken. Stir-fry about 5 minutes.",
+    "Stir in shredded egg. Serve hot."
+  ]
+}

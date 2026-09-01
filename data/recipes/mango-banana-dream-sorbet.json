@@ -1,0 +1,95 @@
+{
+  "slug": "mango-banana-dream-sorbet",
+  "name": "Mango Banana Dream Sorbet",
+  "category": "Desserts",
+  "emoji": "🥭",
+  "desc": "Ninja Creami sorbet, velvety from the banana rather than any dairy",
+  "time": "24 hrs",
+  "minutes": 1440,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "250 g mango chunks",
+      "qty": 250,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "mango chunks",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "100 g banana",
+      "qty": 100,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "banana",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "50 g pineapple (optional)",
+      "qty": 50,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "pineapple (optional)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "100 g apple juice",
+      "qty": 100,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "apple juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "80 g sugar",
+      "qty": 80,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp lemon juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp corn syrup or honey (optional, for a smoother texture)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "corn syrup or honey (optional",
+      "prep": "for a smoother texture)",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Blend everything until completely smooth.",
+    "Chill the mixture, then pour into a Ninja Creami pint container.",
+    "Freeze flat for 24 hours.",
+    "Spin on the Sorbet setting. If it comes out crumbly, add a splash of apple juice and re-spin."
+  ]
+}

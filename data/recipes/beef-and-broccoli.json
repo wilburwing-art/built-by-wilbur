@@ -1,0 +1,78 @@
+{
+  "slug": "beef-and-broccoli",
+  "name": "Beef and Broccoli",
+  "category": "Dinner",
+  "emoji": "🥦",
+  "desc": "Tender flank steak and crisp broccoli in a sweet soy-ginger sauce",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 lb flank steak, thinly sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "flank steak",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp oil, divided",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "oil",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "1 lb broccoli florets",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "broccoli florets",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sauce: 1 tsp grated ginger, 2 tsp garlic, 1/2 cup hot water, 6 tbsp soy sauce, 3 tbsp brown sugar, 1 1/2 tbsp cornstarch, 1/4 tsp black pepper, 2 tbsp sesame oil",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sesame seeds for garnish",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Start white rice. Combine all sauce ingredients and stir to dissolve sugar.",
+    "Saute broccoli in 1 tbsp oil 4-5 min, partially covered, until crisp-tender. Remove.",
+    "Increase to high heat. Cook steak in single layer 2 min per side.",
+    "Add sauce, reduce heat, simmer 3-4 min until thickened.",
+    "Add broccoli back, toss. Serve over rice."
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "chicken-stir-fry",
+  "name": "Chicken Stir Fry",
+  "category": "Dinner",
+  "emoji": "🥡",
+  "desc": "Soy-ginger chicken with broccoli, peppers, and carrots over rice",
+  "time": "40 min",
+  "minutes": 40,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 cups rice",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "rice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2/3 cup soy sauce",
+      "qty": 0.6667,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup brown sugar",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp cornstarch",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Ginger, garlic, red pepper flakes",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 chicken breasts",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "chicken breasts",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp sesame oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Bell pepper, water chestnuts, broccoli, carrots, onion",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Cook rice. Combine soy sauce, sugar, cornstarch, ginger, garlic, pepper flakes. Marinate chicken 15 min.",
+    "Stir-fry vegetables 5 min in sesame oil. Remove.",
+    "Cook chicken 2 min per side. Return vegetables and marinade.",
+    "Boil, cook 5-7 min. Serve over rice."
+  ]
+}

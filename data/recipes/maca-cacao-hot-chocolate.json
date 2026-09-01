@@ -1,0 +1,84 @@
+{
+  "slug": "maca-cacao-hot-chocolate",
+  "name": "Maca Cacao Hot Chocolate",
+  "category": "Drinks",
+  "emoji": "☕",
+  "desc": "Superfood hot chocolate with maca, cacao, maple, and coconut oil",
+  "time": "10 min",
+  "minutes": 10,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 1/2 cups almond milk",
+      "qty": 2.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "almond milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp cacao powder",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cacao powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp maca powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "maca powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp maple syrup",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "maple syrup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp coconut oil",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "coconut oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Cinnamon, sea salt",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Blend or whisk all ingredients. Heat in a saucepan. Adjust sweetness.",
+    "Serve with coconut whip and shaved dark chocolate."
+  ]
+}

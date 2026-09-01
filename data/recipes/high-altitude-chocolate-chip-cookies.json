@@ -1,0 +1,112 @@
+{
+  "slug": "high-altitude-chocolate-chip-cookies",
+  "name": "High Altitude Chocolate Chip Cookies",
+  "category": "Desserts",
+  "emoji": "🍪",
+  "desc": "Adjusted for altitude: perfectly chewy chocolate chip cookies every time",
+  "time": "25 min",
+  "minutes": 25,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 cup butter",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup white sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "white sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup brown sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 eggs",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp vanilla",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp baking soda",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 1/2 cups flour",
+      "qty": 3.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup chocolate chips",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chocolate chips",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Stir butter and sugars. Mix in eggs and vanilla.",
+    "Combine flour, baking soda, salt. Stir in. Add chips.",
+    "Drop by teaspoonfuls. Bake at 350°F 12-15 min until edges are golden."
+  ]
+}

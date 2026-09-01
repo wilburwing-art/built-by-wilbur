@@ -1,0 +1,162 @@
+{
+  "slug": "cream-cheese-pound-cake",
+  "name": "Cream Cheese Pound Cake",
+  "category": "Desserts",
+  "emoji": "🍰",
+  "desc": "Pound cake baked as a sheet, optionally finished with raspberry and whipped cream",
+  "time": "1.5 hrs",
+  "minutes": 90,
+  "difficulty": "Medium",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 1/2 cups (320 g) all-purpose flour",
+      "qty": 2.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "(320 g) all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp baking powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups (345 g) unsalted butter, at room temperature",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "(345 g) unsalted butter",
+      "prep": "at room temperature",
+      "note": null
+    },
+    {
+      "raw": "8 oz (226 g) cream cheese, at room temperature",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "(226 g) cream cheese",
+      "prep": "at room temperature",
+      "note": null
+    },
+    {
+      "raw": "3 cups (600 g) granulated sugar",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "(600 g) granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp vanilla extract",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/4 tsp fine sea salt",
+      "qty": 1.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5 large eggs, at room temperature",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": "at room temperature",
+      "note": null
+    },
+    {
+      "raw": "To finish (optional):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup raspberry preserves",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "raspberry preserves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups cold heavy whipping cream",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cold heavy whipping cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp granulated sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp fine sea salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups freeze-dried raspberries",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "freeze-dried raspberries",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 325F and grease a 9x13 inch pan.",
+    "Whisk the flour and baking powder together and set aside.",
+    "Beat the butter, cream cheese and sugar until pale and very fluffy, at least 5 minutes. Add the vanilla and salt.",
+    "Add the eggs one at a time, beating well after each.",
+    "Add the flour mixture in three additions on low speed, mixing only until it disappears.",
+    "Spread into the pan and bake 55 to 65 minutes, until a skewer comes out clean and the top is deep golden.",
+    "Cool completely in the pan. Undressed it keeps 3 to 4 days airtight.",
+    "To finish, spread with raspberry preserves, whip the cream with sugar and salt to soft peaks and spread over, then crush the freeze-dried raspberries over the top right before serving."
+  ]
+}

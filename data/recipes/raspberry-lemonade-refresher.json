@@ -1,0 +1,86 @@
+{
+  "slug": "raspberry-lemonade-refresher",
+  "name": "Raspberry Lemonade Refresher",
+  "category": "Drinks",
+  "emoji": "🍓",
+  "desc": "Muddled raspberries, vodka and raspberry lemonade, double strained",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 fluid ounces vodka",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fluid ounces vodka",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 fluid ounces raspberry lemonade",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fluid ounces raspberry lemonade",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 fluid ounce fresh lime juice",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fluid ounce fresh lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 fresh raspberries",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fresh raspberries",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lemon wheel, for garnish",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lemon wheel",
+      "prep": "for garnish",
+      "note": null
+    },
+    {
+      "raw": "3 mint leaves, for garnish",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "mint leaves",
+      "prep": "for garnish",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Muddle raspberries: Muddle the 4 fresh raspberries and 1/2 fluid ounce fresh lime juice in the bottom of a shaker until the raspberries break down.",
+    "Combine ingredients: Add 2 fluid ounces vodka and 4 fluid ounces raspberry lemonade to the shaker along with ice.",
+    "Shake: Shake well for about 10 seconds .",
+    "Strain and serve: Double strain into a glass filled with fresh ice to catch the raspberry seeds. Garnish with a 1 lemon wheel, for garnish and 3 mint leaves, for garnish."
+  ]
+}

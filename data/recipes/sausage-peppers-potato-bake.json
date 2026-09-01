@@ -1,0 +1,113 @@
+{
+  "slug": "sausage-peppers-potato-bake",
+  "name": "Sausage, Peppers & Potato Bake",
+  "category": "Dinner",
+  "emoji": "🌶️",
+  "desc": "Italian sausage with bell peppers, onions, and potatoes roasted together",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 tsp + 1/4 cup olive oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "+ 1/4 cup olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 lbs Italian sausage, 2-inch pieces",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "Italian sausage, 2-inch pieces",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 large potatoes, thickly sliced",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large potatoes, thickly sliced",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 green + 2 red bell peppers, wedges",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "green + 2 red bell peppers, wedges",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 large onions, wedges",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large onions, wedges",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup white wine",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "white wine",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup chicken stock",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chicken stock",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp Italian seasoning",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "Italian seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat oven to 400°F. Brown sausage in 2 tsp oil. Transfer to baking dish.",
+    "Brown potatoes in 1/4 cup oil about 10 min. Add to dish.",
+    "Cook peppers and onions until softening, about 5 min. Add to dish.",
+    "Pour wine and stock over everything. Season. Bake 20-25 minutes."
+  ]
+}

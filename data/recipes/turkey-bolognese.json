@@ -1,0 +1,169 @@
+{
+  "slug": "turkey-bolognese",
+  "name": "Turkey Bolognese",
+  "category": "Dinner",
+  "emoji": "🍝",
+  "desc": "Rich tomato meat sauce with carrots, red wine, and milk over tagliatelle",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Easy",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 tbsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 medium carrots, finely chopped",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium carrots",
+      "prep": "finely chopped",
+      "note": null
+    },
+    {
+      "raw": "1 small yellow onion, finely chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small yellow onion",
+      "prep": "finely chopped",
+      "note": null
+    },
+    {
+      "raw": "1 tsp kosher salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lb ground turkey (93% lean)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "ground turkey (93% lean)",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 cloves garlic, minced",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp dried oregano",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp red pepper flakes",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup red wine",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "red wine",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 can crushed tomatoes",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "crushed tomatoes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp tomato paste",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "tomato paste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup whole milk",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "whole milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "10 oz tagliatelle or fettuccine",
+      "qty": 10,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "tagliatelle or fettuccine",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Parmesan, basil, parsley for serving",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat oil in a large skillet. Cook carrots, onion, salt, and pepper until softened, 5-7 min.",
+    "Add ground turkey, cook until browned, about 3 min.",
+    "Stir in garlic, oregano, and red pepper flakes for 1 minute.",
+    "Pour in wine, scrape up browned bits. Add crushed tomatoes, tomato paste, and milk.",
+    "Bring to a boil, reduce heat, simmer 10 minutes. Adjust seasoning.",
+    "Cook pasta al dente. Serve topped with sauce, Parmesan, and herbs."
+  ]
+}

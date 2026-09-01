@@ -1,0 +1,150 @@
+{
+  "slug": "cava-bowls",
+  "name": "Cava Bowls",
+  "category": "Lunch",
+  "emoji": "🥗",
+  "desc": "Grilled chicken over rice and greens with harissa vinaigrette and tzatziki",
+  "time": "40 min",
+  "minutes": 40,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 cups green leaf lettuce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "green leaf lettuce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lb thin-sliced chicken breast",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "thin-sliced chicken breast",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp Primal Palate Meat & Potatoes Seasoning",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Primal Palate Meat & Potatoes Seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp crumbled feta",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "crumbled feta",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp red pepper hummus",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "red pepper hummus",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp tzatziki",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "tzatziki",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup brown rice",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "brown rice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup cherry tomatoes, chopped",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cherry tomatoes",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup cucumber, chopped",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cucumber",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sea salt",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Fresh cilantro",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Vinaigrette: 1/4 cup harissa, 2 tbsp red wine vinegar, 1/4 cup olive oil, 1/4 cup water, 2 garlic cloves, 1/2 tbsp + 1 tsp honey, salt",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Blend all harissa vinaigrette ingredients. Set aside (add water for desired consistency).",
+    "Season chicken on both sides with seasoning. Grill on a hot pan until cooked through.",
+    "Toss cucumber and tomatoes with olive oil and sea salt.",
+    "Assemble bowls: lettuce, rice, cucumber-tomato mix, pickled onions, feta, and chicken. Add hummus and tzatziki. Top with cilantro and red pepper flakes.",
+    "Drizzle with harissa vinaigrette. Serve with pita."
+  ]
+}

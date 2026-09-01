@@ -1,0 +1,59 @@
+{
+  "slug": "oreo-truffles",
+  "name": "Oreo Truffles",
+  "category": "Desserts",
+  "emoji": "🍫",
+  "desc": "Three ingredients: crushed Oreos, cream cheese, dipped in chocolate",
+  "time": "1.5 hrs",
+  "minutes": 90,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 (16 ounce) package OREO Chocolate Sandwich Cookies, divided",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "package",
+      "item": "OREO Chocolate Sandwich Cookies",
+      "prep": "divided",
+      "note": "(16 ounce)"
+    },
+    {
+      "raw": "1 (8 ounce) package PHILADELPHIA Cream Cheese, softened",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "package",
+      "item": "PHILADELPHIA Cream Cheese",
+      "prep": "softened",
+      "note": "(8 ounce)"
+    },
+    {
+      "raw": "2 (8 ounce) packages BAKER'S Semi-Sweet Baking Chocolate, melted",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "package",
+      "item": "BAKER'S Semi-Sweet Baking Chocolate",
+      "prep": "melted",
+      "note": "(8 ounce)"
+    }
+  ],
+  "steps": [
+    "Crush 9 of the cookies to fine crumbs in food processor; reserve for later use. (Cookies can also be finely crushed in a resealable plastic bag using a rolling pin.) Crush remaining 36 cookies to fine crumbs; place in medium bowl. Add cream cheese; mix until well blended. Roll cookie mixture into 42 balls, about 1-inch in diameter.",
+    "Dip balls in chocolate; place on wax paper-covered baking sheet. (Any leftover chocolate can be stored at room temperature for another use.) Sprinkle with reserved cookie crumbs.",
+    "Refrigerate until firm, about 1 hour. Store leftover truffles, covered, in refrigerator.",
+    "Oreo cookie Bark"
+  ]
+}

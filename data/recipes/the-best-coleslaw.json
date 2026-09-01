@@ -1,0 +1,120 @@
+{
+  "slug": "the-best-coleslaw",
+  "name": "The Best Coleslaw",
+  "category": "Sides & Snacks",
+  "emoji": "🥬",
+  "desc": "Two cabbages and carrot in a tangy celery-seed dressing, chilled an hour",
+  "time": "1.5 hrs",
+  "minutes": 90,
+  "difficulty": "Easy",
+  "addedOn": "2026-08-30",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 cups thinly sliced green cabbage",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "thinly sliced green cabbage",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup thinly sliced purple cabbage",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "thinly sliced purple cabbage",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded carrot",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded carrot",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Dressing",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "½ cup mayonnaise",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tablespoon white vinegar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "white vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "½ tablespoon apple cider vinegar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "apple cider vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp granulated sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "½ teaspoon celery seed",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "celery seed",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "salt and black pepper to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Combine all dressing ingredients in a bowl.",
+    "Toss with cabbage & carrots. Refrigerate at least 1 hour before serving to allow flavors to blend."
+  ]
+}

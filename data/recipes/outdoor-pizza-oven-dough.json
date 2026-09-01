@@ -1,0 +1,78 @@
+{
+  "slug": "outdoor-pizza-oven-dough",
+  "name": "Outdoor Pizza Oven Dough",
+  "category": "Dinner",
+  "emoji": "🍕",
+  "desc": "Cold-proofed pizza dough for a perfect crispy, chewy crust",
+  "time": "24+ hrs",
+  "minutes": 1440,
+  "difficulty": "Medium",
+  "addedOn": null,
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "unresearched",
+    "evidence": null,
+    "checkedOn": null
+  },
+  "servings": {
+    "count": null,
+    "basis": null,
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "535g flour",
+      "qty": 535,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2g instant dry yeast",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "instant dry yeast",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "360g water at 40°F",
+      "qty": 360,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "water at 40°F",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "12g kosher salt",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Olive oil",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Pulse flour and yeast in food processor. Add water, process 10-20 sec. Rest 20 min.",
+    "Add salt, process 20-30 sec until smooth at 75°F.",
+    "Oil bowl, rest 45 min, knead briefly, rest 60-120 min.",
+    "Divide into four 225g balls. Oil lightly. Refrigerate 24-72 hrs.",
+    "Remove 1-2 hours before baking to reach 60°F."
+  ]
+}
