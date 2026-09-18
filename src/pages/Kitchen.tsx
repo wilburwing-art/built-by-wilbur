@@ -12,6 +12,9 @@ import {
 import type { Recipe } from "@/data/recipes"
 import { CookMode } from "@/components/CookMode"
 import { RecipeDirectory } from "@/components/RecipeDirectory"
+import { ShoppingList } from "@/components/ShoppingList"
+import { useShoppingList } from "@/hooks/useShoppingList"
+import { ingredientItem, isHeading, recipeItems } from "@/lib/shopping-list"
 import { SCALES, displayIngredient, displayStep, formatScale } from "@/lib/ingredient-scale"
 import type { Units } from "@/lib/ingredient-scale"
 import { toPlainText } from "@/lib/recipe-text"
@@ -24,11 +27,22 @@ import "./kitchen.css"
 const MODE_KEY = "bbw-kitchen-mode"
 const UNITS_KEY = "bbw-kitchen-units"
 
-function readMode(): "spin" | "browse" {
+type Mode = "search" | "spin" | "list"
+
+const MODES: Mode[] = ["search", "spin", "list"]
+
+/**
+ * Search is the default: most visits arrive knowing roughly what they want,
+ * and the wheel is one tap away for the ones that do not. An older visit that
+ * stored "browse" is the same tab under its old name.
+ */
+function readMode(): Mode {
   try {
-    return window.localStorage.getItem(MODE_KEY) === "browse" ? "browse" : "spin"
+    const stored = window.localStorage.getItem(MODE_KEY)
+    if (stored === "browse") return "search"
+    return MODES.find((m) => m === stored) ?? "search"
   } catch {
-    return "spin"
+    return "search"
   }
 }
 
@@ -44,7 +58,7 @@ export function Kitchen() {
   const { slug } = useParams()
   const navigate = useNavigate()
 
-  const [mode, setModeState] = useState<"spin" | "browse">(readMode)
+  const [mode, setModeState] = useState<Mode>(readMode)
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS)
   const [sort, setSort] = useState<SortKey>("relevance")
   const [isSpinning, setIsSpinning] = useState(false)
@@ -72,8 +86,21 @@ export function Kitchen() {
     }
   }, [])
 
+  const {
+    items: listItems,
+    add: addToList,
+    remove: removeFromList,
+    toggle: toggleListItem,
+    clearChecked: clearCheckedItems,
+    clearAll: clearList,
+  } = useShoppingList()
+  const listKeys = useMemo(() => new Set(listItems.map((i) => i.key)), [listItems])
+  const listRemaining = listItems.filter((i) => !i.checked).length
+  const [addedToList, setAddedToList] = useState(false)
+
   useEffect(() => {
     setScale(1)
+    setAddedToList(false)
   }, [slug])
 
   const intervalRef = useRef<number | null>(null)
@@ -83,7 +110,7 @@ export function Kitchen() {
   // truth about what a spin can land on.
   const pool = useMemo(() => selectRecipes(recipes, filters, sort), [filters, sort])
 
-  const setMode = useCallback((next: "spin" | "browse") => {
+  const setMode = useCallback((next: Mode) => {
     setModeState(next)
     try {
       window.localStorage.setItem(MODE_KEY, next)
@@ -168,6 +195,26 @@ export function Kitchen() {
     [scale, units],
   )
 
+  const addRecipeToList = useCallback(
+    (recipe: Recipe) => {
+      addToList(recipeItems(recipe, scale, units))
+      setAddedToList(true)
+      window.setTimeout(() => setAddedToList(false), 2000)
+    },
+    [addToList, scale, units],
+  )
+
+  // One line at a time, for the half of a recipe that is already in the
+  // cupboard. Tapping a line that is on the list takes it back off.
+  const toggleIngredient = useCallback(
+    (recipe: Recipe, index: number, ingredient: string) => {
+      const item = ingredientItem(recipe, index, ingredient, scale, units)
+      if (listKeys.has(item.key)) removeFromList(item.key)
+      else addToList([item])
+    },
+    [addToList, listKeys, removeFromList, scale, units],
+  )
+
   const accentColor = CATEGORY_COLORS[filters.category]
 
   return (
@@ -206,30 +253,40 @@ export function Kitchen() {
           <p>
             {mode === "spin"
               ? "Spin the wheel. Let fate decide."
-              : "Search by name or by what is in the fridge."}
+              : mode === "list"
+                ? "Everything you need, grouped by aisle."
+                : "Search by name or by what is in the fridge."}
           </p>
         </div>
 
-        <div className="cat-row">
-          {CATEGORIES.map((cat) => (
-            <button
-              key={cat}
-              className={`cat-btn ${filters.category === cat ? "active" : ""}`}
-              style={{ "--accent": CATEGORY_COLORS[cat] } as CSSProperties}
-              onClick={() => {
-                setFilters({ ...filters, category: cat })
-                setShowResult(false)
-                setResult(null)
-                if (viewingRecipe) closeRecipe()
-              }}
-            >
-              <span>{CATEGORY_ICONS[cat]}</span>
-              {cat}
-            </button>
-          ))}
-        </div>
+        {mode !== "list" && (
+          <div className="cat-row">
+            {CATEGORIES.map((cat) => (
+              <button
+                key={cat}
+                className={`cat-btn ${filters.category === cat ? "active" : ""}`}
+                style={{ "--accent": CATEGORY_COLORS[cat] } as CSSProperties}
+                onClick={() => {
+                  setFilters({ ...filters, category: cat })
+                  setShowResult(false)
+                  setResult(null)
+                  if (viewingRecipe) closeRecipe()
+                }}
+              >
+                <span>{CATEGORY_ICONS[cat]}</span>
+                {cat}
+              </button>
+            ))}
+          </div>
+        )}
 
         <div className="mode-row">
+          <button
+            className={`mode-btn ${mode === "search" ? "active" : ""}`}
+            onClick={() => setMode("search")}
+          >
+            <span aria-hidden="true">🔍</span> Search
+          </button>
           <button
             className={`mode-btn ${mode === "spin" ? "active" : ""}`}
             onClick={() => setMode("spin")}
@@ -237,10 +294,11 @@ export function Kitchen() {
             <span aria-hidden="true">🎰</span> Spin
           </button>
           <button
-            className={`mode-btn ${mode === "browse" ? "active" : ""}`}
-            onClick={() => setMode("browse")}
+            className={`mode-btn ${mode === "list" ? "active" : ""}`}
+            onClick={() => setMode("list")}
           >
-            <span aria-hidden="true">📖</span> Browse
+            <span aria-hidden="true">🛒</span> List
+            {listRemaining > 0 && <span className="mode-count">{listRemaining}</span>}
           </button>
         </div>
 
@@ -347,7 +405,7 @@ export function Kitchen() {
           </>
         )}
 
-        {mode === "browse" && (
+        {mode === "search" && (
           <RecipeDirectory
             results={pool}
             total={recipes.length}
@@ -356,6 +414,19 @@ export function Kitchen() {
             sort={sort}
             setSort={setSort}
             onOpen={openRecipe}
+          />
+        )}
+
+        {mode === "list" && (
+          <ShoppingList
+            items={listItems}
+            onAdd={addToList}
+            onToggle={toggleListItem}
+            onRemove={removeFromList}
+            onClearChecked={clearCheckedItems}
+            onClearAll={clearList}
+            onOpenRecipe={(s) => navigate(`/kitchen/${s}`)}
+            onBrowse={() => setMode("search")}
           />
         )}
 
@@ -422,6 +493,9 @@ export function Kitchen() {
                 >
                   Cook mode
                 </button>
+                <button className="action-btn" onClick={() => addRecipeToList(viewingRecipe)}>
+                  {addedToList ? "Added to list" : "Add to list"}
+                </button>
                 <button className="action-btn" onClick={() => void copyRecipe(viewingRecipe)}>
                   {copied ? "Copied" : "Copy recipe"}
                 </button>
@@ -463,15 +537,34 @@ export function Kitchen() {
                   </div>
                 </div>
                 <div className="ing-box">
-                  {viewingRecipe.ingredients.map((ing, i) => (
-                    <div key={i} className="ingredient-item">
-                      <div
-                        className="ingredient-dot"
-                        style={{ background: CATEGORY_COLORS[viewingRecipe.category] }}
-                      />
-                      {displayIngredient(ing, scale, units)}
-                    </div>
-                  ))}
+                  {viewingRecipe.ingredients.map((ing, i) => {
+                    const onList = listKeys.has(`${viewingRecipe.slug}#${i}`)
+                    return (
+                      <div key={i} className="ingredient-item">
+                        <div
+                          className="ingredient-dot"
+                          style={{ background: CATEGORY_COLORS[viewingRecipe.category] }}
+                        />
+                        <span className="ingredient-text">
+                          {displayIngredient(ing, scale, units)}
+                        </span>
+                        {!isHeading(ing) && (
+                          <button
+                            className={`ing-add ${onList ? "on" : ""}`}
+                            onClick={() => toggleIngredient(viewingRecipe, i, ing)}
+                            aria-pressed={onList}
+                            aria-label={
+                              onList
+                                ? `Remove ${ing} from shopping list`
+                                : `Add ${ing} to shopping list`
+                            }
+                          >
+                            {onList ? "✓" : "+"}
+                          </button>
+                        )}
+                      </div>
+                    )
+                  })}
                 </div>
               </div>
 
