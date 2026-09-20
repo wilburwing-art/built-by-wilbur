@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /prices
+Disallow: /prices.json

@@ -6,6 +6,14 @@
   "installCommand": "npm install",
   "headers": [
     {
+      "source": "/prices",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+    },
+    {
+      "source": "/prices.json",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+    },
+    {
       "source": "/kitchen",
       "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
     },

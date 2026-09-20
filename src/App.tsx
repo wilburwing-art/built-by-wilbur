@@ -7,6 +7,7 @@ import { Home } from "@/pages/Home"
 import { ProjectCaseStudy } from "@/pages/ProjectCaseStudy"
 import { Writing } from "@/pages/Writing"
 import { Post } from "@/pages/Post"
+import { Prices } from "@/pages/Prices"
 import { useDarkMode } from "@/hooks/useDarkMode"
 import { PageFade } from "@/components/motion"
 import { ScrollProgress } from "@/components/Reactive"
@@ -18,6 +19,8 @@ const Kitchen = lazy(() =>
 )
 
 /** Unlisted, and deliberately without the portfolio's own chrome. */
+const isPrices = (pathname: string) => pathname === "/prices"
+
 const isKitchen = (pathname: string) =>
   pathname === "/kitchen" || pathname.startsWith("/kitchen/")
 
@@ -77,6 +80,10 @@ function AnimatedRoutes() {
           }
         />
         <Route
+          path="/prices"
+          element={<Prices />}
+        />
+        <Route
           path="/kitchen"
           element={
             <Suspense fallback={null}>
@@ -99,7 +106,8 @@ function AnimatedRoutes() {
 
 function Shell() {
   const [dark, setDark] = useDarkMode()
-  const bare = isKitchen(useLocation().pathname)
+  const location = useLocation()
+  const bare = isKitchen(location.pathname) || isPrices(location.pathname)
 
   // useDarkMode stays mounted either way: it is the only thing that manages the
   // .dark class on <html>, and the kitchen sets its own colours regardless.
