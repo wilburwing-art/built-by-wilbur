@@ -1,0 +1,1542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Galley cabinet</title>
+<style>
+:root{color-scheme:dark;--bg:#0a0e14;--card:#141c28;--line:#243244;--txt:#dce6f2;--dim:#8fa3bb;--gold:#ffd166;--bamboo:#d9a441}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:20px 16px 60px}
+.van-nav{display:flex;gap:8px;margin-bottom:18px}
+.van-nav a{color:var(--gold);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+h1{font-size:26px;line-height:1.25;margin:0 0 12px}
+h2{font-size:21px;margin:34px 0 10px;padding-top:18px;border-top:1px solid var(--line)}
+h3{font-size:17px;margin:22px 0 8px;color:var(--gold)}
+a{color:var(--bamboo)}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.9em;background:rgba(255,255,255,.07);padding:1px 5px;border-radius:5px}
+pre{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;overflow-x:auto;font-size:12px;line-height:1.35}
+pre code{background:none;padding:0;font-size:inherit}
+table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:13.5px;margin:10px 0 16px}
+th,td{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top;white-space:nowrap}
+td:last-child,th:last-child{white-space:normal;min-width:180px}
+th{background:var(--card);color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+strong{color:#fff}
+li{margin:4px 0}
+blockquote{margin:0;padding-left:12px;border-left:3px solid var(--line);color:var(--dim)}
+.stamp{color:var(--dim);font-size:12px;margin-bottom:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="van-nav"><a href="/van/galley.html">Design doc</a><a href="/van/galley-bom.html">BOM</a></nav>
+<div class="stamp">Synced from dreamvan 2026-09-21</div>
+<h1>Galley cabinet: 10-series T-slot aluminum frame, bamboo top</h1>
+<p>Written 2026-09-20. Replaces the existing kitchenette with the build the
+notes have asked for since the 2026-02 Apple Notes backup: &quot;aluminum t-slot
+extrusion, plastic cabinet walls, thin bamboo countertop&quot; (<code>notes/</code> in
+<code>dreamvan-custom</code>, line &quot;Rebuild kitchenette from aluminum square stuff...&quot;)
+and &quot;Kitchenette that won&#39;t interfere with a sled&quot; (<code>Priority&#39;s for van.md</code>).</p>
+<p>Prices were read off the vendor pages on 2026-09-20. Anything marked <strong>est</strong>
+was not read off a page and is a ballpark. Re-check before ordering; TNUTZ
+prices in particular are sale prices and move.</p>
+<p>Sections added later the same day: the 30&quot; upper cabinet, 12 V motion-sensing
+LED strips inside both cabinets, a Marathon fabric lining on every interior
+panel face, a pull-out shower with a folding basin that stows in the sink bay,
+mesh and zipper storage on the outside, a reading light and ambient light, and
+EarthRoamer-style dividers for plates, pots, mugs and knives. Combined totals
+are at the end of those sections.</p>
+<h2>Assumptions (change these first if they are wrong)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Assumed</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Van</td>
+<td>Transit Trail 148&quot; WB (<code>transit-trail-mine</code>)</td>
+<td>the only owned vehicle; the kitchenette notes are about it</td>
+</tr>
+<tr>
+<td>Footprint</td>
+<td><strong>36&quot; W x 18&quot; D x 34&quot; H</strong> frame, counter at 34-3/4&quot;</td>
+<td>18&quot; deep keeps the aisle open for a sled; 36&quot; fits a sink bay plus a drawer bay</td>
+</tr>
+<tr>
+<td>Sink, faucet, drain, tanks</td>
+<td><strong>already owned</strong></td>
+<td><code>My van build.md</code>: &quot;I have fresh tank, sink, faucet, grey tank, sink drain&quot;</td>
+</tr>
+<tr>
+<td>Sink footprint</td>
+<td>fits a 16&quot; x 16&quot; clear bay</td>
+<td>measure the actual sink; anything under 15&quot; front to back works in an 18&quot; cabinet</td>
+</tr>
+<tr>
+<td>Extrusion</td>
+<td><strong>10-series (1&quot; x 1&quot;)</strong>, 6105-T5, clear anodized</td>
+<td>0.548 lb/ft; a galley does not need 15-series (1.5&quot;, about 2.3x the weight per foot)</td>
+</tr>
+<tr>
+<td>Panels</td>
+<td>4 mm black coroplast in the T-slot with gasket</td>
+<td>lightest option the notes asked for; rigid alternate below</td>
+</tr>
+<tr>
+<td>Water delivery</td>
+<td><strong>12 V diaphragm pump</strong> (SEAFLO 33, in the shower section)</td>
+<td>the pull-out shower needs pressure a foot pump cannot give; the pump feeds the faucet too, so the Whale foot pump is retired from the totals</td>
+</tr>
+</tbody></table>
+<h2>Layout</h2>
+<p>Viewed from the front. Two bays, each 16&quot; clear, split by a center post pair.</p>
+<pre><code> top rail (34&quot;)  ------------------------------------------------
+                 |  post  |   SINK BAY   | post |  DRAWER BAY  | post
+                 |        |   (16&quot; clr)  |      |  (16&quot; clr)   |
+                 |        |              |      |--drawer 5&quot;---|
+                 |        |   plumbing   |      |              |
+                 |        |   + door     |      |--drawer 9&quot;---|
+                 |        |              |      |              |
+ bottom rail     ------------------------------------------------
+                 &lt;---------------------- 36&quot; ----------------------&gt;
+</code></pre>
+<ul>
+<li>Four corner posts run full height (34&quot;). All rails sit between posts, so
+every rail is 2&quot; shorter than the outside dimension it spans.</li>
+<li>The bamboo top overhangs the frame 1/2&quot; on the front only (36&quot; x 18-1/2&quot;).
+Cut it 36&quot; x 18&quot; if the counter must not project past the frame.</li>
+<li>Bottom rails carry a 4 mm coroplast floor panel in their slots, so the
+cabinet has a floor without a plywood deck.</li>
+<li>The sink bay gets one hinged door on two 10-series hinges plus a magnetic
+push latch. The drawer bay gets two drawers on 16&quot; full-extension slides
+mounted to four short horizontal rails.</li>
+</ul>
+<h2>Cut list (10-series 1010, order cut to length from TNUTZ)</h2>
+<p>TNUTZ per-length prices, read 2026-09-20 from the EX-1010 variation table:
+16&quot; $4.66, 32&quot; $8.82, 34&quot; $9.34, 36&quot; $9.86, 48&quot; $12.98, 96&quot; $25.46.
+Ordering the exact lengths is cheaper than six 96&quot; bars ($152.76) and skips
+the saw.</p>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Length</th>
+<th>Role</th>
+<th>Each</th>
+<th>Ext</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>4</td>
+<td>34&quot;</td>
+<td>corner posts</td>
+<td>$9.34</td>
+<td>$37.36</td>
+</tr>
+<tr>
+<td>4</td>
+<td>34&quot;</td>
+<td>front/back rails, top and bottom</td>
+<td>$9.34</td>
+<td>$37.36</td>
+</tr>
+<tr>
+<td>4</td>
+<td>16&quot;</td>
+<td>side rails, top and bottom</td>
+<td>$4.66</td>
+<td>$18.64</td>
+</tr>
+<tr>
+<td>2</td>
+<td>32&quot;</td>
+<td>center posts (between top and bottom rails)</td>
+<td>$8.82</td>
+<td>$17.64</td>
+</tr>
+<tr>
+<td>2</td>
+<td>16&quot;</td>
+<td>center depth rails, top and bottom (bay divider)</td>
+<td>$4.66</td>
+<td>$9.32</td>
+</tr>
+<tr>
+<td>4</td>
+<td>16&quot;</td>
+<td>drawer-slide rails, two per drawer</td>
+<td>$4.66</td>
+<td>$18.64</td>
+</tr>
+<tr>
+<td><strong>20</strong></td>
+<td><strong>496&quot;</strong> (41.3 ft, 22.6 lb)</td>
+<td></td>
+<td></td>
+<td><strong>$138.96</strong></td>
+</tr>
+</tbody></table>
+<p>If the footprint changes: posts = H; front/back rails = W - 2; side and
+drawer rails = D - 2; center posts = H - 2.</p>
+<h2>Bill of materials</h2>
+<h3>TNUTZ (tnutz.com, ships UPS from Pennsylvania)</h3>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Part</th>
+<th>SKU</th>
+<th>Each</th>
+<th>Ext</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>20</td>
+<td>1010 extrusion, cut lengths above</td>
+<td>EX-1010</td>
+<td>per length</td>
+<td>$138.96</td>
+<td>6105-T5, clear anodized</td>
+</tr>
+<tr>
+<td>45</td>
+<td>2-hole inside corner bracket</td>
+<td>CB-010-B</td>
+<td>$2.30</td>
+<td>$103.50</td>
+<td>32 rail ends + 6 countertop + 4 floor + spares; hardware NOT included</td>
+</tr>
+<tr>
+<td>80</td>
+<td>1/4-20 economy T-nut + 1/4-20 x 1/2&quot; BHCS, stainless</td>
+<td>COMBO-010-A-SS</td>
+<td>$0.55</td>
+<td>$44.00</td>
+<td>2 per rail-end bracket, 1 per countertop/floor bracket, spares</td>
+</tr>
+<tr>
+<td>20</td>
+<td>#10-32 economy T-nut + #10-32 x 3/8&quot; BHCS</td>
+<td>COMBO-010 (#10-32)</td>
+<td>$0.55 <strong>est</strong></td>
+<td>$11.00</td>
+<td>drawer slides to rails; priced off the 1/4-20 combo</td>
+</tr>
+<tr>
+<td>20</td>
+<td>drop-in T-nut w/ spring ball, 1/4-20</td>
+<td>DB-010</td>
+<td>$0.80</td>
+<td>$16.00</td>
+<td>for anything added after the frame is closed</td>
+</tr>
+<tr>
+<td>2</td>
+<td>10-series anodized aluminum hinge, 40 lb</td>
+<td>HI-010-A</td>
+<td>$4.75</td>
+<td>$9.50</td>
+<td>hardware included</td>
+</tr>
+<tr>
+<td>60 ft</td>
+<td>economy panel gasket, per foot</td>
+<td>GAS-010-A</td>
+<td>$0.30</td>
+<td>$18.00</td>
+<td>holds 4 mm coroplast in the 1/4&quot; slot</td>
+</tr>
+<tr>
+<td>8</td>
+<td>end cap, black</td>
+<td>EC-010</td>
+<td>$0.35</td>
+<td>$2.80</td>
+<td>any exposed rail end</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>subtotal</strong></td>
+<td><strong>$343.76</strong></td>
+<td>plus shipping, <strong>est</strong> $25-40</td>
+</tr>
+</tbody></table>
+<p>Cleaner joint option: HC-010-A hidden corner connector, $2.70 per joint,
+no machining. Cheaper than bracket + two combos ($3.40) and invisible, but
+each joint gets one fastener instead of two. Reasonable swap for the six
+joints on the front face; keep brackets on the rest.</p>
+<p>80/20 direct (8020.net) is the same profile at $0.45/in plus $3.00 per cut,
+about 1.7x TNUTZ. Only worth it if TNUTZ is out of stock.</p>
+<h3>Amazon</h3>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Part</th>
+<th>ASIN</th>
+<th>Each</th>
+<th>Ext</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>FLEXISPOT bamboo desktop 48&quot; x 24&quot; x 0.75&quot;</td>
+<td>B09KNFX8CD</td>
+<td>$179.99</td>
+<td>$179.99</td>
+<td>the &quot;thin bamboo&quot; top; a review measured 19 mm. Cut to 36&quot; x 18-1/2&quot;; the 12&quot; offcut becomes drawer fronts</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Coroplast 4 mm black 48&quot; x 24&quot;, 4-pack</td>
+<td>B0842P77SH</td>
+<td>$28.00</td>
+<td>$56.00</td>
+<td>7 panels needed (2 sides, 2 back, 1 divider, 1 door, 1 floor); each panel is 16-1/2&quot; x 32-1/2&quot; except the floor at 34-1/2&quot; x 16-1/2&quot;</td>
+</tr>
+<tr>
+<td>2</td>
+<td>LONTAN 16&quot; full-extension slides, 100 lb, pair</td>
+<td>B0DM59QGPQ (16&quot;)</td>
+<td>$16.99</td>
+<td>$33.98</td>
+<td>one pair per drawer</td>
+</tr>
+<tr>
+<td>1</td>
+<td>magnetic touch latch, push to open, 2-pack</td>
+<td>B0CMZBF86N</td>
+<td>$11.88</td>
+<td>$11.88</td>
+<td>sink bay door</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1/4-20 multi-grip rivet nuts, 25-pack</td>
+<td>B0D95C9G5L</td>
+<td>$9.39</td>
+<td>$9.39</td>
+<td>tie the top back rail to a wall rib; needs a rivnut tool (<strong>est</strong> $45-60 if not already owned)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>subtotal</strong></td>
+<td><strong>$291.24</strong></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>Heavier, cheaper top: OLenyer 48&quot; x 25&quot; x 1.18&quot; bamboo, B0GVSGP8CW, $119.99,
+36.4 lb full sheet. Saves $60 and adds about 8 lb after trimming.</p>
+<h3>Home Depot (local store)</h3>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Part</th>
+<th>Model</th>
+<th>Each</th>
+<th>Ext</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2</td>
+<td>1/2&quot; x 2&#39; x 4&#39; Sande plywood project panel</td>
+<td>109068</td>
+<td>$27.26</td>
+<td>$54.52</td>
+<td>drawer boxes (sides, fronts, backs) and the door/drawer faces if the bamboo offcut is not used</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1/4&quot; x 2&#39; x 4&#39; Sande plywood project panel</td>
+<td>109023</td>
+<td>$16.43</td>
+<td>$16.43</td>
+<td>drawer bottoms</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1/4-20 x 1-1/2&quot; SS bolts, fender washers, nylocks (4 ea)</td>
+<td></td>
+<td></td>
+<td>$15.00 <strong>est</strong></td>
+<td>floor mount through the subfloor</td>
+</tr>
+<tr>
+<td>1</td>
+<td>#12 x 3/4&quot; pan-head wood screws (pack)</td>
+<td></td>
+<td></td>
+<td>$6.00 <strong>est</strong></td>
+<td>countertop brackets up into the bamboo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>subtotal</strong></td>
+<td><strong>$91.95</strong></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3>Plumbing and finish</h3>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Part</th>
+<th>Source</th>
+<th>Ext</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Whale Gusher Galley Mk3 foot pump, RH lever, GP0550</td>
+<td>Fisheries Supply, $181.38, 5 in stock</td>
+<td>$181.38</td>
+<td><strong>optional</strong>; Amazon and Poco Marine list it lower, verify before buying</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1/2&quot; potable hose, barbs, clamps</td>
+<td>HD or Amazon</td>
+<td>$25.00 <strong>est</strong></td>
+<td>fresh line to faucet, drain to grey</td>
+</tr>
+<tr>
+<td>1</td>
+<td>food-safe top finish (butcher block oil or Osmo TopOil)</td>
+<td>HD or Amazon</td>
+<td>$12.00 <strong>est</strong></td>
+<td>bamboo top and drawer fronts</td>
+</tr>
+</tbody></table>
+<h2>Totals (galley only)</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>TNUTZ</td>
+<td>$343.76</td>
+</tr>
+<tr>
+<td>Amazon</td>
+<td>$291.24</td>
+</tr>
+<tr>
+<td>Home Depot</td>
+<td>$91.95</td>
+</tr>
+<tr>
+<td>Plumbing + finish</td>
+<td>$37.00</td>
+</tr>
+<tr>
+<td><strong>Core cabinet</strong></td>
+<td><strong>$763.95</strong> plus TNUTZ shipping (<strong>est</strong> $25-40)</td>
+</tr>
+<tr>
+<td>with foot pump</td>
+<td><strong>$945.33</strong></td>
+</tr>
+<tr>
+<td>with 1/4&quot; ply panels instead of coroplast</td>
+<td>add about $41 (7 x $16.43 panels, minus $56 coroplast and $18 gasket)</td>
+</tr>
+</tbody></table>
+<p>Weight, <strong>est</strong>: extrusion 22.6 lb, brackets and hardware 4 lb, top 11 lb
+(36 x 18.5 x 0.75 bamboo), coroplast 4.5 lb, two drawer boxes 10 lb, slides
+3 lb: about <strong>55 lb</strong> before sink, pump and water.</p>
+<h2>Alternates the notes also asked for</h2>
+<ul>
+<li><strong>Stretched fabric with zippers</strong> instead of a hinged door: skip the two
+hinges, latch and door panel; press a Cordura panel into the sink-bay slots
+with the same gasket and sew a #10 zipper down one side. Lightest front,
+about $30 <strong>est</strong> in fabric and zipper. Keeps the coroplast on the sides and
+back where the plumbing needs a splash wall.</li>
+<li><strong>Rigid panels</strong>: 1/4&quot; Sande project panel (HD 109023, $16.43) slides
+straight into the 1/4&quot; slot with no gasket, takes paint, and stiffens the
+frame. About 20 lb of panel instead of 4.5 lb. 6 mm expanded PVC does the
+same at $71-90 per 24&quot; x 48&quot; sheet (Amazon B0B39PX62D, B09NP3PT2N) and is not
+worth it here.</li>
+<li><strong>Collapsible sink</strong> (Vanpackers, $20, 15.75&quot; x 11.42&quot; x 5.91&quot;, 2.45 lb): only
+if the owned sink turns out too deep for an 18&quot; cabinet. It has no drain
+fitting listed, so it would be a dump-to-grey basin, not plumbed.</li>
+</ul>
+<h2>Uppers: 30&quot; x 10&quot; x 10&quot; cabinet</h2>
+<p>Added 2026-09-20, after the galley. Same 10-series frame, hung above the
+galley on the wall ribs. 30&quot; W x 10&quot; D x 10&quot; H, a shallow box with two 15&quot;
+hinged doors on <code>HI-010-A</code> hinges, one magnetic push latch per door, no
+shelf. Cut list, 12 pieces, 184&quot;, about 8.4 lb:</p>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Length</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>4</td>
+<td>10&quot;</td>
+<td>corner posts</td>
+</tr>
+<tr>
+<td>4</td>
+<td>28&quot;</td>
+<td>front/back rails, top and bottom</td>
+</tr>
+<tr>
+<td>4</td>
+<td>8&quot;</td>
+<td>side rails, top and bottom</td>
+</tr>
+</tbody></table>
+<p>TNUTZ&#39;s EX-1010 variation table was read for the galley&#39;s six lengths only,
+so 8&quot;, 10&quot; and 28&quot; are extrapolated at $0.2715/in (the six verified lengths
+all landed between $0.265 and $0.291 per inch). Put the three lengths in a
+cart before trusting the line.</p>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Part</th>
+<th>Source</th>
+<th>SKU</th>
+<th>Each</th>
+<th>Ext</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>12</td>
+<td>1010 extrusion, cut lengths above</td>
+<td>TNUTZ</td>
+<td>EX-1010</td>
+<td>per length</td>
+<td>$49.96 <strong>est</strong></td>
+<td>extrapolated, see above</td>
+</tr>
+<tr>
+<td>16</td>
+<td>2-hole inside corner bracket</td>
+<td>TNUTZ</td>
+<td>CB-010-B</td>
+<td>$2.30</td>
+<td>$36.80</td>
+<td>8 rail ends top, 8 bottom; hardware not included</td>
+</tr>
+<tr>
+<td>32</td>
+<td>1/4-20 economy T-nut + BHCS combo, SS</td>
+<td>TNUTZ</td>
+<td>COMBO-010-A-SS</td>
+<td>$0.55</td>
+<td>$17.60</td>
+<td>2 per bracket; the hinges bring their own hardware</td>
+</tr>
+<tr>
+<td>2</td>
+<td>10-series hinge, 40 lb</td>
+<td>TNUTZ</td>
+<td>HI-010-A</td>
+<td>$4.75</td>
+<td>$9.50</td>
+<td>one per door; 4 total with the galley</td>
+</tr>
+<tr>
+<td>1</td>
+<td>magnetic touch latch, push to open, 2-pack</td>
+<td>Amazon</td>
+<td>B0CMZBF86N</td>
+<td>$11.88</td>
+<td>$11.88</td>
+<td>one per door</td>
+</tr>
+<tr>
+<td>1</td>
+<td>coroplast 4 mm black 48&quot; x 24&quot;, 4-pack</td>
+<td>Amazon</td>
+<td>B0842P77SH</td>
+<td>$28.00</td>
+<td>$28.00</td>
+<td>7 panels: 2 sides 9-1/2&quot; x 9&quot;, back 28&quot; x 9&quot;, top and bottom 28&quot; x 8&quot;, 2 doors 14-1/2&quot; x 9&quot;</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1/4-20 x 2&quot; SS bolts, fender washers, nylocks (6 ea)</td>
+<td>Home Depot</td>
+<td></td>
+<td></td>
+<td>$12.00 <strong>est</strong></td>
+<td>4 top, 2 bottom, through the back panel into the wall ribs; reachable from inside, no rivnuts</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>subtotal</strong></td>
+<td><strong>$165.74</strong></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>The first pass of this list had no top panel. The LED strip below mounts on
+the rail under one, so the top is in the count now; the 4-pack still covers
+all seven.</p>
+<h2>Cabinet lighting: 12 V motion-sensing LED strips</h2>
+<p>Both cabinets get a run of COB LED tape on the inside of the top front rail,
+switched by a PIR motion sensor inside the box, fed from the van&#39;s factory
+Customer Connection Point (the Auxiliary Fuse Panel, option 87E on the window
+sticker in <code>My van.md</code>). No batteries to change and no switch to find in the
+dark: open a door and the box lights; close it and the strip times out behind
+the door.</p>
+<table>
+<thead>
+<tr>
+<th>Where</th>
+<th>Strip</th>
+<th>Draw at 8 W/m</th>
+<th>Sensor</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Upper: inside face of the 28&quot; top front rail</td>
+<td>700 mm (27.6&quot;), 28 cut segments</td>
+<td>5.6 W, 0.47 A</td>
+<td>one PIR at the centre of the top rail, lens toward the doors</td>
+</tr>
+<tr>
+<td>Galley: inside face of the top front rail, sink-bay span only</td>
+<td>350 mm (13.8&quot;), 14 cut segments</td>
+<td>2.8 W, 0.23 A</td>
+<td>one PIR on the divider&#39;s top rail, lens toward the door</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td>1,050 mm of a 5,000 mm reel</td>
+<td><strong>8.4 W, 0.7 A</strong></td>
+<td>one 2-pack</td>
+</tr>
+</tbody></table>
+<p>The drawer bay gets no strip: a pulled drawer sits in room light. The 3.95 m
+left on the reel is enough for an under-cabinet counter light later, on its
+own switch (not specified here).</p>
+<h3>Circuit</h3>
+<p>CCP battery-fed stud, ring terminal, inline ATC fuse holder with a 7.5 A fuse
+as close to the stud as its leads allow, 14 AWG duplex to the galley, then a
+butt-spliced split: one branch to the galley PIR and its strip, one up the
+wall to the upper PIR and its strip. The reading light, its USB port and the
+dimmed ambient strip (later sections) ride the same feed, which is why it is
+14 AWG and 7.5 A rather than the 16 AWG and 5 A the cabinet strips alone
+would need. Negative returns to the CCP ground stud
+or a bolted chassis ground. The cabinet frame is never the return: anodized
+aluminum conducts poorly across bracketed joints and the frame is not bonded
+to the chassis.</p>
+<ul>
+<li>Use a <strong>battery-fed</strong> stud so the lights work parked; the run-fed studs
+drop out with the ignition. The BEMM (linked from
+<code>dreamvan-custom/notes/🚐 My van build.md</code>, line 2513) says which stud is
+which. The CCP sits under the driver&#39;s seat (from memory, confirm on the
+van).</li>
+<li>The CCP studs are fused at the panel far above 7.5 A, so the inline fuse is
+what protects the wire and the sensor&#39;s 6 A rating.</li>
+<li>Voltage drop: 14 AWG stranded copper runs about 2.6 ohm per 1,000 ft. A
+20 ft one-way run is 40 ft of loop, 0.10 ohm. The cabinet strips alone draw
+0.7 A (0.07 V); with the reading light, a phone on its USB port and the
+ambient strip all on, the branch peaks near 3.9 A, 0.4 V, about 3% of
+12.6 V.</li>
+<li>Standby: PIR modules of this kind idle at a few mA (<strong>est</strong>, the listing
+does not state it). Two at 2 mA is 0.6 Wh a day; 20 door openings at the
+1-minute minimum delay is another 2.8 Wh. Call it 3.5 Wh, under 0.3 Ah a
+day, off the dual AGM starting batteries. Small but real: a month parked
+costs about 9 Ah.</li>
+<li>The 1-minute minimum delay runs behind a closed door and costs 0.14 Wh per
+opening. Set the delay to minimum and any LUX or daylight threshold to
+&quot;always&quot; if the module has one; a cabinet interior is dark at noon too.</li>
+</ul>
+<h3>Mounting</h3>
+<ul>
+<li>Strip: 8 mm wide, 3M backing. Wipe the anodized rail with isopropyl and
+stick the strip to the inside face of the top front rail, on the flat
+between the slot and the top edge (each flat is about 0.37&quot;, 9.4 mm, so
+the strip fits). It hides behind the door header and throws light down and
+back. Never on coroplast: polypropylene sheds the tape.</li>
+<li>Cut only at the printed 25 mm marks; solder or clip the lead at the cut
+end. The strip is IP20, so it stays at the top of the sink bay above the
+rim line and away from the drain.</li>
+<li>PIR: the module&#39;s own screw holes onto a #10-32 combo in the rail slot, or
+VHB. 60 degree cone, 5 to 8 m range; inside a 10&quot; box it sees the whole
+opening.</li>
+<li>Wire: the strip leads drop into a corner post&#39;s T-slot and run down it to
+the floor panel, then out through a notch. The slot is a ready-made
+raceway; a 47&quot; <code>COVER-010-BLK</code> slot cover closes it where the wire shows.
+In the upper, the lead leaves through the back panel beside a wall bolt.</li>
+</ul>
+<h3>Parts (prices read 2026-09-20)</h3>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Part</th>
+<th>Source</th>
+<th>SKU</th>
+<th>Each</th>
+<th>Ext</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>HAMRVL COB LED strip, 4000K, CRI 90+, 12 V, 16.4 ft, 8 W/m, cut every 25 mm</td>
+<td>Amazon</td>
+<td>B09MRLNS4J</td>
+<td>$13.99</td>
+<td>$13.99</td>
+<td>one reel covers both cabinets with 3.95 m spare</td>
+</tr>
+<tr>
+<td>1</td>
+<td>QWORK PIR motion sensor switch, 12-24 V, 6 A, 1-10 min delay, 2-pack</td>
+<td>Amazon</td>
+<td>B093SZRZCV</td>
+<td>$9.97</td>
+<td>$9.97</td>
+<td>one per cabinet</td>
+</tr>
+<tr>
+<td>1</td>
+<td>NAOEVO 14 AWG 2-conductor tinned copper, 50 ft</td>
+<td>Amazon</td>
+<td>B0C27DMT81</td>
+<td>$39.99</td>
+<td>$39.99</td>
+<td>sized for the whole lights branch (strips, reading light, USB, ambient); 50 ft covers a 20 ft run plus the upper and the ambient runs; the 16 AWG 30 ft roll ($18.69, B0B45BBR6F) is enough if the reading and ambient lights are skipped</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Wave One Marine inline ATC fuse holder, 16 AWG, 5 A fuse fitted, 10-pack</td>
+<td>Amazon</td>
+<td>B09F1VQPFC</td>
+<td>$9.99</td>
+<td>$9.99</td>
+<td>one used with a 7.5 A fuse swapped in (<strong>est</strong> $3, below); the 16 AWG pigtail is rated well past 7.5 A</td>
+</tr>
+<tr>
+<td>1</td>
+<td>ATC 7.5 A fuses, pack</td>
+<td>Home Depot</td>
+<td></td>
+<td></td>
+<td>$3.00 <strong>est</strong></td>
+<td>replaces the fitted 5 A on the lights branch</td>
+</tr>
+<tr>
+<td>1</td>
+<td>TICONN heat-shrink butt connectors, 100 pcs</td>
+<td>Amazon</td>
+<td>B086Z3H4X8</td>
+<td>$8.96</td>
+<td>$8.96</td>
+<td>splices at the galley and at both strips</td>
+</tr>
+<tr>
+<td>2</td>
+<td>10-series T-slot cover, black, 47&quot;</td>
+<td>TNUTZ</td>
+<td>COVER-010-BLK</td>
+<td>$1.40</td>
+<td>$2.80</td>
+<td>sale price, was $2.65; optional raceway cover</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ring terminals sized to the CCP studs</td>
+<td>Home Depot</td>
+<td></td>
+<td></td>
+<td>$3.00 <strong>est</strong></td>
+<td>read the stud size off the BEMM</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>subtotal</strong></td>
+<td><strong>$91.70</strong></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3>Alternates</h3>
+<ul>
+<li><strong>Door-triggered instead of motion</strong>: a reflective IR cabinet-door sensor
+(12 V, about $10 to $15 on Amazon, <strong>est</strong>, none was priced) switches on
+the instant the door opens and off when it closes, with no timeout and no
+lens to aim. Better behaviour for the single-door sink bay; the PIR still
+wins in the upper, where one sensor covers both doors.</li>
+<li><strong>Hand-wave IR</strong>: the under-kitchen-cabinet style short-range sensor. Wrong
+here; it would mean waving into a closed box.</li>
+</ul>
+<h2>Interior fabric lining</h2>
+<p>Every panel face that looks into a cabinet gets the fabric the wall panels
+wear: Marathon Tweed, Grey Heather, 100% polyolefin, 54&quot; wide, from Perfect
+Fit (<code>Van wall panels.md</code> bought it there for the wall panels, so check the
+offcuts from that job before ordering). It stops pots and cans rattling on
+bare coroplast, deadens the box, and makes the inside match the walls when a
+door is open.</p>
+<h3>Faces and yardage</h3>
+<p>Fabric stops 1/2&quot; short of every panel edge, so bare coroplast still seats
+in the 1/4&quot; slot with its gasket.</p>
+<table>
+<thead>
+<tr>
+<th>Cabinet</th>
+<th>Faces</th>
+<th>Pieces</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Galley</td>
+<td>2 sides, 2 back, both faces of the divider, inside of the door</td>
+<td>7 at 15-1/2&quot; x 31-1/2&quot;</td>
+</tr>
+<tr>
+<td>Galley</td>
+<td>floor</td>
+<td>1 at 33-1/2&quot; x 15-1/2&quot;</td>
+</tr>
+<tr>
+<td>Upper</td>
+<td>2 sides</td>
+<td>2 at 8-1/2&quot; x 8&quot;</td>
+</tr>
+<tr>
+<td>Upper</td>
+<td>back</td>
+<td>1 at 27&quot; x 8&quot;</td>
+</tr>
+<tr>
+<td>Upper</td>
+<td>top and bottom</td>
+<td>2 at 27&quot; x 7&quot;</td>
+</tr>
+<tr>
+<td>Upper</td>
+<td>inside of both doors</td>
+<td>2 at 14&quot; x 8&quot;</td>
+</tr>
+</tbody></table>
+<p>About 38 sq ft of face. Laid out across the 54&quot; width (three 15-1/2&quot; galley
+pieces per 31-1/2&quot; row, the floor piece beside the seventh, the upper pieces
+in three short rows) it takes 117-1/2&quot; of length, 3.3 linear yards. <strong>Order
+4.</strong> Skipping the three drawer-bay faces, which sit hidden behind the drawer
+boxes, drops it to 3.</p>
+<h3>Adhesive</h3>
+<p>3M Hi-Strength 90 contact adhesive. Its listing names polyethylene and
+polypropylene among what it bonds, which is why it is specified over the
+cheaper cans on the same Home Depot shelf (Super 77 $14.48, Gorilla $12.98,
+neither checked for polypropylene). Both surfaces get sprayed, since
+coroplast and the fabric back are both polyolefin, the hardest case for any
+spray glue: scuff the coroplast with 220 grit, wipe with isopropyl, spray
+both faces, wait until tacky (about a minute), lay from one edge and roll
+flat. Do one upper side panel first and pull on it the next day before
+lining the rest. Coverage per 12.6 oz can is not on the Home Depot page; two
+cans are specified against 76 sq ft of sprayed surface (both sides of 38).
+Read the can label and adjust.</p>
+<h3>Parts (prices read 2026-09-20)</h3>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Part</th>
+<th>Source</th>
+<th>SKU</th>
+<th>Each</th>
+<th>Ext</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>4 yd</td>
+<td>Marathon Tweed Fabric, Grey Heather, 54&quot; wide, 100% polyolefin</td>
+<td>Perfect Fit, perfectfit.com (Portland, OR)</td>
+<td>Marathon Tweed, colour Grey Heather</td>
+<td>$19.16 / linear yd</td>
+<td>$76.64</td>
+<td>shipping calculated at checkout; $17.56/yd at 20+</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3M Hi-Strength 90 contact adhesive, 12.6 oz</td>
+<td>Home Depot</td>
+<td>90-NAT</td>
+<td>$18.98</td>
+<td>$37.96</td>
+<td>16 in stock at the local store on 2026-09-20</td>
+</tr>
+<tr>
+<td>1</td>
+<td>220-grit sandpaper + isopropyl alcohol</td>
+<td>Home Depot</td>
+<td></td>
+<td></td>
+<td>$6.00 <strong>est</strong></td>
+<td>surface prep on coroplast</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>subtotal</strong></td>
+<td><strong>$120.60</strong></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3>Alternates</h3>
+<ul>
+<li><strong>Wrap and slot, no glue</strong>: cut each piece 1&quot; oversize, fold the excess
+over the back of the panel, and let the T-slot pinch fabric and coroplast
+together. 4 mm sheet plus two fabric layers is close to the 1/4&quot; slot, so
+the gasket is dropped on those panels and one panel gets tested before
+the rest are cut. Frees the build from the polyolefin-on-polyolefin bond.</li>
+<li><strong>If the 1/4&quot; ply panel alternate is chosen</strong>, any spray adhesive holds on
+wood, and the wrap method no longer fits the slot.</li>
+</ul>
+<h2>Pull-out shower</h2>
+<p>Cold-water pull-out shower beside the galley, with everything stowing in the
+sink bay: a recessed marine shower wand deck-mounted in the bamboo top, a
+folding curtain rod on the upper&#39;s aisle-end post that swings out over the
+aisle, a clear PEVA curtain, and a 32&quot; folding dog pool as the basin. A 12 V
+diaphragm pump feeds both the wand and the sink faucet, which retires the Whale
+foot pump. No hot water and no mixer: the wand&#39;s trigger is the valve. Hot
+water is a separate project (solar bag, propane tankless, or the coolant loop
+the <code>dreamvan-custom</code> notes discuss).</p>
+<pre><code>      wall                 upper cabinet (30&quot; x 10&quot; x 10&quot;)
+  ═══════════════════╤══════════════════════════════════╤═══
+                     │ rod bracket on this post, ~62&quot;   │
+                     │ ← 69&quot; 5-fold rod swings out 90°  ╰──┐
+                     │                                     │ curtain
+  galley (36&quot; x 18&quot;) │      ┌───────────────┐              │
+  ┌──────────────────┤      │  basin 32&quot; ø  │  aisle       │
+  │ sink │ drawers   │      │  8&quot; walls     │              │
+  │ bay  │           │      └───────────────┘              │
+  └──────┴───────────┘   wand pulls 6 ft from the top      │
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Piece</th>
+<th>What</th>
+<th>Where it lives</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Wand</td>
+<td>Scandvik 12107 recessed shower, hinged hard cap, 6 ft hose, trigger handle</td>
+<td>2-3/4&quot; hole in the bamboo top beside the sink, cup hanging into the sink bay</td>
+</tr>
+<tr>
+<td>Rod</td>
+<td>69&quot; 5-fold folding curtain rod, wall mount</td>
+<td>wall bracket on the upper&#39;s aisle-end post, two 1/4-20 combos through the bracket into the T-slot instead of the &quot;no drill&quot; pad; folds flat against the upper</td>
+</tr>
+<tr>
+<td>Curtain</td>
+<td>clear PEVA 72&quot; x 72&quot;, 12 hooks left on the rod</td>
+<td>rolled in the sink bay once dry; hooks stay on the rod</td>
+</tr>
+<tr>
+<td>Basin</td>
+<td>Jasonwell foldable pool, S, 32&quot; across, 8&quot; walls, 5.3 lb</td>
+<td>folded in the sink bay under the plumbing</td>
+</tr>
+<tr>
+<td>Drain</td>
+<td>the pool&#39;s cap 2 (hose connector) to a 6 ft garden hose</td>
+<td>out the slider door, or a GHT-to-1/2&quot; barb into the grey line if the grey inlet sits below the floor</td>
+</tr>
+<tr>
+<td>Water</td>
+<td>SEAFLO 33-series, 3.0 GPM, 45 psi, strainer and two 1/2&quot; barbs included</td>
+<td>sink bay floor; tank, strainer, pump, tee, faucet and wand</td>
+</tr>
+</tbody></table>
+<ul>
+<li><strong>Basin size.</strong> A standard shower stall is 32&quot;, so S. The M (39.5&quot; across,
+12&quot; walls, $27.99, 9.4 lb) holds more splash and eats 8&quot; more aisle. Folded
+size is on neither listing; a 32&quot; disc quartered is about 16&quot; x 16&quot; x 5&quot;
+(<strong>est</strong>), which is exactly the sink bay&#39;s floor, so measure it on arrival
+and expect to stand it on edge halved (16&quot; x 32&quot;) against the back panel if
+it will not quarter flat.</li>
+<li><strong>Rod height.</strong> The upper&#39;s post top sits near 62&quot; off the floor (34&quot;
+galley, about 18&quot; gap, 10&quot; upper). The curtain only has to catch splash from
+a hand-held wand, so that works; a ceiling-rib bracket puts it at 74&quot; if the
+gap is bigger. The 69&quot; rod suits 67&quot; to 78&quot; of span per its listing and
+folds to five 14&quot; segments; the 57&quot; 4-fold ($39.59, B0DJBT728L) is enough
+for a 32&quot; basin if the diamond can stay tight.</li>
+<li><strong>Water use.</strong> The trigger wand runs well under the pump&#39;s 3.0 GPM open
+flow; a three-minute navy shower is about 2 to 3 gal (<strong>est</strong>). The fresh
+tank size is still <code>~</code> in <code>vehicle.yaml</code>.</li>
+<li><strong>Pump circuit.</strong> Its own run from the CCP: 12 AWG duplex, 10 A inline fuse
+(the pump&#39;s own sheet sets the fuse; 10 A is from memory, read the box), and
+a panel toggle at the galley so it is off while driving. SEAFLO&#39;s draw at
+45 psi is several amps, and 12 AWG over a 40 ft loop keeps the drop near
+5%; 14 AWG is fine if the run measures under 12 ft.</li>
+<li><strong>Floor.</strong> The pool&#39;s embossed vinyl is the standing surface; the van floor
+under it stays dry. Dump before folding.</li>
+</ul>
+<h3>Parts (prices read 2026-09-20)</h3>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Part</th>
+<th>Source</th>
+<th>SKU</th>
+<th>Each</th>
+<th>Ext</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Wall mount folding shower curtain rod, 69&quot; 5-fold</td>
+<td>Amazon</td>
+<td>B0DJBV7C6G</td>
+<td>$50.99</td>
+<td>$50.99</td>
+<td>the listing in the request</td>
+</tr>
+<tr>
+<td>1</td>
+<td>AmazerBath clear PEVA curtain, 8G, 72&quot; x 72&quot;</td>
+<td>Amazon</td>
+<td>B07236M4HC</td>
+<td>$8.98</td>
+<td>$8.98</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td>shower curtain hooks, 12</td>
+<td>Amazon</td>
+<td></td>
+<td></td>
+<td>$5.00 <strong>est</strong></td>
+<td>only if the rod ships without</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Scandvik 12107 recessed shower, hard cap, 6 ft hose</td>
+<td>Amazon</td>
+<td>B0F3B3CZRZ</td>
+<td>$54.70</td>
+<td>$54.70</td>
+<td>2-3/4&quot; hole; Ambassador Marine B0CVJZKSK2 is $53.57 with a 3&quot; hole</td>
+</tr>
+<tr>
+<td>1</td>
+<td>SEAFLO 33-series 12 V pump, 3.0 GPM, 45 psi</td>
+<td>Amazon</td>
+<td>B07DQT1FVZ</td>
+<td>$52.99</td>
+<td>$52.99</td>
+<td>strainer + two 1/2&quot; barb fittings included; feeds faucet and wand</td>
+</tr>
+<tr>
+<td>1</td>
+<td>BNTECHGO 12 AWG 2-conductor silicone, 25 ft</td>
+<td>Amazon</td>
+<td>B07CZZ11K2</td>
+<td>$34.48</td>
+<td>$34.48</td>
+<td>pump run; 14 AWG if under 12 ft one-way</td>
+</tr>
+<tr>
+<td>1</td>
+<td>12 AWG inline ATC fuse holder + 10 A fuse</td>
+<td>Amazon or HD</td>
+<td></td>
+<td></td>
+<td>$8.00 <strong>est</strong></td>
+<td>fuse per the pump&#39;s sheet</td>
+</tr>
+<tr>
+<td>1</td>
+<td>panel toggle switch, 12 V, 10 A or better</td>
+<td>Amazon or HD</td>
+<td></td>
+<td></td>
+<td>$6.00 <strong>est</strong></td>
+<td>pump off while driving</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Jasonwell foldable pool, S, 32&quot; x 8&quot;</td>
+<td>Amazon</td>
+<td>B01I3DL9XW</td>
+<td>$21.99</td>
+<td>$21.99</td>
+<td>two drain caps, one with a hose connector; M 39.5&quot; x 12&quot; is B01MU0JMNG at $27.99</td>
+</tr>
+<tr>
+<td>1</td>
+<td>3/4&quot; garden hose, 6 ft, plus the fitting cap 2 turns out to need</td>
+<td>HD or Amazon</td>
+<td></td>
+<td></td>
+<td>$12.00 <strong>est</strong></td>
+<td>drain, out the door or to the grey line</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1/2&quot; barb tee, 1/2&quot; NPT x barb elbow for the wand, 4 hose clamps</td>
+<td>HD</td>
+<td></td>
+<td></td>
+<td>$12.00 <strong>est</strong></td>
+<td>splits the pump output</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>subtotal</strong></td>
+<td><strong>$267.13</strong></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2>Outside storage: mesh and zipper</h2>
+<p>The two faces that get used are the galley&#39;s aisle end (16&quot; clear between
+posts, 32&quot; tall) and the sink-bay door (16&quot; x 32&quot;); the upper&#39;s ends are 8&quot;
+clear squares. Nothing adhesive holds a loaded pocket on polypropylene, so
+every pocket&#39;s corners get a 1/4-20 button head into a drop-in T-nut in the
+post or rail slot (DB-010, twenty already on the galley list), with the
+supplied adhesive strips as the secondary hold against the coroplast.</p>
+<table>
+<thead>
+<tr>
+<th>Face</th>
+<th>Pocket</th>
+<th>Mount</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Galley aisle end, top</td>
+<td>elastic mesh pocket 9.8&quot; x 15.7&quot;</td>
+<td>four corners into the post slots</td>
+</tr>
+<tr>
+<td>Galley aisle end, bottom</td>
+<td>pack-all mesh zipper pouch, Large 14.2&quot; x 10.2&quot;, hung tall</td>
+<td>its buckle over a button head left 1/4&quot; proud in a post slot, plus a 2&quot; hook-and-loop strip so it cannot swing while driving</td>
+</tr>
+<tr>
+<td>Sink-bay door</td>
+<td>elastic mesh pocket 9.8&quot; x 15.7&quot;</td>
+<td>four corners; on a coroplast door use the adhesive strips and two button heads through the door&#39;s edge</td>
+</tr>
+<tr>
+<td>Upper, each end</td>
+<td>pack-all mesh zipper pouch, Medium 8.7&quot; x 5.9&quot;, hung tall</td>
+<td>buckle over a button head in the end post slot</td>
+</tr>
+</tbody></table>
+<h3>Parts (prices read 2026-09-20)</h3>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Part</th>
+<th>Source</th>
+<th>SKU</th>
+<th>Each</th>
+<th>Ext</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>elastic mesh cargo net pocket, 9.8&quot; x 15.7&quot;, 2-pack with adhesive strips</td>
+<td>Amazon</td>
+<td>B0CYPJZH73</td>
+<td>$11.66</td>
+<td>$11.66</td>
+<td>aisle end + door</td>
+</tr>
+<tr>
+<td>1</td>
+<td>pack-all water-resistant mesh zipper pouch, Large 14.17&quot; x 10.23&quot;</td>
+<td>Amazon</td>
+<td>B071RFZCVY</td>
+<td>$13.99</td>
+<td>$13.99</td>
+<td>aisle end, bottom</td>
+</tr>
+<tr>
+<td>2</td>
+<td>pack-all mesh zipper pouch, Medium 8.66&quot; x 5.91&quot;</td>
+<td>Amazon</td>
+<td>B06ZXZWNZ5</td>
+<td>$11.99</td>
+<td>$23.98</td>
+<td>upper ends</td>
+</tr>
+<tr>
+<td>1</td>
+<td>2&quot; industrial hook-and-loop, 4 ft</td>
+<td>HD or Amazon</td>
+<td></td>
+<td></td>
+<td>$8.00 <strong>est</strong></td>
+<td>keeps the hung pouches flat</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>subtotal</strong></td>
+<td><strong>$57.63</strong></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2>Reading light and ambient light</h2>
+<p>Both on the lights branch (the 14 AWG, 7.5 A circuit above), on their own
+switches rather than the PIRs.</p>
+<ul>
+<li><strong>Reading light</strong>: acegoo 12 V flexible-neck lamp, press for on and off,
+hold to dim, Type-C 5 V / 4 A charge port. Mount through the upper&#39;s bottom
+front rail at the aisle end (aluminum, holds the base screws) so it reaches
+the bench; move it to the wall panel if the bench sits elsewhere. Its own
+draw is a few watts (<strong>est</strong>); the USB port at full charge is another 20 W,
+which is most of the 3.9 A peak in the circuit note.</li>
+<li><strong>Ambient</strong>: BTF-LIGHTING FCOB 3000K warm strip, DC 12 V IP30, two 28&quot;
+runs: one under the upper&#39;s bottom front rail washing the counter, one on
+top of the upper&#39;s top front rail pointed at the ceiling. About 1.4 m at
+10 W/m (<strong>est</strong>, the listing gives density, 480 LEDs/m, and no wattage),
+1.2 A, through the Acegoo high-side PWM dimmer (4 A, 48 W), which needs a
+rigid panel: a 1/2&quot; ply offcut block screwed to the galley&#39;s top front rail
+beside the sink bay.</li>
+<li>The 4000K cabinet-strip remnant (3.95 m) would do the counter wash, but it
+is a different colour from the 3000K ambient and would read as two lights.
+Buy the warm reel.</li>
+</ul>
+<h3>Parts (prices read 2026-09-20)</h3>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Part</th>
+<th>Source</th>
+<th>SKU</th>
+<th>Each</th>
+<th>Ext</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>acegoo 12 V LED reading light, flexible neck, dimmable, Type-C port</td>
+<td>Amazon</td>
+<td>B0D5HHHS5P</td>
+<td>$21.99</td>
+<td>$21.99</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td>BTF-LIGHTING FCOB COB strip, 3000K, DC 12 V IP30, 16.4 ft</td>
+<td>Amazon</td>
+<td>B089N7KXF1</td>
+<td>$14.99</td>
+<td>$14.99</td>
+<td>pick the DC12V IP30 set on the listing; 1.4 m used</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Acegoo 12 V high-side PWM dimmer switch, 4 A</td>
+<td>Amazon</td>
+<td>B09M9TF3SQ</td>
+<td>$16.99</td>
+<td>$16.99</td>
+<td>ambient only</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>subtotal</strong></td>
+<td><strong>$53.97</strong></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2>EarthRoamer-style storage</h2>
+<p>Slotted plywood dividers with foam bumper strips, the way the reference photos
+do it: plates on edge in slots, bowls stacked in cubbies, mugs two deep, knives
+blade-down in a slotted block. All of it from 1/4&quot; and 1/2&quot; Sande project
+panel, glued and brad-nailed, with 1/2&quot; x 1/4&quot; high-density adhesive foam on
+every face a dish touches.</p>
+<table>
+<thead>
+<tr>
+<th>Where</th>
+<th>Holds</th>
+<th>Build</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Upper, left 14&quot;</td>
+<td>6 mugs, three cubbies 4-1/2&quot; clear, two deep</td>
+<td>1/4&quot; ply dividers 8&quot; tall x 8&quot; deep, foam strips at mug height</td>
+</tr>
+<tr>
+<td>Upper, right 14&quot;</td>
+<td>2 bowl stacks, cubbies 6-1/2&quot; clear</td>
+<td>same dividers, foam on the cubby floor and both walls</td>
+</tr>
+<tr>
+<td>Galley 9&quot; drawer, back 5&quot;</td>
+<td>4 dinner plates on edge</td>
+<td>1/2&quot; ply base with 1/4&quot; ply slats at 1&quot; pitch, foam on both faces of each slat; 10&quot; plates stand 1&quot; proud of the box, under the counter</td>
+</tr>
+<tr>
+<td>Galley 9&quot; drawer, front 11&quot;</td>
+<td>10&quot; skillet, 2 qt pot, lids</td>
+<td>one 1/4&quot; ply divider with foam so the skillet cannot slide into the plates</td>
+</tr>
+<tr>
+<td>Galley 5&quot; drawer</td>
+<td>knives and silverware</td>
+<td>knife block from a 1/2&quot; offcut, 15&quot; x 4&quot;, 3/8&quot; deep kerfs at 1&quot; pitch, blades down; 1/4&quot; ply dividers for forks, spoons, tools, foam on the faces</td>
+</tr>
+</tbody></table>
+<p>Plates do not fit on edge in the upper: its clear height is 8&quot; and a dinner
+plate needs 11&quot; including the foam lip. Two ways to change that, both
+declined here: grow the upper to 12&quot; tall (posts to 12&quot;, side panels to
+11-1/2&quot; x 9&quot;, about $2 more extrusion <strong>est</strong>), or store 8&quot; salad plates
+instead. The 9&quot; drawer is the answer as built.</p>
+<h3>Parts (prices read 2026-09-20)</h3>
+<table>
+<thead>
+<tr>
+<th>Qty</th>
+<th>Part</th>
+<th>Source</th>
+<th>SKU</th>
+<th>Each</th>
+<th>Ext</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>1/4&quot; x 2&#39; x 4&#39; Sande plywood project panel</td>
+<td>Home Depot</td>
+<td>109023</td>
+<td>$16.43</td>
+<td>$16.43</td>
+<td>all dividers and slats; the earlier 1/4&quot; panel is the drawer bottoms</td>
+</tr>
+<tr>
+<td>1</td>
+<td>high-density adhesive foam tape, 1/2&quot; x 1/4&quot;, 42 ft</td>
+<td>Amazon</td>
+<td>B0BNWQM45L</td>
+<td>$5.99</td>
+<td>$5.99</td>
+<td>the black bumper strips in the photos</td>
+</tr>
+<tr>
+<td>1</td>
+<td>wood glue (Titebond II or similar)</td>
+<td>Home Depot</td>
+<td></td>
+<td></td>
+<td>$5.00 <strong>est</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td>3/4&quot; brads or 1&quot; pin nails</td>
+<td>Home Depot</td>
+<td></td>
+<td></td>
+<td>$4.00 <strong>est</strong></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>subtotal</strong></td>
+<td><strong>$31.42</strong></td>
+<td>the knife block comes out of the 1/2&quot; drawer-box offcuts</td>
+</tr>
+</tbody></table>
+<h2>Totals, everything</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Galley core (above)</td>
+<td>$763.95</td>
+</tr>
+<tr>
+<td>Upper cabinet</td>
+<td>$165.74 (extrusion line <strong>est</strong>)</td>
+</tr>
+<tr>
+<td>Lighting (cabinet strips, PIRs, 14 AWG branch)</td>
+<td>$91.70</td>
+</tr>
+<tr>
+<td>Fabric lining</td>
+<td>$120.60</td>
+</tr>
+<tr>
+<td>Pull-out shower (wand, rod, curtain, basin, pump, pump circuit)</td>
+<td>$267.13</td>
+</tr>
+<tr>
+<td>Outside storage (mesh + zipper)</td>
+<td>$57.63</td>
+</tr>
+<tr>
+<td>Reading light + ambient light</td>
+<td>$53.97</td>
+</tr>
+<tr>
+<td>EarthRoamer-style dividers</td>
+<td>$31.42</td>
+</tr>
+<tr>
+<td><strong>Everything, core</strong></td>
+<td><strong>$1,552.14</strong> plus TNUTZ shipping (<strong>est</strong> $25-40) and Perfect Fit shipping (read at checkout)</td>
+</tr>
+<tr>
+<td>Whale foot pump</td>
+<td>retired: the SEAFLO pump feeds the faucet, so the $181.38 line is cancelled in the BOM db and left out of the total</td>
+</tr>
+</tbody></table>
+<p>Weight adds about 3 lb to the galley (fabric <strong>est</strong> 2.5 lb, strip, wire) and
+1 lb to the upper, plus the shower kit stowed in the sink bay (basin 5.3 lb,
+pump about 2 lb, wand and hose about 1.5 lb, curtain under 1 lb) and about 5 lb
+of ply dividers: about <strong>70 lb</strong> galley loaded with its stowage and <strong>10 lb</strong>
+upper, before dishes, sink and water.</p>
+<h2>Assembly order</h2>
+<ol>
+<li>Lay out the two side frames flat: post, 16&quot; top rail, 16&quot; bottom rail,
+post. Square with a framing square before tightening; T-nuts loaded from
+the rail ends, brackets on the inside faces.</li>
+<li>Stand the sides up and join with the four 34&quot; front/back rails. Drop the
+floor coroplast into the bottom-rail slots before the last rail goes on.
+Line the floor panel first (step 5) if it is going in lined.</li>
+<li>Add the two 32&quot; center posts and the two 16&quot; center depth rails, sliding
+the divider panel in as the top center rail closes it.</li>
+<li>Fit the four 16&quot; drawer-slide rails at 6&quot; and 12&quot; above the floor panel
+(drawer heights 5&quot; and 9&quot; with 1&quot; of clearance). Mount the slides with the
+#10-32 combos before the back panels go in.</li>
+<li>Line the panels on the bench before any of them goes into a slot: cut the
+fabric pieces 1/2&quot; inside the panel edges, scuff, wipe, spray both faces,
+lay and roll, and let them cure overnight. The upper&#39;s side panel is the
+test piece.</li>
+<li>Wire while the box is open: stick the 350 mm strip to the inside face of
+the top front rail over the sink bay, mount the PIR on the divider&#39;s top
+rail aimed at the door, drop both leads down the nearest corner post slot
+and out through a notch in the floor panel. Slot cover on if the wire
+shows.</li>
+<li>Slide side and back panels in, then run gasket around every panel.</li>
+<li>Set the top on, mark from below, drill 1/8&quot; pilots into the bamboo through
+the six countertop brackets, screw up. Cut the sink hole after the top is
+fixed so the frame holds it flat.</li>
+<li>Build the drawer boxes (15&quot; wide x 16&quot; deep), hang, then fit fronts from
+the bamboo offcut. Hang the door on the two hinges, set the latch.</li>
+<li>Upper: same sequence in miniature. Two 8&quot; x 10&quot; side frames, join with
+the 28&quot; rails, panels lined and slid in (top, bottom, back, sides), the
+700 mm strip on the inside of the top front rail and the PIR at its
+centre, lead out through the back panel beside a wall-bolt hole. Hang
+the two doors, set the latches, then through-bolt to the ribs (4 top,
+2 bottom) before the galley goes in under it.</li>
+<li>In the van: four floor brackets through the subfloor with the 1/4-20
+bolts; one rivnut in the nearest wall rib and a bracket from the top back
+rail to it. Run the 14 AWG from the CCP battery-fed stud through the
+inline 7.5 A fuse to the galley, splice the branches (both PIR strips,
+the reading light, the dimmer and its ambient strip), and open both
+doors to test the sensors before the plumbing goes in.</li>
+<li>Dividers before dishes: glue and brad the upper&#39;s cubby grid and the
+drawer inserts on the bench, foam every contact face, and drop them in.
+The knife block&#39;s kerfs are a table-saw job; cut them before the block
+is glued to anything.</li>
+<li>Shower: hole-saw the 2-3/4&quot; wand cup into the bamboo top beside the sink
+before the top&#39;s finish goes on. Pump on the sink-bay floor with its
+strainer on the tank side, tee after it, one leg to the faucet, one to
+the wand&#39;s 1/2&quot; NPS elbow. Pump run on its own 12 AWG from the CCP through
+the 10 A fuse and the galley toggle. Rod bracket on the upper&#39;s aisle-end
+post; hang the curtain, open the basin, run water into it and drain it
+through cap 2 before the first shower.</li>
+<li>Outside pockets last, once the lined panels and doors are in: button
+heads into drop-in T-nuts at each corner, adhesive strips pressed on,
+pouch buckles over their studs, hook-and-loop behind them. Plumb the sink
+drain last of all.</li>
+</ol>
+<h2>Open items</h2>
+<ul>
+<li>Measure the owned sink (outside rim, bowl depth, drain position) before
+ordering the bamboo, since the sink dictates whether 18&quot; deep holds.</li>
+<li>Measure the sled (already on the priority list) and confirm 18&quot; of
+cabinet still leaves the load path.</li>
+<li>Rivnut tool: check the toolbox before buying one.</li>
+<li>TNUTZ shipping: put the cart together and read the UPS quote; it was not
+checked here.</li>
+<li>Measure the run from the CCP under the driver&#39;s seat to the galley; 30 ft
+of wire covers 20 ft one-way plus the upper branch, and the 50 ft roll is
+the fallback.</li>
+<li>Read the BEMM CCP page for which studs are battery-fed and their stud size
+before buying ring terminals.</li>
+<li>Check the wall-panel offcuts for Grey Heather before ordering 4 yards, and
+hold a swatch against the installed panels: Perfect Fit warns colour names
+drift between runs.</li>
+<li>Pull-test the first lined panel a day after gluing. If it peels, switch the
+rest to wrap-and-slot.</li>
+<li>Measure the fresh tank (still <code>~</code> in <code>vehicle.yaml</code>); at 2 to 3 gal a shower
+it sets how many showers a fill gives.</li>
+<li>Read the SEAFLO box for its fuse and draw before buying the 10 A fuse; 10 A
+is from memory.</li>
+<li>Measure the pool folded before deciding whether it quarters onto the sink
+bay floor or stands halved against the back panel.</li>
+<li>Confirm which coupling the pool&#39;s cap 2 carries (GHT thread or a
+Gardena-style click) before buying the drain hose end.</li>
+<li>Decide where the reading light points (bench or bed) before drilling the
+upper&#39;s rail; the wall panel is the alternate mount.</li>
+</ul>
+
+</div>
+</body>
+</html>
