@@ -38,174 +38,192 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 <div class="wrap">
 <nav class="van-nav"><a href="/van/">Van docs</a></nav>
 <div class="stamp">Synced from dreamvan 2026-09-22</div>
-<h1>12 V system: what the notes planned, and where the galley circuits land</h1>
-<p>Written 2026-09-22 from <code>shared/topics/powertrain-electrical/🚐 Prep aux battery van 🚐.md</code> (an Apple Note built up between 2020 and 2024) and the two
-circuits added by <code>galley-cabinet.md</code> on 2026-09-20. The note is a plan with a
-partly ticked buy list, so <strong>what is actually installed is unknown</strong>; the
-first open item below is to walk the van and mark each block of this doc
-installed or not.</p>
-<h2>Power sources</h2>
+<h1>12 V system</h1>
+<p>Written 2026-09-22 from <code>shared/topics/powertrain-electrical/🚐 Prep aux battery van 🚐.md</code> (a plan built up between 2020 and 2024), corrected the same
+day when the owner described what is actually installed. Ratings below were
+read off vendor and manufacturer pages on 2026-09-22; anything marked
+<strong>est</strong> was not.</p>
+<h2>Installed</h2>
 <table>
 <thead>
 <tr>
-<th>Source</th>
-<th>What the note says</th>
-<th>State</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Starter battery + alternator</td>
-<td>&quot;putting out &gt;500 watts&quot;; a smart alternator that cuts output intermittently, so anything charging off it has to sense engine-running rather than trust voltage alone</td>
-<td>factory</td>
-</tr>
-<tr>
-<td>CCP (Customer Connection Point, under the driver&#39;s seat)</td>
-<td>battery-fed and run-fed studs; the note wires &quot;the single female socket&quot; to it for alternator charging while driving, and &quot;the 3 socket&quot; to the starter battery through a 20 A breaker for overnight use</td>
-<td>factory studs; sockets unknown</td>
-</tr>
-<tr>
-<td>Goal Zero Yeti</td>
-<td>owned; the note hangs a <strong>12-circuit fuse block</strong> on it</td>
-<td>unknown</td>
-</tr>
-<tr>
-<td>Isolated house battery</td>
-<td>planned; a <strong>6-circuit fuse block</strong> (135 A total, 30 A per circuit) fed from the starter battery through an isolator</td>
-<td>fuse block, two 80 A ANL fuses and 4 AWG lugs bought; 4 AWG wire, 8 AWG wire and the 15 A fuse not</td>
-</tr>
-</tbody></table>
-<h2>The planned architecture</h2>
-<pre><code>starter battery POS ──4 AWG──► 100 A breaker ──► isolator (VSR)      ──4 AWG──► house battery POS
-                                (doubles as a       or Victron Orion-Tr                  │
-                                 manual isolator)   Smart DC-DC, 30 A                    ▼
-                                                                              6-circuit block (135 A)
-starter battery NEG ──4 AWG────────────────────────────────────────────────► house battery NEG
-ignition-hot fuse ──12 AWG──► isolator trigger pin
-
-Yeti 12 V out ──► 12-circuit block
-</code></pre>
-<ul>
-<li><strong>Breaker before the isolator.</strong> The note&#39;s own rule: a 100 A breaker
-between the isolator and the starter battery, so the VSR never has to be
-trusted as the only disconnect.</li>
-<li><strong>DC-DC over VSR.</strong> The note wants a Victron 30 A charger because the smart
-alternator&#39;s output drops intermittently and a plain VSR would chatter; the
-Sprinter/Yeti write-up it saved sets the DC-DC&#39;s engine-running lockout at
-13.2 V / 13.4 V. Whichever is chosen, the trigger comes from an
-ignition-hot circuit, never from battery voltage alone.</li>
-<li><strong>Two blocks, two jobs.</strong> The house block carries the loads that run with
-the engine off for hours (Webasto 15 to 20 A, air compressor 18 A, the Yeti
-charger). The Yeti block carries the cabin loads (fan, 12 V fridge, LED
-pucks and strips, water pump, exterior lights, a hot-water heater for the
-shower).</li>
-</ul>
-<h2>Load list</h2>
-<table>
-<thead>
-<tr>
-<th>Load</th>
-<th>Amps at 12 V</th>
-<th>Block per the note</th>
+<th>Piece</th>
+<th>Rating</th>
 <th>Source of the number</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>Webasto</td>
-<td>15 to 20</td>
-<td>house (6)</td>
-<td>note, &quot;prolly&quot;</td>
+<td>Goal Zero Yeti 1000 Lithium</td>
+<td>1045 Wh peak (10.8 V, 96.8 Ah), Li-ion NMC, 500 cycles to 80%</td>
+<td>Goal Zero spec table</td>
 </tr>
 <tr>
-<td>Air compressor</td>
-<td>18</td>
-<td>house (6)</td>
-<td>note</td>
+<td>2 x 100 W solar panels</td>
+<td>200 W nominal into the Yeti</td>
+<td>owner</td>
 </tr>
 <tr>
-<td>Yeti charger (DC-DC)</td>
-<td>30</td>
-<td>house (6)</td>
-<td>&quot;the Victron I want is 30a&quot;</td>
+<td>Victron DC-DC charger, 30 A</td>
+<td>wired to the CCP, charges the Yeti off the alternator</td>
+<td>owner</td>
 </tr>
 <tr>
-<td>12 V fridge</td>
-<td>not stated</td>
-<td>Yeti (12)</td>
-<td></td>
+<td>Blue Sea 12-circuit ST blade block</td>
+<td><strong>100 A per block, 30 A per circuit</strong>, 32 V max</td>
+<td>bluesea.com, 5026 spec table</td>
 </tr>
 <tr>
-<td>Fan</td>
-<td>not stated</td>
-<td>Yeti (12)</td>
-<td></td>
-</tr>
-<tr>
-<td>Water pump (SEAFLO 33, galley spec)</td>
-<td>several, read the box</td>
-<td>Yeti (12), &quot;water pump&quot; is already on its list</td>
-<td>galley-cabinet.md</td>
-</tr>
-<tr>
-<td>Cabinet PIR strips</td>
-<td>0.7</td>
-<td>Yeti (12), &quot;LED strip lights&quot;</td>
-<td>galley-cabinet.md, measured from 8 W/m</td>
-</tr>
-<tr>
-<td>Reading light + its USB port</td>
-<td>about 1.9 peak (<strong>est</strong>)</td>
-<td>Yeti (12)</td>
-<td>galley-cabinet.md</td>
-</tr>
-<tr>
-<td>Ambient strip through the dimmer</td>
-<td>1.2 (<strong>est</strong>, 10 W/m)</td>
-<td>Yeti (12)</td>
-<td>galley-cabinet.md</td>
-</tr>
-<tr>
-<td>Hot water heater for the shower</td>
-<td>not chosen</td>
-<td>Yeti (12)</td>
-<td>note</td>
-</tr>
-<tr>
-<td>Exterior lighting, LED pucks</td>
-<td>not stated</td>
-<td>Yeti (12)</td>
-<td>note</td>
+<td>On that block</td>
+<td>lights, fan, fridge</td>
+<td>owner</td>
 </tr>
 </tbody></table>
+<p>The house-battery-and-isolator half of the old note never got built, and does
+not need to: the Yeti is the house battery and the Victron is the isolator.
+What remains unbuilt from that note is the 6-circuit block, the 100 A
+breaker and the VSR. Treat those paragraphs of the note as history.</p>
+<h2>The ceiling is the Yeti&#39;s port, not the block</h2>
+<p>Every 12 V <strong>output</strong> port on the Yeti 1000 Lithium is rated the same:</p>
+<table>
+<thead>
+<tr>
+<th>Port</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>6 mm output</td>
+<td>12 V, up to 10 A (120 W max)</td>
+</tr>
+<tr>
+<td>12 V car port</td>
+<td>12 V, up to 10 A (120 W max)</td>
+</tr>
+<tr>
+<td>12 V Power Pole output</td>
+<td>12 V, up to 10 A (120 W max)</td>
+</tr>
+<tr>
+<td>AC inverter</td>
+<td>120 VAC, 12.5 A (1500 W, 3000 W surge)</td>
+</tr>
+</tbody></table>
+<p>So the Blue Sea block&#39;s 100 A rating describes the block and says nothing
+about what it can deliver here. Whatever port feeds it hands it <strong>10 A</strong>.
+That one number decides everything below.</p>
+<p><strong>Unresolved and worth settling with a meter:</strong> whether 10 A is per port or
+shared across the whole 12 V section. Goal Zero publishes it per port; if it
+is actually a shared 120 W budget, then feeding a second branch from a second
+port is not the headroom it looks like. Test by running a known load on two
+ports at once and watching for a shutdown.</p>
+<h2>What the 10 A is already spent on</h2>
+<table>
+<thead>
+<tr>
+<th>Load</th>
+<th>Running draw</th>
+<th>Where the number comes from</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>12 V compressor fridge</td>
+<td>4 to 6 A while the compressor runs, duty cycled</td>
+<td><strong>est</strong>, the model is not recorded</td>
+</tr>
+<tr>
+<td>Roof fan</td>
+<td>1 to 5 A by speed</td>
+<td><strong>est</strong>, the model is not recorded</td>
+</tr>
+<tr>
+<td>Lights</td>
+<td>1 to 3 A</td>
+<td><strong>est</strong></td>
+</tr>
+</tbody></table>
+<p>Fridge plus fan on high already reaches roughly 9 A, so the port is close to
+full at the moment the compressor kicks in on a hot afternoon with the fan
+up. Record the actual models and their labelled draws; this table is the
+weakest part of the doc.</p>
 <h2>Where the galley circuits land</h2>
-<p><code>galley-cabinet.md</code> wires both new circuits straight to the CCP battery-fed
-studs with inline fuses: the lights branch on 14 AWG through 7.5 A, the pump
-on 12 AWG through 10 A. That is the right answer <strong>today</strong>, because it works
-with nothing else built and the starter battery is the only bank that
-certainly exists.</p>
-<p>Once the Yeti 12-circuit block exists, both move to it: the note already
-lists &quot;LED strip lights&quot; and &quot;water pump&quot; there, the two inline holders
-become spares, and the sensors&#39; standby (about 9 Ah a month parked, per the
-galley doc) stops coming off the starter battery. Two checks before that
-move:</p>
+<p><code>galley-cabinet.md</code> put both new circuits on the CCP battery-fed studs with
+inline fuses. That stays, and the pump&#39;s case is now settled rather than
+provisional:</p>
 <ul>
-<li><strong>The block cannot exceed the Yeti port it hangs on.</strong> Read the Yeti&#39;s
-12 V output rating first; a pump plus lights plus a fridge on one port is
-a real sum, and the model is not written down anywhere in the repo.</li>
-<li><strong>Keep the pump on its own fuse</strong> whichever block it lands on; a diaphragm
-pump&#39;s stall current is what the fuse is sized for, not its running draw.</li>
+<li><strong>The water pump must not go on the Yeti block.</strong> The SEAFLO
+SFDP1-030-045-33 draws <strong>6.74 A at its duty point and 8.0 A maximum</strong>
+(SEAFLO&#39;s own 33-series table). On a 10 A port that is the entire budget,
+and it would cut out the fridge every time someone rinsed a plate. It
+stays on the CCP, on its own 12 AWG and 10 A fuse, where the engine
+battery and the alternator carry it.</li>
+<li><strong>The cabinet lights could move, and it is not worth doing.</strong> The two PIR
+strips draw 0.7 A, and the reading light plus ambient strip add about 3.1 A
+<strong>est</strong> at once. Against a port that the fridge and fan already share, that
+is a real bite for a load that costs about 3.5 Wh a day. Leave them on the
+CCP with the 14 AWG and 7.5 A fuse already specified.</li>
+<li>What the CCP branch does cost is standby off the starting batteries, about
+9 Ah over a parked month (galley doc). If the van sits for weeks, pull the
+7.5 A fuse.</li>
 </ul>
+<h2>Charging</h2>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>Input port</th>
+<th>Published limit</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Alternator, via the Victron</td>
+<td>Power Pole charging input</td>
+<td>14 to 22 V, up to 30 A (360 W max) per Goal Zero&#39;s spec table; <strong>B&amp;H lists the same port at 20 A / 240 W</strong>, so read the label on the unit before sizing anything to it</td>
+</tr>
+<tr>
+<td>Alternator, if it landed on the 8 mm port instead</td>
+<td>8 mm charging input</td>
+<td>14 to 22 V, up to 10 A (120 W max)</td>
+</tr>
+<tr>
+<td>Solar, 200 W</td>
+<td>whichever port it is on</td>
+<td>the 8 mm port would throw away roughly 80 W of the 200; the Power Pole input would not</td>
+</tr>
+</tbody></table>
+<p>Two things to verify on the van, both of which change the charge rate a lot:</p>
+<ol>
+<li><strong>Which input port each source is plugged into.</strong> Two 100 W panels on an
+8 mm port are capped at 120 W. If the Victron and the panels share the
+Power Pole input through a splitter, they share its budget too.</li>
+<li><strong>The Victron&#39;s configured output voltage.</strong> The Yeti only accepts
+14 to 22 V. A 12/12-30 in charger mode drops to a float around 13.5 V once
+it thinks the battery is full, which falls below the Yeti&#39;s window and
+stops the charge with nothing reported. Set it to power-supply mode at a
+fixed voltage above 14 V. The note&#39;s own saved write-up ran exactly this
+way, with input lockout at 13.2 / 13.4 V so it disengages when the engine
+stops.</li>
+</ol>
+<h2>Rough energy balance</h2>
+<p>1045 Wh peak, call it about 950 Wh usable. A compressor fridge at 30 to 40
+percent duty is roughly 600 Wh a day (<strong>est</strong>, from the 4 to 6 A above), so
+the fridge alone is most of the pack. 200 W of solar at 4.5 peak-sun hours
+and 80 percent efficiency is about 720 Wh on a good summer day and a small
+fraction of that in a Wasatch December. An hour of driving through the
+Victron adds 240 to 360 Wh depending on which port limit is real.</p>
+<p>That balance is why the galley&#39;s 3.5 Wh of lighting is noise and the pump&#39;s
+8 A is not: <strong>the constraint here is the instantaneous 10 A port, not the
+daily watt-hours.</strong></p>
 <h2>Open items</h2>
 <ul>
-<li>Walk the van and mark each row of the sources table installed or not.
-Until then every &quot;planned&quot; here is a plan.</li>
-<li>Record the Yeti model and its 12 V output limits in <code>vehicle.yaml</code>
-(<code>battery_kwh</code> is still <code>~</code>).</li>
+<li>Record the fridge and fan models and their labelled draws; the load table
+is estimates.</li>
+<li>Meter whether the 10 A limit is per port or shared across the 12 V section.</li>
+<li>Confirm which Yeti input port the Victron and the solar are on, and whether
+that port is the 240 W or 360 W one.</li>
+<li>Confirm the Victron model and its configured output voltage and mode.</li>
 <li>Read the BEMM CCP page for which studs are battery-fed, their fuse ratings
-and stud size (also an open item in <code>galley-cabinet.md</code>).</li>
-<li>Decide VSR versus Victron DC-DC and buy the 4 AWG and 8 AWG the list still
-lacks.</li>
-<li>The Webasto &quot;15/20a&quot; is the note&#39;s guess; the unit&#39;s own label decides its
-fuse.</li>
+and stud size (also open in <code>galley-cabinet.md</code>).</li>
+<li><code>vehicle.yaml</code> now carries <code>battery_kwh: 1.045</code> and <code>solar_w: 200</code>.</li>
 </ul>
 
 </div>
