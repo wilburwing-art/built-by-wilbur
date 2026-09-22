@@ -18,8 +18,10 @@ const SRC =
 const OUT = path.join(ROOT, "public", "van")
 
 const DOCS = [
-  { src: "galley-cabinet.md", out: "galley.html", title: "Galley cabinet", render: true },
-  { src: "galley-cabinet-bom.html", out: "galley-bom.html", title: "Galley BOM", render: false },
+  { src: "galley-cabinet.md", out: "galley.html", title: "Galley cabinet", render: true,
+    blurb: "Design doc: frame, cut list, uppers, lights, lining, shower, storage, dividers, totals, assembly order, open items." },
+  { src: "galley-cabinet-bom.html", out: "galley-bom.html", title: "Galley BOM", render: false,
+    blurb: "Interactive parts list: every line with vendor, SKU, verified price, search and filters, section totals." },
 ]
 
 // Published copy only; the repo doc keeps the originals.
@@ -94,6 +96,39 @@ function passthroughHtml(html) {
     .replace("</style>", `  .van-nav{display:flex;gap:8px;margin-bottom:18px}\n  .van-nav a{color:var(--gold);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:13px;font-weight:600}\n</style>`)
 }
 
+// /van with no filename would otherwise fall through the SPA rewrite to the
+// portfolio shell, which has no route for it and renders an empty page.
+function indexPage(stamp) {
+  const items = DOCS.map(
+    (d) => `<li><a href="/van/${d.out}">${d.title}</a><span>${d.blurb}</span></li>`,
+  ).join("\n")
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+${NOINDEX}
+<title>Van docs</title>
+<style>${pageCss}
+ul.docs{list-style:none;padding:0;margin:0}
+ul.docs li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:0 0 12px}
+ul.docs a{display:block;font-size:19px;font-weight:700;color:var(--gold);text-decoration:none;margin-bottom:4px}
+ul.docs span{color:var(--dim);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Van docs</h1>
+<div class="stamp">Transit Trail 148 · synced from dreamvan ${stamp}</div>
+<ul class="docs">
+${items}
+</ul>
+</div>
+</body>
+</html>
+`
+}
+
 if (!existsSync(SRC)) {
   console.log(`sync-van-docs: ${SRC} not present, keeping the committed public/van/ copies`)
   process.exit(0)
@@ -112,3 +147,5 @@ for (const doc of DOCS) {
   writeFileSync(path.join(OUT, doc.out), html)
   console.log(`sync-van-docs: ${doc.src} -> public/van/${doc.out} (${html.length} bytes)`)
 }
+writeFileSync(path.join(OUT, "index.html"), indexPage(stamp))
+console.log("sync-van-docs: index -> public/van/index.html")
