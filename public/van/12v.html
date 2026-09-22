@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>12 V system</title>
+<style>
+:root{color-scheme:dark;--bg:#0a0e14;--card:#141c28;--line:#243244;--txt:#dce6f2;--dim:#8fa3bb;--gold:#ffd166;--bamboo:#d9a441}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:20px 16px 60px}
+.van-nav{display:flex;gap:8px;margin-bottom:18px}.van-nav a{color:var(--gold,#ffd166);text-decoration:none;border:1px solid var(--line,#243244);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+h1{font-size:26px;line-height:1.25;margin:0 0 12px}
+h2{font-size:21px;margin:34px 0 10px;padding-top:18px;border-top:1px solid var(--line)}
+h3{font-size:17px;margin:22px 0 8px;color:var(--gold)}
+a{color:var(--bamboo);word-break:break-word}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.9em;background:rgba(255,255,255,.07);padding:1px 5px;border-radius:5px}
+pre{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;overflow-x:auto;font-size:12px;line-height:1.35}
+pre code{background:none;padding:0;font-size:inherit}
+table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:13.5px;margin:10px 0 16px}
+th,td{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top;white-space:nowrap}
+td:last-child,th:last-child{white-space:normal;min-width:180px}
+th{background:var(--card);color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+strong{color:#fff}
+li{margin:4px 0}
+input[type=checkbox]{margin-right:6px}
+blockquote{margin:0;padding-left:12px;border-left:3px solid var(--line);color:var(--dim)}
+.stamp{color:var(--dim);font-size:12px;margin-bottom:14px}
+ul.docs{list-style:none;padding:0;margin:0}
+ul.docs li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:0 0 12px}
+ul.docs a{display:block;font-size:19px;font-weight:700;color:var(--gold);text-decoration:none;margin-bottom:4px}
+ul.docs span{color:var(--dim);font-size:14px}
+h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-size:13px;text-transform:uppercase;letter-spacing:.12em}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="van-nav"><a href="/van/">Van docs</a></nav>
+<div class="stamp">Synced from dreamvan 2026-09-22</div>
+<h1>12 V system: what the notes planned, and where the galley circuits land</h1>
+<p>Written 2026-09-22 from <code>shared/topics/powertrain-electrical/🚐 Prep aux battery van 🚐.md</code> (an Apple Note built up between 2020 and 2024) and the two
+circuits added by <code>galley-cabinet.md</code> on 2026-09-20. The note is a plan with a
+partly ticked buy list, so <strong>what is actually installed is unknown</strong>; the
+first open item below is to walk the van and mark each block of this doc
+installed or not.</p>
+<h2>Power sources</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>What the note says</th>
+<th>State</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Starter battery + alternator</td>
+<td>&quot;putting out &gt;500 watts&quot;; a smart alternator that cuts output intermittently, so anything charging off it has to sense engine-running rather than trust voltage alone</td>
+<td>factory</td>
+</tr>
+<tr>
+<td>CCP (Customer Connection Point, under the driver&#39;s seat)</td>
+<td>battery-fed and run-fed studs; the note wires &quot;the single female socket&quot; to it for alternator charging while driving, and &quot;the 3 socket&quot; to the starter battery through a 20 A breaker for overnight use</td>
+<td>factory studs; sockets unknown</td>
+</tr>
+<tr>
+<td>Goal Zero Yeti</td>
+<td>owned; the note hangs a <strong>12-circuit fuse block</strong> on it</td>
+<td>unknown</td>
+</tr>
+<tr>
+<td>Isolated house battery</td>
+<td>planned; a <strong>6-circuit fuse block</strong> (135 A total, 30 A per circuit) fed from the starter battery through an isolator</td>
+<td>fuse block, two 80 A ANL fuses and 4 AWG lugs bought; 4 AWG wire, 8 AWG wire and the 15 A fuse not</td>
+</tr>
+</tbody></table>
+<h2>The planned architecture</h2>
+<pre><code>starter battery POS ──4 AWG──► 100 A breaker ──► isolator (VSR)      ──4 AWG──► house battery POS
+                                (doubles as a       or Victron Orion-Tr                  │
+                                 manual isolator)   Smart DC-DC, 30 A                    ▼
+                                                                              6-circuit block (135 A)
+starter battery NEG ──4 AWG────────────────────────────────────────────────► house battery NEG
+ignition-hot fuse ──12 AWG──► isolator trigger pin
+
+Yeti 12 V out ──► 12-circuit block
+</code></pre>
+<ul>
+<li><strong>Breaker before the isolator.</strong> The note&#39;s own rule: a 100 A breaker
+between the isolator and the starter battery, so the VSR never has to be
+trusted as the only disconnect.</li>
+<li><strong>DC-DC over VSR.</strong> The note wants a Victron 30 A charger because the smart
+alternator&#39;s output drops intermittently and a plain VSR would chatter; the
+Sprinter/Yeti write-up it saved sets the DC-DC&#39;s engine-running lockout at
+13.2 V / 13.4 V. Whichever is chosen, the trigger comes from an
+ignition-hot circuit, never from battery voltage alone.</li>
+<li><strong>Two blocks, two jobs.</strong> The house block carries the loads that run with
+the engine off for hours (Webasto 15 to 20 A, air compressor 18 A, the Yeti
+charger). The Yeti block carries the cabin loads (fan, 12 V fridge, LED
+pucks and strips, water pump, exterior lights, a hot-water heater for the
+shower).</li>
+</ul>
+<h2>Load list</h2>
+<table>
+<thead>
+<tr>
+<th>Load</th>
+<th>Amps at 12 V</th>
+<th>Block per the note</th>
+<th>Source of the number</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Webasto</td>
+<td>15 to 20</td>
+<td>house (6)</td>
+<td>note, &quot;prolly&quot;</td>
+</tr>
+<tr>
+<td>Air compressor</td>
+<td>18</td>
+<td>house (6)</td>
+<td>note</td>
+</tr>
+<tr>
+<td>Yeti charger (DC-DC)</td>
+<td>30</td>
+<td>house (6)</td>
+<td>&quot;the Victron I want is 30a&quot;</td>
+</tr>
+<tr>
+<td>12 V fridge</td>
+<td>not stated</td>
+<td>Yeti (12)</td>
+<td></td>
+</tr>
+<tr>
+<td>Fan</td>
+<td>not stated</td>
+<td>Yeti (12)</td>
+<td></td>
+</tr>
+<tr>
+<td>Water pump (SEAFLO 33, galley spec)</td>
+<td>several, read the box</td>
+<td>Yeti (12), &quot;water pump&quot; is already on its list</td>
+<td>galley-cabinet.md</td>
+</tr>
+<tr>
+<td>Cabinet PIR strips</td>
+<td>0.7</td>
+<td>Yeti (12), &quot;LED strip lights&quot;</td>
+<td>galley-cabinet.md, measured from 8 W/m</td>
+</tr>
+<tr>
+<td>Reading light + its USB port</td>
+<td>about 1.9 peak (<strong>est</strong>)</td>
+<td>Yeti (12)</td>
+<td>galley-cabinet.md</td>
+</tr>
+<tr>
+<td>Ambient strip through the dimmer</td>
+<td>1.2 (<strong>est</strong>, 10 W/m)</td>
+<td>Yeti (12)</td>
+<td>galley-cabinet.md</td>
+</tr>
+<tr>
+<td>Hot water heater for the shower</td>
+<td>not chosen</td>
+<td>Yeti (12)</td>
+<td>note</td>
+</tr>
+<tr>
+<td>Exterior lighting, LED pucks</td>
+<td>not stated</td>
+<td>Yeti (12)</td>
+<td>note</td>
+</tr>
+</tbody></table>
+<h2>Where the galley circuits land</h2>
+<p><code>galley-cabinet.md</code> wires both new circuits straight to the CCP battery-fed
+studs with inline fuses: the lights branch on 14 AWG through 7.5 A, the pump
+on 12 AWG through 10 A. That is the right answer <strong>today</strong>, because it works
+with nothing else built and the starter battery is the only bank that
+certainly exists.</p>
+<p>Once the Yeti 12-circuit block exists, both move to it: the note already
+lists &quot;LED strip lights&quot; and &quot;water pump&quot; there, the two inline holders
+become spares, and the sensors&#39; standby (about 9 Ah a month parked, per the
+galley doc) stops coming off the starter battery. Two checks before that
+move:</p>
+<ul>
+<li><strong>The block cannot exceed the Yeti port it hangs on.</strong> Read the Yeti&#39;s
+12 V output rating first; a pump plus lights plus a fridge on one port is
+a real sum, and the model is not written down anywhere in the repo.</li>
+<li><strong>Keep the pump on its own fuse</strong> whichever block it lands on; a diaphragm
+pump&#39;s stall current is what the fuse is sized for, not its running draw.</li>
+</ul>
+<h2>Open items</h2>
+<ul>
+<li>Walk the van and mark each row of the sources table installed or not.
+Until then every &quot;planned&quot; here is a plan.</li>
+<li>Record the Yeti model and its 12 V output limits in <code>vehicle.yaml</code>
+(<code>battery_kwh</code> is still <code>~</code>).</li>
+<li>Read the BEMM CCP page for which studs are battery-fed, their fuse ratings
+and stud size (also an open item in <code>galley-cabinet.md</code>).</li>
+<li>Decide VSR versus Victron DC-DC and buy the 4 AWG and 8 AWG the list still
+lacks.</li>
+<li>The Webasto &quot;15/20a&quot; is the note&#39;s guess; the unit&#39;s own label decides its
+fuse.</li>
+</ul>
+
+</div>
+</body>
+</html>

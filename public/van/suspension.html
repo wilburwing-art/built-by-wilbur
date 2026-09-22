@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transit 250 Suspension Dashboard — DIY Build</title>
+<style>
+  :root{
+    --bg:#0f1216; --card:#171b21; --card2:#1d222a; --line:#2a3038;
+    --ink:#e7ebf0; --dim:#9aa4b2; --acc:#4da3ff; --good:#3fbf6f;
+    --warn:#f2b134; --bad:#ff5f56; --chip:#242a33;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+       background:var(--bg);color:var(--ink);padding:0 0 80px}
+  header{background:linear-gradient(160deg,#1b2430,#12161c);padding:28px 20px;border-bottom:1px solid var(--line)}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 18px}
+  h1{margin:0 0 4px;font-size:26px;letter-spacing:-.3px}
+  h2{margin:38px 0 14px;font-size:20px;border-left:4px solid var(--acc);padding-left:12px}
+  h3{margin:22px 0 10px;font-size:16px;color:var(--acc)}
+  .sub{color:var(--dim);font-size:14px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:16px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+  .stat .k{color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.5px}
+  .stat .v{font-size:16px;font-weight:600;margin-top:3px}
+  table{width:100%;border-collapse:collapse;margin-top:8px;background:var(--card);border-radius:10px;overflow:hidden}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);font-size:14px;vertical-align:top}
+  th{background:var(--card2);color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.4px}
+  tr:last-child td{border-bottom:none}
+  td.num,th.num{text-align:right;white-space:nowrap}
+  code{background:var(--chip);padding:2px 6px;border-radius:5px;font-size:13px;color:#cfe6ff}
+  .pill{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px;white-space:nowrap}
+  .p-good{background:rgba(63,191,111,.15);color:var(--good)}
+  .p-warn{background:rgba(242,177,52,.15);color:var(--warn)}
+  .p-bad{background:rgba(255,95,86,.15);color:var(--bad)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin-top:16px}
+  .path{border-top:3px solid var(--acc)}
+  .note{background:var(--card2);border-left:3px solid var(--warn);padding:10px 14px;border-radius:6px;margin:12px 0;font-size:14px;color:var(--dim)}
+  .note.crit{border-left-color:var(--bad)}
+  .note.ok{border-left-color:var(--good)}
+  a{color:var(--acc)}
+  .total{font-size:22px;font-weight:700}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:760px){.two{grid-template-columns:1fr}}
+  ul.check{list-style:none;padding:0;margin:8px 0}
+  ul.check li{padding:6px 0 6px 28px;position:relative;font-size:14px}
+  ul.check li:before{content:"☐";position:absolute;left:0;color:var(--acc);font-size:18px}
+  .foot{color:var(--dim);font-size:12px;margin-top:30px;text-align:center}
+.van-nav{display:flex;gap:8px;margin-bottom:18px}.van-nav a{color:var(--gold,#ffd166);text-decoration:none;border:1px solid var(--line,#243244);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+.tscroll{overflow-x:auto;max-width:100%}img{max-width:100%}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+<nav class="van-nav"><a href="/van/">Van docs</a></nav>
+    <h1>Ford Transit 250 — Suspension Refresh &amp; Upgrade Dashboard</h1>
+    <div class="sub">DIY build sheet · verified part numbers &amp; current retail pricing</div>
+    <div class="grid">
+      <div class="stat"><div class="k">VIN</div><div class="v">[VIN removed]</div></div>
+      <div class="stat"><div class="k">Vehicle</div><div class="v">2016 Transit-250 Cargo</div></div>
+      <div class="stat"><div class="k">Drivetrain</div><div class="v">3.7L V6 · RWD · SRW</div></div>
+      <div class="stat"><div class="k">Body</div><div class="v">130" WB · Medium Roof</div></div>
+      <div class="stat"><div class="k">Mileage / use</div><div class="v">~200k · heavy hotshot</div></div>
+      <div class="stat"><div class="k">GVWR class</div><div class="v">2G · 8,501–9,000 lb</div></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="note ok"><strong>VIN decoded &amp; confirmed.</strong> Positions 4–8 (<code>YR1CM</code>) + year code <code>G</code> = 2016 Transit-250 cargo van, 3.7L V6 (275 hp), single rear wheel, medium roof, 130" wheelbase, RWD, built Kansas City. Every part below is matched to this exact spec.</div>
+
+  <div class="note crit"><strong>Corrections from your original notes.</strong> Three part numbers in the pasted list were wrong and are fixed here: rear shock <code>19-257210</code> → <strong>Bilstein 24-265331</strong>; front strut <code>Monroe 172393</code> was a <em>Nissan Altima</em> part → correct Transit strut below; <code>MCF2500/MCF2501</code> are just Ford's alt-names for the control arms — buy by the <strong>CK4Z</strong> numbers.</div>
+
+  <!-- ============ BASE PARTS ============ -->
+  <h2>1 · Base suspension refresh — verified parts</h2>
+  <p class="sub">Restore-to-spec at 200k. Prices are current retail single-vendor examples; recheck at checkout.</p>
+  <div class="tscroll"><table>
+    <thead><tr>
+      <th>Item</th><th>Part #</th><th class="num">Qty</th><th class="num">Price ea</th><th class="num">Ext.</th><th>Status</th>
+    </tr></thead>
+    <tbody>
+      <tr><td>Rear leaf spring (SRW, 130")</td><td><code>CK4Z-5560-Q</code></td><td class="num">2</td><td class="num">$328–425</td><td class="num">$656–850</td><td><span class="pill p-good">verified</span></td></tr>
+      <tr><td>Rear shock absorber</td><td><code>Bilstein 24-265331</code></td><td class="num">2</td><td class="num">$134–229</td><td class="num">$268–458</td><td><span class="pill p-warn">corrected</span></td></tr>
+      <tr><td>Front strut (OEM restore)</td><td><code>Motorcraft W0133-2063168</code><br><span class="sub">or Ford CK4Z-18124-E</span></td><td class="num">2</td><td class="num">$139–179</td><td class="num">$278–358</td><td><span class="pill p-warn">corrected</span></td></tr>
+      <tr><td>Front lower control arm, RH</td><td><code>CK4Z-3078-A</code> <span class="sub">(a.k.a. MCF2500)</span></td><td class="num">1</td><td class="num">$220–242</td><td class="num">$220–242</td><td><span class="pill p-good">verified</span></td></tr>
+      <tr><td>Front lower control arm, LH</td><td><code>CK4Z-3079-A</code> <span class="sub">(a.k.a. MCF2501)</span></td><td class="num">1</td><td class="num">$220–242</td><td class="num">$220–242</td><td><span class="pill p-good">verified</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="note">Loaded control arms include ball joint + bushings pre-pressed. Bilstein 24-265331 rear shocks are sold individually — order two. Front strut: the Motorcraft/Ford unit is a bare strut; if reusing your coils you also need spring compressors, or step up to the Bilstein B6 strut in Path B which is a performance damper for the OE spring.</div>
+
+  <!-- ============ SUMOSPRINGS ============ -->
+  <h2>2 · Load support (your pick: yellow 2800 lb)</h2>
+  <div class="tscroll"><table>
+    <thead><tr><th>Item</th><th>Part #</th><th class="num">Qty</th><th class="num">Price</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Rear SumoSprings — Super HD (yellow)</td><td><code>SSR-121-54</code></td><td class="num">1 pr</td><td class="num">$351.99</td><td>2,800 lb @ 50% compression. Bolts to factory bump-stop brackets, no drilling. Progressive: soft empty, firm under hotshot load. Best sag/sway fix for your use.</td></tr>
+    </tbody>
+  </table></div>
+
+  <!-- ============ PATHS ============ -->
+  <h2>3 · Two build paths</h2>
+  <div class="two">
+    <div class="card path">
+      <h3>Path A — component (budget)</h3>
+      <p class="sub">Separate OEM/Motorcraft dampers. Lowest cost, more labor (coil spring transfer on front).</p>
+      <div class="tscroll"><table>
+        <tbody>
+          <tr><td>Rear leaves CK4Z-5560-Q ×2</td><td class="num">$656–850</td></tr>
+          <tr><td>Rear shocks 24-265331 ×2</td><td class="num">$268–458</td></tr>
+          <tr><td>Front struts W0133-2063168 ×2</td><td class="num">$278–358</td></tr>
+          <tr><td>Control arms CK4Z-3078/3079-A</td><td class="num">$440–484</td></tr>
+          <tr><td>SumoSprings SSR-121-54</td><td class="num">$352</td></tr>
+          <tr><td><strong>Parts subtotal</strong></td><td class="num total">$1,994–2,502</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div class="card path">
+      <h3>Path B — Bilstein B6 set (recommended)</h3>
+      <p class="sub">Monotube performance dampers, one box, better fade resistance under sustained load. Cleaner buy for a hotshot van.</p>
+      <div class="tscroll"><table>
+        <tbody>
+          <tr><td>Rear leaves CK4Z-5560-Q ×2</td><td class="num">$656–850</td></tr>
+          <tr><td>Bilstein B6 set <code>22-249357</code> (2 struts + 2 shocks)</td><td class="num">$916</td></tr>
+          <tr><td>Control arms CK4Z-3078/3079-A</td><td class="num">$440–484</td></tr>
+          <tr><td>SumoSprings SSR-121-54</td><td class="num">$352</td></tr>
+          <tr><td><strong>Parts subtotal</strong></td><td class="num total">$2,364–2,602</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </div>
+  <div class="note ok"><strong>Recommendation:</strong> Path B. For $150–370 more than Path A you get monotube B6 dampers front and rear (fade-free under sustained hotshot load), skip the coil-transfer labor on the front struts, and the set is guaranteed-fit for 2015–2022 T-250 RWD.</div>
+
+  <!-- ============ UPGRADES ============ -->
+  <h2>4 · Max bolt-on lift &amp; upgrade — FRONT</h2>
+  <p class="sub">RWD front has no CV-shaft constraint, so it's cleaner than AWD. Practical max bolt-on is ~2".</p>
+  <div class="tscroll"><table>
+    <thead><tr><th>Option</th><th>Part / kit</th><th class="num">Lift</th><th class="num">Price</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Van Compass TOPO 2.0 (front only)</strong> — max bolt-on</td><td><code>VC 7089</code></td><td class="num">2.0"</td><td class="num">$596.95</td><td>1" HD lift coil (keeps factory spring rate) + 3/4" strut spacer with <em>built-in camber/caster correction</em> so alignment stays in spec. Best-engineered bolt-on; keeps geometry sane.</td></tr>
+      <tr><td>Coil spacer leveling (basic)</td><td>Supreme/ReadyLift spacer</td><td class="num">1.5–2"</td><td class="num">$120–200</td><td>Cheapest lift, but no camber correction — expect alignment drift &amp; faster tire wear. OK short-term, not ideal for heavy miles.</td></tr>
+      <tr><td>Bilstein B6 strut (perf, no lift)</td><td><code>22-249357</code> (in Path B)</td><td class="num">0"</td><td class="num">incl.</td><td>Not a lift — but the biggest ride-quality upgrade for a loaded front end. Pair with TOPO coil for lift + damping.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="note"><strong>Front verdict:</strong> 2" via Van Compass TOPO 2.0 is the max sensible bolt-on. Going taller on a leaf-rear RWD hauler raises CG and hurts stability under load without real clearance gain. TOPO's camber/caster correction is what separates it from a plain spacer.</div>
+
+  <h2>5 · Max bolt-on lift &amp; upgrade — REAR</h2>
+  <p class="sub">Rear is about <em>load support &amp; leveling</em> more than pure lift on a hotshot van. Three bolt-on tiers, stackable.</p>
+  <div class="tscroll"><table>
+    <thead><tr><th>Option</th><th>Part / kit</th><th class="num">Lift</th><th class="num">Price</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Add-a-leaf</strong> (bolt-on lift)</td><td><code>510-1971</code></td><td class="num">1–2"</td><td class="num">$199.99</td><td>+1,500 lb capacity, tapered extra leaf inserts into existing pack. Includes U-bolts, center bolts, tip inserts. Real lift + capacity.</td></tr>
+      <tr><td><strong>Air helper springs</strong> (adjustable)</td><td>Air Lift LoadLifter 5000 / Firestone Ride-Rite</td><td class="num">level</td><td class="num">$480–620</td><td>On-the-fly leveling — air up under load, down when empty. Best for variable hotshot weight. Add wireless compressor (~$350–550) for cab control.</td></tr>
+      <tr><td><strong>SumoSprings yellow</strong> (your pick)</td><td><code>SSR-121-54</code></td><td class="num">sag fix</td><td class="num">$351.99</td><td>Progressive foam, zero maintenance, no air lines. Kills sag &amp; sway. Already in both paths above.</td></tr>
+      <tr><td>Van Compass TOPO 2.0 rear block</td><td>(part of <code>VC 7095</code> f+r kit)</td><td class="num">2"</td><td class="num">see below</td><td>2" rear lift block + bump-stop spacer. Only if matching the front 2" lift for a level stance.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="note"><strong>Rear verdict for a hotshot van:</strong> stack <em>add-a-leaf (capacity + lift)</em> with <em>SumoSprings yellow (sway/sag control)</em> — that's the strongest bolt-on load setup. If your load varies a lot day to day, air bags give adjustable leveling the leaf/foam combo can't. Avoid tall shackle/block-only lifts on a loaded rear — they raise CG and reduce roll stability.</div>
+
+  <div class="card">
+    <h3>Matched 2" lift build (front + rear level)</h3>
+    <div class="tscroll"><table><tbody>
+      <tr><td>Van Compass TOPO 2.0 <strong>front + rear</strong> kit <code>VC 7095</code></td><td class="num">$1,007.90</td></tr>
+      <tr><td class="sub">(vs $596.95 front-only + $199.99 add-a-leaf = $796.94 piecemeal, but the full kit adds rear block, bump-stop spacer, sway-bar link extensions &amp; matched geometry)</td><td></td></tr>
+    </tbody></table></div>
+  </div>
+
+  <!-- ============ HARDWARE ============ -->
+  <h2>6 · Hardware, consumables &amp; alignment</h2>
+  <div class="tscroll"><table>
+    <thead><tr><th>Item</th><th class="num">Qty</th><th class="num">Est.</th><th>Note</th></tr></thead>
+    <tbody>
+      <tr><td>Leaf-spring U-bolts (if not in add-a-leaf kit)</td><td class="num">1 set</td><td class="num">$40–80</td><td>Replace when opening the leaf pack</td></tr>
+      <tr><td>Shackle bushings / greasable kit</td><td class="num">1</td><td class="num">$30–70</td><td>200k wear item</td></tr>
+      <tr><td>Front sway-bar end links</td><td class="num">2</td><td class="num">$20–40 ea</td><td>Usually shot at this mileage</td></tr>
+      <tr><td>Alignment (post-install)</td><td class="num">1</td><td class="num">$100–150</td><td><strong>Required</strong> after control arms / struts / lift</td></tr>
+      <tr><td>Anti-seize, threadlocker, brake clean</td><td class="num">—</td><td class="num">$25</td><td>Consumables</td></tr>
+    </tbody>
+  </table></div>
+
+  <!-- ============ TOTALS ============ -->
+  <h2>7 · Cost summary</h2>
+  <div class="two">
+    <div class="card">
+      <h3>Refresh only</h3>
+      <div class="tscroll"><table><tbody>
+        <tr><td>Path A parts</td><td class="num">$1,994–2,502</td></tr>
+        <tr><td>Path B parts</td><td class="num">$2,364–2,602</td></tr>
+        <tr><td>+ hardware &amp; alignment</td><td class="num">$235–415</td></tr>
+        <tr><td><strong>Path A all-in</strong></td><td class="num total">$2,229–2,917</td></tr>
+        <tr><td><strong>Path B all-in</strong></td><td class="num total">$2,599–3,017</td></tr>
+      </tbody></table></div>
+    </div>
+    <div class="card">
+      <h3>Refresh + 2" lift</h3>
+      <div class="tscroll"><table><tbody>
+        <tr><td>Path B refresh all-in</td><td class="num">$2,599–3,017</td></tr>
+        <tr><td>+ Van Compass TOPO 2.0 f+r</td><td class="num">$1,007.90</td></tr>
+        <tr><td class="sub">(subtract Path B front struts if using TOPO coil + B6)</td><td></td></tr>
+        <tr><td><strong>Lifted build all-in</strong></td><td class="num total">~$3,600–4,025</td></tr>
+      </tbody></table></div>
+    </div>
+  </div>
+  <p class="sub">All figures are parts + alignment, DIY labor. Shop labor for the full job runs 8–14 hrs.</p>
+  <div class="note"><strong>Rear locking axle (section 9) is a separate line:</strong> Truetrac package <strong>$1,360–1,485 parts</strong> or ARB package <strong>$2,290–2,530 parts</strong>, + $700–1,500 shop gear-setup labor if you don't do driveline work yourself. Independent of the suspension totals above.</div>
+
+  <!-- ============ CHECKLIST ============ -->
+  <h2>8 · Before you buy — checklist</h2>
+  <ul class="check">
+    <li><strong>SRW confirmed</strong> — leaf CK4Z-5560-Q and locker parts below are all single-rear-wheel correct.</li>
+    <li>Snap the door-jamb <code>AXLE</code> sticker to check for a factory LSD ("L" suffix) before buying a Truetrac.</li>
+    <li>Re-verify each price at checkout (dealer vs eBay vs discounter swing $50–100).</li>
+    <li>Front strut: decide bare Motorcraft (Path A, needs spring compressor) vs Bilstein B6 set (Path B).</li>
+    <li>Buy <strong>two</strong> Bilstein 24-265331 rear shocks — sold individually.</li>
+    <li>Order alignment appointment for after install (control arms + lift both require it).</li>
+    <li>If lifting: TOPO 2.0 includes sway-bar link extensions — confirm they're in the box.</li>
+    <li>Do NOT order Monroe 172393 (Altima) or Bilstein 19-257210 — wrong parts from the old list.</li>
+  </ul>
+
+  <!-- ============ LOCKING AXLE ============ -->
+  <h2>9 · Rear locking axle / traction upgrade</h2>
+  <p class="sub">Separate driveline subsystem. This works around <em>traction</em>, not load — it does not replace the SumoSprings/add-a-leaf work above.</p>
+
+  <div class="note ok"><strong>Axle confirmed:</strong> 2015–2016 Transit-250 RWD uses the <strong>Ford 9.75" ring gear, 34-spline</strong> rear axle (same family as the F-150 9.75 — aftermarket lists it that way, but ARB &amp; Eaton both explicitly name the 2015–2016 Transit-250). Both carriers below use an <strong>all-ratio carrier break</strong>, so your gear ratio does <em>not</em> change which part you buy.</div>
+
+  <div class="note"><strong>Nice to confirm (not a blocker):</strong> your door-jamb <code>AXLE</code> code tells you if you already have a factory limited-slip. <code>31/73/41</code> = open (3.31/3.73/4.10). <code>3L/7L/4L</code> = factory LSD — if you see an "L", you may already have traction help and can skip the Truetrac. Not found in your notes; snap the driver door sticker to check.</div>
+
+  <h3>Option comparison</h3>
+  <div class="tscroll"><table>
+    <thead><tr><th>Type</th><th>Part #</th><th class="num">Price</th><th>Best for / tradeoff</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Eaton Detroit Truetrac</strong> — helical LSD <span class="pill p-good">recommended</span></td><td><code>913A477</code></td><td class="num">$795–830</td><td>Maintenance-free, no clutches, no air/wiring. Great on wet/snow, street-friendly under heavy load. Best fit for a road-biased hotshot van. Caveat: a fully airborne/glare-ice wheel can free-wheel — tap the brakes to transfer torque.</td></tr>
+      <tr><td><strong>ARB Air Locker</strong> — selectable full locker</td><td><code>RD150</code></td><td class="num">$1,399.95</td><td>100% lock on demand, open diff when off. Max traction for real off-pavement work. Needs a compressor + air plumbing (below). Overkill if you're mostly highway.</td></tr>
+      <tr><td>Clutch LSD (Trac-Lok style)</td><td>verify per axle</td><td class="num">$450–650</td><td>OEM-style. Clutches wear, needs friction modifier at every fluid change. Truetrac is the better maintenance-free pick — listed for completeness.</td></tr>
+      <tr><td class="sub">Avoid: "lunchbox"/Lokka lockers</td><td class="sub">—</td><td class="sub">—</td><td class="sub">Ratchets on-road, bad for sustained highway + heavy load. Not recommended for this van.</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Install parts (do these while the diff is open — cheap insurance)</h3>
+  <div class="tscroll"><table>
+    <thead><tr><th>Item</th><th>Part #</th><th class="num">Price</th><th>Note</th></tr></thead>
+    <tbody>
+      <tr><td>Master install kit (carrier + pinion bearings, races, shims, crush sleeve, seal)</td><td><code>Yukon BK F9.75-D</code> ('11+ 9.75)</td><td class="num">$510–545</td><td>Use the '11-and-up kit for a 2016. Bearing-only kit; full master kit slightly more.</td></tr>
+      <tr><td>Rear axle seals (both sides)</td><td>per 9.75</td><td class="num">$20–40</td><td>Replace while shafts are out — cheap, avoids a redo.</td></tr>
+      <tr><td>Diff gasket / RTV + ring-gear bolts</td><td>—</td><td class="num">$20–45</td><td>LubeLocker reusable gasket optional (~$25).</td></tr>
+      <tr><td>Gear oil — synthetic 75W-140</td><td>Ford WSS spec</td><td class="num">$12–25/qt ×3–4</td><td>75W-140 synthetic for hotshot thermal margin. <strong>Truetrac needs NO friction modifier</strong>; a clutch LSD does (Ford XL-3).</td></tr>
+      <tr><td>HD diff cover (optional)</td><td>Mag-Hytec / PML</td><td class="num">$120–200</td><td>Extra oil capacity + cooling + drain plug. Nice for commercial longevity.</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>ARB-only extras (skip if choosing Truetrac)</h3>
+  <div class="tscroll"><table>
+    <thead><tr><th>Item</th><th>Part #</th><th class="num">Price</th><th>Note</th></tr></thead>
+    <tbody>
+      <tr><td>ARB air compressor (onboard)</td><td><code>CKMA12</code></td><td class="num">$290–400</td><td>Runs up to 2 lockers; inflates tires with the 171302 kit.</td></tr>
+      <tr><td>Wiring loom, switch, solenoid, air line, bulkhead fitting</td><td>incl. in RD150 kit + loom</td><td class="num">$60–120</td><td>RD150 ships with switch/solenoid/air line/bulkhead; add a wiring loom if not present.</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="note crit"><strong>This is advanced DIY.</strong> A carrier swap requires setting backlash, pinion preload and checking the gear pattern. Get it wrong and you grenade the axle. If you're not set up for gear work, budget <strong>$700–1,500 shop labor</strong> for a driveline shop to press the carrier and verify setup — swapping only the carrier (not the gears) still needs a pattern check. Change fluid at ~500 mi after install.</div>
+
+  <div class="card">
+    <h3>Locking-axle package totals (independent of suspension)</h3>
+    <div class="tscroll"><table><tbody>
+      <tr><td><strong>Truetrac package</strong> — 913A477 + install kit + seals + oil + gasket</td><td class="num total">$1,360–1,485 parts</td></tr>
+      <tr><td class="sub">+ optional HD diff cover</td><td class="num sub">+$120–200</td></tr>
+      <tr><td class="sub">+ shop gear setup labor</td><td class="num sub">+$700–1,500</td></tr>
+      <tr><td><strong>ARB package</strong> — RD150 + CKMA12 + plumbing + install kit + seals + oil</td><td class="num total">$2,290–2,530 parts</td></tr>
+      <tr><td class="sub">+ shop gear setup labor</td><td class="num sub">+$700–1,500</td></tr>
+    </tbody></table></div>
+  </div>
+
+  <h2>10 · Sources</h2>
+  <p class="sub">
+    Leaf CK4Z-5560-Q: fordpartsgiant.com, eBay ·
+    Rear shock 24-265331: overlanded.com, jackit.com, shocksurplus.com ·
+    Front strut: partsgeek.com (Motorcraft W0133-2063168), ford.oempartsonline.com (CK4Z-18124-E) ·
+    B6 set 22-249357: shocksurplus.com, springrates.com ·
+    Control arms CK4Z-3078/3079-A: fordpartsdeal.com, tascaparts.com ·
+    SumoSprings SSR-121-54: partshawk.com, eurocampers.com, amazon.com ·
+    Add-a-leaf 510-1971: generalspringkc.com, sdtrucksprings.com ·
+    Van Compass TOPO 2.0: vancompass.com (SKU 7089 front / 7095 f+r), titanvans.com ·
+    Eaton Truetrac 913A477: eaton.com, filthymotorsports.com, fordtransitusaforum.com ·
+    ARB RD150 + CKMA12: store.arbusa.com, revolutiongear.com, drivetrainamerica.com ·
+    Yukon 9.75 install kit: yukongear.com, completeoffroad.com ·
+    Axle code chart: ford.com owner support, gmundcars.com ·
+    VIN decode: NHTSA vPIC / findbyvin.com.
+  </p>
+
+  <div class="foot">Built for VIN [VIN removed] · prices current as of research date · verify fitment &amp; price before purchase</div>
+</div>
+</body>
+</html>

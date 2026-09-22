@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Removable Swivel Seating — 2016 Transit 130 WB — DIY Dashboard</title>
+<style>
+:root{
+  --bg1:#0e1116; --bg2:#171c24; --card:rgba(255,255,255,.055); --bord:rgba(255,255,255,.10);
+  --txt:#e8ecf1; --dim:#9aa7b4; --faint:#6b7683;
+  --gold:#ffd166; --green:#4ade80; --red:#f87171; --amber:#fbbf24; --blue:#7dd3fc;
+  --tiers:#8b5cf6;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  background:linear-gradient(160deg,var(--bg1) 0%,var(--bg2) 55%,#101820 100%);
+  background-attachment:fixed;color:var(--txt);min-height:100vh;padding:28px 20px 80px}
+.wrap{max-width:1180px;margin:0 auto}
+h1{font-size:1.5rem;font-weight:700;letter-spacing:-.01em}
+.sub{color:var(--dim);font-size:.85rem;margin-top:4px}
+.sub b{color:var(--txt)}
+header{margin-bottom:18px}
+.banner{background:linear-gradient(90deg,rgba(251,191,36,.14),rgba(251,191,36,.04));
+  border:1px solid rgba(251,191,36,.35);border-radius:12px;padding:12px 16px;margin:14px 0 20px;
+  font-size:.86rem;line-height:1.55}
+.banner b{color:var(--amber)}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:18px}
+.stat{background:var(--card);border:1px solid var(--bord);border-radius:12px;padding:12px 14px;backdrop-filter:blur(8px)}
+.stat .n{font-size:1.35rem;font-weight:700}
+.stat .l{font-size:.72rem;color:var(--dim);text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
+/* controls */
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:16px}
+.chip{background:var(--card);border:1px solid var(--bord);border-radius:999px;color:var(--dim);
+  padding:6px 14px;font-size:.8rem;cursor:pointer;transition:.15s;user-select:none}
+.chip:hover{color:var(--txt)}
+.chip.on{background:rgba(125,211,252,.15);border-color:rgba(125,211,252,.5);color:var(--blue)}
+input[type=search],select{background:var(--card);border:1px solid var(--bord);border-radius:10px;
+  color:var(--txt);padding:7px 12px;font-size:.85rem;outline:none}
+input[type=search]{min-width:220px}
+select option{background:#171c24}
+.tog{display:flex;align-items:center;gap:6px;font-size:.8rem;color:var(--dim);cursor:pointer;user-select:none}
+.tog.on{color:var(--gold)}
+.tog::before{content:"○";font-size:1rem}
+.tog.on::before{content:"●"}
+/* sections */
+.sec{margin-bottom:30px}
+.sechead{display:flex;align-items:baseline;gap:10px;margin-bottom:12px;border-bottom:1px solid var(--bord);padding-bottom:8px}
+.sechead h2{font-size:1.05rem;font-weight:650}
+.sechead .tag{font-size:.72rem;color:var(--faint);text-transform:uppercase;letter-spacing:.08em}
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--bord);border-radius:14px;padding:16px 16px 14px;
+  backdrop-filter:blur(8px);position:relative;transition:transform .15s,box-shadow .15s;
+  border-left:4px solid var(--acc,#555)}
+.card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.35)}
+.card h3{font-size:.98rem;font-weight:650;margin-bottom:6px;padding-right:52px;line-height:1.35}
+.price{position:absolute;top:14px;right:14px;font-weight:700;font-size:.95rem;color:var(--gold)}
+.price.unconf{color:var(--faint);font-weight:500;font-size:.78rem}
+.row{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.badge{font-size:.68rem;padding:3px 9px;border-radius:999px;border:1px solid;white-space:nowrap}
+.b-green{color:var(--green);border-color:rgba(74,222,128,.4);background:rgba(74,222,128,.08)}
+.b-red{color:var(--red);border-color:rgba(248,113,113,.4);background:rgba(248,113,113,.08)}
+.b-amber{color:var(--amber);border-color:rgba(251,191,36,.4);background:rgba(251,191,36,.08)}
+.b-dim{color:var(--dim);border-color:var(--bord)}
+.b-blue{color:var(--blue);border-color:rgba(125,211,252,.4);background:rgba(125,211,252,.08)}
+.b-purple{color:#c4b5fd;border-color:rgba(139,92,246,.4);background:rgba(139,92,246,.1)}
+.meta{font-size:.8rem;color:var(--dim);line-height:1.5;margin-top:6px}
+.meta b{color:var(--txt);font-weight:600}
+.why{font-size:.8rem;color:var(--txt);margin-top:8px;padding:8px 10px;background:rgba(255,255,255,.04);
+  border-radius:8px;line-height:1.45}
+.why em{color:var(--dim);font-style:normal}
+.pick{position:absolute;top:-1px;left:14px;background:linear-gradient(90deg,var(--gold),#f59e0b);
+  color:#1a1a1a;font-size:.62rem;font-weight:800;letter-spacing:.08em;padding:3px 10px;
+  border-radius:0 0 6px 6px;text-transform:uppercase}
+a.src{color:var(--blue);font-size:.72rem;text-decoration:none;opacity:.8}
+a.src:hover{opacity:1;text-decoration:underline}
+/* plan steps */
+.steps{counter-reset:st}
+.step{background:var(--card);border:1px solid var(--bord);border-radius:12px;padding:14px 16px;
+  margin-bottom:10px;display:flex;gap:14px;backdrop-filter:blur(8px)}
+.step::before{counter-increment:st;content:counter(st);min-width:34px;height:34px;border-radius:50%;
+  background:linear-gradient(135deg,#7dd3fc,#38bdf8);color:#0e1116;font-weight:800;
+  display:flex;align-items:center;justify-content:center;font-size:.95rem;flex-shrink:0}
+.step .t{font-weight:650;font-size:.92rem;margin-bottom:3px}
+.step .d{font-size:.82rem;color:var(--dim);line-height:1.55}
+.step .d b{color:var(--txt);font-weight:600}
+/* comparison table */
+.tblwrap{overflow-x:auto;background:var(--card);border:1px solid var(--bord);border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:.8rem;min-width:640px}
+th{background:rgba(255,255,255,.06);text-align:left;padding:9px 12px;font-size:.68rem;
+  text-transform:uppercase;letter-spacing:.07em;color:var(--dim);white-space:nowrap}
+td{padding:9px 12px;border-top:1px solid rgba(255,255,255,.06);vertical-align:top;line-height:1.4}
+tr:hover td{background:rgba(255,255,255,.03)}
+td.p{color:var(--gold);font-weight:600;white-space:nowrap}
+td.w{white-space:nowrap}
+/* checklists */
+.check{display:flex;gap:10px;align-items:flex-start;background:var(--card);border:1px solid var(--bord);
+  border-radius:10px;padding:10px 14px;margin-bottom:8px;font-size:.84rem;line-height:1.5;cursor:pointer;
+  user-select:none;transition:.15s}
+.check:hover{border-color:rgba(125,211,252,.4)}
+.check .box{min-width:20px;height:20px;border:2px solid var(--dim);border-radius:6px;margin-top:2px;
+  display:flex;align-items:center;justify-content:center;font-size:.75rem;color:transparent;transition:.15s}
+.check.done{opacity:.5}
+.check.done .box{background:var(--green);border-color:var(--green);color:#0e1116}
+.check.done .box::after{content:"✓";font-weight:900}
+footer{margin-top:40px;color:var(--faint);font-size:.72rem;line-height:1.6;border-top:1px solid var(--bord);padding-top:14px}
+.warn{color:var(--amber)}
+.good{color:var(--green)}
+.bad{color:var(--red)}
+.pill-link{display:inline-block;margin-top:8px;font-size:.75rem;color:var(--blue);text-decoration:none;
+  border:1px solid rgba(125,211,252,.35);border-radius:8px;padding:5px 12px;transition:.15s}
+.pill-link:hover{background:rgba(125,211,252,.12)}
+.van-nav{display:flex;gap:8px;margin-bottom:18px}.van-nav a{color:var(--gold,#ffd166);text-decoration:none;border:1px solid var(--line,#243244);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+.tscroll{overflow-x:auto;max-width:100%}img{max-width:100%}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="van-nav"><a href="/van/">Van docs</a></nav>
+
+<header>
+  <h1>🚐 Removable + Swiveling Seating — DIY Dashboard</h1>
+  <div class="sub"><b>2016 Ford Transit 130" WB cargo van</b> · researched 2026-09-20 · prices US retail, verified same day unless marked <span style="color:var(--faint)">unconfirmed</span> · companion to <span style="font-family:ui-monospace">dreamvan/shared/topics/seating-removable-swivel-2016-transit-130wb.md</span></div>
+</header>
+
+<div class="banner">
+<b>The constraint that shapes everything:</b> the 2016 Transit is under 10,000 lb GVWR, so FMVSS applies to any seat you add. Every forward-facing belted passenger needs a <b>3-point belt</b>, and the seat frame + anchorage must survive the <b>FMVSS 207/210 pull test</b> (6,000 lb plus 20× seat+base weight). Tested seat + tested anchorage are <b>separate purchases</b> — a certified seat bolted to an untested floor is not a certified install. Race shells (Tillett, Kirkey, Sparco) fail this standard for road seats in this van; they belong in the exv harness-to-cage build instead.
+</div>
+
+<div class="stats" id="stats"></div>
+
+<div class="controls">
+  <input type="search" id="q" placeholder="Search seats, bases, systems…">
+  <select id="sort">
+    <option value="tier">Sort: recommendation order</option>
+    <option value="pl">Price low to high</option>
+    <option value="ph">Price high to low</option>
+    <option value="wt">Weight (lightest first)</option>
+  </select>
+  <span class="tog" id="tCompliant">compliant only</span>
+  <span class="tog" id="tRemovable">removable only</span>
+  <span class="tog" id="tSwivel">swivel only</span>
+  <span class="tog" id="tPicks">⭐ top picks</span>
+</div>
+
+<div class="sec" id="cards"></div>
+
+<div class="sec">
+  <div class="sechead"><h2>Side by side</h2><span class="tag">click a column header… actually just read it, it is sorted how you like</span></div>
+  <div class="tblwrap"><div class="tscroll"><table>
+    <thead><tr><th>Product</th><th>Class</th><th>Price</th><th>Weight</th><th>Swivel</th><th>Removable</th><th>Compliance</th><th>Best for</th></tr></thead>
+    <tbody id="tbody"></tbody>
+  </table></div></div>
+</div>
+
+<div class="sec">
+  <div class="sechead"><h2>The DIY build plan</h2><span class="tag">two seat positions, ~$1,700 to $2,600</span></div>
+  <div class="steps">
+    <div class="step"><div><div class="t">Decide the compliance posture first</div>
+      <div class="d">If anyone ever rides belted in the rear, go the certified route (Freedman GO-ES seat + tested base or rails). The Koolands quick-release base is lighter and a third of the price but carries <b>no FMVSS paperwork</b> — fine for camp + occasional careful use, a real liability decision for daily passengers. This is a family-safety call, not a spec call.</div></div></div>
+    <div class="step"><div><div class="t">Buy + install rear floor rails or track</div>
+      <div class="d">The 2016 cargo van has <b>no rear seat anchorage</b>. Options: OEM Transit passenger-wagon rails from a wrecked van (cheapest anchor for factory Transit seats), plain L-track by the foot (not an FMVSS anchorage alone — belt loads must resolve through a tested base or reinforcement under the floor), or full AbiliTrax/Smartfloor flooring. Budget <b>$200 to $800</b> used OEM, more for track systems.</div></div></div>
+    <div class="step"><div><div class="t">Cab: Scopema swivel under the front passenger seat</div>
+      <div class="d"><b>$349.95</b> from EuroCampers (part CBTO19x), +$38 if the driver side also goes under a manual parking-brake lever. Steel plates, pull-tested to FMVSS 207/210 and CMVSS, raises the seat only <b>23 mm</b>, rotates 180°. Side-specific, sold per seat. Bolt-in with hand tools; the OEM seat stays, gains rotation. This is the single highest-satisfaction dollar in the whole project.</div></div></div>
+    <div class="step"><div><div class="t">Rear seat: certified path — Freedman GO-ES + quick-disconnect base</div>
+      <div class="d">GO-ES single flip with 3-pt belt (FMVSS 207/210/202A tested, Lock-N-Go cushions) on a <b>Fenton Step-N-Lock base ($658)</b> or AbiliTrax base ($968). Catch: Step-N-Lock requires a <b>full AbiliTrax floor system</b> (2014+ Transit, pods/rails 12.5" on center) — the flooring is the real cost driver. Seat alone runs roughly $1,200 to $1,600 new (quote-based); observed $2,170 with Fenton EZ-mount leg. Removability here means foot-activated quick disconnect in a compliant system.</div></div></div>
+    <div class="step"><div><div class="t">Rear seat: lightweight path — Koolands swivel + QR base</div>
+      <div class="d"><b>$310</b> for the 360° swivel base with lever quick release, pairs with a Koolands 19" reclining captain seat (or any seat matching its mounting pattern). Whole pair lands near <b>$600 to $900</b>. Weight not published (estimate 25 to 35 lb for the base). No FMVSS claim — read step 1 again before choosing this for a belted daily passenger.</div></div></div>
+    <div class="step"><div><div class="t">Skip Smartfloor unless the floorplan will change repeatedly</div>
+      <div class="d"><b>$4,241.02</b> for the 130" 2-rail aluminum floor (123 lb, 4/6-rail packages quoted separately), certified installer required, ADA + FMVSS compliant, seats lock anywhere on the floor. It is the buy-once-reconfigure-forever answer and the only system where a seat moves anywhere in the cabin — but for one fixed rear seat plus a cab swivel it is overkill. Adventure Wagon full interior systems ($16k Sprinter data point) are a different project entirely.</div></div></div>
+  </div>
+</div>
+
+<div class="sec">
+  <div class="sechead"><h2>Install + shopping checklist</h2><span class="tag">click lines to check them off (saved in this browser)</span></div>
+  <div id="checks"></div>
+</div>
+
+<div class="sec">
+  <div class="sechead"><h2>Reference: race shells for the exv-130wb-custom build</h2><span class="tag">not road-legal seats in the 2016 Transit — harness-to-cage territory</span></div>
+  <div class="tblwrap"><div class="tscroll"><table>
+    <thead><tr><th>Seat</th><th>Weight</th><th>Price</th><th>Cert</th><th>Why it matters here</th></tr></thead>
+    <tbody>
+      <tr><td>Tillett B6 (GRP / carbon)</td><td class="w">4.2 to 5.1 kg (9 to 11 lb)</td><td class="p">$1,294</td><td>Non-FIA</td><td>Lightest verified shell. For exv: removable ring-mount above a thin-section bearing + pip-pin QR.</td></tr>
+      <tr><td>Tillett B6 XL Screamer</td><td class="w">6 to 7 kg (13 to 15 lb)</td><td class="p">$1,199 GRP · $1,664 carbon</td><td>FIA 8855-1999</td><td>30 mm wider XL; FIA adds weight.</td></tr>
+      <tr><td>Sparco Ultra Carbon</td><td class="w">9.5 lb</td><td class="p unconf">~$3,500+ unconfirmed</td><td>FIA 8855</td><td>Lightest FIA shell in Sparco's range.</td></tr>
+      <tr><td>Kirkey 55 series (replaces 41)</td><td class="w">11 to 12.5 lb w/ cover</td><td class="p">$163 to $231 + $256 cover</td><td>None (aluminum)</td><td>Cheapest path to a fixed-back shell; sizes to 20" ("Big Boy") for width.</td></tr>
+      <tr><td>PRP GT/S.E. suspension</td><td class="w">~20 lb each</td><td class="p">~$700+ each · pair w/ mounts 48 lb</td><td>Off-road</td><td>Reference architecture: composite shell + lever quick-release base, harness to cage.</td></tr>
+    </tbody>
+  </table></div></div>
+  <div class="meta" style="margin-top:10px">Swivel hardware for exv: Scopema-class swivels run <b>24 to 32 lb</b>, so a custom ring (thin-section slewing bearing, 12 to 16", + pip-pin quick release on the upper race) at a <b>16 to 20 lb estimate</b> per seat is where the four-seat exv spec (200 lb seats + 20 lb swivels frozen in range.yaml) should be re-baselined. Retention path (pins, pin plate, bearing mount) must be machined or welded metal, <span class="warn">never FDM PA-CF</span>. A marine single-post pedestal is the lightest thing on the market and the wrong shape: cantilever load at one bolt circle; the ring-on-floor stack spreads the same load over the full bearing diameter.</div>
+</div>
+
+<footer>
+  <b>Legend:</b> <span class="good">green badge = FMVSS-compliant</span> · <span class="bad">red = fails standard for belted road use</span> · <span class="warn">amber = unverified, estimate or quote-based</span> · gray = class not applicable.<br>
+  Prices verified 2026-09-20 from vendor pages: EuroCampers (Scopema CBTO19x $349.95, reg $399), Koolands ($310, reg $350), Fenton Mobility ($658 single Step-N-Lock), Suburban Seats (AbiliTrax $968), northwest overland (Smartfloor 130" $4,241.02 incl tax), RVan Conversion (GO-ES rigid w/ Fenton EZ Mount $2,170.83), Greg's Race Parts (Tillett B6 $1,294, B6 XL Screamer $1,199 GRP / $1,664 carbon), kirkeyracing.com + Behrents (55 series $163 to $231, cover $256). Unpublished weights are flagged as estimates, never asserted. FMVSS test-load framing from JMG Systems. ECE/TÜV certification does not substitute for FMVSS on US-road vehicles.<br>
+  Full write-up: <span style="font-family:ui-monospace">dreamvan/shared/topics/seating-removable-swivel-2016-transit-130wb.md</span> · commit 3f011b7
+</footer>
+
+</div>
+
+<script>
+const ITEMS=[
+ // Tier 1: lightweight swivel/QR bases
+ {name:"Scopema Transit Swivel (CBTO19x)",cls:"Swivel base",cat:"base",price:349.95,pdisp:"$349.95",wt:27,wd:"25 to 30 lb (est, unpublished)",sw:1,rm:0,comp:1,comptag:"FMVSS 207/210 pull-tested",pick:1,tier:1,
+  why:"Cab-seat swivel with the best compliance story and the lowest profile (23 mm raise). Bolt-in; OEM seat stays and gains 180° rotation. Side-specific, sold per seat, +$38 for driver side under a manual parking brake.",url:"https://www.eurocampers.com/ford-transit-scopema-seat-swivels",best:"Cab seats, front passenger first"},
+ {name:"Koolands Swivel Base + Quick Release",cls:"Swivel + QR base",cat:"base",price:310,pdisp:"$310",wt:30,wd:"25 to 35 lb (est, unpublished)",sw:1,rm:1,comp:0,comptag:"No FMVSS claim",pick:0,tier:2,
+  why:"360° swivel with a lever quick release at a third of certified-system cost. Built for Koolands' 19\" reclining captain seat and anything matching its pattern. The lightweight-tier risk: no FMVSS paperwork.",url:"https://koolands.com/products/captains-seat-swivel-base-with-quick-release",best:"Camp + occasional-use rear seat"},
+ // Tier 2: certified seat systems
+ {name:"Fenton Step-N-Lock Single Base",cls:"Certified QR base",cat:"sys",price:658,pdisp:"$658",wt:null,wd:"unpublished",sw:0,rm:1,comp:1,comptag:"NHTSA-compliant QR",pick:0,tier:3,
+  why:"Foot-activated quick disconnect, works with Freedman rigid/flip seats AND factory Ford Transit seats. Catch: requires a full AbiliTrax floor system (2014+ Transit, rails 12.5\" on center).",url:"https://www.fentonmobility.com/product/single-step-n-lock-base/",best:"Certified removable rear seat"},
+ {name:"AbiliTrax Step-N-Lock Seat Base",cls:"Certified QR base",cat:"sys",price:968,pdisp:"$968",wt:null,wd:"unpublished",sw:0,rm:1,comp:1,comptag:"NHTSA-compliant QR",pick:0,tier:4,
+  why:"Same mechanism as the Fenton listing at Suburban Seats. Also needs the AbiliTrax floor. Compare quotes between the two sellers before ordering.",url:"https://www.suburbanseats.com/products/abilitrax-stepnlock-seat-base",best:"Alternate supplier for the same base"},
+ {name:"Step-N-Lock Stowable Seat Base (QR)",cls:"Certified QR base",cat:"sys",price:null,pdisp:"quote",wt:null,wd:"unpublished",sw:0,rm:1,comp:1,comptag:"FMVSS 207/210/225 w/ Flip Seat",pick:0,tier:5,
+  why:"The turnkey \"pop out the whole belted seat\" answer. Requires a separate Freedman Flip Seat, FMVSS tested to 207/210/225. Price on request.",url:"https://www.fentonmobility.com/product/step-n-lock-quick-disconnect-stowable-seat-base/",best:"Whole-seat removal, certified"},
+ {name:"Freedman GO-ES Flip Seat (3-pt)",cls:"Certified seat",cat:"seat",price:1400,pdisp:"~$1,200 to $1,600 (quote; observed $2,171 w/ EZ-mount leg)",wt:null,wd:"\"lightweight\" per vendor, unpublished",sw:0,rm:0,comp:1,comptag:"FMVSS 207/210 + 202A",pick:1,tier:6,
+  why:"The seat half of every certified removable path: external 3-point belts, Lock-N-Go snap-out cushions, flip or foldaway variants, 16\"/19\" widths. Pair with a Step-N-Lock base for certified removability.",url:"https://freedmanseating.com/seats/go-es/",best:"Belted daily passenger"},
+ // Tier 3: floor systems
+ {name:"Smartfloor Transit 130\" (2-rail)",cls:"Floor system",cat:"floor",price:4241.02,pdisp:"$4,241.02",wt:123,wd:"123 lb (floor)",sw:0,rm:1,comp:1,comptag:"ADA + FMVSS, certified install",pick:0,tier:7,
+  why:"Seats lock anywhere on the floor with an approved quick-release; free iPad configurator; 4/6-rail packages quoted separately. Overkill for one fixed rear seat, the answer if the floorplan will keep changing.",url:"https://northwest-overland.com/product/ford-transit-van-130-smartfloor-aluminum-floor-solution/",best:"Reconfigure-forever floor"},
+ {name:"Adventure Wagon Interior System",cls:"Full interior system",cat:"floor",price:16000,pdisp:"$16,000 (Sprinter kit data point; Transit by quote)",wt:null,wd:"not comparable",sw:0,rm:1,comp:1,comptag:"Engineered system",pick:0,tier:8,
+  why:"Walls, ceiling, floor and L-track as one system. Listed as scope reference, not a seating purchase.",url:"https://mainlineoverland.com/products/adventure-wagon-sprinter-interior-conversion-kit-144-170",best:"Full conversion projects"},
+ {name:"OEM Transit passenger rails (wrecked donor)",cls:"Floor anchorage",cat:"floor",price:400,pdisp:"~$200 to $800 (forum-typical, unconfirmed)",wt:null,wd:"varies",sw:0,rm:0,comp:1,comptag:"OEM anchor for OEM seats",pick:0,tier:9,
+  why:"Cheapest anchor for factory Transit seats: pull seat + rails from a wrecked passenger wagon. Needed regardless of seat choice since the cargo van has no rear anchorage.",url:"https://www.fordtransitusaforum.com/threads/add-rear-seat-to-cargo-van.72742/",best:"Budget rear anchor"},
+ // reference shells (non-compliant in this van)
+ {name:"Tillett B6 (GRP/carbon)",cls:"Race shell",cat:"shell",price:1294,pdisp:"$1,294",wt:10,wd:"9 to 11 lb",sw:0,rm:0,comp:0,comptag:"Non-FIA — fails FMVSS road use",pick:0,tier:10,ref:1,
+  why:"Lightest verified shell at 9 to 11 lb. Belongs in the exv-130wb-custom build where a harness anchors to the cage, not under a belted road passenger in the 2016 Transit.",url:"https://gregsraceparts.com/products/tillett-b6-seats",best:"exv custom build"},
+ {name:"Tillett B6 XL Screamer (FIA)",cls:"Race shell",cat:"shell",price:1199,pdisp:"$1,199 GRP · $1,664 carbon",wt:14,wd:"13 to 15 lb",sw:0,rm:0,comp:0,comptag:"FIA 8855-1999 — not FMVSS",pick:0,tier:11,ref:1,
+  why:"FIA-certified and 30 mm wider in XL. Same exv-only caveat.",url:"https://gregsraceparts.com/collections/elise-exige-seats/products/tillett-b6-xl-screamer-carbon-fiber-or-black-grp-race-seat-fia-approved",best:"exv custom build"},
+ {name:"Sparco Ultra Carbon (FIA)",cls:"Race shell",cat:"shell",price:3500,pdisp:"~$3,500+ unconfirmed",wt:9.5,wd:"9.5 lb",sw:0,rm:0,comp:0,comptag:"FIA 8855 — not FMVSS",pick:0,tier:12,ref:1,
+  why:"Lightest FIA shell in Sparco's range at 9.5 lb. Price unverified.",url:"",best:"exv custom build"},
+ {name:"Kirkey 55 series aluminum",cls:"Race shell",cat:"shell",price:420,pdisp:"$163 to $231 + $256 cover",wt:12,wd:"11 to 12.5 lb w/ cover",sw:0,rm:0,comp:0,comptag:"None — fails FMVSS road use",pick:0,tier:13,ref:1,
+  why:"Cheapest fixed-back shell (55 series replaced the 41 series). Sizes to 20\" \"Big Boy\" if width is the binding constraint.",url:"https://kirkeyracing.com/",best:"exv custom build"},
+ {name:"PRP GT/S.E. suspension seat",cls:"Off-road seat",cat:"shell",price:700,pdisp:"~$700+ each · pair w/ mounts 48 lb",wt:20,wd:"~20 lb each",sw:0,rm:0,comp:0,comptag:"Off-road only",pick:0,tier:14,ref:1,
+  why:"The reference architecture for exv: composite shell + lever quick-release base, harness loads to the cage, seat pops out for cargo mode.",url:"https://prpseats.com/",best:"exv custom build"}
+];
+const CAT={base:"Swivel / QR bases",seat:"Certified seats",sys:"Certified QR systems",floor:"Floor + anchorage",shell:"Race shells (exv reference)"};
+const CCOL={base:"#7dd3fc",seat:"#4ade80",sys:"#4ade80",floor:"#8b5cf6",shell:"#f87171"};
+const $=id=>document.getElementById(id);
+let f={q:"",cat:null,comp:false,rm:false,sw:false,pick:false,sort:"tier"};
+function passes(e){
+  if(f.cat&&e.cat!==f.cat)return false;
+  if(f.comp&&!e.comp)return false;
+  if(f.rm&&!e.rm)return false;
+  if(f.sw&&!e.sw)return false;
+  if(f.pick&&!e.pick)return false;
+  if(f.q){const s=(e.name+" "+e.cls+" "+e.why+" "+e.comptag+" "+e.best).toLowerCase();
+    if(!s.includes(f.q))return false;}
+  return true;
+}
+function badge(e){
+  if(e.comp)return `<span class="badge b-green">✓ ${e.comptag}</span>`;
+  if(e.cat==="shell")return `<span class="badge b-red">✕ ${e.comptag}</span>`;
+  return `<span class="badge b-amber">⚠ ${e.comptag}</span>`;
+}
+function card(e){
+  const rm=e.rm?`<span class="badge b-blue">removable</span>`:`<span class="badge b-dim">fixed</span>`;
+  const sw=e.sw?`<span class="badge b-purple">swivel</span>`:"";
+  const link=e.url?`<a class="src" href="${e.url}" target="_blank">vendor page ↗</a>`:"";
+  return `<div class="card" style="--acc:${CCOL[e.cat]}">
+    ${e.pick?`<div class="pick">⭐ top pick</div>`:""}
+    <div class="price ${e.price===null?"unconf":""}">${e.pdisp}</div>
+    <h3>${e.name}</h3>
+    <div class="row">${badge(e)}${rm}${sw}<span class="badge b-dim">${e.cls}</span></div>
+    <div class="meta"><b>Weight:</b> ${e.wd}</div>
+    <div class="why">${e.why} <em>Best for: ${e.best}.</em></div>
+    ${link}
+  </div>`;
+}
+function render(){
+  let list=ITEMS.filter(passes);
+  const s=f.sort;
+  if(s==="pl")list.sort((a,b)=>(a.price??1e9)-(b.price??1e9));
+  else if(s==="ph")list.sort((a,b)=>(b.price??-1)-(a.price??-1));
+  else if(s==="wt")list.sort((a,b)=>(a.wt??1e9)-(b.wt??1e9));
+  else list.sort((a,b)=>a.tier-b.tier);
+  // group by category in recommendation order
+  const groups={};
+  list.forEach(e=>{(groups[e.cat]=groups[e.cat]||[]).push(e)});
+  const order=["base","seat","sys","floor","shell"];
+  let html="";
+  order.forEach(c=>{if(groups[c]){
+    html+=`<div class="sechead"><h2>${CAT[c]}</h2><span class="tag">${groups[c].length} item${groups[c].length>1?"s":""}</span></div>
+    <div class="grid">${groups[c].map(card).join("")}</div><div style="height:22px"></div>`}});
+  if(!list.length)html=`<div class="meta" style="padding:30px">Nothing matches — loosen a filter.</div>`;
+  $("cards").innerHTML=html;
+  // stats
+  const all=ITEMS.filter(passes);
+  const comps=all.filter(e=>e.comp).length;
+  const rms=all.filter(e=>e.rm).length;
+  const picked=all.filter(e=>e.pick).length;
+  const prices=all.filter(e=>e.price!==null).map(e=>e.price);
+  $("stats").innerHTML=`
+    <div class="stat"><div class="n">${all.length}</div><div class="l">matching options</div></div>
+    <div class="stat"><div class="n" style="color:var(--green)">${comps}</div><div class="l">FMVSS-compliant</div></div>
+    <div class="stat"><div class="n" style="color:var(--blue)">${rms}</div><div class="l">removable</div></div>
+    <div class="stat"><div class="n" style="color:var(--gold)">$${prices.length?Math.min(...prices).toLocaleString(undefined,{maximumFractionDigits:0}):"–"} to $${prices.length?Math.max(...prices).toLocaleString(undefined,{maximumFractionDigits:0}):"–"}</div><div class="l">price range</div></div>
+    <div class="stat"><div class="n" style="color:var(--gold)">${picked}</div><div class="l">⭐ top picks</div></div>`;
+  // table
+  $("tbody").innerHTML=list.map(e=>`<tr>
+    <td><b>${e.name}</b>${e.pick?' <span style="color:var(--gold)">⭐</span>':""}</td>
+    <td>${CAT[e.cat]}</td><td class="p">${e.pdisp}</td><td class="w">${e.wd}</td>
+    <td>${e.sw?"yes":"—"}</td><td>${e.rm?"yes":"—"}</td>
+    <td>${badge(e)}</td><td>${e.best}</td></tr>`).join("");
+}
+document.querySelectorAll(".chip").forEach(()=>{});
+$("q").addEventListener("input",e=>{f.q=e.target.value.toLowerCase().trim();render()});
+$("sort").addEventListener("change",e=>{f.sort=e.target.value;render()});
+[["tCompliant","comp"],["tRemovable","rm"],["tSwivel","sw"],["tPicks","pick"]].forEach(([id,key])=>{
+  $(id).addEventListener("click",()=>{f[key]=!f[key];$(id).classList.toggle("on",f[key]);render()});
+});
+// category chips row built from CAT
+const catRow=document.createElement("div");catRow.className="controls";catRow.style.marginTop="-6px";
+Object.entries(CAT).forEach(([k,v])=>{
+  const c=document.createElement("span");c.className="chip";c.textContent=v;
+  c.onclick=()=>{f.cat=f.cat===k?null:k;
+    document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));if(f.cat)c.classList.add("on");render()};
+  catRow.appendChild(c);
+});
+$("cards").before(catRow);
+// checklist
+const CHECKS=[
+ "Decide compliance posture: daily belted passenger or camp-only occasional use?",
+ "Measure rear floor width + wheel-well spacing at candidate seat positions",
+ "Source OEM Transit passenger rails or choose track/floor system",
+ "Confirm 2016 Transit parking-brake type (manual lever vs electronic) before ordering Scopema",
+ "Order Scopema CBTO19x passenger-side swivel ($349.95)",
+ "Install Scopema swivel (bolt-in, hand tools; verify torque + clear the 23 mm raise)",
+ "Choose certified path (Freedman GO-ES + Step-N-Lock, needs AbiliTrax floor) OR lightweight path (Koolands $310 base + 19\" seat)",
+ "If certified: get GO-ES quote + AbiliTrax floor quote, budget the flooring as the real cost",
+ "Install rear seat; verify belt anchorages pull-test-grade per vendor instructions",
+ "Test swivel + quick-release operation under load before first passenger",
+ "Log the build in dreamvan iterations for the (future) 2016-transit-mine vehicle folder"
+];
+const cdiv=$("checks");
+CHECKS.forEach((t,i)=>{
+  const d=document.createElement("div");d.className="check";
+  d.innerHTML=`<div class="box"></div><div>${t}</div>`;
+  d.onclick=()=>{d.classList.toggle("done");localStorage.setItem("seatchk"+i,d.classList.contains("done")?"1":"")};
+  if(localStorage.getItem("seatchk"+i))d.classList.add("done");
+  cdiv.appendChild(d);
+});
+render();
+</script>
+</body>
+</html>

@@ -10,12 +10,11 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
 .wrap{max-width:860px;margin:0 auto;padding:20px 16px 60px}
-.van-nav{display:flex;gap:8px;margin-bottom:18px}
-.van-nav a{color:var(--gold);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+.van-nav{display:flex;gap:8px;margin-bottom:18px}.van-nav a{color:var(--gold,#ffd166);text-decoration:none;border:1px solid var(--line,#243244);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
 h1{font-size:26px;line-height:1.25;margin:0 0 12px}
 h2{font-size:21px;margin:34px 0 10px;padding-top:18px;border-top:1px solid var(--line)}
 h3{font-size:17px;margin:22px 0 8px;color:var(--gold)}
-a{color:var(--bamboo)}
+a{color:var(--bamboo);word-break:break-word}
 code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.9em;background:rgba(255,255,255,.07);padding:1px 5px;border-radius:5px}
 pre{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;overflow-x:auto;font-size:12px;line-height:1.35}
 pre code{background:none;padding:0;font-size:inherit}
@@ -25,22 +24,38 @@ td:last-child,th:last-child{white-space:normal;min-width:180px}
 th{background:var(--card);color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
 strong{color:#fff}
 li{margin:4px 0}
+input[type=checkbox]{margin-right:6px}
 blockquote{margin:0;padding-left:12px;border-left:3px solid var(--line);color:var(--dim)}
 .stamp{color:var(--dim);font-size:12px;margin-bottom:14px}
-
 ul.docs{list-style:none;padding:0;margin:0}
 ul.docs li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:0 0 12px}
 ul.docs a{display:block;font-size:19px;font-weight:700;color:var(--gold);text-decoration:none;margin-bottom:4px}
 ul.docs span{color:var(--dim);font-size:14px}
+h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-size:13px;text-transform:uppercase;letter-spacing:.12em}
 </style>
 </head>
 <body>
 <div class="wrap">
 <h1>Van docs</h1>
-<div class="stamp">Transit Trail 148 · synced from dreamvan 2026-09-22</div>
+<div class="stamp">2016 Transit 250 · synced from dreamvan 2026-09-22</div>
+<h2 class="group">Galley</h2>
 <ul class="docs">
 <li><a href="/van/galley.html">Galley cabinet</a><span>Design doc: frame, cut list, uppers, lights, lining, shower, storage, dividers, totals, assembly order, open items.</span></li>
 <li><a href="/van/galley-bom.html">Galley BOM</a><span>Interactive parts list: every line with vendor, SKU, verified price, search and filters, section totals.</span></li>
+</ul>
+<h2 class="group">Keep it running</h2>
+<ul class="docs">
+<li><a href="/van/maintenance.html">Maintenance record</a><span>Service log, part numbers and torques, fluids, the dealer's notes, the needs list. Deduplicated from the Apple Notes export.</span></li>
+<li><a href="/van/suspension.html">Suspension dashboard</a><span>Restore-to-spec at 200k: verified part numbers and current retail pricing for the Transit 250 suspension.</span></li>
+</ul>
+<h2 class="group">Systems</h2>
+<ul class="docs">
+<li><a href="/van/12v.html">12 V system</a><span>The aux-battery plan as one doc: CCP, breaker, isolator or DC-DC, house and Yeti fuse blocks, load list, where the galley circuits land.</span></li>
+</ul>
+<h2 class="group">Seating</h2>
+<ul class="docs">
+<li><a href="/van/seating.html">Removable + swivel seating</a><span>FMVSS constraints, floor rail systems, seat options and prices for the 2016 Transit 130" WB.</span></li>
+<li><a href="/van/seating-dashboard.html">Seating dashboard</a><span>The seating options side by side with verified pricing.</span></li>
 </ul>
 </div>
 </body>
