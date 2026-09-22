@@ -1,0 +1,26 @@
+{
+  "extraKnownMarketplaces": {
+    "anthropic-agent-skills": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "document-skills@anthropic-agent-skills": true
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "printf '%s' '{\"hookSpecificOutput\":{\"hookEventName\":\"UserPromptSubmit\",\"additionalContext\":\"REQUIRED BEFORE RESPONDING: invoke the brainstorming skill (Skill tool, skill name: brainstorming) and follow it. It classifies how much process the request needs, so run it even when the request looks simple, and before any clarifying question, file read or plan. Announce: Using brainstorming to [purpose]. The only exception: you already invoked brainstorming earlier in this session for this same piece of work and are still executing that agreed design.\"}}'",
+            "statusMessage": "Requiring brainstorming"
+          }
+        ]
+      }
+    ]
+  }
+}
