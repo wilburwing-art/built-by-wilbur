@@ -23,29 +23,47 @@
   },
   "ingredients": [
     {
-      "raw": "2 pkgs cream cheese",
+      "raw": "1 (9-inch) pie crust, blind baked and cooled",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "pie crust",
+      "prep": "blind baked and cooled",
+      "note": "9-inch"
+    },
+    {
+      "raw": "Filling:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 (8 oz) packages cream cheese, slightly softened",
       "qty": 2,
       "qtyMax": null,
       "unit": "package",
       "item": "cream cheese",
-      "prep": null,
-      "note": null
+      "prep": "slightly softened",
+      "note": "8 oz"
     },
     {
-      "raw": "1 cup ricotta",
+      "raw": "1 cup ricotta cheese",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "ricotta",
+      "item": "ricotta cheese",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 1/2 cups cream",
+      "raw": "1 1/2 cups heavy cream",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "cream",
+      "item": "heavy cream",
       "prep": null,
       "note": null
     },
@@ -59,7 +77,43 @@
       "note": null
     },
     {
-      "raw": "Vanilla, orange zest, cinnamon",
+      "raw": "2 tsp vanilla extract or vanilla bean paste",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract or vanilla bean paste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp orange zest",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "orange zest",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp ground cinnamon",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 to 1 1/2 cups mini chocolate chips",
+      "qty": 1,
+      "qtyMax": 1.5,
+      "unit": "cup",
+      "item": "mini chocolate chips",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Chocolate ganache:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -68,7 +122,25 @@
       "note": null
     },
     {
-      "raw": "Mini chocolate chips",
+      "raw": "1 cup semi-sweet chocolate",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "semi-sweet chocolate",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp heavy cream",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Whipped cream:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -77,7 +149,25 @@
       "note": null
     },
     {
-      "raw": "Ganache: chocolate + cream",
+      "raw": "1 1/2 cups heavy cream",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup powdered sugar",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "powdered sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Garnish:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -86,7 +176,7 @@
       "note": null
     },
     {
-      "raw": "Whipped cream topping",
+      "raw": "Mini chocolate chips, bakery cannolis, and pistachios, for topping",
       "qty": null,
       "qtyMax": null,
       "unit": null,

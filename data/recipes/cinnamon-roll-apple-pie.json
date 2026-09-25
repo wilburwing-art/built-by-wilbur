@@ -23,29 +23,29 @@
   },
   "ingredients": [
     {
-      "raw": "2 pie crusts",
+      "raw": "2 (9-inch) pie crusts, store-bought or homemade",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
       "item": "pie crusts",
-      "prep": null,
-      "note": null
+      "prep": "store-bought or homemade",
+      "note": "9-inch"
     },
     {
-      "raw": "2 tbsp melted butter",
+      "raw": "2 tbsp unsalted butter, melted",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "melted butter",
-      "prep": null,
+      "item": "unsalted butter",
+      "prep": "melted",
       "note": null
     },
     {
-      "raw": "4 tsp cinnamon",
+      "raw": "4 tsp ground cinnamon",
       "qty": 4,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "cinnamon",
+      "item": "ground cinnamon",
       "prep": null,
       "note": null
     },
@@ -59,30 +59,30 @@
       "note": null
     },
     {
-      "raw": "2 cans apple pie filling",
+      "raw": "2 cans E.D. Smith apple pie filling",
       "qty": 2,
       "qtyMax": null,
       "unit": "can",
-      "item": "apple pie filling",
+      "item": "E.D. Smith apple pie filling",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 egg",
+      "raw": "1 egg, whisked, for egg wash",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "egg",
-      "prep": null,
+      "prep": "whisked, for egg wash",
       "note": null
     },
     {
-      "raw": "2 tbsp turbinado sugar",
+      "raw": "2 tbsp turbinado sugar, for sprinkling",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "turbinado sugar",
-      "prep": null,
+      "prep": "for sprinkling",
       "note": null
     }
   ],

@@ -23,7 +23,7 @@
   },
   "ingredients": [
     {
-      "raw": "Breadcrumb",
+      "raw": "Breadcrumb:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -50,7 +50,7 @@
       "note": null
     },
     {
-      "raw": "Batter",
+      "raw": "Batter:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -86,11 +86,11 @@
       "note": null
     },
     {
-      "raw": "2 tbsp flour",
+      "raw": "2 tbsp all-purpose flour",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "flour",
+      "item": "all-purpose flour",
       "prep": null,
       "note": null
     },
@@ -104,7 +104,7 @@
       "note": null
     },
     {
-      "raw": "Black pepper",
+      "raw": "Black pepper, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -113,7 +113,7 @@
       "note": null
     },
     {
-      "raw": "Chicken",
+      "raw": "Chicken:",
       "qty": null,
       "qtyMax": null,
       "unit": null,

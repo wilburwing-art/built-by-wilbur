@@ -23,11 +23,11 @@
   },
   "ingredients": [
     {
-      "raw": "3 1/2 cups diced potatoes",
+      "raw": "3 1/2 cups peeled and diced potatoes",
       "qty": 3.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "diced potatoes",
+      "item": "peeled and diced potatoes",
       "prep": null,
       "note": null
     },
@@ -41,47 +41,47 @@
       "note": null
     },
     {
-      "raw": "3/4 cup diced ham",
+      "raw": "3/4 cup diced cooked ham",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "cup",
-      "item": "diced ham",
+      "item": "diced cooked ham",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/3 cup celery",
-      "qty": 0.3333,
+      "raw": "1/3 cup diced celery",
+      "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
-      "item": "celery",
+      "item": "diced celery",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/3 cup onion",
-      "qty": 0.3333,
+      "raw": "1/3 cup finely chopped yellow onion",
+      "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
-      "item": "onion",
+      "item": "finely chopped yellow onion",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 tbsp chicken bouillon",
+      "raw": "2 tbsp chicken bouillon granules",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "chicken bouillon",
+      "item": "chicken bouillon granules",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tsp pepper",
+      "raw": "1 tsp ground white or black pepper",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "pepper",
+      "item": "ground white or black pepper",
       "prep": null,
       "note": null
     },
@@ -104,11 +104,11 @@
       "note": null
     },
     {
-      "raw": "5 tbsp flour",
+      "raw": "5 tbsp all-purpose flour",
       "qty": 5,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "flour",
+      "item": "all-purpose flour",
       "prep": null,
       "note": null
     },

@@ -23,22 +23,22 @@
   },
   "ingredients": [
     {
-      "raw": "2 cans chicken",
+      "raw": "2 (10 oz) cans chicken, drained",
       "qty": 2,
       "qtyMax": null,
       "unit": "can",
       "item": "chicken",
-      "prep": null,
-      "note": null
+      "prep": "drained",
+      "note": "10 oz"
     },
     {
-      "raw": "2 pkgs cream cheese",
+      "raw": "2 (8 oz) packages cream cheese",
       "qty": 2,
       "qtyMax": null,
       "unit": "package",
       "item": "cream cheese",
       "prep": null,
-      "note": null
+      "note": "8 oz"
     },
     {
       "raw": "3/4 cup Frank's hot sauce",
@@ -50,21 +50,30 @@
       "note": null
     },
     {
-      "raw": "1 cup ranch",
+      "raw": "1 cup ranch dressing",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "ranch",
+      "item": "ranch dressing",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 cups mild cheddar",
+      "raw": "2 cups shredded mild cheddar cheese, divided",
       "qty": 2,
       "qtyMax": null,
       "unit": "cup",
-      "item": "mild cheddar",
-      "prep": null,
+      "item": "shredded mild cheddar cheese",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "2 loaves baguette, sliced, for serving",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "loaves baguette",
+      "prep": "sliced, for serving",
       "note": null
     }
   ],

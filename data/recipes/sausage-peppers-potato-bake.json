@@ -59,12 +59,12 @@
       "note": null
     },
     {
-      "raw": "3 large onions, wedges",
+      "raw": "3 large yellow onions, wedges",
       "qty": 3,
       "qtyMax": null,
       "unit": null,
-      "item": "large onions, wedges",
-      "prep": null,
+      "item": "large yellow onions",
+      "prep": "wedges",
       "note": null
     },
     {

@@ -23,56 +23,65 @@
   },
   "ingredients": [
     {
-      "raw": "2 tbsp olive oil",
+      "raw": "2 tbsp extra-virgin olive oil, plus more for brushing",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "olive oil",
-      "prep": null,
+      "item": "extra-virgin olive oil",
+      "prep": "plus more for brushing",
       "note": null
     },
     {
-      "raw": "1/2 white onion, thinly sliced",
+      "raw": "1/2 medium white onion, thinly sliced",
       "qty": 0.5,
       "qtyMax": null,
       "unit": null,
-      "item": "white onion",
+      "item": "medium white onion",
       "prep": "thinly sliced",
       "note": null
     },
     {
-      "raw": "1/2 red bell pepper, sliced",
+      "raw": "1/2 red bell pepper, thinly sliced",
       "qty": 0.5,
       "qtyMax": null,
       "unit": null,
       "item": "red bell pepper",
-      "prep": "sliced",
+      "prep": "thinly sliced",
       "note": null
     },
     {
-      "raw": "1/2 green bell pepper, sliced",
+      "raw": "1/2 green bell pepper, thinly sliced",
       "qty": 0.5,
       "qtyMax": null,
       "unit": null,
       "item": "green bell pepper",
-      "prep": "sliced",
+      "prep": "thinly sliced",
       "note": null
     },
     {
-      "raw": "1/2 lb sirloin steak, 1-inch pieces",
-      "qty": 0.5,
+      "raw": "Kosher salt, a pinch",
+      "qty": null,
       "qtyMax": null,
-      "unit": "lb",
-      "item": "sirloin steak, 1-inch pieces",
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 tsp cumin",
+      "raw": "1/2 lb sirloin steak, cut into 1-inch pieces",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "sirloin steak",
+      "prep": "cut into 1-inch pieces",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp ground cumin",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "cumin",
+      "item": "ground cumin",
       "prep": null,
       "note": null
     },
@@ -86,39 +95,39 @@
       "note": null
     },
     {
-      "raw": "1/2 tsp chili powder",
+      "raw": "1/2 tsp chili powder or chipotle powder",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "chili powder",
+      "item": "chili powder or chipotle powder",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 large tortillas",
+      "raw": "2 (12-inch) tortillas",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "large tortillas",
+      "item": "tortillas",
       "prep": null,
-      "note": null
+      "note": "12-inch"
     },
     {
-      "raw": "2 cups shredded Monterey Jack",
+      "raw": "2 cups shredded Monterey Jack cheese",
       "qty": 2,
       "qtyMax": null,
       "unit": "cup",
-      "item": "shredded Monterey Jack",
+      "item": "shredded Monterey Jack cheese",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Chipotle vinaigrette for dipping",
-      "qty": null,
+      "raw": "1 batch creamy chipotle vinaigrette, for dipping",
+      "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": null,
-      "prep": null,
+      "item": "batch creamy chipotle vinaigrette",
+      "prep": "for dipping",
       "note": null
     }
   ],

@@ -23,13 +23,22 @@
   },
   "ingredients": [
     {
-      "raw": "19 oz can lentils, drained",
-      "qty": 19,
+      "raw": "Sheet pan:",
+      "qty": null,
       "qtyMax": null,
-      "unit": "oz",
-      "item": "can lentils",
-      "prep": "drained",
+      "unit": null,
+      "item": null,
+      "prep": null,
       "note": null
+    },
+    {
+      "raw": "1 (19 oz) can lentils, drained and rinsed",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "lentils",
+      "prep": "drained and rinsed",
+      "note": "19 oz"
     },
     {
       "raw": "1 pint baby tomatoes, halved",
@@ -41,30 +50,30 @@
       "note": null
     },
     {
-      "raw": "1 yellow pepper, chopped",
+      "raw": "1 yellow or orange bell pepper, cut into 1/2-inch pieces",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "yellow pepper",
-      "prep": "chopped",
+      "item": "yellow or orange bell pepper",
+      "prep": "cut into 1/2-inch pieces",
       "note": null
     },
     {
-      "raw": "1 small eggplant, chopped",
+      "raw": "1 small eggplant, cut into 1/2-inch pieces",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "small eggplant",
-      "prep": "chopped",
+      "prep": "cut into 1/2-inch pieces",
       "note": null
     },
     {
-      "raw": "1 red onion, chopped",
+      "raw": "1 red onion, cut into 1/2-inch pieces",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "red onion",
-      "prep": "chopped",
+      "prep": "cut into 1/2-inch pieces",
       "note": null
     },
     {
@@ -77,16 +86,16 @@
       "note": null
     },
     {
-      "raw": "500g potato gnocchi",
+      "raw": "500 g store-bought potato gnocchi",
       "qty": 500,
       "qtyMax": null,
       "unit": "g",
-      "item": "potato gnocchi",
+      "item": "store-bought potato gnocchi",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Dressing: 1/2 cup olive oil, 1/2 tbsp oregano, 1/2 tsp salt, pepper, juice of 1 lemon, 1/2 tbsp red wine vinegar, 2 garlic cloves",
+      "raw": "Greek dressing:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -95,20 +104,110 @@
       "note": null
     },
     {
-      "raw": "100g goat cheese",
-      "qty": 100,
+      "raw": "1/2 cup olive oil",
+      "qty": 0.5,
       "qtyMax": null,
-      "unit": "g",
-      "item": "goat cheese",
+      "unit": "cup",
+      "item": "olive oil",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 cup fresh herbs (parsley, dill, mint)",
+      "raw": "1/2 tbsp dried oregano",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp ground black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Juice of 1 lemon",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tbsp red wine vinegar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "red wine vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 small garlic cloves, pressed",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small garlic cloves",
+      "prep": "pressed",
+      "note": null
+    },
+    {
+      "raw": "Topping:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "100-125 g plain goat cheese",
+      "qty": 100,
+      "qtyMax": 125,
+      "unit": "g",
+      "item": "plain goat cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup chopped fresh herbs (parsley, dill, mint)",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "fresh herbs (parsley, dill, mint)",
+      "item": "chopped fresh herbs",
+      "prep": null,
+      "note": "parsley, dill, mint"
+    },
+    {
+      "raw": "Olive oil, for drizzling",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Black olives, a handful (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     }

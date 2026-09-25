@@ -23,20 +23,20 @@
   },
   "ingredients": [
     {
-      "raw": "1 lb ziti pasta",
+      "raw": "1 lb dry ziti pasta",
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
-      "item": "ziti pasta",
+      "item": "dry ziti pasta",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 onion, chopped",
+      "raw": "1 yellow onion, chopped",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "onion",
+      "item": "yellow onion",
       "prep": "chopped",
       "note": null
     },
@@ -56,7 +56,7 @@
       "unit": "jar",
       "item": "spaghetti sauce",
       "prep": null,
-      "note": "(26 oz)"
+      "note": "26 oz"
     },
     {
       "raw": "6 oz provolone cheese, sliced",
@@ -77,20 +77,20 @@
       "note": null
     },
     {
-      "raw": "6 oz mozzarella, shredded",
+      "raw": "6 oz mozzarella cheese, shredded",
       "qty": 6,
       "qtyMax": null,
       "unit": "oz",
-      "item": "mozzarella",
+      "item": "mozzarella cheese",
       "prep": "shredded",
       "note": null
     },
     {
-      "raw": "2 tbsp grated Parmesan",
+      "raw": "2 tbsp grated Parmesan cheese",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "grated Parmesan",
+      "item": "grated Parmesan cheese",
       "prep": null,
       "note": null
     }

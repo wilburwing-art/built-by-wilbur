@@ -23,16 +23,16 @@
   },
   "ingredients": [
     {
-      "raw": "2 lbs chicken thighs",
+      "raw": "2 lbs boneless, skinless chicken thighs",
       "qty": 2,
       "qtyMax": null,
       "unit": "lb",
-      "item": "chicken thighs",
-      "prep": null,
+      "item": "boneless",
+      "prep": "skinless chicken thighs",
       "note": null
     },
     {
-      "raw": "Marinade: 1/4 red onion, 2 garlic cloves, 1 tbsp adobo sauce, 1 tbsp ancho chile powder, 1 tbsp oil, 1 tsp cumin, 1 tsp oregano",
+      "raw": "Marinade:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -41,7 +41,70 @@
       "note": null
     },
     {
-      "raw": "Rice: 1 cup basmati, 1 bay leaf, cilantro, lemon and lime juice",
+      "raw": "1/4 medium red onion, coarsely chopped",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium red onion",
+      "prep": "coarsely chopped",
+      "note": null
+    },
+    {
+      "raw": "2 cloves garlic",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp adobo sauce (from a can of chipotle peppers in adobo)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "adobo sauce",
+      "prep": null,
+      "note": "from a can of chipotle peppers in adobo"
+    },
+    {
+      "raw": "1 tbsp ancho chile powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "ancho chile powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil, plus more for cooking",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": "plus more for cooking",
+      "note": null
+    },
+    {
+      "raw": "1 tsp ground cumin",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp dried oregano",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -50,7 +113,7 @@
       "note": null
     },
     {
-      "raw": "Corn salsa: 12 oz corn, 1/4 cup red onion, 1 poblano, 1 jalapeno, cilantro, citrus juice",
+      "raw": "Cilantro lime rice:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -59,7 +122,52 @@
       "note": null
     },
     {
-      "raw": "Tomato salsa: 1 lb tomatoes, onion, cilantro, jalapenos, lime",
+      "raw": "1 cup basmati rice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "basmati rice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 bay leaf",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "bay leaf",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp minced fresh cilantro",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "minced fresh cilantro",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp lime juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp lemon juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -68,7 +176,7 @@
       "note": null
     },
     {
-      "raw": "Guac: 2 avocados, lemon, lime, onion, jalapeno, cilantro",
+      "raw": "Corn salsa:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -77,7 +185,223 @@
       "note": null
     },
     {
-      "raw": "Black beans, cheddar cheese for assembly",
+      "raw": "12 oz frozen corn",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "frozen corn",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup finely chopped red onion",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "finely chopped red onion",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 large roasted poblano pepper, peeled, seeded, finely chopped",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large roasted poblano pepper",
+      "prep": "peeled, seeded, finely chopped",
+      "note": null
+    },
+    {
+      "raw": "1 jalapeño pepper, stemmed, seeded, finely chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "jalapeño pepper",
+      "prep": "stemmed, seeded, finely chopped",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp finely chopped fresh cilantro",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "finely chopped fresh cilantro",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tbsp lemon juice",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tbsp lime juice",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Tomato salsa:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lb tomatoes, cut into 1/4-inch pieces",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "tomatoes",
+      "prep": "cut into 1/4-inch pieces",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup finely chopped red onion",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "finely chopped red onion",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup finely chopped fresh cilantro",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "finely chopped fresh cilantro",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 jalapeño peppers, finely chopped",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "jalapeño peppers",
+      "prep": "finely chopped",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp lemon juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp lime juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Guacamole:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 large avocados, halved and pitted",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large avocados",
+      "prep": "halved and pitted",
+      "note": null
+    },
+    {
+      "raw": "1 tsp lemon juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp lime juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup finely chopped red onion",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "finely chopped red onion",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 jalapeño pepper, stemmed, seeded, finely chopped",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "jalapeño pepper",
+      "prep": "stemmed, seeded, finely chopped",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp finely chopped fresh cilantro",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "finely chopped fresh cilantro",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "To assemble:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Black beans, for serving",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Shredded cheddar cheese, for serving",
       "qty": null,
       "qtyMax": null,
       "unit": null,

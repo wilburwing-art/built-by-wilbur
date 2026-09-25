@@ -23,90 +23,261 @@
   },
   "ingredients": [
     {
-      "raw": "2 lbs ground beef",
+      "raw": "2 lbs ground beef chuck",
       "qty": 2,
       "qtyMax": null,
       "unit": "lb",
-      "item": "ground beef",
+      "item": "ground beef chuck",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 lb Italian sausage",
+      "raw": "1 lb bulk Italian sausage",
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
-      "item": "Italian sausage",
+      "item": "bulk Italian sausage",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Chili beans (3 cans + 1 spicy)",
-      "qty": null,
+      "raw": "3 (15 oz) cans chili beans, drained",
+      "qty": 3,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
+      "unit": "can",
+      "item": "chili beans",
+      "prep": "drained",
+      "note": "15 oz"
     },
     {
-      "raw": "2 cans diced tomatoes",
+      "raw": "1 (15 oz) can chili beans in spicy sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "chili beans in spicy sauce",
+      "prep": null,
+      "note": "15 oz"
+    },
+    {
+      "raw": "2 (28 oz) cans diced tomatoes, with juice",
       "qty": 2,
       "qtyMax": null,
       "unit": "can",
       "item": "diced tomatoes",
+      "prep": "with juice",
+      "note": "28 oz"
+    },
+    {
+      "raw": "1 (6 oz) can tomato paste",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "tomato paste",
+      "prep": null,
+      "note": "6 oz"
+    },
+    {
+      "raw": "1 large yellow onion, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large yellow onion",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "3 stalks celery, chopped",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "stalk",
+      "item": "celery",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 green bell pepper, seeded and chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "green bell pepper",
+      "prep": "seeded and chopped",
+      "note": null
+    },
+    {
+      "raw": "1 red bell pepper, seeded and chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red bell pepper",
+      "prep": "seeded and chopped",
+      "note": null
+    },
+    {
+      "raw": "2 green chile peppers, seeded and chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "green chile peppers",
+      "prep": "seeded and chopped",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp bacon bits",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "bacon bits",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Tomato paste",
-      "qty": null,
+      "raw": "4 cubes beef bouillon",
+      "qty": 4,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "piece",
+      "item": "beef bouillon",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Onion, celery, bell peppers, green chiles",
-      "qty": null,
+      "raw": "1/2 cup beer",
+      "qty": 0.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "cup",
+      "item": "beer",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Bacon bits, bouillon, beer",
-      "qty": null,
+      "raw": "1/4 cup chili powder",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "cup",
+      "item": "chili powder",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Chili powder, Worcestershire, garlic, oregano, cumin, hot sauce, paprika",
-      "qty": null,
+      "raw": "1 tbsp Worcestershire sauce",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tbsp",
+      "item": "Worcestershire sauce",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Fritos and cheddar",
-      "qty": null,
+      "raw": "1 tbsp minced garlic",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tbsp",
+      "item": "minced garlic",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1 tbsp dried oregano",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp ground cumin",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp hot pepper sauce (Tabasco)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "hot pepper sauce",
+      "prep": null,
+      "note": "Tabasco"
+    },
+    {
+      "raw": "1 tsp dried basil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried basil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp ground black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp cayenne pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cayenne pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp paprika",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp white sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "white sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 bag Fritos, for serving",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "bag",
+      "item": "Fritos",
+      "prep": "for serving",
+      "note": null
+    },
+    {
+      "raw": "1 (8 oz) package shredded Cheddar cheese, for serving",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "package",
+      "item": "shredded Cheddar cheese",
+      "prep": "for serving",
+      "note": "8 oz"
     }
   ],
   "steps": [
-    "Brown beef and sausage. Drain.",
-    "Add all beans, tomatoes, paste, vegetables, and seasonings.",
-    "Cover and simmer at least 2 hours. Serve with Fritos and cheddar."
+    "Heat a large stock pot over medium-high heat. Crumble in the ground chuck and sausage and cook until evenly browned. Drain off excess grease.",
+    "Add the chili beans, spicy chili beans, diced tomatoes, and tomato paste. Add the onion, celery, green and red bell peppers, chile peppers, bacon bits, bouillon, and beer. Season with the chili powder, Worcestershire, garlic, oregano, cumin, hot sauce, basil, salt, pepper, cayenne, paprika, and sugar.",
+    "Stir to blend, cover, and simmer over low heat for at least 2 hours, stirring occasionally. Serve over Fritos, topped with Cheddar."
   ]
 }

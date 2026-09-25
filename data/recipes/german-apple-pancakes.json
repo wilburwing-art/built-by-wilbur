@@ -41,11 +41,11 @@
       "note": null
     },
     {
-      "raw": "1 cup flour",
+      "raw": "1 cup all-purpose flour",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "flour",
+      "item": "all-purpose flour",
       "prep": null,
       "note": null
     },
@@ -59,39 +59,39 @@
       "note": null
     },
     {
-      "raw": "1/2 cup sugar",
+      "raw": "1/2 cup granulated sugar",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "sugar",
+      "item": "granulated sugar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tbsp cinnamon",
+      "raw": "1 tbsp ground cinnamon",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "cinnamon",
+      "item": "ground cinnamon",
       "prep": null,
       "note": null
     },
     {
-      "raw": "3 gala apples, cut in wedges",
+      "raw": "3 gala apples, cut into wedges",
       "qty": 3,
       "qtyMax": null,
       "unit": null,
       "item": "gala apples",
-      "prep": "cut in wedges",
+      "prep": "cut into wedges",
       "note": null
     },
     {
-      "raw": "1/4 cup butter for greasing",
+      "raw": "1/4 cup butter, for greasing the pan",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "butter for greasing",
-      "prep": null,
+      "item": "butter",
+      "prep": "for greasing the pan",
       "note": null
     }
   ],

@@ -23,11 +23,11 @@
   },
   "ingredients": [
     {
-      "raw": "1 onion",
+      "raw": "1 yellow onion",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "onion",
+      "item": "yellow onion",
       "prep": null,
       "note": null
     },

@@ -23,11 +23,11 @@
   },
   "ingredients": [
     {
-      "raw": "1 cup butter",
+      "raw": "1 cup butter or margarine",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "butter",
+      "item": "butter or margarine",
       "prep": null,
       "note": null
     },
@@ -41,11 +41,11 @@
       "note": null
     },
     {
-      "raw": "1 cup brown sugar",
+      "raw": "1 cup packed brown sugar",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "brown sugar",
+      "item": "packed brown sugar",
       "prep": null,
       "note": null
     },
@@ -59,11 +59,11 @@
       "note": null
     },
     {
-      "raw": "1 tsp vanilla",
+      "raw": "1 tsp vanilla extract",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "vanilla",
+      "item": "vanilla extract",
       "prep": null,
       "note": null
     },
@@ -86,20 +86,20 @@
       "note": null
     },
     {
-      "raw": "3 1/2 cups flour",
+      "raw": "3 1/2 cups all-purpose flour (4.25 oz per cup)",
       "qty": 3.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "flour",
+      "item": "all-purpose flour",
       "prep": null,
-      "note": null
+      "note": "4.25 oz per cup"
     },
     {
-      "raw": "1 cup chocolate chips",
+      "raw": "1 cup semisweet chocolate chips",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "chocolate chips",
+      "item": "semisweet chocolate chips",
       "prep": null,
       "note": null
     }

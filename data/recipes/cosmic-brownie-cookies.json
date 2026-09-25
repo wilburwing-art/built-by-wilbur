@@ -59,30 +59,30 @@
       "note": null
     },
     {
-      "raw": "1 stick butter",
+      "raw": "1 stick (1/2 cup) butter",
       "qty": 1,
       "qtyMax": null,
       "unit": "stick",
       "item": "butter",
       "prep": null,
-      "note": null
+      "note": "1/2 cup"
     },
     {
-      "raw": "8 oz semi sweet chocolate chips Good quality",
+      "raw": "8 oz good-quality semi-sweet chocolate chips",
       "qty": 8,
       "qtyMax": null,
       "unit": "oz",
-      "item": "semi sweet chocolate chips Good quality",
+      "item": "good-quality semi-sweet chocolate chips",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 large egg at room temperature",
+      "raw": "2 large eggs, at room temperature",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "large egg at room temperature",
-      "prep": null,
+      "item": "large eggs",
+      "prep": "at room temperature",
       "note": null
     },
     {
@@ -113,7 +113,7 @@
       "note": null
     },
     {
-      "raw": "For the chocolate ganache",
+      "raw": "Chocolate ganache:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -122,11 +122,11 @@
       "note": null
     },
     {
-      "raw": "6 oz semi sweet chocolate chips good quality",
+      "raw": "6 oz good-quality semi-sweet chocolate chips",
       "qty": 6,
       "qtyMax": null,
       "unit": "oz",
-      "item": "semi sweet chocolate chips good quality",
+      "item": "good-quality semi-sweet chocolate chips",
       "prep": null,
       "note": null
     },
@@ -140,7 +140,7 @@
       "note": null
     },
     {
-      "raw": "Rainbow chocolate candies",
+      "raw": "Rainbow chocolate candies, for topping",
       "qty": null,
       "qtyMax": null,
       "unit": null,

@@ -23,16 +23,16 @@
   },
   "ingredients": [
     {
-      "raw": "2 chicken breasts",
+      "raw": "2 chicken breasts (boneless, skin-on)",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
       "item": "chicken breasts",
       "prep": null,
-      "note": null
+      "note": "boneless, skin-on"
     },
     {
-      "raw": "Butter",
+      "raw": "Kosher salt and freshly ground black pepper, to season",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -41,29 +41,47 @@
       "note": null
     },
     {
-      "raw": "Sesame oil",
-      "qty": null,
+      "raw": "1 tbsp unsalted butter",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Ginger, garlic",
-      "qty": null,
+      "raw": "2 tsp sesame or vegetable oil",
+      "qty": 2,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "sesame or vegetable oil",
       "prep": null,
       "note": null
     },
     {
-      "raw": "3 tbsp soy sauce",
+      "raw": "2 tsp fresh ginger, minced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fresh ginger",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp fresh garlic, minced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh garlic",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "3 tbsp low-sodium soy sauce",
       "qty": 3,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "soy sauce",
+      "item": "low-sodium soy sauce",
       "prep": null,
       "note": null
     },
@@ -77,47 +95,65 @@
       "note": null
     },
     {
-      "raw": "4 cups chicken stock",
+      "raw": "4 cups rich chicken stock",
       "qty": 4,
       "qtyMax": null,
       "unit": "cup",
-      "item": "chicken stock",
+      "item": "rich chicken stock",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Dried shiitake mushrooms",
+      "raw": "1 oz dried shiitake mushrooms (or 1/2 cup fresh)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "dried shiitake mushrooms",
+      "prep": null,
+      "note": "or 1/2 cup fresh"
+    },
+    {
+      "raw": "1-2 tsp sea salt, to taste",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "tsp",
+      "item": "sea salt",
+      "prep": "to taste",
+      "note": null
+    },
+    {
+      "raw": "2 large eggs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup scallions, sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "scallions",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "2 (3 oz) packs dried ramen noodles",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "packs dried ramen noodles",
+      "prep": null,
+      "note": "3 oz"
+    },
+    {
+      "raw": "Fresh jalapeño or chili slices, for serving (optional)",
       "qty": null,
       "qtyMax": null,
       "unit": null,
       "item": null,
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "2 eggs",
-      "qty": 2,
-      "qtyMax": null,
-      "unit": null,
-      "item": "eggs",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "Scallions",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "2 packs ramen noodles",
-      "qty": 2,
-      "qtyMax": null,
-      "unit": null,
-      "item": "packs ramen noodles",
       "prep": null,
       "note": null
     }

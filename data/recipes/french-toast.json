@@ -59,11 +59,11 @@
       "note": null
     },
     {
-      "raw": "1/2 tsp cinnamon",
+      "raw": "1/2 tsp ground cinnamon",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "cinnamon",
+      "item": "ground cinnamon",
       "prep": null,
       "note": null
     },
@@ -77,11 +77,11 @@
       "note": null
     },
     {
-      "raw": "1 tbsp sugar",
+      "raw": "1 tbsp white sugar",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "sugar",
+      "item": "white sugar",
       "prep": null,
       "note": null
     },

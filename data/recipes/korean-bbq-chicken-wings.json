@@ -23,22 +23,22 @@
   },
   "ingredients": [
     {
-      "raw": "4 lbs chicken wings",
+      "raw": "4 lbs chicken wings, broken down into drummettes and flats",
       "qty": 4,
       "qtyMax": null,
       "unit": "lb",
       "item": "chicken wings",
-      "prep": null,
+      "prep": "broken down into drummettes and flats",
       "note": null
     },
     {
-      "raw": "1/3 cup gochujang",
-      "qty": 0.3333,
+      "raw": "1/3 cup gochujang (Korean red chili pepper paste)",
+      "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
       "item": "gochujang",
       "prep": null,
-      "note": null
+      "note": "Korean red chili pepper paste"
     },
     {
       "raw": "1/4 cup brown sugar",
@@ -86,34 +86,43 @@
       "note": null
     },
     {
-      "raw": "4 garlic cloves, minced",
+      "raw": "4 cloves garlic, minced",
       "qty": 4,
       "qtyMax": null,
-      "unit": null,
-      "item": "garlic cloves",
+      "unit": "clove",
+      "item": "garlic",
       "prep": "minced",
       "note": null
     },
     {
-      "raw": "1 1/2 tbsp fresh ginger",
+      "raw": "1 1/2 tbsp fresh ginger, peeled and minced",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "fresh ginger",
-      "prep": null,
+      "prep": "peeled and minced",
       "note": null
     },
     {
-      "raw": "Salt, pepper",
-      "qty": null,
+      "raw": "1 tsp kosher salt",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "kosher salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Sesame seeds, green onion",
+      "raw": "1 tsp black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sesame seeds and sliced green onion, for garnish",
       "qty": null,
       "qtyMax": null,
       "unit": null,

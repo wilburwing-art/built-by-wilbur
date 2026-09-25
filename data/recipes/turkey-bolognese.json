@@ -23,31 +23,31 @@
   },
   "ingredients": [
     {
-      "raw": "1 tbsp olive oil",
+      "raw": "1 tbsp extra-virgin olive oil",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "olive oil",
+      "item": "extra-virgin olive oil",
       "prep": null,
       "note": null
     },
     {
-      "raw": "3 medium carrots, finely chopped",
+      "raw": "3 medium carrots, peeled and finely chopped (about 1 1/4 cups)",
       "qty": 3,
       "qtyMax": null,
       "unit": null,
       "item": "medium carrots",
-      "prep": "finely chopped",
-      "note": null
+      "prep": "peeled and finely chopped",
+      "note": "about 1 1/4 cups"
     },
     {
-      "raw": "1 small yellow onion, finely chopped",
+      "raw": "1 small yellow onion, finely chopped (about 1 cup)",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "small yellow onion",
       "prep": "finely chopped",
-      "note": null
+      "note": "about 1 cup"
     },
     {
       "raw": "1 tsp kosher salt",
@@ -59,31 +59,31 @@
       "note": null
     },
     {
-      "raw": "1/2 tsp black pepper",
+      "raw": "1/2 tsp ground black pepper",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "black pepper",
+      "item": "ground black pepper",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 lb ground turkey (93% lean)",
+      "raw": "1 lb ground turkey (93% lean; avoid 99% lean) or ground chicken",
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
-      "item": "ground turkey (93% lean)",
+      "item": "ground turkey or ground chicken",
       "prep": null,
-      "note": null
+      "note": "93% lean; avoid 99% lean"
     },
     {
-      "raw": "3 cloves garlic, minced",
+      "raw": "3 cloves garlic, minced (about 1 tbsp)",
       "qty": 3,
       "qtyMax": null,
       "unit": "clove",
       "item": "garlic",
       "prep": "minced",
-      "note": null
+      "note": "about 1 tbsp"
     },
     {
       "raw": "1 tbsp dried oregano",
@@ -104,22 +104,22 @@
       "note": null
     },
     {
-      "raw": "1 cup red wine",
+      "raw": "1 cup dry red wine (or 1 more 14.5 oz can crushed tomatoes)",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "red wine",
+      "item": "dry red wine",
       "prep": null,
-      "note": null
+      "note": "or 1 more 14.5 oz can crushed tomatoes"
     },
     {
-      "raw": "1 can crushed tomatoes",
+      "raw": "1 (14.5 oz) can crushed tomatoes",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
       "item": "crushed tomatoes",
       "prep": null,
-      "note": null
+      "note": "14.5 oz"
     },
     {
       "raw": "3 tbsp tomato paste",
@@ -149,7 +149,7 @@
       "note": null
     },
     {
-      "raw": "Parmesan, basil, parsley for serving",
+      "raw": "Freshly grated Parmesan, chopped fresh basil, and/or chopped fresh parsley, for serving",
       "qty": null,
       "qtyMax": null,
       "unit": null,

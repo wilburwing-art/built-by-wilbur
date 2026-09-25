@@ -23,7 +23,7 @@
   },
   "ingredients": [
     {
-      "raw": "Dough: 2/3 cup cream, 1 cup milk, 1 egg, 1/3 cup sugar, 1/2 cup cake flour, 3 1/2 cups bread flour, 1 tbsp yeast, 1 1/2 tsp salt",
+      "raw": "Dough:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -32,7 +32,79 @@
       "note": null
     },
     {
-      "raw": "Filling: oil, shallots, sugar, soy sauces, oyster sauce, sesame oil, chicken stock, flour, 2 cups char siu pork",
+      "raw": "2/3 cup heavy cream, at room temperature",
+      "qty": 0.6666666666666666,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "heavy cream",
+      "prep": "at room temperature",
+      "note": null
+    },
+    {
+      "raw": "1 cup whole milk, at room temperature",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "whole milk",
+      "prep": "at room temperature",
+      "note": null
+    },
+    {
+      "raw": "1 large egg, at room temperature",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg",
+      "prep": "at room temperature",
+      "note": null
+    },
+    {
+      "raw": "1/3 cup granulated sugar",
+      "qty": 0.3333333333333333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup cake flour (or 1/2 cup all-purpose flour sifted with 1 tbsp cornstarch)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cake flour",
+      "prep": null,
+      "note": "or 1/2 cup all-purpose flour sifted with 1 tbsp cornstarch"
+    },
+    {
+      "raw": "3 1/2 cups bread flour",
+      "qty": 3.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "bread flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp active dry yeast (or instant yeast)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "active dry yeast",
+      "prep": null,
+      "note": "or instant yeast"
+    },
+    {
+      "raw": "1 1/2 tsp salt",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Filling:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -41,13 +113,130 @@
       "note": null
     },
     {
-      "raw": "Egg wash, sesame seeds, sugar syrup",
+      "raw": "2 tbsp vegetable oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup shallots, finely chopped (or yellow onion)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shallots",
+      "prep": "finely chopped",
+      "note": "or yellow onion"
+    },
+    {
+      "raw": "2 tbsp granulated sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp light soy sauce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "light soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp oyster sauce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "oyster sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tsp sesame oil",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp dark soy sauce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dark soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 cup chicken stock",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chicken stock",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp all-purpose flour",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups Chinese roast pork (char siu), finely diced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Chinese roast pork",
+      "prep": "finely diced",
+      "note": "char siu"
+    },
+    {
+      "raw": "To finish:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
       "item": null,
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1 large egg, beaten with 1 tbsp water (egg wash)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg",
+      "prep": "beaten with 1 tbsp water",
+      "note": "egg wash"
+    },
+    {
+      "raw": "1 tbsp sesame seeds (optional)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sesame seeds",
+      "prep": null,
+      "note": "optional"
+    },
+    {
+      "raw": "1 tbsp granulated sugar, dissolved in 1 tbsp boiling water (glaze)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "granulated sugar",
+      "prep": "dissolved in 1 tbsp boiling water",
+      "note": "glaze"
     }
   ],
   "steps": [

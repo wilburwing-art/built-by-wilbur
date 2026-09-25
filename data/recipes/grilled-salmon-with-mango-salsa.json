@@ -29,7 +29,7 @@
       "unit": null,
       "item": "salmon fillets",
       "prep": null,
-      "note": "(6 oz)"
+      "note": "6 oz"
     },
     {
       "raw": "1 tsp garlic powder",
@@ -50,11 +50,20 @@
       "note": null
     },
     {
-      "raw": "Salt and pepper",
-      "qty": null,
+      "raw": "1/2 tsp salt",
+      "qty": 0.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
       "prep": null,
       "note": null
     },
@@ -68,12 +77,57 @@
       "note": null
     },
     {
-      "raw": "Salsa: 2-3 mangoes diced, 1/2 red pepper, 1/2 red onion, 1 jalapeno, 1/4 cup cilantro",
+      "raw": "Mango salsa:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
       "item": null,
       "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2-3 mangoes, diced",
+      "qty": 2,
+      "qtyMax": 3,
+      "unit": null,
+      "item": "mangoes",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1/2 red bell pepper, diced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red bell pepper",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1/2 red onion, diced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red onion",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1 small jalapeño, seeded and finely chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small jalapeño",
+      "prep": "seeded and finely chopped",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup packed cilantro leaves, roughly chopped",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "packed cilantro leaves",
+      "prep": "roughly chopped",
       "note": null
     }
   ],

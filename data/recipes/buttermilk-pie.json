@@ -41,20 +41,20 @@
       "note": null
     },
     {
-      "raw": "1 1/2 cups sugar",
+      "raw": "1 1/2 cups granulated sugar",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "sugar",
+      "item": "granulated sugar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "3 tbsp flour",
+      "raw": "3 tbsp all-purpose flour",
       "qty": 3,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "flour",
+      "item": "all-purpose flour",
       "prep": null,
       "note": null
     },

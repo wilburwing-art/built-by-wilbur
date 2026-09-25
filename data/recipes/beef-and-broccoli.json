@@ -23,34 +23,43 @@
   },
   "ingredients": [
     {
-      "raw": "1 lb flank steak, thinly sliced",
+      "raw": "1 lb flank steak, very thinly sliced into bite-sized strips",
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
       "item": "flank steak",
-      "prep": "thinly sliced",
+      "prep": "very thinly sliced into bite-sized strips",
       "note": null
     },
     {
-      "raw": "2 tbsp oil, divided",
+      "raw": "2 tbsp olive oil (or vegetable oil), divided",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "oil",
+      "item": "olive oil",
       "prep": "divided",
-      "note": null
+      "note": "or vegetable oil"
     },
     {
-      "raw": "1 lb broccoli florets",
+      "raw": "1 lb broccoli, cut into about 6 cups of florets",
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
-      "item": "broccoli florets",
-      "prep": null,
+      "item": "broccoli",
+      "prep": "cut into about 6 cups of florets",
       "note": null
     },
     {
-      "raw": "Sauce: 1 tsp grated ginger, 2 tsp garlic, 1/2 cup hot water, 6 tbsp soy sauce, 3 tbsp brown sugar, 1 1/2 tbsp cornstarch, 1/4 tsp black pepper, 2 tbsp sesame oil",
+      "raw": "2 tsp sesame seeds, for garnish (optional)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sesame seeds",
+      "prep": "for garnish",
+      "note": "optional"
+    },
+    {
+      "raw": "Stir fry sauce:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -59,11 +68,74 @@
       "note": null
     },
     {
-      "raw": "Sesame seeds for garnish",
-      "qty": null,
+      "raw": "1 tsp fresh ginger, grated",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "fresh ginger",
+      "prep": "grated",
+      "note": null
+    },
+    {
+      "raw": "2 tsp garlic, grated (from 3 cloves)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic",
+      "prep": "grated",
+      "note": "from 3 cloves"
+    },
+    {
+      "raw": "1/2 cup hot water",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "hot water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 tbsp low-sodium soy sauce (or gluten-free tamari)",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "low-sodium soy sauce",
+      "prep": null,
+      "note": "or gluten-free tamari"
+    },
+    {
+      "raw": "3 tbsp packed light brown sugar",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "packed light brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tbsp cornstarch",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp ground black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp sesame oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sesame oil",
       "prep": null,
       "note": null
     }

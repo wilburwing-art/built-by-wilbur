@@ -23,6 +23,15 @@
   },
   "ingredients": [
     {
+      "raw": "Turkey burgers:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
       "raw": "1 lb ground turkey",
       "qty": 1,
       "qtyMax": null,
@@ -32,49 +41,49 @@
       "note": null
     },
     {
-      "raw": "3 tbsp finely diced shallot",
+      "raw": "3 tbsp shallot, very finely diced (or red onion)",
       "qty": 3,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "finely diced shallot",
-      "prep": null,
-      "note": null
+      "item": "shallot",
+      "prep": "very finely diced",
+      "note": "or red onion"
     },
     {
-      "raw": "1 1/2 tsp fresh ginger",
+      "raw": "1 1/2 tsp fresh ginger, grated or chopped",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "tsp",
       "item": "fresh ginger",
-      "prep": null,
+      "prep": "grated or chopped",
       "note": null
     },
     {
-      "raw": "2 garlic cloves, minced",
+      "raw": "2 garlic cloves, finely minced (or 1 tsp granulated garlic)",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
       "item": "garlic cloves",
-      "prep": "minced",
-      "note": null
+      "prep": "finely minced",
+      "note": "or 1 tsp granulated garlic"
     },
     {
-      "raw": "1 tbsp chopped lemongrass",
+      "raw": "1 tbsp finely chopped lemongrass",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "chopped lemongrass",
+      "item": "finely chopped lemongrass",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 tbsp chopped Thai basil",
+      "raw": "2 tbsp chopped Thai basil (or regular basil, cilantro, or mint)",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "chopped Thai basil",
       "prep": null,
-      "note": null
+      "note": "or regular basil, cilantro, or mint"
     },
     {
       "raw": "1 tsp lime zest",
@@ -95,34 +104,43 @@
       "note": null
     },
     {
-      "raw": "1/2 jalapeno, seeded, finely chopped",
+      "raw": "1/2-1 jalapeño, seeded, finely chopped (or 1 tbsp sriracha)",
       "qty": 0.5,
-      "qtyMax": null,
+      "qtyMax": 1,
       "unit": null,
-      "item": "jalapeno",
+      "item": "jalapeño",
       "prep": "seeded, finely chopped",
-      "note": null
+      "note": "or 1 tbsp sriracha"
     },
     {
-      "raw": "1 tbsp fish sauce",
+      "raw": "1 tbsp fish sauce (or soy sauce)",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "fish sauce",
       "prep": null,
-      "note": null
+      "note": "or soy sauce"
     },
     {
-      "raw": "1 tsp sugar",
+      "raw": "1 tsp granulated sugar",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "sugar",
+      "item": "granulated sugar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Slaw: 1 cup grated carrots, 1 cup shredded purple cabbage, 1 scallion, 2 tbsp lime juice, 1 tbsp olive oil, 1 tsp sugar",
+      "raw": "1/4 tsp white pepper (optional)",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "white pepper",
+      "prep": null,
+      "note": "optional"
+    },
+    {
+      "raw": "Crunchy Asian slaw:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -131,7 +149,97 @@
       "note": null
     },
     {
-      "raw": "Aioli: 1/4 cup mayo, 1-2 tbsp sriracha",
+      "raw": "1 cup grated carrots",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "grated carrots",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded purple cabbage",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded purple cabbage",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 scallion, thinly sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "scallion",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp lime juice (or rice wine vinegar)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lime juice",
+      "prep": null,
+      "note": "or rice wine vinegar"
+    },
+    {
+      "raw": "1 tbsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp granulated sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp each salt and black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "each salt and black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Spicy aioli:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup mayonnaise",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1-2 tbsp sriracha or chili garlic sauce",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "tbsp",
+      "item": "sriracha or chili garlic sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Toasted buns, for serving (optional)",
       "qty": null,
       "qtyMax": null,
       "unit": null,

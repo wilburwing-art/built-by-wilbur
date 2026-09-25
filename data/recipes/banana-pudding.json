@@ -32,57 +32,57 @@
       "note": null
     },
     {
-      "raw": "1 pkg instant vanilla pudding",
+      "raw": "1 (5 oz) package instant vanilla pudding mix",
       "qty": 1,
       "qtyMax": null,
       "unit": "package",
-      "item": "instant vanilla pudding",
+      "item": "instant vanilla pudding mix",
       "prep": null,
-      "note": null
+      "note": "5 oz"
     },
     {
-      "raw": "1 can sweetened condensed milk",
+      "raw": "1 (14 oz) can sweetened condensed milk",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
       "item": "sweetened condensed milk",
       "prep": null,
-      "note": null
+      "note": "14 oz"
     },
     {
-      "raw": "1 tbsp vanilla",
+      "raw": "1 tbsp vanilla extract",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "vanilla",
+      "item": "vanilla extract",
       "prep": null,
       "note": null
     },
     {
-      "raw": "12 oz whipped topping",
-      "qty": 12,
+      "raw": "1 (12 oz) container frozen whipped topping, thawed",
+      "qty": 1,
       "qtyMax": null,
-      "unit": "oz",
-      "item": "whipped topping",
-      "prep": null,
-      "note": null
+      "unit": null,
+      "item": "container frozen whipped topping",
+      "prep": "thawed",
+      "note": "12 oz"
     },
     {
-      "raw": "1 pkg vanilla wafers",
+      "raw": "1 (16 oz) package vanilla wafers",
       "qty": 1,
       "qtyMax": null,
       "unit": "package",
       "item": "vanilla wafers",
       "prep": null,
-      "note": null
+      "note": "16 oz"
     },
     {
-      "raw": "Bananas, sliced",
-      "qty": null,
+      "raw": "14 small bananas, sliced",
+      "qty": 14,
       "qtyMax": null,
       "unit": null,
-      "item": null,
-      "prep": null,
+      "item": "small bananas",
+      "prep": "sliced",
       "note": null
     }
   ],

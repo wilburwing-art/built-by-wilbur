@@ -23,13 +23,13 @@
   },
   "ingredients": [
     {
-      "raw": "3/4 cup sugar",
+      "raw": "3/4 cup (150 g) granulated sugar",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "cup",
-      "item": "sugar",
+      "item": "granulated sugar",
       "prep": null,
-      "note": null
+      "note": "150 g"
     },
     {
       "raw": "3 tsp apple pie spice",
@@ -41,40 +41,40 @@
       "note": null
     },
     {
-      "raw": "1 can Pillsbury Grand biscuits",
+      "raw": "1 (8-count) can Pillsbury Grands biscuits, not flaky layers",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
-      "item": "Pillsbury Grand biscuits",
-      "prep": null,
-      "note": null
+      "item": "Pillsbury Grands biscuits",
+      "prep": "not flaky layers",
+      "note": "8-count"
     },
     {
-      "raw": "1 cup apple pie filling",
+      "raw": "1 cup (243 g) apple pie filling, apples cut into small pieces",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
       "item": "apple pie filling",
-      "prep": null,
-      "note": null
+      "prep": "apples cut into small pieces",
+      "note": "243 g"
     },
     {
-      "raw": "1 tsp cinnamon",
+      "raw": "1 tsp ground cinnamon",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "cinnamon",
+      "item": "ground cinnamon",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 cup melted butter",
+      "raw": "1/2 cup (1 stick) unsalted butter, melted",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "melted butter",
-      "prep": null,
-      "note": null
+      "item": "unsalted butter",
+      "prep": "melted",
+      "note": "1 stick"
     }
   ],
   "steps": [

@@ -23,7 +23,7 @@
   },
   "ingredients": [
     {
-      "raw": "Sugar Cookies",
+      "raw": "Sugar cookies:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -95,7 +95,7 @@
       "note": null
     },
     {
-      "raw": "Sweet Almond Icing",
+      "raw": "Sweet almond icing:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -104,12 +104,12 @@
       "note": null
     },
     {
-      "raw": "1/2 cup salted butter softened",
+      "raw": "1/2 cup salted butter, softened",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "salted butter softened",
-      "prep": null,
+      "item": "salted butter",
+      "prep": "softened",
       "note": null
     },
     {
@@ -140,7 +140,7 @@
       "note": null
     },
     {
-      "raw": "neon pink food coloring optional",
+      "raw": "Neon pink food coloring (optional)",
       "qty": null,
       "qtyMax": null,
       "unit": null,

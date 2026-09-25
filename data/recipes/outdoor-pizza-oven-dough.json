@@ -23,43 +23,43 @@
   },
   "ingredients": [
     {
-      "raw": "535g flour",
+      "raw": "535 g high-protein all-purpose flour, such as King Arthur",
       "qty": 535,
       "qtyMax": null,
       "unit": "g",
-      "item": "flour",
-      "prep": null,
+      "item": "high-protein all-purpose flour",
+      "prep": "such as King Arthur",
       "note": null
     },
     {
-      "raw": "2g instant dry yeast",
+      "raw": "2 g instant dry yeast, such as SAF",
       "qty": 2,
       "qtyMax": null,
       "unit": "g",
       "item": "instant dry yeast",
-      "prep": null,
+      "prep": "such as SAF",
       "note": null
     },
     {
-      "raw": "360g water at 40°F",
+      "raw": "360 g water, at 40°F",
       "qty": 360,
       "qtyMax": null,
       "unit": "g",
-      "item": "water at 40°F",
-      "prep": null,
+      "item": "water",
+      "prep": "at 40°F",
       "note": null
     },
     {
-      "raw": "12g kosher salt",
+      "raw": "12 g Diamond Crystal kosher salt",
       "qty": 12,
       "qtyMax": null,
       "unit": "g",
-      "item": "kosher salt",
+      "item": "Diamond Crystal kosher salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Olive oil",
+      "raw": "Extra-virgin olive oil, for oiling proofing containers and dough balls",
       "qty": null,
       "qtyMax": null,
       "unit": null,

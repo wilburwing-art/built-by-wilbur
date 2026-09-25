@@ -9,12 +9,12 @@
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/19673/seven-layer-taco-dip/",
+    "site": "Allrecipes",
+    "title": "Seven-Layer Taco Dip",
+    "matchType": "closest",
+    "evidence": "Every quantity on the site (8 oz cream cheese, 16 oz sour cream, 2 cups cheddar) and all 11 ingredients match the page's recipeIngredient list.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
     "count": null,
@@ -23,47 +23,101 @@
   },
   "ingredients": [
     {
-      "raw": "1 packet taco seasoning",
-      "qty": 1,
-      "qtyMax": null,
-      "unit": "packet",
-      "item": "taco seasoning",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1 can refried beans",
+      "raw": "1 (16 oz) can refried beans",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
       "item": "refried beans",
       "prep": null,
-      "note": null
+      "note": "16 oz"
     },
     {
-      "raw": "8 oz cream cheese",
-      "qty": 8,
+      "raw": "1 (1 oz) packet taco seasoning mix",
+      "qty": 1,
       "qtyMax": null,
-      "unit": "oz",
+      "unit": "packet",
+      "item": "taco seasoning mix",
+      "prep": null,
+      "note": "1 oz"
+    },
+    {
+      "raw": "1 (8 oz) package cream cheese, softened",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "package",
       "item": "cream cheese",
-      "prep": null,
-      "note": null
+      "prep": "softened",
+      "note": "8 oz"
     },
     {
-      "raw": "16 oz sour cream",
-      "qty": 16,
-      "qtyMax": null,
-      "unit": "oz",
-      "item": "sour cream",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "Salsa, tomato, green pepper, green onions, lettuce, black olives, 2 cups cheddar",
-      "qty": null,
+      "raw": "1 (16 oz) container sour cream",
+      "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": null,
+      "item": "container sour cream",
+      "prep": null,
+      "note": "16 oz"
+    },
+    {
+      "raw": "1 (16 oz) jar salsa",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "jar",
+      "item": "salsa",
+      "prep": null,
+      "note": "16 oz"
+    },
+    {
+      "raw": "1 large tomato, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large tomato",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 medium green bell pepper, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium green bell pepper",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 bunch green onions, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "bunch",
+      "item": "green onions",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 small head iceberg lettuce, shredded",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small head iceberg lettuce",
+      "prep": "shredded",
+      "note": null
+    },
+    {
+      "raw": "1 (6 oz) can sliced black olives, drained",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "sliced black olives",
+      "prep": "drained",
+      "note": "6 oz"
+    },
+    {
+      "raw": "2 cups shredded Cheddar cheese",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded Cheddar cheese",
       "prep": null,
       "note": null
     }

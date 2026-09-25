@@ -23,16 +23,16 @@
   },
   "ingredients": [
     {
-      "raw": "3-4 lbs boneless chuck roast",
+      "raw": "3-4 lbs boneless chuck roast, excess fat trimmed",
       "qty": 3,
       "qtyMax": 4,
       "unit": "lb",
       "item": "boneless chuck roast",
-      "prep": null,
+      "prep": "excess fat trimmed",
       "note": null
     },
     {
-      "raw": "Kosher salt, black pepper",
+      "raw": "Kosher salt and ground black pepper, to season generously",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -41,7 +41,7 @@
       "note": null
     },
     {
-      "raw": "Olive oil",
+      "raw": "Olive oil, for searing",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -59,57 +59,57 @@
       "note": null
     },
     {
-      "raw": "4 large yellow onions, sliced",
+      "raw": "4 large yellow onions, thinly sliced",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
       "item": "large yellow onions",
-      "prep": "sliced",
+      "prep": "thinly sliced",
       "note": null
     },
     {
-      "raw": "6 cloves garlic, minced",
+      "raw": "6 cloves fresh garlic, minced",
       "qty": 6,
       "qtyMax": null,
       "unit": "clove",
-      "item": "garlic",
+      "item": "fresh garlic",
       "prep": "minced",
       "note": null
     },
     {
-      "raw": "3/4 cup dry white wine",
+      "raw": "3/4 cup dry white wine (Sauvignon Blanc or Pinot Grigio)",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "cup",
       "item": "dry white wine",
       "prep": null,
-      "note": null
+      "note": "Sauvignon Blanc or Pinot Grigio"
     },
     {
-      "raw": "1 tbsp flour",
+      "raw": "1 tbsp all-purpose flour",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "flour",
+      "item": "all-purpose flour",
       "prep": null,
       "note": null
     },
     {
-      "raw": "3 cups beef broth",
+      "raw": "3 cups beef broth, plus more as needed",
       "qty": 3,
       "qtyMax": null,
       "unit": "cup",
       "item": "beef broth",
-      "prep": null,
+      "prep": "plus more as needed",
       "note": null
     },
     {
-      "raw": "2 tbsp Worcestershire sauce",
+      "raw": "2 tbsp Worcestershire sauce, plus more to taste",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "Worcestershire sauce",
-      "prep": null,
+      "prep": "plus more to taste",
       "note": null
     },
     {
@@ -122,25 +122,34 @@
       "note": null
     },
     {
-      "raw": "2 sprigs rosemary, 4 sprigs thyme",
+      "raw": "2 sprigs fresh rosemary",
       "qty": 2,
       "qtyMax": null,
       "unit": "sprig",
-      "item": "rosemary, 4 sprigs thyme",
+      "item": "fresh rosemary",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 cup shredded Gruyere",
+      "raw": "4 sprigs fresh thyme",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "sprig",
+      "item": "fresh thyme",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup freshly shredded Gruyere cheese",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "shredded Gruyere",
+      "item": "freshly shredded Gruyere cheese",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Sliced baguette",
+      "raw": "Sliced baguette, for serving",
       "qty": null,
       "qtyMax": null,
       "unit": null,

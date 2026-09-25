@@ -23,22 +23,22 @@
   },
   "ingredients": [
     {
-      "raw": "1 cup butter",
+      "raw": "1 cup (2 sticks) butter, room temperature, salted or unsalted",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
       "item": "butter",
-      "prep": null,
-      "note": null
+      "prep": "room temperature, salted or unsalted",
+      "note": "2 sticks"
     },
     {
-      "raw": "1 1/4 cups brown sugar",
+      "raw": "1 1/4 cups packed light brown sugar (1 cup at high altitude)",
       "qty": 1.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "brown sugar",
+      "item": "packed light brown sugar",
       "prep": null,
-      "note": null
+      "note": "1 cup at high altitude"
     },
     {
       "raw": "1/2 cup granulated sugar",
@@ -50,31 +50,31 @@
       "note": null
     },
     {
-      "raw": "2 eggs",
+      "raw": "2 large eggs, room temperature",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "eggs",
-      "prep": null,
+      "item": "large eggs",
+      "prep": "room temperature",
       "note": null
     },
     {
-      "raw": "1 tbsp vanilla",
+      "raw": "1 tbsp vanilla extract",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "vanilla",
+      "item": "vanilla extract",
       "prep": null,
       "note": null
     },
     {
-      "raw": "3 cups flour",
+      "raw": "3 cups unbleached all-purpose flour (add 2 tbsp at high altitude)",
       "qty": 3,
       "qtyMax": null,
       "unit": "cup",
-      "item": "flour",
+      "item": "unbleached all-purpose flour",
       "prep": null,
-      "note": null
+      "note": "add 2 tbsp at high altitude"
     },
     {
       "raw": "2 tsp cornstarch",
@@ -95,22 +95,22 @@
       "note": null
     },
     {
-      "raw": "1 1/4 tsp salt",
+      "raw": "1 1/4 tsp kosher salt (add 1/4 tsp if using unsalted butter)",
       "qty": 1.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "kosher salt",
       "prep": null,
-      "note": null
+      "note": "add 1/4 tsp if using unsalted butter"
     },
     {
-      "raw": "2-3 cups milk chocolate chips",
+      "raw": "2-3 cups milk chocolate chips (about 1 1/2 bags of 11.5 oz Ghirardelli)",
       "qty": 2,
       "qtyMax": 3,
       "unit": "cup",
       "item": "milk chocolate chips",
       "prep": null,
-      "note": null
+      "note": "about 1 1/2 bags of 11.5 oz Ghirardelli"
     }
   ],
   "steps": [

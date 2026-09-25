@@ -23,39 +23,39 @@
   },
   "ingredients": [
     {
-      "raw": "2 cans green beans",
+      "raw": "2 (15 oz) cans cut green beans, drained",
       "qty": 2,
       "qtyMax": null,
       "unit": "can",
-      "item": "green beans",
-      "prep": null,
-      "note": null
+      "item": "cut green beans",
+      "prep": "drained",
+      "note": "15 oz"
     },
     {
-      "raw": "1 can cream of mushroom soup",
+      "raw": "1 (10.5 oz) can condensed cream of mushroom soup",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
-      "item": "cream of mushroom soup",
+      "item": "condensed cream of mushroom soup",
       "prep": null,
-      "note": null
+      "note": "10.5 oz"
     },
     {
-      "raw": "1 can French fried onions",
+      "raw": "1 (2.8 oz) can French fried onions",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
       "item": "French fried onions",
       "prep": null,
-      "note": null
+      "note": "2.8 oz"
     },
     {
-      "raw": "1 cup shredded cheddar",
+      "raw": "1 cup shredded cheddar cheese, divided",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "shredded cheddar",
-      "prep": null,
+      "item": "shredded cheddar cheese",
+      "prep": "divided",
       "note": null
     }
   ],

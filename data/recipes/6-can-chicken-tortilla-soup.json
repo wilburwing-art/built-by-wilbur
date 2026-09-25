@@ -23,52 +23,97 @@
   },
   "ingredients": [
     {
-      "raw": "1 can corn",
+      "raw": "1 (15 oz) can whole kernel corn, drained",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
-      "item": "corn",
-      "prep": null,
-      "note": null
+      "item": "whole kernel corn",
+      "prep": "drained",
+      "note": "15 oz"
     },
     {
-      "raw": "2 cans chicken broth",
+      "raw": "2 (14.5 oz) cans chicken broth",
       "qty": 2,
       "qtyMax": null,
       "unit": "can",
       "item": "chicken broth",
       "prep": null,
-      "note": null
+      "note": "14.5 oz"
     },
     {
-      "raw": "1 can chunk chicken",
+      "raw": "1 (10 oz) can chunk chicken",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
       "item": "chunk chicken",
       "prep": null,
-      "note": null
+      "note": "10 oz"
     },
     {
-      "raw": "1 can black beans",
+      "raw": "1 (15 oz) can black beans",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
       "item": "black beans",
       "prep": null,
-      "note": null
+      "note": "15 oz"
     },
     {
-      "raw": "1 can diced tomatoes with green chiles",
+      "raw": "1 (10 oz) can diced tomatoes with green chile peppers, drained",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
-      "item": "diced tomatoes with green chiles",
+      "item": "diced tomatoes with green chile peppers",
+      "prep": "drained",
+      "note": "10 oz"
+    },
+    {
+      "raw": "Ground cumin, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     },
     {
-      "raw": "Cilantro, sour cream, cumin, chili powder, taco seasoning",
+      "raw": "Chili powder, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Taco seasoning, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Fresh cilantro, for serving",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sour cream, for serving",
       "qty": null,
       "qtyMax": null,
       "unit": null,

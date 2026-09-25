@@ -9,12 +9,12 @@
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/20334/banana-pancakes-i/",
+    "site": "Allrecipes",
+    "title": "Banana Pancakes I",
+    "matchType": "closest",
+    "evidence": "All 8 ingredients and quantities match the page's recipeIngredient list; the page specifies white sugar.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
     "count": null,
@@ -32,11 +32,11 @@
       "note": null
     },
     {
-      "raw": "1 tbsp sugar",
+      "raw": "1 tbsp white sugar",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "sugar",
+      "item": "white sugar",
       "prep": null,
       "note": null
     },

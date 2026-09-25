@@ -104,38 +104,101 @@
       "note": null
     },
     {
-      "raw": "1 tbsp olive oil",
+      "raw": "1 tbsp extra virgin olive oil",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
+      "item": "extra virgin olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 dash sea salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "dash",
+      "item": "sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp fresh cilantro (optional)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh cilantro",
+      "prep": null,
+      "note": "optional"
+    },
+    {
+      "raw": "Pita bread, for serving (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Harissa vinaigrette:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup harissa (Trader Joe's)",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "harissa",
+      "prep": null,
+      "note": "Trader Joe's"
+    },
+    {
+      "raw": "2 tbsp red wine vinegar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "red wine vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup olive oil",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
       "item": "olive oil",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Sea salt",
-      "qty": null,
+      "raw": "1/4 cup water",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "cup",
+      "item": "water",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Fresh cilantro",
-      "qty": null,
+      "raw": "2 garlic cloves",
+      "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": null,
+      "item": "garlic cloves",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Vinaigrette: 1/4 cup harissa, 2 tbsp red wine vinegar, 1/4 cup olive oil, 1/4 cup water, 2 garlic cloves, 1/2 tbsp + 1 tsp honey, salt",
-      "qty": null,
+      "raw": "1/2 tbsp plus 1 tsp honey",
+      "qty": 0.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tbsp",
+      "item": "plus 1 tsp honey",
       "prep": null,
       "note": null
     }

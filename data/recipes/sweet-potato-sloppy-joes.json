@@ -23,30 +23,30 @@
   },
   "ingredients": [
     {
-      "raw": "4 sweet potatoes",
+      "raw": "4 medium sweet potatoes",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
-      "item": "sweet potatoes",
+      "item": "medium sweet potatoes",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tbsp ghee",
+      "raw": "1 tbsp ghee or olive oil",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "ghee",
+      "item": "ghee or olive oil",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 yellow onion",
+      "raw": "1 yellow onion, diced",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "yellow onion",
-      "prep": null,
+      "prep": "diced",
       "note": null
     },
     {
@@ -59,20 +59,29 @@
       "note": null
     },
     {
-      "raw": "1 red bell pepper",
+      "raw": "1 red or green bell pepper",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "red bell pepper",
+      "item": "red or green bell pepper",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Salt, pepper",
-      "qty": null,
+      "raw": "2 tsp sea salt",
+      "qty": 2,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
       "prep": null,
       "note": null
     },
@@ -86,20 +95,20 @@
       "note": null
     },
     {
-      "raw": "6 oz tomato paste",
-      "qty": 6,
+      "raw": "1 (6 oz) can tomato paste",
+      "qty": 1,
       "qtyMax": null,
-      "unit": "oz",
+      "unit": "can",
       "item": "tomato paste",
       "prep": null,
-      "note": null
+      "note": "6 oz"
     },
     {
-      "raw": "2 tbsp coconut aminos",
+      "raw": "2 tbsp coconut aminos or soy sauce",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "coconut aminos",
+      "item": "coconut aminos or soy sauce",
       "prep": null,
       "note": null
     },
@@ -113,12 +122,12 @@
       "note": null
     },
     {
-      "raw": "Scallion",
-      "qty": null,
+      "raw": "1 medium scallion, for garnish",
+      "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": null,
-      "prep": null,
+      "item": "medium scallion",
+      "prep": "for garnish",
       "note": null
     }
   ],

@@ -23,7 +23,7 @@
   },
   "ingredients": [
     {
-      "raw": "Oreo Cookie Base",
+      "raw": "Oreo cookie base:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -32,11 +32,11 @@
       "note": null
     },
     {
-      "raw": "1 1/2 cups butter salted",
+      "raw": "1 1/2 cups salted butter",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "butter salted",
+      "item": "salted butter",
       "prep": null,
       "note": null
     },
@@ -95,13 +95,13 @@
       "note": null
     },
     {
-      "raw": "2 1/2 cups crushed oreos 40 oreos, crushed",
+      "raw": "2 1/2 cups crushed Oreos (about 40 Oreos)",
       "qty": 2.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "crushed oreos 40 oreos",
-      "prep": "crushed",
-      "note": null
+      "item": "crushed Oreos",
+      "prep": null,
+      "note": "about 40 Oreos"
     },
     {
       "raw": "2 tsp baking soda",
@@ -131,7 +131,7 @@
       "note": null
     },
     {
-      "raw": "Cream Cheese Frosting",
+      "raw": "Cream cheese frosting:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -140,21 +140,21 @@
       "note": null
     },
     {
-      "raw": "1/4 cup salted butter softened",
+      "raw": "1/4 cup salted butter, softened",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "salted butter softened",
-      "prep": null,
+      "item": "salted butter",
+      "prep": "softened",
       "note": null
     },
     {
-      "raw": "8 oz cream cheese rooomm temperature",
+      "raw": "8 oz cream cheese, room temperature",
       "qty": 8,
       "qtyMax": null,
       "unit": "oz",
-      "item": "cream cheese rooomm temperature",
-      "prep": null,
+      "item": "cream cheese",
+      "prep": "room temperature",
       "note": null
     },
     {
@@ -176,7 +176,7 @@
       "note": null
     },
     {
-      "raw": "milk to thin, if needed",
+      "raw": "Milk, to thin if needed",
       "qty": null,
       "qtyMax": null,
       "unit": null,
