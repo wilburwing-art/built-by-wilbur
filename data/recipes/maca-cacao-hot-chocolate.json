@@ -84,6 +84,15 @@
       "item": "sea salt",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "Coconut whipped cream and shaved dark chocolate, for topping (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
     }
   ],
   "steps": [

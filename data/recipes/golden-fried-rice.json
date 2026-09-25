@@ -41,13 +41,13 @@
       "note": null
     },
     {
-      "raw": "1/2 teaspoon sea salt (or to tatse)",
+      "raw": "1/2 teaspoon sea salt (or to taste)",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "sea salt (or to tatse)",
+      "item": "sea salt",
       "prep": null,
-      "note": null
+      "note": "or to taste"
     },
     {
       "raw": "1 teaspoon Shaoxing wine (or dry cooking sherry)",

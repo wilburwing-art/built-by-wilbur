@@ -120,6 +120,24 @@
       "item": "granulated sugar",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup water",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null
     }
   ],
   "steps": [

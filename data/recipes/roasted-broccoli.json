@@ -41,13 +41,13 @@
       "note": null
     },
     {
-      "raw": "Good olive oil or for Keto - butter flavor coconut oil",
-      "qty": null,
+      "raw": "6 1/2 tbsp good olive oil, divided (or butter-flavor coconut oil for keto)",
+      "qty": 6.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
+      "unit": "tbsp",
+      "item": "good olive oil",
+      "prep": "divided",
+      "note": "or butter-flavor coconut oil for keto"
     },
     {
       "raw": "1½ teaspoons kosher salt",

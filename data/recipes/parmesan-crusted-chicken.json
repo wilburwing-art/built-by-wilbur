@@ -129,6 +129,15 @@
       "item": "butter",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
     }
   ],
   "steps": [

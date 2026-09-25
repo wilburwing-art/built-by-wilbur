@@ -93,12 +93,31 @@
       "item": "hot sauce",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1 tbsp vegetable oil, divided",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
     }
   ],
   "steps": [
     "Slice green pepper into strips. Cook in oil over medium-high heat 3-4 min.",
     "Add steak, Southwest spice, salt, and pepper. Cook until browned, 2-3 min. Remove from pan.",
     "Sprinkle pepper jack on one half of each tortilla. Top with steak mixture and Mexican cheese. Fold in half.",
-    "Cook quesadillas in oiled pan over medium heat, 3-4 min per side until golden and cheese is melted."
+    "Cook quesadillas in oiled pan over medium heat, 3-4 min per side until golden and cheese is melted.",
+    "Stir the hot sauce into the smoky red pepper crema and serve with the quesadillas."
   ]
 }

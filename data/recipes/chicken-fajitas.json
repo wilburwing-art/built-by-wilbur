@@ -120,6 +120,15 @@
       "item": null,
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "8 small flour tortillas, warmed",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small flour tortillas",
+      "prep": "warmed",
+      "note": null
     }
   ],
   "steps": [

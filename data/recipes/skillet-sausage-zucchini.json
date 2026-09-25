@@ -129,11 +129,20 @@
       "item": "minced garlic",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "Fresh basil, for garnish (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
     }
   ],
   "steps": [
-    "Brown sausage in 1 tbsp oil. Remove.",
-    "Cook zucchini, onion, and pepper with spices 5-10 min.",
-    "Add sausage back with garlic. Cover 1-2 min. Garnish with fresh basil."
+    "Brown sausage in 1 tbsp of the oil. Remove.",
+    "Add the remaining oil. Cook zucchini, onion, and pepper with the salt, oregano, basil, garlic powder, onion powder, and pepper until tender, 5-10 min.",
+    "Add sausage back with garlic. Cover 1-2 min. Garnish with fresh basil if you like."
   ]
 }

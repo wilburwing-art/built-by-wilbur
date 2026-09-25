@@ -23,6 +23,15 @@
   },
   "ingredients": [
     {
+      "raw": "1 tbsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
       "raw": "1 yellow onion, diced",
       "qty": 1,
       "qtyMax": null,
@@ -150,9 +159,9 @@
     }
   ],
   "steps": [
-    "Saute chopped onion and garlic until translucent. Add carrots and celery, cook 5 min.",
-    "Add chicken and broth with herbs. Boil, then simmer covered 10-12 min.",
-    "Remove and shred chicken. Add orzo, cook 10 min.",
-    "Return chicken, add peas, lemon juice. Season and serve with parsley."
+    "Sauté the onion and garlic in the olive oil until translucent. Add the carrots and celery and cook 5 minutes.",
+    "Add the chicken, broth, rosemary, thyme, and sage. Bring to a boil, then cover and simmer on low 10-12 minutes until the chicken reaches 165°F.",
+    "Remove the chicken and shred it. Add the orzo and cook about 10 minutes until al dente.",
+    "Return the chicken, add the peas, and remove the herb stems. Stir in the lemon juice, season with salt and pepper, and serve topped with parsley."
   ]
 }

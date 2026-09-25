@@ -293,11 +293,11 @@
       "note": null
     },
     {
-      "raw": "1 pita chips (optional)",
-      "qty": 1,
+      "raw": "Pita chips, for serving (optional)",
+      "qty": null,
       "qtyMax": null,
       "unit": null,
-      "item": "pita chips (optional)",
+      "item": null,
       "prep": null,
       "note": null
     }

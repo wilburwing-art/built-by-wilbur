@@ -111,14 +111,41 @@
       "item": "sour cream",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil, divided",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp butter",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
     }
   ],
   "steps": [
-    "Preheat oven to 475°F. Dice poblano, tomato. Slice scallions. Drain beans, reserve liquid.",
-    "Saute poblano until softened. Add tomato, scallion whites, half the beans, bean liquid, and spice.",
-    "Mash remaining beans with oil, bean liquid, and butter until smooth.",
+    "Preheat oven to 475°F. Dice poblano, tomato. Slice scallions. Drain beans, reserving the liquid. Thinly slice the chili. Set aside 1/2 tsp of the Southwest spice for the crema.",
+    "Sauté poblano in half the oil until softened. Add tomato, scallion whites, half the beans, bean liquid, and the remaining spice.",
+    "Cook the remaining beans in the rest of the oil 2-3 min, add 3 tbsp bean liquid, then stir in the butter and mash until smooth.",
     "Spread tortillas with mashed beans and filling. Roll up, place seam-down in baking dish.",
     "Top with salsa and cheese. Bake on top rack 3-5 minutes until bubbly.",
-    "Mix sour cream with reserved spice and warm water for crema. Drizzle over enchiladas."
+    "Mix sour cream with reserved spice and warm water for crema. Drizzle over enchiladas and top with scallion greens and chili."
   ]
 }

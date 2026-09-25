@@ -102,12 +102,21 @@
       "item": "Monterey Jack",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
     }
   ],
   "steps": [
     "Preheat oven to 450°F. Pickle 1/4 of onion in pineapple juice and vinegar.",
-    "Cook remaining onion until softened. Add pineapple, cook until caramelized.",
-    "Brush flatbreads with oil. Top with BBQ sauce, caramelized mixture, poblano strips, and cheeses.",
+    "Cook remaining onion in a drizzle of the oil until softened. Add pineapple, cook until caramelized.",
+    "Brush flatbreads with the remaining oil. Top with BBQ sauce, caramelized mixture, poblano strips, and cheeses.",
     "Bake 10-12 min until cheese melts. Top with cilantro and pickled onion."
   ]
 }
