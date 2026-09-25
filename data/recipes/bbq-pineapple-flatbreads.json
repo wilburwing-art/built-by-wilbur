@@ -3,32 +3,50 @@
   "name": "BBQ Pineapple Flatbreads",
   "category": "Dinner",
   "emoji": "🍕",
-  "desc": "Caramelized onion and pineapple flatbreads with BBQ sauce and two cheeses",
+  "desc": "Flatbreads spread with BBQ sauce and topped with jammy onion and pineapple, poblano, and two cheeses, finished with pickled onion.",
   "time": "35 min",
   "minutes": 35,
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.hellofresh.com/recipes/bbq-pineapple-flatbreads-5dcb2536c444357c0d14d730",
+    "site": "HelloFresh",
+    "title": "BBQ Pineapple Flatbreads with Caramelized & Pickled Onions",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and amounts (4 oz pineapple, 5 tsp red wine vinegar, 4 oz fresh mozzarella, 4 tbsp BBQ sauce, 1/4 cup Monterey Jack, 1/4 oz cilantro) and the same 450°F method.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 2,
+    "basis": "publisher",
+    "source": "https://www.hellofresh.com/recipes/bbq-pineapple-flatbreads-5dcb2536c444357c0d14d730"
   },
   "ingredients": [
     {
-      "raw": "1 red onion",
+      "raw": "1 medium red onion, halved and thinly sliced",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "red onion",
-      "prep": null,
+      "item": "medium red onion",
+      "prep": "halved and thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "4 oz canned pineapple chunks, drained, juice reserved",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "canned pineapple chunks",
+      "prep": "drained, juice reserved",
+      "note": null
+    },
+    {
+      "raw": "5 tsp red wine vinegar, divided",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "red wine vinegar",
+      "prep": "divided",
       "note": null
     },
     {
@@ -41,31 +59,31 @@
       "note": null
     },
     {
-      "raw": "2 flatbreads",
+      "raw": "4 oz fresh mozzarella, diced into 1/2-inch pieces",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "fresh mozzarella",
+      "prep": "diced into 1/2-inch pieces",
+      "note": null
+    },
+    {
+      "raw": "1/4 oz fresh cilantro (about 1/4 cup leaves), finely chopped",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "fresh cilantro",
+      "prep": "finely chopped",
+      "note": "about 1/4 cup leaves"
+    },
+    {
+      "raw": "2 flatbreads (naan-style)",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
       "item": "flatbreads",
       "prep": null,
-      "note": null
-    },
-    {
-      "raw": "4 oz pineapple",
-      "qty": 4,
-      "qtyMax": null,
-      "unit": "oz",
-      "item": "pineapple",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "4 oz fresh mozzarella",
-      "qty": 4,
-      "qtyMax": null,
-      "unit": "oz",
-      "item": "fresh mozzarella",
-      "prep": null,
-      "note": null
+      "note": "naan-style"
     },
     {
       "raw": "4 tbsp BBQ sauce",
@@ -77,48 +95,60 @@
       "note": null
     },
     {
-      "raw": "5 tsp red wine vinegar",
-      "qty": 5,
-      "qtyMax": null,
-      "unit": "tsp",
-      "item": "red wine vinegar",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1/4 oz cilantro",
-      "qty": 0.25,
-      "qtyMax": null,
-      "unit": "oz",
-      "item": "cilantro",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1/4 cup Monterey Jack",
+      "raw": "1/4 cup shredded Monterey Jack cheese",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "Monterey Jack",
+      "item": "Monterey Jack cheese",
+      "prep": "shredded",
+      "note": null
+    },
+    {
+      "raw": "1 tsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tbsp olive oil",
-      "qty": 1,
+      "raw": "4 tsp vegetable oil, divided",
+      "qty": 4,
       "qtyMax": null,
-      "unit": "tbsp",
-      "item": "olive oil",
+      "unit": "tsp",
+      "item": "vegetable oil",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Preheat oven to 450°F. Pickle 1/4 of onion in pineapple juice and vinegar.",
-    "Cook remaining onion in a drizzle of the oil until softened. Add pineapple, cook until caramelized.",
-    "Brush flatbreads with the remaining oil. Top with BBQ sauce, caramelized mixture, poblano strips, and cheeses.",
-    "Bake 10-12 min until cheese melts. Top with cilantro and pickled onion."
+    "Place a foil-lined baking sheet on the top rack and preheat the oven to 450°F.",
+    "Quick-pickle the onion: Drain the pineapple over a small bowl, reserving the juice. Stir a quarter of the sliced onion, half the vinegar, and a pinch of salt into the juice. Set aside.",
+    "Heat a drizzle of the vegetable oil in a large pan over medium heat. Add the remaining onion and cook, stirring and adding splashes of water if it sticks, until softened, 6-8 minutes.",
+    "While the onion cooks, halve, core, and very thinly slice the poblano into strips. Toss the strips with the olive oil and a pinch each of salt and pepper.",
+    "Raise the heat under the onion to medium-high. Add the pineapple and another drizzle of vegetable oil and cook, stirring, until the pineapple is lightly browned, 2-3 minutes. Stir in the remaining vinegar and cook until the onion and pineapple are jammy, 1-2 minutes more. Season with salt and pepper.",
+    "Rub each flatbread with the remaining vegetable oil. Carefully take the hot baking sheet out and set the flatbreads on it. Spread with the BBQ sauce, then top with the onion and pineapple, poblano, Monterey Jack, and mozzarella.",
+    "Bake on the top rack until the cheese melts and the edges are golden brown, 10-12 minutes.",
+    "Top with the cilantro and the drained pickled onion, cut into pieces, and serve."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.hellofresh.com/recipes/bbq-pineapple-flatbreads-5dcb2536c444357c0d14d730",
+      "site": "HelloFresh",
+      "title": "BBQ Pineapple Flatbreads with Caramelized & Pickled Onions",
+      "usedFor": "oil split, pan and rack setup, onion and pineapple cook times, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

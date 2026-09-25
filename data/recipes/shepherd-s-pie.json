@@ -3,50 +3,50 @@
   "name": "Shepherd's Pie",
   "category": "Dinner",
   "emoji": "🥧",
-  "desc": "Seasoned ground beef with veggies under cheesy mashed potato crust",
-  "time": "1 hr",
-  "minutes": 60,
+  "desc": "Ground beef and mixed vegetables in a ketchup-brightened gravy under a garlicky sour cream and cheddar mash.",
+  "time": "1 hr 25 min",
+  "minutes": 85,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/219919/chef-johns-shepherds-pie/",
+    "site": "Allrecipes",
+    "title": "Chef John's Shepherd's Pie",
+    "matchType": "closest",
+    "evidence": "All eleven ingredients and amounts match this page (1 1/4 lb Yukon Golds boiled with 3 garlic cloves, 1 lb lean beef, 3 tbsp ketchup, 4 cups frozen mixed vegetables, 3/4 cup sour cream, 1/2 cup cheddar divided) and the same 375°F bake; the page specifies light sour cream.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 8,
+    "basis": "publisher",
+    "source": "https://www.allrecipes.com/recipe/219919/chef-johns-shepherds-pie/"
   },
   "ingredients": [
     {
-      "raw": "1 1/4 lbs Yukon Gold potatoes",
+      "raw": "1 1/4 lb Yukon Gold potatoes, peeled and cubed",
       "qty": 1.25,
       "qtyMax": null,
       "unit": "lb",
       "item": "Yukon Gold potatoes",
-      "prep": null,
+      "prep": "peeled and cubed",
       "note": null
     },
     {
-      "raw": "3 garlic cloves",
+      "raw": "3 garlic cloves, halved",
       "qty": 3,
       "qtyMax": null,
-      "unit": null,
-      "item": "garlic cloves",
-      "prep": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "halved",
       "note": null
     },
     {
-      "raw": "1 lb lean ground beef",
+      "raw": "1 lb lean ground beef (90/10)",
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
       "item": "lean ground beef",
-      "prep": null,
+      "prep": "90/10",
       "note": null
     },
     {
@@ -59,11 +59,11 @@
       "note": null
     },
     {
-      "raw": "3/4 cup beef broth",
+      "raw": "3/4 cup low-sodium beef broth",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "cup",
-      "item": "beef broth",
+      "item": "low-sodium beef broth",
       "prep": null,
       "note": null
     },
@@ -77,58 +77,76 @@
       "note": null
     },
     {
-      "raw": "4 cups frozen mixed vegetables",
+      "raw": "4 cups frozen mixed vegetables (no need to thaw)",
       "qty": 4,
       "qtyMax": null,
       "unit": "cup",
       "item": "frozen mixed vegetables",
       "prep": null,
-      "note": null
+      "note": "no need to thaw"
     },
     {
-      "raw": "1/2 tsp pepper",
-      "qty": 0.5,
+      "raw": "1 tsp fine salt",
+      "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "pepper",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 cup cheddar, divided",
+      "raw": "1/2 tsp black pepper",
       "qty": 0.5,
       "qtyMax": null,
-      "unit": "cup",
-      "item": "cheddar",
-      "prep": "divided",
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
       "note": null
     },
     {
-      "raw": "3/4 cup sour cream",
+      "raw": "1/2 cup shredded cheddar cheese, divided",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cheddar cheese",
+      "prep": "shredded, divided",
+      "note": null
+    },
+    {
+      "raw": "3/4 cup sour cream (light or regular)",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "cup",
       "item": "sour cream",
       "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1 tsp salt",
-      "qty": 1,
-      "qtyMax": null,
-      "unit": "tsp",
-      "item": "salt",
-      "prep": null,
-      "note": null
+      "note": "light or regular"
     }
   ],
   "steps": [
-    "Boil potatoes and garlic until tender, about 20 min. Preheat oven to 375°F.",
-    "Brown ground beef. Stir in flour, then broth, ketchup, vegetables, salt, and pepper. Cook 5 min.",
-    "Transfer beef to an ovenproof dish.",
-    "Mash potatoes with 1/4 cup cheese and sour cream. Spread over beef.",
-    "Top with remaining cheese. Bake 20-25 min until golden."
+    "Put the potatoes and garlic in a large pot with enough cold water to cover. Bring to a boil over high heat, then reduce to medium-low, cover, and simmer until the potatoes are fork-tender, about 20 min.",
+    "Preheat the oven to 375°F.",
+    "Meanwhile, brown the ground beef in a large skillet over medium heat, breaking it up, until no pink remains, 6-8 min. Stir the flour into the beef and its drippings.",
+    "Add the broth, ketchup, frozen vegetables, salt, and pepper. Stir and cook until thickened, about 5 min.",
+    "Spread the beef mixture in a 2-quart (8x8 in) ovenproof baking dish.",
+    "Drain the potatoes and garlic, crush them a little, then add 1/4 cup of the cheddar and the sour cream and mash until smooth.",
+    "Spoon the mash onto the center of the filling and spread it to the edges with a fork. Sprinkle with the remaining 1/4 cup cheddar.",
+    "Bake until the cheese is melted and golden and the filling bubbles at the edges, 20-25 min. Let cool 15 min before serving."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/219919/chef-johns-shepherds-pie/",
+      "site": "Allrecipes",
+      "title": "Chef John's Shepherd's Pie",
+      "usedFor": "yield, total time, light sour cream",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://justapinch.com/recipes/chef-johns-shepherds-pie-recipe.html",
+      "site": "Just A Pinch",
+      "title": "Chef John's Shepherd's Pie Recipe",
+      "usedFor": "step text of the same recipe: 20 min simmer, 5 min thickening, fork-spread topping, 15 min rest",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

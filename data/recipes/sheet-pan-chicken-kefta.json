@@ -1,0 +1,164 @@
+{
+  "slug": "sheet-pan-chicken-kefta",
+  "name": "Sheet Pan Chicken Kefta",
+  "category": "Dinner",
+  "emoji": "🍢",
+  "desc": "Ground chicken kefta with grated onion, parsley and cumin, roasted as logs on a sheet pan with blistered cherry tomatoes.",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DGny5E4uycl/",
+    "site": "Instagram @cheffinwithzach",
+    "title": "Sheet Pan Chicken Kefta",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1.5 lb ground chicken",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "ground chicken",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 medium yellow onions, grated, liquid squeezed out",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium yellow onions",
+      "prep": "grated, liquid squeezed out",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup fresh flat-leaf parsley, finely chopped",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh flat-leaf parsley",
+      "prep": "finely chopped",
+      "note": null
+    },
+    {
+      "raw": "2 garlic cloves, grated",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "grated",
+      "note": null
+    },
+    {
+      "raw": "1 tsp black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp ground cumin",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tsp kosher salt",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp Turkish red pepper paste or tomato paste",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Turkish red pepper paste or tomato paste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lb cherry tomatoes",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "cherry tomatoes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp olive oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Kosher salt and black pepper, for the tomatoes",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 lavash or pita breads, for serving",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lavash or pita breads",
+      "prep": "for serving",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 425°F and line a sheet pan with parchment.",
+    "Grate the onions over a kitchen towel set in a bowl, then gather the towel and squeeze out all the liquid. Discard the liquid.",
+    "In a large bowl, mix the onion with the parsley, garlic, pepper, cumin, salt and pepper paste. Add the chicken and mix a few minutes, until cohesive.",
+    "With wet hands, shape into 8 long logs about 1 inch thick and set them on the pan.",
+    "Scatter the tomatoes around the kefta, drizzle everything with olive oil, and season the tomatoes with salt and pepper.",
+    "Roast 20 minutes, then broil 5 minutes, until the kefta are browned and read 165°F in the center and the tomatoes have blistered.",
+    "Spoon the tomatoes and pan juices over the kefta. Serve with lavash or pita."
+  ],
+  "tips": [
+    "Squeeze the grated onion well so the kefta hold together.",
+    "His written version adds cilantro, dill, smoked paprika, coriander and turmeric, presses the mixture into one scored slab, and serves it with a smoked paprika garlic mayo and a roasted tomato herb salad.",
+    "The pepper paste amount is not in the video; 1 tbsp seasons without making the mix wet."
+  ],
+  "references": [
+    {
+      "url": "https://www.umami.recipes/recipe/gCilQrkRkk6vmdpLG0ki",
+      "site": "Umami (copy of cheffinwithzach.com)",
+      "title": "Sheetpan Chicken Kefta",
+      "usedFor": "chicken, onion, garlic, salt, pepper and cumin amounts, 1 lb tomatoes, 2 tbsp oil, 425°F for 20 min then broil 5-6 min, 4 servings",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://foolproofliving.com/chicken-kofta/",
+      "site": "Foolproof Living",
+      "title": "Chicken Kofta Recipe",
+      "usedFor": "squeezing the grated onion dry, 165°F doneness",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

@@ -3,46 +3,46 @@
   "name": "Tiramisu",
   "category": "Desserts",
   "emoji": "☕",
-  "desc": "Mascarpone cream over espresso-soaked ladyfingers, set overnight",
-  "time": "4.5 hrs",
-  "minutes": 270,
-  "difficulty": "Medium",
+  "desc": "Espresso-dipped ladyfingers layered with a no-egg mascarpone whipped cream and dusted with cocoa.",
+  "time": "4 hrs 20 min",
+  "minutes": 260,
+  "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://tastesbetterfromscratch.com/easy-tiramisu/",
+    "site": "Tastes Better From Scratch",
+    "title": "Tiramisu",
+    "matchType": "original",
+    "evidence": "Ingredient lines and steps match the Tastes Better From Scratch recipe word for word, including the Kahlua or DaVinci note, the cookie-aisle ladyfingers and the 8x8 pan.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 9,
+    "basis": "publisher",
+    "source": "https://tastesbetterfromscratch.com/easy-tiramisu/"
   },
   "ingredients": [
     {
-      "raw": "1 1/2 cups heavy whipping cream",
+      "raw": "1 1/2 cups cold heavy whipping cream",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "heavy whipping cream",
+      "item": "cold heavy whipping cream",
       "prep": null,
       "note": null
     },
     {
-      "raw": "8 ounce container mascarpone cheese ,room temperature",
+      "raw": "8 oz mascarpone cheese (1 container), room temperature",
       "qty": 8,
       "qtyMax": null,
       "unit": "oz",
-      "item": "container mascarpone cheese",
+      "item": "mascarpone cheese",
       "prep": "room temperature",
-      "note": null
+      "note": "1 container"
     },
     {
       "raw": "1/3 cup granulated sugar",
-      "qty": 0.3333,
+      "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
       "item": "granulated sugar",
@@ -50,7 +50,7 @@
       "note": null
     },
     {
-      "raw": "1 teaspoon vanilla extract",
+      "raw": "1 tsp vanilla extract",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
@@ -59,48 +59,60 @@
       "note": null
     },
     {
-      "raw": "1 1/2 cups cold espresso",
+      "raw": "1 1/2 cups brewed espresso, cold",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "cold espresso",
-      "prep": null,
+      "item": "brewed espresso",
+      "prep": "cold",
       "note": null
     },
     {
-      "raw": "3 Tablespoons coffee flavored liqueur ,optional (Kahlua or DaVinci brands)",
+      "raw": "3 tbsp coffee liqueur, such as Kahlua or DaVinci (optional)",
       "qty": 3,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "coffee flavored liqueur",
-      "prep": "optional (Kahlua or DaVinci brands)",
-      "note": null
+      "item": "coffee liqueur",
+      "prep": null,
+      "note": "such as Kahlua or DaVinci; optional"
     },
     {
-      "raw": "1 (7 oz) package Savoiardi ladyfingers (about 24), found in the cookie aisle",
+      "raw": "1 (7 oz) package Savoiardi ladyfingers (about 24), from the cookie aisle",
       "qty": 1,
       "qtyMax": null,
       "unit": "package",
       "item": "Savoiardi ladyfingers",
-      "prep": "found in the cookie aisle",
+      "prep": "from the cookie aisle",
       "note": "7 oz; about 24"
     },
     {
-      "raw": "Cocoa powder for dusting the top",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
+      "raw": "1-2 tbsp unsweetened cocoa powder, for dusting",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "tbsp",
+      "item": "unsweetened cocoa powder",
+      "prep": "for dusting",
       "note": null
     }
   ],
   "steps": [
-    "Add whipping cream to a mixing bowl and beat on medium speed with electric mixers (or use a stand mixer). Slowly add sugar and vanilla and continue to beat until stiff peaks. Add mascarpone cheese and fold in until combined. Set aside.",
-    "Add coffee and liqueur to a shallow bowl. Dip the lady fingers in the coffee (Don't soak them--just quickly dip them on both sides to get them wet) and lay them in a single layer on the bottom of an 8x8'' or similar size pan.",
-    "Smooth half of the mascarpone mixture over the top. Add another layer of dipped lady fingers. Smooth remaining mascarpone cream over the top.",
-    "Dust cocoa powder generously over the top (I use a fine mesh strainer to do this). Refrigerate for at least 3-4 hours or up to overnight before serving."
+    "Beat the cream in a mixing bowl with an electric mixer on medium speed. Slowly add the sugar and vanilla and keep beating to stiff peaks.",
+    "Add the mascarpone and fold it in until combined. Set aside.",
+    "Stir the espresso and liqueur together in a shallow bowl. Dip each ladyfinger quickly on both sides (do not soak it) and lay them in a single layer in an 8x8 in dish.",
+    "Spread half the mascarpone cream over the ladyfingers. Add a second layer of dipped ladyfingers and spread the rest of the cream on top.",
+    "Dust cocoa generously over the top through a fine-mesh strainer. Cover and refrigerate at least 4 hr, or overnight, until set."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Leave out the liqueur for an alcohol-free version, or use dark rum, brandy or marsala.",
+    "Keeps 2-3 days in the fridge. To freeze, skip the cocoa, wrap tightly and freeze up to 3 months; thaw overnight in the fridge and dust with cocoa a few hours before serving."
+  ],
+  "references": [
+    {
+      "url": "https://tastesbetterfromscratch.com/easy-tiramisu/",
+      "site": "Tastes Better From Scratch",
+      "title": "Tiramisu",
+      "usedFor": "servings, ladyfinger package size, make-ahead and freezing notes, alcohol swaps",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

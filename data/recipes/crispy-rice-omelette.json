@@ -1,0 +1,100 @@
+{
+  "slug": "crispy-rice-omelette",
+  "name": "Crispy Rice Omelette with Gochujang Butter",
+  "category": "Breakfast",
+  "emoji": "🍚",
+  "desc": "Leftover rice fried crisp in gochujang butter, set with eggs and folded like an omelette.",
+  "time": "10 min",
+  "minutes": 10,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DHFuQtAPjxM/",
+    "site": "Instagram @dandumbrell",
+    "title": "Crispy Rice Omelette (gochujang butter)",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 1,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2/3 cup cooked leftover rice, cold",
+      "qty": 0.6666666666666666,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cooked leftover rice",
+      "prep": "cold",
+      "note": null
+    },
+    {
+      "raw": "2 large eggs, whisked",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": "whisked",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp gochujang",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "gochujang",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp unsalted butter, softened",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": "softened",
+      "note": null
+    },
+    {
+      "raw": "1 to 2 tbsp neutral oil",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "tbsp",
+      "item": "neutral oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup mixed corn kernels, sliced green onion greens and cilantro leaves",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "mixed corn kernels, sliced green onion greens and cilantro leaves",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Break up the rice with your hands to remove any clumps. Mash the gochujang and butter together.",
+    "Heat the oil in a 10-inch nonstick skillet over medium-high heat. Fry the rice 1 minute, then add the gochujang butter and toss to coat.",
+    "Press the rice into a flat, even circle across the bottom of the pan and leave it to fry 1 to 2 minutes.",
+    "Pour the eggs over the rice, cover and cook about 1 minute, until the egg is starting to set.",
+    "Uncover, scatter the corn, green onion and cilantro on top and fry 1 minute more, until the rice underneath is crisp and pulling away from the pan.",
+    "Loosen the edges and bottom with a spatula and fold the omelette in half in one motion. Slide onto a plate."
+  ],
+  "tips": [
+    "Day-old refrigerated rice crisps best; fresh warm rice turns gummy."
+  ],
+  "references": [
+    {
+      "url": "https://www.umami.recipes/recipe/6DiiPyuOEJ5evNFliXgO",
+      "site": "Umami (saved copy of the creator's caption)",
+      "title": "Crispy Rice Omelette Recipe",
+      "usedFor": "creator's full steps: medium-high heat, 1-2 min press, cover 1 min, crisp and pulling-away doneness cue",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

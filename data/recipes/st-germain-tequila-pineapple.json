@@ -3,40 +3,40 @@
   "name": "St-Germain Tequila Pineapple",
   "category": "Drinks",
   "emoji": "🍍",
-  "desc": "Tequila and elderflower with pineapple and lime, the crowd pleaser of the three",
+  "desc": "Blanco tequila and St-Germain shaken with pineapple and lime over ice.",
   "time": "5 min",
   "minutes": 5,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.stgermainliqueur.com/us/en/cocktails/st-germain-margarita/",
+    "site": "St-Germain",
+    "title": "ST-GERMAIN Margarita",
+    "matchType": "closest",
+    "evidence": "Same tequila, St-Germain and 3/4 oz lime juice shaken and strained over ice with a lime garnish; this version adds 1 oz pineapple juice and a little more tequila.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 1,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "2 oz tequila",
+      "raw": "2 oz blanco tequila",
       "qty": 2,
       "qtyMax": null,
       "unit": "oz",
-      "item": "tequila",
+      "item": "blanco tequila",
       "prep": null,
       "note": null
     },
     {
-      "raw": "3/4 oz St-Germain",
+      "raw": "3/4 oz St-Germain elderflower liqueur",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "oz",
-      "item": "St-Germain",
+      "item": "St-Germain elderflower liqueur",
       "prep": null,
       "note": null
     },
@@ -59,7 +59,16 @@
       "note": null
     },
     {
-      "raw": "A lime wheel, to garnish",
+      "raw": "1 lime wheel, for garnish",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lime wheel",
+      "prep": null,
+      "note": "for garnish"
+    },
+    {
+      "raw": "Ice",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -70,10 +79,18 @@
   ],
   "steps": [
     "Add the tequila, St-Germain, pineapple juice and lime juice to a shaker with ice.",
-    "Shake until the outside of the shaker frosts.",
-    "Strain over fresh ice.",
-    "Garnish with a lime wheel."
+    "Shake until the outside of the shaker frosts, about 15 seconds.",
+    "Strain into a rocks glass over fresh ice.",
+    "Garnish with the lime wheel."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.stgermainliqueur.com/us/en/cocktails/st-germain-margarita/",
+      "site": "St-Germain",
+      "title": "ST-GERMAIN Margarita",
+      "usedFor": "tequila to St-Germain to lime ratio check, rocks glass service",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

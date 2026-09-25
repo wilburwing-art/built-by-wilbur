@@ -3,9 +3,9 @@
   "name": "Oreo Pie",
   "category": "Desserts",
   "emoji": "🍫",
-  "desc": "Chocolate pudding pie loaded with crushed Oreos and whipped topping",
-  "time": "30 min",
-  "minutes": 30,
+  "desc": "Chocolate pudding stirred with crushed Oreos in a cookie crust, under whipped topping.",
+  "time": "3 hrs 20 min",
+  "minutes": 200,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
@@ -17,17 +17,17 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 8,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "4 cups cold milk",
+      "raw": "4 cups cold whole milk",
       "qty": 4,
       "qtyMax": null,
       "unit": "cup",
-      "item": "cold milk",
+      "item": "cold whole milk",
       "prep": null,
       "note": null
     },
@@ -38,7 +38,7 @@
       "unit": "package",
       "item": "instant chocolate pudding mix",
       "prep": null,
-      "note": "3.9 oz"
+      "note": "3.9 oz each"
     },
     {
       "raw": "20 Oreo cookies, crushed (about 2 cups)",
@@ -50,28 +50,40 @@
       "note": "about 2 cups"
     },
     {
-      "raw": "1 (9-inch) baked pie crust or Oreo cookie crust",
+      "raw": "1 (9-inch) prepared Oreo cookie crust (6 oz) or baked pie crust",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "baked pie crust or Oreo cookie crust",
+      "item": "prepared Oreo cookie crust or baked pie crust",
       "prep": null,
-      "note": "9-inch"
+      "note": "9-inch, 6 oz"
     },
     {
       "raw": "1 (8 oz) container frozen whipped topping, thawed",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "container frozen whipped topping",
+      "item": "frozen whipped topping",
       "prep": "thawed",
-      "note": "8 oz"
+      "note": "8 oz container"
     }
   ],
   "steps": [
-    "Beat milk and pudding until thick. Stir in Oreos. Chill 10 min.",
-    "Spread into crust. Top with whipped topping."
+    "Whisk the milk and pudding mix in a large bowl until thick, about 2 minutes.",
+    "Stir in the crushed Oreos and refrigerate 10 minutes to firm up.",
+    "Spread the filling into the crust. Top with the whipped topping.",
+    "Refrigerate until set, about 3 hours, before slicing."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Four cups of milk makes more filling than a standard 6 oz crust holds; use a deep-dish crust or spoon the extra into cups. Taste of Home uses 2 cups milk for the same two packages, which sets firmer."
+  ],
+  "references": [
+    {
+      "url": "https://www.tasteofhome.com/recipes/oreo-pudding-pie/",
+      "site": "Taste of Home",
+      "title": "Oreo Pudding Pie",
+      "usedFor": "2 minute whisk, 3 hour set time, 6 oz Oreo crust size, lower-milk alternative",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

@@ -3,23 +3,23 @@
   "name": "Baked Char Siu Bao",
   "category": "Dinner",
   "emoji": "🥟",
-  "desc": "Soft milk bread buns filled with sweet BBQ pork, bakery-style",
-  "time": "4.5 hrs",
-  "minutes": 270,
+  "desc": "Soft milk-bread buns baked around a sweet, saucy Chinese BBQ pork filling.",
+  "time": "4 hrs 25 min",
+  "minutes": 265,
   "difficulty": "Hard",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://thewoksoflife.com/chinese-bbq-pork-buns-cha-siu-bao/",
+    "site": "The Woks of Life",
+    "title": "Chinese BBQ Pork Buns (Baked Char Siu Bao)",
+    "matchType": "original",
+    "evidence": "Every ingredient and amount matches the Woks of Life recipe card line for line, as does the method (15-minute knead, 75-90 minute proof, 16 buns, 400°F dropped to 350°F).",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 16,
+    "basis": "publisher",
+    "source": "https://thewoksoflife.com/chinese-bbq-pork-buns-cha-siu-bao/"
   },
   "ingredients": [
     {
@@ -47,7 +47,7 @@
       "unit": "cup",
       "item": "whole milk",
       "prep": "at room temperature",
-      "note": null
+      "note": "2% also works"
     },
     {
       "raw": "1 large egg, at room temperature",
@@ -77,12 +77,12 @@
       "note": "or 1/2 cup all-purpose flour sifted with 1 tbsp cornstarch"
     },
     {
-      "raw": "3 1/2 cups bread flour",
+      "raw": "3 1/2 cups bread flour, plus more for dusting",
       "qty": 3.5,
       "qtyMax": null,
       "unit": "cup",
       "item": "bread flour",
-      "prep": null,
+      "prep": "plus more for dusting",
       "note": null
     },
     {
@@ -122,7 +122,7 @@
       "note": null
     },
     {
-      "raw": "1/2 cup shallots, finely chopped (or yellow onion)",
+      "raw": "1/2 cup finely chopped shallots (or yellow onion)",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
@@ -158,11 +158,11 @@
       "note": null
     },
     {
-      "raw": "1 1/2 tsp sesame oil",
+      "raw": "1 1/2 tsp toasted sesame oil",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "sesame oil",
+      "item": "toasted sesame oil",
       "prep": null,
       "note": null
     },
@@ -194,13 +194,13 @@
       "note": null
     },
     {
-      "raw": "2 cups Chinese roast pork (char siu), finely diced",
+      "raw": "2 cups finely diced Chinese roast pork (char siu)",
       "qty": 2,
       "qtyMax": null,
       "unit": "cup",
-      "item": "Chinese roast pork",
+      "item": "Chinese roast pork (char siu)",
       "prep": "finely diced",
-      "note": "char siu"
+      "note": null
     },
     {
       "raw": "To finish:",
@@ -240,12 +240,28 @@
     }
   ],
   "steps": [
-    "Mix the dough ingredients in a stand mixer in the order listed, then knead on low for 15 minutes. Cover and proof 75-90 minutes until doubled.",
-    "Make the filling: heat the oil in a wok and stir-fry the shallots 1 minute. Add the sugar, light soy sauce, oyster sauce, sesame oil, and dark soy sauce and stir until bubbling. Add the chicken stock and flour and cook until thickened, then stir in the pork. Cool.",
-    "Knead the dough 5 minutes, divide into 16 pieces, roll each into a circle, fill, and pinch closed.",
-    "Let the buns rise 1 hour. Preheat the oven to 400°F. Brush with egg wash and sprinkle with sesame seeds.",
-    "Put the buns in the oven and immediately lower it to 350°F. Bake 22-25 minutes until golden, then brush with the sugar syrup while hot."
+    "Make the dough: In the bowl of a stand mixer fitted with the dough hook, add the dough ingredients in this order: heavy cream, milk, egg, sugar, cake flour, bread flour, yeast, and salt. Mix on the lowest speed until a scraggly dough forms, then knead on low for 15 minutes. The dough should stick to the bottom of the bowl but not the sides; if it sticks to the sides, add flour 1 tbsp at a time.",
+    "Shape the dough into a ball, cover with a damp towel or an overturned plate, and let it proof in a warm spot for 75-90 minutes, until doubled in size.",
+    "Make the filling while the dough proofs: Heat the oil in a wok over medium heat. Add the shallots and stir-fry for 2 minutes. Add the sugar, light soy sauce, oyster sauce, sesame oil, and dark soy sauce and stir until it begins to bubble.",
+    "Add the chicken stock and flour, reduce the heat to medium-low, and cook, stirring, for 2-3 minutes until thickened. Stir in the diced pork. Spread the filling on a plate, divide it into 16 equal piles, and let it cool.",
+    "Knead the proofed dough for 5 minutes to knock out the air, then turn it onto a lightly floured surface and cut it into 16 equal pieces (weigh the dough and divide by 16 for even buns).",
+    "Knead each piece smooth and roll it into a 4-inch circle, slightly thicker in the center than at the edges. With clean, grease-free fingers, add one pile of filling, crimp the dough closed, and seal tightly.",
+    "Set the buns seam side down on 2 parchment-lined baking sheets, about 3 inches apart. Cover with a clean towel and let rise at room temperature for 1 hour.",
+    "Position racks in the top and bottom thirds of the oven and preheat to 400°F. Brush the buns with egg wash and sprinkle with sesame seeds, if using.",
+    "Put the buns in the oven and immediately lower the temperature to 350°F. Bake for 22-25 minutes, until golden brown.",
+    "Brush the hot buns with the sugar syrup as soon as they come out of the oven. Cool slightly before serving."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The filling needs 2 cups of cooked char siu, which takes about 9 hours with its overnight marinade; make it a day ahead with the Char Siu recipe on this site.",
+    "No stand mixer: stir the dough together with a wooden spoon and knead by hand for 20 minutes."
+  ],
+  "references": [
+    {
+      "url": "https://thewoksoflife.com/chinese-bbq-pork-buns-cha-siu-bao/",
+      "site": "The Woks of Life",
+      "title": "Chinese BBQ Pork Buns (Baked Char Siu Bao)",
+      "usedFor": "bun count, proof and rise times, shaping size, filling cook times, baking sheet spacing",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

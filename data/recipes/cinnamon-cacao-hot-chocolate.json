@@ -3,84 +3,132 @@
   "name": "Cinnamon Cacao Hot Chocolate",
   "category": "Drinks",
   "emoji": "☕",
-  "desc": "Rich raw cacao with cinnamon, maple syrup, and almond milk",
-  "time": "5 min",
-  "minutes": 5,
+  "desc": "Raw cacao hot chocolate with cinnamon and maple syrup, warmed in almond milk.",
+  "time": "10 min",
+  "minutes": 10,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://picklesnhoney.com/cinnamon-vegan-hot-chocolate-recipe/",
+    "site": "Pickles & Honey",
+    "title": "Cinnamon Cacao Hot Chocolate",
+    "matchType": "original",
+    "evidence": "Same name and all six ingredients at identical amounts (3 cups almond milk, 1/4 cup raw cacao, 3 tbsp maple syrup, 3/4 tsp cinnamon, 1/2 tsp vanilla, pinch of salt) and the same one-pan method.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 2,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "3 cups almond milk",
+      "raw": "3 cups unsweetened almond milk",
       "qty": 3,
       "qtyMax": null,
       "unit": "cup",
-      "item": "almond milk",
+      "item": "unsweetened almond milk",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/4 cup raw cacao powder",
+      "raw": "1/4 cup raw cacao powder (or unsweetened cocoa powder)",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
       "item": "raw cacao powder",
       "prep": null,
-      "note": null
+      "note": "or unsweetened cocoa powder"
     },
     {
-      "raw": "3 tbsp maple syrup",
+      "raw": "3 tbsp pure maple syrup",
       "qty": 3,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "maple syrup",
+      "item": "pure maple syrup",
       "prep": null,
       "note": null
     },
     {
-      "raw": "3/4 tsp cinnamon",
+      "raw": "3/4 tsp ground cinnamon",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "cinnamon",
+      "item": "ground cinnamon",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 tsp vanilla",
+      "raw": "1/2 tsp vanilla extract",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "vanilla",
+      "item": "vanilla extract",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 pinch sea salt",
+      "raw": "1 pinch fine sea salt",
       "qty": 1,
       "qtyMax": null,
       "unit": "pinch",
-      "item": "sea salt",
+      "item": "fine sea salt",
       "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Toppings (optional):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup coconut whipped cream",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "coconut whipped cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup vegan marshmallows",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "vegan marshmallows",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp finely chopped dark chocolate",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dark chocolate",
+      "prep": "finely chopped",
       "note": null
     }
   ],
   "steps": [
-    "Whisk all ingredients in a saucepan. Warm over medium heat.",
-    "Adjust sweetness. Serve with desired toppings."
+    "Add the almond milk, cacao powder, maple syrup, cinnamon, vanilla and salt to a medium saucepan and whisk until no dry cacao remains.",
+    "Warm over medium heat, whisking occasionally, until steaming with small bubbles at the edge, about 5 min. Do not let it boil.",
+    "Taste and add more maple syrup if you want it sweeter.",
+    "Pour into 2 large mugs and top with coconut whipped cream, marshmallows and chopped dark chocolate, if using."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The creator's page says this fills 2 big mugs or 4 small ones."
+  ],
+  "references": [
+    {
+      "url": "https://picklesnhoney.com/cinnamon-vegan-hot-chocolate-recipe/",
+      "site": "Pickles & Honey",
+      "title": "Cinnamon Cacao Hot Chocolate",
+      "usedFor": "toppings list, medium heat, whisking occasionally, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

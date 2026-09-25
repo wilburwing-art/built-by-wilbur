@@ -1,0 +1,112 @@
+{
+  "slug": "cinnamon-apple-ring-pastries",
+  "name": "Cinnamon Apple Ring Pastries",
+  "category": "Desserts",
+  "emoji": "🍏",
+  "desc": "Granny Smith apple rings wrapped in puff pastry strips, baked in cinnamon sugar and drizzled with caramel.",
+  "time": "50 min",
+  "minutes": 50,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C-ak9kNNKDt/",
+    "site": "Instagram @jessiejanedaye",
+    "title": "Cinnamon Apple Ring Pastries",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 8,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 (17.3 oz) package frozen puff pastry (2 sheets), thawed",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "package",
+      "item": "frozen puff pastry",
+      "prep": "thawed",
+      "note": "17.3 oz; 2 sheets"
+    },
+    {
+      "raw": "2-3 Granny Smith apples",
+      "qty": 2,
+      "qtyMax": 3,
+      "unit": null,
+      "item": "Granny Smith apples",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup granulated sugar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup ground cinnamon",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp unsalted butter, melted",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": "melted",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup caramel sauce, for drizzling",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "caramel sauce",
+      "prep": "for drizzling",
+      "note": null
+    },
+    {
+      "raw": "Vanilla ice cream, for serving (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 400°F and line a baking sheet with parchment. Thaw the puff pastry according to the package.",
+    "Core the apples with an apple corer or small round cookie cutter and slice them into 1/2 in rings.",
+    "Roll the pastry with a rolling pin to stretch it longer and thinner. Cut long 1/2 in strips with a pizza cutter.",
+    "Gently pull each strip thinner and wrap it around an apple ring, pinching strips together end to end as needed.",
+    "Mix the sugar and cinnamon in a small bowl.",
+    "Set the wrapped rings on the sheet, brush with melted butter, and sprinkle generously with cinnamon sugar.",
+    "Bake on the middle rack 15-18 min, until the pastry is golden brown.",
+    "Cool 3-5 min, drizzle with caramel, and serve with ice cream."
+  ],
+  "tips": [
+    "Thawed pie crust works in place of puff pastry.",
+    "If you skip the caramel, sprinkle on more cinnamon sugar so they are sweet enough."
+  ],
+  "references": [
+    {
+      "url": "https://www.jessiedaye.com/all-recipes/2023/9/5/cinnamonappleringpastries",
+      "site": "Jessie Daye",
+      "title": "Cinnamon Apple Pastries",
+      "usedFor": "full recipe, pulling strips thinner, middle rack, skip-the-caramel tip",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

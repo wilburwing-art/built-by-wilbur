@@ -3,23 +3,23 @@
   "name": "Chimichurri Sauce",
   "category": "Sides & Snacks",
   "emoji": "🌿",
-  "desc": "Fresh herb sauce with parsley, garlic, red wine vinegar, and chili",
+  "desc": "Uncooked parsley, garlic, red chili, oregano, and red wine vinegar sauce for grilled meats.",
   "time": "10 min",
   "minutes": 10,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://cafedelites.com/authentic-chimichurri-uruguay-argentina/",
+    "site": "Cafe Delites",
+    "title": "Authentic Chimichurri (Uruguay & Argentina)",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and amounts (1/2 cup oil, 2 tbsp red wine vinegar, 1/2 cup parsley, 3-4 garlic cloves, 2 red chilies, 3/4 tsp oregano, 1 tsp salt, 1/2 tsp pepper) and the same rest-then-baste method.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 8,
+    "basis": "publisher",
+    "source": "https://cafedelites.com/authentic-chimichurri-uruguay-argentina/"
   },
   "ingredients": [
     {
@@ -41,65 +41,76 @@
       "note": null
     },
     {
-      "raw": "1/2 cup parsley",
+      "raw": "1/2 cup fresh flat-leaf parsley, finely chopped",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "parsley",
-      "prep": null,
+      "item": "fresh flat-leaf parsley",
+      "prep": "finely chopped",
       "note": null
     },
     {
-      "raw": "3-4 garlic cloves",
+      "raw": "3-4 garlic cloves, finely chopped or minced",
       "qty": 3,
       "qtyMax": 4,
       "unit": null,
       "item": "garlic cloves",
-      "prep": null,
+      "prep": "finely chopped or minced",
       "note": null
     },
     {
-      "raw": "2 red chilies",
+      "raw": "2 small red chilies, deseeded and finely chopped (or 1 larger red chili, about 1 tbsp chopped)",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "red chilies",
-      "prep": null,
-      "note": null
+      "item": "small red chilies",
+      "prep": "deseeded and finely chopped",
+      "note": "or 1 larger red chili, about 1 tbsp chopped"
     },
     {
-      "raw": "3/4 tsp oregano",
+      "raw": "3/4 tsp dried oregano",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "oregano",
+      "item": "dried oregano",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tsp salt",
+      "raw": "1 tsp coarse salt",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "coarse salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 tsp pepper",
+      "raw": "1/2 tsp ground black pepper",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "pepper",
+      "item": "ground black pepper",
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Mix all ingredients together.",
-    "Let sit 5-10 min (ideally 2+ hours).",
-    "Use to baste meats or spoon over steak to serve."
+    "Finely chop the parsley, garlic, and chili. Add the garlic and chili a little at a time until it tastes right to you.",
+    "Stir everything together in a bowl.",
+    "Let sit 5 to 10 minutes so the flavors move into the oil, ideally 2 hours or more.",
+    "Brush it on chicken or steak while grilling, or spoon it over steak to serve."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Cafe Delites recommends basting with it rather than using it as a marinade."
+  ],
+  "references": [
+    {
+      "url": "https://cafedelites.com/authentic-chimichurri-uruguay-argentina/",
+      "site": "Cafe Delites",
+      "title": "Authentic Chimichurri (Uruguay & Argentina)",
+      "usedFor": "ingredient prep (finely chopped, deseeded chili), rest time, basting use, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

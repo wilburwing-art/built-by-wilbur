@@ -3,22 +3,22 @@
   "name": "Green Bean Casserole",
   "category": "Sides & Snacks",
   "emoji": "🫛",
-  "desc": "The classic: green beans, cream of mushroom, cheddar, and fried onions",
-  "time": "20 min",
-  "minutes": 20,
+  "desc": "Canned green beans and cream of mushroom soup with cheddar, baked under French fried onions.",
+  "time": "25 min",
+  "minutes": 25,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/18379/best-green-bean-casserole/",
+    "site": "Allrecipes",
+    "title": "Best Green Bean Casserole",
+    "matchType": "closest",
+    "evidence": "Same four ingredients (canned green beans, condensed cream of mushroom soup, 1 cup cheddar divided, French fried onions) and the same microwave-then-bake method; can sizes differ slightly.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 6,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
@@ -41,15 +41,6 @@
       "note": "10.5 oz"
     },
     {
-      "raw": "1 (2.8 oz) can French fried onions",
-      "qty": 1,
-      "qtyMax": null,
-      "unit": "can",
-      "item": "French fried onions",
-      "prep": null,
-      "note": "2.8 oz"
-    },
-    {
       "raw": "1 cup shredded cheddar cheese, divided",
       "qty": 1,
       "qtyMax": null,
@@ -57,13 +48,34 @@
       "item": "shredded cheddar cheese",
       "prep": "divided",
       "note": null
+    },
+    {
+      "raw": "1 (2.8 oz) can French fried onions",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "French fried onions",
+      "prep": null,
+      "note": "2.8 oz"
     }
   ],
   "steps": [
-    "Mix green beans and soup. Microwave until warm. Stir in 1/2 cup cheese.",
-    "Transfer to casserole. Top with onions and remaining cheese.",
-    "Bake at 350°F until cheese melts and onions brown."
+    "Preheat the oven to 350°F.",
+    "Stir the green beans and soup together in a large microwave-safe bowl. Microwave on high until warm, 3 to 5 minutes.",
+    "Stir in 1/2 cup of the cheese and microwave 2 to 3 minutes more.",
+    "Spread the mixture in a 2-quart casserole dish. Sprinkle with the remaining 1/2 cup cheese, then the fried onions.",
+    "Bake until the cheese melts and the onions are lightly browned, about 10 minutes."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Allrecipes' version uses a 6 oz can of fried onions for a thicker topping."
+  ],
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/18379/best-green-bean-casserole/",
+      "site": "Allrecipes",
+      "title": "Best Green Bean Casserole",
+      "usedFor": "350°F, microwave times, bake about 10 minutes",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

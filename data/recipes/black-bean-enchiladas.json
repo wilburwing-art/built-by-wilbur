@@ -3,22 +3,22 @@
   "name": "Black Bean Enchiladas",
   "category": "Dinner",
   "emoji": "🌯",
-  "desc": "Poblano and black bean enchiladas under green salsa and melted cheese",
+  "desc": "Flour tortillas spread with mashed black beans, rolled around poblano and bean filling, and baked under green salsa and cheese.",
   "time": "45 min",
   "minutes": 45,
   "difficulty": "Medium",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.hellofresh.com/recipes/salsa-verde-enchiladas-6716a67fffa4e28ccb95eb4f",
+    "site": "HelloFresh",
+    "title": "Salsa Verde Enchiladas with Southwest Crema & Refried Beans",
+    "matchType": "closest",
+    "evidence": "Same HelloFresh build: flour tortillas spread with beans, a sauteed pepper, tomato and scallion-white filling spiced with Southwest Spice Blend, green salsa, Mexican cheese blend, 475°F top-rack bake for 3-5 minutes, and a spiced sour cream crema.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 2,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
@@ -32,75 +32,75 @@
       "note": null
     },
     {
-      "raw": "1 roma tomato, diced",
+      "raw": "1 Roma tomato, diced",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "roma tomato",
+      "item": "Roma tomato",
       "prep": "diced",
       "note": null
     },
     {
-      "raw": "2 scallions, sliced",
+      "raw": "2 scallions, sliced, whites and greens separated",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
       "item": "scallions",
-      "prep": "sliced",
+      "prep": "sliced, whites and greens separated",
       "note": null
     },
     {
-      "raw": "1 (13.4 oz) can black beans, drained",
+      "raw": "1 (13.4 oz) can black beans, drained, liquid reserved",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
       "item": "black beans",
-      "prep": "drained",
-      "note": "(13.4 oz)"
+      "prep": "drained, liquid reserved",
+      "note": "13.4 oz"
     },
     {
-      "raw": "1 chili pepper, minced",
+      "raw": "1 fresh chili pepper (such as a Fresno or jalapeno), minced",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "chili pepper",
+      "item": "fresh chili pepper",
       "prep": "minced",
-      "note": null
+      "note": "such as a Fresno or jalapeno"
     },
     {
-      "raw": "1 tbsp southwest spice blend",
+      "raw": "1 tbsp Southwest spice blend, divided",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "southwest spice blend",
-      "prep": null,
+      "item": "Southwest spice blend",
+      "prep": "divided",
       "note": null
     },
     {
-      "raw": "6 flour tortillas",
+      "raw": "6 (6-inch) flour tortillas",
       "qty": 6,
       "qtyMax": null,
       "unit": null,
       "item": "flour tortillas",
       "prep": null,
-      "note": null
+      "note": "6-inch"
     },
     {
-      "raw": "1/2 cup green salsa",
+      "raw": "1/2 cup green salsa (salsa verde)",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
       "item": "green salsa",
       "prep": null,
-      "note": null
+      "note": "salsa verde"
     },
     {
-      "raw": "1 cup Mexican cheese blend",
+      "raw": "1 cup shredded Mexican cheese blend",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
       "item": "Mexican cheese blend",
-      "prep": null,
+      "prep": "shredded",
       "note": null
     },
     {
@@ -113,16 +113,25 @@
       "note": null
     },
     {
-      "raw": "1 lime",
+      "raw": "1 lime, cut into wedges",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "lime",
-      "prep": null,
+      "prep": "cut into wedges",
       "note": null
     },
     {
-      "raw": "Oil, salt and pepper",
+      "raw": "2 tsp vegetable oil, divided",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vegetable oil",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -132,12 +141,23 @@
     }
   ],
   "steps": [
-    "Preheat oven to 475°F with a rack in the top position. Dice poblano and tomato. Slice scallions, separating whites from greens. Drain beans over a small bowl, reserving the liquid. Mince the chili. Set aside 1/2 tsp of the Southwest spice for the crema.",
-    "Heat a drizzle of oil in a large pan over medium-high. Cook poblano until just softened, 3-4 minutes. Add tomato, scallion whites, half the beans, 2 tbsp bean liquid, and the remaining Southwest spice. Cook 2-3 minutes; season with salt and pepper.",
-    "Heat a drizzle of oil in a small pot. Add the remaining beans and cook 2-3 minutes, then add 3 tbsp bean liquid and simmer 1-2 minutes. Mash until mostly smooth and season with salt and pepper.",
-    "Spread tortillas with mashed beans, add filling to one half of each, and roll up. Place seam side down in a baking dish. Spoon the green salsa over and sprinkle with cheese. Bake on the top rack until bubbly, 3-5 minutes.",
-    "Stir the reserved spice into the sour cream, adding warm water 1 tsp at a time until drizzly. Top the enchiladas with crema, scallion greens, chili, and a squeeze of lime."
+    "Adjust a rack to the top position and preheat the oven to 475°F. Drain the beans over a small bowl, reserving the liquid. Set aside 1/2 tsp of the Southwest spice for the crema.",
+    "Heat 1 tsp oil in a large pan over medium-high heat. Cook the poblano until it starts to soften, 3-4 minutes. Add the tomato, scallion whites, half the beans, 2 tbsp bean liquid, and the remaining Southwest spice. Cook 2-3 minutes and season with salt and pepper.",
+    "Heat the remaining 1 tsp oil in a small pot over medium heat. Add the rest of the beans and cook 2-3 minutes, then add 3 tbsp bean liquid and simmer 1-2 minutes. Mash until mostly smooth and season with salt and pepper.",
+    "Spread each tortilla with mashed beans, spoon the filling onto one half, and roll up from the filled side. Place seam side down in an 8x8 in or similar baking dish.",
+    "Spoon the green salsa over the enchiladas and sprinkle with the cheese. Bake on the top rack until the salsa bubbles and the cheese melts, 3-5 minutes.",
+    "Stir the reserved spice into the sour cream, adding warm water 1 tsp at a time until drizzly. Top the enchiladas with the crema, scallion greens, and minced chili, and serve with lime wedges."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "No Southwest spice blend: use 1 tbsp taco seasoning or a mix of chili powder, cumin, garlic powder and onion powder."
+  ],
+  "references": [
+    {
+      "url": "https://www.hellofresh.com/recipes/salsa-verde-enchiladas-6716a67fffa4e28ccb95eb4f",
+      "site": "HelloFresh",
+      "title": "Salsa Verde Enchiladas with Southwest Crema & Refried Beans",
+      "usedFor": "rack position, pan style, crema method",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

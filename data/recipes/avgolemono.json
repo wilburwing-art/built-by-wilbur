@@ -1,0 +1,244 @@
+{
+  "slug": "avgolemono",
+  "name": "Avgolemono (Greek Lemon Chicken Soup)",
+  "category": "Dinner",
+  "emoji": "🍋",
+  "desc": "Greek chicken and orzo soup thickened with a tempered egg and lemon mixture.",
+  "time": "1 hr 30 min",
+  "minutes": 90,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DO3PSo-Eu1U/",
+    "site": "Instagram @jujumaoeats",
+    "title": "Avgolemono (Greek lemon chicken soup)",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 6,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Soup:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5-8 bone-in, skin-on chicken thighs (about 2 to 3 lb)",
+      "qty": 5,
+      "qtyMax": 8,
+      "unit": null,
+      "item": "bone-in, skin-on chicken thighs",
+      "prep": null,
+      "note": "about 2 to 3 lb"
+    },
+    {
+      "raw": "1 tsp kosher salt, plus more to taste",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": "plus more to taste",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp olive oil, plus more for drizzling",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": "plus more for drizzling",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp Italian seasoning",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Italian seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large yellow onion, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large yellow onion",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "5-10 garlic cloves, minced",
+      "qty": 5,
+      "qtyMax": 10,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "3/4 cup celery, diced",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "celery",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1 medium carrot, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium carrot",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "8 cups low-sodium chicken broth",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "low-sodium chicken broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 bay leaves",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "bay leaves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 cup orzo",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "orzo",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Avgolemono:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 large eggs",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Juice of 2-3 lemons (about 1/2 cup)",
+      "qty": 2,
+      "qtyMax": 3,
+      "unit": null,
+      "item": "lemons",
+      "prep": "juiced",
+      "note": "about 1/2 cup juice"
+    },
+    {
+      "raw": "Zest of 1 lemon",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lemon",
+      "prep": "zested",
+      "note": null
+    },
+    {
+      "raw": "1-2 cups hot broth from the pot",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "cup",
+      "item": "hot broth from the pot",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "To serve:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp chopped fresh dill or parsley",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh dill or parsley",
+      "prep": "chopped",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Pat the chicken dry and season with the salt and pepper. Heat the olive oil in a large Dutch oven over medium-high heat. Sear the thighs skin side down 5-6 min until golden, flip for 2 min, then set aside. Pour off all but about 2 tbsp of fat.",
+    "Lower the heat to medium. Cook the onion, celery and carrot 5 min until softened, add the garlic and Italian seasoning, and stir 1 min until fragrant.",
+    "Add the broth and bay leaves and return the chicken with its juices. Bring to a boil, then lower to a gentle simmer and cook partly covered 45 min, until the chicken is very tender.",
+    "Lift out the chicken. Discard the skin and bones, shred the meat, and return it to the pot. Remove the bay leaves.",
+    "Bring the soup back to a simmer, add the orzo, and cook 8-10 min until tender, stirring now and then so it does not stick.",
+    "Meanwhile, whisk the eggs in a bowl until smooth, then whisk in the lemon juice and zest.",
+    "Turn the soup down to low. While whisking constantly, pour a ladle of hot broth into the eggs in a thin stream. Repeat with 1 or 2 more ladles until the egg mixture feels warm.",
+    "Slowly stir the tempered mixture back into the pot. Heat gently 2-3 min, stirring, until the soup thickens slightly. Do not let it boil or the eggs will curdle.",
+    "Taste for salt and pepper. Serve garnished with dill or parsley and a drizzle of olive oil."
+  ],
+  "tips": [
+    "Tempering (slowly adding hot broth to the eggs) keeps them from scrambling.",
+    "Leftover orzo keeps soaking up broth; thin reheated soup with a little broth or water and warm it gently without boiling."
+  ],
+  "references": [
+    {
+      "url": "https://www.foodiecrush.com/avgolemono-orzo-greek-lemon-chicken-soup/",
+      "site": "Foodie Crush",
+      "title": "Avgolemono Recipe (Greek Lemon Chicken Soup)",
+      "usedFor": "8 cups broth for a 6-serving pot, about 1/2 cup lemon juice, whisking hot broth into the eggs in stages",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.themediterraneandish.com/avgolemono-soup-recipe/",
+      "site": "The Mediterranean Dish",
+      "title": "Avgolemono: Greek Lemon Chicken Soup",
+      "usedFor": "low-sodium broth, 2 bay leaves, tempering with 2 ladles of broth",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://spoonfulofsi.com/avgolemono-soup-with-orzo/",
+      "site": "Spoonful of Si",
+      "title": "Avgolemono Soup with Orzo",
+      "usedFor": "5 min veg saute, lowering heat before tempering",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

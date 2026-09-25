@@ -1,0 +1,145 @@
+{
+  "slug": "trader-joes-dumpling-bake",
+  "name": "Trader Joe's Dumpling Bake",
+  "category": "Dinner",
+  "emoji": "🥟",
+  "desc": "Frozen Trader Joe's dumplings baked under foil in a coconut cream, red curry and Soyaki sauce.",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DQ77OW7DWPs/",
+    "site": "Instagram @_chriscastellanos",
+    "title": "Trader Joe's Dumpling Bake",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 (13.5 oz) can coconut cream",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "coconut cream",
+      "prep": null,
+      "note": "13.5 oz"
+    },
+    {
+      "raw": "3 tbsp Trader Joe's Soyaki",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Trader Joe's Soyaki",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 (11 oz) bottle Trader Joe's Thai Red Curry Sauce",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "bottle",
+      "item": "Trader Joe's Thai Red Curry Sauce",
+      "prep": null,
+      "note": "11 oz"
+    },
+    {
+      "raw": "3-5 garlic cloves, minced",
+      "qty": 3,
+      "qtyMax": 5,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1 tsp toasted sesame oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "toasted sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (16 oz) bag frozen Trader Joe's dumplings (such as chicken gyoza)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "bag",
+      "item": "frozen Trader Joe's dumplings",
+      "prep": null,
+      "note": "16 oz; such as chicken gyoza"
+    },
+    {
+      "raw": "Garnish (optional):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp crunchy chili onion oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "crunchy chili onion oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 green onions, thinly sliced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "green onions",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1 tsp black sesame seeds",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black sesame seeds",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups uncooked white rice, steamed, for serving",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "uncooked white rice",
+      "prep": "steamed, for serving",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 400°F.",
+    "In an 8x8 in or similar 2-quart baking dish, whisk the coconut cream, Soyaki, red curry sauce, garlic and sesame oil until smooth.",
+    "Arrange the frozen dumplings in a single layer in the sauce and spoon some sauce over each.",
+    "Cover tightly with foil and bake 30-35 minutes, until the sauce is bubbling and a dumpling cut open is steaming hot in the center (165°F).",
+    "Top with chili oil, green onions and black sesame seeds, and serve over steamed rice."
+  ],
+  "tips": [
+    "Cover with foil from the start; the creator forgot until halfway and the exposed tops dried out.",
+    "Lovely Delites bakes the same combination covered at 350°F for 35-40 minutes if you prefer a gentler bake."
+  ],
+  "references": [
+    {
+      "url": "https://lovelydelites.com/trader-joes-viral-dumpling-bake/",
+      "site": "Lovely Delites",
+      "title": "Viral Trader Joe's Dumpling Bake",
+      "usedFor": "curry sauce bottle size, dumpling bag size, single layer under foil, bubbling doneness cue",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

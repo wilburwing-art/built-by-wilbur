@@ -3,22 +3,22 @@
   "name": "Hot Honey Chicken Sliders",
   "category": "Lunch",
   "emoji": "🍯",
-  "desc": "Matty Matheson's agrodulce chicken thighs on Hawaiian rolls with pickled slaw",
+  "desc": "Matty Matheson's roasted chicken thighs glazed in a scotch bonnet honey agrodulce, on Hawaiian rolls with herby ranch and pickle slaw.",
   "time": "1 hr",
   "minutes": 60,
   "difficulty": "Medium",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.youtube.com/watch?v=tx0oB53XoPE",
+    "site": "YouTube: Cookin' Somethin' w/ Matty Matheson",
+    "title": "Hot Honey Chicken Sliders Make Me Feel Things",
+    "matchType": "original",
+    "evidence": "Ingredient list and method match the recipe Matty Matheson posted in the video description, down to 4 cups honey, 6 skin-on thighs, and the ranch and pickled slaw.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 6,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
@@ -33,7 +33,7 @@
     },
     {
       "raw": "4 cups honey",
-      "qty": 4,
+      "qty": 4.0,
       "qtyMax": null,
       "unit": "cup",
       "item": "honey",
@@ -41,74 +41,83 @@
       "note": null
     },
     {
-      "raw": "1/2 cup white vinegar",
+      "raw": "1/2 cup white vinegar, plus more to taste",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
       "item": "white vinegar",
-      "prep": null,
+      "prep": "plus more to taste",
       "note": null
     },
     {
-      "raw": "6 garlic cloves",
-      "qty": 6,
+      "raw": "6 garlic cloves, peeled",
+      "qty": 6.0,
       "qtyMax": null,
       "unit": null,
       "item": "garlic cloves",
-      "prep": null,
+      "prep": "peeled",
       "note": null
     },
     {
-      "raw": "1 cubanelle or Anaheim pepper",
-      "qty": 1,
+      "raw": "1 cubanelle or Anaheim pepper, stemmed",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
       "item": "cubanelle or Anaheim pepper",
-      "prep": null,
+      "prep": "stemmed",
       "note": null
     },
     {
-      "raw": "1 banana pepper",
-      "qty": 1,
+      "raw": "1 banana pepper, stemmed",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
       "item": "banana pepper",
-      "prep": null,
+      "prep": "stemmed",
       "note": null
     },
     {
-      "raw": "1/2 green pepper",
+      "raw": "1/2 green bell pepper",
       "qty": 0.5,
       "qtyMax": null,
       "unit": null,
-      "item": "green pepper",
+      "item": "green bell pepper",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 orange pepper",
+      "raw": "1/2 orange bell pepper",
       "qty": 0.5,
       "qtyMax": null,
       "unit": null,
-      "item": "orange pepper",
+      "item": "orange bell pepper",
       "prep": null,
       "note": null
     },
     {
-      "raw": "3 hot red peppers",
-      "qty": 3,
+      "raw": "3 hot red chile peppers (such as Fresno), stemmed",
+      "qty": 3.0,
       "qtyMax": null,
       "unit": null,
-      "item": "hot red peppers",
-      "prep": null,
+      "item": "hot red chile peppers",
+      "prep": "stemmed",
+      "note": "such as Fresno"
+    },
+    {
+      "raw": "1 scotch bonnet pepper, stemmed",
+      "qty": 1.0,
+      "qtyMax": null,
+      "unit": null,
+      "item": "scotch bonnet pepper",
+      "prep": "stemmed",
       "note": null
     },
     {
-      "raw": "1 scotch bonnet",
-      "qty": 1,
+      "raw": "Kosher salt, to taste",
+      "qty": null,
       "qtyMax": null,
       "unit": null,
-      "item": "scotch bonnet",
+      "item": null,
       "prep": null,
       "note": null
     },
@@ -122,29 +131,38 @@
       "note": null
     },
     {
-      "raw": "6 boneless, skin-on chicken thighs",
-      "qty": 6,
+      "raw": "6 boneless skin-on chicken thighs",
+      "qty": 6.0,
       "qtyMax": null,
       "unit": null,
-      "item": "boneless, skin-on chicken thighs",
+      "item": "boneless skin-on chicken thighs",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Kosher salt and black pepper",
-      "qty": null,
+      "raw": "1 tsp kosher salt",
+      "qty": 1.0,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "kosher salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Vegetable oil",
-      "qty": null,
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp vegetable oil",
+      "qty": 1.0,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
       "prep": null,
       "note": null
     },
@@ -177,7 +195,7 @@
     },
     {
       "raw": "1 tsp mustard",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "mustard",
@@ -194,21 +212,39 @@
       "note": null
     },
     {
-      "raw": "2 tbsp each chopped parsley, dill and chives",
-      "qty": 2,
+      "raw": "2 tbsp chopped fresh parsley",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "each chopped parsley, dill and chives",
+      "item": "chopped fresh parsley",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 garlic clove, microplaned",
-      "qty": 1,
+      "raw": "2 tbsp chopped fresh dill",
+      "qty": 2.0,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chopped fresh dill",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp chopped fresh chives",
+      "qty": 2.0,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chopped fresh chives",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 garlic clove, finely grated",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
-      "item": "garlic clove, microplaned",
-      "prep": null,
+      "item": "garlic clove",
+      "prep": "finely grated",
       "note": null
     },
     {
@@ -221,11 +257,11 @@
       "note": null
     },
     {
-      "raw": "1/4 cup chopped jalapenos",
+      "raw": "1/4 cup chopped pickled jalapeños",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "chopped jalapenos",
+      "item": "chopped pickled jalapeños",
       "prep": null,
       "note": null
     },
@@ -248,25 +284,61 @@
       "note": null
     },
     {
-      "raw": "2 tbsp each chopped dill, parsley and chives",
-      "qty": 2,
+      "raw": "2 tbsp chopped fresh dill",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "each chopped dill, parsley and chives",
+      "item": "chopped fresh dill",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/4 sweet onion, sliced",
+      "raw": "2 tbsp chopped fresh parsley",
+      "qty": 2.0,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chopped fresh parsley",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp chopped fresh chives",
+      "qty": 2.0,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chopped fresh chives",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 sweet onion, thinly sliced",
       "qty": 0.25,
       "qtyMax": null,
       "unit": null,
       "item": "sweet onion",
-      "prep": "sliced",
+      "prep": "thinly sliced",
       "note": null
     },
     {
-      "raw": "Olive oil and lemon juice, to dress",
+      "raw": "1 tbsp olive oil",
+      "qty": 1.0,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp lemon juice",
+      "qty": 1.0,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "To serve:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -275,7 +347,16 @@
       "note": null
     },
     {
-      "raw": "Hawaiian rolls, to serve",
+      "raw": "12 Hawaiian sweet rolls, split",
+      "qty": 12.0,
+      "qtyMax": null,
+      "unit": null,
+      "item": "Hawaiian sweet rolls",
+      "prep": "split",
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -285,15 +366,28 @@
     }
   ],
   "steps": [
-    "Add the peppers, vinegar and garlic to a food processor and pulse to a medium coarse consistency.",
-    "In a medium pot over medium heat, combine the honey and the pepper mixture. Bring to a boil and cook until reduced by half. Taste and adjust with vinegar and salt.",
-    "Heat the oven to 400F. Season the chicken thighs on both sides, drizzle with oil, and bake 10 to 15 minutes until the skin starts to turn golden.",
-    "Spoon the agrodulce over the top and bake another 5 minutes until the sauce is sticky and reduced.",
-    "Rest the chicken 5 minutes, then slice.",
-    "Whisk all the ranch ingredients together and season.",
-    "Toss the slaw ingredients with a drizzle of olive oil, lemon juice, salt and pepper.",
-    "Build on Hawaiian rolls: ranch, chicken, extra agrodulce, then slaw."
+    "Agrodulce: pulse the peppers, vinegar, and garlic in a food processor to a medium-coarse texture.",
+    "In a medium pot over medium heat, combine the honey and pepper mixture. Bring to a boil and cook, stirring often and watching for boil-overs, until reduced by half. Taste and adjust with more vinegar and salt.",
+    "Preheat the oven to 400°F. Put the chicken skin side up in a baking dish, season both sides with the salt and pepper, and drizzle with the oil. Bake until the skin starts to turn golden, 10 to 15 minutes.",
+    "Spoon agrodulce over the chicken and bake until the sauce is sticky and the thickest thigh reads 165°F, about 5 minutes more.",
+    "Rest the chicken 5 minutes, then cut each thigh in half.",
+    "Ranch: whisk the mayonnaise, sour cream, mustard, lemon zest and juice, parsley, dill, chives, and grated garlic. Season with salt and pepper.",
+    "Slaw: toss the jalapeños, yellow peppers, pickles, dill, parsley, chives, and onion with the olive oil and lemon juice. Season with salt and pepper.",
+    "Build each slider: ranch on the roll, a piece of chicken, a spoonful of extra agrodulce, then slaw."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "If the thighs have not reached 165°F after the glaze goes on, keep baking a few minutes more before resting them.",
+    "Wear gloves when handling the scotch bonnet, and seed it for less heat.",
+    "The agrodulce makes far more than 6 thighs need; refrigerate the rest in a jar for other uses.",
+    "In the video, Matty finishes the sliders with toasted sesame seeds and extra pickled peppers."
+  ],
+  "references": [
+    {
+      "url": "https://www.youtube.com/watch?v=tx0oB53XoPE",
+      "site": "YouTube: Cookin' Somethin' w/ Matty Matheson",
+      "title": "Hot Honey Chicken Sliders Make Me Feel Things",
+      "usedFor": "full ingredient list with amounts and the cooking method, from the video description",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

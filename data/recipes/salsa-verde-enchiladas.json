@@ -3,104 +3,104 @@
   "name": "Salsa Verde Enchiladas",
   "category": "Dinner",
   "emoji": "🫔",
-  "desc": "Black bean and poblano enchiladas smothered in green salsa and cheese",
+  "desc": "Flour tortillas spread with mashed black beans, filled with poblano, tomato, and whole beans, baked under green salsa and Monterey Jack.",
   "time": "35 min",
   "minutes": 35,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.hellofresh.com/recipes/salsa-verde-enchiladas-5b1fee3aae08b50d121a7cc2",
+    "site": "HelloFresh",
+    "title": "Salsa Verde Enchiladas with Poblano Pepper, Black Beans & Monterey Jack Cheese",
+    "matchType": "original",
+    "evidence": "Same meal-kit amounts (13.4 oz black beans, 1 tbsp Southwest Spice Blend, 6 flour tortillas, 7 oz green salsa, 1/4 cup Monterey Jack, 2 tbsp sour cream) and the same 475°F top-rack bake with a spiced sour cream crema.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 2,
+    "basis": "publisher",
+    "source": "https://www.hellofresh.com/recipes/salsa-verde-enchiladas-5b1fee3aae08b50d121a7cc2"
   },
   "ingredients": [
     {
-      "raw": "1 poblano pepper",
+      "raw": "1 poblano pepper, cored, seeded, and diced",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "poblano pepper",
-      "prep": null,
+      "prep": "cored, seeded, and diced",
       "note": null
     },
     {
-      "raw": "1 Roma tomato",
+      "raw": "1 Roma tomato, finely diced",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "Roma tomato",
-      "prep": null,
+      "prep": "finely diced",
       "note": null
     },
     {
-      "raw": "2 scallions",
+      "raw": "2 scallions, thinly sliced, whites and greens separated",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
       "item": "scallions",
-      "prep": null,
+      "prep": "thinly sliced, whites and greens separated",
       "note": null
     },
     {
-      "raw": "13.4 oz black beans",
-      "qty": 13.4,
+      "raw": "1 (13.4 oz) carton black beans, drained with liquid reserved",
+      "qty": 1,
       "qtyMax": null,
-      "unit": "oz",
+      "unit": "package",
       "item": "black beans",
-      "prep": null,
-      "note": null
+      "prep": "drained with liquid reserved",
+      "note": "13.4 oz carton; a 15 oz can works"
     },
     {
-      "raw": "1 chili pepper",
+      "raw": "1 small fresh chili pepper (such as jalapeño or Fresno), thinly sliced",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "chili pepper",
-      "prep": null,
-      "note": null
+      "item": "small fresh chili pepper",
+      "prep": "thinly sliced",
+      "note": "such as jalapeño or Fresno"
     },
     {
-      "raw": "1 tbsp Southwest spice blend",
+      "raw": "1 tbsp HelloFresh Southwest Spice Blend (or 1 tbsp taco seasoning), divided",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "Southwest spice blend",
-      "prep": null,
-      "note": null
+      "item": "Southwest Spice Blend",
+      "prep": "divided",
+      "note": "or taco seasoning"
     },
     {
-      "raw": "6 flour tortillas",
+      "raw": "6 (6-inch) flour tortillas",
       "qty": 6,
       "qtyMax": null,
       "unit": null,
       "item": "flour tortillas",
       "prep": null,
-      "note": null
+      "note": "6-inch"
     },
     {
-      "raw": "7 oz green salsa",
+      "raw": "7 oz mild green salsa (salsa verde)",
       "qty": 7,
       "qtyMax": null,
       "unit": "oz",
-      "item": "green salsa",
+      "item": "mild green salsa",
       "prep": null,
-      "note": null
+      "note": "salsa verde"
     },
     {
-      "raw": "1/4 cup Monterey Jack cheese",
+      "raw": "1/4 cup shredded Monterey Jack cheese",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
       "item": "Monterey Jack cheese",
-      "prep": null,
+      "prep": "shredded",
       "note": null
     },
     {
@@ -122,16 +122,16 @@
       "note": null
     },
     {
-      "raw": "1 tbsp butter",
+      "raw": "1 tbsp unsalted butter",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "butter",
+      "item": "unsalted butter",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Salt and black pepper, to taste",
+      "raw": "Kosher salt and black pepper, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -141,13 +141,25 @@
     }
   ],
   "steps": [
-    "Preheat oven to 475°F. Dice poblano, tomato. Slice scallions. Drain beans, reserving the liquid. Thinly slice the chili. Set aside 1/2 tsp of the Southwest spice for the crema.",
-    "Sauté poblano in half the oil until softened. Add tomato, scallion whites, half the beans, bean liquid, and the remaining spice.",
-    "Cook the remaining beans in the rest of the oil 2-3 min, add 3 tbsp bean liquid, then stir in the butter and mash until smooth.",
-    "Spread tortillas with mashed beans and filling. Roll up, place seam-down in baking dish.",
-    "Top with salsa and cheese. Bake on top rack 3-5 minutes until bubbly.",
-    "Mix sour cream with reserved spice and warm water for crema. Drizzle over enchiladas and top with scallion greens and chili."
+    "Adjust a rack to the top position and preheat the oven to 475°F. Prep the poblano, tomato, scallions, and chili. Drain the beans over a small bowl, keeping the liquid.",
+    "Set aside 1/2 tsp of the Southwest spice in a small bowl for the crema.",
+    "Heat a drizzle of the oil in a large pan over medium-high heat. Cook the poblano until just softened, 3-4 min.",
+    "Add the tomato, scallion whites, half the beans, 2 tbsp reserved bean liquid, and the rest of the Southwest spice. Cook, stirring, until fragrant and warmed through, 2-3 min. Season with salt and pepper.",
+    "Heat the remaining oil in a small pot over medium-high heat. Add the rest of the beans and cook until slightly softened, 2-3 min. Add 3 tbsp reserved bean liquid and simmer 1-2 min.",
+    "Reduce the heat to low, stir in the butter, turn off the heat, and mash with a fork or potato masher until mostly smooth. Season well with salt and pepper.",
+    "Spread each tortilla with mashed beans, spoon some filling onto one half, and roll up from the filled side. Place seam side down in an 8x11 in baking dish.",
+    "Spoon enough salsa over to coat generously and sprinkle with the Monterey Jack. Bake on the top rack until the salsa bubbles and the cheese melts, 3-5 min.",
+    "Meanwhile, stir the sour cream into the reserved spice, adding warm water 1 tsp at a time until it drizzles. Season with salt and pepper.",
+    "Drizzle the enchiladas with the crema and top with the scallion greens and as much sliced chili as you like."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.hellofresh.com/recipes/salsa-verde-enchiladas-5b1fee3aae08b50d121a7cc2",
+      "site": "HelloFresh",
+      "title": "Salsa Verde Enchiladas with Poblano Pepper, Black Beans & Monterey Jack Cheese",
+      "usedFor": "bean liquid amounts, cook times, 8x11 baking dish, crema method",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

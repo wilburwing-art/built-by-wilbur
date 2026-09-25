@@ -1,0 +1,154 @@
+{
+  "slug": "high-protein-loaded-nacho-fries",
+  "name": "High Protein Loaded Nacho Fries",
+  "category": "Sides & Snacks",
+  "emoji": "🍟",
+  "desc": "Air-fried russet fries piled with lean ground beef simmered in a cheesy taco sauce made from milk, broth and Velveeta.",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C_RfTh_SX5D/",
+    "site": "Instagram @ice.karimcooks",
+    "title": "High Protein Loaded Nacho Fries",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 3,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Fries:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 medium russet potatoes, cut into 1/4 inch fries",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium russet potatoes",
+      "prep": "cut into 1/4 inch fries",
+      "note": null
+    },
+    {
+      "raw": "Avocado oil spray",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp kosher salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Nacho beef:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "16 oz 93% lean ground beef",
+      "qty": 16,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "93% lean ground beef",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp kosher salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 (1 oz) packet taco seasoning",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "packet",
+      "item": "taco seasoning",
+      "prep": null,
+      "note": "1 oz packet"
+    },
+    {
+      "raw": "1/2 cup 2% milk (the creator uses Fairlife ultra-filtered)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "2% milk",
+      "prep": null,
+      "note": "the creator uses Fairlife ultra-filtered"
+    },
+    {
+      "raw": "1/2 cup low-sodium chicken or beef broth",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "low-sodium chicken or beef broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 slices Velveeta cheese singles",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "Velveeta cheese singles",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat the air fryer to 380°F. Spray the fries with avocado oil and toss with the salt.",
+    "Air fry in a single layer, in batches, for 12 to 15 min, flipping halfway, until golden and crisp.",
+    "While the fries cook, brown the beef with the salt and pepper in a large nonstick skillet over medium-high heat, breaking it up, until no longer pink (160°F), 6 to 8 min.",
+    "Stir in the taco seasoning, milk and broth and bring to a simmer. Tear in the Velveeta slices and simmer, stirring, until the cheese melts and the sauce thickens and coats the beef, 3 to 5 min.",
+    "Divide the fries among 3 plates and spoon the nacho beef over the top."
+  ],
+  "tips": [
+    "About 458 calories and 41 g protein per serving, for 3 servings, per the creator.",
+    "The creator tops these with a yogurt ranch from his cookbook; the fries can also be baked instead of air fried."
+  ],
+  "references": [
+    {
+      "url": "https://www.loveandlemons.com/air-fryer-french-fries/",
+      "site": "Love and Lemons",
+      "title": "Air Fryer French Fries",
+      "usedFor": "fry cut size, air fryer temperature and time, cooking in a single layer in batches",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

@@ -3,46 +3,46 @@
   "name": "Cava Bowls",
   "category": "Lunch",
   "emoji": "🥗",
-  "desc": "Grilled chicken over rice and greens with harissa vinaigrette and tzatziki",
+  "desc": "Seasoned grilled chicken over greens and brown rice with feta, hummus, tzatziki, and harissa vinaigrette.",
   "time": "40 min",
   "minutes": 40,
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://onebalancedlife.com/copycat-cava-bowl/",
+    "site": "One Balanced Life",
+    "title": "Copycat CAVA Bowl",
+    "matchType": "closest",
+    "evidence": "Same creator's copycat CAVA bowl with an identical harissa vinaigrette and bowl build; the site version swaps the harissa-honey thigh marinade for thin-sliced breast seasoned with Primal Palate seasoning, as in a saved copy on umami.recipes.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "2 cups green leaf lettuce",
-      "qty": 2,
+      "raw": "Chicken:",
+      "qty": null,
       "qtyMax": null,
-      "unit": "cup",
-      "item": "green leaf lettuce",
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 lb thin-sliced chicken breast",
-      "qty": 1,
+      "raw": "1 lb thin-sliced boneless skinless chicken breast",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "lb",
-      "item": "thin-sliced chicken breast",
+      "item": "thin-sliced boneless skinless chicken breast",
       "prep": null,
       "note": null
     },
     {
       "raw": "3 tbsp Primal Palate Meat & Potatoes Seasoning",
-      "qty": 3,
+      "qty": 3.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "Primal Palate Meat & Potatoes Seasoning",
@@ -50,111 +50,12 @@
       "note": null
     },
     {
-      "raw": "2 tbsp crumbled feta",
-      "qty": 2,
+      "raw": "1 tsp vegetable oil, for the grill pan",
+      "qty": 1.0,
       "qtyMax": null,
-      "unit": "tbsp",
-      "item": "crumbled feta",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1 tbsp red pepper hummus",
-      "qty": 1,
-      "qtyMax": null,
-      "unit": "tbsp",
-      "item": "red pepper hummus",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1 tbsp tzatziki",
-      "qty": 1,
-      "qtyMax": null,
-      "unit": "tbsp",
-      "item": "tzatziki",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1/2 cup brown rice",
-      "qty": 0.5,
-      "qtyMax": null,
-      "unit": "cup",
-      "item": "brown rice",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1/2 cup cherry tomatoes, chopped",
-      "qty": 0.5,
-      "qtyMax": null,
-      "unit": "cup",
-      "item": "cherry tomatoes",
-      "prep": "chopped",
-      "note": null
-    },
-    {
-      "raw": "1/2 cup cucumber, chopped",
-      "qty": 0.5,
-      "qtyMax": null,
-      "unit": "cup",
-      "item": "cucumber",
-      "prep": "chopped",
-      "note": null
-    },
-    {
-      "raw": "1 tbsp extra virgin olive oil",
-      "qty": 1,
-      "qtyMax": null,
-      "unit": "tbsp",
-      "item": "extra virgin olive oil",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1 dash sea salt",
-      "qty": 1,
-      "qtyMax": null,
-      "unit": "dash",
-      "item": "sea salt",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1 tbsp fresh cilantro (optional)",
-      "qty": 1,
-      "qtyMax": null,
-      "unit": "tbsp",
-      "item": "fresh cilantro",
-      "prep": null,
-      "note": "optional"
-    },
-    {
-      "raw": "1/4 cup pickled red onions",
-      "qty": 0.25,
-      "qtyMax": null,
-      "unit": "cup",
-      "item": "pickled red onions",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1 pinch red pepper flakes",
-      "qty": 1,
-      "qtyMax": null,
-      "unit": "pinch",
-      "item": "red pepper flakes",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "Pita bread, for serving (optional)",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
+      "unit": "tsp",
+      "item": "vegetable oil",
+      "prep": "for the grill pan",
       "note": null
     },
     {
@@ -167,17 +68,17 @@
       "note": null
     },
     {
-      "raw": "1/4 cup harissa (Trader Joe's)",
+      "raw": "1/4 cup harissa paste (the creator uses Trader Joe's)",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "harissa",
+      "item": "harissa paste",
       "prep": null,
-      "note": "Trader Joe's"
+      "note": "the creator uses Trader Joe's"
     },
     {
       "raw": "2 tbsp red wine vinegar",
-      "qty": 2,
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "red wine vinegar",
@@ -185,30 +86,30 @@
       "note": null
     },
     {
-      "raw": "1/4 cup olive oil",
+      "raw": "1/4 cup extra-virgin olive oil",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "olive oil",
+      "item": "extra-virgin olive oil",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/4 cup water",
+      "raw": "1/4 cup water, plus more to thin",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
       "item": "water",
-      "prep": null,
+      "prep": "plus more to thin",
       "note": null
     },
     {
-      "raw": "2 garlic cloves",
-      "qty": 2,
+      "raw": "2 garlic cloves, peeled",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": null,
       "item": "garlic cloves",
-      "prep": null,
+      "prep": "peeled",
       "note": null
     },
     {
@@ -216,18 +117,172 @@
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "plus 1 tsp honey",
+      "item": "honey",
+      "prep": null,
+      "note": "plus 1 tsp"
+    },
+    {
+      "raw": "1 pinch fine sea salt",
+      "qty": 1.0,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "fine sea salt",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "Bowls:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "8 cups chopped green leaf lettuce",
+      "qty": 8.0,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chopped green leaf lettuce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups cooked brown rice",
+      "qty": 2.0,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cooked brown rice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups cherry tomatoes, chopped",
+      "qty": 2.0,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cherry tomatoes",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "2 cups chopped cucumber",
+      "qty": 2.0,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chopped cucumber",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup extra-virgin olive oil",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "extra-virgin olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp fine sea salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup pickled red onions",
+      "qty": 1.0,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "pickled red onions",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup crumbled feta",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "crumbled feta",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup red pepper hummus",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "red pepper hummus",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup tzatziki",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "tzatziki",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup chopped fresh cilantro (optional)",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chopped fresh cilantro",
+      "prep": null,
+      "note": "optional"
+    },
+    {
+      "raw": "1/4 tsp red pepper flakes",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 pita breads, warmed (optional)",
+      "qty": 4.0,
+      "qtyMax": null,
+      "unit": null,
+      "item": "pita breads",
+      "prep": "warmed",
+      "note": "optional"
     }
   ],
   "steps": [
-    "Blend all harissa vinaigrette ingredients. Set aside (add water for desired consistency).",
-    "Season chicken on both sides with seasoning. Grill on a hot pan until cooked through.",
-    "Toss cucumber and tomatoes with olive oil and sea salt.",
-    "Assemble bowls: lettuce, rice, cucumber-tomato mix, pickled onions, feta, and chicken. Add hummus and tzatziki. Top with cilantro and red pepper flakes.",
-    "Drizzle with harissa vinaigrette. Serve with pita."
+    "Vinaigrette: blend the harissa, vinegar, olive oil, water, garlic, honey, and salt until smooth. Add more water a tablespoon at a time if it is too thick. Set aside.",
+    "Pat the chicken dry and season both sides with the Meat & Potatoes seasoning.",
+    "Heat a grill pan or skillet over medium-high heat and brush with the vegetable oil. Cook the chicken until browned and 165°F in the thickest part, 3 to 4 minutes per side. Rest 5 minutes, then slice.",
+    "Toss the cucumber and tomatoes with the olive oil and sea salt.",
+    "Divide the lettuce and rice among 4 bowls. Add the cucumber-tomato mix, pickled onions, feta, and chicken, then a scoop each of hummus and tzatziki.",
+    "Top with cilantro and red pepper flakes, drizzle with the vinaigrette, and serve with pita on the side."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The original lists the bowl toppings for a single bowl alongside 1 lb of chicken; the bowl amounts here are multiplied by four so all the chicken gets used.",
+    "Brown rice takes 30 minutes or more to cook, so make it ahead; the 40 minute total assumes it is ready."
+  ],
+  "references": [
+    {
+      "url": "https://www.umami.recipes/recipe/dIPBYDaO68wLn1VNTgUD",
+      "site": "umami.recipes",
+      "title": "Copycat CAVA Bowl",
+      "usedFor": "confirmed the Primal Palate chicken version, vinaigrette amounts, and bowl build",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://onebalancedlife.com/copycat-cava-bowl/",
+      "site": "One Balanced Life",
+      "title": "Copycat CAVA Bowl",
+      "usedFor": "vinaigrette salt, chicken cooked to 165°F and rested",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

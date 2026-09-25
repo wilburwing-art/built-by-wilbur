@@ -3,22 +3,22 @@
   "name": "French Toast",
   "category": "Breakfast",
   "emoji": "🍞",
-  "desc": "Classic custard-dipped thick bread, golden on the griddle",
-  "time": "15 min",
-  "minutes": 15,
+  "desc": "Thick bread soaked in a flour-thickened cinnamon vanilla custard and griddled golden.",
+  "time": "25 min",
+  "minutes": 25,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/16895/fluffy-french-toast/",
+    "site": "Allrecipes",
+    "title": "Fluffy French Toast",
+    "matchType": "closest",
+    "evidence": "Identical ingredient list and amounts (1/4 cup flour, 1 cup milk, 3 eggs, 1/2 tsp cinnamon, 1 tsp vanilla, 1 tbsp sugar, pinch of salt, 12 thick slices), read through a Punchfork copy because allrecipes.com blocked direct reads.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 6,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
@@ -32,29 +32,29 @@
       "note": null
     },
     {
-      "raw": "1 cup milk",
-      "qty": 1,
+      "raw": "1 cup whole milk",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "cup",
-      "item": "milk",
+      "item": "whole milk",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 pinch salt",
-      "qty": 1,
+      "raw": "1 pinch table salt",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "pinch",
-      "item": "salt",
+      "item": "table salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "3 eggs",
-      "qty": 3,
+      "raw": "3 large eggs",
+      "qty": 3.0,
       "qtyMax": null,
       "unit": null,
-      "item": "eggs",
+      "item": "large eggs",
       "prep": null,
       "note": null
     },
@@ -69,7 +69,7 @@
     },
     {
       "raw": "1 tsp vanilla extract",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "vanilla extract",
@@ -77,29 +77,63 @@
       "note": null
     },
     {
-      "raw": "1 tbsp white sugar",
-      "qty": 1,
+      "raw": "1 tbsp granulated sugar",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "white sugar",
+      "item": "granulated sugar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "12 thick slices bread",
-      "qty": 12,
+      "raw": "12 thick (3/4-inch) slices bread, such as Texas toast, brioche, or challah",
+      "qty": 12.0,
       "qtyMax": null,
       "unit": null,
       "item": "thick slices bread",
-      "prep": null,
+      "prep": "such as Texas toast, brioche, or challah",
+      "note": "3/4-inch"
+    },
+    {
+      "raw": "1 tbsp unsalted butter, for the griddle",
+      "qty": 1.0,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": "for the griddle",
       "note": null
     }
   ],
   "steps": [
-    "Whisk flour into a large bowl. Slowly whisk in milk. Whisk in salt, eggs, cinnamon, vanilla, and sugar until smooth.",
-    "Heat a lightly oiled griddle or frying pan over medium heat.",
-    "Soak bread slices in mixture until saturated. Cook each side until golden brown. Serve hot."
+    "Put the flour in a large bowl and slowly whisk in the milk until smooth. Whisk in the salt, eggs, cinnamon, vanilla, and sugar until smooth. Pour into a shallow dish.",
+    "Heat a griddle or large skillet over medium heat and grease it lightly with butter.",
+    "Soak each slice of bread until saturated but not falling apart, 5 to 10 seconds per side (up to 30 seconds for dry, thick challah or brioche).",
+    "Cook until golden brown, 3 to 4 minutes per side, adding butter to the griddle as needed. Serve hot."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Keep finished slices warm on a baking sheet in a 275°F oven while you cook the rest."
+  ],
+  "references": [
+    {
+      "url": "https://www.punchfork.com/recipe/Fluffy-French-Toast-Allrecipes",
+      "site": "Punchfork (copy of Allrecipes)",
+      "title": "Fluffy French Toast",
+      "usedFor": "confirmed ingredient amounts",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://web.archive.org/web/20260317113711/https://www.allrecipes.com/recipe/7016/french-toast-i/",
+      "site": "Allrecipes (Wayback Machine copy)",
+      "title": "French Toast",
+      "usedFor": "5 to 10 second soak, 3 to 4 minutes per side",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://natashaskitchen.com/french-toast-recipe/",
+      "site": "Natasha's Kitchen",
+      "title": "Easy French Toast Recipe",
+      "usedFor": "longer soak for thick bread, keeping warm at 275°F",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

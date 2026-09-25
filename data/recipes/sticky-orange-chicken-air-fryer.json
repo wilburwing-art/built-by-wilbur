@@ -1,0 +1,292 @@
+{
+  "slug": "sticky-orange-chicken-air-fryer",
+  "name": "Sticky Orange Chicken (Air Fryer)",
+  "category": "Dinner",
+  "emoji": "🍊",
+  "desc": "Crispy air-fried chicken breast bites tossed in a light, sticky orange and sweet chili sauce.",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C69VkHeAM3k/",
+    "site": "Instagram @fitfoodiestasia",
+    "title": "Sticky Orange Chicken",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 2,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Crispy chicken:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "16 oz boneless skinless chicken breast, cut into 1-inch cubes",
+      "qty": 16,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "boneless skinless chicken breast",
+      "prep": "cut into 1-inch cubes",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp baking soda",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tbsp (7g) cornstarch",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": "7g"
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp paprika",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp kosher salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp ground ginger",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground ginger",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp red pepper flakes",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Zero-calorie cooking spray",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sticky orange sauce:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup fresh orange juice (from 1/2 large orange)",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh orange juice",
+      "prep": null,
+      "note": "from 1/2 large orange"
+    },
+    {
+      "raw": "2 tbsp rice vinegar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "rice vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp low-sodium soy sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "low-sodium soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tbsp Thai sweet chili sauce",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Thai sweet chili sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp zero-calorie granulated sugar substitute",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "zero-calorie granulated sugar substitute",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp cornstarch",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp toasted sesame oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "toasted sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 garlic clove, minced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic clove",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp kosher salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp ground ginger",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground ginger",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tbsp red pepper flakes",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "To serve:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup uncooked jasmine rice, cooked (optional)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "uncooked jasmine rice",
+      "prep": "cooked",
+      "note": "optional"
+    },
+    {
+      "raw": "1 orange, sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "orange",
+      "prep": "sliced",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat the air fryer to 400°F.",
+    "Toss the chicken with the baking soda, cornstarch, pepper, paprika, salt, ginger, garlic powder and red pepper flakes. Spray all sides generously with cooking spray.",
+    "Air fry in a single layer about 14 minutes, shaking the basket halfway, until golden and the thickest piece reads 165°F.",
+    "Meanwhile, whisk all the sauce ingredients together until the cornstarch dissolves.",
+    "Pour the sauce into a nonstick pan over medium heat and cook, stirring constantly, until thick and glossy, about 5 minutes.",
+    "Toss the chicken in the sauce. Serve over rice with orange slices."
+  ],
+  "tips": [
+    "Baking soda on the chicken helps it brown and stay tender.",
+    "The two red pepper flake amounts make it spicy; halve them for mild.",
+    "Most published air fryer orange chicken sweetens with honey instead of a sugar substitute (Supergolden Bakes uses 1/4 cup honey); 1 to 2 tbsp honey works here if you prefer.",
+    "Macros per half, without rice: 322 cal, 51.6g protein. With rice: 492 cal, 55.6g protein."
+  ],
+  "references": [
+    {
+      "url": "https://www.supergoldenbakes.com/air-fryer-orange-chicken/",
+      "site": "Supergolden Bakes",
+      "title": "Air Fryer Orange Chicken",
+      "usedFor": "400°F air fryer preheat, single layer and shaking the basket, honey alternative",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

@@ -3,45 +3,45 @@
   "name": "Golden Fried Rice",
   "category": "Dinner",
   "emoji": "🍳",
-  "desc": "Every grain coated in egg yolk before it hits the wok",
-  "time": "20 min",
-  "minutes": 20,
+  "desc": "Cold rice coated grain by grain in egg yolk before it hits a smoking wok, so it fries up golden.",
+  "time": "15 min",
+  "minutes": 15,
   "difficulty": "Medium",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://thewoksoflife.com/golden-fried-rice/",
+    "site": "The Woks of Life",
+    "title": "Golden Fried Rice",
+    "matchType": "original",
+    "evidence": "Every ingredient and amount matches the Woks of Life recipe card (2 cups rice, 4 egg yolks, 1/2 tsp sea salt, 1/8 tsp turmeric, 3 tbsp oil, 1/2 cup choy sum stems) and the three steps are the same text.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 2,
+    "basis": "publisher",
+    "source": "https://thewoksoflife.com/golden-fried-rice/"
   },
   "ingredients": [
     {
-      "raw": "2 cups cooked white rice (refrigerated overnight)",
+      "raw": "2 cups cooked white rice, refrigerated overnight",
       "qty": 2,
       "qtyMax": null,
       "unit": "cup",
-      "item": "cooked white rice (refrigerated overnight)",
-      "prep": null,
+      "item": "cooked white rice",
+      "prep": "refrigerated overnight",
       "note": null
     },
     {
-      "raw": "4 egg yolks",
+      "raw": "4 large egg yolks",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
-      "item": "egg yolks",
+      "item": "large egg yolks",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 teaspoon sea salt (or to taste)",
+      "raw": "1/2 tsp sea salt, or to taste",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
@@ -50,43 +50,43 @@
       "note": "or to taste"
     },
     {
-      "raw": "1 teaspoon Shaoxing wine (or dry cooking sherry)",
+      "raw": "1 tsp Shaoxing wine (or dry sherry)",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "Shaoxing wine (or dry cooking sherry)",
+      "item": "Shaoxing wine",
       "prep": null,
-      "note": null
+      "note": "or dry sherry"
     },
     {
-      "raw": "1/4 teaspoon white pepper",
+      "raw": "1/4 tsp ground white pepper",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "white pepper",
+      "item": "ground white pepper",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 teaspoon sesame oil",
+      "raw": "1/2 tsp toasted sesame oil",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "sesame oil",
+      "item": "toasted sesame oil",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/8 teaspoon turmeric (optional)",
+      "raw": "1/8 tsp ground turmeric (optional)",
       "qty": 0.125,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "turmeric (optional)",
+      "item": "ground turmeric",
       "prep": null,
-      "note": null
+      "note": "optional"
     },
     {
-      "raw": "3 tablespoons vegetable oil",
+      "raw": "3 tbsp vegetable oil",
       "qty": 3,
       "qtyMax": null,
       "unit": "tbsp",
@@ -95,29 +95,40 @@
       "note": null
     },
     {
-      "raw": "1/2 cup choy sum stems (or asparagus, broccoli stems, gai lan stems, etc.)",
+      "raw": "1/2 cup choy sum stems, diced (or asparagus, broccoli stems, or gai lan stems)",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "choy sum stems (or asparagus, broccoli stems, gai lan stems, etc.)",
-      "prep": null,
-      "note": null
+      "item": "choy sum stems",
+      "prep": "diced",
+      "note": "or asparagus, broccoli stems, or gai lan stems"
     },
     {
-      "raw": "1 scallion (finely chopped)",
+      "raw": "1 scallion, finely chopped",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "scallion (finely chopped)",
-      "prep": null,
+      "item": "scallion",
+      "prep": "finely chopped",
       "note": null
     }
   ],
   "steps": [
-    "In a medium bowl, add the cooked white rice, egg yolks, salt, Shaoxing wine, white pepper, sesame oil, and turmeric (if using). Mix until every grain of rice is well-coated. There should be no lumps or chunks of rice.",
-    "Preheat a wok over high heat until it starts to smoke. Add the oil, and swirl it around the perimeter of the wok.",
-    "Add the rice, and stir-fry continuously for 1-2 minutes. Add the vegetables, and continue stir-frying. Once the rice grains are dry and start to pop around in the wok, taste and add an additional pinch of salt if needed. (A pinch of extra salt really brings out the flavor of this golden fried rice.) Stir in the scallions, and serve immediately."
+    "In a medium bowl, combine the rice, egg yolks, salt, Shaoxing wine, white pepper, sesame oil, and turmeric (if using). Mix until every grain is coated and there are no clumps left.",
+    "Heat a wok over high heat until it starts to smoke. Add the oil and swirl it around the sides.",
+    "Add the rice and stir-fry continuously for 1-2 minutes. Add the vegetable stems and keep stir-frying.",
+    "Once the grains are dry and start to jump in the wok, taste and add a pinch more salt if needed. Stir in the scallion and serve immediately."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Cook the rice a day ahead and refrigerate it uncovered or loosely covered; cold, dry rice separates into single grains."
+  ],
+  "references": [
+    {
+      "url": "https://thewoksoflife.com/golden-fried-rice/",
+      "site": "The Woks of Life",
+      "title": "Golden Fried Rice",
+      "usedFor": "servings and total time",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

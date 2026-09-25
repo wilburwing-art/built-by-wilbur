@@ -3,68 +3,86 @@
   "name": "Neapolitan Pizza Sauce",
   "category": "Sides & Snacks",
   "emoji": "🥫",
-  "desc": "Crushed San Marzano tomatoes, salt, basil and oil. Nothing cooked",
+  "desc": "Uncooked pizza sauce of hand-crushed San Marzano tomatoes, salt, basil, and olive oil.",
   "time": "5 min",
   "minutes": 5,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://theclevermeal.com/easy-pizza-sauce/",
+    "site": "The Clever Meal",
+    "title": "Neapolitan Pizza Sauce (Italian no-cook recipe)",
+    "matchType": "closest",
+    "evidence": "Same no-cook method from one 400 g can of whole tomatoes crushed by hand, with salt, torn basil, and 1 tbsp olive oil; it adds a little dried oregano.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "One 400 g (14 oz) can whole peeled tomatoes, preferably San Marzano",
-      "qty": null,
+      "raw": "1 (400 g / 14 oz) can whole peeled tomatoes, preferably San Marzano",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
+      "unit": "can",
+      "item": "whole peeled tomatoes",
+      "prep": "preferably San Marzano",
+      "note": "400 g / 14 oz"
     },
     {
-      "raw": "4 g (a little under 1 tsp) sea salt",
+      "raw": "4 g fine sea salt (a little under 1 tsp)",
       "qty": 4,
       "qtyMax": null,
       "unit": "g",
-      "item": "(a little under 1 tsp) sea salt",
+      "item": "fine sea salt",
       "prep": null,
-      "note": null
+      "note": "a little under 1 tsp"
     },
     {
-      "raw": "3 to 4 leaves fresh basil",
+      "raw": "3-4 fresh basil leaves",
       "qty": 3,
       "qtyMax": 4,
       "unit": null,
-      "item": "leaves fresh basil",
+      "item": "fresh basil leaves",
       "prep": null,
       "note": null
     },
     {
-      "raw": "15 g (1 tbsp) extra virgin olive oil",
+      "raw": "15 g (1 tbsp) extra-virgin olive oil",
       "qty": 15,
       "qtyMax": null,
       "unit": "g",
-      "item": "(1 tbsp) extra virgin olive oil",
+      "item": "extra-virgin olive oil",
       "prep": null,
-      "note": null
+      "note": "1 tbsp"
     }
   ],
   "steps": [
-    "Crush the tomatoes by hand or pass them through a food mill. Do not use a blender, which aerates the sauce and turns it pale.",
-    "Stir in the salt.",
-    "Tear in the basil and add the olive oil.",
-    "Use raw. It cooks on the pizza. This makes enough for 4 to 5 pizzas."
+    "Empty the tomatoes into a bowl and pick out any hard cores or packed basil leaves.",
+    "Crush the tomatoes by hand or pass them through a food mill until broken down but not smooth. Do not use a blender, which aerates the sauce and turns it pale.",
+    "Stir in the salt, tear in the basil, and stir in the olive oil.",
+    "Use it raw; it cooks on the pizza. This makes enough for 4 to 5 pizzas."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Cozy Italian Kitchen pours off the watery juice at the top of the can first to keep the pizza from going soggy, and lets the sauce rest 30 minutes before using.",
+    "The Clever Meal adds 1/4 tsp dried oregano."
+  ],
+  "references": [
+    {
+      "url": "https://theclevermeal.com/easy-pizza-sauce/",
+      "site": "The Clever Meal",
+      "title": "Neapolitan Pizza Sauce (Italian no-cook recipe)",
+      "usedFor": "400 g can, crush by hand, 1 tbsp oil, oregano variation",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://cozyitaliankitchen.com/neapolitan-pizza-sauce/",
+      "site": "Cozy Italian Kitchen",
+      "title": "Neapolitan Pizza Sauce",
+      "usedFor": "drain the watery juice, 30-minute rest",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

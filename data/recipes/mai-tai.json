@@ -3,27 +3,27 @@
   "name": "Mai Tai",
   "category": "Drinks",
   "emoji": "🍹",
-  "desc": "Two rums with pineapple and orange juice over crushed ice",
+  "desc": "Spiced rum and coconut rum shaken with pineapple and orange juice and a little grenadine.",
   "time": "5 min",
   "minutes": 5,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://oasis.ca/en/recipes/mai-tai/",
+    "site": "Oasis",
+    "title": "Mai Tai",
+    "matchType": "closest",
+    "evidence": "Same six ingredients (pineapple juice, orange juice, spiced rum, coconut rum, 1 tsp grenadine, 1 cup ice) and the same shake-and-strain method; Oasis uses twice the coconut rum.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 1,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "1.5 oz spiced rum",
+      "raw": "1 1/2 oz spiced rum",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "oz",
@@ -32,11 +32,11 @@
       "note": null
     },
     {
-      "raw": "3/4 oz coconut-flavoured rum",
+      "raw": "3/4 oz coconut rum",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "oz",
-      "item": "coconut-flavoured rum",
+      "item": "coconut rum",
       "prep": null,
       "note": null
     },
@@ -68,20 +68,31 @@
       "note": null
     },
     {
-      "raw": "1 cup ice cubes",
+      "raw": "1 cup ice cubes, plus more for serving",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
       "item": "ice cubes",
       "prep": null,
-      "note": null
+      "note": "plus more for serving"
     }
   ],
   "steps": [
-    "Combine the spiced rum, coconut rum, grenadine, pineapple juice and orange juice in a cocktail shaker full of ice.",
-    "Shake vigorously.",
-    "Strain into a glass full of fresh ice."
+    "Fill a cocktail shaker with the 1 cup ice. Add the spiced rum, coconut rum, grenadine, pineapple juice and orange juice.",
+    "Shake vigorously for about 10 seconds.",
+    "Strain into a tall glass full of fresh ice."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Oasis uses 1 1/2 oz coconut rum; this version halves it so the spiced rum leads.",
+    "This is the fruit-juice party version. The classic Trader Vic's Mai Tai is aged rum, lime, orange curaçao and orgeat with no pineapple or orange juice."
+  ],
+  "references": [
+    {
+      "url": "https://oasis.ca/en/recipes/mai-tai/",
+      "site": "Oasis",
+      "title": "Mai Tai",
+      "usedFor": "ingredient check, 10 second shake",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

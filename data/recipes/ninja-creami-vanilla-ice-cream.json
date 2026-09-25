@@ -3,25 +3,43 @@
   "name": "Ninja Creami Vanilla Ice Cream",
   "category": "Desserts",
   "emoji": "🍨",
-  "desc": "The reliable base. Cream cheese is what keeps it smooth instead of icy",
-  "time": "24 hrs",
-  "minutes": 1440,
+  "desc": "The reliable Ninja Creami base, kept smooth by a spoonful of cream cheese.",
+  "time": "24 hrs 10 min",
+  "minutes": 1450,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://bykelseysmith.com/ninja-creami-vanilla-ice-cream/",
+    "site": "By Kelsey Smith",
+    "title": "Ninja Creami Vanilla Ice Cream",
+    "matchType": "closest",
+    "evidence": "Same standard-pint amounts (1 tbsp cream cheese, 1/3 cup sugar, 1 tsp vanilla, 1 cup whole milk, 3/4 cup heavy cream) and the same microwave-the-cream-cheese method; this version adds a pinch of salt.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
+    {
+      "raw": "1 tbsp full-fat cream cheese, softened",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "full-fat cream cheese",
+      "prep": "softened",
+      "note": null
+    },
+    {
+      "raw": "1/3 cup granulated sugar",
+      "qty": 0.3333333333333333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
     {
       "raw": "1 cup whole milk",
       "qty": 1,
@@ -41,25 +59,7 @@
       "note": null
     },
     {
-      "raw": "1/3 cup granulated sugar",
-      "qty": 0.3333,
-      "qtyMax": null,
-      "unit": "cup",
-      "item": "granulated sugar",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1 tablespoon cream cheese, softened",
-      "qty": 1,
-      "qtyMax": null,
-      "unit": "tbsp",
-      "item": "cream cheese",
-      "prep": "softened",
-      "note": null
-    },
-    {
-      "raw": "1 teaspoon vanilla extract",
+      "raw": "1 tsp vanilla extract",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
@@ -68,22 +68,32 @@
       "note": null
     },
     {
-      "raw": "1 pinch salt",
+      "raw": "1 pinch fine salt",
       "qty": 1,
       "qtyMax": null,
       "unit": "pinch",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Cream the base: Microwave 1 tablespoon cream cheese, softened and 1/3 cup granulated sugar together for about 10 seconds  , then whisk into a smooth paste.",
-    "Mix in liquids: Add 1 cup whole milk, 3/4 cup heavy cream, 1 teaspoon vanilla extract, and 1 pinch salt. Whisk until the sugar is fully dissolved.",
-    "Freeze flat: Pour into a Creami pint container, seal, and freeze on a level surface for 24 hours.",
-    "Spin: Run the Ice Cream setting on your fully frozen pint.",
-    "Respin and add mix-ins: If it looks crumbly, run Re-spin once. To add chips or cookies, bore a hole in the center, add them, and run the Mix-In setting."
+    "Microwave the cream cheese in a large microwave-safe bowl for about 10 seconds, until soft. Add the sugar and mix with a spatula into a thick, smooth paste.",
+    "Whisk in the milk and cream a little at a time, then the vanilla and salt, until the sugar has fully dissolved.",
+    "Pour into a Ninja Creami pint, no higher than the max fill line. Lid it and freeze on a level surface for 24 hours.",
+    "Spin the fully frozen pint on the Ice Cream setting.",
+    "If it looks crumbly, run Re-spin once. For chips or cookies, dig a hole down the center to the bottom, add them, and run the Mix-In setting. Serve right away."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "For a Deluxe pint, By Kelsey Smith scales it to 1 1/2 tbsp cream cheese, 1/2 cup sugar, 1 1/2 tsp vanilla, and 1 1/3 cups each whole milk and heavy cream."
+  ],
+  "references": [
+    {
+      "url": "https://bykelseysmith.com/ninja-creami-vanilla-ice-cream/",
+      "site": "By Kelsey Smith",
+      "title": "Ninja Creami Vanilla Ice Cream",
+      "usedFor": "confirmed amounts, max fill line, re-spin and mix-in method, deluxe pint scaling, 4 servings",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

@@ -1,0 +1,100 @@
+{
+  "slug": "chopped-blt-sliders",
+  "name": "Chopped BLT Sliders",
+  "category": "Lunch",
+  "emoji": "🥓",
+  "desc": "Oven bacon, romaine and tomato chopped together with mayo and stuffed into Hawaiian sweet rolls.",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DMc9qJHgSJM/",
+    "site": "Instagram @cookinginthemidwest",
+    "title": "Chopped BLT Sliders",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 (12-count) package King's Hawaiian Original Sweet Rolls",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "package",
+      "item": "King's Hawaiian Original Sweet Rolls",
+      "prep": null,
+      "note": "12-count"
+    },
+    {
+      "raw": "1 (16 oz) package thick-cut bacon",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "package",
+      "item": "thick-cut bacon",
+      "prep": null,
+      "note": "16 oz"
+    },
+    {
+      "raw": "1 head romaine lettuce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "head",
+      "item": "romaine lettuce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large tomato, sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large tomato",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup mayonnaise, plus more to taste",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "mayonnaise",
+      "prep": "plus more to taste",
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 400°F and line a sheet pan with parchment paper. Lay out the bacon and bake about 25 min, until cooked to your liking. Drain off the grease and set the bacon on paper towels.",
+    "Carefully tear the rolls into rows of three. Slice into the tops of the rolls without cutting all the way through.",
+    "Lay the lettuce on a large cutting board and give it a quick chop. Chop the tomato slices the same way.",
+    "Add the bacon and chop everything together into small pieces with a large knife.",
+    "Drizzle with the mayonnaise, season with salt and pepper and stir well. Add more mayo if it seems dry.",
+    "Scoop the mixture into the rolls and serve right away."
+  ],
+  "tips": [
+    "Chop and mix right before serving so the lettuce stays crisp."
+  ],
+  "references": [
+    {
+      "url": "https://www.nutmegnanny.com/hawaiian-roll-blt-sliders/",
+      "site": "Nutmeg Nanny",
+      "title": "Hawaiian Roll BLT Sliders",
+      "usedFor": "mayonnaise amount for a 12-roll package",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

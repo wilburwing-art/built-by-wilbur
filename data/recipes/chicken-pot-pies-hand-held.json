@@ -3,28 +3,37 @@
   "name": "Chicken Pot Pies (Hand-Held)",
   "category": "Lunch",
   "emoji": "🥧",
-  "desc": "Biscuit dough wrapped around creamy chicken and veggie filling",
-  "time": "45 min",
-  "minutes": 45,
+  "desc": "Refrigerated biscuits folded around a creamy canned chicken and vegetable filling and baked until golden.",
+  "time": "55 min",
+  "minutes": 55,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.justapinch.com/recipes/easy-hand-held-chicken-pot-pies.html",
+    "site": "Just A Pinch",
+    "title": "Easy Hand-Held Chicken Pot Pies",
+    "matchType": "closest",
+    "evidence": "Same method and core list: frozen mixed vegetables microwaved with 2 tbsp water, onion, canned chicken, cream of chicken soup, and two cans of Grands biscuits folded and baked at 350°F for 30 to 35 minutes.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 8,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
+      "raw": "Cooking spray",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
       "raw": "1 (10 oz) package frozen mixed vegetables",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "package",
       "item": "frozen mixed vegetables",
@@ -33,7 +42,7 @@
     },
     {
       "raw": "2 tbsp water",
-      "qty": 2,
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "water",
@@ -41,17 +50,17 @@
       "note": null
     },
     {
-      "raw": "1 yellow onion, diced",
-      "qty": 1,
+      "raw": "1 medium yellow onion, diced",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
-      "item": "yellow onion",
+      "item": "medium yellow onion",
       "prep": "diced",
       "note": null
     },
     {
       "raw": "2 (10 oz) cans chunk chicken breast, drained",
-      "qty": 2,
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "can",
       "item": "chunk chicken breast",
@@ -60,7 +69,7 @@
     },
     {
       "raw": "1 (10.5 oz) can condensed cream of chicken soup",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "can",
       "item": "condensed cream of chicken soup",
@@ -68,11 +77,11 @@
       "note": "10.5 oz"
     },
     {
-      "raw": "1/2 tsp salt",
+      "raw": "1/2 tsp table salt",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "table salt",
       "prep": null,
       "note": null
     },
@@ -96,7 +105,7 @@
     },
     {
       "raw": "1 tbsp everything bagel seasoning",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "everything bagel seasoning",
@@ -105,21 +114,32 @@
     },
     {
       "raw": "2 (16.3 oz) cans refrigerated biscuits, 8 count each (16 biscuits)",
-      "qty": 2,
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "can",
       "item": "refrigerated biscuits",
-      "prep": "8 count each",
-      "note": "16.3 oz; 16 biscuits"
+      "prep": null,
+      "note": "16.3 oz; 8 count each (16 biscuits)"
     }
   ],
   "steps": [
-    "Preheat oven to 350°F. Spray a baking sheet.",
-    "Microwave mixed veggies with water 1-3 min. Drain.",
-    "Saute onion until soft. Add veggies, chicken, soup, and seasonings. Cook until heated through.",
-    "Flatten each biscuit into a circle. Place filling on one half, fold over, and seal edges with a fork.",
-    "Bake 30-35 minutes until golden."
+    "Preheat the oven to 350°F. Coat a large baking sheet with cooking spray.",
+    "Put the frozen vegetables and water in a microwave-safe bowl and microwave until warmed through, 1 to 3 minutes. Drain.",
+    "Coat a large skillet with cooking spray and set over medium heat. Cook the onion until soft, about 3 minutes.",
+    "Add the vegetables, chicken, soup, salt, pepper, garlic powder, and everything bagel seasoning. Cook and stir until heated through, 3 to 5 minutes. Remove from the heat.",
+    "Flatten each biscuit into a 5-inch circle with your fingertips. Spoon about 1/4 cup filling onto one half, fold the other half over, and press the edges with a fork to seal.",
+    "Set the pies on the baking sheet and bake until deep golden on top and bottom, 30 to 35 minutes."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Keep the filling off the edges of the dough or the seams will not seal and the filling will leak."
+  ],
+  "references": [
+    {
+      "url": "https://www.justapinch.com/recipes/easy-hand-held-chicken-pot-pies.html",
+      "site": "Just A Pinch",
+      "title": "Easy Hand-Held Chicken Pot Pies",
+      "usedFor": "onion cook time, filling heat time, sealing with a fork",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

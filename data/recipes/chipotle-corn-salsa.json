@@ -3,31 +3,40 @@
   "name": "Chipotle Corn Salsa",
   "category": "Sides & Snacks",
   "emoji": "🌽",
-  "desc": "Roasted poblano, jalapeno and corn with lemon and lime",
-  "time": "15 min",
-  "minutes": 15,
+  "desc": "Copycat Chipotle corn salsa with fire-roasted poblano, jalapeno, red onion, lemon, and lime.",
+  "time": "35 min",
+  "minutes": 35,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.culinaryhill.com/roasted-chili-corn-salsa-chipotle-copycat/",
+    "site": "Culinary Hill",
+    "title": "Chipotle Corn Salsa (Copycat)",
+    "matchType": "original",
+    "evidence": "Same eight ingredients in the same amounts (24 oz frozen corn, 1/2 cup red onion, 1 poblano, 2 jalapenos, 1/4 cup cilantro, 1 tbsp each lemon and lime) and the same cook-cool-combine method.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 10,
+    "basis": "publisher",
+    "source": "https://www.culinaryhill.com/roasted-chili-corn-salsa-chipotle-copycat/"
   },
   "ingredients": [
     {
-      "raw": "24 ounces frozen corn",
+      "raw": "1 large poblano pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large poblano pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "24 oz frozen sweet corn kernels",
       "qty": 24,
       "qtyMax": null,
       "unit": "oz",
-      "item": "frozen corn",
+      "item": "frozen sweet corn kernels",
       "prep": null,
       "note": null
     },
@@ -41,21 +50,12 @@
       "note": null
     },
     {
-      "raw": "1 large roasted poblano pepper, peeled, seeded, finely chopped",
-      "qty": 1,
-      "qtyMax": null,
-      "unit": null,
-      "item": "large roasted poblano pepper",
-      "prep": "peeled, seeded, finely chopped",
-      "note": null
-    },
-    {
-      "raw": "2 jalapeño peppers, stemmed, seeded, finely chopped",
+      "raw": "2 jalapeño peppers, stemmed, seeded, and finely chopped",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "jalapeño peppers, stemmed, seeded, finely chopped",
-      "prep": null,
+      "item": "jalapeño peppers",
+      "prep": "stemmed, seeded, and finely chopped",
       "note": null
     },
     {
@@ -68,25 +68,25 @@
       "note": null
     },
     {
-      "raw": "1 tablespoon lemon juice",
+      "raw": "1 tbsp fresh lemon juice",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "lemon juice",
+      "item": "fresh lemon juice",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tablespoon lime juice",
+      "raw": "1 tbsp fresh lime juice",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "lime juice",
+      "item": "fresh lime juice",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Salt",
+      "raw": "Kosher salt, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -96,9 +96,19 @@
     }
   ],
   "steps": [
-    "Cook corn per package directions, then spread on a baking sheet to cool.",
-    "In a large bowl, combine cooled corn, red onion, poblano, jalapeños, cilantro, lemon juice, and lime juice. Season to taste with salt and serve."
+    "Turn a gas burner to high. Holding the poblano with tongs, roast it directly over the flame, turning, until charred and blistered on all sides, 2 to 3 minutes.",
+    "Put the poblano in a bowl, cover tightly, and let steam 10 minutes. Rub off the skin, remove the stem and seeds, and finely chop.",
+    "Meanwhile, cook the corn according to the package directions, drain well, and spread on a baking sheet to cool.",
+    "In a large bowl, combine the cooled corn, red onion, poblano, jalapeños, cilantro, lemon juice, and lime juice. Season with salt and serve."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.culinaryhill.com/roasted-chili-corn-salsa-chipotle-copycat/",
+      "site": "Culinary Hill",
+      "title": "Chipotle Corn Salsa (Copycat)",
+      "usedFor": "poblano roasting and steaming method and times, total time, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

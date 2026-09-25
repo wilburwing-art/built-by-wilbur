@@ -3,36 +3,36 @@
   "name": "Lemon-Garlic Marinated Shrimp",
   "category": "Sides & Snacks",
   "emoji": "🦐",
-  "desc": "Cooked shrimp tossed in warm garlic oil, lemon and parsley",
-  "time": "10 min",
-  "minutes": 10,
+  "desc": "Cooked shrimp tossed in warm garlic oil with lemon and parsley and served cold.",
+  "time": "40 min",
+  "minutes": 40,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.eatingwell.com/recipe/249347/lemon-garlic-marinated-shrimp/",
+    "site": "EatingWell",
+    "title": "Lemon-Garlic Marinated Shrimp",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and amounts (3 tbsp garlic, 2 tbsp oil, 1/4 cup each lemon and parsley, 1/2 tsp each salt and pepper, 1 1/4 lb cooked shrimp) and the same skillet method, nearly word for word.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 12,
+    "basis": "publisher",
+    "source": "https://www.eatingwell.com/recipe/249347/lemon-garlic-marinated-shrimp/"
   },
   "ingredients": [
     {
-      "raw": "3 tablespoons minced garlic",
+      "raw": "3 tbsp minced garlic (about 9 cloves)",
       "qty": 3,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "minced garlic",
       "prep": null,
-      "note": null
+      "note": "about 9 cloves"
     },
     {
-      "raw": "2 tablespoons extra-virgin olive oil",
+      "raw": "2 tbsp extra-virgin olive oil",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
@@ -41,25 +41,25 @@
       "note": null
     },
     {
-      "raw": "¼ cup lemon juice",
+      "raw": "1/4 cup fresh lemon juice (from 1 to 2 lemons)",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "lemon juice",
+      "item": "fresh lemon juice",
+      "prep": null,
+      "note": "from 1 to 2 lemons"
+    },
+    {
+      "raw": "1/4 cup minced fresh flat-leaf parsley",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "minced fresh flat-leaf parsley",
       "prep": null,
       "note": null
     },
     {
-      "raw": "¼ cup minced fresh parsley",
-      "qty": 0.25,
-      "qtyMax": null,
-      "unit": "cup",
-      "item": "minced fresh parsley",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "½ teaspoon kosher salt",
+      "raw": "1/2 tsp kosher salt",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
@@ -68,29 +68,39 @@
       "note": null
     },
     {
-      "raw": "½ teaspoon pepper",
+      "raw": "1/2 tsp ground black pepper",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "pepper",
+      "item": "ground black pepper",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 ¼ pounds cooked shrimp",
+      "raw": "1 1/4 lb cooked large shrimp, peeled and deveined, thawed if frozen",
       "qty": 1.25,
       "qtyMax": null,
       "unit": "lb",
-      "item": "cooked shrimp",
-      "prep": null,
+      "item": "cooked large shrimp",
+      "prep": "peeled and deveined, thawed if frozen",
       "note": null
     }
   ],
   "steps": [
-    "Place the garlic and oil in a small skillet and cook over medium heat until fragrant, about 1 minute.",
-    "Add the lemon juice, parsley, salt and pepper and stir.",
-    "Toss with the cooked shrimp and marinate in an airtight container in the refrigerator for up to 2 hours before serving."
+    "Put the garlic and oil in a small skillet over medium heat and cook, stirring, until fragrant, about 1 minute. Do not let it brown.",
+    "Take the pan off the heat and stir in the lemon juice, parsley, salt, and pepper.",
+    "Toss the dressing with the shrimp in a large bowl. Cover and refrigerate at least 30 minutes and up to 2 hours before serving."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Serve cold as an appetizer with toothpicks, or over greens."
+  ],
+  "references": [
+    {
+      "url": "https://www.eatingwell.com/recipe/249347/lemon-garlic-marinated-shrimp/",
+      "site": "EatingWell",
+      "title": "Lemon-Garlic Marinated Shrimp",
+      "usedFor": "yield (12 appetizer servings), step wording",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

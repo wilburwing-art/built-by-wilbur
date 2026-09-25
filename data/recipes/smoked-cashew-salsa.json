@@ -3,63 +3,63 @@
   "name": "Smoked Cashew Salsa",
   "category": "Sides & Snacks",
   "emoji": "🥜",
-  "desc": "Cashews smoked over applewood then blended with chipotle in adobo",
-  "time": "45 min",
-  "minutes": 45,
+  "desc": "Cashews smoked over applewood on the stovetop, then blended with chipotles in adobo into a creamy salsa.",
+  "time": "50 min",
+  "minutes": 50,
   "difficulty": "Medium",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://andrewzimmern.com/recipes/guacamole-pistachios-smoked-cashew-salsa/",
+    "site": "Andrew Zimmern (Alex Stupak, Empellón)",
+    "title": "Guacamole with Pistachios & Smoked Cashew Salsa",
+    "matchType": "closest",
+    "evidence": "Same dish: stovetop applewood-smoked cashews in a steamer or colander, blended with seeded chipotles in adobo, sugar, salt, and water; amounts and smoke time differ.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 8,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "4 Tbsp small wood chips (preferably applewood), soaked 30 min, drained",
-      "qty": 4,
+      "raw": "1/4 cup small wood chips (preferably applewood)",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": "tbsp",
-      "item": "small wood chips (preferably applewood), soaked 30 min, drained",
+      "unit": "cup",
+      "item": "small wood chips",
       "prep": null,
-      "note": null
+      "note": "preferably applewood"
     },
     {
-      "raw": "1 cup raw cashews",
+      "raw": "1 cup (about 5 oz) raw cashews",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
       "item": "raw cashews",
       "prep": null,
-      "note": null
+      "note": "about 5 oz"
     },
     {
-      "raw": "4 canned chipotle chiles in adobo, drained, seeded",
-      "qty": 4,
-      "qtyMax": null,
+      "raw": "3-4 canned chipotle chiles in adobo, drained and seeded",
+      "qty": 3,
+      "qtyMax": 4,
       "unit": null,
       "item": "canned chipotle chiles in adobo",
-      "prep": "drained, seeded",
+      "prep": "drained and seeded",
       "note": null
     },
     {
-      "raw": "2 Tbsp granulated sugar",
-      "qty": 2,
-      "qtyMax": null,
+      "raw": "1-2 tbsp granulated sugar",
+      "qty": 1,
+      "qtyMax": 2,
       "unit": "tbsp",
       "item": "granulated sugar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Kosher salt",
+      "raw": "Kosher salt, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -68,9 +68,9 @@
       "note": null
     },
     {
-      "raw": "1 ½ cups water",
-      "qty": 1.5,
-      "qtyMax": null,
+      "raw": "3/4 to 1 1/2 cups water",
+      "qty": 0.75,
+      "qtyMax": 1.5,
       "unit": "cup",
       "item": "water",
       "prep": null,
@@ -78,11 +78,32 @@
     }
   ],
   "steps": [
-    "Line a stock pot with foil and add soaked wood chips. Heat on high until smoking.",
-    "Place a steamer basket in the pot and spread cashews evenly. Cover and smoke 10-15 minutes, until golden brown and aromatic.",
-    "Transfer cashews to a blender with 3 chipotles, 1 Tbsp sugar, a pinch of salt, and ¾ cup water.",
-    "Blend until very smooth. Adjust to taste with more chiles, sugar, salt, or water for consistency."
+    "Soak the wood chips in water for 30 minutes, then drain.",
+    "Line the bottom of a heavy stockpot or Dutch oven with foil and pile the chips in the center. Turn on the vent fan. Heat over high until the chips start to smoke.",
+    "Set a steamer basket in the pot above the chips and spread the cashews in it in one layer. Cover, lower the heat to medium-low, and smoke 10 to 15 minutes, until the cashews are golden and smell smoky.",
+    "Lift out the cashews and pour a little water over the chips to put them out.",
+    "Put the cashews in a blender with 3 chipotles, 1 tbsp sugar, a pinch of salt, and 3/4 cup water. Blend until very smooth, 1 to 2 minutes.",
+    "Taste and adjust with the remaining chipotle, sugar, salt, or more water until it is the heat and thickness you want. Refrigerate in an airtight container up to 1 week."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Alex Stupak's Empellón version turns the heat off at the first wisp of smoke and smokes 5 oz cashews for 20 minutes, then blends them with 1 cup water, 2 seeded chipotles, 1 tbsp sugar, and 1 tbsp salt.",
+    "No-smoke version: Katherine Martinelli toasts the cashews in a dry skillet over medium heat until lightly golden and relies on the chipotles for smoke.",
+    "Leave the chipotle seeds and veins in for a hotter salsa."
+  ],
+  "references": [
+    {
+      "url": "https://andrewzimmern.com/recipes/guacamole-pistachios-smoked-cashew-salsa/",
+      "site": "Andrew Zimmern (Alex Stupak, Empellón)",
+      "title": "Guacamole with Pistachios & Smoked Cashew Salsa",
+      "usedFor": "cashew weight, dousing the chips, week-long fridge life, Empellón amounts and smoke method for the tip",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "http://www.katherinemartinelli.com/blog/2012/smoky-cashew-salsa-and-a-nut-blog-hop/",
+      "site": "Katherine Martinelli",
+      "title": "Smoky Cashew Salsa",
+      "usedFor": "toasted-cashew no-smoke alternative",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

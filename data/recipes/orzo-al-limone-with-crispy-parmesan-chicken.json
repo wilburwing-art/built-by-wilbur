@@ -1,0 +1,249 @@
+{
+  "slug": "orzo-al-limone-with-crispy-parmesan-chicken",
+  "name": "Orzo al Limone with Crispy Parmesan Chicken",
+  "category": "Dinner",
+  "emoji": "🍋",
+  "desc": "Creamy lemon Parmesan orzo topped with thin panko and Parmesan crusted chicken cutlets.",
+  "time": "1 hr 10 min",
+  "minutes": 70,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DD7laTyO6OK/",
+    "site": "Instagram @carolbeecooks",
+    "title": "Orzo al Limone with Crispy Parmesan Chicken",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://carolbeecooks.com/orzo-al-limone-with-crispy-parmesan-chicken/"
+  },
+  "ingredients": [
+    {
+      "raw": "Crispy Parmesan chicken:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lb boneless skinless chicken breasts, halved horizontally into 4 thin cutlets",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless skinless chicken breasts",
+      "prep": "halved horizontally into 4 thin cutlets",
+      "note": null
+    },
+    {
+      "raw": "3/4 cup all-purpose flour",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 tsp kosher salt, divided",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 large eggs, beaten",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": "beaten",
+      "note": null
+    },
+    {
+      "raw": "1 cup panko breadcrumbs",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "panko breadcrumbs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 cup finely grated Parmesan",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "finely grated Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp garlic powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp olive oil, plus more as needed",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": "plus more as needed",
+      "note": null
+    },
+    {
+      "raw": "Flaky salt, for finishing",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Lemon orzo:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil, plus more for drizzling",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": "plus more for drizzling",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp unsalted butter",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 small shallot, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small shallot",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "4 garlic cloves, minced",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup dry orzo",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "dry orzo",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups chicken broth, plus more as needed",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chicken broth",
+      "prep": "plus more as needed",
+      "note": null
+    },
+    {
+      "raw": "1 large lemon, zested and juiced, plus more for serving",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large lemon",
+      "prep": "zested and juiced, plus more for serving",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup finely grated Parmesan, plus more for serving",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "finely grated Parmesan",
+      "prep": "plus more for serving",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup heavy cream",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Set up three shallow bowls: the flour mixed with 1/2 tsp of the kosher salt and the black pepper; the beaten eggs; and the panko mixed with the Parmesan and garlic powder.",
+    "Cover each cutlet with parchment and pound it to an even 1/4 in thickness with a meat mallet or heavy pan.",
+    "Dredge each cutlet in the flour, then the egg, then the panko mixture, pressing the crumbs on firmly.",
+    "Heat the olive oil in a large saute pan over medium-high heat until shimmering. Fry the cutlets in a single layer, in batches, about 4 min per side until deeply golden and cooked through (165°F). Add more oil between batches if the pan looks dry.",
+    "Move the chicken to a wire rack, sprinkle with flaky salt while hot, and rest a few minutes. Slice into strips if you like.",
+    "For the orzo, heat the olive oil and butter in a large high-sided saute pan over medium heat. Cook the shallot and garlic 1 min, stir in the black pepper, and cook 1 min more.",
+    "Stir in the orzo and toast 2 min. Add the broth, bring to a boil, then simmer 10-15 min, stirring often, until the orzo is tender and most of the liquid is absorbed. Add a splash more broth or water if it thickens before the orzo is done.",
+    "Off the heat, stir in the lemon zest and juice, Parmesan, cream and the remaining 1/4 tsp kosher salt until creamy. Taste and add more lemon if you like.",
+    "Divide the orzo among bowls and top with the chicken, more Parmesan, cracked pepper, lemon zest and juice, and a drizzle of olive oil."
+  ],
+  "tips": [
+    "Grate the Parmesan fresh so it melts smoothly. Toasting the orzo adds flavor.",
+    "Orzo keeps absorbing liquid, so loosen leftovers with warm broth. Half-and-half or milk can replace the cream.",
+    "Crisp leftover chicken in the oven or air fryer."
+  ],
+  "references": [
+    {
+      "url": "https://carolbeecooks.com/orzo-al-limone-with-crispy-parmesan-chicken/",
+      "site": "Carol Bee Cooks (creator's site)",
+      "title": "Orzo al Limone with Crispy Parmesan Chicken",
+      "usedFor": "verified every amount and step, 4 servings, 70 min total (read from the 2026-07-27 Wayback Machine snapshot; the live page blocks automated reads)",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

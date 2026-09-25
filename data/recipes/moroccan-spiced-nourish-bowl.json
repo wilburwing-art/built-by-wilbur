@@ -1,0 +1,336 @@
+{
+  "slug": "moroccan-spiced-nourish-bowl",
+  "name": "Moroccan-Spiced Nourish Bowl",
+  "category": "Lunch",
+  "emoji": "🥙",
+  "desc": "Spiced roasted cauliflower and chickpeas over turmeric couscous and parsley salad on a bed of lemony tahini.",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C--RVRbyyM-/",
+    "site": "Instagram @tessbegg",
+    "title": "Moroccan-Spiced Nourish Bowl",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 2,
+    "basis": "publisher",
+    "source": "https://www.instagram.com/reel/C--RVRbyyM-/"
+  },
+  "ingredients": [
+    {
+      "raw": "Cauliflower and chickpeas:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 head cauliflower, cut into small florets (about 3 cups)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "head",
+      "item": "cauliflower",
+      "prep": "cut into small florets",
+      "note": "about 3 cups"
+    },
+    {
+      "raw": "1 (420 g) can chickpeas, drained, rinsed and patted dry",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "chickpeas",
+      "prep": "drained, rinsed and patted dry",
+      "note": "420 g"
+    },
+    {
+      "raw": "2 tbsp olive oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp ground turmeric",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground turmeric",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tsp ground paprika",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tsp ground cumin",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp ground coriander",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground coriander",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp garlic powder",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp ground cinnamon",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp cayenne pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cayenne pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, a generous pinch each",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Tahini sauce:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup hulled tahini",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "hulled tahini",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lemon, juiced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lemon",
+      "prep": "juiced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp agave or pure maple syrup",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "agave or pure maple syrup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, a pinch each",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3-4 tbsp water, to thin",
+      "qty": 3,
+      "qtyMax": 4,
+      "unit": "tbsp",
+      "item": "water",
+      "prep": "to thin",
+      "note": null
+    },
+    {
+      "raw": "Couscous:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup dry couscous",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "dry couscous",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 cup boiling water or vegetable stock",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "boiling water or vegetable stock",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp ground turmeric",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground turmeric",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Parsley salad:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 small red onion, finely diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small red onion",
+      "prep": "finely diced",
+      "note": null
+    },
+    {
+      "raw": "1 bunch fresh parsley, finely chopped (about 2 to 3 cups)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "bunch",
+      "item": "fresh parsley",
+      "prep": "finely chopped",
+      "note": "about 2 to 3 cups"
+    },
+    {
+      "raw": "1 cucumber, finely diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "cucumber",
+      "prep": "finely diced",
+      "note": null
+    },
+    {
+      "raw": "1 medium tomato, finely diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium tomato",
+      "prep": "finely diced",
+      "note": null
+    },
+    {
+      "raw": "1 small lemon, juiced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small lemon",
+      "prep": "juiced",
+      "note": null
+    },
+    {
+      "raw": "2 tsp olive oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, a pinch each",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Topping:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp sesame seeds",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sesame seeds",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup fresh pomegranate seeds",
+      "qty": 0.3333333333333333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh pomegranate seeds",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat the oven to 390°F (200°C) and line a baking tray with parchment.",
+    "Spread the cauliflower and chickpeas on the tray, drizzle with the olive oil, add all the spices, salt and pepper, and toss to coat.",
+    "Roast 30 to 35 min, until the cauliflower is browned at the edges and the chickpeas are crunchy.",
+    "Meanwhile, blend or whisk the tahini, lemon juice, syrup, salt and pepper, adding the water gradually until creamy and pourable.",
+    "Put the couscous and turmeric in a bowl, pour over the boiling water or stock, cover and let stand 10 min. Fluff with a fork.",
+    "Toss the parsley, onion, cucumber, tomato, lemon juice, olive oil, salt and pepper in a bowl.",
+    "Spread tahini in the base of each bowl, then add the couscous, salad, cauliflower and chickpeas. Finish with pomegranate and sesame seeds."
+  ],
+  "tips": [
+    "Vegan. Swap the tahini sauce for hummus if you want a shortcut."
+  ],
+  "references": []
+}

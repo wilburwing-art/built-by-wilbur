@@ -1,0 +1,110 @@
+{
+  "slug": "homemade-flour-tortillas",
+  "name": "Homemade Flour Tortillas",
+  "category": "Sides & Snacks",
+  "emoji": "🫓",
+  "desc": "Soft butter flour tortillas made with hot water and a little baking powder.",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DNRJweLyx2w/",
+    "site": "Instagram @thecontrarianmoney",
+    "title": "Homemade Flour Tortillas",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 6,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3 cups all-purpose flour, plus more for rolling",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": "plus more for rolling",
+      "note": null
+    },
+    {
+      "raw": "2 tsp baking powder",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tsp kosher salt",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5 tbsp salted butter, room temperature",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "salted butter",
+      "prep": "room temperature",
+      "note": null
+    },
+    {
+      "raw": "1 cup hot tap water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "hot tap water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp neutral oil, for the skillet",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "neutral oil",
+      "prep": "for the skillet",
+      "note": null
+    }
+  ],
+  "steps": [
+    "In a large bowl, whisk the flour, baking powder and salt.",
+    "Add the butter and rub it into the flour with your fingertips until no large pieces remain and the mix looks crumbly.",
+    "Stir in the hot water until a shaggy dough forms, then knead on the counter 3 to 5 minutes until smooth and soft.",
+    "Cover the dough with a towel or plastic wrap and rest 10 to 15 minutes.",
+    "Divide into 12 equal balls and keep them covered. On a lightly floured surface, roll one ball into a thin round about 8 inches across, almost see-through.",
+    "Heat a large skillet (cast iron or nonstick) over medium heat and wipe it with a little oil. Cook each tortilla 30 to 45 seconds per side, until it puffs and has light brown spots.",
+    "Stack the cooked tortillas in a clean kitchen towel to keep them warm and soft while you roll and cook the rest."
+  ],
+  "tips": [
+    "Makes 12.",
+    "Roll the next tortilla while the one in the pan cooks.",
+    "Most published versions rest the dough 30 minutes; a longer rest makes it easier to roll thin."
+  ],
+  "references": [
+    {
+      "url": "https://www.kingarthurbaking.com/recipes/flour-tortillas-recipe",
+      "site": "King Arthur Baking",
+      "title": "Flour Tortillas",
+      "usedFor": "kneading time, rolled diameter, water-drop skillet test, stacking in a towel",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://ofbatteranddough.com/homemade-tortillas/",
+      "site": "Of Batter and Dough",
+      "title": "Soft Homemade Flour Tortillas (All Butter)",
+      "usedFor": "hot tap water for a butter dough, brown-spot doneness cue, 30-minute rest comparison",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

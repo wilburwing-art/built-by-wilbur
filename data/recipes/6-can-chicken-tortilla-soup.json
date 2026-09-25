@@ -3,22 +3,22 @@
   "name": "6-Can Chicken Tortilla Soup",
   "category": "Dinner",
   "emoji": "🍲",
-  "desc": "Dump-and-go soup with chicken, corn, black beans, and green chiles",
+  "desc": "Dump-and-go soup of canned chicken, corn, black beans and green chile tomatoes, simmered with taco spices.",
   "time": "20 min",
   "minutes": 20,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/19766/six-can-chicken-tortilla-soup/",
+    "site": "Allrecipes",
+    "title": "Six Can Chicken Tortilla Soup",
+    "matchType": "closest",
+    "evidence": "Same five canned ingredients in the same sizes (corn, 2 cans broth, chunk chicken, black beans, tomatoes with green chiles); this version adds cumin, chili powder, taco seasoning and optional cream of chicken soup.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 6,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
@@ -41,21 +41,21 @@
       "note": "14.5 oz"
     },
     {
-      "raw": "1 (10 oz) can chunk chicken",
+      "raw": "1 (10 oz) can chunk chicken, with its liquid",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
       "item": "chunk chicken",
-      "prep": null,
+      "prep": "with its liquid",
       "note": "10 oz"
     },
     {
-      "raw": "1 (15 oz) can black beans",
+      "raw": "1 (15 oz) can black beans, undrained",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
       "item": "black beans",
-      "prep": null,
+      "prep": "undrained",
       "note": "15 oz"
     },
     {
@@ -113,7 +113,7 @@
       "note": null
     },
     {
-      "raw": "Fresh cilantro, for serving",
+      "raw": "For serving:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -122,20 +122,49 @@
       "note": null
     },
     {
-      "raw": "Sour cream, for serving",
-      "qty": null,
+      "raw": "1 cup crushed tortilla chips",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "cup",
+      "item": "tortilla chips",
+      "prep": "crushed",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp chopped fresh cilantro",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh cilantro",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup sour cream",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sour cream",
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Open the cans of corn, chicken broth, chunk chicken, black beans, and diced tomatoes with green chiles. Pour everything into a large saucepan or stock pot. Stir in the cream of chicken soup if using.",
-    "Stir in the cumin, chili powder, and taco seasoning. Season with salt and pepper.",
-    "Simmer over medium heat until the chicken is heated through, about 10 minutes. Serve topped with cilantro and sour cream."
+    "Pour the corn, chicken broth, chunk chicken (break up any large pieces), black beans with their liquid, and drained diced tomatoes with green chiles into a large saucepan or stockpot. Stir in the cream of chicken soup if using.",
+    "Stir in the cumin, chili powder, and taco seasoning.",
+    "Bring to a simmer over medium heat and cook, stirring occasionally, until the soup is steaming hot throughout, about 15 minutes. Taste and season with salt and pepper.",
+    "Ladle into bowls and top with crushed tortilla chips, cilantro, and a spoonful of sour cream."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The Allrecipes original tops each bowl with tortilla chips and shredded Cheddar; add a handful of Cheddar if you like."
+  ],
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/19766/six-can-chicken-tortilla-soup/",
+      "site": "Allrecipes",
+      "title": "Six Can Chicken Tortilla Soup",
+      "usedFor": "can sizes, simmer time, tortilla chip topping",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

@@ -3,41 +3,41 @@
   "name": "Chipotle Fajita Veggies",
   "category": "Sides & Snacks",
   "emoji": "🫑",
-  "desc": "Green pepper and red onion cooked down with oregano",
+  "desc": "Copycat Chipotle fajita vegetables: green pepper and red onion seared with oregano until tender-crisp.",
   "time": "15 min",
   "minutes": 15,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.culinaryhill.com/chipotle-grilled-peppers-and-onions/",
+    "site": "Culinary Hill",
+    "title": "Fajita Veggies (Chipotle Copycat)",
+    "matchType": "original",
+    "evidence": "Same five ingredients in the same amounts (1/4 cup sunflower oil, 2 green peppers, 1 red onion, 1/2 tsp oregano, salt) and the same 7-minute method, nearly word for word.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://www.culinaryhill.com/chipotle-grilled-peppers-and-onions/"
   },
   "ingredients": [
     {
-      "raw": "1/4 cup sunflower oil (or olive/avocado oil)",
+      "raw": "1/4 cup sunflower oil (or olive or avocado oil)",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "sunflower oil (or olive/avocado oil)",
+      "item": "sunflower oil",
       "prep": null,
-      "note": null
+      "note": "or olive or avocado oil"
     },
     {
-      "raw": "2 large green bell peppers, stemmed, cored, and sliced",
+      "raw": "2 large green bell peppers, stemmed, cored, and sliced 1/4 inch thick",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "large green bell peppers, stemmed, cored, and sliced",
-      "prep": null,
+      "item": "large green bell peppers",
+      "prep": "stemmed, cored, and sliced 1/4 inch thick",
       "note": null
     },
     {
@@ -50,7 +50,7 @@
       "note": null
     },
     {
-      "raw": "1/2 teaspoon dried oregano",
+      "raw": "1/2 tsp dried oregano",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
@@ -59,19 +59,29 @@
       "note": null
     },
     {
-      "raw": "Salt",
-      "qty": null,
+      "raw": "1/2 tsp kosher salt, or to taste",
+      "qty": 0.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": "or to taste",
       "note": null
     }
   ],
   "steps": [
-    "Heat oil in a large skillet over medium-high until shimmering. Add peppers, onions, oregano, and salt to taste.",
-    "Cook, tossing occasionally, until slightly softened but still tender-crisp, about 7 minutes. Remove from heat and serve."
+    "Heat the oil in a large skillet over medium-high heat until shimmering. Add the peppers, onion, oregano, and salt.",
+    "Cook, tossing occasionally, until slightly softened but still tender-crisp with a few charred edges, about 7 minutes. Serve hot."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Use your widest skillet, or cook in two batches, so the vegetables sear instead of steaming."
+  ],
+  "references": [
+    {
+      "url": "https://www.culinaryhill.com/chipotle-grilled-peppers-and-onions/",
+      "site": "Culinary Hill",
+      "title": "Fajita Veggies (Chipotle Copycat)",
+      "usedFor": "1/2 tsp salt, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

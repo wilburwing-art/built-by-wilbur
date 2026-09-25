@@ -3,23 +3,23 @@
   "name": "Outdoor Pizza Oven Dough",
   "category": "Dinner",
   "emoji": "🍕",
-  "desc": "Cold-proofed pizza dough for a perfect crispy, chewy crust",
-  "time": "24+ hrs",
-  "minutes": 1440,
+  "desc": "Food-processor pizza dough cold-proofed 1 to 4 days, sized for 12-inch pies in a high-heat outdoor pizza oven.",
+  "time": "28 hrs",
+  "minutes": 1680,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.seriouseats.com/basic-pizza-dough-for-high-temperature-outdoor-pizza-ovens-5211302",
+    "site": "Serious Eats",
+    "title": "Outdoor Pizza Oven Pizza Dough",
+    "matchType": "original",
+    "evidence": "Same four-ingredient gram formula (535 g high-protein all-purpose flour, 2 g instant yeast, 360 g 40°F water, 12 g Diamond Crystal kosher salt) and the same food-processor method, 75°F dough temperature, and 225 g balls.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://www.seriouseats.com/basic-pizza-dough-for-high-temperature-outdoor-pizza-ovens-5211302"
   },
   "ingredients": [
     {
@@ -28,17 +28,17 @@
       "qtyMax": null,
       "unit": "g",
       "item": "high-protein all-purpose flour",
-      "prep": "such as King Arthur",
-      "note": null
+      "prep": null,
+      "note": "such as King Arthur"
     },
     {
-      "raw": "2 g instant dry yeast, such as SAF",
+      "raw": "2 g (1/2 tsp) instant dry yeast, such as SAF",
       "qty": 2,
       "qtyMax": null,
       "unit": "g",
       "item": "instant dry yeast",
-      "prep": "such as SAF",
-      "note": null
+      "prep": null,
+      "note": "1/2 tsp, such as SAF"
     },
     {
       "raw": "360 g water, at 40°F",
@@ -50,16 +50,16 @@
       "note": null
     },
     {
-      "raw": "12 g Diamond Crystal kosher salt",
+      "raw": "12 g (1 tbsp) Diamond Crystal kosher salt",
       "qty": 12,
       "qtyMax": null,
       "unit": "g",
       "item": "Diamond Crystal kosher salt",
       "prep": null,
-      "note": null
+      "note": "1 tbsp"
     },
     {
-      "raw": "Extra-virgin olive oil, for oiling proofing containers and dough balls",
+      "raw": "Extra-virgin olive oil, for oiling the proofing containers and dough balls",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -69,12 +69,33 @@
     }
   ],
   "steps": [
-    "Pulse flour and yeast in food processor. Add water, process 10-20 sec. Rest 20 min.",
-    "Add salt, process 20-30 sec until smooth at 75°F.",
-    "Oil bowl, rest 45 min, knead briefly, rest 60-120 min.",
-    "Divide into four 225g balls. Oil lightly. Refrigerate 24-72 hrs.",
-    "Remove 1-2 hours before baking to reach 60°F."
+    "Put the flour and yeast in a food processor and pulse 3-4 times to combine.",
+    "With the machine running, pour in the cold water and process until a rough ball forms and no dry flour remains, 10-20 seconds. Rest 20 min.",
+    "Add the salt on top and process until a mostly smooth ball forms, 20-30 seconds. The dough should read 75°F on an instant-read thermometer; if it is cooler, process in 10-second bursts until it gets there.",
+    "Move the dough to a lightly oiled medium bowl, knead once or twice into a smooth ball, cover, and let sit 45 min.",
+    "With lightly moistened hands, knead the dough in the bowl until uniform, 5-10 seconds. Cover and leave at room temperature until puffy but not quite doubled, 60-120 min.",
+    "On a lightly floured counter, divide into four 225 g pieces (or three 300 g pieces for a 16-inch oven) and shape each into a smooth ball.",
+    "Coat each ball lightly with oil and put it in a lidded 4- to 7-inch round container, or on an oiled tray at least 2 inches apart, covered loosely but completely. Refrigerate at least 24 hours and up to 4 days (48 to 72 hours is best).",
+    "On baking day, take the balls out of the fridge and leave them covered at room temperature 1-2 hours, until they reach at least 60°F.",
+    "Heat the outdoor pizza oven until the stone is fully hot, stretch each ball by hand to 12 inches, top lightly, and bake 60-90 seconds, turning for an even bake, until the rim is puffed and charred in spots."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The cold water is there to offset the heat of the food processor blade; with warmer water the dough overshoots 75°F and ferments too fast."
+  ],
+  "references": [
+    {
+      "url": "https://www.seriouseats.com/basic-pizza-dough-for-high-temperature-outdoor-pizza-ovens-5211302",
+      "site": "Serious Eats",
+      "title": "Outdoor Pizza Oven Pizza Dough",
+      "usedFor": "yield, pulse and rest times, 16-inch ball size, fridge window, container size",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://thepizzaheaven.com/authentic-neapolitan-pizza-dough-recipe/",
+      "site": "The Pizza Heaven",
+      "title": "Authentic Neapolitan Pizza Dough Recipe",
+      "usedFor": "pizza oven bake time",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

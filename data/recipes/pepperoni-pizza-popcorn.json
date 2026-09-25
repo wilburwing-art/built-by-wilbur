@@ -1,0 +1,135 @@
+{
+  "slug": "pepperoni-pizza-popcorn",
+  "name": "Pepperoni Pizza Popcorn",
+  "category": "Sides & Snacks",
+  "emoji": "🍿",
+  "desc": "Stovetop popcorn popped in rendered pepperoni fat and tossed with crisp mini pepperoni, Parmesan and a homemade pizza powder.",
+  "time": "20 min",
+  "minutes": 20,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DCj-vo0yo02/",
+    "site": "Instagram @thejoshelkin",
+    "title": "Pepperoni Pizza Popcorn",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 tbsp olive oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups mini pepperoni",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "mini pepperoni",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup popcorn kernels",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "popcorn kernels",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup finely grated Parmesan",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Parmesan",
+      "prep": "finely grated",
+      "note": null
+    },
+    {
+      "raw": "Pizza powder:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup grated Parmesan, ground to a fine powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan",
+      "prep": "ground to a fine powder",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup sweet paprika",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sweet paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp onion powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp dried oregano",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Make the pizza powder: pulse the 1 cup grated Parmesan in a spice grinder or small food processor until it is a fine powder, then stir in the paprika, garlic powder, onion powder and oregano.",
+    "Heat the olive oil in a large heavy pot (about 6 quarts) with a tight lid over medium heat. Add the mini pepperoni and cook, stirring often, until crisp and the fat has rendered, about 5 min. Lift the pepperoni out with a slotted spoon onto paper towels and leave the fat in the pot.",
+    "Add the popcorn kernels to the pot, cover, and cook over medium-low heat, shaking the pot every so often, until the popping slows to a few seconds between pops, 3 to 5 min. Take the pot off the heat.",
+    "Tip the popcorn into a large bowl. While it is warm, toss with the crisp pepperoni, the 1 cup finely grated Parmesan and about 1/4 cup of the pizza powder. Taste and add more powder as you like. Serve warm."
+  ],
+  "tips": [
+    "The caption lists \"2 tbsp garlic + onion powder\"; it is split evenly here.",
+    "The pizza powder makes about 1 1/2 cups, more than one batch needs. Keep the rest in a sealed jar in the fridge."
+  ],
+  "references": [
+    {
+      "url": "https://jonathanmelendez.com/pepperoni-pizza-popcorn/",
+      "site": "Jonathan Melendez",
+      "title": "Pepperoni Pizza Popcorn",
+      "usedFor": "oil amount, crisping the pepperoni first and popping in its fat, popping heat and time",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

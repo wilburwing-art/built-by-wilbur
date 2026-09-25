@@ -1,0 +1,164 @@
+{
+  "slug": "one-dish-orzo-chicken-veg-bake",
+  "name": "One-Dish Orzo Chicken Veg Bake",
+  "category": "Dinner",
+  "emoji": "🍗",
+  "desc": "Orzo, chicken, chickpeas and vegetables baked together under foil in stock with Parmesan and paprika.",
+  "time": "1 hr 5 min",
+  "minutes": 65,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C-rn85tsfBi/",
+    "site": "Instagram @adamhoad_coaching",
+    "title": "One-Dish Orzo Chicken Veg Bake",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 5,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "200 g dried orzo",
+      "qty": 200,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "dried orzo",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "400 g boneless skinless chicken breast, cut in 1 in pieces",
+      "qty": 400,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "boneless skinless chicken breast",
+      "prep": "cut in 1 in pieces",
+      "note": null
+    },
+    {
+      "raw": "240 g canned chickpeas, drained (about one 400 g can)",
+      "qty": 240,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "canned chickpeas",
+      "prep": "drained",
+      "note": "about one 400 g can"
+    },
+    {
+      "raw": "150 g asparagus, trimmed and cut in 1 in pieces",
+      "qty": 150,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "asparagus",
+      "prep": "trimmed and cut in 1 in pieces",
+      "note": null
+    },
+    {
+      "raw": "150 g red onion, diced",
+      "qty": 150,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "red onion",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "150 g cremini mushrooms, sliced",
+      "qty": 150,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "cremini mushrooms",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "100 g baby spinach",
+      "qty": 100,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "baby spinach",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "80 g oil-packed sun-dried tomatoes, drained and chopped",
+      "qty": 80,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "oil-packed sun-dried tomatoes",
+      "prep": "drained and chopped",
+      "note": null
+    },
+    {
+      "raw": "150 g Parmesan, grated",
+      "qty": 150,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "Parmesan",
+      "prep": "grated",
+      "note": null
+    },
+    {
+      "raw": "2 garlic cloves, minced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp paprika",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "400 ml boiling water",
+      "qty": 400,
+      "qtyMax": null,
+      "unit": "ml",
+      "item": "boiling water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 chicken stock cubes",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "chicken stock cubes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 lemon, for finishing",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lemon",
+      "prep": "for finishing",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 190°C (375°F).",
+    "Dissolve the stock cubes in the boiling water.",
+    "Add the orzo, chicken, chickpeas, asparagus, onion, mushrooms, spinach, sun-dried tomatoes, Parmesan, garlic and paprika to a 9x13 in (23x33 cm) baking dish. Pour in the stock and stir so the orzo is spread out and submerged.",
+    "Cover tightly with foil and bake 50 min, until the orzo is tender and the chicken reaches 165°F.",
+    "Stir, squeeze over the lemon, and portion into 5 containers."
+  ],
+  "tips": [
+    "5 servings: 502 cal and 45g protein each.",
+    "The spinach looks like too much going in; it wilts down under the foil."
+  ],
+  "references": []
+}

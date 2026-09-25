@@ -1,0 +1,183 @@
+{
+  "slug": "turkey-stuffed-peppers",
+  "name": "Turkey Stuffed Peppers",
+  "category": "Dinner",
+  "emoji": "🫑",
+  "desc": "Bell pepper halves filled with lean ground turkey, brown rice, corn and tomatoes, baked under mozzarella and Parmesan.",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DRsI_Ulj1LS/",
+    "site": "Instagram @success.recipes",
+    "title": "Turkey Stuffed Peppers",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 large bell peppers, halved lengthwise and seeded",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large bell peppers",
+      "prep": "halved lengthwise and seeded",
+      "note": null
+    },
+    {
+      "raw": "1 tsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lb 93% lean ground turkey (or lean ground beef)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "93% lean ground turkey",
+      "prep": null,
+      "note": "or lean ground beef"
+    },
+    {
+      "raw": "1 small yellow onion, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small yellow onion",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "2 garlic cloves, minced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1 cup cooked brown rice or quinoa",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cooked brown rice or quinoa",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup corn kernels (frozen and thawed, or canned and drained)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "corn kernels",
+      "prep": null,
+      "note": "frozen and thawed, or canned and drained"
+    },
+    {
+      "raw": "1/2 cup canned diced tomatoes, drained",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "canned diced tomatoes",
+      "prep": "drained",
+      "note": null
+    },
+    {
+      "raw": "1 tsp Italian seasoning",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "Italian seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp smoked paprika",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "smoked paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp kosher salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup shredded part-skim mozzarella",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded part-skim mozzarella",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup grated Parmesan",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp fresh parsley, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh parsley",
+      "prep": "chopped",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 375°F.",
+    "Heat the oil in a large skillet over medium-high heat. Brown the turkey, breaking it up, until no pink remains, 5-7 minutes.",
+    "Add the onion and garlic and cook until soft, 3-4 minutes.",
+    "Stir in the rice, corn, tomatoes, Italian seasoning, smoked paprika, salt and pepper and cook 2-3 minutes.",
+    "Set the pepper halves cut side up in a 9x13 in baking dish and pack them with the filling. Top with the mozzarella and Parmesan.",
+    "Cover with foil and bake 25 minutes. Uncover and bake 10-15 minutes more, until the peppers are tender and the cheese is golden.",
+    "Sprinkle with parsley and serve."
+  ],
+  "tips": [
+    "4 servings of 2 halves each, about 520 cal per serving.",
+    "Skinnytaste pours a little broth into the bottom of the dish before baking covered, which steams the peppers more tender; add 1/4 cup water or broth if you like softer peppers."
+  ],
+  "references": [
+    {
+      "url": "https://www.skinnytaste.com/turkey-stuffed-peppers/",
+      "site": "Skinnytaste",
+      "title": "Turkey Stuffed Peppers",
+      "usedFor": "9x13 dish, foil-covered bake, liquid in the pan for tender peppers, oil for browning lean turkey",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

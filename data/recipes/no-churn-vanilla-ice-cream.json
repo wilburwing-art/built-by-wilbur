@@ -1,0 +1,72 @@
+{
+  "slug": "no-churn-vanilla-ice-cream",
+  "name": "3-Ingredient No-Churn Vanilla Ice Cream",
+  "category": "Desserts",
+  "emoji": "🍨",
+  "desc": "Vanilla ice cream made from whipped cream folded into sweetened condensed milk, no machine needed.",
+  "time": "6 hrs 15 min",
+  "minutes": 375,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DOEjrdPkv3P/",
+    "site": "Instagram @thecontrarianmoney",
+    "title": "3-Ingredient No-Churn Vanilla Ice Cream",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 12,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 cups cold heavy cream",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cold heavy cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (14 oz) can sweetened condensed milk",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "sweetened condensed milk",
+      "prep": null,
+      "note": "14 oz"
+    },
+    {
+      "raw": "1 tbsp vanilla bean paste (or vanilla extract)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vanilla bean paste",
+      "prep": null,
+      "note": "or vanilla extract"
+    }
+  ],
+  "steps": [
+    "Put a 9x5 in metal loaf pan in the freezer to chill.",
+    "Whip the cream with a mixer on medium-high until stiff peaks form, 2-3 min.",
+    "In a large bowl, whisk the condensed milk and vanilla.",
+    "Fold about 1 cup of the whipped cream into the condensed milk to lighten it, then fold that mixture back into the rest of the cream until no streaks remain.",
+    "Scrape into the chilled pan, smooth the top, cover, and freeze at least 6 hr, until firm and scoopable."
+  ],
+  "tips": [
+    "Food Network's version adds a pinch of fine salt, which sharpens the vanilla."
+  ],
+  "references": [
+    {
+      "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/no-churn-vanilla-ice-cream-3364776",
+      "site": "Food Network",
+      "title": "No-Churn Vanilla Ice Cream",
+      "usedFor": "9x5 in chilled metal loaf pan, lighten-then-fold method, whipping time",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

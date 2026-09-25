@@ -3,33 +3,42 @@
   "name": "Chicken Shawarma Sheet Pan",
   "category": "Dinner",
   "emoji": "🍗",
-  "desc": "Yogurt-marinated chicken with warm spices, roasted with red onions",
-  "time": "3 hrs",
-  "minutes": 180,
-  "difficulty": "Medium",
+  "desc": "Yogurt and tomato paste marinated chicken thighs with warm spices, roasted on one pan with red onions and topped with a dill cucumber sauce.",
+  "time": "3 hrs 30 min",
+  "minutes": 210,
+  "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.instagram.com/reel/C7kDeewOV7_/",
+    "site": "Instagram @shredhappens",
+    "title": "Chicken Shawarma Sheet Pan Dinner",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "1.5-2 lb boneless skinless chicken thighs (or breasts), cut into strips or chunks",
+      "raw": "Chicken:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1.5-2 lb boneless skinless chicken thighs, cut into strips or chunks",
       "qty": 1.5,
       "qtyMax": 2,
       "unit": "lb",
       "item": "boneless skinless chicken thighs",
       "prep": "cut into strips or chunks",
-      "note": "or breasts"
+      "note": null
     },
     {
       "raw": "1/2 tbsp olive oil, plus more for drizzling",
@@ -59,11 +68,11 @@
       "note": null
     },
     {
-      "raw": "2 tbsp lemon juice",
-      "qty": 2,
+      "raw": "Juice of 1 large lemon",
+      "qty": null,
       "qtyMax": null,
-      "unit": "tbsp",
-      "item": "lemon juice",
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     },
@@ -122,47 +131,11 @@
       "note": null
     },
     {
-      "raw": "Topping:",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "Fresh parsley, dill, or mint, for topping",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1 Persian cucumber, diced, for topping",
-      "qty": 1,
-      "qtyMax": null,
-      "unit": null,
-      "item": "Persian cucumber",
-      "prep": "diced, for topping",
-      "note": null
-    },
-    {
-      "raw": "Lemon wedges, for serving",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "2 red onions, cut into wedges",
+      "raw": "2 medium red onions, cut into wedges",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "red onions",
+      "item": "medium red onions",
       "prep": "cut into wedges",
       "note": null
     },
@@ -176,7 +149,7 @@
       "note": null
     },
     {
-      "raw": "Cucumber sauce:",
+      "raw": "Cucumber yogurt sauce:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -230,23 +203,80 @@
       "note": null
     },
     {
-      "raw": "Salt and black pepper, a couple pinches each",
+      "raw": "Salt and black pepper, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
       "item": null,
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "Toppings and serving:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp chopped fresh parsley, mint or dill",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chopped fresh parsley",
+      "prep": "mint or dill",
+      "note": null
+    },
+    {
+      "raw": "1 Persian cucumber, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "Persian cucumber",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1 lemon, cut into wedges",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lemon",
+      "prep": "cut into wedges",
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups uncooked long-grain rice, cooked (or quinoa or 4 pitas)",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "uncooked long-grain rice",
+      "prep": "cooked",
+      "note": "or quinoa or 4 pitas"
     }
   ],
   "steps": [
-    "Marinate chicken in oil, yogurt, tomato paste, lemon juice, garlic, and spices for 2-6 hours (overnight is best).",
-    "Let chicken sit at room temp 30 min. Preheat oven to 400°F.",
-    "Spread chicken on parchment-lined tray with red onion wedges. Drizzle with oil and sumac.",
-    "Roast 37-40 minutes.",
-    "Make cucumber sauce: mix yogurt, diced cucumber, dill, shallot, lemon, salt, and pepper.",
-    "Top with sauce, fresh herbs, cucumber, sumac, and lemon. Serve with rice or quinoa."
+    "In a large bowl, combine the chicken with the oil, yogurt, tomato paste, lemon juice, garlic, thyme or oregano, paprika, cinnamon, cumin, salt and pepper. Mix well, cover and marinate in the fridge 2-6 hours (overnight is best).",
+    "Take the chicken out of the fridge 30 minutes before cooking. Heat the oven to 400°F and line a sheet pan with parchment.",
+    "Spread the chicken on the pan without crowding and arrange the onion wedges around it. Drizzle with olive oil and sprinkle with the sumac.",
+    "Roast 37-40 minutes, until the chicken is browned, reads at least 165°F, and the onions are soft.",
+    "Meanwhile, make the sauce: stir together the yogurt, cucumber, dill, shallot, lemon juice, salt and pepper.",
+    "Top the chicken with dollops of sauce, fresh herbs, diced cucumber, a dusting of sumac and a squeeze of lemon. Serve over rice, quinoa or in pita."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Swap in chicken breast for a leaner version, or add bell peppers or zucchini to the pan.",
+    "Air fryer: 375°F for about 20 minutes, shaking halfway.",
+    "Keeps 4 days in the fridge; store the sauce separately and reheat the chicken in the oven or on the stove."
+  ],
+  "references": [
+    {
+      "url": "https://shredhappens.com/products/chicken-shawarma-sheet-pan-dinner",
+      "site": "Shredhappens",
+      "title": "Chicken Shawarma Sheet Pan Dinner",
+      "usedFor": "confirmed amounts, juice of 1 large lemon, 2 medium red onions, doneness cues, air fryer and storage notes",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

@@ -1,0 +1,122 @@
+{
+  "slug": "loaded-olive-oil-dip",
+  "name": "Loaded Olive Oil Dip",
+  "category": "Sides & Snacks",
+  "emoji": "🫒",
+  "desc": "A shallow dish of good olive oil loaded with balsamic, garlic, feta, herbs and marinated vegetables for dunking bread.",
+  "time": "25 min",
+  "minutes": 25,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DWzYN-KD3Dj/",
+    "site": "Instagram @flavorsbyyulia",
+    "title": "Loaded Olive Oil Dip",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1/2 cup good extra-virgin olive oil",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "good extra-virgin olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp balsamic vinegar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "balsamic vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 garlic clove, finely grated",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "finely grated",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup crumbled feta",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "feta",
+      "prep": "crumbled",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp sumac or Aleppo pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sumac or Aleppo pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp chopped fresh dill",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh dill",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp chopped fresh flat-leaf parsley",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh flat-leaf parsley",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup chopped marinated artichoke hearts, olives or mushrooms",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "marinated artichoke hearts, olives or mushrooms",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 loaf crusty bread, sliced or torn",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "loaf crusty bread",
+      "prep": "sliced or torn",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Pour the olive oil into a shallow dish or plate with a rim and dot the balsamic over it in drops.",
+    "Scatter the garlic, feta, sumac or Aleppo pepper, dill, parsley and marinated vegetables over the oil.",
+    "Let it sit about 15 min so the flavors infuse the oil, then serve with the bread for scooping."
+  ],
+  "tips": [],
+  "references": [
+    {
+      "url": "https://kennascooks.com/loaded-bread-dipping-oil/",
+      "site": "Kenna's Cooks",
+      "title": "Loaded Bread Dipping Oil",
+      "usedFor": "feta, parsley and artichoke amounts, 15 min rest before serving",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

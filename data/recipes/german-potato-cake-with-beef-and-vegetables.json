@@ -1,0 +1,257 @@
+{
+  "slug": "german-potato-cake-with-beef-and-vegetables",
+  "name": "German Potato Cake with Beef and Vegetables",
+  "category": "Dinner",
+  "emoji": "🥔",
+  "desc": "A springform shell of smashed boiled potatoes filled with beef, celery root, carrots and leeks, baked under a nutmeg cream custard.",
+  "time": "1 hr 40 min",
+  "minutes": 100,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C_ajIhKtzZz/",
+    "site": "Instagram @gina.sandrin",
+    "title": "Kartoffelkuchen",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 6,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Potato shell:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "8-10 medium Yukon Gold potatoes (about 2.5 lb), peeled",
+      "qty": 8,
+      "qtyMax": 10,
+      "unit": null,
+      "item": "medium Yukon Gold potatoes",
+      "prep": "peeled",
+      "note": "about 2.5 lb"
+    },
+    {
+      "raw": "1 tbsp kosher salt, for the cooking water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "kosher salt",
+      "prep": "for the cooking water",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp neutral oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "neutral oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp kosher salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "100g grated Gouda or Emmentaler (about 1 cup), divided",
+      "qty": 100,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "grated Gouda or Emmentaler",
+      "prep": "divided",
+      "note": "about 1 cup"
+    },
+    {
+      "raw": "Filling:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp neutral oil, divided",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "neutral oil",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "300g ground beef",
+      "qty": 300,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "ground beef",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 medium celery root (celeriac), peeled and cut into small dice",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium celery root",
+      "prep": "peeled and cut into small dice",
+      "note": "celeriac"
+    },
+    {
+      "raw": "2 medium carrots, cut into small dice",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium carrots",
+      "prep": "cut into small dice",
+      "note": null
+    },
+    {
+      "raw": "2 leeks, white and light green parts, cleaned and cut into small dice",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "leeks",
+      "prep": "white and light green parts, cleaned and cut into small dice",
+      "note": null
+    },
+    {
+      "raw": "1 medium yellow onion, cut into small dice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium yellow onion",
+      "prep": "cut into small dice",
+      "note": null
+    },
+    {
+      "raw": "1 tsp kosher salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup fresh flat-leaf parsley, chopped",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh flat-leaf parsley",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup fresh chives, chopped",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh chives",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "Custard:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 large eggs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "200ml heavy cream",
+      "qty": 200,
+      "qtyMax": null,
+      "unit": "ml",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp ground nutmeg",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground nutmeg",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp kosher salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 350°F (180°C, conventional top and bottom heat). Line the base and sides of a 10-inch (26 cm) springform pan with parchment.",
+    "Boil the potatoes in well-salted water until tender, 20-25 minutes. Drain and toss with 2 tbsp oil and 1/2 tsp salt.",
+    "Squash the potatoes into the pan, pressing them over the base and up the sides to form a shell. Sprinkle with half the cheese.",
+    "Heat 1 tsp oil in a large skillet over medium-high heat and brown the beef well, breaking it up, until no pink remains, 6-8 minutes. Season with a pinch of the salt and pepper and set aside.",
+    "Add the remaining oil to the skillet and sweat the celery root, carrots, leeks and onion over medium heat until soft, about 10 minutes. Season with the rest of the salt and pepper.",
+    "Stir in the beef, parsley and chives. Spoon the mixture into the potato shell with the remaining cheese mixed through.",
+    "Whisk the eggs, cream, nutmeg, salt and pepper and pour over the filling.",
+    "Bake about 40 minutes, until golden and the custard is set; a fork or knife poked into the center should come out without liquid. If not, bake 5-10 minutes more.",
+    "Rest 10 minutes, then release the springform and cut into wedges."
+  ],
+  "tips": [
+    "1 tsp nutmeg is the creator's amount and comes through strongly; die Frau am Grill uses 1/2 tsp in a custard of 4 eggs, so start with 1/2 tsp if you are unsure.",
+    "Translated from the German caption."
+  ],
+  "references": [
+    {
+      "url": "https://die-frau-am-grill.de/kartoffelkuchen/",
+      "site": "Die Frau am Grill",
+      "title": "Kartoffelkuchen, herzhaft mit Schinken und Zwiebeln",
+      "usedFor": "26 cm springform, cheese amount, nutmeg comparison, 180°C conventional oven setting",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

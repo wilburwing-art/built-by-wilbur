@@ -3,22 +3,22 @@
   "name": "Tequila Old Fashioned",
   "category": "Drinks",
   "emoji": "🥃",
-  "desc": "The Camp infusion kit with tequila instead of bourbon, three days in the fridge",
-  "time": "72 hrs",
-  "minutes": 4320,
+  "desc": "The Camp Old Fashioned infusion kit steeped with aged tequila instead of bourbon, finished with a squeeze of lime.",
+  "time": "72 hrs 5 min",
+  "minutes": 4325,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://sharingsunshine.com/products/camp-craft-cocktails-old-fashioned-infusion-kit",
+    "site": "Sharing Sunshine (Camp Craft Cocktails retailer)",
+    "title": "Camp Craft Cocktails Old Fashioned Infusion Kit",
+    "matchType": "closest",
+    "evidence": "The kit's own directions as reproduced by the retailer: add the spirit (tequila is listed), steep in the fridge 3 days, strain, and pour 1 1/2 oz over the biggest ice cube you can make.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 6,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
@@ -36,35 +36,46 @@
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "Camp Old Fashioned infusion kit (sugar, bitters, orange and cherry)",
+      "item": "Camp Old Fashioned infusion kit",
       "prep": null,
-      "note": null
+      "note": "sugar, bitters, orange and cherry"
     },
     {
-      "raw": "A large ice cube, to serve",
-      "qty": null,
+      "raw": "6 large ice cubes, to serve",
+      "qty": 6,
       "qtyMax": null,
       "unit": null,
-      "item": null,
+      "item": "large ice cubes",
       "prep": null,
-      "note": null
+      "note": "to serve"
     },
     {
-      "raw": "A small squeeze of lime, to serve",
-      "qty": null,
+      "raw": "1 lime, cut into wedges, to serve",
+      "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
+      "item": "lime",
+      "prep": "cut into wedges",
+      "note": "to serve"
     }
   ],
   "steps": [
-    "Pour the tequila into the Camp kit jar over the botanicals. Blanco works, but the aged stuff brings a warmth that suits the bitters and sugar.",
+    "Pour the tequila into the kit jar over the botanicals and stir gently. Blanco works, but aged tequila brings a warmth that suits the bitters and sugar.",
     "Seal and refrigerate 3 days. The kit supplies the sugar and bitters, so nothing else goes in.",
-    "Strain out the botanicals.",
-    "Serve over a large ice cube with a small squeeze of lime. Tequila wants acidity in a way bourbon does not, and it brightens the whole drink."
+    "Strain out the botanicals into a clean jar or bottle and keep it in the fridge.",
+    "For each drink, pour 1 1/2 to 2 oz of the infused tequila over a large ice cube and add a small squeeze of lime. Tequila wants acidity in a way bourbon does not, and the lime brightens the whole drink."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Once infused, drink it within 30 days. The kit can be refilled and infused a second time.",
+    "Camp's directions call for a 1 1/2 oz pour, which gets about 8 drinks from the jar; at 2 oz you get 6."
+  ],
+  "references": [
+    {
+      "url": "https://sharingsunshine.com/products/camp-craft-cocktails-old-fashioned-infusion-kit",
+      "site": "Sharing Sunshine",
+      "title": "Camp Craft Cocktails Old Fashioned Infusion Kit",
+      "usedFor": "3 day fridge steep, pour size, 30 day shelf life, second infusion",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

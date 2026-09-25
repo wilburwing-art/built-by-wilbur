@@ -1,0 +1,144 @@
+{
+  "slug": "instant-pot-chicken-bibimbap",
+  "name": "Instant Pot Chicken Bibimbap",
+  "category": "Dinner",
+  "emoji": "🍚",
+  "desc": "Rice, chicken, shiitake, carrot, corn and spinach pressure-cooked together in one pot and finished with gochujang and sesame oil.",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C-oEqffyJ7t/",
+    "site": "Instagram @ricezhangg",
+    "title": "High Protein Chicken Bibimbap",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 2,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 cup white rice, rinsed well",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "white rice",
+      "prep": "rinsed well",
+      "note": null
+    },
+    {
+      "raw": "1 cup water (3/4 cup or 1/2 cup if your toppings are very watery)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": "3/4 cup or 1/2 cup if your toppings are very watery"
+    },
+    {
+      "raw": "8 oz boneless skinless chicken breast or thighs, cut into small pieces",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "boneless skinless chicken breast or thighs",
+      "prep": "cut into small pieces",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup sliced shiitake mushrooms",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sliced shiitake mushrooms",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup julienned carrots",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "julienned carrots",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup corn kernels",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "corn kernels",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup baby spinach",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "baby spinach",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp grated fresh ginger",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "grated fresh ginger",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp gochujang",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "gochujang",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp toasted sesame oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "toasted sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Roasted seaweed sheets, for serving",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Add the rinsed rice and water to the Instant Pot.",
+    "Layer the chicken, mushrooms, carrots, corn, spinach and ginger evenly on top of the rice. Do not stir.",
+    "Seal the lid and cook on high pressure for 5 min. Let the pressure release naturally for 10 min, then release any remaining pressure.",
+    "Check that the chicken reads 165°F. Stir in the gochujang and sesame oil, fluffing the rice and toppings together.",
+    "Serve warm with seaweed."
+  ],
+  "tips": [
+    "In a rice cooker, use fewer toppings and cut the chicken smaller so it cooks through in time."
+  ],
+  "references": [
+    {
+      "url": "https://happyricehappylife.com/recipe/easy-high-protein-instant-pot-chicken-bibimbap/",
+      "site": "Happy Rice Happy Life",
+      "title": "Easy High Protein Instant Pot Chicken Bibimbap",
+      "usedFor": "chicken amount scaled to 1 cup rice; vegetable, ginger, gochujang and sesame oil amounts; layering toppings on the rice",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

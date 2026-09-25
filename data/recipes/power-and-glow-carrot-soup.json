@@ -1,0 +1,208 @@
+{
+  "slug": "power-and-glow-carrot-soup",
+  "name": "Power and Glow Carrot Soup",
+  "category": "Dinner",
+  "emoji": "🥕",
+  "desc": "Roasted carrot, onion and garlic soup blended with bone broth, silken tofu, ginger and lemon.",
+  "time": "1 hr 5 min",
+  "minutes": 65,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DOpEammDwnV/",
+    "site": "Instagram @shredhappens",
+    "title": "Power & Glow Carrot Soup",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 lb carrots, peeled and chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "carrots",
+      "prep": "peeled and chopped",
+      "note": null
+    },
+    {
+      "raw": "1 large white onion, roughly chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large white onion",
+      "prep": "roughly chopped",
+      "note": null
+    },
+    {
+      "raw": "10-12 garlic cloves, peeled",
+      "qty": 10,
+      "qtyMax": 12,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "peeled",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp curry powder, plus more to taste",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "curry powder",
+      "prep": "plus more to taste",
+      "note": null
+    },
+    {
+      "raw": "1 tsp smoked paprika",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "smoked paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp kosher salt (a couple of generous pinches), plus more to taste",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": "plus more to taste",
+      "note": "a couple of generous pinches"
+    },
+    {
+      "raw": "1/2 tsp cracked black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cracked black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 cups bone broth",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "bone broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (14-16 oz) block soft or silken tofu, drained (or 3 servings cottage cheese)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "package",
+      "item": "soft or silken tofu",
+      "prep": "drained",
+      "note": "14-16 oz block; or 3 servings cottage cheese"
+    },
+    {
+      "raw": "1 tbsp freshly grated ginger",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "freshly grated ginger",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Juice of 1/2 lemon (about 1 1/2 tbsp)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lemon",
+      "prep": "juiced",
+      "note": "about 1 1/2 tbsp juice"
+    },
+    {
+      "raw": "1/4 tsp red pepper flakes",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Toppings:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup freshly grated Parmesan",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "freshly grated Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6-8 fresh basil leaves",
+      "qty": 6,
+      "qtyMax": 8,
+      "unit": null,
+      "item": "fresh basil leaves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lemon wedge",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lemon wedge",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp toasted pumpkin or sunflower seeds",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "toasted pumpkin or sunflower seeds",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 400°F and line a sheet pan with parchment.",
+    "Spread the carrots, onion and garlic on the pan. Drizzle with the olive oil and season with the curry powder, smoked paprika, salt and pepper. Toss to coat.",
+    "Roast 45-50 min, tossing halfway, until everything is tender and golden at the edges.",
+    "Transfer the roasted vegetables to a blender (or a large pot if using an immersion blender). Add the bone broth, tofu, ginger, lemon juice and red pepper flakes.",
+    "Blend until completely smooth, working in batches and venting the lid if using a countertop blender. Taste and adjust with more salt, curry powder or lemon. If it cooled while blending, warm it in a pot over medium-low.",
+    "Serve topped with Parmesan, basil, a squeeze of lemon and toasted seeds."
+  ],
+  "tips": [
+    "Whole pot: 885 cal, 71g protein. Salt makes this soup, so taste and season generously."
+  ],
+  "references": [
+    {
+      "url": "https://shredhappens.substack.com/p/high-protein-roasted-carrot-soup",
+      "site": "Shredhappens (creator's Substack)",
+      "title": "High-Protein Roasted Carrot Soup",
+      "usedFor": "lined sheet pan, salt as a couple of generous pinches, roast until tender and golden, adjust with salt, curry powder or lemon",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

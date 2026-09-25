@@ -1,0 +1,198 @@
+{
+  "slug": "coconut-red-curry-baked-dumplings",
+  "name": "Coconut Red Curry Baked Dumplings",
+  "category": "Dinner",
+  "emoji": "🥟",
+  "desc": "Frozen dumplings baked on bok choy in a coconut milk and red curry sauce, finished with chili crunch and herbs.",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DRIFAPCkcPJ/",
+    "site": "Instagram @elena.lohse",
+    "title": "Coconut Red Curry Baked Dumplings",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Sauce:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (13.5 oz) can full-fat coconut milk (or 1/4 cup coconut cream plus 1 cup water)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "full-fat coconut milk",
+      "prep": null,
+      "note": "13.5 oz; or 1/4 cup coconut cream plus 1 cup water"
+    },
+    {
+      "raw": "2 tbsp Thai red curry paste",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Thai red curry paste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 garlic cloves, minced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup soy sauce",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp fresh ginger, grated (original recipe)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fresh ginger",
+      "prep": "grated",
+      "note": "original recipe"
+    },
+    {
+      "raw": "1 tbsp toasted sesame oil (original recipe)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "toasted sesame oil",
+      "prep": null,
+      "note": "original recipe"
+    },
+    {
+      "raw": "1 tbsp rice vinegar (original recipe)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "rice vinegar",
+      "prep": null,
+      "note": "original recipe"
+    },
+    {
+      "raw": "Main:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups chopped bok choy (optional, original recipe)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chopped bok choy",
+      "prep": null,
+      "note": "optional, original recipe"
+    },
+    {
+      "raw": "16 oz frozen dumplings",
+      "qty": 16,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "frozen dumplings",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Topping:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup fresh cilantro, chopped",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh cilantro",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "2 green onions, thinly sliced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "green onions",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp chili crunch",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chili crunch",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp sesame seeds",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sesame seeds",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 400°F.",
+    "Whisk the coconut milk, curry paste, garlic and soy sauce (plus the ginger, sesame oil and rice vinegar if using) in a 9x9 in baking dish.",
+    "Scatter the bok choy over the sauce, then arrange the frozen dumplings on top in a single layer.",
+    "Bake uncovered 20 minutes, until the sauce bubbles, the tops are golden, and a dumpling cut open is steaming hot in the center (165°F).",
+    "Top with cilantro, green onions, chili crunch and sesame seeds, and serve."
+  ],
+  "tips": [
+    "The original HealthyGirl Kitchen version bakes covered at 375°F for 15 minutes; Sweet Miscellany bakes covered at 375°F for 30-35 minutes for frozen dumplings.",
+    "Frozen dumplings may need a few extra minutes.",
+    "Canned coconut cream gives a thicker sauce than coconut milk."
+  ],
+  "references": [
+    {
+      "url": "https://www.sweetmiscellany.com/coconut-curry-dumpling-bake/",
+      "site": "Sweet Miscellany",
+      "title": "Coconut Curry Dumpling Bake",
+      "usedFor": "can size, covered-bake alternative and timing for frozen dumplings",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.liveeatlearn.com/red-curry-dumpling-bake/",
+      "site": "Live Eat Learn",
+      "title": "Red Curry Dumpling Bake",
+      "usedFor": "400°F bake, single layer of dumplings, bubbling sauce doneness cue",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

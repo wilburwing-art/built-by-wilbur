@@ -3,37 +3,37 @@
   "name": "Margarita",
   "category": "Drinks",
   "emoji": "🍹",
-  "desc": "Tequila, fresh lime juice, and Cointreau on the rocks",
+  "desc": "Blanco tequila, Cointreau and fresh lime juice shaken and served on the rocks with a salt rim.",
   "time": "5 min",
   "minutes": 5,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.cointreau.com/us/en/cocktails/margarita",
+    "site": "Cointreau",
+    "title": "The Original Margarita",
+    "matchType": "closest",
+    "evidence": "Same three ingredients with Cointreau as the only sweetener, a salt rim, and shaken over ice into a rocks glass; the ratios are close (5:3:2 there, 6:4:3 here).",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 2,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "1/2 cup tequila",
+      "raw": "1/2 cup (4 oz) blanco tequila",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "tequila",
+      "item": "blanco tequila",
       "prep": null,
-      "note": null
+      "note": "4 oz"
     },
     {
       "raw": "1/3 cup Cointreau",
-      "qty": 0.3333,
+      "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
       "item": "Cointreau",
@@ -41,13 +41,31 @@
       "note": null
     },
     {
-      "raw": "1/4 cup fresh lime juice",
+      "raw": "1/4 cup fresh lime juice (about 2 limes)",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
       "item": "fresh lime juice",
       "prep": null,
-      "note": null
+      "note": "about 2 limes"
+    },
+    {
+      "raw": "1 lime wedge, for the rims",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lime wedge",
+      "prep": null,
+      "note": "for the rims"
+    },
+    {
+      "raw": "2 tbsp coarse kosher salt, for the rims",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "coarse kosher salt",
+      "prep": null,
+      "note": "for the rims"
     },
     {
       "raw": "Ice",
@@ -57,20 +75,38 @@
       "item": null,
       "prep": null,
       "note": null
-    },
-    {
-      "raw": "Salt for rimming",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
     }
   ],
   "steps": [
-    "Rim glasses with lime and salt. Shake tequila, Cointreau, and lime juice with ice. Strain over fresh ice."
+    "Spread the salt on a small plate. Rub the lime wedge around the rims of 2 rocks glasses, dip them in the salt, and fill the glasses with fresh ice.",
+    "Fill a shaker with ice and add the tequila, Cointreau and lime juice.",
+    "Shake hard until the outside of the shaker is frosty, 10 to 15 seconds.",
+    "Strain over the fresh ice, dividing between the 2 glasses."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Love and Lemons and Well Seasoned Studio use as much lime as tequila plus 1/2 oz agave; if this one tastes too strong, add a squeeze more lime and a little agave."
+  ],
+  "references": [
+    {
+      "url": "https://www.cointreau.com/us/en/cocktails/margarita",
+      "site": "Cointreau",
+      "title": "The Original Margarita",
+      "usedFor": "ratio comparison, salt rim, lowball glass over ice",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.loveandlemons.com/margarita-recipe/",
+      "site": "Love and Lemons",
+      "title": "Margarita Recipe",
+      "usedFor": "rimming method with coarse salt",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.wellseasonedstudio.com/classic-no-fail-margarita-recipe/",
+      "site": "Well Seasoned Studio",
+      "title": "Tried & True Classic Margaritas (with Cointreau!)",
+      "usedFor": "shake time, agave comparison in tips",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

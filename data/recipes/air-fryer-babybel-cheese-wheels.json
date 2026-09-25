@@ -1,0 +1,82 @@
+{
+  "slug": "air-fryer-babybel-cheese-wheels",
+  "name": "Air Fryer Babybel Cheese Wheels",
+  "category": "Sides & Snacks",
+  "emoji": "🧀",
+  "desc": "Babybel Light rounds double coated in egg and seasoned breadcrumbs, frozen, and air fried into crisp mini cheese wheels.",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DRS-NGLjEwr/",
+    "site": "Instagram @jakecalorie",
+    "title": "Air Fryer Babybel Cheese Wheels",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 3,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "6 Babybel Light cheese rounds, wrapper and wax removed",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": null,
+      "item": "Babybel Light cheese rounds",
+      "prep": "wrapper and wax removed",
+      "note": null
+    },
+    {
+      "raw": "2 large eggs, whisked",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": "whisked",
+      "note": null
+    },
+    {
+      "raw": "1 cup Italian seasoned breadcrumbs",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Italian seasoned breadcrumbs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Olive oil spray",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Set up the whisked eggs and the breadcrumbs in two shallow bowls.",
+    "Dip each cheese round in egg, then press into the breadcrumbs to coat. Repeat the egg and crumbs for a second coat so the shell holds.",
+    "Freeze the breaded rounds on a plate for 30 min.",
+    "Preheat the air fryer to 380°F. Spray the rounds on both sides with oil and set them in the basket without touching.",
+    "Air fry 4 to 6 min, turning halfway, until golden brown and crisp. Eat warm."
+  ],
+  "tips": [
+    "A lower-calorie swap for mozzarella sticks. Freezing the breaded rounds for 30 min first helps them hold their shape.",
+    "Pull them as soon as they are golden; a minute too long and the cheese breaks through the crust."
+  ],
+  "references": [
+    {
+      "url": "https://airfryingfoodie.com/air-fried-babybel-cheese/",
+      "site": "Air Frying Foodie",
+      "title": "Air Fried Babybel Cheese",
+      "usedFor": "egg and breadcrumb amounts, oil spray, air fryer temperature and time",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

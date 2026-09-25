@@ -1,0 +1,380 @@
+{
+  "slug": "pan-fried-soup-dumplings-sheng-jian-bao",
+  "name": "Pan-Fried Soup Dumplings (Sheng Jian Bao)",
+  "category": "Dinner",
+  "emoji": "🥟",
+  "desc": "Fluffy yeasted buns filled with pork and dashi soup jelly, steamed and pan-fried in one skillet until the bottoms are crisp.",
+  "time": "2 hrs 15 min",
+  "minutes": 135,
+  "difficulty": "Hard",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C661lHmIYzw/",
+    "site": "Instagram @dudu_eats",
+    "title": "Pan-Fried Soup Dumplings (Sheng Jian Bao)",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://www.mob.co.uk/recipes/pan-fried-soup-dumplings-sheng-jian-bao"
+  },
+  "ingredients": [
+    {
+      "raw": "Soup jelly:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "30g fresh ginger, sliced",
+      "qty": 30,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "fresh ginger",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "250ml water",
+      "qty": 250,
+      "qtyMax": null,
+      "unit": "ml",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp dashi powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dashi powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "8g gelatin leaves",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "gelatin leaves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Dough:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "250g all-purpose flour",
+      "qty": 250,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp instant yeast",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "instant yeast",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp granulated sugar (or honey)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": "or honey"
+    },
+    {
+      "raw": "1/2 tsp fine salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "140ml warm water",
+      "qty": 140,
+      "qtyMax": null,
+      "unit": "ml",
+      "item": "warm water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp vegetable oil, for the bowl and hands",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vegetable oil",
+      "prep": "for the bowl and hands",
+      "note": null
+    },
+    {
+      "raw": "Filling:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "250g ground pork",
+      "qty": 250,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "ground pork",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "15g fresh ginger, minced",
+      "qty": 15,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "fresh ginger",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1 garlic clove, minced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic clove",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "2 spring onions, thinly sliced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "spring onions",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp light soy sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "light soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tbsp dark soy sauce",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dark soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tbsp oyster sauce",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "oyster sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tbsp rice vinegar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "rice vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tbsp toasted sesame oil",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "toasted sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp ground white pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground white pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp fine salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp water",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "250g soup jelly (all of the above), cubed",
+      "qty": 250,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "soup jelly",
+      "prep": "cubed",
+      "note": "all of the above"
+    },
+    {
+      "raw": "Dusting:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 tbsp all-purpose flour",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 tbsp cornstarch",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "To cook and serve:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp vegetable oil, plus a drizzle",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": "plus a drizzle",
+      "note": null
+    },
+    {
+      "raw": "2 spring onions, thinly sliced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "spring onions",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp black sesame seeds",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "black sesame seeds",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp Chinese black vinegar, for dipping",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Chinese black vinegar",
+      "prep": "for dipping",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp chili oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chili oil",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Soup jelly: simmer the ginger, water and dashi powder in a small covered saucepan for 5 minutes. Meanwhile soak the gelatin leaves in cold water for 3 minutes.",
+    "Take the pan off the heat, squeeze the gelatin dry and stir it in until dissolved. Pour into a shallow bowl and remove the ginger. Once cool, freeze 20 minutes, then refrigerate 1 hour, until very firm.",
+    "Dough: mix the flour, yeast, sugar and salt in a large bowl. Pour in the warm water and stir with a wooden spoon until a dough forms.",
+    "Work it quickly on the counter for 2 minutes with a slap technique: slap the dough down, stretch it into a long rope, fold it back into a ball, and repeat without tearing the rope.",
+    "Oil a bowl and your hands, shape the dough into a ball and set it in the bowl. Cover with a damp towel, wrap in a second towel, and let rise somewhere warm for 45-60 minutes.",
+    "Filling: put the pork, ginger, garlic, spring onions, both soy sauces, oyster sauce, vinegar, sesame oil, white pepper, salt and water in a bowl. Stir in one direction with a fork until it comes together in one mass. Chill.",
+    "Cut the soup jelly into pea-size cubes and fold them into the filling. Refrigerate until needed.",
+    "Mix the dusting flour and cornstarch. Punch down the dough, roll it into a log, and cut into 13 pieces (about 30g each). Roll into balls on the dusted counter, cover with a damp towel, and rest 5 minutes.",
+    "Dust again and roll each ball into a round about 10 cm (4 inches) across, the size of your palm. Keep them covered.",
+    "Coat the base of a 10-inch lidded nonstick skillet with 2 tbsp oil.",
+    "Put a heaped tbsp of filling on a wrapper and pleat the edges tightly together at the top so there are no gaps. Set it seam side down in the pan. Repeat, filling the pan in a circle.",
+    "Cover the buns with a damp towel and let them rise in a warm place for 15 minutes.",
+    "Pour room-temperature water into the pan until only the tops of the buns poke out. Cover and bring to a boil over medium-high heat, then lower to medium and cook 10 minutes, until most of the water has evaporated and the filling reaches 160°F.",
+    "Sprinkle with the spring onions and sesame seeds, drizzle a little oil around the edge, cover and cook 30 seconds more. Check that the bottoms are deep golden and crisp.",
+    "Set the hot pan on a cold, wet towel for a minute to help release the buns, loosen them with a spatula, and flip onto a plate crisp side up. Serve with black vinegar and chili oil."
+  ],
+  "tips": [
+    "The slap-and-stretch knead is what makes the buns fluffy.",
+    "Pinch the pleats tight: any gap lets the soup leak out and burn in the pan.",
+    "No black vinegar? Mix rice vinegar and soy sauce 3:1.",
+    "Freeze any leftover filling for the next batch."
+  ],
+  "references": [
+    {
+      "url": "https://www.mob.co.uk/recipes/pan-fried-soup-dumplings-sheng-jian-bao",
+      "site": "Mob",
+      "title": "Pan-Fried Soup Dumplings (Sheng Jian Bao), recipe by Romany Henry",
+      "usedFor": "every amount, jelly, dough, shaping and cooking method, 13 buns, 4 servings",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.americastestkitchen.com/recipes/17397-shengjian-bao-shanghainese-pan-fried-soup-dumplings",
+      "site": "America's Test Kitchen",
+      "title": "Shengjian Bao (Shanghainese Pan-Fried Soup Dumplings)",
+      "usedFor": "skillet size and checking the bottoms turn deep golden after the water cooks off",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

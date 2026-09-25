@@ -3,7 +3,7 @@
   "name": "Balsamic Glazed Chicken with Caprese Protein Pasta",
   "category": "Dinner",
   "emoji": "🍝",
-  "desc": "Balsamic-marinated cutlets over caprese pasta, finished with a sticky balsamic soy glaze",
+  "desc": "Balsamic-Dijon marinated chicken cutlets over a caprese protein pasta with bacon, finished with a sticky balsamic soy glaze.",
   "time": "1 hr",
   "minutes": 60,
   "difficulty": "Medium",
@@ -12,18 +12,27 @@
     "url": null,
     "site": null,
     "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "matchType": "none",
+    "evidence": "Searched for this exact combination (balsamic Dijon marinated cutlets, balsamic soy brown sugar glaze, protein pasta with bacon and mozzarella pearls); only generic caprese chicken pastas with different ingredients turned up.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "1 1/2 pounds boneless skinless chicken breasts",
+      "raw": "Chicken and marinade:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 lb boneless skinless chicken breasts",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "lb",
@@ -32,16 +41,16 @@
       "note": null
     },
     {
-      "raw": "1/3 cup balsamic vinegar (for marinade)",
-      "qty": 0.3333,
+      "raw": "1/3 cup balsamic vinegar",
+      "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
-      "item": "balsamic vinegar (for marinade)",
+      "item": "balsamic vinegar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 tablespoons Dijon mustard",
+      "raw": "2 tbsp Dijon mustard",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
@@ -50,25 +59,25 @@
       "note": null
     },
     {
-      "raw": "1 lemon, juiced (for marinade)",
+      "raw": "1 lemon, juiced (about 3 tbsp)",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "lemon",
-      "prep": "juiced (for marinade)",
-      "note": null
+      "prep": "juiced",
+      "note": "about 3 tbsp"
     },
     {
       "raw": "3 garlic cloves, crushed",
       "qty": 3,
       "qtyMax": null,
-      "unit": null,
-      "item": "garlic cloves",
+      "unit": "clove",
+      "item": "garlic",
       "prep": "crushed",
       "note": null
     },
     {
-      "raw": "2 teaspoons dried basil",
+      "raw": "2 tsp dried basil",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
@@ -77,7 +86,7 @@
       "note": null
     },
     {
-      "raw": "1/2 teaspoon dried oregano",
+      "raw": "1/2 tsp dried oregano",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
@@ -86,8 +95,8 @@
       "note": null
     },
     {
-      "raw": "1 1/3 teaspoons kosher salt",
-      "qty": 1.3333,
+      "raw": "1 tsp kosher salt",
+      "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
       "item": "kosher salt",
@@ -95,7 +104,7 @@
       "note": null
     },
     {
-      "raw": "1/2 teaspoon black pepper",
+      "raw": "1/2 tsp black pepper",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
@@ -104,43 +113,61 @@
       "note": null
     },
     {
-      "raw": "1 tablespoon olive oil (for marinade)",
+      "raw": "1 tbsp olive oil",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "olive oil (for marinade)",
+      "item": "olive oil",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/3 cup balsamic vinegar (for glaze)",
-      "qty": 0.3333,
+      "raw": "1 tbsp neutral oil (such as canola or avocado), for the pan",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "neutral oil",
+      "prep": "for the pan",
+      "note": "such as canola or avocado"
+    },
+    {
+      "raw": "Balsamic glaze:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup balsamic vinegar",
+      "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
-      "item": "balsamic vinegar (for glaze)",
+      "item": "balsamic vinegar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 tablespoons gluten free soy sauce or tamari",
+      "raw": "2 tbsp gluten-free soy sauce or tamari",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "gluten free soy sauce or tamari",
+      "item": "gluten-free soy sauce or tamari",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/3 cup brown sugar",
-      "qty": 0.3333,
+      "raw": "1/3 cup packed light brown sugar",
+      "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
-      "item": "brown sugar",
-      "prep": null,
+      "item": "light brown sugar",
+      "prep": "packed",
       "note": null
     },
     {
-      "raw": "1 tablespoon honey",
+      "raw": "1 tbsp honey",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
@@ -158,7 +185,7 @@
       "note": null
     },
     {
-      "raw": "1 tablespoon cornstarch",
+      "raw": "1 tbsp cornstarch",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
@@ -167,13 +194,31 @@
       "note": null
     },
     {
-      "raw": "16 ounces protein pasta, short shape",
+      "raw": "Caprese pasta:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 slices bacon",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "bacon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "16 oz short-shape protein pasta (such as penne or rotini)",
       "qty": 16,
       "qtyMax": null,
       "unit": "oz",
-      "item": "protein pasta, short shape",
+      "item": "short-shape protein pasta",
       "prep": null,
-      "note": null
+      "note": "such as penne or rotini"
     },
     {
       "raw": "2 cups cherry tomatoes, halved",
@@ -185,7 +230,7 @@
       "note": null
     },
     {
-      "raw": "8 ounces fresh mozzarella pearls, drained",
+      "raw": "8 oz fresh mozzarella pearls, drained",
       "qty": 8,
       "qtyMax": null,
       "unit": "oz",
@@ -194,62 +239,72 @@
       "note": null
     },
     {
-      "raw": "1/2 cup fresh basil, chopped",
+      "raw": "1/2 cup chopped fresh basil, plus more for serving",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
       "item": "fresh basil",
-      "prep": "chopped",
+      "prep": "chopped, plus more for serving",
       "note": null
     },
     {
-      "raw": "2 bacon slices",
-      "qty": 2,
-      "qtyMax": null,
-      "unit": null,
-      "item": "bacon slices",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1 lemon, juiced (for pasta)",
+      "raw": "1 lemon, juiced (about 3 tbsp)",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "lemon",
-      "prep": "juiced (for pasta)",
-      "note": null
+      "prep": "juiced",
+      "note": "about 3 tbsp"
     },
     {
-      "raw": "1 tablespoon olive oil (for pasta)",
+      "raw": "1 tbsp olive oil",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "olive oil (for pasta)",
+      "item": "olive oil",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tablespoon neutral oil for the pan",
-      "qty": 1,
+      "raw": "1/3 tsp kosher salt",
+      "qty": 0.3333333333333333,
       "qtyMax": null,
-      "unit": "tbsp",
-      "item": "neutral oil for the pan",
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Freshly cracked black pepper, for serving",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Marinate the chicken: Slice 1 1/2 pounds boneless skinless chicken breasts horizontally into cutlets about 3/4 inch thick so they cook evenly. In a zip bag or bowl, whisk 1/3 cup balsamic vinegar (for marinade), 2 tablespoons Dijon mustard, 1 lemon, juiced (for marinade), 3 garlic cloves, crushed, 2 teaspoons dried basil, 1/2 teaspoon dried oregano, 1 tsp of the 1 1/3 teaspoons kosher salt, 1/2 teaspoon black pepper, and 1 tablespoon olive oil (for marinade). Add the chicken, press out the air, and refrigerate at least 30 minutes  and up to 8 hours.",
-    "Cook the bacon: Lay 2 bacon slices in a cold skillet and set it over medium. Cook, flipping once, until crisp. Move to a paper towel, chop, and pour off all but a thin film of fat.",
-    "Boil the pasta: Bring a large pot of well salted water to a boil and cook 16 ounces protein pasta, short shape to just under package al dente, since protein pasta softens as it sits. Reserve 1/2 cup pasta water, drain, and rinse briefly under cold water to stop the cooking.",
-    "Mix the glaze slurry: Whisk 1 tablespoon cornstarch into 1/2 cup water until no lumps remain. In a small saucepan, combine 1/3 cup balsamic vinegar (for glaze), 2 tablespoons gluten free soy sauce or tamari, 1/3 cup brown sugar, and 1 tablespoon honey.",
-    "Simmer the glaze: Bring the saucepan to a gentle simmer over medium, then whisk in the cornstarch slurry. Cook, whisking, until it thickens enough to coat a spoon. Pull it off the heat; it tightens more as it cools, so loosen with water if it goes past pourable.",
-    "Sear the first side: Heat 1 tablespoon neutral oil for the pan in a large skillet over medium until it shimmers. Shake excess marinade off the chicken and lay the cutlets down without crowding. Do not move them while they brown. Discard the leftover marinade.",
-    "Finish the chicken: Flip and cook until the thickest part reads 160F on an instant read thermometer. Transfer to a board and rest.",
-    "Toss the pasta: In a large bowl, combine the drained pasta, 2 cups cherry tomatoes, halved, 8 ounces fresh mozzarella pearls, drained, 1/2 cup fresh basil, chopped, the chopped bacon, 1 lemon, juiced (for pasta), 1 tablespoon olive oil (for pasta), and the remaining 1/4 tsp 1 1/3 teaspoons kosher salt. Toss, adding splashes of reserved pasta water until it looks glossy rather than dry.",
-    "Slice and plate: Slice the rested chicken against the grain. Spoon pasta onto plates, lay the chicken over the top, and drizzle generously with the balsamic glaze. Finish with extra basil and cracked pepper."
+    "Marinate the chicken: Slice the chicken breasts horizontally into cutlets about 3/4 inch thick. In a zip-top bag or bowl, whisk the first 1/3 cup balsamic, the Dijon, lemon juice, garlic, dried basil, oregano, 1 tsp kosher salt, pepper, and 1 tbsp olive oil. Add the chicken, press out the air, and refrigerate for at least 30 minutes and up to 8 hours.",
+    "Cook the bacon: Lay the bacon in a cold skillet and set it over medium heat. Cook, flipping once, until crisp, 8-10 minutes. Drain on a paper towel, chop, and pour off all but a thin film of fat.",
+    "Boil the pasta: Bring a large pot of well-salted water to a boil and cook the pasta to 1 minute under the package time for al dente, since protein pasta softens as it sits. Reserve 1/2 cup pasta water, drain, and rinse briefly under cold water to stop the cooking.",
+    "Mix the glaze: Whisk the cornstarch into the 1/2 cup water until smooth. In a small saucepan, combine the second 1/3 cup balsamic, the soy sauce, brown sugar, and honey.",
+    "Simmer the glaze: Bring the saucepan to a gentle simmer over medium heat, then whisk in the cornstarch slurry. Cook, whisking, until it thickens enough to coat a spoon, 1-2 minutes. Take it off the heat; it tightens as it cools, so loosen with a splash of water if it goes past pourable.",
+    "Sear the chicken: Heat the neutral oil in a large skillet (use the bacon pan if you like) over medium heat until it shimmers. Shake the excess marinade off the cutlets and lay them in the pan without crowding; discard the leftover marinade. Cook without moving until well browned, about 5 minutes.",
+    "Finish the chicken: Flip and cook until the thickest part reads 165°F on an instant-read thermometer, 4-5 minutes more. Transfer to a board and rest for 5 minutes.",
+    "Toss the pasta: In a large bowl, combine the drained pasta, tomatoes, mozzarella pearls, chopped basil, chopped bacon, lemon juice, 1 tbsp olive oil, and 1/3 tsp kosher salt. Toss, adding splashes of the reserved pasta water until glossy.",
+    "Plate: Slice the chicken against the grain. Spoon the pasta onto plates, lay the chicken on top, and drizzle generously with the balsamic glaze. Finish with more basil and cracked black pepper."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The original step pulled the chicken at 160°F to rest; it now cooks to 165°F in the pan, the USDA safe temperature for chicken."
+  ],
+  "references": [
+    {
+      "url": "https://www.nonnadsolivepit.org/recipe/balsamic-glazed-chicken-with-caprese-pasta",
+      "site": "Nonna D's Olive Pit",
+      "title": "Balsamic Glazed Chicken With Caprese Pasta",
+      "usedFor": "first-side sear time for balsamic-marinated cutlets (about 5 minutes without moving)",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

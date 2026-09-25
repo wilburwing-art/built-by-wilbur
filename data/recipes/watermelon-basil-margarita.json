@@ -3,95 +3,131 @@
   "name": "Watermelon Basil Margarita",
   "category": "Drinks",
   "emoji": "🍉",
-  "desc": "Watermelon juice and gently muddled basil over blanco tequila",
-  "time": "5 min",
-  "minutes": 5,
+  "desc": "Watermelon juice and gently muddled basil shaken with blanco tequila, lime and Cointreau.",
+  "time": "10 min",
+  "minutes": 10,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://vinepair.com/cocktail-recipe/watermelon-basil-margarita-recipe/",
+    "site": "VinePair",
+    "title": "Watermelon & Basil Margarita",
+    "matchType": "closest",
+    "evidence": "Same tequila, lime, 2 oz watermelon juice, basil and syrup, shaken and served in a salt-rimmed glass; VinePair uses a basil syrup instead of muddled leaves and no Cointreau.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 1,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "2 fluid ounces blanco tequila",
-      "qty": 2,
+      "raw": "1 lime wedge, for the rim",
+      "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "fluid ounces blanco tequila",
+      "item": "lime wedge",
       "prep": null,
-      "note": null
+      "note": "for the rim"
     },
     {
-      "raw": "2 fluid ounces watermelon juice",
-      "qty": 2,
+      "raw": "1 pinch flaky salt or Tajin, for the rim",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": "fluid ounces watermelon juice",
+      "unit": "pinch",
+      "item": "flaky salt or Tajin",
       "prep": null,
-      "note": null
+      "note": "for the rim"
     },
     {
-      "raw": "3/4 fluid ounce fresh lime juice",
-      "qty": 0.75,
-      "qtyMax": null,
-      "unit": null,
-      "item": "fluid ounce fresh lime juice",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1/2 fluid ounce Cointreau",
-      "qty": 0.5,
-      "qtyMax": null,
-      "unit": null,
-      "item": "fluid ounce Cointreau",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1/2 fluid ounce simple syrup",
-      "qty": 0.5,
-      "qtyMax": null,
-      "unit": null,
-      "item": "fluid ounce simple syrup",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "4 fresh basil leaves",
+      "raw": "4 fresh basil leaves, plus 1 sprig for garnish",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
       "item": "fresh basil leaves",
       "prep": null,
+      "note": "plus 1 sprig for garnish"
+    },
+    {
+      "raw": "2 oz blanco tequila",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "blanco tequila",
+      "prep": null,
       "note": null
     },
     {
-      "raw": "1 pinch flaky salt or Tajin for the rim",
-      "qty": 1,
+      "raw": "2 oz watermelon juice (from about 1/2 cup cubed seedless watermelon)",
+      "qty": 2,
       "qtyMax": null,
-      "unit": "pinch",
-      "item": "flaky salt or Tajin for the rim",
+      "unit": "oz",
+      "item": "watermelon juice",
+      "prep": null,
+      "note": "from about 1/2 cup cubed seedless watermelon"
+    },
+    {
+      "raw": "3/4 oz fresh lime juice",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "fresh lime juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 oz Cointreau",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "Cointreau",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 oz simple syrup",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "simple syrup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Ice",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Rim the glass: Run a lime wedge around the rim of a rocks glass and dip in 1 pinch flaky salt or Tajin for the rim. Fill with fresh ice and set aside.",
-    "Muddle the basil: Add 4 fresh basil leaves to a shaker and gently muddle just enough to release the oils. Don't shred them or it turns bitter.",
-    "Build and shake: Add 2 fluid ounces blanco tequila, 2 fluid ounces watermelon juice, 3/4 fluid ounce fresh lime juice, 1/2 fluid ounce Cointreau, and 1/2 fluid ounce simple syrup to the shaker. Fill with ice and shake hard for about 15 seconds  until well chilled.",
-    "Strain and serve: Double strain over the fresh ice in your prepared glass. Garnish with a basil sprig or a small watermelon wedge."
+    "Make the watermelon juice: blend the cubed watermelon until smooth and pour it through a fine mesh strainer, pressing lightly.",
+    "Rim the glass: run the lime wedge around the rim of a rocks glass and dip it in the flaky salt or Tajin. Fill with fresh ice and set aside.",
+    "Muddle the basil: add the 4 basil leaves to a shaker and press gently, only enough to release the oils. Shredding them turns the drink bitter.",
+    "Build and shake: add the tequila, watermelon juice, lime juice, Cointreau and simple syrup. Fill with ice and shake hard until well chilled, about 15 seconds.",
+    "Double strain (through the shaker strainer and a fine mesh strainer) over the fresh ice in your prepared glass. Garnish with the basil sprig."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The Watermelon Board version skips the juicing step and muddles 6 watermelon cubes with 6 basil leaves right in the shaker."
+  ],
+  "references": [
+    {
+      "url": "https://vinepair.com/cocktail-recipe/watermelon-basil-margarita-recipe/",
+      "site": "VinePair",
+      "title": "Watermelon & Basil Margarita",
+      "usedFor": "watermelon juice amount, salt rim, basil sprig garnish",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.watermelon.org/recipes/watermelon-basil-margarita/",
+      "site": "Watermelon Board",
+      "title": "Watermelon Basil Margarita",
+      "usedFor": "muddled watermelon cube alternative in tips",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

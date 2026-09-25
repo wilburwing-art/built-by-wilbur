@@ -1,0 +1,98 @@
+{
+  "slug": "buttered-noodles",
+  "name": "Buttered Noodles",
+  "category": "Dinner",
+  "emoji": "🧈",
+  "desc": "Ruffled pasta tossed hard with good butter, lots of Parmesan and pasta water until glossy.",
+  "time": "20 min",
+  "minutes": 20,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C8hv1hhPLXL/",
+    "site": "Instagram @violetcooksthings",
+    "title": "Buttered Noodles",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 lb mafaldine or other long pasta",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "mafaldine or other long pasta",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp kosher salt, for the pasta water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "kosher salt",
+      "prep": "for the pasta water",
+      "note": null
+    },
+    {
+      "raw": "1 stick (1/2 cup) good butter, such as Vital Farms, cut in pieces",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "stick",
+      "item": "good butter",
+      "prep": "cut in pieces",
+      "note": "such as Vital Farms; 1/2 cup"
+    },
+    {
+      "raw": "1 cup (about 2 oz) finely grated Parmesan, plus more for serving",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "finely grated Parmesan",
+      "prep": "plus more for serving",
+      "note": "about 2 oz"
+    },
+    {
+      "raw": "1/2 cup reserved pasta water, plus more as needed",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "reserved pasta water",
+      "prep": "plus more as needed",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp red pepper flakes",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Bring a large pot of water to a boil with the kosher salt. Cook the pasta until al dente (about 8 min for mafaldine). Reserve 1 cup of the pasta water and drain.",
+    "Return the hot pasta to the pot off the heat. Add the butter, a big handful of the Parmesan and 1/2 cup of the pasta water.",
+    "Toss and stir hard for 1 to 2 minutes, adding the rest of the Parmesan as you go, until the butter and cheese turn into a creamy, glossy sauce. Add more pasta water a spoonful at a time if it looks greasy or tight.",
+    "Finish with the red pepper flakes and more Parmesan."
+  ],
+  "tips": [
+    "Vigorous stirring emulsifies the butter and cheese so it clings instead of going greasy."
+  ],
+  "references": [
+    {
+      "url": "https://iamhomesteader.com/buttered-noodles/",
+      "site": "I Am Homesteader",
+      "title": "Buttered Noodles",
+      "usedFor": "1 lb mafaldine with 1 stick butter, 8 min cook time, 1/2 cup pasta water to start the sauce",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

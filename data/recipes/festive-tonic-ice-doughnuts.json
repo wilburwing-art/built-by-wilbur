@@ -1,0 +1,91 @@
+{
+  "slug": "festive-tonic-ice-doughnuts",
+  "name": "Festive Tonic Ice Doughnuts",
+  "category": "Drinks",
+  "emoji": "🍊",
+  "desc": "Orange juice ice rings frozen with raspberries, cranberries and rosemary, topped with blood orange tonic.",
+  "time": "6 hrs 10 min",
+  "minutes": 370,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DSK_QvTjOn9/",
+    "site": "Instagram @halfacoco",
+    "title": "Festive Tonic Ice Doughnuts",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 6,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "6-cavity silicone doughnut mold",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "About 1 1/2 cups fresh orange juice (from 4 to 5 oranges), enough to fill the mold",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh orange juice",
+      "prep": null,
+      "note": "from 4 to 5 oranges, enough to fill the mold"
+    },
+    {
+      "raw": "18 fresh raspberries",
+      "qty": 18,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fresh raspberries",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "18 fresh cranberries",
+      "qty": 18,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fresh cranberries",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "12 small fresh rosemary sprigs",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "sprig",
+      "item": "small fresh rosemary",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 cups blood orange and elderflower tonic water, chilled (about 1 cup per glass)",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "blood orange and elderflower tonic water",
+      "prep": "chilled",
+      "note": "about 1 cup per glass"
+    }
+  ],
+  "steps": [
+    "Juice the oranges and strain out the seeds.",
+    "Set the silicone doughnut mold on a small baking sheet so it stays level. Put 3 raspberries, 3 cranberries and 2 rosemary sprigs in each cavity.",
+    "Pour orange juice over the fruit to fill each cavity. Freeze at least 6 hours or overnight, until solid.",
+    "Pop out the ice doughnuts. Put 1 in each glass and pour about 1 cup cold tonic over it."
+  ],
+  "tips": [
+    "Makes 6.",
+    "The juice amount depends on your mold's cavity size; squeeze one extra orange if you come up short."
+  ],
+  "references": []
+}

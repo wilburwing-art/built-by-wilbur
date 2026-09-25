@@ -1,0 +1,318 @@
+{
+  "slug": "middle-eastern-chicken-rice-bowl",
+  "name": "Middle Eastern Chicken & Rice Bowl",
+  "category": "Dinner",
+  "emoji": "🍗",
+  "desc": "Yogurt and smoked paprika marinated chicken thighs over rice with a sumac onion salad and a dill pickle white sauce.",
+  "time": "2 hrs 40 min",
+  "minutes": 160,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C-BD9rMu_GA/",
+    "site": "Instagram @shredhappens",
+    "title": "Middle Eastern Chicken & Rice Bowl",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Chicken:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 lb boneless skinless chicken thighs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless skinless chicken thighs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1.5 tbsp olive oil",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp smoked paprika",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "smoked paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp dried thyme",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dried thyme",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tbsp Aleppo pepper or red pepper flakes",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Aleppo pepper or red pepper flakes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp ground cumin",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp ground cinnamon",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, a few pinches each",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp plain yogurt",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "plain yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lemon, juiced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lemon",
+      "prep": "juiced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil, for the pan",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": "for the pan",
+      "note": null
+    },
+    {
+      "raw": "Onion sumac salad:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large red onion, thinly sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large red onion",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup cherry tomatoes (a small handful), thinly sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cherry tomatoes",
+      "prep": "thinly sliced",
+      "note": "a small handful"
+    },
+    {
+      "raw": "1 cup fresh flat-leaf parsley leaves (a large handful)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh flat-leaf parsley leaves",
+      "prep": null,
+      "note": "a large handful"
+    },
+    {
+      "raw": "2-3 pinches kosher salt",
+      "qty": 2,
+      "qtyMax": 3,
+      "unit": "pinch",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp ground sumac",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "ground sumac",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large lemon, juiced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large lemon",
+      "prep": "juiced",
+      "note": null
+    },
+    {
+      "raw": "White sauce:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup plain yogurt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "plain yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp mayonnaise",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp dill pickle juice",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dill pickle juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp fresh dill, chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh dill",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "Small pinch of kosher salt",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Freshly cracked black pepper, plenty",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "To serve:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 cups cooked rice (or low-carb rice, cauliflower rice or quinoa)",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cooked rice",
+      "prep": null,
+      "note": "or low-carb rice, cauliflower rice or quinoa"
+    },
+    {
+      "raw": "2 Persian cucumbers, sliced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "Persian cucumbers",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "Fresh herbs (parsley, dill or mint), for serving",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Put the chicken in a bowl with 1.5 tbsp olive oil, the smoked paprika, garlic powder, thyme, Aleppo pepper, cumin, cinnamon, salt, pepper, yogurt and lemon juice. Mix well, cover and refrigerate 2 to 10 hours (or cook right away if you are short on time).",
+    "Take the chicken out of the fridge about 20 min before cooking to take the chill off.",
+    "Make the salad: combine the onion, tomatoes and parsley, sprinkle with the salt and sumac, add the lemon juice and mix well. Let sit about 10 min, stirring a couple of times.",
+    "Make the white sauce: mix the yogurt, mayonnaise, pickle juice, dill, salt and plenty of pepper. Taste and adjust.",
+    "Heat a cast iron pan over medium heat with 1 tbsp oil. Cook the chicken in batches 4 min on the first side, flip and cook 4 min, then 1 to 2 min more on each side, 10 to 12 min total, until an instant-read thermometer reads at least 165°F.",
+    "Add rice to each bowl, then chicken, then pile on the salad and sliced cucumbers. Scatter with herbs and drizzle with the white sauce."
+  ],
+  "tips": [
+    "The yogurt and lemon in the marinade tenderize the chicken. About 50 g protein per bowl (creator's number).",
+    "The creator serves it over low-carb rice. Any rice, cauliflower rice or quinoa works."
+  ],
+  "references": []
+}

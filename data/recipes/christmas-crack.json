@@ -3,8 +3,8 @@
   "name": "Christmas Crack",
   "category": "Desserts",
   "emoji": "🍫",
-  "desc": "Saltine toffee with melted chocolate, addictively sweet and salty",
-  "time": "2.5 hrs",
+  "desc": "Saltine crackers baked under brown sugar toffee and spread with melted chocolate, then broken into pieces.",
+  "time": "2 hrs 30 min",
   "minutes": 150,
   "difficulty": "Easy",
   "addedOn": null,
@@ -17,46 +17,46 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 20,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "40 saltine crackers (about 1 sleeve)",
+      "raw": "40 salted saltine crackers (about 1 sleeve)",
       "qty": 40,
       "qtyMax": null,
       "unit": null,
-      "item": "saltine crackers",
+      "item": "salted saltine crackers",
       "prep": null,
       "note": "about 1 sleeve"
     },
     {
-      "raw": "1 cup butter",
+      "raw": "1 cup (2 sticks, 227 g) salted butter",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "butter",
+      "item": "salted butter",
       "prep": null,
-      "note": null
+      "note": "2 sticks, 227 g"
     },
     {
-      "raw": "1 cup packed brown sugar",
+      "raw": "1 cup (220 g) packed light brown sugar",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "packed brown sugar",
+      "item": "packed light brown sugar",
       "prep": null,
-      "note": null
+      "note": "220 g"
     },
     {
-      "raw": "2 cups semi-sweet chocolate chips",
+      "raw": "2 cups (one 12 oz bag) semisweet chocolate chips",
       "qty": 2,
       "qtyMax": null,
       "unit": "cup",
-      "item": "semi-sweet chocolate chips",
+      "item": "semisweet chocolate chips",
       "prep": null,
-      "note": null
+      "note": "one 12 oz bag"
     },
     {
       "raw": "1/2 cup chopped pecans or sprinkles (optional)",
@@ -66,13 +66,33 @@
       "item": "chopped pecans or sprinkles",
       "prep": null,
       "note": "optional"
+    },
+    {
+      "raw": "Nonstick cooking spray, for the foil",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
     }
   ],
   "steps": [
-    "Lay crackers on foil-lined sheet. Boil butter and brown sugar 5 min.",
-    "Pour over crackers. Bake at 350°F 5 min.",
-    "Sprinkle chocolate chips, wait until shiny, spread. Add toppings. Chill 2 hrs. Break into pieces."
+    "Preheat the oven to 350°F. Line a large rimmed baking sheet with heavy-duty foil (spray regular foil with cooking spray). Lay the crackers on it in a single layer, edges touching.",
+    "Melt the butter and brown sugar in a medium saucepan over medium heat and bring to a rolling boil. Reduce to medium-low and boil 5 minutes, stirring often.",
+    "Pour the toffee over the crackers right away and spread to cover them completely.",
+    "Bake 5 minutes, until bubbling all over. Remove from the oven and scatter the chocolate chips on top.",
+    "Let stand 1-2 minutes, until the chocolate looks shiny and soft, then spread it evenly. If it will not spread after 4 minutes, return the pan to the turned-off oven for 1 minute.",
+    "Sprinkle with pecans or sprinkles, if using. Refrigerate 1-2 hours until hard, then peel off the foil and break into pieces."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.littlesweetbaker.com/christmas-crack-saltine-cracker-toffee/",
+      "site": "Little Sweet Baker",
+      "title": "Christmas Crack (Saltine Cracker Toffee)",
+      "usedFor": "foil prep, medium heat then medium-low boil, chocolate spreading cue and oven rescue, chill time, gram weights",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

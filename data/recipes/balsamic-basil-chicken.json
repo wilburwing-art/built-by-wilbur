@@ -3,33 +3,33 @@
   "name": "Balsamic Basil Chicken",
   "category": "Dinner",
   "emoji": "🍗",
-  "desc": "Seared chicken thighs with balsamic glaze, zucchini, and cherry tomatoes",
-  "time": "45 min",
-  "minutes": 45,
+  "desc": "Balsamic-Dijon marinated chicken thighs seared in one skillet, then roasted with zucchini and cherry tomatoes.",
+  "time": "1 hr 15 min",
+  "minutes": 75,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.delish.com/cooking/recipe-ideas/a28785993/balsamic-basil-chicken-recipe/",
+    "site": "Delish",
+    "title": "Balsamic Basil Chicken",
+    "matchType": "original",
+    "evidence": "Same ingredients and amounts (1/4 cup plus 2 tbsp olive oil, 3 tbsp balsamic, 1 tbsp Dijon, 2 lb bone-in thighs, 1 large zucchini, 1 pint cherry tomatoes) and the same sear-then-425°F method.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://www.delish.com/cooking/recipe-ideas/a28785993/balsamic-basil-chicken-recipe/"
   },
   "ingredients": [
     {
-      "raw": "1/4 cup + 2 tbsp olive oil",
+      "raw": "1/4 cup plus 2 tbsp extra-virgin olive oil, divided",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "+ 2 tbsp olive oil",
-      "prep": null,
-      "note": null
+      "item": "extra-virgin olive oil",
+      "prep": "divided",
+      "note": "plus 2 tbsp"
     },
     {
       "raw": "3 tbsp balsamic vinegar",
@@ -50,30 +50,39 @@
       "note": null
     },
     {
-      "raw": "2 lb bone-in chicken thighs",
+      "raw": "2 lb bone-in, skin-on chicken thighs",
       "qty": 2,
       "qtyMax": null,
       "unit": "lb",
-      "item": "bone-in chicken thighs",
+      "item": "bone-in, skin-on chicken thighs",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Salt and pepper",
-      "qty": null,
+      "raw": "1 tsp kosher salt, divided",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": "divided",
       "note": null
     },
     {
-      "raw": "1 large zucchini, half moons",
+      "raw": "1/2 tsp freshly ground black pepper, divided",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "freshly ground black pepper",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "1 large zucchini, cut into half moons",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "large zucchini, half moons",
-      "prep": null,
+      "item": "large zucchini",
+      "prep": "cut into half moons",
       "note": null
     },
     {
@@ -86,21 +95,41 @@
       "note": null
     },
     {
-      "raw": "Parmesan and basil for serving",
-      "qty": null,
+      "raw": "1/4 cup freshly grated Parmesan, for serving (optional)",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
+      "unit": "cup",
+      "item": "Parmesan",
+      "prep": "freshly grated, for serving",
+      "note": "optional"
+    },
+    {
+      "raw": "1/4 cup thinly sliced fresh basil",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh basil",
+      "prep": "thinly sliced",
       "note": null
     }
   ],
   "steps": [
-    "Whisk 1/4 cup oil, vinegar, and mustard. Marinate chicken 30 min to 4 hours.",
-    "Preheat oven to 425°F. Sear chicken skin-side down 6 min, flip 6 more min.",
-    "Scatter tomatoes and zucchini around chicken. Season veggies.",
-    "Bake 15 minutes until chicken is cooked through. Garnish with Parmesan and basil."
+    "In a large bowl, whisk together 1/4 cup olive oil, the balsamic vinegar, and the Dijon. Add the chicken thighs and toss to coat. Cover and refrigerate for 30 minutes or up to 4 hours.",
+    "Preheat the oven to 425°F.",
+    "Heat the remaining 2 tbsp oil in a large oven-safe skillet over medium-high heat. Shake the excess marinade off the chicken and season all over with most of the salt and pepper.",
+    "Lay the chicken in the pan skin side down and sear until golden, about 6 minutes. Flip and sear the other side, about 6 minutes more.",
+    "Scatter the zucchini and tomatoes around the chicken and season them with the remaining salt and pepper.",
+    "Transfer the skillet to the oven and bake until the thickest part of the chicken reads 165°F, about 15 minutes.",
+    "Garnish with Parmesan and basil and serve."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.delish.com/cooking/recipe-ideas/a28785993/balsamic-basil-chicken-recipe/",
+      "site": "Delish",
+      "title": "Balsamic Basil Chicken",
+      "usedFor": "servings, total time with marinating, oven-safe skillet, 165°F doneness",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

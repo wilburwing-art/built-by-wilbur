@@ -3,7 +3,7 @@
   "name": "Lemon-Herb Mediterranean Chicken",
   "category": "Dinner",
   "emoji": "🍋",
-  "desc": "Sheet-pan chicken with zucchini and burst tomatoes over lemony brown rice",
+  "desc": "Lemon, garlic, and oregano chicken breasts roasted on one sheet pan with zucchini, cherry tomatoes, and red onion, served over brown rice.",
   "time": "1 hr",
   "minutes": 60,
   "difficulty": "Easy",
@@ -12,54 +12,99 @@
     "url": null,
     "site": null,
     "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "matchType": "none",
+    "evidence": "Searched lemon herb Mediterranean sheet-pan chicken with zucchini, cherry tomatoes, red onion and brown rice; the close results (The Roasted Root, Averie Cooks, Little Sunny Kitchen) use thighs, olives or peppers and none shares this dressing and rice pairing.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "4 boneless skinless chicken breasts",
+      "raw": "Rice:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups brown rice",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "brown rice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 cups low-sodium chicken broth",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "low-sodium chicken broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pinch fine sea salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "fine sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Chicken and vegetables:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 boneless skinless chicken breasts (about 2 lb total)",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
       "item": "boneless skinless chicken breasts",
       "prep": null,
-      "note": null
+      "note": "about 2 lb total"
     },
     {
-      "raw": "4 tablespoons olive oil",
+      "raw": "4 tbsp extra-virgin olive oil",
       "qty": 4,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "olive oil",
+      "item": "extra-virgin olive oil",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 lemons (juice of both, zest of one)",
+      "raw": "2 lemons (zest of 1, juice of both)",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "lemons (juice of both, zest of one)",
+      "item": "lemons",
       "prep": null,
-      "note": null
+      "note": "zest of 1, juice of both"
     },
     {
       "raw": "4 garlic cloves, minced",
       "qty": 4,
       "qtyMax": null,
-      "unit": null,
-      "item": "garlic cloves",
+      "unit": "clove",
+      "item": "garlic",
       "prep": "minced",
       "note": null
     },
     {
-      "raw": "2 teaspoons dried oregano",
+      "raw": "2 tsp dried oregano",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
@@ -68,7 +113,7 @@
       "note": null
     },
     {
-      "raw": "1 teaspoon dried thyme",
+      "raw": "1 tsp dried thyme",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
@@ -77,16 +122,16 @@
       "note": null
     },
     {
-      "raw": "1 1/3 teaspoons salt",
-      "qty": 1.3333,
+      "raw": "1 1/3 tsp fine sea salt",
+      "qty": 1.3333333333333333,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine sea salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 teaspoon black pepper",
+      "raw": "1/2 tsp black pepper",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
@@ -113,43 +158,25 @@
       "note": null
     },
     {
-      "raw": "1 red onion, cut into wedges",
+      "raw": "1 medium red onion, cut into wedges",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "red onion",
+      "item": "medium red onion",
       "prep": "cut into wedges",
       "note": null
     },
     {
-      "raw": "1 1/2 cups brown rice",
-      "qty": 1.5,
-      "qtyMax": null,
-      "unit": "cup",
-      "item": "brown rice",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "3 cups chicken broth",
-      "qty": 3,
-      "qtyMax": null,
-      "unit": "cup",
-      "item": "chicken broth",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1/2 cup feta cheese, crumbled (optional)",
+      "raw": "1/2 cup crumbled feta cheese, optional",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "feta cheese, crumbled (optional)",
-      "prep": null,
-      "note": null
+      "item": "feta cheese",
+      "prep": "crumbled",
+      "note": "optional"
     },
     {
-      "raw": "2 tablespoons fresh parsley, chopped",
+      "raw": "2 tbsp chopped fresh parsley",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
@@ -159,13 +186,16 @@
     }
   ],
   "steps": [
-    "Start the rice: Combine 1 1/2 cups brown rice and 3 cups chicken broth with a pinch of salt in a pot. Bring to a boil, cover, reduce to low, and simmer 40 minutes . Remove from heat and let sit covered 5 minutes, then fluff.",
-    "Preheat & make the dressing: Heat oven to 425F. Pound 4 boneless skinless chicken breasts to an even 3/4-inch thickness and pat dry. Whisk 4 tablespoons olive oil, the juice of 2 lemons plus the zest, 4 garlic cloves, minced, 2 teaspoons dried oregano, 1 teaspoon dried thyme, 1 1/3 teaspoons salt, and 1/2 teaspoon black pepper in a bowl.",
-    "Season everything: On a sheet pan, toss 2 medium zucchini, cut into half-moons, 2 cups cherry tomatoes, and 1 red onion, cut into wedges with about half the dressing. Rub the remaining dressing all over the chicken.",
-    "Arrange: Push the veggies to the edges and set the chicken in the center so it has direct contact with the pan.",
-    "Roast: Roast 18 to 20 minutes  , until the chicken reaches 160 to 162F on a thermometer and the tomatoes burst.",
-    "Rest & serve: Rest the chicken 5 minutes . Stir a little lemon zest into the rice, then serve the chicken and veggies over it. Top with 1/2 cup feta cheese, crumbled (optional) and 2 tablespoons fresh parsley, chopped."
+    "Rice: combine the brown rice, broth, and a pinch of salt in a medium pot. Bring to a boil, cover, reduce to low, and simmer until the liquid is absorbed and the rice is tender, about 40 min. Take off the heat and leave covered 5 min, then fluff with a fork.",
+    "While the rice cooks, heat the oven to 425°F. Pound the chicken breasts to an even 3/4-inch thickness and pat dry.",
+    "Dressing: zest 1 lemon, then juice both. Set aside 1 tsp of the zest for the rice. Whisk the olive oil, lemon juice, remaining zest, garlic, oregano, thyme, 1 1/3 tsp salt, and pepper in a bowl.",
+    "On a rimmed sheet pan, toss the zucchini, cherry tomatoes, and red onion with about half the dressing. Rub the rest all over the chicken.",
+    "Push the vegetables to the edges and set the chicken in the center so it sits directly on the pan.",
+    "Roast until the thickest part of the chicken reads 165°F and the tomatoes have burst, 18-20 min.",
+    "Rest the chicken 5 min, then slice. Stir the reserved lemon zest into the rice. Serve the chicken and vegetables over the rice, topped with the feta and parsley."
   ],
-  "tips": [],
+  "tips": [
+    "The earlier version of this recipe pulled the chicken at 160 to 162°F and counted on carryover during the rest; this one roasts to 165°F, the USDA safe temperature for chicken. Pounding to an even thickness keeps the breasts from drying out at that temperature."
+  ],
   "references": []
 }

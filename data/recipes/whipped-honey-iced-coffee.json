@@ -1,0 +1,77 @@
+{
+  "slug": "whipped-honey-iced-coffee",
+  "name": "Whipped Honey Iced Coffee",
+  "category": "Drinks",
+  "emoji": "🍯",
+  "desc": "Iced espresso topped with honey whipped pale and fluffy with a milk frother.",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C9S5W0yBrWt/",
+    "site": "Instagram @a1exzapata",
+    "title": "Whipped Honey Iced Coffee",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 1,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 tbsp honey",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "honey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 shots espresso (2 oz), or 1/2 cup strong brewed coffee, cooled",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "shot",
+      "item": "espresso",
+      "prep": "cooled",
+      "note": "2 oz, or 1/2 cup strong brewed coffee"
+    },
+    {
+      "raw": "1 cup ice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "ice",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Put the honey in a small cup and whip it with a handheld milk frother about 1 minute, until pale and fluffy.",
+    "Fill a glass with ice and pour in the coffee.",
+    "Spoon the whipped honey on top."
+  ],
+  "tips": [
+    "Crystallized or raw honey whips up the thickest."
+  ],
+  "references": [
+    {
+      "url": "https://kaylazenner.com/whipped-honey-latte-with-shaken-espresso/",
+      "site": "The Farmstyle",
+      "title": "Whipped Honey Shaken Espresso Latte",
+      "usedFor": "whipping honey on its own until pale, 2 shots espresso with 1 to 2 tbsp honey",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.byronbaycoffeeco.com.au/blogs/blog/whipped-honey-iced-coffee",
+      "site": "Byron Bay Coffee Co",
+      "title": "Whipped Honey Iced Coffee",
+      "usedFor": "2 tbsp honey to a double shot, frother method",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

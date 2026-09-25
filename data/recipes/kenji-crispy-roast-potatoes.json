@@ -1,0 +1,113 @@
+{
+  "slug": "kenji-crispy-roast-potatoes",
+  "name": "Super Crispy Potatoes (Kenji Method)",
+  "category": "Sides & Snacks",
+  "emoji": "🥔",
+  "desc": "Potatoes parboiled in alkaline salted water, roughed up into a starchy paste, and roasted with convection until shatteringly crisp.",
+  "time": "1 hr 25 min",
+  "minutes": 85,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DBkWQLoyUZn/",
+    "site": "Instagram @michaeltchao",
+    "title": "Super Crispy Potatoes (Kenji method)",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 8,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 lb russet or Yukon Gold potatoes, peeled and cut into 1 1/2 to 2 inch chunks",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "russet or Yukon Gold potatoes",
+      "prep": "peeled and cut into 1 1/2 to 2 inch chunks",
+      "note": null
+    },
+    {
+      "raw": "2 quarts water",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "quart",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp kosher salt, plus more to taste",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "kosher salt",
+      "prep": "plus more to taste",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp baking soda",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5 tbsp extra-virgin olive oil",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "extra-virgin olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 oz Parmesan, finely grated on a Microplane (optional)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "Parmesan",
+      "prep": "finely grated on a Microplane",
+      "note": "optional"
+    }
+  ],
+  "steps": [
+    "Set a rack in the center of the oven and preheat to 425°F with convection on.",
+    "Bring the water to a boil in a large pot over high heat. Add the 2 tbsp salt, the baking soda and the potatoes and stir. Return to a boil, then simmer until a knife meets little resistance, about 10 min after it returns to a boil.",
+    "Drain the potatoes and let them sit in the pot for 30 seconds so the surface moisture steams off.",
+    "Transfer to a large bowl, add the olive oil, a pinch of salt and a few grinds of pepper, and toss, shaking the bowl roughly, until a thick layer of mashed-potato-like paste coats every chunk. Toss in the Parmesan, if using.",
+    "Spread the potatoes on a large rimmed baking sheet with space between them. Roast without moving for 20 min.",
+    "Loosen any stuck potatoes with a thin metal spatula, turn them, and keep roasting, turning a few times, until deep brown and very crisp all over, 30 to 40 min more. Season with salt and serve right away."
+  ],
+  "tips": [
+    "Baking soda breaks down the surface to make a starchy crust.",
+    "Boiling first drives off moisture before baking.",
+    "Microplaned Parmesan adds flavor and more surface area to crisp.",
+    "Convection circulates hot air better. Kenji's Serious Eats recipe roasts at 400°F with convection or 450°F without; this version runs at 425°F convection.",
+    "Serious Eats infuses the oil with garlic and rosemary and tosses the fried bits and parsley through at the end if you want to add them."
+  ],
+  "references": [
+    {
+      "url": "https://www.seriouseats.com/the-best-roast-potatoes-ever-recipe",
+      "site": "Serious Eats",
+      "title": "The Best Crispy Roast Potatoes Ever",
+      "usedFor": "potato weight and cut, water, salt and baking soda amounts, parboil time, oil amount, roasting times and method",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

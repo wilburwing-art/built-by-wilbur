@@ -3,28 +3,28 @@
   "name": "Crepes",
   "category": "Breakfast",
   "emoji": "🫓",
-  "desc": "Thin, delicate French crepes, sweet or savory",
-  "time": "20 min",
-  "minutes": 20,
+  "desc": "Thin French crepes for sweet or savory fillings.",
+  "time": "30 min",
+  "minutes": 30,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
+    "site": "Allrecipes",
+    "title": "Basic Crêpes",
+    "matchType": "closest",
+    "evidence": "Identical ingredient list and amounts (1 cup flour, 2 eggs, 1/2 cup each milk and water, 1/4 tsp salt, 2 tbsp melted butter) and the same 1/4 cup pour and swirl.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
       "raw": "1 cup all-purpose flour",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "cup",
       "item": "all-purpose flour",
@@ -32,20 +32,20 @@
       "note": null
     },
     {
-      "raw": "2 eggs",
-      "qty": 2,
+      "raw": "2 large eggs",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": null,
-      "item": "eggs",
+      "item": "large eggs",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 cup milk",
+      "raw": "1/2 cup whole milk",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "milk",
+      "item": "whole milk",
       "prep": null,
       "note": null
     },
@@ -59,29 +59,49 @@
       "note": null
     },
     {
-      "raw": "1/4 tsp salt",
+      "raw": "1/4 tsp table salt",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "table salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 tbsp melted butter",
-      "qty": 2,
+      "raw": "2 tbsp unsalted butter, melted",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "melted butter",
-      "prep": null,
+      "item": "unsalted butter",
+      "prep": "melted",
+      "note": null
+    },
+    {
+      "raw": "1 tsp vegetable oil, for the pan",
+      "qty": 1.0,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vegetable oil",
+      "prep": "for the pan",
       "note": null
     }
   ],
   "steps": [
-    "Whisk together flour and eggs. Gradually add milk and water, stirring to combine. Add salt and butter; beat until smooth.",
-    "Heat a lightly oiled pan over medium-high heat. Pour about 1/4 cup batter, tilting the pan to coat evenly.",
-    "Cook about 2 minutes until the bottom is light brown. Flip and cook the other side. Serve hot."
+    "Whisk together the flour and eggs. Gradually whisk in the milk and water. Add the salt and melted butter and whisk until smooth and pourable.",
+    "Heat an 8- to 10-inch skillet or crepe pan over medium-high heat and wipe it lightly with oil.",
+    "Pour in about 1/4 cup batter and immediately tilt and swirl the pan so it coats the bottom in a thin, even layer.",
+    "Cook until the top is no longer wet and the bottom is light brown, 1 to 2 minutes. Loosen the edge with a spatula, flip, and cook until the second side is light brown, about 1 minute more. Serve hot."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Makes about 8 crepes. Stack finished crepes on a plate under a towel to keep them soft."
+  ],
+  "references": [
+    {
+      "url": "https://web.archive.org/web/20260801173807/https://www.allrecipes.com/recipe/16383/basic-crepes/",
+      "site": "Allrecipes (Wayback Machine copy)",
+      "title": "Basic Crêpes",
+      "usedFor": "1 to 2 minute and 1 minute cook times, loosening the edge before flipping, yield of 8",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

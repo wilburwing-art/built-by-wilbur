@@ -1,0 +1,84 @@
+{
+  "slug": "grilled-cheese-tomato-soup-french-toast",
+  "name": "Grilled Cheese Tomato Soup French Toast",
+  "category": "Lunch",
+  "emoji": "🧀",
+  "desc": "A grilled cheese dipped in tomato soup like French toast, then griddled in butter so the soup bakes into the crust.",
+  "time": "15 min",
+  "minutes": 15,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DImuilasaRd/",
+    "site": "Instagram @allrecipes",
+    "title": "Grilled Cheese and Tomato Soup French Toast",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 2,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 slices white sandwich bread",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "white sandwich bread",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 slices cheddar cheese",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "cheddar cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 slices provolone or Monterey Jack cheese",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "provolone or Monterey Jack cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup tomato soup (canned or homemade)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "tomato soup",
+      "prep": null,
+      "note": "canned or homemade"
+    },
+    {
+      "raw": "2 tbsp salted butter",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "salted butter",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Build 2 sandwiches, each with a slice of cheddar and a slice of provolone between 2 slices of bread. Do not grill them yet.",
+    "Pour the tomato soup into a shallow dish wide enough to hold a sandwich.",
+    "Melt 1 tbsp butter in a large skillet over medium heat.",
+    "Dip one sandwich into the soup, coating both sides the way you would for French toast, and let the excess drip off. Repeat with the second.",
+    "Cook the sandwiches in the butter 3 to 4 min per side, adding the remaining butter when you flip, until the crust is browned and crisp and the cheese has melted. Lower the heat if the soup coating darkens before the cheese melts.",
+    "Let rest 1 min, cut in half and serve."
+  ],
+  "tips": [
+    "The soup is baked into the crust, so there is no dunking and no soggy bread.",
+    "Inspired by @chrystaelliot99 on TikTok."
+  ],
+  "references": []
+}

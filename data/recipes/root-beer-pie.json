@@ -3,9 +3,9 @@
   "name": "Root Beer Pie",
   "category": "Desserts",
   "emoji": "🍺",
-  "desc": "Frozen root beer pudding pie in a graham cracker crust",
-  "time": "4 hrs",
-  "minutes": 240,
+  "desc": "A frozen root beer pudding and whipped cream filling in a graham cracker crust.",
+  "time": "4 hrs 15 min",
+  "minutes": 255,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
@@ -17,44 +17,44 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 8,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "8 oz heavy cream",
-      "qty": 8,
+      "raw": "1 cup (8 oz) cold heavy cream",
+      "qty": 1,
       "qtyMax": null,
-      "unit": "oz",
-      "item": "heavy cream",
+      "unit": "cup",
+      "item": "cold heavy cream",
       "prep": null,
-      "note": null
+      "note": "8 oz"
     },
     {
-      "raw": "12 oz cold root beer",
-      "qty": 12,
+      "raw": "1 1/2 cups (12 oz) cold root beer",
+      "qty": 1.5,
       "qtyMax": null,
-      "unit": "oz",
+      "unit": "cup",
       "item": "cold root beer",
       "prep": null,
-      "note": null
+      "note": "12 oz"
     },
     {
-      "raw": "1 tbsp root beer extract",
+      "raw": "1 tbsp root beer extract (concentrate)",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "root beer extract",
       "prep": null,
-      "note": null
+      "note": "concentrate"
     },
     {
-      "raw": "1/4 cup milk",
+      "raw": "1/4 cup cold whole milk",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "milk",
+      "item": "cold whole milk",
       "prep": null,
       "note": null
     },
@@ -78,9 +78,29 @@
     }
   ],
   "steps": [
-    "Whip cream to stiff peaks. Mix root beer, milk, and pudding until thick.",
-    "Fold together. Pour into crust. Freeze 4 hours or refrigerate overnight."
+    "Beat the cream to stiff peaks with a mixer. Refrigerate while you make the pudding.",
+    "In a large bowl, whisk the root beer, milk and root beer extract. Sprinkle in the pudding mix and whisk 2 minutes, then let stand 5 minutes to thicken.",
+    "Gently fold the whipped cream into the root beer mixture until no streaks remain.",
+    "Pour into the crust, cover with the crust's plastic lid, and freeze at least 4 hours, until firm (or refrigerate overnight for a softer pie).",
+    "Serve straight from the freezer. Store leftovers frozen."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Most published versions use 3/4 to 1 cup root beer per 3.4 oz box of pudding; with 12 oz this filling stays soft until frozen. Together as Family freezes theirs at least 8 hours."
+  ],
+  "references": [
+    {
+      "url": "https://togetherasfamily.com/root-beer-float-pie/",
+      "site": "Together as Family",
+      "title": "Root Beer Float Pie",
+      "usedFor": "whisk then rest the pudding 5 minutes, covering with the crust lid, 8 hour freeze, serving from frozen",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.foodnetwork.com/recipes/ree-drummond/root-beer-float-pie-7589440",
+      "site": "Food Network (Ree Drummond)",
+      "title": "Root Beer Float Pie",
+      "usedFor": "1 cup root beer and 1/4 cup whole milk per 3.4 oz pudding for comparison",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

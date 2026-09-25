@@ -3,9 +3,9 @@
   "name": "Lemon Chicken Orzo Soup",
   "category": "Dinner",
   "emoji": "🍲",
-  "desc": "Bright lemony broth with shredded chicken, orzo, and fresh herbs",
-  "time": "40 min",
-  "minutes": 40,
+  "desc": "Lemony chicken broth with shredded chicken, orzo, peas, and fresh herbs.",
+  "time": "45 min",
+  "minutes": 45,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
@@ -17,9 +17,9 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://greenhealthycooking.com/lemon-chicken-orzo-soup/"
   },
   "ingredients": [
     {
@@ -32,16 +32,16 @@
       "note": null
     },
     {
-      "raw": "1 yellow onion, diced",
+      "raw": "1 medium yellow onion, finely chopped",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "yellow onion",
-      "prep": "diced",
+      "item": "medium yellow onion",
+      "prep": "finely chopped",
       "note": null
     },
     {
-      "raw": "2 cloves garlic, minced",
+      "raw": "2 garlic cloves, minced",
       "qty": 2,
       "qtyMax": null,
       "unit": "clove",
@@ -50,12 +50,12 @@
       "note": null
     },
     {
-      "raw": "2 carrots, diced",
+      "raw": "2 medium carrots, peeled and diced",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "carrots",
-      "prep": "diced",
+      "item": "medium carrots",
+      "prep": "peeled and diced",
       "note": null
     },
     {
@@ -68,20 +68,20 @@
       "note": null
     },
     {
-      "raw": "2 small chicken breasts (about 7 oz each)",
+      "raw": "2 small boneless skinless chicken breasts (about 7 oz each)",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "small chicken breasts",
+      "item": "small boneless skinless chicken breasts",
       "prep": null,
       "note": "about 7 oz each"
     },
     {
-      "raw": "8 cups chicken broth",
+      "raw": "8 cups low-sodium chicken broth",
       "qty": 8,
       "qtyMax": null,
       "unit": "cup",
-      "item": "chicken broth",
+      "item": "low-sodium chicken broth",
       "prep": null,
       "note": null
     },
@@ -113,11 +113,11 @@
       "note": null
     },
     {
-      "raw": "1 1/2 cups orzo",
+      "raw": "1 1/2 cups dry orzo",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "orzo",
+      "item": "dry orzo",
       "prep": null,
       "note": null
     },
@@ -131,16 +131,16 @@
       "note": null
     },
     {
-      "raw": "Sea salt and black pepper, to taste",
-      "qty": null,
+      "raw": "Juice of 1 lemon (about 3 tbsp)",
+      "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
+      "item": "lemon",
+      "prep": "juiced",
+      "note": "about 3 tbsp juice"
     },
     {
-      "raw": "Juice of 1 lemon",
+      "raw": "Fine sea salt and black pepper, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -153,17 +153,29 @@
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "chopped fresh parsley",
-      "prep": null,
+      "item": "fresh parsley",
+      "prep": "chopped",
       "note": null
     }
   ],
   "steps": [
-    "Sauté the onion and garlic in the olive oil until translucent. Add the carrots and celery and cook 5 minutes.",
-    "Add the chicken, broth, rosemary, thyme, and sage. Bring to a boil, then cover and simmer on low 10-12 minutes until the chicken reaches 165°F.",
-    "Remove the chicken and shred it. Add the orzo and cook about 10 minutes until al dente.",
-    "Return the chicken, add the peas, and remove the herb stems. Stir in the lemon juice, season with salt and pepper, and serve topped with parsley."
+    "Heat the olive oil in a large pot over medium heat. Add the onion and garlic and cook, stirring, until the onion is translucent, 3-4 min.",
+    "Add the carrots and celery and cook until the colors brighten, about 5 min.",
+    "Add the chicken breasts, pour in the broth, and add the rosemary, thyme, and sage (loose, or tied in cheesecloth so they lift out together). Bring to a boil, then cover, reduce to low, and simmer until the thickest part of the chicken reads 165°F, 10-12 min.",
+    "Lift the chicken onto a cutting board. Add the orzo to the pot and simmer uncovered, stirring now and then so it does not stick, until al dente, about 10 min. Meanwhile, shred the chicken with two forks.",
+    "Return the chicken to the pot for 1 min to reheat, then stir in the peas. Fish out the herb stems and sage leaves.",
+    "Stir in the lemon juice, season with salt and pepper (how much depends on your broth), and serve topped with parsley."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Orzo keeps drinking broth as it sits; thin leftovers with a splash of broth or water when reheating."
+  ],
+  "references": [
+    {
+      "url": "https://greenhealthycooking.com/lemon-chicken-orzo-soup/",
+      "site": "Green Healthy Cooking",
+      "title": "Lemon Chicken Orzo Soup",
+      "usedFor": "yield, heat levels, 165°F chicken cue, orzo cook time, herb infuser tip",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

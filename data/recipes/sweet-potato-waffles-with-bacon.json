@@ -3,58 +3,58 @@
   "name": "Sweet Potato Waffles with Bacon",
   "category": "Breakfast",
   "emoji": "🧇",
-  "desc": "Savory shredded sweet potato waffles with bacon and scallions",
+  "desc": "Savory shredded sweet potato and bacon waffles, topped with fried eggs and scallions.",
   "time": "40 min",
   "minutes": 40,
   "difficulty": "Medium",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.paleorunningmomma.com/bacon-sweet-potato-waffles-paleo-whole30/",
+    "site": "Paleo Running Momma",
+    "title": "Savory Bacon Sweet Potato Waffles {Paleo, Whole30}",
+    "matchType": "original",
+    "evidence": "Ingredient lines and method match Paleo Running Momma's recipe card word for word; the same recipe also runs on Jones Dairy Farm's site as a sponsored post.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 6,
+    "basis": "publisher",
+    "source": "https://www.paleorunningmomma.com/bacon-sweet-potato-waffles-paleo-whole30/"
   },
   "ingredients": [
     {
-      "raw": "2 medium sweet potatoes peeled and shredded*",
-      "qty": 2,
+      "raw": "2 medium sweet potatoes, peeled and shredded",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": null,
-      "item": "medium sweet potatoes peeled and shredded*",
-      "prep": null,
+      "item": "medium sweet potatoes",
+      "prep": "peeled and shredded",
       "note": null
     },
     {
-      "raw": "5 slices No Sugar Hickory Smoked Bacon from Jones Dairy Farm",
-      "qty": 5,
+      "raw": "5 slices sugar-free hickory-smoked bacon (the creator uses Jones Dairy Farm)",
+      "qty": 5.0,
       "qtyMax": null,
       "unit": "slice",
-      "item": "No Sugar Hickory Smoked Bacon from Jones Dairy Farm",
+      "item": "sugar-free hickory-smoked bacon",
       "prep": null,
-      "note": null
+      "note": "the creator uses Jones Dairy Farm"
     },
     {
-      "raw": "3 eggs",
-      "qty": 3,
+      "raw": "3 large eggs",
+      "qty": 3.0,
       "qtyMax": null,
       "unit": null,
-      "item": "eggs",
+      "item": "large eggs",
       "prep": null,
       "note": null
     },
     {
-      "raw": "3/4 tsp sea salt",
+      "raw": "3/4 tsp fine sea salt",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "sea salt",
+      "item": "fine sea salt",
       "prep": null,
       "note": null
     },
@@ -86,16 +86,25 @@
       "note": null
     },
     {
-      "raw": "3 scallions white and green parts separated",
-      "qty": 3,
+      "raw": "3 scallions, white and green parts separated",
+      "qty": 3.0,
       "qtyMax": null,
       "unit": null,
-      "item": "scallions white and green parts separated",
-      "prep": null,
+      "item": "scallions",
+      "prep": "white and green parts separated",
       "note": null
     },
     {
-      "raw": "Rendered bacon fat or other cooking fat to brush on waffle iron or other cooking fat to brush on waffle iron",
+      "raw": "1 tbsp rendered bacon fat or other cooking fat, for the waffle iron",
+      "qty": 1.0,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "rendered bacon fat or other cooking fat",
+      "prep": "for the waffle iron",
+      "note": null
+    },
+    {
+      "raw": "Toppings:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -104,7 +113,16 @@
       "note": null
     },
     {
-      "raw": "toppings:",
+      "raw": "6 large eggs, fried",
+      "qty": 6.0,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": "fried",
+      "note": null
+    },
+    {
+      "raw": "Crushed red pepper flakes, for serving",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -113,52 +131,41 @@
       "note": null
     },
     {
-      "raw": "Fried eggs",
-      "qty": null,
+      "raw": "3 slices bacon, cooked and crumbled (optional)",
+      "qty": 3.0,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "Thinly sliced scallions green parts",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "Crushed red pepper",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "Extra crumbled bacon",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
+      "unit": "slice",
+      "item": "bacon",
+      "prep": "cooked and crumbled",
+      "note": "optional"
     }
   ],
   "steps": [
-    "Drain your shredded sweet potatoes on paper towels and squeeze to get rid of excess moisture. Place in a large mixing bowl.",
-    "Heat a large skillet over medium high heat. Cook the bacon until crisp and drain on paper towels, then crumble.",
-    "Add crumbled bacon to mixing bowl along with the eggs, salt, pepper, garlic and onion powder. Finely chop the white parts of the scallions and add them in as well, saving the green part for garnish.",
-    "Preheat your waffle iron and mix ingredients together well to form a “batter”. Brush waffle iron with rendered bacon fat or cooking fat of choice.",
-    "Once fully heated, add your batter to the iron. I used an 8” round waffle iron and made 3 full waffles with my mixture. Depending on the size and style of your waffle iron, you may make fewer batches.",
-    "Close waffle iron and cook until deep golden brown on both sides and crisp on the outside. While the waffles cook, you can prep your toppings (fry eggs and extra bacon) if desired.",
-    "Release waffle from iron carefully and repeat until batter is used up. This recipe should yield about 6 servings.",
-    "Top with fried eggs, more bacon, and anything else you like. Enjoy"
+    "Shred the sweet potatoes in a food processor or on a box grater. Spread on paper towels and squeeze out as much moisture as you can, then put them in a large bowl.",
+    "Cook the bacon in a large skillet over medium-high heat until crisp, drain on paper towels, and crumble. Save the fat for the waffle iron.",
+    "Add the crumbled bacon, eggs, salt, pepper, garlic powder, and onion powder to the sweet potatoes. Finely chop the scallion whites and add them; slice the greens and set aside for garnish. Mix well into a thick batter.",
+    "Preheat the waffle iron and brush it with bacon fat.",
+    "Add enough batter to fill the iron (an 8-inch round iron takes about one third of the mixture) and close the lid. Cook until deep golden brown and crisp on the outside.",
+    "Release the waffle carefully and repeat with the remaining batter, brushing the iron with fat each time. Fry the eggs and cook any extra bacon while the waffles cook.",
+    "Top each waffle with a fried egg, crumbled bacon, sliced scallion greens, and crushed red pepper."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "These take longer than flour waffles; leave the lid closed until the outside is deeply browned or the waffle will tear when you open it."
+  ],
+  "references": [
+    {
+      "url": "https://web.archive.org/web/2026/https://www.paleorunningmomma.com/bacon-sweet-potato-waffles-paleo-whole30/",
+      "site": "Paleo Running Momma (Wayback Machine copy)",
+      "title": "Savory Bacon Sweet Potato Waffles {Paleo, Whole30}",
+      "usedFor": "confirmed ingredients, one-third batch per 8-inch iron, yield of 6",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.jonesdairyfarm.com/recipes/savory-bacon-and-sweet-potato-waffles/",
+      "site": "Jones Dairy Farm",
+      "title": "Savory Bacon and Sweet Potato Waffles",
+      "usedFor": "shredding in a food processor or by hand",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

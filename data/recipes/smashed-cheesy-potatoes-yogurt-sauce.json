@@ -1,0 +1,164 @@
+{
+  "slug": "smashed-cheesy-potatoes-yogurt-sauce",
+  "name": "Smashed Cheesy Potatoes with Yogurt Sauce",
+  "category": "Sides & Snacks",
+  "emoji": "🥔",
+  "desc": "Boiled potatoes smashed onto a bed of grated cheese and baked until the cheese fries into a crisp base, served with a garlicky mint yogurt sauce.",
+  "time": "55 min",
+  "minutes": 55,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DC1y12QtnCV/",
+    "site": "Instagram @canfeezam",
+    "title": "Smashed Cheesy Potatoes with Yogurt Sauce",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4 small yellow potatoes (about 1 lb total)",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small yellow potatoes",
+      "prep": null,
+      "note": "about 1 lb total"
+    },
+    {
+      "raw": "1 cup grated kaşar or Parmesan cheese, divided",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "kaşar or Parmesan cheese",
+      "prep": "grated, divided",
+      "note": null
+    },
+    {
+      "raw": "3 tbsp olive oil, divided",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "1 tsp dried thyme",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried thyme",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp red chili flakes",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "red chili flakes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp kosher salt, plus more for the cooking water",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": "plus more for the cooking water",
+      "note": null
+    },
+    {
+      "raw": "Yogurt sauce:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup plain whole-milk yogurt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "plain whole-milk yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp mayonnaise",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 garlic clove, finely grated",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "finely grated",
+      "note": null
+    },
+    {
+      "raw": "1 tsp dried mint",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried mint",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp kosher salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Put the potatoes in a pot, cover with cold water by an inch and salt the water. Bring to a boil over medium-high heat and cook until a knife slides in easily, 15 to 20 min. Drain and let cool for 10 min, then cut each potato in half.",
+    "Preheat the oven to 400°F (200°C) and line a rimmed baking sheet with parchment.",
+    "Drizzle 1 1/2 tbsp of the oil over the parchment and sprinkle half the cheese in 8 small mounds. Set a potato half cut side down on each mound and smash it flat, about 1/2 inch thick, with the bottom of a glass.",
+    "Sprinkle the potatoes with the thyme, chili flakes, pepper and 1/2 tsp salt, then drizzle with the remaining 1 1/2 tbsp oil and top with the rest of the cheese.",
+    "Bake until the tops are well browned and the cheese underneath is crisp and golden, about 20 min.",
+    "While they bake, stir together the yogurt, mayonnaise, garlic, dried mint and 1/4 tsp salt. Serve the potatoes hot with the sauce."
+  ],
+  "tips": [
+    "Translated from Turkish. The cheese goes under the potato so it fries into a crisp base.",
+    "Most Parmesan smashed potato recipes bake at 450°F; this one runs at 400°F, so give it the full 20 min or a few more for deep color."
+  ],
+  "references": [
+    {
+      "url": "https://downshiftology.com/recipes/smashed-potatoes/",
+      "site": "Downshiftology",
+      "title": "Smashed Potatoes (Garlic Parmesan)",
+      "usedFor": "boiling method and time, 10 min cool before smashing, 1/2 inch smash thickness, comparison bake temperature",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "slug": "elote-loaded-kettle-chips",
+  "name": "Elote Loaded Kettle Chips",
+  "category": "Sides & Snacks",
+  "emoji": "🌽",
+  "desc": "Jalapeño kettle chips piled with charred corn, mayo, cotija, crema, chile and lime like a plate of street corn.",
+  "time": "15 min",
+  "minutes": 15,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DM5o4MkpN1H/",
+    "site": "Instagram @thesnacksensei",
+    "title": "Elote Loaded Kettle Chips",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 (8 oz) bag jalapeño kettle chips",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "bag",
+      "item": "jalapeño kettle chips",
+      "prep": null,
+      "note": "8 oz"
+    },
+    {
+      "raw": "1 1/2 cups corn kernels (frozen and thawed, or canned and drained)",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "corn kernels",
+      "prep": null,
+      "note": "frozen and thawed, or canned and drained"
+    },
+    {
+      "raw": "3 tbsp mayonnaise",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup crumbled cotija cheese",
+      "qty": 0.3333333333333333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cotija cheese",
+      "prep": "crumbled",
+      "note": null
+    },
+    {
+      "raw": "1 tsp Everything But The Elote seasoning",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "Everything But The Elote seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp ground chile de árbol",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground chile de árbol",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup crema Mexicana",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "crema Mexicana",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp chopped fresh cilantro",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh cilantro",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 lime, cut into wedges",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lime",
+      "prep": "cut into wedges",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat a dry cast-iron skillet over medium-high heat. Add the corn and cook, stirring only every minute or so, until spotty brown, 4 to 5 min. Let it cool for a few minutes.",
+    "Spread the chips on a large platter. Spoon the corn over them.",
+    "Drizzle the mayonnaise over the corn (a zip-top bag with a corner snipped off works well), then scatter the cotija and sprinkle the Everything But The Elote seasoning and chile de árbol over the top.",
+    "Drizzle with the crema, scatter the cilantro, squeeze a lime wedge or two over everything and serve right away with the rest of the lime, before the chips soften."
+  ],
+  "tips": [
+    "Everything But The Elote is a Trader Joe's seasoning blend."
+  ],
+  "references": [
+    {
+      "url": "https://www.littlespicejar.com/street-corn-nachos/",
+      "site": "Little Spice Jar",
+      "title": "Sheet Pan Street Corn Nachos (Esquites Nachos)",
+      "usedFor": "corn-to-chip ratio, skillet-charring the corn, cotija, crema and cilantro amounts",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

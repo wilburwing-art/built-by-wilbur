@@ -3,51 +3,51 @@
   "name": "Peach Mango Sunshine Sorbet",
   "category": "Desserts",
   "emoji": "🍑",
-  "desc": "Ninja Creami sorbet, balanced and creamy without any dairy",
-  "time": "24 hrs",
-  "minutes": 1440,
+  "desc": "A balanced, creamy Ninja Creami sorbet of peach, mango and banana with no dairy.",
+  "time": "25 hrs",
+  "minutes": 1500,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
     "url": null,
     "site": null,
     "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "matchType": "none",
+    "evidence": "Searched Ninja Creami peach mango sorbet recipes (Food Banjo, I Dream of Ice Cream, Detoxinista, Recipes From A Pantry); none use this fruit combination and gram ratio, which reads as the owner's own formula.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "200 g mango",
+      "raw": "200 g ripe mango chunks, fresh or thawed frozen",
       "qty": 200,
       "qtyMax": null,
       "unit": "g",
-      "item": "mango",
+      "item": "ripe mango chunks",
       "prep": null,
-      "note": null
+      "note": "fresh or thawed frozen"
     },
     {
-      "raw": "150 g peaches",
+      "raw": "150 g ripe peaches, pitted and sliced (fresh or thawed frozen)",
       "qty": 150,
       "qtyMax": null,
       "unit": "g",
-      "item": "peaches",
-      "prep": null,
-      "note": null
+      "item": "ripe peaches",
+      "prep": "pitted and sliced",
+      "note": "fresh or thawed frozen"
     },
     {
-      "raw": "100 g banana",
+      "raw": "100 g ripe banana (about 1 medium, peeled)",
       "qty": 100,
       "qtyMax": null,
       "unit": "g",
-      "item": "banana",
+      "item": "ripe banana",
       "prep": null,
-      "note": null
+      "note": "about 1 medium, peeled"
     },
     {
       "raw": "70 to 80 g granulated sugar",
@@ -59,11 +59,11 @@
       "note": null
     },
     {
-      "raw": "1 tbsp lemon juice",
+      "raw": "1 tbsp fresh lemon juice",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "lemon juice",
+      "item": "fresh lemon juice",
       "prep": null,
       "note": null
     },
@@ -72,17 +72,41 @@
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "vodka (optional",
-      "prep": "for scoopability)",
+      "item": "vodka",
+      "prep": null,
+      "note": "optional, for scoopability"
+    },
+    {
+      "raw": "1-2 tbsp water, for re-spinning",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "tbsp",
+      "item": "water",
+      "prep": "for re-spinning",
       "note": null
     }
   ],
   "steps": [
-    "Blend everything until smooth.",
-    "Chill, then pour into a Ninja Creami pint container.",
-    "Freeze flat for 24 hours.",
-    "Spin on the Sorbet setting."
+    "Blend the mango, peaches, banana, sugar, lemon juice and vodka (if using) until smooth and the sugar has dissolved.",
+    "Refrigerate about 30 minutes, then pour into a Ninja Creami pint container, no higher than the max fill line.",
+    "Lid the pint and freeze on a level surface for 24 hours, until solid.",
+    "Spin on the Sorbet setting. If it is crumbly, add 1-2 tbsp water and Re-spin."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.foodbanjo.com/ninja-creami-mango-sorbet/",
+      "site": "Food Banjo",
+      "title": "Ninja Creami Mango Sorbet",
+      "usedFor": "blend then freeze at least 18 hours on a level surface, splash of liquid before a re-spin",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://idreamoficecream.com/easy-ninja-creami-mango-sorbet/",
+      "site": "I Dream of Ice Cream",
+      "title": "Easy Ninja Creami Mango Sorbet",
+      "usedFor": "max fill line, 24 hour level freeze, Re-spin when crumbly",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

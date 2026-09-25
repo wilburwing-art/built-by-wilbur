@@ -3,31 +3,31 @@
   "name": "Banana Pudding",
   "category": "Desserts",
   "emoji": "🍌",
-  "desc": "Layered vanilla wafers, banana slices, and creamy vanilla pudding",
-  "time": "1 hr",
-  "minutes": 60,
+  "desc": "Layers of vanilla wafers, sliced bananas and a no-cook vanilla pudding lightened with whipped topping.",
+  "time": "1 hr 20 min",
+  "minutes": 80,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/22749/the-best-banana-pudding/",
+    "site": "Allrecipes",
+    "title": "The Best Banana Pudding",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and amounts, including the 14 bananas, 12 oz whipped topping and 1 tbsp vanilla, and the same whisk, fold and layer method.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 20,
+    "basis": "publisher",
+    "source": "https://www.allrecipes.com/recipe/22749/the-best-banana-pudding/"
   },
   "ingredients": [
     {
-      "raw": "2 cups cold milk",
+      "raw": "2 cups cold whole milk",
       "qty": 2,
       "qtyMax": null,
       "unit": "cup",
-      "item": "cold milk",
+      "item": "cold whole milk",
       "prep": null,
       "note": null
     },
@@ -63,9 +63,9 @@
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "container frozen whipped topping",
+      "item": "frozen whipped topping",
       "prep": "thawed",
-      "note": "12 oz"
+      "note": "12 oz container"
     },
     {
       "raw": "1 (16 oz) package vanilla wafers",
@@ -77,20 +77,39 @@
       "note": "16 oz"
     },
     {
-      "raw": "14 small bananas, sliced",
+      "raw": "14 small ripe bananas (about 7 large), sliced 1/4 inch thick",
       "qty": 14,
       "qtyMax": null,
       "unit": null,
-      "item": "small bananas",
-      "prep": "sliced",
-      "note": null
+      "item": "small ripe bananas",
+      "prep": "sliced 1/4 inch thick",
+      "note": "about 7 large"
     }
   ],
   "steps": [
-    "Beat milk and pudding 2 min. Blend in condensed milk.",
-    "Stir in vanilla, fold in whipped topping.",
-    "Layer wafers, bananas, and pudding. Chill 1+ hour."
+    "Whisk the milk and pudding mix in a large bowl for 2 minutes, until thickened. Whisk in the condensed milk until smooth.",
+    "Stir in the vanilla, then gently fold in the whipped topping.",
+    "Slice the bananas right before assembling so they do not brown. Set aside a few wafers for the top.",
+    "In a large glass serving bowl or a 9x13-inch dish, layer wafers, then banana slices, then pudding. Repeat the layers, ending with pudding.",
+    "Cover and refrigerate at least 1 hour. Crush the reserved wafers over the top right before serving."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Serve it the day it is made: after about 8 hours in the fridge the bananas start to brown."
+  ],
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/22749/the-best-banana-pudding/",
+      "site": "Allrecipes",
+      "title": "The Best Banana Pudding",
+      "usedFor": "confirmed 14 bananas and all amounts, slicing bananas at assembly, reserving wafers for the top, yield",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://easysoutherndesserts.com/banana-pudding-with-vanilla-wafers/",
+      "site": "Easy Southern Desserts",
+      "title": "Banana Pudding with Instant Pudding and Vanilla Wafers",
+      "usedFor": "9x13 dish option, 8-hour limit before bananas brown",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

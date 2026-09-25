@@ -3,41 +3,41 @@
   "name": "Garlic Parmesan Pasta",
   "category": "Dinner",
   "emoji": "🍝",
-  "desc": "One-pan fettuccine cooked in garlic butter, broth, and parmesan",
-  "time": "25 min",
-  "minutes": 25,
+  "desc": "Fettuccine simmered in one pan with garlic butter, chicken broth and milk, then finished with Parmesan.",
+  "time": "30 min",
+  "minutes": 30,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://damndelicious.net/2014/10/11/one-pot-garlic-parmesan-pasta/",
+    "site": "Damn Delicious",
+    "title": "One Pot Garlic Parmesan Pasta",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and amounts (2 tbsp butter, 4 garlic cloves, 2 cups broth, 1 cup milk, 8 oz fettuccine, 1/4 cup Parmesan, 2 tbsp parsley) and the same 18-20 minute simmer.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://damndelicious.net/2014/10/11/one-pot-garlic-parmesan-pasta/"
   },
   "ingredients": [
     {
-      "raw": "2 tbsp butter",
+      "raw": "2 tbsp unsalted butter",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "butter",
+      "item": "unsalted butter",
       "prep": null,
       "note": null
     },
     {
-      "raw": "4 garlic cloves",
+      "raw": "4 garlic cloves, minced",
       "qty": 4,
       "qtyMax": null,
-      "unit": null,
-      "item": "garlic cloves",
-      "prep": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
       "note": null
     },
     {
@@ -50,25 +50,25 @@
       "note": null
     },
     {
-      "raw": "1 cup milk",
+      "raw": "1 cup milk, plus more as needed",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
       "item": "milk",
-      "prep": null,
+      "prep": "plus more as needed",
       "note": null
     },
     {
-      "raw": "8 oz fettuccine",
+      "raw": "8 oz uncooked fettuccine",
       "qty": 8,
       "qtyMax": null,
       "unit": "oz",
-      "item": "fettuccine",
+      "item": "uncooked fettuccine",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Salt, pepper",
+      "raw": "Kosher salt and freshly ground black pepper, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -77,30 +77,39 @@
       "note": null
     },
     {
-      "raw": "1/4 cup Parmesan",
+      "raw": "1/4 cup freshly grated Parmesan",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
       "item": "Parmesan",
-      "prep": null,
+      "prep": "freshly grated",
       "note": null
     },
     {
-      "raw": "2 tbsp parsley",
+      "raw": "2 tbsp chopped fresh parsley",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "parsley",
-      "prep": null,
+      "item": "fresh parsley",
+      "prep": "chopped",
       "note": null
     }
   ],
   "steps": [
-    "Melt butter, cook garlic 1-2 min.",
-    "Add broth, milk, and fettuccine. Season.",
-    "Boil, then simmer 18-20 min until cooked.",
-    "Stir in Parmesan. Top with parsley."
+    "Melt the butter in a large skillet over medium-high heat. Add the garlic and cook, stirring often, until fragrant, 1-2 minutes.",
+    "Stir in the broth, milk, and fettuccine and season with salt and pepper.",
+    "Bring to a boil, then reduce the heat and simmer, stirring occasionally so the pasta does not stick, until the pasta is tender, 18-20 minutes.",
+    "Stir in the Parmesan. If it is too thick, stir in more milk until it reaches the consistency you like.",
+    "Serve right away, garnished with parsley."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://damndelicious.net/2014/10/11/one-pot-garlic-parmesan-pasta/",
+      "site": "Damn Delicious",
+      "title": "One Pot Garlic Parmesan Pasta",
+      "usedFor": "servings, heat level, thinning with milk",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

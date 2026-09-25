@@ -3,45 +3,45 @@
   "name": "Whole-Bag 00 Pizza Dough",
   "category": "Dinner",
   "emoji": "🍕",
-  "desc": "A full kilo of 00 and one whole yeast packet, scaled to zero leftovers. Six 12-inch pies",
-  "time": "24+ hrs",
-  "minutes": 1440,
+  "desc": "A full 1 kg bag of 00 flour and one whole packet of active dry yeast, cold-fermented 24 hours into six 12-inch pizzas.",
+  "time": "28 hrs",
+  "minutes": 1680,
   "difficulty": "Medium",
   "addedOn": "2026-08-30",
   "source": {
     "url": null,
     "site": null,
     "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "matchType": "none",
+    "evidence": "Searched 1 kg 00 flour pizza dough with one full active dry yeast packet and 277 g balls; published 00 doughs found (Coley Cooks, The Pizza Heaven, Taste of Artisan) use far less yeast and different ball weights, so this scaled formula has no published counterpart.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 6,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "1000 grams Type \"00\" flour (one full 1 kg bag)",
+      "raw": "1000 g Type \"00\" flour (one full 1 kg bag)",
       "qty": 1000,
       "qtyMax": null,
       "unit": "g",
-      "item": "Type \"00\" flour (one full 1 kg bag)",
+      "item": "Type \"00\" flour",
       "prep": null,
-      "note": null
+      "note": "one full 1 kg bag"
     },
     {
-      "raw": "60 grams water, 100-110F",
+      "raw": "60 g warm water, 100-110°F",
       "qty": 60,
       "qtyMax": null,
       "unit": "g",
-      "item": "water, 100-110F",
+      "item": "warm water",
       "prep": null,
-      "note": null
+      "note": "100-110°F"
     },
     {
-      "raw": "1 teaspoon granulated sugar",
+      "raw": "1 tsp granulated sugar",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
@@ -50,44 +50,71 @@
       "note": null
     },
     {
-      "raw": "7 grams Fleischmann's Active Dry Yeast (one full packet)",
+      "raw": "7 g Fleischmann's Active Dry Yeast (one full packet)",
       "qty": 7,
       "qtyMax": null,
       "unit": "g",
-      "item": "Fleischmann's Active Dry Yeast (one full packet)",
+      "item": "Fleischmann's Active Dry Yeast",
       "prep": null,
-      "note": null
+      "note": "one full packet"
     },
     {
-      "raw": "570 grams water, room temperature",
+      "raw": "570 g water, at room temperature",
       "qty": 570,
       "qtyMax": null,
       "unit": "g",
       "item": "water",
-      "prep": "room temperature",
+      "prep": "at room temperature",
       "note": null
     },
     {
-      "raw": "28 grams fine sea salt",
+      "raw": "28 g fine sea salt",
       "qty": 28,
       "qtyMax": null,
       "unit": "g",
       "item": "fine sea salt",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1 tsp olive oil, for the bowl and tray",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": "for the bowl and tray"
     }
   ],
   "steps": [
-    "Proof the yeast: Stir 1 teaspoon sugar into 60 grams water, 100-110F until dissolved, then sprinkle in 7 grams Fleischmann's Active Dry Yeast (one full packet). Leave it alone until it's foamy and smells alive. If nothing happens, the yeast is dead and the whole bag of flour is at risk, so check this before going further.",
-    "Mix the dough: Dump 1000 grams Type \"00\" flour (one full 1 kg bag) into a large bowl or stand mixer. Add 570 grams water, room temperature and the foamy yeast mixture. Mix on low or by hand just until no dry flour remains. It will look shaggy and ugly.",
-    "Rest before salt: Cover and let it sit. This autolyse hydrates the flour and cuts your kneading time roughly in half.",
-    "Add salt and knead: Sprinkle 28 grams fine sea salt over the dough and knead. Stand mixer on medium-low with a dough hook, or by hand on the counter. You're done when the dough is smooth, tacky but not sticky, and passes a windowpane test.",
-    "Bulk ferment: Ball it up, lightly oil the bowl, cover tightly. Let it rise at room temperature until noticeably puffy and roughly 50% larger. With 0.7% yeast this moves fast, so don't wander off.",
-    "Divide and ball: Turn out onto an unfloured counter. Divide into 6 pieces at 277g each. Shape each into a tight ball by dragging it against the counter to build surface tension. Tuck the seam underneath.",
-    "Cold ferment: Place balls in a lidded proofing box or on an oiled tray sealed with plastic wrap, spaced 2 inches apart. Refrigerate 24 hours . Do not push past 36 hours at this yeast level or they will overproof and tear when you open them.",
-    "Warm up: Pull the balls out and let them come fully to room temperature before shaping. Cold dough fights back and springs closed.",
-    "Shape and bake: Preheat your steel or stone at max oven temp for a full hour, top rack. Open each ball by hand from the center outward, leaving the outer inch untouched for the cornicione. Never use a rolling pin. Top lightly, launch, and bake until the crust is blistered and the cheese is bubbling. Switch to broiler for the last minute if your oven tops out at 500F."
+    "Proof the yeast: stir the sugar into the 60 g warm water until dissolved, then sprinkle in the yeast. Leave it 5-10 min, until foamy and yeasty-smelling. If nothing happens, the yeast is dead; start over with a fresh packet rather than risk the whole bag of flour.",
+    "Mix: put the flour in a large bowl or stand mixer bowl. Add the 570 g room-temperature water and the foamy yeast. Mix on low or by hand until no dry flour remains; it will look shaggy.",
+    "Autolyse: cover and rest 30 min. The flour hydrates on its own and cuts the kneading time roughly in half.",
+    "Add the salt and knead, on medium-low with the dough hook or by hand on the counter, until the dough is smooth, tacky but not sticky, and stretches thin enough to see light through without tearing, about 8-10 min by machine or 15-20 min by hand.",
+    "Bulk ferment: shape into a ball, set in a lightly oiled bowl, cover tightly, and leave at room temperature until puffy and about 50 percent larger, usually 1-2 hours. With a full packet of yeast it moves fast, so check it.",
+    "Divide and ball: turn the dough out onto an unfloured counter and cut into 6 pieces of about 277 g. Shape each into a tight ball by dragging it against the counter to build surface tension, and tuck the seam underneath.",
+    "Cold ferment: set the balls 2 inches apart in a lidded proofing box, or on an oiled tray sealed with plastic wrap, and refrigerate 24 hours. Do not go past 36 hours at this yeast level or they will overproof and tear when you open them.",
+    "Warm up: take the balls out 1-2 hours before baking and let them come fully to room temperature (at least 60°F); cold dough springs back when you stretch it.",
+    "Preheat a pizza steel or stone on the top rack at your oven's highest setting for a full hour.",
+    "Shape and bake: open each ball by hand from the center outward to 12 inches, leaving the outer inch untouched for the rim. Do not use a rolling pin. Top lightly, launch, and bake until the crust is blistered and the cheese bubbles, 4-8 min; if your oven tops out at 500°F, switch to the broiler for the last minute."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "This formula uses roughly 0.7 percent yeast, several times what a 24 hour Neapolitan dough usually carries, so the bulk rise is short and the fridge window is tight."
+  ],
+  "references": [
+    {
+      "url": "https://coleycooks.com/neapolitan-pizza-dough/",
+      "site": "Coley Cooks",
+      "title": "Best Neapolitan Pizza Dough Recipe",
+      "usedFor": "30 min rest before the salt, 15-20 min hand knead, home-oven bake time with a preheated stone",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.seriouseats.com/basic-pizza-dough-for-high-temperature-outdoor-pizza-ovens-5211302",
+      "site": "Serious Eats",
+      "title": "Outdoor Pizza Oven Pizza Dough",
+      "usedFor": "1-2 hour warm-up and 60°F minimum dough temperature before stretching",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

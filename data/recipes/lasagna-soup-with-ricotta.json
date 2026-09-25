@@ -1,0 +1,282 @@
+{
+  "slug": "lasagna-soup-with-ricotta",
+  "name": "Lasagna Soup with Ricotta",
+  "category": "Dinner",
+  "emoji": "🍲",
+  "desc": "Beefy marinara soup with broken lasagna noodles and cream, topped with seasoned ricotta.",
+  "time": "40 min",
+  "minutes": 40,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DRsI_Ulj1LS/",
+    "site": "Instagram @success.recipes",
+    "title": "Lasagna Soup with Ricotta",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 5,
+    "basis": "publisher",
+    "source": "https://moribyan.com/lasagna-soup/"
+  },
+  "ingredients": [
+    {
+      "raw": "Ricotta topping:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups whole-milk ricotta",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "whole-milk ricotta",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup grated Parmesan",
+      "qty": 0.3333333333333333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Pinch of ground nutmeg",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "ground nutmeg",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Soup:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp unsalted butter",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 garlic cloves, minced (about 1 tbsp)",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": "about 1 tbsp"
+    },
+    {
+      "raw": "1 lb 90/10 ground beef",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "90/10 ground beef",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tsp Italian seasoning",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "Italian seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tsp paprika",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp red pepper flakes",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp onion powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp garlic powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp dried oregano",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp salt, adjusted to taste",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": "adjusted to taste",
+      "note": null
+    },
+    {
+      "raw": "1 (24 oz) jar marinara",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "jar",
+      "item": "marinara",
+      "prep": null,
+      "note": "24 oz"
+    },
+    {
+      "raw": "1/2 cup heavy cream",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 cups beef broth",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "beef broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "12 oz lasagna sheets, broken into pieces",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "lasagna sheets",
+      "prep": "broken into pieces",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp fresh parsley, finely chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh parsley",
+      "prep": "finely chopped",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp fresh basil, chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh basil",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1/4-1/3 cup freshly grated Parmesan",
+      "qty": 0.25,
+      "qtyMax": 0.3333333333333333,
+      "unit": "cup",
+      "item": "freshly grated Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup shredded mozzarella",
+      "qty": 0.3333333333333333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded mozzarella",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Mix the ricotta, Parmesan, a pinch each of salt and pepper, and the nutmeg until smooth. Set aside.",
+    "In a large pot over medium-high heat, warm the olive oil and butter, add the garlic, and saute 1 to 2 min.",
+    "Add the beef and all the soup spices (Italian seasoning, paprika, red pepper flakes, onion powder, garlic powder, oregano, pepper and salt). Break the meat up with a wooden spoon and cook until browned with no pink left (160°F).",
+    "Stir in the marinara, cream and broth and bring to a gentle boil.",
+    "Add the broken lasagna sheets and cook 14-16 min, stirring now and then so they do not stick, until fully tender.",
+    "Stir in the parsley, basil, Parmesan and mozzarella.",
+    "Ladle into bowls and top with dollops of the ricotta."
+  ],
+  "tips": [
+    "The carousel card counts 4 servings at about 610 cal each; the original recipe says 5 to 6.",
+    "The noodles keep drinking broth as the soup sits, so add a splash of broth when reheating."
+  ],
+  "references": [
+    {
+      "url": "https://moribyan.com/lasagna-soup/",
+      "site": "Moribyan",
+      "title": "Lasagna Soup",
+      "usedFor": "original recipe the carousel card reproduces: saute times, breaking up the beef, stirring order, 5 to 6 servings",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

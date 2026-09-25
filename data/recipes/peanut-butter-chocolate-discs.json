@@ -1,0 +1,108 @@
+{
+  "slug": "peanut-butter-chocolate-discs",
+  "name": "Peanut Butter Chocolate Discs",
+  "category": "Desserts",
+  "emoji": "🥜",
+  "desc": "No-bake frozen discs of peanut butter, banana and Greek yogurt dipped in dark chocolate.",
+  "time": "1 hr 30 min",
+  "minutes": 90,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DBJzaCGSn5j/",
+    "site": "Instagram @thehomechefmomma",
+    "title": "Peanut Butter Chocolate Discs",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 11,
+    "basis": "publisher",
+    "source": "https://thefeedfeed.com/thehomechefmomma/peanut-butter-chocolate-discs"
+  },
+  "ingredients": [
+    {
+      "raw": "1 medium ripe banana, mashed",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium ripe banana",
+      "prep": "mashed",
+      "note": null
+    },
+    {
+      "raw": "1 cup creamy peanut butter",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "creamy peanut butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/8 cup (2 tbsp) honey",
+      "qty": 0.125,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "honey",
+      "prep": null,
+      "note": "2 tbsp"
+    },
+    {
+      "raw": "1/3 cup roasted peanuts, chopped",
+      "qty": 0.3333333333333333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "roasted peanuts",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup plain whole milk Greek yogurt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "plain whole milk Greek yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "12 oz dark chocolate, chopped",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "dark chocolate",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "Flaky sea salt, for topping (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Line a baking sheet that fits in your freezer with parchment.",
+    "In a medium bowl, mix the banana, peanut butter, honey, peanuts and yogurt until fully combined.",
+    "Spoon the mixture onto the parchment in 10-12 portions and flatten each into a disc.",
+    "Freeze about 1 hr, until the discs are fully hard.",
+    "Melt the chocolate in a microwave-safe bowl in 30-second bursts, stirring between each, until smooth.",
+    "Coat each frozen disc completely in chocolate (a fork works well), let the excess drip off, and set it back on the parchment. Sprinkle with flaky salt.",
+    "Freeze a few minutes more, until the chocolate is hard. Store in a freezer-safe container in the freezer."
+  ],
+  "tips": [],
+  "references": [
+    {
+      "url": "https://thefeedfeed.com/thehomechefmomma/peanut-butter-chocolate-discs",
+      "site": "The Feedfeed (thehomechefmomma)",
+      "title": "Peanut Butter Chocolate Discs",
+      "usedFor": "chopped peanuts, yield of 11 discs, freezer storage",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

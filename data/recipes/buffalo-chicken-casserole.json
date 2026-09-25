@@ -3,10 +3,10 @@
   "name": "Buffalo Chicken Casserole",
   "category": "Dinner",
   "emoji": "🔥",
-  "desc": "Roasted cauliflower and chicken in creamy buffalo sauce with melted cheese",
-  "time": "50 min",
-  "minutes": 50,
-  "difficulty": "Medium",
+  "desc": "Roasted cauliflower and shredded chicken baked under a creamy buffalo ranch layer and melted Cheddar and Gouda.",
+  "time": "55 min",
+  "minutes": 55,
+  "difficulty": "Easy",
   "addedOn": null,
   "source": {
     "url": "https://www.delish.com/cooking/recipe-ideas/recipes/a49035/buffalo-chicken-casserole-recipe/",
@@ -17,9 +17,9 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://www.delish.com/cooking/recipe-ideas/recipes/a49035/buffalo-chicken-casserole-recipe/"
   },
   "ingredients": [
     {
@@ -41,11 +41,20 @@
       "note": null
     },
     {
-      "raw": "Kosher salt and freshly ground black pepper, to taste",
-      "qty": null,
+      "raw": "1/2 tsp kosher salt",
+      "qty": 0.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp freshly ground black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "freshly ground black pepper",
       "prep": null,
       "note": null
     },
@@ -81,8 +90,8 @@
       "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
-      "item": "sliced green onions",
-      "prep": "plus more for garnish",
+      "item": "green onions",
+      "prep": "sliced, plus more for garnish",
       "note": null
     },
     {
@@ -99,35 +108,45 @@
       "qty": 2,
       "qtyMax": null,
       "unit": "cup",
-      "item": "shredded rotisserie chicken",
-      "prep": null,
+      "item": "rotisserie chicken",
+      "prep": "shredded",
       "note": null
     },
     {
-      "raw": "1/2 cup shredded cheddar",
+      "raw": "1/2 cup shredded Cheddar",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "shredded cheddar",
-      "prep": null,
+      "item": "Cheddar",
+      "prep": "shredded",
       "note": null
     },
     {
-      "raw": "1/2 cup shredded gouda",
+      "raw": "1/2 cup shredded Gouda",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "shredded gouda",
-      "prep": null,
+      "item": "Gouda",
+      "prep": "shredded",
       "note": null
     }
   ],
   "steps": [
-    "Roast cauliflower with oil at 450°F 20 min. Reduce to 350°F.",
-    "Mix cream cheese, buffalo sauce, ranch, green onions, and garlic powder.",
-    "Toss chicken with cauliflower. Spread cream cheese mixture on top.",
-    "Top with cheeses. Bake 20 min. Garnish with ranch and green onions."
+    "Preheat the oven to 450°F. In a 9x13 in baking dish, toss the cauliflower with the olive oil and season with the salt and pepper.",
+    "Roast until tender, about 20 minutes. Reduce the oven to 350°F.",
+    "Meanwhile, stir together the cream cheese, buffalo sauce, ranch, green onions, and garlic powder in a medium bowl until combined.",
+    "Toss the chicken with the roasted cauliflower in the baking dish and spread the cream cheese mixture over the top.",
+    "Top with the Cheddar and Gouda and bake until the cheese is fully melted and bubbly, about 20 minutes.",
+    "Let cool 10 minutes, then drizzle with ranch and garnish with more green onions."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.delish.com/cooking/recipe-ideas/recipes/a49035/buffalo-chicken-casserole-recipe/",
+      "site": "Delish",
+      "title": "Buffalo Cauliflower Chicken Casserole",
+      "usedFor": "servings, total time, 10-minute rest; salt and pepper amounts are estimates",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

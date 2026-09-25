@@ -1,0 +1,314 @@
+{
+  "slug": "chinese-fried-chicken-pecking-house-style",
+  "name": "Chinese Fried Chicken (Pecking House Style)",
+  "category": "Dinner",
+  "emoji": "🌶️",
+  "desc": "Buttermilk-marinated fried chicken with a starchy, crackly crust, dunked in a numbing Tianjin chili and duck fat paste.",
+  "time": "8 hrs",
+  "minutes": 480,
+  "difficulty": "Hard",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C2P7irMRaRO/",
+    "site": "Instagram @chefboylee",
+    "title": "Chinese Fried Chicken (Pecking House style)",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Seasoning blend:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "75g kosher salt",
+      "qty": 75,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp granulated sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp MSG",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "MSG",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Chicken and marinade:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 whole air-chilled chicken (3-4 lb), cut into 10 pieces",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "whole air-chilled chicken",
+      "prep": "cut into 10 pieces",
+      "note": "3-4 lb"
+    },
+    {
+      "raw": "4 cups buttermilk",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "buttermilk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "105g Dijon mustard",
+      "qty": 105,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "Dijon mustard",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "65g all-purpose flour",
+      "qty": 65,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp five-spice powder",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "five-spice powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp seasoning blend (from above)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "seasoning blend",
+      "prep": null,
+      "note": "from above"
+    },
+    {
+      "raw": "1 tbsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp onion powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Dredge:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "440g all-purpose flour",
+      "qty": 440,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "115g potato starch",
+      "qty": 115,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "potato starch",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "110g cornstarch",
+      "qty": 110,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp seasoning blend (from above)",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "seasoning blend",
+      "prep": null,
+      "note": "from above"
+    },
+    {
+      "raw": "Chili paste:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "200g dried Tianjin chilies",
+      "qty": 200,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "dried Tianjin chilies",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "75g Sichuan peppercorns",
+      "qty": 75,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "Sichuan peppercorns",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp rice vinegar powder",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "rice vinegar powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1.5 tbsp seasoning blend (from above)",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "seasoning blend",
+      "prep": null,
+      "note": "from above"
+    },
+    {
+      "raw": "2 tsp granulated sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp smoke powder",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "smoke powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups duck fat",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "duck fat",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "For frying:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2-3 quarts peanut or vegetable oil (enough for 3 inches in the pot)",
+      "qty": 2,
+      "qtyMax": 3,
+      "unit": "quart",
+      "item": "peanut or vegetable oil",
+      "prep": null,
+      "note": "enough for 3 inches in the pot"
+    }
+  ],
+  "steps": [
+    "Seasoning blend: stir the kosher salt, sugar and MSG together in a small bowl. It gets used in the marinade, the dredge and the chili paste.",
+    "Cut the chicken into 10 pieces (2 drumsticks, 2 thighs, 2 wings, each breast halved crosswise). Save the back for stock.",
+    "Marinade: whisk the buttermilk, Dijon, flour, five-spice, 2 tbsp seasoning blend, garlic powder and onion powder into a smooth slurry. Add the chicken, turn to coat, cover and refrigerate at least 6 hours and up to 48.",
+    "Chili paste: heat the oven to 300°F. Spread the Tianjin chilies on a baking sheet and bake until crisp, about 7 minutes. Cool completely.",
+    "Toast the Sichuan peppercorns in a dry pan over medium heat until fragrant, about 5 minutes. Cool.",
+    "Blend the chilies, peppercorns, vinegar powder, 1.5 tbsp seasoning blend, sugar and smoke powder to a very fine powder. Let the dust settle for a few minutes before opening the blender.",
+    "Warm the duck fat in a saucepan over low heat until liquid, no hotter than 120°F. Pour it over the spice powder and whisk into a uniform paste. Keep warm.",
+    "Set a wire rack in a rimmed baking sheet. Heat 3 inches of oil in a large heavy pot to 325°F.",
+    "Dredge: whisk the flour, potato starch, cornstarch and 3 tbsp seasoning blend in a large bowl. Lift each piece from the marinade with a coating still clinging, press it into the dredge until no bare spots remain, and shake off the excess. Fry right away; do not let the pieces sit in the dredge.",
+    "Fry in batches without crowding, turning occasionally, 8-9 minutes, holding the oil between 300°F and 325°F, until deep golden and the thickest part reads 165°F (about 5 minutes for wings). Move to the rack.",
+    "While the chicken is hot, dunk each piece in the warm chili duck fat, turning to coat, or brush it on generously on both sides. Let it drain on the rack 5 to 10 minutes before serving."
+  ],
+  "tips": [
+    "Potato starch plus cornstarch in the dredge is what makes the crust shatter.",
+    "The published Pecking House recipe (Eric Huang, on Vice) rests the fried chicken 5 minutes, then fries it again at 325°F for 2 minutes for an extra-crisp crust.",
+    "Keep the duck fat at or below 120°F when you add the chili powder, or the spices scorch and turn bitter.",
+    "For less heat, dry the chilies well and sift out some of the seeds before blending.",
+    "Rice vinegar powder and smoke powder are sold by modernist-cooking suppliers."
+  ],
+  "references": [
+    {
+      "url": "https://www.vice.com/en/article/pecking-house-chili-fried-chicken-recipe/",
+      "site": "Vice (Munchies)",
+      "title": "Chinese Hot Chicken Recipe (Pecking House, Eric Huang)",
+      "usedFor": "confirmed every amount, cutting into 10 pieces, 6-48 hr marinade, oil depth, fry times by cut, 165°F doneness, second-fry tip",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.americastestkitchen.com/recipes/16614-chile-fried-chicken",
+      "site": "America's Test Kitchen",
+      "title": "Chile Fried Chicken",
+      "usedFor": "holding the oil between 300°F and 325°F and frying in batches",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

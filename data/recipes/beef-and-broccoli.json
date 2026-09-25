@@ -3,32 +3,32 @@
   "name": "Beef and Broccoli",
   "category": "Dinner",
   "emoji": "🥦",
-  "desc": "Tender flank steak and crisp broccoli in a sweet soy-ginger sauce",
+  "desc": "Thin-sliced flank steak and crisp-tender broccoli in a sweet soy-ginger sauce over rice.",
   "time": "30 min",
   "minutes": 30,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://natashaskitchen.com/beef-and-broccoli/",
+    "site": "Natasha's Kitchen",
+    "title": "Beef and Broccoli Recipe",
+    "matchType": "original",
+    "evidence": "Every amount matches the recipe card (1 lb flank steak, 6 tbsp low-sodium soy, 3 tbsp light brown sugar, 1 1/2 tbsp cornstarch, 2 tbsp sesame oil) and the method is the same.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://natashaskitchen.com/beef-and-broccoli/"
   },
   "ingredients": [
     {
-      "raw": "1 lb flank steak, very thinly sliced into bite-sized strips",
+      "raw": "1 lb flank steak, very thinly sliced against the grain into bite-sized strips",
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
       "item": "flank steak",
-      "prep": "very thinly sliced into bite-sized strips",
+      "prep": "very thinly sliced against the grain into bite-sized strips",
       "note": null
     },
     {
@@ -41,11 +41,11 @@
       "note": "or vegetable oil"
     },
     {
-      "raw": "1 lb broccoli, cut into about 6 cups of florets",
+      "raw": "1 lb fresh broccoli, cut into about 6 cups of florets",
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
-      "item": "broccoli",
+      "item": "fresh broccoli",
       "prep": "cut into about 6 cups of florets",
       "note": null
     },
@@ -57,6 +57,15 @@
       "item": "sesame seeds",
       "prep": "for garnish",
       "note": "optional"
+    },
+    {
+      "raw": "Cooked white rice, for serving",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
     },
     {
       "raw": "Stir fry sauce:",
@@ -77,13 +86,13 @@
       "note": null
     },
     {
-      "raw": "2 tsp garlic, grated (from 3 cloves)",
-      "qty": 2,
+      "raw": "3 garlic cloves, grated (about 2 tsp)",
+      "qty": 3,
       "qtyMax": null,
-      "unit": "tsp",
+      "unit": "clove",
       "item": "garlic",
       "prep": "grated",
-      "note": "from 3 cloves"
+      "note": "about 2 tsp"
     },
     {
       "raw": "1/2 cup hot water",
@@ -108,8 +117,8 @@
       "qty": 3,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "packed light brown sugar",
-      "prep": null,
+      "item": "light brown sugar",
+      "prep": "packed",
       "note": null
     },
     {
@@ -131,22 +140,33 @@
       "note": null
     },
     {
-      "raw": "2 tbsp sesame oil",
+      "raw": "2 tbsp toasted sesame oil",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "sesame oil",
+      "item": "toasted sesame oil",
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Start white rice. Combine all the sauce ingredients and stir to dissolve the sugar.",
-    "Sauté the broccoli in 1 tbsp oil 4-5 minutes, partially covered, until crisp-tender. Remove.",
-    "Increase to high heat, add the remaining oil, and cook the steak in a single layer 2 minutes per side.",
-    "Add the sauce, reduce the heat, and simmer 3-4 minutes until thickened.",
-    "Add the broccoli back and toss. Serve over rice, sprinkled with sesame seeds."
+    "Start the rice first so it is ready when the stir fry is done. For easier slicing, freeze the steak for 30 minutes, then slice it thinly against the grain.",
+    "Make the sauce: Combine all the sauce ingredients in a bowl and stir until the sugar dissolves. Set aside.",
+    "Heat 1 tbsp oil in a large skillet over medium heat. Add the broccoli and saute for 4-5 minutes, partially covered, tossing several times, until bright green and crisp-tender. Remove to a plate.",
+    "Raise the heat to high and add the remaining 1 tbsp oil. Add the beef in a single layer and cook for 2 minutes per side, until browned and cooked through.",
+    "Stir the sauce again, pour it in, and reduce the heat to medium-low. Simmer for 3-4 minutes until thickened.",
+    "Return the broccoli to the pan and toss to coat. Thin with 1-2 tbsp water if the sauce is too thick. Serve over rice, sprinkled with sesame seeds."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "For softer broccoli, add 2 tbsp water before covering the pan so it steams."
+  ],
+  "references": [
+    {
+      "url": "https://natashaskitchen.com/beef-and-broccoli/",
+      "site": "Natasha's Kitchen",
+      "title": "Beef and Broccoli Recipe",
+      "usedFor": "servings, freezing tip for slicing, heat levels, steaming tip",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

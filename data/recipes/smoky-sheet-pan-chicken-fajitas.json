@@ -3,27 +3,81 @@
   "name": "Smoky Sheet-Pan Chicken Fajitas",
   "category": "Dinner",
   "emoji": "🌮",
-  "desc": "Thighs and three peppers with smoked paprika, over cilantro-lime rice",
-  "time": "30 min",
-  "minutes": 30,
+  "desc": "Smoked-paprika chicken thighs roasted with three bell peppers and onion, served over cilantro-lime rice.",
+  "time": "45 min",
+  "minutes": 45,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
     "url": null,
     "site": null,
     "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "matchType": "none",
+    "evidence": "Searched smoky sheet-pan chicken thigh fajitas with smoked paprika over cilantro-lime rice; the sheet-pan fajita recipes found (Isabel Eats, Half Baked Harvest, Damn Delicious, Cooking in the Midwest) use tortillas and different spice ratios, and none pairs this rub with the rice.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "1 1/2 pounds boneless skinless chicken thighs",
+      "raw": "Cilantro-lime rice:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups long-grain white rice",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "long-grain white rice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 cups water",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pinch fine salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup chopped fresh cilantro",
+      "qty": 0.3333333333333333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh cilantro",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "Chicken and peppers:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 lb boneless skinless chicken thighs",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "lb",
@@ -68,7 +122,7 @@
       "note": null
     },
     {
-      "raw": "2 tablespoons olive oil",
+      "raw": "2 tbsp olive oil",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
@@ -77,7 +131,7 @@
       "note": null
     },
     {
-      "raw": "1 tablespoon chili powder",
+      "raw": "1 tbsp chili powder",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
@@ -86,7 +140,7 @@
       "note": null
     },
     {
-      "raw": "2 teaspoons ground cumin",
+      "raw": "2 tsp ground cumin",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
@@ -95,7 +149,7 @@
       "note": null
     },
     {
-      "raw": "2 teaspoons smoked paprika",
+      "raw": "2 tsp smoked paprika",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
@@ -104,7 +158,7 @@
       "note": null
     },
     {
-      "raw": "1 teaspoon garlic powder",
+      "raw": "1 tsp garlic powder",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
@@ -113,7 +167,7 @@
       "note": null
     },
     {
-      "raw": "1 teaspoon dried oregano",
+      "raw": "1 tsp dried oregano",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
@@ -122,60 +176,35 @@
       "note": null
     },
     {
-      "raw": "1 teaspoon salt",
+      "raw": "1 tsp fine salt",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 limes",
+      "raw": "2 limes (1 juiced, 1 cut into wedges)",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
       "item": "limes",
       "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1 1/2 cups long-grain white rice, dry",
-      "qty": 1.5,
-      "qtyMax": null,
-      "unit": "cup",
-      "item": "long-grain white rice, dry",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "3 cups water",
-      "qty": 3,
-      "qtyMax": null,
-      "unit": "cup",
-      "item": "water",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1/3 cup fresh cilantro, chopped",
-      "qty": 0.3333,
-      "qtyMax": null,
-      "unit": "cup",
-      "item": "fresh cilantro",
-      "prep": "chopped",
-      "note": null
+      "note": "1 juiced, 1 cut into wedges"
     }
   ],
   "steps": [
-    "Start the rice: Combine 1 1/2 cups long-grain white rice, dry and 3 cups water with a pinch of salt in a pot. Bring to a boil, cover, reduce to low, and simmer until tender and water is absorbed.",
-    "Heat oven and prep: Heat oven to 425°F. Pound 1 1/2 pounds boneless skinless chicken thighs to an even thickness and pat dry. In a small bowl, mix 1 tablespoon chili powder, 2 teaspoons ground cumin, 2 teaspoons smoked paprika, 1 teaspoon garlic powder, 1 teaspoon dried oregano, and 1 teaspoon salt.",
-    "Load the sheet pan: Toss 1 red bell pepper, sliced into strips, 1 yellow bell pepper, sliced into strips, 1 green bell pepper, sliced into strips, and 1 large yellow onion, sliced into strips with 2 tablespoons olive oil on a sheet pan, spreading to the edges. Coat the chicken all over in the spice mix and set it in the center of the pan.",
-    "Roast: Roast until the chicken hits 160°F internal and the veggies are charred at the edges, 16 to 18 minutes .",
-    "Rest and slice: Rest the chicken 5 minutes , then slice into strips.",
-    "Finish the rice: Stir the juice of 1 of the 2 limes and 1/3 cup fresh cilantro, chopped into the cooked rice. Cut the remaining lime into wedges for serving.",
-    "Plate: Pile chicken and veggies over the cilantro-lime rice and finish with a squeeze of lime."
+    "Rice: combine the rice, water, and a pinch of salt in a pot. Bring to a boil, cover, reduce to low, and simmer until the water is absorbed and the rice is tender, about 18 min. Take off the heat and leave covered 5 min.",
+    "While the rice cooks, heat the oven to 425°F. Pound the chicken thighs to an even thickness and pat dry. Mix the chili powder, cumin, smoked paprika, garlic powder, oregano, and 1 tsp salt in a small bowl.",
+    "Toss the three peppers and the onion with the olive oil on a rimmed sheet pan, spreading them to the edges. Coat the chicken all over with the spice mix and set it in the center of the pan.",
+    "Roast until the chicken reads at least 165°F in the thickest part and the vegetables are charred at the edges, 16-18 min.",
+    "Rest the chicken 5 min, then slice into strips.",
+    "Fluff the rice and stir in the juice of 1 lime and the cilantro. Cut the other lime into wedges.",
+    "Pile the chicken and vegetables over the rice and finish with a squeeze of lime."
   ],
-  "tips": [],
+  "tips": [
+    "The earlier version pulled the thighs at 160°F; thighs are safe at 165°F and turn more tender if they reach 175°F, so give them the extra minute or two if the vegetables allow."
+  ],
   "references": []
 }

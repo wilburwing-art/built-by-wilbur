@@ -3,33 +3,51 @@
   "name": "Cinnamon Roll Apple Pie",
   "category": "Desserts",
   "emoji": "🥧",
-  "desc": "Apple pie topped with spiraled cinnamon roll dough instead of a lattice",
-  "time": "1.5 hrs",
-  "minutes": 90,
+  "desc": "Canned apple pie filling in a store-bought crust, topped with slices of a cinnamon-swirled pie dough log.",
+  "time": "4 hrs 15 min",
+  "minutes": 255,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.oliveandmango.com/cinnamon-roll-apple-pie/",
+    "site": "Olive & Mango",
+    "title": "Cinnamon Roll Apple Pie",
+    "matchType": "closest",
+    "evidence": "Same two 540 ml (18.9 oz) cans of E.D. Smith apple pie filling, a buttered cinnamon-sugar pie dough log sliced over the top, egg wash with turbinado sugar, and a 400°F then 350°F bake.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 8,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "2 (9-inch) pie crusts, store-bought or homemade",
+      "raw": "2 (9 in) pie crusts, store-bought refrigerated or homemade",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
       "item": "pie crusts",
-      "prep": "store-bought or homemade",
-      "note": "9-inch"
+      "prep": "store-bought refrigerated or homemade",
+      "note": "9 in"
+    },
+    {
+      "raw": "All-purpose flour, for rolling",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Butter or baking spray, for the pie plate",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
     },
     {
       "raw": "2 tbsp unsalted butter, melted",
@@ -50,11 +68,11 @@
       "note": null
     },
     {
-      "raw": "2 tsp brown sugar",
+      "raw": "2 tsp packed light brown sugar",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "brown sugar",
+      "item": "packed light brown sugar",
       "prep": null,
       "note": null
     },
@@ -68,12 +86,12 @@
       "note": "540 ml / 18.9 oz"
     },
     {
-      "raw": "1 egg, whisked, for egg wash",
+      "raw": "1 large egg, beaten, for egg wash",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "egg",
-      "prep": "whisked, for egg wash",
+      "item": "large egg",
+      "prep": "beaten, for egg wash",
       "note": null
     },
     {
@@ -87,11 +105,26 @@
     }
   ],
   "steps": [
-    "Line pie plate with one crust. Pierce and refrigerate.",
-    "Roll second crust, brush with butter, sprinkle cinnamon-sugar. Roll into log, chill 30 min.",
-    "Fill pie with apple filling. Slice log into rounds, arrange on top.",
-    "Brush with egg wash, sprinkle turbinado. Bake 15 min at 400°F, then 40-45 min at 350°F."
+    "Grease a 9 in glass or ceramic pie plate. On a lightly floured surface, roll one crust into a 12 in circle, fit it into the plate, and crimp the edge. Prick the bottom and sides with a fork and refrigerate.",
+    "Roll the second crust into a rough 10x12 in rectangle. Brush with the melted butter and sprinkle the cinnamon and brown sugar all the way to the edges.",
+    "Starting at a long edge, roll it up tightly into a log and pinch the seam. Refrigerate until firm, about 30 min.",
+    "Slice the log into 1/4 in rounds.",
+    "Fill the chilled crust with the apple pie filling and arrange the rounds over the top, slightly overlapping. Refrigerate 30 min, until the topping is firm. Meanwhile heat the oven to 400°F.",
+    "Brush the crust edge and the rounds with egg wash and sprinkle with turbinado sugar.",
+    "Bake 15 min at 400°F, then lower to 350°F and bake 40-45 min more, until the filling bubbles and the crust is deep golden brown. If the edges brown too fast, cover them loosely with foil.",
+    "Cool completely on a rack, at least 2 hr, before slicing."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Olive & Mango's version uses 1/2 cup brown sugar and 2 tsp cinnamon for the swirl, a third crust for a fuller topping, and bakes 20 min at 400°F then 45-60 min at 350°F. This one is heavier on cinnamon and lighter on sugar.",
+    "Bake any leftover rounds on a parchment-lined sheet at 400°F until golden and crisp, about 12 min."
+  ],
+  "references": [
+    {
+      "url": "https://www.oliveandmango.com/cinnamon-roll-apple-pie/",
+      "site": "Olive & Mango",
+      "title": "Cinnamon Roll Apple Pie",
+      "usedFor": "pie plate size, rolling sizes, chill times, egg wash on the edge, bubbling doneness cue, foil tenting, leftover rounds",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

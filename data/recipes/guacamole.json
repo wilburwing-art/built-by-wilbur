@@ -3,7 +3,7 @@
   "name": "Guacamole",
   "category": "Sides & Snacks",
   "emoji": "🥑",
-  "desc": "Classic guac with avocado, lime, cilantro, onion, and tomato",
+  "desc": "Chunky guacamole with lime, red onion, cilantro, and tomato.",
   "time": "10 min",
   "minutes": 10,
   "difficulty": "Easy",
@@ -17,26 +17,26 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "2 ripe avocados",
+      "raw": "2 ripe Hass avocados",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "ripe avocados",
+      "item": "ripe Hass avocados",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/4 tsp salt, plus more to taste",
+      "raw": "1/4 tsp fine salt, plus more to taste",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": "plus more to taste",
       "note": null
     },
@@ -59,13 +59,13 @@
       "note": null
     },
     {
-      "raw": "2 tbsp finely chopped cilantro",
+      "raw": "2 tbsp finely chopped fresh cilantro (leaves and tender stems)",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "finely chopped cilantro",
+      "item": "finely chopped fresh cilantro",
       "prep": null,
-      "note": null
+      "note": "leaves and tender stems"
     },
     {
       "raw": "1 pinch freshly ground black pepper",
@@ -77,18 +77,40 @@
       "note": null
     },
     {
-      "raw": "1/2 ripe tomato, chopped",
+      "raw": "1/2 ripe tomato, seeded and chopped",
       "qty": 0.5,
       "qtyMax": null,
       "unit": null,
       "item": "ripe tomato",
-      "prep": "chopped",
+      "prep": "seeded and chopped",
+      "note": null
+    },
+    {
+      "raw": "Tortilla chips, for serving",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Mash avocados. Stir in all ingredients. Serve with chips."
+    "Halve the avocados, remove the pits, and scoop the flesh into a bowl.",
+    "Mash roughly with a fork, leaving it a little chunky.",
+    "Sprinkle with the salt and lime juice, then stir in the onion, cilantro, pepper, and tomato.",
+    "Taste and add more salt or lime if needed. Serve right away with tortilla chips."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Simply Recipes adds 1 to 2 minced serrano or jalapeño chiles if you want heat."
+  ],
+  "references": [
+    {
+      "url": "https://www.simplyrecipes.com/recipes/perfect_guacamole/",
+      "site": "Simply Recipes",
+      "title": "How to Make the Best Guacamole",
+      "usedFor": "amounts, red onion, fork-mash method, serrano option",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

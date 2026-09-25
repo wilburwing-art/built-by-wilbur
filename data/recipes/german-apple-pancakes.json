@@ -3,46 +3,46 @@
   "name": "German Apple Pancakes",
   "category": "Breakfast",
   "emoji": "🍎",
-  "desc": "Pannekoeken: cinnamon-sugar apples baked in a custardy batter",
+  "desc": "Pannekoeken: cinnamon-sugar apple wedges baked under a puffy custard batter in a 9x13 pan.",
   "time": "45 min",
   "minutes": 45,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.food.com/recipe/gammas-pannekoeken-baked-apple-pancake-229205",
+    "site": "Food.com",
+    "title": "Gamma's Pannekoeken - Baked Apple Pancake",
+    "matchType": "closest",
+    "evidence": "Same 9x13 baked apple pancake: 4 eggs whisked with flour, milk and salt, butter melted in the pan, apples, and cinnamon sugar, baked until puffed and golden.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 6,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "4 eggs, beaten",
-      "qty": 4,
+      "raw": "4 large eggs, beaten",
+      "qty": 4.0,
       "qtyMax": null,
       "unit": null,
-      "item": "eggs",
+      "item": "large eggs",
       "prep": "beaten",
       "note": null
     },
     {
-      "raw": "1 cup milk",
-      "qty": 1,
+      "raw": "1 cup whole milk",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "cup",
-      "item": "milk",
+      "item": "whole milk",
       "prep": null,
       "note": null
     },
     {
       "raw": "1 cup all-purpose flour",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "cup",
       "item": "all-purpose flour",
@@ -50,11 +50,11 @@
       "note": null
     },
     {
-      "raw": "1/4 tsp salt",
+      "raw": "1/4 tsp table salt",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "table salt",
       "prep": null,
       "note": null
     },
@@ -69,7 +69,7 @@
     },
     {
       "raw": "1 tbsp ground cinnamon",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "ground cinnamon",
@@ -77,30 +77,49 @@
       "note": null
     },
     {
-      "raw": "3 gala apples, cut into wedges",
-      "qty": 3,
+      "raw": "3 medium Gala apples, cored and cut into 1/2-inch wedges",
+      "qty": 3.0,
       "qtyMax": null,
       "unit": null,
-      "item": "gala apples",
-      "prep": "cut into wedges",
+      "item": "medium Gala apples",
+      "prep": "cored and cut into 1/2-inch wedges",
       "note": null
     },
     {
-      "raw": "1/4 cup butter, for greasing the pan",
+      "raw": "1/4 cup (4 tbsp) unsalted butter",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "butter",
-      "prep": "for greasing the pan",
-      "note": null
+      "item": "unsalted butter",
+      "prep": null,
+      "note": "4 tbsp"
     }
   ],
   "steps": [
-    "Whisk eggs, milk, flour, and salt until smooth.",
-    "Toss apple wedges in sugar and cinnamon mixture.",
-    "Grease a 13x9 pan with butter. Add apples and cover with batter.",
-    "Bake at 375°F for 30-35 minutes."
+    "Preheat the oven to 375°F.",
+    "Whisk the eggs, milk, flour, and salt until smooth.",
+    "Mix the sugar and cinnamon and toss with the apple wedges.",
+    "Put the butter in a 9x13 inch baking dish and set it in the oven until melted, about 5 minutes. Tilt the dish to coat the bottom and sides.",
+    "Spread the apples in the dish and pour the batter over them.",
+    "Bake until puffed, golden brown, and set in the center, 30 to 35 minutes. Serve right away; it deflates as it cools."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Most published versions bake hotter, 400 to 425°F, for a taller puff; this one runs cooler and longer, which cooks the apple wedges through."
+  ],
+  "references": [
+    {
+      "url": "https://www.food.com/recipe/gammas-pannekoeken-baked-apple-pancake-229205",
+      "site": "Food.com",
+      "title": "Gamma's Pannekoeken - Baked Apple Pancake",
+      "usedFor": "melting the butter in the dish in the oven, puffed and golden doneness cue",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.feastingathome.com/pannekoeken-recipe/",
+      "site": "Feasting At Home",
+      "title": "Baked Pannekoeken (Baked Apple Pancake)",
+      "usedFor": "425°F comparison for the tip",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

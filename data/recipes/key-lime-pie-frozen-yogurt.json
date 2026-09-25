@@ -1,0 +1,80 @@
+{
+  "slug": "key-lime-pie-frozen-yogurt",
+  "name": "Key Lime Pie Frozen Yogurt",
+  "category": "Desserts",
+  "emoji": "🍋",
+  "desc": "Dairy-free key lime coconut yogurt frozen with lime zest and topped with crushed vanilla wafers.",
+  "time": "5 hrs 10 min",
+  "minutes": 310,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DMaajU2A6Rl/",
+    "site": "Instagram @_easyhomemeals",
+    "title": "Key Lime Pie Frozen Yogurt",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3 cups So Delicious Key Lime coconut milk yogurt alternative",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "So Delicious Key Lime coconut milk yogurt alternative",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lime, zested, plus more zest for garnish",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lime",
+      "prep": "zested, plus more zest for garnish",
+      "note": null
+    },
+    {
+      "raw": "3 tbsp agave syrup",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "agave syrup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup dairy-free vanilla wafer cookies, roughly crushed",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "dairy-free vanilla wafer cookies",
+      "prep": "roughly crushed",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Whisk the yogurt, lime zest and agave in a large bowl. Taste and add more agave if you want it sweeter.",
+    "Spread in a lidded freezer container, cover, and freeze 4-5 hr, until set.",
+    "Let it soften on the counter 5-10 min, then scoop and top with the crushed wafers and extra lime zest."
+  ],
+  "tips": [
+    "Dairy-free as written.",
+    "The creator's website version also whisks in 1/4 cup coconut cream and the lime's juice, then churns it in an ice cream maker with the wafers added in the last minute. Without churning it freezes harder, so give it the full softening time."
+  ],
+  "references": [
+    {
+      "url": "https://www.easyhomemeals.com/recipes/dairy-free-key-lime-pie-frozen-yogurt/",
+      "site": "Easy Home Meals",
+      "title": "Dairy-Free Key Lime Pie Frozen Yogurt",
+      "usedFor": "agave amount, lime and wafer amounts, freeze time",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

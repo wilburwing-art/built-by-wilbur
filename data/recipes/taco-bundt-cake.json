@@ -1,0 +1,186 @@
+{
+  "slug": "taco-bundt-cake",
+  "name": "Taco Bundt Cake",
+  "category": "Dinner",
+  "emoji": "🌮",
+  "desc": "Seasoned beef, cheese, pico and crushed Doritos baked inside a ring of flour tortillas in a bundt pan, then flipped out and sliced.",
+  "time": "1 hr 40 min",
+  "minutes": 100,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C7r9KoERRf4/",
+    "site": "Instagram @purewowrecipes",
+    "title": "Taco Bundt Cake",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 8,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Nonstick cooking spray",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lb 80/20 ground beef",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "80/20 ground beef",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp kosher salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp garlic powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp onion powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (1 oz) packet taco seasoning",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "packet",
+      "item": "taco seasoning",
+      "prep": null,
+      "note": "1 oz"
+    },
+    {
+      "raw": "2/3 cup water",
+      "qty": 0.6666666666666666,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "8 large burrito-size flour tortillas",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large burrito-size flour tortillas",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 cups shredded Mexican-blend cheese, divided",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded Mexican-blend cheese",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "1 cup pico de gallo, drained",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "pico de gallo",
+      "prep": "drained",
+      "note": null
+    },
+    {
+      "raw": "2 cups Nacho Cheese Doritos, lightly crushed",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Nacho Cheese Doritos",
+      "prep": "lightly crushed",
+      "note": null
+    },
+    {
+      "raw": "For serving:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup sour cream",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sour cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups shredded iceberg lettuce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded iceberg lettuce",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 350°F. Coat a 10- to 12-cup bundt pan generously with cooking spray.",
+    "Brown the beef in a large skillet over medium-high heat, breaking it up, until no pink remains (160°F), 6-8 minutes. Drain the fat.",
+    "Stir in the salt, pepper, garlic powder, onion powder, taco seasoning and water. Simmer until the liquid is absorbed and the meat is saucy, 3-5 minutes. Let it cool a few minutes.",
+    "Cut 6 tortillas in half. Line the pan with the halves, cut edge against the center tube and rounded edge draping over the outer rim, overlapping so no pan shows.",
+    "Sprinkle 1 cup of cheese over the tortillas. Add half the beef, half the pico and half the crushed Doritos.",
+    "Repeat with another 1 cup of cheese, the rest of the beef, pico and Doritos, and finish with the last 1 cup of cheese.",
+    "Fold the overhanging tortilla over the filling. Cut the remaining 2 tortillas into strips and patch any gaps, then press down firmly to seal.",
+    "Bake until the top is golden and crisp, 40-45 minutes.",
+    "Cool in the pan for 20 minutes so the cheese sets. Set a serving plate on top, flip, and lift off the pan.",
+    "Slice and serve with sour cream and shredded lettuce."
+  ],
+  "tips": [
+    "Drain the pico well or the bottom layer steams instead of crisping.",
+    "Tasty's version (Crunchy Taco Ring) bakes at 350°F for 45 minutes and rests 20 minutes before flipping; the rest is what lets it hold its shape."
+  ],
+  "references": [
+    {
+      "url": "https://tasty.co/recipe/crunchy-taco-ring",
+      "site": "Tasty",
+      "title": "Crunchy Taco Ring",
+      "usedFor": "tortilla count, beef and cheese amounts, crushed chips amount, 350°F for 45 min, 20 min rest before inverting",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "slug": "crispy-tater-tot-pickle-potato-salad",
+  "name": "Crispy Tater Tot Pickle Potato Salad",
+  "category": "Sides & Snacks",
+  "emoji": "🥒",
+  "desc": "Tater tots baked, smashed and baked again until crisp, then tossed with a dill pickle yogurt dressing, cucumber and scallions.",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DHKVpT0vSwq/",
+    "site": "Instagram @alexawhatsfordinner",
+    "title": "Crispy Tater Tot Pickle Potato Salad",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 6,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 (28 oz) bag frozen tater tots",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "bag",
+      "item": "frozen tater tots",
+      "prep": null,
+      "note": "28 oz"
+    },
+    {
+      "raw": "1/2 cup plain Greek yogurt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "plain Greek yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp mayonnaise",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp Dijon or whole grain mustard",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Dijon or whole grain mustard",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Juice of 1 lemon",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp dill pickle juice",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dill pickle juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup fresh dill, roughly chopped",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh dill",
+      "prep": "roughly chopped",
+      "note": null
+    },
+    {
+      "raw": "3 garlic cloves, minced",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "2 tsp kosher salt",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp onion powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp red pepper flakes",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 Persian cucumber, peeled and finely diced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "Persian cucumber",
+      "prep": "peeled and finely diced",
+      "note": null
+    },
+    {
+      "raw": "2 large kosher dill pickles, finely diced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large kosher dill pickles",
+      "prep": "finely diced",
+      "note": null
+    },
+    {
+      "raw": "2 scallions, finely chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "scallions",
+      "prep": "finely chopped",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat the oven to 425°F and line a large baking sheet with parchment.",
+    "Spread the tater tots on the sheet and bake for 15 min.",
+    "Take the pan out and smash each tot into a flat disc with the bottom of a cup. Bake another 20 min, until deep golden brown and crispy.",
+    "In a large bowl, whisk the yogurt, mayonnaise, mustard, lemon juice, pickle juice, dill, garlic, salt, pepper, garlic powder, onion powder and red pepper flakes.",
+    "Add the hot tots and toss gently to coat, then fold in the cucumber, pickles and scallions. Serve right away while the tots are crisp."
+  ],
+  "tips": [],
+  "references": []
+}

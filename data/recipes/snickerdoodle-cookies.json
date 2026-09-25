@@ -3,25 +3,34 @@
   "name": "Snickerdoodle Cookies",
   "category": "Desserts",
   "emoji": "🍪",
-  "desc": "Soft, tangy cookies rolled in cinnamon sugar",
-  "time": "20 min",
-  "minutes": 20,
+  "desc": "Soft, tangy cream of tartar cookies rolled in cinnamon sugar.",
+  "time": "40 min",
+  "minutes": 40,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.bettycrocker.com/recipes/classic-snickerdoodle-cookies/7ffc92a9-d847-4869-9ecb-99de3b751b14",
+    "site": "Betty Crocker",
+    "title": "Classic Snickerdoodle Cookies",
+    "matchType": "closest",
+    "evidence": "Same 1 1/2 cups sugar, 2 eggs, 2 3/4 cups flour, 2 tsp cream of tartar, 1 tsp baking soda, 1/4 tsp salt and 400°F bake; Betty Crocker splits the cup of fat between butter and shortening where this uses all butter.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 24,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
+    {
+      "raw": "Dough:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
     {
       "raw": "1 1/2 cups granulated sugar",
       "qty": 1.5,
@@ -32,20 +41,20 @@
       "note": null
     },
     {
-      "raw": "1 cup butter",
+      "raw": "1 cup (2 sticks) unsalted butter, softened",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "butter",
-      "prep": null,
-      "note": null
+      "item": "unsalted butter",
+      "prep": "softened",
+      "note": "2 sticks"
     },
     {
-      "raw": "2 eggs",
+      "raw": "2 large eggs",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "eggs",
+      "item": "large eggs",
       "prep": null,
       "note": null
     },
@@ -77,28 +86,67 @@
       "note": null
     },
     {
-      "raw": "1/4 tsp salt",
+      "raw": "1/4 tsp fine salt",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 tbsp sugar + 2 tsp cinnamon for coating",
+      "raw": "Coating:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp granulated sugar",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "sugar + 2 tsp cinnamon for coating",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp ground cinnamon",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Beat sugar, butter, and eggs. Mix in flour, cream of tartar, baking soda, and salt.",
-    "Roll into balls, coat in cinnamon-sugar. Bake at 400°F for 7 min."
+    "Preheat the oven to 400°F and line baking sheets with parchment paper.",
+    "Beat the sugar, butter and eggs with a mixer until light and creamy.",
+    "Mix in the flour, cream of tartar, baking soda and salt only until no dry flour remains.",
+    "Stir the 2 tbsp sugar and cinnamon together in a small bowl. Roll the dough into 1 1/4-inch balls and roll each in the cinnamon sugar.",
+    "Set 2 inches apart and bake 7 minutes, until set at the edges with soft, puffed centers.",
+    "Cool 2 minutes on the sheet, then move to a wire rack."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Betty Crocker bakes these 8 to 10 minutes; at 7 they stay softer in the middle."
+  ],
+  "references": [
+    {
+      "url": "https://www.bettycrocker.com/recipes/classic-snickerdoodle-cookies/7ffc92a9-d847-4869-9ecb-99de3b751b14",
+      "site": "Betty Crocker",
+      "title": "Classic Snickerdoodle Cookies",
+      "usedFor": "1 1/4-inch balls, 2-inch spacing, set doneness cue, bake time comparison",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.foodnetwork.com/recipes/ree-drummond/snickerdoodles-3883776",
+      "site": "Food Network (Ree Drummond)",
+      "title": "Snickerdoodles",
+      "usedFor": "400°F on parchment-lined sheets, all-butter dough",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

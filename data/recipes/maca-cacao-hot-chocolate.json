@@ -3,31 +3,31 @@
   "name": "Maca Cacao Hot Chocolate",
   "category": "Drinks",
   "emoji": "☕",
-  "desc": "Superfood hot chocolate with maca, cacao, maple, and coconut oil",
+  "desc": "Almond milk hot chocolate with cacao, maca, maple syrup and a little coconut oil.",
   "time": "10 min",
   "minutes": 10,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.loveandlemons.com/healthy-hot-chocolate/",
+    "site": "Love and Lemons",
+    "title": "Healthy Hot Chocolate",
+    "matchType": "closest",
+    "evidence": "Same ingredients at the same amounts (2 1/2 cups almond milk, 2 tbsp cacao, 1 tbsp maca, 2 tbsp maple, 1/2 tsp coconut oil) and the same coconut whip and shaved chocolate topping; this version uses more cinnamon.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 2,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "2 1/2 cups almond milk",
+      "raw": "2 1/2 cups unsweetened almond milk",
       "qty": 2.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "almond milk",
+      "item": "unsweetened almond milk",
       "prep": null,
       "note": null
     },
@@ -50,11 +50,11 @@
       "note": null
     },
     {
-      "raw": "2 tbsp maple syrup",
+      "raw": "2 tbsp pure maple syrup",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "maple syrup",
+      "item": "pure maple syrup",
       "prep": null,
       "note": null
     },
@@ -77,28 +77,65 @@
       "note": null
     },
     {
-      "raw": "1 pinch sea salt",
+      "raw": "1 pinch fine sea salt",
       "qty": 1,
       "qtyMax": null,
       "unit": "pinch",
-      "item": "sea salt",
+      "item": "fine sea salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Coconut whipped cream and shaved dark chocolate, for topping (optional)",
+      "raw": "Toppings (optional):",
       "qty": null,
       "qtyMax": null,
       "unit": null,
       "item": null,
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1/2 cup coconut whipped cream",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "coconut whipped cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp shaved dark chocolate",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dark chocolate",
+      "prep": "shaved",
+      "note": null
     }
   ],
   "steps": [
-    "Blend or whisk all ingredients. Heat in a saucepan. Adjust sweetness.",
-    "Serve with coconut whip and shaved dark chocolate."
+    "Blend the almond milk, cacao, maca, maple syrup, coconut oil, cinnamon and salt until smooth, or whisk them together in a bowl.",
+    "Transfer to a small saucepan and warm over medium-low heat until steaming, 3 to 5 minutes. Do not let it boil.",
+    "Taste and add more maple syrup if needed. If it is too thick, whisk in a splash more almond milk.",
+    "Pour into 2 mugs and top with coconut whipped cream and shaved dark chocolate, if using."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Well and Full blends a similar mix on high for about a minute before heating and warns against boiling it."
+  ],
+  "references": [
+    {
+      "url": "https://www.loveandlemons.com/healthy-hot-chocolate/",
+      "site": "Love and Lemons",
+      "title": "Healthy Hot Chocolate",
+      "usedFor": "heat level, 3 to 5 minute warm, thinning with more almond milk",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://wellandfull.com/2016/11/maca-hot-chocolate/",
+      "site": "Well and Full",
+      "title": "Maca Hot Chocolate",
+      "usedFor": "blend time, keep below a boil",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

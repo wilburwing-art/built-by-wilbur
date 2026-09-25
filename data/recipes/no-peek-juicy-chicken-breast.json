@@ -1,0 +1,134 @@
+{
+  "slug": "no-peek-juicy-chicken-breast",
+  "name": "No-Peek Juicy Chicken Breast",
+  "category": "Dinner",
+  "emoji": "🍗",
+  "desc": "Chicken breasts seared on one side, then gently steamed covered with the heat off.",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DGwsZ_evJO3/",
+    "site": "Instagram @smalltowninfluencer",
+    "title": "Perfect Juicy Chicken Breast (no-peek method)",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 1/2 lb boneless skinless chicken breasts (2 large or 4 small)",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless skinless chicken breasts",
+      "prep": null,
+      "note": "2 large or 4 small"
+    },
+    {
+      "raw": "3/4 tsp fine sea salt",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp onion powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp smoked paprika",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "smoked paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp ground black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Pat the chicken dry. Mix the salt, garlic powder, onion powder, paprika and pepper and season the chicken well on both sides.",
+    "Heat the oil in a large skillet with a tight-fitting lid over medium heat. Add the chicken and don't move it for 5 minutes.",
+    "Flip the chicken, pour in the water and cover.",
+    "Keep the heat on for 2 minutes (4 minutes for a thin pan or large breasts), then turn the heat off. On an electric stove, move the pan off the burner.",
+    "Leave it covered for 15 minutes without lifting the lid.",
+    "Check the thickest part with an instant-read thermometer: it must read 165°F. If it doesn't, cover and cook over low heat a few minutes more.",
+    "Rest the chicken on a board for a few minutes, then slice."
+  ],
+  "tips": [
+    "The sear gives color and the covered steam finishes the chicken gently, which keeps it juicy.",
+    "The seasoning is a suggestion: the creator says to season however you like, as long as you season well."
+  ],
+  "references": [
+    {
+      "url": "https://www.tiktok.com/@smalltowninfluencer/video/7477791166293871915",
+      "site": "TikTok @smalltowninfluencer",
+      "title": "Juicy chicken breast method (creator's caption)",
+      "usedFor": "creator's timings, olive oil, medium heat",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.thekitchn.com/how-to-cook-moist-tender-chicken-breasts-every-time-cooking-lessons-from-the-kitchn-36891",
+      "site": "The Kitchn",
+      "title": "How To Cook Chicken Breasts (So Juicy & Tender!)",
+      "usedFor": "165°F thermometer check after the covered rest, moving the pan off an electric burner",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.inspiredtaste.net/49683/skillet-chicken-breasts/",
+      "site": "Inspired Taste",
+      "title": "Juicy Chicken Breast Recipe",
+      "usedFor": "seasoning amounts for 1 1/2 lb chicken",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

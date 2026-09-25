@@ -3,94 +3,104 @@
   "name": "Yum Yum Sauce",
   "category": "Sides & Snacks",
   "emoji": "🥢",
-  "desc": "The hibachi steakhouse sauce, better after an hour in the fridge",
-  "time": "1 hr",
-  "minutes": 60,
+  "desc": "The hibachi steakhouse sauce, better after an hour in the fridge.",
+  "time": "1 hr 5 min",
+  "minutes": 65,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://thesaltymarshmallow.com/yum-yum-sauce/",
+    "site": "The Salty Marshmallow",
+    "title": "Yum Yum Sauce",
+    "matchType": "original",
+    "evidence": "Identical ingredients, amounts, and three steps, word for word.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 8,
+    "basis": "publisher",
+    "source": "https://thesaltymarshmallow.com/yum-yum-sauce/"
   },
   "ingredients": [
     {
-      "raw": "1 Cup Mayonnaise",
+      "raw": "1 cup mayonnaise",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "Mayonnaise",
+      "item": "mayonnaise",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 Tablespoons Ketchup",
+      "raw": "2 tbsp ketchup",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "Ketchup",
+      "item": "ketchup",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 Tablespoon Granulated Sugar",
+      "raw": "1 tbsp granulated sugar",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "Granulated Sugar",
+      "item": "granulated sugar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 Tablespoon Paprika",
+      "raw": "1/2 tbsp paprika",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "Paprika",
+      "item": "paprika",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 teaspoons Rice Vinegar or apple cider vinegar",
+      "raw": "2 tsp rice vinegar (or apple cider vinegar)",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "Rice Vinegar or apple cider vinegar",
+      "item": "rice vinegar",
       "prep": null,
-      "note": null
+      "note": "or apple cider vinegar"
     },
     {
-      "raw": "2 teaspoons Garlic Powder",
+      "raw": "2 tsp garlic powder",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "Garlic Powder",
+      "item": "garlic powder",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1-4 Tablespoons Water as needed",
+      "raw": "1-4 tbsp water, as needed",
       "qty": 1,
       "qtyMax": 4,
       "unit": "tbsp",
-      "item": "Water as needed",
-      "prep": null,
+      "item": "water",
+      "prep": "as needed",
       "note": null
     }
   ],
   "steps": [
-    "Whisk all ingredients together in a medium bowl until smooth, using only 1 Tablespoon of water to start, and adding more as needed for desired consistency.",
-    "Refrigerate for at least 1 hour before serving for best flavor.",
-    "Store leftover sauce in a tightly sealed container or jar for up to 5 days."
+    "Whisk everything in a medium bowl until smooth, starting with 1 tbsp water and adding more a little at a time until it is as thin as you like.",
+    "Refrigerate at least 1 hour before serving.",
+    "Store leftovers in a tightly sealed jar in the fridge up to 5 days."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "It thickens in the fridge; stir in 1 tsp more water at a time before serving if needed."
+  ],
+  "references": [
+    {
+      "url": "https://thesaltymarshmallow.com/yum-yum-sauce/",
+      "site": "The Salty Marshmallow",
+      "title": "Yum Yum Sauce",
+      "usedFor": "yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

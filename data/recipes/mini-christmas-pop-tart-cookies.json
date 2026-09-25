@@ -1,0 +1,225 @@
+{
+  "slug": "mini-christmas-pop-tart-cookies",
+  "name": "Mini Christmas Pop-Tart Cookies",
+  "category": "Desserts",
+  "emoji": "🎄",
+  "desc": "Bite-size pie dough pop tarts filled with homemade cranberry-raspberry jam and dipped in pink glaze.",
+  "time": "7 hrs",
+  "minutes": 420,
+  "difficulty": "Hard",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DR9qMbFkQcq/",
+    "site": "Instagram @sugarlushmlp",
+    "title": "Mini Christmas Pop-Tart Cookies",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 30,
+    "basis": "publisher",
+    "source": "https://mlpwaite.substack.com/p/mini-cranberry-raspberry-pop-tart"
+  },
+  "ingredients": [
+    {
+      "raw": "Cranberry-raspberry jam:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "12 oz fresh or frozen cranberries",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "fresh or frozen cranberries",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "12 oz fresh or frozen raspberries",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "fresh or frozen raspberries",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups granulated sugar",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tbsp cornstarch",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tbsp water, for the cornstarch",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "water",
+      "prep": "for the cornstarch",
+      "note": null
+    },
+    {
+      "raw": "Cookies (24-30):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (14.1 oz) box refrigerated roll-out pie dough (2 crusts)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "box",
+      "item": "refrigerated roll-out pie dough",
+      "prep": null,
+      "note": "14.1 oz; 2 crusts"
+    },
+    {
+      "raw": "All-purpose flour, for rolling",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large egg beaten with 2 tbsp water, for egg wash",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg",
+      "prep": "beaten with 2 tbsp water, for egg wash",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup cranberry-raspberry jam (from above)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cranberry-raspberry jam",
+      "prep": null,
+      "note": "from above"
+    },
+    {
+      "raw": "Christmas sprinkles, for decorating",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Pink glaze:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups powdered sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "powdered sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp light corn syrup",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "light corn syrup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 pinches fine salt",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2-5 tbsp water",
+      "qty": 2,
+      "qtyMax": 5,
+      "unit": "tbsp",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2-1 tsp cranberry-raspberry jam (or food coloring), to tint",
+      "qty": 0.5,
+      "qtyMax": 1,
+      "unit": "tsp",
+      "item": "cranberry-raspberry jam",
+      "prep": "to tint",
+      "note": "or food coloring"
+    }
+  ],
+  "steps": [
+    "Jam: in a 3 qt saucepan over medium heat, bring the cranberries, raspberries, sugar and 1 tbsp water to a simmer. Simmer 7-10 min, until the cranberries have popped.",
+    "Blend on high until smooth. Press through a fine-mesh sieve in small batches with a spatula and discard the seeds and skins.",
+    "Stir the cornstarch into the 1 1/2 tbsp water, stir it into the puree, and heat in the saucepan over medium-low until it bubbles and thickens, a few minutes. Cool completely. You will have extra jam.",
+    "Cookies: heat the oven to 350°F and line baking sheets with parchment. On floured parchment, roll one crust from about 10 in to about 14 in across and trim it to a rectangle, saving the scraps. Roll the second crust the same way.",
+    "Spoon or pipe a heaping teaspoon of jam onto each cookie spot on the first sheet of dough (ravioli stamp squares or marked squares). Brush egg wash on all the seams between them.",
+    "Lay the second crust on top, press around each mound, and cut with a ravioli stamp, fluted pastry wheel or knife. If you cut with a knife, crimp the edges with a fork. Pinch any edge that shows a gap.",
+    "Set 12 cookies per sheet. Press the scraps together, re-roll to the same thickness, and repeat.",
+    "Brush the tops lightly with egg wash. Bake 12-15 min, until lightly golden. Cool completely on a rack.",
+    "Glaze: stir the powdered sugar, corn syrup and salt with the water added a little at a time until smooth and thick but dippable. Tint pink with the jam.",
+    "Set a wire rack over parchment. Dip the top of each cookie, shake off the excess, and set it on the rack. For an opaque finish, let the first coat set 15-20 min and dip again. Add sprinkles while the last coat is still wet.",
+    "Let dry several hours, until the glaze hardens, before stacking. Store airtight."
+  ],
+  "tips": [
+    "Egg wash on the seams is what stops the jam leaking.",
+    "Double dip because the glaze soaks in and dries thinner. For a single dip, halve the glaze.",
+    "The assembled cookies freeze well unbaked. Thaw to room temperature before baking.",
+    "Her brown sugar cinnamon version uses a filling of dark brown sugar, cinnamon, flour, apple butter, oil and salt, sealed with water."
+  ],
+  "references": [
+    {
+      "url": "https://mlpwaite.substack.com/p/mini-cranberry-raspberry-pop-tart",
+      "site": "ML Bakes A Lot (Substack)",
+      "title": "Mini Cranberry-Raspberry Pop-Tart Cookies",
+      "usedFor": "full measured recipe, 3 qt pan, sieving method, 12 per sheet, yield of 30, freezing tip",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

@@ -3,42 +3,42 @@
   "name": "The Best Pizza Dough",
   "category": "Dinner",
   "emoji": "🍕",
-  "desc": "Same-day dough that only needs 30 minutes to rise",
-  "time": "45 min",
-  "minutes": 45,
+  "desc": "Same-day olive oil pizza dough stirred in one bowl with instant yeast, risen 30 minutes, and baked as one 12-inch pizza.",
+  "time": "1 hr",
+  "minutes": 60,
   "difficulty": "Medium",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://sugarspunrun.com/the-best-pizza-dough-recipe/",
+    "site": "Sugar Spun Run",
+    "title": "The Best Pizza Dough Recipe",
+    "matchType": "original",
+    "evidence": "Same title, identical ingredient list and amounts (2 to 2 1/3 cups flour, 1 packet instant yeast, 1 1/2 tsp sugar, 3/4 tsp salt, 2 tbsp olive oil, 3/4 cup warm water) and step text copied from the page.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "2 to 2 1/3 cups all-purpose or bread flour, divided (250 to 295 g)",
+      "raw": "2 to 2 1/3 cups (250 to 295 g) all-purpose or bread flour, divided",
       "qty": 2,
-      "qtyMax": 2.3333,
+      "qtyMax": 2.3333333333333335,
       "unit": "cup",
       "item": "all-purpose or bread flour",
-      "prep": "divided (250 to 295 g)",
-      "note": null
+      "prep": "divided",
+      "note": "250 to 295 g"
     },
     {
-      "raw": "1 packet instant yeast (2 1/4 tsp)",
+      "raw": "1 packet (2 1/4 tsp) instant yeast",
       "qty": 1,
       "qtyMax": null,
       "unit": "packet",
-      "item": "instant yeast (2 1/4 tsp)",
+      "item": "instant yeast",
       "prep": null,
-      "note": null
+      "note": "2 1/4 tsp"
     },
     {
       "raw": "1 1/2 tsp granulated sugar",
@@ -50,11 +50,11 @@
       "note": null
     },
     {
-      "raw": "3/4 tsp salt",
+      "raw": "3/4 tsp fine salt",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
@@ -64,42 +64,48 @@
       "qtyMax": 0.25,
       "unit": "tsp",
       "item": "garlic powder and/or dried basil",
-      "prep": "optional",
-      "note": null
+      "prep": null,
+      "note": "optional"
     },
     {
-      "raw": "2 tbsp olive oil, plus more",
+      "raw": "2 tbsp olive oil, plus about 2 tbsp more for the bowl and crust",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "olive oil",
-      "prep": "plus more",
-      "note": null
+      "prep": null,
+      "note": "plus about 2 tbsp more for the bowl and crust"
     },
     {
-      "raw": "3/4 cup warm water (175 ml)",
+      "raw": "3/4 cup (175 ml) warm water",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "cup",
-      "item": "warm water (175 ml)",
+      "item": "warm water",
       "prep": null,
-      "note": null
+      "note": "175 ml"
     }
   ],
   "steps": [
-    "Combine 1 cup (125g) of flour, instant yeast, sugar, and salt in a large bowl. If desired, add garlic powder and dried basil at this point as well.",
-    "Add olive oil and warm water and use a wooden spoon to stir well very well.",
-    "Gradually add another 1 cup (125g) of flour. Add any additional flour as needed (I've found that sometimes I need as much as an additional ⅓ cup), stirring until the dough is forming into a cohesive, elastic ball and is beginning to pull away from the sides of the bowl. The dough will still be slightly sticky but still should be manageable with your hands.",
-    "Drizzle a separate, large, clean bowl generously with olive oil and use a pastry brush to brush up the sides of the bowl.",
-    "Lightly dust your hands with flour and form your pizza dough into a round ball and transfer to your olive oil-brushed bowl. Use your hands to roll the pizza dough along the inside of the bowl until it is coated in olive oil, then cover the bowl tightly with plastic wrap and place it in a warm place.",
-    "Allow dough to rise for 30 minutes or until doubled in size. If you intend to bake this dough into a pizza, I also recommend preheating your oven to 425F (215C) at this point so that it will have reached temperature once your pizza is ready to bake.",
-    "Once the dough has risen, use your hands to gently deflate it and transfer to a lightly floured surface and knead briefly until smooth (about 3-5 times).",
-    "Use either your hands or a rolling pin to work the dough into 12\" circle.",
-    "Transfer dough to a parchment paper lined pizza pan and either pinch the edges or fold them over to form a crust.",
-    "Drizzle additional olive oil (about a Tablespoon) over the top of the pizza and use your pastry brush to brush the entire surface of the pizza (including the crust) with olive oil.",
-    "Use a fork to poke holes all over the center of the pizza to keep the dough from bubbling up in the oven.",
-    "Add desired toppings and bake in a 425F (215C) preheated oven for 13-15 minutes or until toppings are golden brown. Slice and serve."
+    "Stir 1 cup (125 g) of the flour, the yeast, sugar, and salt together in a large bowl, plus the garlic powder and basil if using.",
+    "Add the 2 tbsp olive oil and the warm water and stir very well with a wooden spoon.",
+    "Stir in another 1 cup (125 g) flour a little at a time, then up to 1/3 cup more as needed, until the dough forms a cohesive, elastic ball that pulls away from the sides of the bowl. It should be slightly sticky but manageable.",
+    "Drizzle a second large bowl generously with olive oil and brush it up the sides.",
+    "With lightly floured hands, shape the dough into a ball, put it in the oiled bowl, and roll it around to coat. Cover tightly with plastic wrap and set in a warm place.",
+    "Let rise until doubled, about 30 min. Meanwhile, preheat the oven to 425°F.",
+    "Punch the dough down gently, turn it onto a lightly floured surface, and knead 3-5 times until smooth.",
+    "Shape with your hands or a rolling pin into a 12-inch circle. Move it to a parchment-lined pizza pan and pinch or fold the edge to form a crust.",
+    "Brush the whole surface, crust included, with about 1 tbsp olive oil. Prick the center all over with a fork so it does not bubble up.",
+    "Add toppings and bake until the crust and toppings are golden brown, 13-15 min. Slice and serve."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://sugarspunrun.com/the-best-pizza-dough-recipe/",
+      "site": "Sugar Spun Run",
+      "title": "The Best Pizza Dough Recipe",
+      "usedFor": "total time, yield (one 10 to 12 inch pizza), confirmation of steps and bake temperature",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

@@ -3,86 +3,113 @@
   "name": "Prickly Pear Margarita",
   "category": "Drinks",
   "emoji": "🌵",
-  "desc": "Bright magenta and lightly floral, from prickly pear syrup",
+  "desc": "A bright magenta margarita made with prickly pear syrup, blanco tequila, lime and orange liqueur.",
   "time": "5 min",
   "minutes": 5,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.thekitchn.com/prickly-pear-margarita-23741425",
+    "site": "The Kitchn",
+    "title": "Prickly Pear Margarita",
+    "matchType": "closest",
+    "evidence": "Exactly this recipe's ratio for one drink (2 oz blanco tequila, 1 oz prickly pear syrup, 1 oz lime, 1/2 oz Cointreau) with a kosher salt or Tajin rim and a lime wedge; this version is doubled for 2.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 2,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "4 fluid ounces blanco tequila",
+      "raw": "4 oz blanco tequila",
       "qty": 4,
       "qtyMax": null,
-      "unit": null,
-      "item": "fluid ounces blanco tequila",
+      "unit": "oz",
+      "item": "blanco tequila",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 fluid ounces prickly pear syrup or puree",
+      "raw": "2 oz prickly pear syrup or puree",
       "qty": 2,
       "qtyMax": null,
-      "unit": null,
-      "item": "fluid ounces prickly pear syrup or puree",
+      "unit": "oz",
+      "item": "prickly pear syrup or puree",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 fluid ounces fresh lime juice",
+      "raw": "2 oz fresh lime juice",
       "qty": 2,
       "qtyMax": null,
-      "unit": null,
-      "item": "fluid ounces fresh lime juice",
+      "unit": "oz",
+      "item": "fresh lime juice",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 fluid ounces orange liqueur (Cointreau or triple sec)",
+      "raw": "1 oz orange liqueur (Cointreau or triple sec)",
       "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": "fluid ounces orange liqueur (Cointreau or triple sec)",
+      "unit": "oz",
+      "item": "orange liqueur",
       "prep": null,
-      "note": null
+      "note": "Cointreau or triple sec"
     },
     {
-      "raw": "1 tablespoon kosher salt or Tajin, for the rim",
+      "raw": "1 tbsp kosher salt or Tajin, for the rims",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "kosher salt or Tajin",
-      "prep": "for the rim",
-      "note": null
+      "prep": null,
+      "note": "for the rims"
     },
     {
-      "raw": "3 lime wedges, for rimming and garnish",
+      "raw": "3 lime wedges, for the rims and garnish",
       "qty": 3,
       "qtyMax": null,
       "unit": null,
       "item": "lime wedges",
-      "prep": "for rimming and garnish",
+      "prep": null,
+      "note": "for the rims and garnish"
+    },
+    {
+      "raw": "Ice",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Rim the glasses: Spread 1 tablespoon kosher salt or Tajin, for the rim on a small plate. Run a lime wedge from 3 lime wedges, for rimming and garnish around the rim of each glass, then press the rim into the salt. Fill the glasses with fresh ice and set aside.",
-    "Build the drink: Fill a cocktail shaker two-thirds with ice. Add 4 fluid ounces blanco tequila, 2 fluid ounces prickly pear syrup or puree, 2 fluid ounces fresh lime juice, and 1 fluid ounces orange liqueur.",
-    "Shake: Shake hard until the outside of the shaker is frosted, about 15 seconds .",
-    "Strain and serve: Double-strain into the prepared glasses over fresh ice. Garnish with a wedge from 3 lime wedges, for rimming and garnish."
+    "Rim the glasses: spread the salt or Tajin on a small plate. Run a lime wedge around the rim of 2 rocks glasses, then press the rims into the salt. Fill the glasses with fresh ice and set aside.",
+    "Fill a cocktail shaker two-thirds with ice. Add the tequila, prickly pear syrup, lime juice and orange liqueur.",
+    "Shake hard until the outside of the shaker is frosted, about 15 seconds.",
+    "Double-strain (through the shaker strainer and a fine mesh strainer) into the prepared glasses. Garnish each with a lime wedge."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Homemade syrup (The Kitchn): simmer 1 cup prickly pear pulp (4 to 6 fruit) with 1 cup sugar and 1 cup water for 30 minutes, stir in 1/4 cup lemon juice, strain without pressing, and cool. It keeps 2 weeks in the fridge.",
+    "Garlic & Zest uses 3/4 oz lime per drink for a sweeter margarita."
+  ],
+  "references": [
+    {
+      "url": "https://www.thekitchn.com/prickly-pear-margarita-23741425",
+      "site": "The Kitchn",
+      "title": "Prickly Pear Margarita",
+      "usedFor": "ratio check, homemade syrup method and storage, shake time",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.garlicandzest.com/prickly-pear-margarita/",
+      "site": "Garlic & Zest",
+      "title": "Prickly Pear Margarita",
+      "usedFor": "lime amount comparison",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

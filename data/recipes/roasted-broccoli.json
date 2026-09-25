@@ -3,27 +3,27 @@
   "name": "Roasted Broccoli",
   "category": "Sides & Snacks",
   "emoji": "🥦",
-  "desc": "Roasted hot with garlic, then finished with lemon zest and parmesan",
+  "desc": "Broccoli roasted with garlic, then tossed with lemon zest, lemon juice, and Parmesan.",
   "time": "35 min",
   "minutes": 35,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://barefootcontessa.com/recipes/parmesan-roasted-broccoli",
+    "site": "Barefoot Contessa",
+    "title": "Parmesan-Roasted Broccoli",
+    "matchType": "closest",
+    "evidence": "Same broccoli prep, garlic, 5 tbsp plus 1 1/2 tbsp olive oil, salt, pepper, lemon zest and juice, and Parmesan, nearly word for word; this version drops the pine nuts and basil and roasts at 400°F.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 6,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "4 pounds broccoli",
+      "raw": "4 lb broccoli",
       "qty": 4,
       "qtyMax": null,
       "unit": "lb",
@@ -32,25 +32,25 @@
       "note": null
     },
     {
-      "raw": "4 garlic cloves peeled and sliced",
+      "raw": "4 garlic cloves, peeled and thinly sliced",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
-      "item": "garlic cloves peeled and sliced",
-      "prep": null,
+      "item": "garlic cloves",
+      "prep": "peeled and thinly sliced",
       "note": null
     },
     {
-      "raw": "6 1/2 tbsp good olive oil, divided (or butter-flavor coconut oil for keto)",
+      "raw": "6 1/2 tbsp extra-virgin olive oil, divided (or butter-flavor coconut oil for keto)",
       "qty": 6.5,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "good olive oil",
+      "item": "extra-virgin olive oil",
       "prep": "divided",
       "note": "or butter-flavor coconut oil for keto"
     },
     {
-      "raw": "1½ teaspoons kosher salt",
+      "raw": "1 1/2 tsp kosher salt",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "tsp",
@@ -59,7 +59,7 @@
       "note": null
     },
     {
-      "raw": "½ teaspoon freshly ground black pepper",
+      "raw": "1/2 tsp freshly ground black pepper",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
@@ -68,16 +68,16 @@
       "note": null
     },
     {
-      "raw": "2 teaspoons grated lemon zest",
+      "raw": "2 tsp grated lemon zest (from 1 lemon)",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
       "item": "grated lemon zest",
       "prep": null,
-      "note": null
+      "note": "from 1 lemon"
     },
     {
-      "raw": "2 tablespoons freshly squeezed lemon juice",
+      "raw": "2 tbsp freshly squeezed lemon juice",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
@@ -86,8 +86,8 @@
       "note": null
     },
     {
-      "raw": "⅓ cup freshly grated Parmesan cheese",
-      "qty": 0.3333,
+      "raw": "1/3 cup freshly grated Parmesan cheese",
+      "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
       "item": "freshly grated Parmesan cheese",
@@ -96,12 +96,22 @@
     }
   ],
   "steps": [
-    "Preheat the oven to 400°F/200°C.",
-    "Cut the broccoli florets from the thick stalks, leaving an inch or two of stalk attached to the florets, discarding the rest of the stalks. Cut the larger pieces through the base of the head with a small knife, pulling the florets apart. You should have about 8 cups of florets.",
-    "Place the broccoli florets on a sheet pan large enough to hold them in a single layer. Toss the garlic on the broccoli and drizzle with 5 tablespoons olive oil. Sprinkle with the salt and pepper.",
-    "Roast for 20 to 25 minutes, until crisp-tender and the tips of some of the florets are browned.",
-    "Remove the broccoli from the oven and immediately toss with 1½ tablespoons olive oil, the lemon zest, lemon juice, and Parmesan. Serve hot."
+    "Preheat the oven to 400°F.",
+    "Cut the florets from the thick stalks, leaving an inch or two of stalk on each; discard the rest of the stalks. Cut the larger pieces through the base with a small knife and pull the florets apart. You should have about 8 cups.",
+    "Spread the florets on a sheet pan large enough to hold them in a single layer (use two if needed). Scatter the garlic over them, drizzle with 5 tbsp of the olive oil, and sprinkle with the salt and pepper.",
+    "Roast 20 to 25 minutes, until crisp-tender and some floret tips are browned.",
+    "Right away, toss with the remaining 1 1/2 tbsp olive oil, the lemon zest, lemon juice, and Parmesan. Serve hot."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Ina Garten roasts at 425°F and finishes with 3 tbsp toasted pine nuts and 2 tbsp julienned basil."
+  ],
+  "references": [
+    {
+      "url": "https://barefootcontessa.com/recipes/parmesan-roasted-broccoli",
+      "site": "Barefoot Contessa",
+      "title": "Parmesan-Roasted Broccoli",
+      "usedFor": "broccoli prep, oil split, seasoning, roast time and doneness, 425°F and pine nut and basil note, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

@@ -1,0 +1,633 @@
+{
+  "slug": "6-high-protein-bowls",
+  "name": "6 High-Protein Bowls",
+  "category": "Lunch",
+  "emoji": "🥗",
+  "desc": "Six single-serving protein bowls: beef taco, pineapple prawn, salmon avocado, steak and sweet potato, Mediterranean chicken, and egg and veggie.",
+  "time": "40 min",
+  "minutes": 40,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DDCc8CJSsmS/",
+    "site": "Instagram @scottvriens",
+    "title": "6 High-Protein Bowls",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 6,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Beef taco bowl:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "250 g beef mince (lean ground beef)",
+      "qty": 250,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "beef mince",
+      "prep": null,
+      "note": "lean ground beef"
+    },
+    {
+      "raw": "1 tbsp taco seasoning",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "taco seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup canned black beans, rinsed",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "canned black beans",
+      "prep": "rinsed",
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded lettuce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded lettuce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tomato, cubed",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "tomato",
+      "prep": "cubed",
+      "note": null
+    },
+    {
+      "raw": "1/2 avocado, sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "avocado",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup shredded cheddar cheese",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded cheddar cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp plain Greek yogurt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "plain Greek yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Fresh cilantro, for garnish",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Pineapple and prawn bowl:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup uncooked quinoa, rinsed",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "uncooked quinoa",
+      "prep": "rinsed",
+      "note": null
+    },
+    {
+      "raw": "1 cup water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "150 g raw peeled prawns (shrimp)",
+      "qty": 150,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "raw peeled prawns",
+      "prep": null,
+      "note": "shrimp"
+    },
+    {
+      "raw": "1 garlic clove, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic clove",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1 tsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 fresh pineapple rings",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fresh pineapple rings",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup shredded red cabbage",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded red cabbage",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup diced cucumber",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "diced cucumber",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 red capsicum (bell pepper), sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red capsicum",
+      "prep": "sliced",
+      "note": "bell pepper"
+    },
+    {
+      "raw": "2 tbsp pomegranate seeds (optional)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "pomegranate seeds",
+      "prep": null,
+      "note": "optional"
+    },
+    {
+      "raw": "Salmon and avocado bowl:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "150 g skinless salmon fillet",
+      "qty": 150,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "skinless salmon fillet",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup uncooked white rice, rinsed",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "uncooked white rice",
+      "prep": "rinsed",
+      "note": null
+    },
+    {
+      "raw": "1 cup water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup shelled edamame",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shelled edamame",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 small carrot, peeled and cut into ribbons",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small carrot",
+      "prep": "peeled and cut into ribbons",
+      "note": null
+    },
+    {
+      "raw": "1/2 cucumber, peeled and sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "cucumber",
+      "prep": "peeled and sliced",
+      "note": null
+    },
+    {
+      "raw": "1/2 avocado, sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "avocado",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp pickled sushi ginger",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "pickled sushi ginger",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp sesame seeds",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sesame seeds",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Beef and sweet potato bowl:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "200 g sirloin steak",
+      "qty": 200,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "sirloin steak",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "200 g sweet potato, diced",
+      "qty": 200,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "sweet potato",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "4 asparagus spears, trimmed",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "asparagus spears",
+      "prep": "trimmed",
+      "note": null
+    },
+    {
+      "raw": "2 tsp olive oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup baby spinach",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "baby spinach",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 red onion, sliced into rings",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red onion",
+      "prep": "sliced into rings",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup cherry tomatoes, halved",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cherry tomatoes",
+      "prep": "halved",
+      "note": null
+    },
+    {
+      "raw": "1/2 avocado, sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "avocado",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1 tsp sesame seeds",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sesame seeds",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Mediterranean chicken bowl:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "200 g boneless skinless chicken breast",
+      "qty": 200,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "boneless skinless chicken breast",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup uncooked quinoa, rinsed",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "uncooked quinoa",
+      "prep": "rinsed",
+      "note": null
+    },
+    {
+      "raw": "1 cup water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup cherry tomatoes",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cherry tomatoes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp olive oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded lettuce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded lettuce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 red capsicum (bell pepper), diced",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red capsicum",
+      "prep": "diced",
+      "note": "bell pepper"
+    },
+    {
+      "raw": "2 tbsp diced red onion",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "diced red onion",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cucumber, sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "cucumber",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp plain Greek yogurt",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "plain Greek yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp crumbled feta cheese",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "crumbled feta cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Egg and veggie bowl:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "200 g potato, diced",
+      "qty": 200,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "potato",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1 cup sliced mushrooms",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sliced mushrooms",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp olive oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 large eggs",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 red onion, diced",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red onion",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1/2 avocado, sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "avocado",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup salsa",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "salsa",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Fresh cilantro, for garnish",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "For all bowls:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Grains (prawn, salmon and chicken bowls): Use 2 parts water to 1 part grain. Bring the grain and water to a boil, cover, and simmer on low until the water is absorbed, about 15 min for quinoa and 18 min for white rice. Rest covered 5 min and fluff.",
+    "Roasting (steak and egg bowls): Heat the oven to 450°F or an air fryer to 425°F. Toss the diced sweet potato or potato with 1 tsp olive oil, salt and pepper and roast 18 to 23 min, tossing halfway, until browned and tender. Add the asparagus to the sweet potato for the last 8 min.",
+    "Beef taco bowl: Brown the mince in a skillet over medium-high heat with the taco seasoning, breaking it up, 6 to 8 min, until no pink remains. Rinse the black beans. Assemble the bowl with the lettuce, tomato, beans, beef, avocado, cheese and yogurt, and garnish with cilantro.",
+    "Pineapple and prawn bowl: Char the pineapple rings on a hot grill or grill pan 2 to 3 min per side, then cut into chunks. Cook the prawns with the garlic in the olive oil over medium-high heat 1 to 2 min per side, until pink and opaque. Assemble over the quinoa with the cabbage, cucumber, capsicum and pomegranate.",
+    "Salmon and avocado bowl: Season the salmon and sear in the olive oil in a skillet over medium-high heat 3 to 4 min per side, until it flakes and reads 145°F. Steam the edamame 3 to 5 min. Assemble over the rice with the carrot, cucumber, avocado and ginger, and garnish with sesame seeds.",
+    "Beef and sweet potato bowl: Season the steak and sear in 1 tsp olive oil in a hot skillet 3 to 4 min per side for medium-rare (130°F to 135°F). Rest 5 min and slice. Assemble with the spinach, roasted sweet potato and asparagus, onion, tomatoes and avocado, and garnish with sesame seeds.",
+    "Mediterranean chicken bowl: Heat the oven to 400°F. Season the chicken, rub with 1 tsp olive oil and bake on a sheet pan with the cherry tomatoes (tossed in the other 1 tsp oil) 20 to 25 min, until the chicken reads 165°F and the tomatoes blister. Mix the lettuce, capsicum and onion into a salad. Assemble over the quinoa with the chicken, tomatoes, cucumber and yogurt, and garnish with feta.",
+    "Egg and veggie bowl: Sauté the mushrooms in 1 tsp olive oil over medium-high heat 5 to 6 min, until browned. Scramble the eggs over medium-low heat until just set. Assemble with the roasted potato, onion, avocado and salsa, and garnish with cilantro."
+  ],
+  "tips": [
+    "Each bowl is one serving. Scale any of them by the number of people eating."
+  ],
+  "references": [
+    {
+      "url": "https://www.littlespicejar.com/high-protein-sweet-potato-bowls/",
+      "site": "Little Spice Jar",
+      "title": "High Protein Sweet Potatoes Bowls with Taco Meat",
+      "usedFor": "roasting diced sweet potato at 450°F in the oven or 425°F in an air fryer for 18 to 23 min, tossing halfway",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

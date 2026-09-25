@@ -1,0 +1,113 @@
+{
+  "slug": "egg-wrapped-breakfast-bagel",
+  "name": "Egg-Wrapped Breakfast Bagel",
+  "category": "Breakfast",
+  "emoji": "🥯",
+  "desc": "Bagel halves pressed into beaten eggs in the pan, flipped, filled and folded into a sandwich.",
+  "time": "10 min",
+  "minutes": 10,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DTglNhoD3wj/",
+    "site": "Instagram @liberty_adventures",
+    "title": "Egg-Wrapped Breakfast Bagel",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 1,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 bagel, halved",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "bagel",
+      "prep": "halved",
+      "note": null
+    },
+    {
+      "raw": "2 to 3 large eggs",
+      "qty": 2,
+      "qtyMax": 3,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/8 tsp kosher salt",
+      "qty": 0.125,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pinch ground black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "ground black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp unsalted butter",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 slice cheddar or American cheese",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "cheddar or American cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 avocado, thinly sliced",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": null,
+      "item": "avocado",
+      "prep": "thinly sliced",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Beat the eggs with the salt and pepper.",
+    "Melt the butter in a large nonstick skillet over medium heat. Pour in the eggs and tilt the pan so they spread into an even layer.",
+    "Right away, press both bagel halves cut side down into the egg.",
+    "Cook until the egg is set, about 3 to 4 minutes, then flip the whole thing over with a wide spatula.",
+    "Fold the egg edges in over the bagel halves. Lay the cheese and avocado on one half and close the sandwich with the other. Cook 1 minute more to melt the cheese."
+  ],
+  "tips": [],
+  "references": [
+    {
+      "url": "https://www.weightwatchers.com/us/recipe/bagel-breakfast-sandwich-hack/69d7c601b7a525bd326b360a",
+      "site": "WW",
+      "title": "Viral Bagel Breakfast Sandwich",
+      "usedFor": "medium heat, egg seasoning amounts, folding the egg over after the flip",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.saltysidedish.com/tiktok-egg-sandwich/",
+      "site": "Salty Side Dish",
+      "title": "TikTok Egg Sandwich",
+      "usedFor": "butter amount, cooking the cheese side a minute after folding",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

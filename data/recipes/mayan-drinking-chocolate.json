@@ -3,67 +3,67 @@
   "name": "Mayan Drinking Chocolate",
   "category": "Drinks",
   "emoji": "🍫",
-  "desc": "Dark chocolate melted with cinnamon, cayenne, and coconut milk",
+  "desc": "Dark chocolate melted into non-dairy milk with cinnamon, cayenne and nutmeg.",
   "time": "15 min",
   "minutes": 15,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://minimalistbaker.com/vegan-mayan-drinking-chocolate/",
+    "site": "Minimalist Baker",
+    "title": "Vegan Mayan Drinking Chocolate",
+    "matchType": "original",
+    "evidence": "Same name, every ingredient at the same amount (2 cups non-dairy milk, 5 oz 70% chocolate, 1/2 tsp each vanilla and cinnamon, 1/8 tsp cayenne, 1/4 tsp sea salt) and the same three-step method.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://minimalistbaker.com/vegan-mayan-drinking-chocolate/"
   },
   "ingredients": [
     {
-      "raw": "2 cups non-dairy milk",
+      "raw": "2 cups non-dairy milk (half full-fat coconut milk, half unsweetened almond milk)",
       "qty": 2,
       "qtyMax": null,
       "unit": "cup",
       "item": "non-dairy milk",
       "prep": null,
-      "note": null
+      "note": "half full-fat coconut milk, half unsweetened almond milk"
     },
     {
-      "raw": "5 oz dark chocolate (70% cacao)",
+      "raw": "5 oz dairy-free dark chocolate (70% cacao), chopped",
       "qty": 5,
       "qtyMax": null,
       "unit": "oz",
-      "item": "dark chocolate (70% cacao)",
-      "prep": null,
-      "note": null
+      "item": "dairy-free dark chocolate",
+      "prep": "chopped",
+      "note": "70% cacao"
     },
     {
-      "raw": "1/2 tsp vanilla",
+      "raw": "1/2 tsp vanilla extract",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "vanilla",
+      "item": "vanilla extract",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 tsp cinnamon",
+      "raw": "1/2 tsp ground cinnamon",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "cinnamon",
+      "item": "ground cinnamon",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/8 tsp cayenne",
+      "raw": "1/8 tsp cayenne pepper",
       "qty": 0.125,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "cayenne",
+      "item": "cayenne pepper",
       "prep": null,
       "note": null
     },
@@ -77,38 +77,51 @@
       "note": null
     },
     {
-      "raw": "1/4 tsp sea salt",
+      "raw": "1/4 tsp fine sea salt",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "sea salt",
+      "item": "fine sea salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Sugar to taste",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "raw": "1-2 tbsp coconut sugar or raw cane sugar, to taste (optional)",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "tbsp",
+      "item": "coconut sugar or raw cane sugar",
       "prep": null,
-      "note": null
+      "note": "to taste, optional"
     },
     {
-      "raw": "Coconut whipped cream, for topping",
-      "qty": null,
+      "raw": "1/2 cup coconut whipped cream, for topping",
+      "qty": 0.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "cup",
+      "item": "coconut whipped cream",
       "prep": null,
-      "note": null
+      "note": "for topping"
     }
   ],
   "steps": [
-    "Simmer milk. Add chocolate, whisk until melted.",
-    "Add spices, whisk. Remove from heat, add vanilla.",
-    "Adjust to taste. Top with coconut whipped cream."
+    "Bring the milk to a simmer in a small saucepan over medium heat.",
+    "Add the chopped chocolate and whisk until it starts to melt.",
+    "Add the cinnamon, cayenne, nutmeg and salt and whisk vigorously until the chocolate is completely melted and smooth.",
+    "Remove from the heat and whisk in the vanilla.",
+    "Taste and whisk in sugar if it is not sweet enough, or a pinch more cayenne for more heat.",
+    "Pour into 4 small cups and top with coconut whipped cream."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Leftovers keep covered in the refrigerator for a few days; rewarm gently over low heat."
+  ],
+  "references": [
+    {
+      "url": "https://minimalistbaker.com/vegan-mayan-drinking-chocolate/",
+      "site": "Minimalist Baker",
+      "title": "Vegan Mayan Drinking Chocolate",
+      "usedFor": "milk blend, chopped chocolate, sugar amount, yield, storage",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

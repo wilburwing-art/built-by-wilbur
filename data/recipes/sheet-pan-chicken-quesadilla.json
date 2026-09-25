@@ -1,0 +1,102 @@
+{
+  "slug": "sheet-pan-chicken-quesadilla",
+  "name": "Sheet Pan Chicken Quesadilla",
+  "category": "Dinner",
+  "emoji": "🫓",
+  "desc": "Creamy shredded chicken and cheddar folded inside overlapping tortillas, pressed under a second sheet pan and baked crisp.",
+  "time": "40 min",
+  "minutes": 40,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DPplWONjFLZ/",
+    "site": "Instagram @karissastevens_",
+    "title": "Sheet Pan Chicken Quesadilla",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 6,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Nonstick cooking spray",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 cups shredded cooked chicken (from 1 rotisserie chicken)",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded cooked chicken",
+      "prep": null,
+      "note": "from 1 rotisserie chicken"
+    },
+    {
+      "raw": "8 oz cream cheese, softened",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "cream cheese",
+      "prep": "softened",
+      "note": null
+    },
+    {
+      "raw": "1 cup salsa (or 1 (1 oz) packet taco seasoning)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "salsa packet taco seasoning)",
+      "prep": null,
+      "note": "or 1 (1 oz"
+    },
+    {
+      "raw": "8 large burrito-size flour tortillas",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large burrito-size flour tortillas",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 cups shredded cheddar",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded cheddar",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 425°F. Spray an 18x13 in sheet pan with cooking spray.",
+    "Mix the chicken, cream cheese and salsa or seasoning until evenly combined.",
+    "Lay 6 tortillas around the edges of the pan, overlapping, with half of each hanging over the rim. Put 1 tortilla in the center gap.",
+    "Sprinkle half the cheddar over the tortillas, spread the chicken mixture on top, and cover with the rest of the cheddar.",
+    "Lay the last tortilla in the center, then fold the overhanging tortillas in toward the middle.",
+    "Set a second sheet pan on top and press down. Bake 20 minutes with the pan on top.",
+    "Remove the top pan and bake 5 minutes more, until the top is golden and crisp and the filling is hot. Cool 5 minutes, then cut into squares."
+  ],
+  "tips": [
+    "About 5 minutes of hands-on time with rotisserie chicken.",
+    "Serve with sour cream, salsa or guacamole."
+  ],
+  "references": [
+    {
+      "url": "https://www.jocooks.com/recipes/sheet-pan-quesadilla/",
+      "site": "Jo Cooks",
+      "title": "Sheet Pan Quesadilla",
+      "usedFor": "tortilla count and layout, 18x13 pan, 425°F, 20 min pressed plus 5 min uncovered, cheese amount",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

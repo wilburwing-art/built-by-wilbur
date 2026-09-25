@@ -1,0 +1,173 @@
+{
+  "slug": "ramen-carbonara",
+  "name": "Ramen Carbonara",
+  "category": "Dinner",
+  "emoji": "🍜",
+  "desc": "Instant ramen tossed with crisp bacon, garlic and a gochujang, egg and Parmesan carbonara sauce.",
+  "time": "20 min",
+  "minutes": 20,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DRsI_Ulj1LS/",
+    "site": "Instagram @success.recipes",
+    "title": "Ramen Carbonara",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 2,
+    "basis": "publisher",
+    "source": "https://cookingwithgenius.com/ramen-carbonara/"
+  },
+  "ingredients": [
+    {
+      "raw": "2 packs instant ramen, such as Shin Ramyun",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "packet",
+      "item": "instant ramen",
+      "prep": null,
+      "note": "such as Shin Ramyun"
+    },
+    {
+      "raw": "1 ramen seasoning packet (from the packs above)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "packet",
+      "item": "ramen seasoning",
+      "prep": null,
+      "note": "from the packs above"
+    },
+    {
+      "raw": "4 garlic cloves, minced",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "4 strips bacon (about 120 g), thinly sliced",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "strip",
+      "item": "bacon",
+      "prep": "thinly sliced",
+      "note": "about 120 g"
+    },
+    {
+      "raw": "Sauce:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large egg",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 large egg yolks",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg yolks",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "60 g finely grated Parmesan",
+      "qty": 60,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "finely grated Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tbsp gochujang",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "gochujang",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Garnish:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp chopped fresh chives",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh chives",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "2 large egg yolks (optional, one per bowl)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg yolks",
+      "prep": null,
+      "note": "optional; one per bowl"
+    },
+    {
+      "raw": "1 tsp toasted sesame seeds",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "toasted sesame seeds",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Whisk the egg, egg yolks, Parmesan, gochujang and pepper into a thick paste.",
+    "Cook the noodles in boiling water according to the package. Save 1/4 cup of the cooking water, then drain.",
+    "In a large skillet over medium-high heat, fry the bacon about 5 min until the fat renders and the edges crisp. Add the garlic and stir 30 sec.",
+    "Add the noodles and the seasoning packet and toss. Turn off the heat, add the egg mixture, and stir hard until it turns creamy.",
+    "Loosen with the saved water a tablespoon at a time until glossy. Serve with chives, sesame seeds and a yolk on top if you like."
+  ],
+  "tips": [
+    "Turn the heat off before the eggs go in so they thicken without scrambling.",
+    "The garnish yolk stays raw; skip it or use pasteurized eggs if serving anyone who should avoid raw egg.",
+    "2 servings, about 620 cal each. Credited to Genius NG (Cooking with Genius)."
+  ],
+  "references": [
+    {
+      "url": "https://cookingwithgenius.com/ramen-carbonara/",
+      "site": "Cooking with Genius",
+      "title": "Ramen Carbonara",
+      "usedFor": "original recipe the carousel card reproduces: bacon cook time over medium-high, stirring vigorously off heat, 2 servings",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

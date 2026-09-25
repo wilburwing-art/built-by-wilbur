@@ -3,23 +3,23 @@
   "name": "The Best Coleslaw",
   "category": "Sides & Snacks",
   "emoji": "🥬",
-  "desc": "Two cabbages and carrot in a tangy celery-seed dressing, chilled an hour",
-  "time": "1.5 hrs",
-  "minutes": 90,
+  "desc": "Green and purple cabbage with carrot in a tangy celery-seed mayo dressing, chilled an hour.",
+  "time": "1 hr 20 min",
+  "minutes": 80,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.spendwithpennies.com/best-coleslaw-recipe/",
+    "site": "Spend With Pennies",
+    "title": "The Best Coleslaw Recipe",
+    "matchType": "original",
+    "evidence": "Identical ingredients, amounts, and both steps, word for word.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 6,
+    "basis": "publisher",
+    "source": "https://www.spendwithpennies.com/best-coleslaw-recipe/"
   },
   "ingredients": [
     {
@@ -59,7 +59,7 @@
       "note": null
     },
     {
-      "raw": "½ cup mayonnaise",
+      "raw": "1/2 cup mayonnaise",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
@@ -68,7 +68,7 @@
       "note": null
     },
     {
-      "raw": "1 tablespoon white vinegar",
+      "raw": "1 tbsp white vinegar",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
@@ -77,7 +77,7 @@
       "note": null
     },
     {
-      "raw": "½ tablespoon apple cider vinegar",
+      "raw": "1/2 tbsp apple cider vinegar",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tbsp",
@@ -95,7 +95,7 @@
       "note": null
     },
     {
-      "raw": "½ teaspoon celery seed",
+      "raw": "1/2 tsp celery seed",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
@@ -104,7 +104,7 @@
       "note": null
     },
     {
-      "raw": "salt and black pepper to taste",
+      "raw": "Kosher salt and black pepper, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -114,9 +114,17 @@
     }
   ],
   "steps": [
-    "Combine all dressing ingredients in a bowl.",
-    "Toss with cabbage & carrots. Refrigerate at least 1 hour before serving to allow flavors to blend."
+    "Whisk all the dressing ingredients together in a large bowl.",
+    "Add the cabbages and carrot and toss to coat. Cover and refrigerate at least 1 hour before serving so the flavors blend."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.spendwithpennies.com/best-coleslaw-recipe/",
+      "site": "Spend With Pennies",
+      "title": "The Best Coleslaw Recipe",
+      "usedFor": "yield, total time",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

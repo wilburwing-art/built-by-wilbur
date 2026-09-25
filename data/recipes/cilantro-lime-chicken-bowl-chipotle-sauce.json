@@ -1,0 +1,281 @@
+{
+  "slug": "cilantro-lime-chicken-bowl-chipotle-sauce",
+  "name": "Cilantro Lime Chicken Bowl with Chipotle Sauce",
+  "category": "Lunch",
+  "emoji": "🌯",
+  "desc": "Honey, cilantro and chili powder marinated chicken over rice and greens with a light Greek yogurt chipotle sauce.",
+  "time": "1 hr 10 min",
+  "minutes": 70,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DDdg3noPNUx/",
+    "site": "Instagram @ice.karimcooks",
+    "title": "Cilantro Lime Chicken Bowl + Low-Cal Chipotle Sauce",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 3,
+    "basis": "publisher",
+    "source": "https://www.instagram.com/reel/DDdg3noPNUx/"
+  },
+  "ingredients": [
+    {
+      "raw": "Chicken marinade:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1.5 lb boneless skinless chicken breast",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless skinless chicken breast",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup chopped fresh cilantro, plus more for garnish",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chopped fresh cilantro",
+      "prep": "plus more for garnish",
+      "note": null
+    },
+    {
+      "raw": "4 garlic cloves, minced",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1.5 tsp chili powder",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp ground cumin",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp fresh lemon juice",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil, plus more for the pan",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": "plus more for the pan",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp kosher salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1.5 tbsp honey",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "honey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Chipotle sauce:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup nonfat plain Greek yogurt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "nonfat plain Greek yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup light mayonnaise",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "light mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1-2 chipotle peppers in adobo sauce",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": null,
+      "item": "chipotle peppers in adobo sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1-2 garlic cloves",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp fresh lemon juice",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fresh lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp honey",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "honey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, a sprinkle each",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Water, as needed to thin",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Bowls:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 cups cooked white rice",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cooked white rice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 cups spring mix",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "spring mix",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 medium tomatoes, diced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium tomatoes",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1 cup corn kernels (thawed frozen or canned, drained)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "corn kernels",
+      "prep": null,
+      "note": "thawed frozen or canned, drained"
+    },
+    {
+      "raw": "1/2 small red onion, thinly sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small red onion",
+      "prep": "thinly sliced",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Mix all the marinade ingredients in a bowl, add the chicken and turn to coat. Marinate 30 to 40 min while you prep everything else.",
+    "Blend all the chipotle sauce ingredients until smooth and creamy, adding water a spoonful at a time if it is too thick.",
+    "Heat a large skillet or grill pan over medium-high heat and lightly oil it. Cook the chicken 5 to 7 min per side, until an instant-read thermometer reads 165°F in the thickest part.",
+    "Rest the chicken 5 min, then slice.",
+    "Build each bowl with 1 cup of rice, the spring mix, tomato, corn, red onion and chicken. Drizzle with 3 to 4 tbsp of the chipotle sauce and garnish with cilantro."
+  ],
+  "tips": [
+    "About 610 calories and 56 g protein per bowl with 1 cup of rice and 3 to 4 tbsp of sauce (creator's numbers).",
+    "The creator uses lemon juice despite the name. Lime works too.",
+    "The sauce makes about 1 1/2 cups, so there is extra for the week."
+  ],
+  "references": [
+    {
+      "url": "https://gimmedelicious.com/cilantro-lime-chicken-burrito-bowls/",
+      "site": "Gimme Delicious",
+      "title": "Cilantro Lime Chicken Burrito Bowls",
+      "usedFor": "cooking the marinated chicken in an oiled pan over medium-high heat 5 to 7 min per side, resting 5 min before slicing",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

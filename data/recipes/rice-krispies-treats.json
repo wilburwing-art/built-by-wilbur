@@ -3,67 +3,86 @@
   "name": "Rice Krispies Treats",
   "category": "Desserts",
   "emoji": "🍚",
-  "desc": "Gooey marshmallow and butter cereal bars, soft and chewy",
-  "time": "1.5 hrs",
-  "minutes": 90,
+  "desc": "Thick, gooey marshmallow and butter cereal bars with extra whole marshmallows folded in.",
+  "time": "1 hr 15 min",
+  "minutes": 75,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.twopeasandtheirpod.com/rice-krispie-treats/",
+    "site": "Two Peas & Their Pod",
+    "title": "Rice Krispie Treats {Thick & Gooey}",
+    "matchType": "closest",
+    "evidence": "Same 6 tbsp butter, 16 oz bag of mini marshmallows with whole marshmallows folded in at the end, and vanilla; Two Peas adds 2 cups extra marshmallows and 8 cups cereal where this one holds back 1 cup from the bag and uses 6 cups.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 16,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "6 tbsp butter",
+      "raw": "6 tbsp unsalted butter, plus more for the spatula",
       "qty": 6,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "butter",
+      "item": "unsalted butter",
       "prep": null,
-      "note": null
+      "note": "plus more for the spatula"
     },
     {
-      "raw": "16 oz mini marshmallows",
-      "qty": 16,
+      "raw": "1 (16 oz) bag mini marshmallows, divided",
+      "qty": 1,
       "qtyMax": null,
-      "unit": "oz",
+      "unit": "bag",
       "item": "mini marshmallows",
-      "prep": null,
-      "note": null
+      "prep": "divided",
+      "note": "16 oz"
     },
     {
-      "raw": "1 tsp vanilla",
+      "raw": "1 tsp vanilla extract",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "vanilla",
+      "item": "vanilla extract",
       "prep": null,
       "note": null
     },
     {
-      "raw": "6 cups Rice Krispies",
+      "raw": "6 cups Rice Krispies cereal",
       "qty": 6,
       "qtyMax": null,
       "unit": "cup",
-      "item": "Rice Krispies",
+      "item": "Rice Krispies cereal",
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Melt butter, add all but 1 cup marshmallows. Stir until melted.",
-    "Remove from heat. Add vanilla, cereal, and reserved marshmallows.",
-    "Press gently into parchment-lined dish. Set 1 hour."
+    "Line an 8x8-inch pan with parchment paper (use a 9x13-inch pan for thinner bars). Measure out 1 cup of the marshmallows and set aside.",
+    "Melt the butter in a large pot over medium-low heat. Add the rest of the marshmallows and stir constantly until only melted. Overcooking turns the bars hard.",
+    "Remove from the heat. Stir in the vanilla, then fold in the cereal and the reserved 1 cup marshmallows until evenly coated.",
+    "Transfer to the pan and press gently into an even layer with a buttered spatula. Do not pack it down.",
+    "Let set at room temperature at least 1 hour, then cut into 16 squares."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Store airtight at room temperature, with parchment between layers, up to 3 days."
+  ],
+  "references": [
+    {
+      "url": "https://www.twopeasandtheirpod.com/rice-krispie-treats/",
+      "site": "Two Peas & Their Pod",
+      "title": "Rice Krispie Treats {Thick & Gooey}",
+      "usedFor": "8x8 versus 9x13 pan, unsalted butter, overcooking warning, buttered spatula",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.cookingclassy.com/rice-krispie-treats/",
+      "site": "Cooking Classy",
+      "title": "Rice Krispie Treats {Best Ever!}",
+      "usedFor": "medium-low heat, resting time before cutting, storage",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

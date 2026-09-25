@@ -1,0 +1,89 @@
+{
+  "slug": "cafe-cubano",
+  "name": "Café Cubano (Cafecito)",
+  "category": "Drinks",
+  "emoji": "☕",
+  "desc": "Moka pot espresso poured over a whipped sugar foam, served in tiny cups.",
+  "time": "10 min",
+  "minutes": 10,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DSlDSt2ki-6/",
+    "site": "Instagram @alexrioscooks",
+    "title": "Café Cubano (Cafecito)",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 3,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Stovetop moka pot (3-cup size for 3 servings)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Cold water, to fill the moka pot base up to the safety valve",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Dark roast ground coffee, fine espresso grind, enough to fill the moka pot basket",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 heaping tsp granulated sugar (1 per person)",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "granulated sugar",
+      "prep": "heaping",
+      "note": "1 per person"
+    }
+  ],
+  "steps": [
+    "Fill the bottom of the moka pot with cold water up to the safety valve. Fill the basket with coffee, level it and press down gently, then screw the pot together tightly.",
+    "Set the pot over medium-high heat.",
+    "Put the sugar in a small measuring cup or creamer. As soon as the first few drops of coffee come out, pour them over the sugar and take the pot off the heat while you whip.",
+    "Beat the sugar hard with a small spoon, adding a few more drops of coffee at a time, until the espumita is pale, creamy and glides off the spoon. Return the pot to the heat to finish brewing.",
+    "When the pot is done, pour the rest of the coffee over the espumita while stirring gently. Serve right away in tiny espresso cups."
+  ],
+  "tips": [
+    "The first concentrated drops of coffee are what make the foam. Too much coffee at the start leaves you with syrup instead of espumita.",
+    "A Sassy Spoon's version uses 4 tbsp sugar for 6 servings, a little sweeter than one spoonful per person."
+  ],
+  "references": [
+    {
+      "url": "https://www.tiktok.com/@alexrioscooks/video/7502156448810487070",
+      "site": "TikTok @alexrioscooks",
+      "title": "Café Cubano (Cafecito or Colada) (creator's caption)",
+      "usedFor": "creator's steps: water to the valve, medium-high heat, 1 spoonful sugar per person, taking the pot off the heat while whipping",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://asassyspoon.com/how-to-make-cuban-coffee/",
+      "site": "A Sassy Spoon",
+      "title": "Cuban Coffee (Café Cubano)",
+      "usedFor": "granulated sugar, pale thick foam as the doneness cue, sugar ratio comparison",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

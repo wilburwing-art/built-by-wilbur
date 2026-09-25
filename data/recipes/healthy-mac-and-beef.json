@@ -1,0 +1,181 @@
+{
+  "slug": "healthy-mac-and-beef",
+  "name": "Healthy Mac and Beef",
+  "category": "Dinner",
+  "emoji": "🍝",
+  "desc": "One-pan macaroni and lean ground beef simmered in tomato sauce with peppers and spices.",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C1sAbP4CPVx/",
+    "site": "Instagram @countyurcalories",
+    "title": "Easy Healthy Mac and Beef",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 2,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 tsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 medium yellow onion, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium yellow onion",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 red bell pepper, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red bell pepper",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp minced garlic",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "minced garlic",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup (about 8 oz) lean ground beef (93/7 or leaner)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "lean ground beef",
+      "prep": null,
+      "note": "about 8 oz; 93/7 or leaner"
+    },
+    {
+      "raw": "1/2 tsp kosher salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp paprika",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp chili powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup (8 oz can) tomato sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "tomato sauce",
+      "prep": null,
+      "note": "8 oz can"
+    },
+    {
+      "raw": "1 cup water or low-sodium beef broth",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water or low-sodium beef broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 heaping cup (about 4 1/2 oz) dry elbow macaroni",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "dry elbow macaroni",
+      "prep": null,
+      "note": "heaping; about 4 1/2 oz"
+    },
+    {
+      "raw": "1 cup baby spinach (optional)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "baby spinach",
+      "prep": null,
+      "note": "optional"
+    },
+    {
+      "raw": "To serve:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp grated Parmesan",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "grated Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Red pepper flakes, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oil in a large deep skillet over medium heat. Cook the onion and bell pepper 4-5 min until softened, then add the garlic for 30 sec.",
+    "Add the beef, salt, pepper, paprika and chili powder. Cook, breaking up the meat, 5-6 min until no pink remains (160°F).",
+    "Stir in the tomato sauce, water or broth, and macaroni. Bring to a boil, then cover, lower to medium-low, and simmer 10-12 min, stirring every few minutes, until the pasta is tender. Add a splash of water if it dries out before the pasta is done.",
+    "Stir in the spinach until wilted. Serve topped with Parmesan and red pepper flakes."
+  ],
+  "tips": [
+    "2 servings, about 412 cal and 33g protein each. Using water instead of broth may need more salt.",
+    "Zucchini or corn work in place of the bell pepper, and it scales up for a week of lunches in a bigger pot."
+  ],
+  "references": []
+}

@@ -1,0 +1,157 @@
+{
+  "slug": "spicy-italian-sub-loaded-kettle-chips",
+  "name": "Spicy Italian Sub Loaded Kettle Chips",
+  "category": "Sides & Snacks",
+  "emoji": "🥪",
+  "desc": "Salt and pepper kettle chips topped like an Italian sub with cured meats, shredded lettuce, tomato, onion, oil and vinegar, and hot banana peppers.",
+  "time": "15 min",
+  "minutes": 15,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DUCXBqwCUnb/",
+    "site": "Instagram @thesnacksensei",
+    "title": "Spicy Italian Sub Loaded Kettle Chips",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 (8 oz) bag salt and pepper kettle chips",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "bag",
+      "item": "salt and pepper kettle chips",
+      "prep": null,
+      "note": "8 oz"
+    },
+    {
+      "raw": "3 tbsp mayonnaise",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 oz prosciutto, torn",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "prosciutto",
+      "prep": "torn",
+      "note": null
+    },
+    {
+      "raw": "2 oz Genoa salami, chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "Genoa salami",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "2 oz deli ham, chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "deli ham",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded iceberg lettuce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "iceberg lettuce",
+      "prep": "shredded",
+      "note": null
+    },
+    {
+      "raw": "1 Roma tomato, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "Roma tomato",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1/4 small red onion, thinly sliced",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small red onion",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp extra-virgin olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "extra-virgin olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp red wine vinegar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "red wine vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp dried oregano",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup hot banana pepper rings, drained",
+      "qty": 0.3333333333333333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "hot banana pepper rings",
+      "prep": "drained",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Spread the chips on a large platter and drizzle with the mayonnaise (a zip-top bag with a corner snipped off works well).",
+    "Scatter the prosciutto, salami and ham over the chips, then the lettuce, tomato and red onion.",
+    "Whisk the olive oil, red wine vinegar and oregano and drizzle over the top.",
+    "Finish with the banana peppers and serve right away, before the chips soften."
+  ],
+  "tips": [],
+  "references": [
+    {
+      "url": "https://asimplepalate.com/blog/italian-sub/",
+      "site": "A Simple Palate",
+      "title": "Italian Sub",
+      "usedFor": "2 oz portions of each meat, oil, vinegar and oregano proportions",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.realcaliforniamilk.com/recipe/italian-sub-nachos",
+      "site": "Real California Milk",
+      "title": "Italian Sub Nachos",
+      "usedFor": "8 oz bag of kettle chips as the base for a sub-style platter",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "slug": "philly-cheesesteak-rice-bowl",
+  "name": "Philly Cheesesteak Rice Bowl",
+  "category": "Dinner",
+  "emoji": "🥩",
+  "desc": "Thin-sliced seared ribeye with onion, peppers and mushrooms over rice, smothered in a provolone cheese sauce.",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C-Z6EsOtIll/",
+    "site": "Instagram @tastytaleshaven",
+    "title": "Philly Cheesesteak Rice Bowl",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Steak and vegetables:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lb boneless ribeye steak",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless ribeye steak",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp neutral oil, divided",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "neutral oil",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "1 medium yellow onion, thinly sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium yellow onion",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1 green bell pepper, thinly sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "green bell pepper",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1 red bell pepper, thinly sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red bell pepper",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "8 oz white or cremini mushrooms, sliced",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "white or cremini mushrooms",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "Kosher salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 cups cooked white rice",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cooked white rice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Cheese sauce:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp unsalted butter",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp all-purpose flour",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup whole milk",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "whole milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 3/4 cups shredded provolone cheese (or 8 slices white American cheese, torn)",
+      "qty": 1.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded provolone cheese",
+      "prep": null,
+      "note": "or 8 slices white American cheese, torn"
+    },
+    {
+      "raw": "Pinch of kosher salt",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Freeze the steak 30 to 45 min, until firm but not frozen through, then slice it paper thin against the grain.",
+    "Make the cheese sauce: melt the butter in a small saucepan over medium heat, whisk in the flour and cook 1 min. Whisk in the milk and simmer, whisking, 3 to 5 min, until thickened. Add the cheese and salt and whisk until smooth. Cover and keep warm.",
+    "Heat 1 tbsp oil in a large skillet over high heat until very hot. Add the steak in a single layer (in batches if needed) and sear undisturbed until browned, then toss 1 to 2 min more. Season with salt and pepper and move to a plate.",
+    "Add the remaining 1 tbsp oil to the skillet over medium-high heat. Cook the onion, both peppers and the mushrooms, stirring occasionally, 6 to 8 min, until soft and browned. Season with salt and pepper.",
+    "Return the steak to the skillet and toss with the vegetables.",
+    "Divide the rice among 4 bowls, top with the steak and vegetables, and pour the warm cheese sauce over each bowl."
+  ],
+  "tips": [
+    "Original creator: @jujumaoeats.",
+    "Partly freezing the steak is what lets you slice it thin enough to sear in a minute or two."
+  ],
+  "references": [
+    {
+      "url": "https://www.everydaymadefresh.com/philly-cheese-steaks-with-provolone-cheese-sauce/",
+      "site": "Everyday Made Fresh",
+      "title": "Philly Cheesesteaks with Provolone Cheese Sauce",
+      "usedFor": "provolone cheese sauce amounts and method (butter, flour, milk, provolone)",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://acooknamedmatt.com/recipes/philly-cheesesteak-rice-bowl-with-creamy-cheddar-cheese-sauce/",
+      "site": "A Cook Named Matt",
+      "title": "Philly Cheesesteak Rice Bowl",
+      "usedFor": "1 lb thin-sliced beef to about 4 cups cooked rice, searing the beef undisturbed over high heat, peppers and onions in a second pass",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

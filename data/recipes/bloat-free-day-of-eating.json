@@ -1,0 +1,334 @@
+{
+  "slug": "bloat-free-day-of-eating",
+  "name": "Bloat-Free Day of Eating",
+  "category": "Dinner",
+  "emoji": "🍠",
+  "desc": "Three high-protein meals: a smashed sweet potato egg sandwich, a crispy potato Big Mac bowl, and a chicken oat crust pizza.",
+  "time": "1 hr 15 min",
+  "minutes": 75,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DTfg1EjkglA/",
+    "site": "Instagram @angelarummans",
+    "title": "Bloat-Free Day of Eating",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 3,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Smashed sweet potato egg sandwich (485 cal, 39g P):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 small sweet potatoes (about 5 oz each)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small sweet potatoes",
+      "prep": null,
+      "note": "about 5 oz each"
+    },
+    {
+      "raw": "2 slices turkey bacon",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "turkey bacon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Cooking spray or 1 tsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": "or cooking spray"
+    },
+    {
+      "raw": "1 large egg",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 large egg whites",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg whites",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 slice cheddar or American cheese",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "cheddar or American cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 ripe avocado, sliced",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": null,
+      "item": "ripe avocado",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "Crispy potato Big Mac bowl (545 cal, 38g P):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "250 g (2 small) russet potatoes, cut in 3/4 in cubes",
+      "qty": 250,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "russet potatoes",
+      "prep": "cut in 3/4 in cubes",
+      "note": "2 small"
+    },
+    {
+      "raw": "1 tsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 oz lean (93/7) ground beef",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "lean (93/7) ground beef",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 small tomato, diced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small tomato",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded romaine lettuce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded romaine lettuce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp red onion, finely diced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "red onion",
+      "prep": "finely diced",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup dill pickles, diced",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "dill pickles",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Burger sauce:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup plain Greek yogurt (or mayo)",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "plain Greek yogurt",
+      "prep": null,
+      "note": "or mayo"
+    },
+    {
+      "raw": "1-2 tbsp ketchup",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "tbsp",
+      "item": "ketchup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp sweet pickle relish",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sweet pickle relish",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp white vinegar or mirin",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "white vinegar or mirin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Pinch of salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Chicken oat crust pizza (485 cal, 67g P):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "225 g extra-lean ground chicken",
+      "qty": 225,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "extra-lean ground chicken",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup oat flour",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "oat flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp garlic salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup pizza sauce",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "pizza sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1.5 oz fat-free shredded mozzarella",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "fat-free shredded mozzarella",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp chopped fresh parsley",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh parsley",
+      "prep": "chopped",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Sweet potato sandwich: Heat the oven to 400°F. Prick the sweet potatoes with a fork and bake on a foil-lined sheet 45-50 min, until a knife slides in with no resistance. Let cool 5 min.",
+    "Sweet potato sandwich: Cook the turkey bacon in a nonstick skillet over medium heat 3-4 min per side until crisp. Wipe the pan, add the oil, and cook the egg and egg whites over medium-low, folding, until set with no runny white.",
+    "Sweet potato sandwich: Split each sweet potato and press it flat with a spatula to make two rounds of \"bread\". Layer the egg, cheese, turkey bacon and avocado between them.",
+    "Big Mac bowl: Heat the oven to 450°F and line a sheet pan with parchment. Pat the potato cubes dry, toss with the olive oil and a pinch of salt, and roast 30 min, tossing halfway, until crisp and golden.",
+    "Big Mac bowl: Stir together the yogurt, ketchup, relish, vinegar and salt.",
+    "Big Mac bowl: Brown the beef in a skillet over medium-high heat with a pinch of salt and pepper, breaking it up, 6-8 min until no pink remains (160°F).",
+    "Big Mac bowl: Pile the lettuce, tomato, onion and pickles in a bowl, top with the potatoes and beef, and spoon on the burger sauce.",
+    "Chicken pizza: Heat the oven to 400°F and line a baking sheet with parchment. Mix the ground chicken, oat flour and garlic salt, then press it into a round about 1/4 in thick.",
+    "Chicken pizza: Bake the crust about 20 min, until lightly golden and cooked through (165°F). Blot off any liquid on top.",
+    "Chicken pizza: Spread on the pizza sauce, scatter the mozzarella, and bake 6-10 min more until the cheese melts. Top with parsley."
+  ],
+  "tips": [
+    "Protein before caffeine: the creator starts the day with 2 soft-boiled eggs."
+  ],
+  "references": [
+    {
+      "url": "https://www.lindsaypleskot.com/big-mac-bowl/",
+      "site": "Lindsay Pleskot, RD",
+      "title": "Insanely Delicious Big Mac Salad Bowl",
+      "usedFor": "potato roasting temperature and time, patting potatoes dry",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://thecleanhappylife.com/ground-chicken-pizza-crust/",
+      "site": "The Clean Happy Life",
+      "title": "Ground Chicken Pizza Crust",
+      "usedFor": "crust thickness, 400°F bake time, draining liquid before topping",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://feelslikehomeblog.com/chicken-crust-pizza-the-best-low-carb-gluten-free-pizza-recipe/",
+      "site": "Feels Like Home",
+      "title": "Chicken Crust Pizza",
+      "usedFor": "second bake time after toppings",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

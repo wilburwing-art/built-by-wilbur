@@ -1,0 +1,283 @@
+{
+  "slug": "cinnamon-roll-crust-apple-pie",
+  "name": "Cinnamon Roll Crust Apple Pie",
+  "category": "Desserts",
+  "emoji": "🥧",
+  "desc": "Scratch apple pie whose top and bottom crusts are built from sliced mini cinnamon rolls of flaky pie dough.",
+  "time": "5 hrs",
+  "minutes": 300,
+  "difficulty": "Hard",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DctqKaLOQqH/",
+    "site": "Instagram @humblyhomemadebakes",
+    "title": "Cinnamon Roll Apple Pie",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 12,
+    "basis": "publisher",
+    "source": "https://humbly-homemade.com/cinnamon-roll-apple-pie"
+  },
+  "ingredients": [
+    {
+      "raw": "Cinnamon roll crust:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup (2 sticks) cold unsalted butter, cut into 1/2 in cubes",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cold unsalted butter",
+      "prep": "cut into 1/2 in cubes",
+      "note": "2 sticks"
+    },
+    {
+      "raw": "2 1/2 cups all-purpose flour, plus more for rolling",
+      "qty": 2.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": "plus more for rolling",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp granulated sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp ground cinnamon",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp fine salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup ice water, divided",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "ice water",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "1 large egg plus 1 tbsp water, for egg wash",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg",
+      "prep": "for egg wash",
+      "note": "plus 1 tbsp water"
+    },
+    {
+      "raw": "Butter or baking spray, for the pan",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Cinnamon sugar filling:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup packed light brown sugar",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "packed light brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup granulated sugar",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp ground cinnamon",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp fine salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 tbsp unsalted butter, softened",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": "softened",
+      "note": null
+    },
+    {
+      "raw": "Apple filling:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp unsalted butter",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 lb firm apples (4-5 medium), peeled, cored and cut into 1/2 in pieces",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "firm apples",
+      "prep": "peeled, cored and cut into 1/2 in pieces",
+      "note": "4-5 medium"
+    },
+    {
+      "raw": "1 1/2 tsp ground cinnamon",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp ground nutmeg",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground nutmeg",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp ground cloves",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cloves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp fine salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup packed light brown sugar",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "packed light brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp cornstarch",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "water",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Dough: keep the cubed butter in the fridge. In a food processor, pulse the flour, sugar, cinnamon and 1 tsp salt to combine.",
+    "Add the cold butter and pulse about 10 times, until no piece is bigger than a pea.",
+    "Add 1/4 cup of the ice water and pulse until the dough forms small lumps. If it is still dry after 10 pulses, add more ice water 1 tbsp at a time until it holds together when squeezed.",
+    "Divide the dough in half, press into 2 discs, wrap each, and refrigerate at least 1 hr (up to 3 days).",
+    "Apple filling: melt the 1 tbsp butter in a large saucepan over medium heat. Add the apples, brown sugar, cinnamon, nutmeg, cloves and salt. Cook, stirring now and then, until the apples soften, about 15 min. Raise the heat to medium-high and bring to a boil.",
+    "Stir the cornstarch and water together, stir into the apples, and boil 1 min. Set aside to cool completely; it thickens as it cools.",
+    "Grease a 9 in pie pan. Mix the brown sugar, granulated sugar, cinnamon and salt for the cinnamon sugar filling.",
+    "On a lightly floured surface, roll one disc into a 12x14 in rectangle. Spread 2 tbsp softened butter over it, sprinkle with half the cinnamon sugar, and press it down gently.",
+    "Starting from a long edge, roll into a log, wrap tightly, and refrigerate at least 20 min. Repeat with the second disc and the rest of the butter and cinnamon sugar.",
+    "Bottom crust: slice the first log into 1/4 in rounds and press them into the pan across the bottom and up the sides, sealing the seams. Cover and refrigerate.",
+    "Top crust: slice the second log into 1/4 in rounds and arrange them in a circle on parchment. Cover with a second sheet and roll gently so the rounds fuse. Freeze until firm, so it holds together when you move it.",
+    "Heat the oven to 425°F. Beat the egg with 1 tbsp water.",
+    "Fill the bottom crust with the cooled apples, lay the frozen top crust over, and trim the overhang. Brush with egg wash and cut five 2 in vents.",
+    "Bake on the center rack 15 min at 425°F, then lower to 375°F and bake 25-35 min more, until the crust is golden brown.",
+    "Cool completely, about 2 hr, before slicing."
+  ],
+  "tips": [
+    "Best apples: Granny Smith, Honeycrisp, Braeburn, Jonagold or Fuji. Dice them smaller than usual.",
+    "Keep the dough cold at every step so it stays flaky.",
+    "Pre-cooking the filling stops a gap forming under the top crust.",
+    "Store foil-wrapped in the fridge. Reheat slices in foil at 350°F for 5-10 min."
+  ],
+  "references": [
+    {
+      "url": "https://humbly-homemade.com/cinnamon-roll-apple-pie",
+      "site": "Humbly Homemade",
+      "title": "Cinnamon Roll Apple Pie",
+      "usedFor": "full measured recipe, 9 in pan, vent size, fine salt, yield of 12 slices",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

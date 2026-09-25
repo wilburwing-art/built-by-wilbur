@@ -1,0 +1,176 @@
+{
+  "slug": "neiman-marcus-cookies",
+  "name": "Neiman Marcus Cookies",
+  "category": "Desserts",
+  "emoji": "🍪",
+  "desc": "Chocolate chip cookies made tender with blended oats and loaded with walnuts and a chopped milk chocolate bar.",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DBMtVeVyBEd/",
+    "site": "Instagram @lauraskitchendiary",
+    "title": "Neiman Marcus Cookies",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 48,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 cup (2 sticks) unsalted butter, softened",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "unsalted butter",
+      "prep": "softened",
+      "note": "2 sticks"
+    },
+    {
+      "raw": "1 cup granulated sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup packed light brown sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "packed light brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 large eggs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp vanilla extract",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 1/2 cups old-fashioned rolled oats",
+      "qty": 2.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "old-fashioned rolled oats",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups all-purpose flour",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp fine salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp baking powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp baking soda",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "12 oz semisweet chocolate chips",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "semisweet chocolate chips",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (4 oz) milk chocolate bar, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "milk chocolate bar",
+      "prep": "chopped",
+      "note": "4 oz"
+    },
+    {
+      "raw": "1 1/2 cups walnuts, chopped",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "walnuts",
+      "prep": "chopped",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 375°F and line baking sheets with parchment.",
+    "Blend the oats in a blender until they are a fine powder.",
+    "In a bowl, whisk the oat flour, all-purpose flour, salt, baking powder and baking soda.",
+    "In a stand mixer, beat the butter, granulated sugar and brown sugar on medium-high until light and fluffy, 2-3 min.",
+    "Beat in the eggs one at a time, then the vanilla.",
+    "Add the dry mixture and mix on low until about half combined.",
+    "Add the chocolate chips, chopped milk chocolate and walnuts, and fold by hand until no dry flour remains.",
+    "Roll into balls (about 2 tbsp each for regular cookies) and space them 2 in apart on the sheets.",
+    "Bake 10-15 min depending on size, until lightly browned at the edges and just set in the center.",
+    "Cool 5 min on the sheet, then move to a rack."
+  ],
+  "tips": [
+    "Blended oats give a tender, nutty texture.",
+    "The reel lists no salt. Barbara Bakes and The Girl Who Ate Everything both use 1/2 tsp, added here; skip it if you bake with salted butter.",
+    "Both published versions bake regular-size cookies 8-12 min at 375°F; the reel's longer time is for bigger scoops."
+  ],
+  "references": [
+    {
+      "url": "https://www.barbarabakes.com/neiman-marcus-250-cookie-recipe/",
+      "site": "Barbara Bakes",
+      "title": "The Famous Neiman Marcus Cookies",
+      "usedFor": "vanilla amount, salt, unsalted butter, 2 in spacing, 5 min cool on the sheet",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.the-girl-who-ate-everything.com/neiman-marcus-cookie/",
+      "site": "The Girl Who Ate Everything",
+      "title": "The Neiman Marcus Cookie",
+      "usedFor": "salt amount, doneness cue, yield of about 4 dozen",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

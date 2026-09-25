@@ -3,23 +3,23 @@
   "name": "Paleo Greek Lemon Chicken Soup",
   "category": "Dinner",
   "emoji": "🍋",
-  "desc": "Avgolemono with riced cauliflower instead of orzo",
-  "time": "30 min",
-  "minutes": 30,
+  "desc": "Avgolemono-style lemon chicken soup with riced cauliflower in place of orzo, thickened with tempered egg yolks.",
+  "time": "40 min",
+  "minutes": 40,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://unboundwellness.com/paleo-greek-lemon-chicken-soup/",
+    "site": "Unbound Wellness",
+    "title": "Greek Lemon Chicken Soup",
+    "matchType": "original",
+    "evidence": "Same ingredient list and amounts (6 cups broth, 1/2 cup lemon juice, 2 cups cauliflower rice, 1 lb precooked chicken, 3 egg yolks, AIP notes) and the same step wording, including the tempered yolks.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://unboundwellness.com/paleo-greek-lemon-chicken-soup/"
   },
   "ingredients": [
     {
@@ -32,16 +32,16 @@
       "note": null
     },
     {
-      "raw": "1 yellow onion, diced",
+      "raw": "1 medium yellow onion, diced",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "yellow onion",
+      "item": "medium yellow onion",
       "prep": "diced",
       "note": null
     },
     {
-      "raw": "3 cloves garlic, minced",
+      "raw": "3 garlic cloves, minced",
       "qty": 3,
       "qtyMax": null,
       "unit": "clove",
@@ -50,49 +50,58 @@
       "note": null
     },
     {
-      "raw": "1 cup carrot, diced",
+      "raw": "2 ribs celery, diced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "stalk",
+      "item": "celery",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1 cup diced carrot (about 2 medium)",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
       "item": "carrot",
       "prep": "diced",
-      "note": null
+      "note": "about 2 medium"
     },
     {
-      "raw": "2 cups cauliflower, riced",
+      "raw": "2 cups riced cauliflower, fresh or frozen",
       "qty": 2,
       "qtyMax": null,
       "unit": "cup",
-      "item": "cauliflower, riced",
+      "item": "riced cauliflower",
       "prep": null,
-      "note": null
+      "note": "fresh or frozen"
     },
     {
-      "raw": "6 cups chicken broth",
+      "raw": "6 cups low-sodium chicken broth",
       "qty": 6,
       "qtyMax": null,
       "unit": "cup",
-      "item": "chicken broth",
+      "item": "low-sodium chicken broth",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 cup lemon juice",
+      "raw": "1/2 cup fresh lemon juice",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "lemon juice",
+      "item": "fresh lemon juice",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 lb shredded chicken, precooked",
+      "raw": "1 lb cooked chicken, shredded (about 3 cups)",
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
-      "item": "shredded chicken, precooked",
-      "prep": null,
-      "note": null
+      "item": "cooked chicken",
+      "prep": "shredded",
+      "note": "about 3 cups"
     },
     {
       "raw": "1 tsp dried dill",
@@ -104,67 +113,78 @@
       "note": null
     },
     {
-      "raw": "2 tbsp fresh parsley (reserve some for topping)",
+      "raw": "2 tbsp chopped fresh parsley, divided (some reserved for topping)",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "fresh parsley (reserve some for topping)",
-      "prep": null,
-      "note": null
+      "item": "fresh parsley",
+      "prep": "chopped, divided",
+      "note": "some reserved for topping"
     },
     {
-      "raw": "1 tsp salt (salt further to taste)",
+      "raw": "1 tsp fine sea salt, plus more to taste",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt (salt further to taste)",
+      "item": "fine sea salt",
       "prep": null,
-      "note": null
+      "note": "plus more to taste"
     },
     {
       "raw": "1/2 tsp black pepper (omit for AIP)",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "black pepper (omit for AIP)",
+      "item": "black pepper",
       "prep": null,
-      "note": null
+      "note": "omit for AIP"
     },
     {
-      "raw": "1 cup kale, chopped",
+      "raw": "1 cup chopped kale, stems removed",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
       "item": "kale",
-      "prep": "chopped",
+      "prep": "chopped, stems removed",
       "note": null
     },
     {
-      "raw": "3 egg yolks (omit for AIP)",
+      "raw": "3 large egg yolks (omit for AIP)",
       "qty": 3,
       "qtyMax": null,
       "unit": null,
-      "item": "egg yolks (omit for AIP)",
+      "item": "large egg yolks",
       "prep": null,
-      "note": null
+      "note": "omit for AIP"
     },
     {
-      "raw": "Lemon wedges and lemon zest to serve",
-      "qty": null,
+      "raw": "1 lemon, cut into wedges, plus its zest, to serve",
+      "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
+      "item": "lemon",
+      "prep": "cut into wedges, zested",
+      "note": "to serve"
     }
   ],
   "steps": [
-    "Using a large stockpot, heat the oil on medium-low heat.",
-    "Saute the onions on low heat for 3-4 minutes or until lightly translucent. Add the carrots and cauliflower rice and saute for an additional 5 minutes or until slightly softened.",
-    "Pour in the broth, lemon juice, and herbs and stir well to combine. Simmer on medium heat for 15 minutes. Add the cooked chicken and kale and stir to wilt the kale for about 4-5 minutes.",
-    "(Skip this step for AIP) In a small bowl whisk together the egg yolks until fully scrambled. Scoop out about a cup of hot broth from the soup. Slowly and carefully pour the cup of hot broth into the egg mixture while continuing to whisk. This will gently cook the egg yolks and make a thick sauce. Pour the yolk mixture into the rest of the soup and stir well to combine. Remove from the heat.",
-    "Allow the soup to cool and season further to taste. Serve with lemon wedges and fresh parsley."
+    "Heat the oil in a large stockpot over medium-low heat.",
+    "Add the onion and cook on low until lightly translucent, 3-4 min. Add the celery, carrot, cauliflower rice, and garlic and cook until slightly softened, about 5 min.",
+    "Pour in the broth and lemon juice, and add the dill, most of the parsley, the salt, and the pepper. Stir, raise the heat to medium, and simmer 15 min.",
+    "Add the cooked chicken and kale and stir until the kale wilts and the chicken is hot, 4-5 min.",
+    "(Skip for AIP.) Whisk the egg yolks in a small bowl. Ladle out about 1 cup of the hot broth and pour it into the yolks in a slow stream while whisking constantly. Stir the yolk mixture back into the pot and remove from the heat; do not let it boil again or the yolks will curdle.",
+    "Let the soup cool a few minutes, taste for salt, and serve with lemon wedges, a little zest, and the reserved parsley."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Leftover or rotisserie chicken works here; the soup only warms it through."
+  ],
+  "references": [
+    {
+      "url": "https://unboundwellness.com/paleo-greek-lemon-chicken-soup/",
+      "site": "Unbound Wellness",
+      "title": "Greek Lemon Chicken Soup",
+      "usedFor": "the celery, garlic timing, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

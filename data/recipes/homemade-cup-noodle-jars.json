@@ -1,0 +1,162 @@
+{
+  "slug": "homemade-cup-noodle-jars",
+  "name": "Homemade Cup Noodle Jars",
+  "category": "Lunch",
+  "emoji": "🍜",
+  "desc": "Make-ahead ramen jars layered with a miso soy base, vegetables and instant noodles; add boiling water to eat.",
+  "time": "15 min",
+  "minutes": 15,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C_qL05zxCdg/",
+    "site": "Instagram @kyriethefoodie",
+    "title": "Homemade Cup Noodle Jars",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 3,
+    "basis": "publisher",
+    "source": "https://farmerxfoodie.com/homemade-cup-noodles/"
+  },
+  "ingredients": [
+    {
+      "raw": "Per jar (makes 3; use wide-mouth 32 oz jars):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp soy sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp miso paste",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "miso paste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp minced fresh ginger",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "minced fresh ginger",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Chili crisp, to taste (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp granulated sugar (optional)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": "optional"
+    },
+    {
+      "raw": "1 portion instant-style ramen noodles that cook in hot water (seasoning packet not used)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "portion instant-style ramen noodles",
+      "prep": null,
+      "note": "cooks in hot water; seasoning packet not used"
+    },
+    {
+      "raw": "About 2 cups boiling water, to serve",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "boiling water",
+      "prep": "to serve",
+      "note": "about"
+    },
+    {
+      "raw": "Vegetables, split across the 3 jars:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups bean sprouts",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "bean sprouts",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 large carrots, julienned",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large carrots",
+      "prep": "julienned",
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups shelled edamame, thawed if frozen",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shelled edamame",
+      "prep": "thawed if frozen",
+      "note": null
+    },
+    {
+      "raw": "Optional: corn, bok choy, spinach, mushrooms, peppers, bamboo shoots, cabbage, peas",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Put the soy sauce, miso, ginger, and any chili crisp or sugar in the bottom of each jar.",
+    "Divide the vegetables into thirds and add one third to each jar.",
+    "Set one portion of dry noodles on top, seal, and refrigerate up to 5 days.",
+    "To eat, pour in enough boiling water to cover the noodles. Cover loosely (a napkin works; do not screw the lid on tight) and wait the time on the noodle package. Stir well to dissolve the miso."
+  ],
+  "tips": [
+    "Bean sprouts only last 2-3 days; add them closer to eating if prepping for the full week.",
+    "Let a cold jar sit out 15 min or rinse the outside with warm water before adding boiling water so the glass does not crack."
+  ],
+  "references": [
+    {
+      "url": "https://farmerxfoodie.com/homemade-cup-noodles/",
+      "site": "Kyrie the Foodie + Real Farmer Jeff (creator's site)",
+      "title": "Homemade Cup Noodles",
+      "usedFor": "verified per-jar amounts, fridge life, loose covering when adding hot water, 3 servings",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

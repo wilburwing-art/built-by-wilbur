@@ -3,58 +3,78 @@
   "name": "Oreo Truffles",
   "category": "Desserts",
   "emoji": "🍫",
-  "desc": "Three ingredients: crushed Oreos, cream cheese, dipped in chocolate",
-  "time": "1.5 hrs",
-  "minutes": 90,
+  "desc": "Crushed Oreos and cream cheese rolled into balls and dipped in semisweet chocolate.",
+  "time": "1 hr 20 min",
+  "minutes": 80,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.itisakeeper.com/993/oreo-truffles/",
+    "site": "It Is a Keeper",
+    "title": "Oreo Cookie Balls Recipe",
+    "matchType": "closest",
+    "evidence": "Same three ingredients in the same amounts (16 oz Oreos, 8 oz cream cheese, 16 oz semi-sweet baking chocolate) and the same 9 reserved cookies, 42 balls and 1 hour chill; the wording traces to Kraft's OREO Cookie Balls.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 21,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "1 (16 ounce) package OREO Chocolate Sandwich Cookies, divided",
+      "raw": "1 (16 oz) package Oreo chocolate sandwich cookies (about 45 cookies), divided",
       "qty": 1,
       "qtyMax": null,
       "unit": "package",
-      "item": "OREO Chocolate Sandwich Cookies",
+      "item": "Oreo chocolate sandwich cookies",
       "prep": "divided",
-      "note": "(16 ounce)"
+      "note": "16 oz, about 45 cookies"
     },
     {
-      "raw": "1 (8 ounce) package PHILADELPHIA Cream Cheese, softened",
+      "raw": "1 (8 oz) package full-fat brick cream cheese, softened",
       "qty": 1,
       "qtyMax": null,
       "unit": "package",
-      "item": "PHILADELPHIA Cream Cheese",
+      "item": "full-fat brick cream cheese",
       "prep": "softened",
-      "note": "(8 ounce)"
+      "note": "8 oz"
     },
     {
-      "raw": "2 (8 ounce) packages BAKER'S Semi-Sweet Baking Chocolate, melted",
+      "raw": "2 (8 oz) packages semisweet baking chocolate (such as Baker's), chopped and melted",
       "qty": 2,
       "qtyMax": null,
       "unit": "package",
-      "item": "BAKER'S Semi-Sweet Baking Chocolate",
-      "prep": "melted",
-      "note": "(8 ounce)"
+      "item": "semisweet baking chocolate",
+      "prep": "chopped and melted",
+      "note": "8 oz each; such as Baker's"
     }
   ],
   "steps": [
-    "Crush 9 of the cookies to fine crumbs in food processor; reserve for later use. (Cookies can also be finely crushed in a resealable plastic bag using a rolling pin.) Crush remaining 36 cookies to fine crumbs; place in medium bowl. Add cream cheese; mix until well blended. Roll cookie mixture into 42 balls, about 1-inch in diameter.",
-    "Dip balls in chocolate; place on wax paper-covered baking sheet. (Any leftover chocolate can be stored at room temperature for another use.) Sprinkle with reserved cookie crumbs.",
-    "Refrigerate until firm, about 1 hour. Store leftover truffles, covered, in refrigerator."
+    "Crush 9 of the cookies to fine crumbs in a food processor (or in a zip-top bag with a rolling pin) and set aside for topping.",
+    "Crush the remaining 36 cookies to fine crumbs and put them in a medium bowl. Add the cream cheese and mix until completely blended.",
+    "Roll the mixture into 42 balls, about 1 inch across.",
+    "Melt the chocolate in the microwave in 30-second bursts, stirring between each, until smooth.",
+    "Dip the balls in the chocolate and set on a wax paper-lined baking sheet. Sprinkle with the reserved crumbs before the chocolate sets.",
+    "Refrigerate until firm, about 1 hour. Store leftovers covered in the refrigerator."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Leftover melted chocolate keeps at room temperature for another use."
+  ],
+  "references": [
+    {
+      "url": "https://www.itisakeeper.com/993/oreo-truffles/",
+      "site": "It Is a Keeper",
+      "title": "Oreo Cookie Balls Recipe",
+      "usedFor": "confirmed amounts, 42-ball yield, 1 hour chill, refrigerated storage",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.snackworks.com/recipes/oreo-cookie-balls-126799/",
+      "site": "Snackworks (Oreo)",
+      "title": "OREO Cookie Balls",
+      "usedFor": "brick cream cheese, semisweet baking chocolate",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

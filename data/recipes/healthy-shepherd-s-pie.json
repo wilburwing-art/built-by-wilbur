@@ -3,25 +3,34 @@
   "name": "Healthy Shepherd's Pie",
   "category": "Dinner",
   "emoji": "🥧",
-  "desc": "Beef and cabbage under a mashed parsnip top instead of potato",
-  "time": "1 hr",
-  "minutes": 60,
+  "desc": "Ground beef, vegetables, and cabbage in a tomato sauce, baked under a mashed parsnip topping instead of potatoes.",
+  "time": "1 hr 15 min",
+  "minutes": 75,
   "difficulty": "Medium",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://themodernproper.com/healthy-shepherds-pie",
+    "site": "The Modern Proper",
+    "title": "Healthy Shepherd's Pie",
+    "matchType": "closest",
+    "evidence": "Same beef, onion, garlic, carrot, celery, diced tomato, tomato paste, chicken stock and green cabbage filling under a parsnip puree loosened with stock, at the same 375°F; this version skips the cornstarch, garlic powder and Worcestershire.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 8,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
+    {
+      "raw": "Filling:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
     {
       "raw": "2 tbsp olive oil",
       "qty": 2,
@@ -41,7 +50,7 @@
       "note": null
     },
     {
-      "raw": "4 cloves garlic, minced",
+      "raw": "4 garlic cloves, minced",
       "qty": 4,
       "qtyMax": null,
       "unit": "clove",
@@ -52,38 +61,38 @@
     {
       "raw": "2 large or 4 small carrots, finely diced",
       "qty": 2,
-      "qtyMax": null,
+      "qtyMax": 4,
       "unit": null,
-      "item": "large or 4 small carrots",
+      "item": "carrots",
       "prep": "finely diced",
-      "note": null
+      "note": "large, or 4 small"
     },
     {
       "raw": "3 ribs celery, finely diced",
       "qty": 3,
       "qtyMax": null,
-      "unit": null,
-      "item": "ribs celery",
+      "unit": "stalk",
+      "item": "celery",
       "prep": "finely diced",
       "note": null
     },
     {
-      "raw": "2 lbs ground beef",
+      "raw": "2 lb lean ground beef (90/10)",
       "qty": 2,
       "qtyMax": null,
       "unit": "lb",
-      "item": "ground beef",
-      "prep": null,
+      "item": "lean ground beef",
+      "prep": "90/10",
       "note": null
     },
     {
-      "raw": "1 (28 oz) can diced tomatoes",
+      "raw": "1 (28 oz) can diced tomatoes, drained",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
       "item": "diced tomatoes",
-      "prep": null,
-      "note": "(28 oz)"
+      "prep": "drained",
+      "note": "28 oz"
     },
     {
       "raw": "2 tbsp tomato paste",
@@ -95,61 +104,125 @@
       "note": null
     },
     {
-      "raw": "1 cup chicken stock, plus 1 1/2 cups for the parsnips",
+      "raw": "1 cup low-sodium chicken stock",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "chicken stock, plus 1 1/2 cups for the parsnips",
+      "item": "low-sodium chicken stock",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 small head green cabbage, thinly sliced",
+      "raw": "1 small head green cabbage, thinly sliced (about 4 cups)",
       "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": "small head green cabbage",
+      "unit": "head",
+      "item": "green cabbage",
       "prep": "thinly sliced",
+      "note": "small, about 4 cups"
+    },
+    {
+      "raw": "2 tsp fine sea salt",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine sea salt",
+      "prep": null,
       "note": null
     },
     {
-      "raw": "8 to 10 parsnips, peeled and cut into 1 inch slices",
+      "raw": "1 tsp black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Parsnip topping:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "8 to 10 parsnips (about 2 1/4 lb), peeled and cut into 1-inch slices",
       "qty": 8,
       "qtyMax": 10,
       "unit": null,
       "item": "parsnips",
-      "prep": "peeled and cut into 1 inch slices",
-      "note": null
+      "prep": "peeled and cut into 1-inch slices",
+      "note": "about 2 1/4 lb"
     },
     {
-      "raw": "Salt and pepper",
-      "qty": null,
+      "raw": "1 1/2 cups low-sodium chicken stock",
+      "qty": 1.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "cup",
+      "item": "low-sodium chicken stock",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Minced parsley and chives, optional",
-      "qty": null,
+      "raw": "1 tsp fine sea salt",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "fine sea salt",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1 tsp black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp minced fresh parsley, optional",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh parsley",
+      "prep": "minced",
+      "note": "optional"
+    },
+    {
+      "raw": "1 tbsp minced fresh chives, optional",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh chives",
+      "prep": "minced",
+      "note": "optional"
     }
   ],
   "steps": [
-    "Heat the oven to 375F.",
-    "In a large saute pan over medium-high heat, heat the olive oil. Add the onions, garlic, carrots, celery and beef, and cook until browned, 8 to 10 minutes.",
-    "Drain the fat if there is a lot, then add the tomatoes, tomato paste and 1 cup chicken stock. Stir until the paste is blended in.",
-    "Add the cabbage and simmer until the sauce thickens and the cabbage is tender, about 10 minutes. Season with salt and pepper.",
-    "Transfer the mixture to a 5 quart baking dish and set aside.",
-    "Bring a pot of salted water to a boil, add the parsnips, and cook until tender, 10 to 15 minutes. Drain.",
-    "Mash the parsnips with the remaining 1 1/2 cups chicken stock until smooth, then season.",
-    "Spread the parsnip mash over the beef and bake until bubbling and lightly browned on top, about 20 minutes. Finish with parsley and chives."
+    "Heat the oven to 375°F. Bring a large pot of salted water to a boil for the parsnips.",
+    "Filling: heat the olive oil in a large sauté pan over medium-high heat. Add the onion, garlic, carrots, celery, and beef and cook, breaking up the meat, until the beef is browned with no pink left and the vegetables are soft, 8-10 min.",
+    "Drain off the fat if there is a lot. Add the drained tomatoes, tomato paste, 1 cup chicken stock, 2 tsp salt, and 1 tsp pepper, and stir until the paste is blended in.",
+    "Add the cabbage, bring to a simmer, and reduce to medium-low. Cook until the sauce thickens and the cabbage is tender, about 10 min. Transfer to a 5-quart baking dish (or a 9x13 in dish at least 2 inches deep) and spread level.",
+    "Parsnips: while the filling simmers, add the parsnips to the boiling water and cook until very tender when pierced with a knife, 10-15 min. Drain well.",
+    "Mash the parsnips with the 1 1/2 cups chicken stock, 1 tsp salt, and 1 tsp pepper until smooth (a food processor gives the smoothest result).",
+    "Spread the parsnip mash over the filling. Bake until the filling bubbles at the edges and the top is lightly browned, about 20 min.",
+    "Rest 5 min, then scatter with the parsley and chives and serve."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The Modern Proper version bakes 30 to 35 min for more browning on top and thickens the filling with 2 tbsp cornstarch whisked into the stock; add the cornstarch if your filling looks loose."
+  ],
+  "references": [
+    {
+      "url": "https://themodernproper.com/healthy-shepherds-pie",
+      "site": "The Modern Proper",
+      "title": "Healthy Shepherd's Pie",
+      "usedFor": "parsnip weight, 90/10 beef, draining the tomatoes, salt and pepper amounts, parsnip doneness cue",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

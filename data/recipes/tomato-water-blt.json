@@ -1,0 +1,174 @@
+{
+  "slug": "tomato-water-blt",
+  "name": "Tomato Water BLT",
+  "category": "Lunch",
+  "emoji": "🍅",
+  "desc": "A Middle Child style BLT with salt-sweated heirloom tomatoes and arugula dressed in a vinaigrette made from their own juice.",
+  "time": "2 hrs 30 min",
+  "minutes": 150,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DdII8VxJAgw/",
+    "site": "Instagram @seattlehanddoc",
+    "title": "Tomato Water BLT (Middle Child copycat)",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 2,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Tomatoes:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 large heirloom tomatoes (about 1 1/2 lb), sliced 1/2 in thick",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large heirloom tomatoes",
+      "prep": "sliced 1/2 in thick",
+      "note": "about 1 1/2 lb"
+    },
+    {
+      "raw": "1 1/2 tsp kosher salt",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Tomato water vinaigrette:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp tomato water (collected from the tomatoes)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "tomato water",
+      "prep": null,
+      "note": "collected from the tomatoes"
+    },
+    {
+      "raw": "3 tbsp extra-virgin olive oil",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "extra-virgin olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp sherry vinegar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sherry vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp dried oregano or Italian herbs (optional)",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried oregano or Italian herbs",
+      "prep": null,
+      "note": "optional"
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sandwiches:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "10 slices bacon",
+      "qty": 10,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "bacon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups baby arugula",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "baby arugula",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 slices sourdough bread (or rye)",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "sourdough bread",
+      "prep": null,
+      "note": "or rye"
+    },
+    {
+      "raw": "3 tbsp mayonnaise",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Set a wire cooling rack over a rimmed baking sheet. Lay the tomato slices on the rack in one layer and salt them heavily on both sides.",
+    "Let the tomatoes sweat at room temperature for 2 hours or more. The tomato water collects in the pan below.",
+    "About 30 min before assembling, heat the oven to 400°F. Lay the bacon on a parchment-lined sheet pan and bake 18 to 25 min, until crisp. Drain on paper towels.",
+    "Pour the tomato water from the pan into a small bowl. Whisk 2 tbsp of it with the olive oil, sherry vinegar, herbs and pepper. Taste before adding any salt, since the tomato water is already salty.",
+    "Toss the arugula with enough vinaigrette to coat.",
+    "Spread the mayonnaise edge to edge on one side of each bread slice.",
+    "On 2 of the slices, layer the tomatoes, the dressed arugula and 5 slices of bacon each. Close with the remaining bread, cut in half and serve."
+  ],
+  "tips": [
+    "Salting concentrates the tomato flavor, and the drained water becomes the dressing.",
+    "Middle Child serves theirs on rye. The mayo edge to edge is meant to protect the bread, though the tomato juice soaks through anyway."
+  ],
+  "references": [
+    {
+      "url": "https://edibleeastbay.com/2016/08/12/garden-salad-with-tomato-water-vinaigrette/",
+      "site": "Edible East Bay",
+      "title": "Garden Salad with Tomato-Water Vinaigrette",
+      "usedFor": "tomato water to oil to vinegar ratio, tasting before salting because the tomato water is salty",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

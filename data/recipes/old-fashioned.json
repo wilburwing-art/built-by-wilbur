@@ -3,34 +3,25 @@
   "name": "Old Fashioned",
   "category": "Drinks",
   "emoji": "🥃",
-  "desc": "Bourbon with demerara syrup, bitters, cherry, and orange",
+  "desc": "Bourbon with demerara syrup and Angostura bitters over a large cube, with orange and cherry.",
   "time": "5 min",
   "minutes": 5,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.thekitchn.com/old-fashioned-recipe-23690466",
+    "site": "The Kitchn",
+    "title": "Old-Fashioned",
+    "matchType": "closest",
+    "evidence": "Same bourbon, demerara sugar, 3 dashes Angostura bitters, expressed orange peel and Luxardo cherry garnish; The Kitchn uses 2 oz bourbon and stirs in a mixing glass.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 1,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
-    {
-      "raw": "2.5 oz bourbon",
-      "qty": 2.5,
-      "qtyMax": null,
-      "unit": "oz",
-      "item": "bourbon",
-      "prep": null,
-      "note": null
-    },
     {
       "raw": "1/4 oz demerara simple syrup",
       "qty": 0.25,
@@ -59,11 +50,11 @@
       "note": null
     },
     {
-      "raw": "1 Luxardo or brandied cherry",
-      "qty": 1,
+      "raw": "2 1/2 oz bourbon",
+      "qty": 2.5,
       "qtyMax": null,
-      "unit": null,
-      "item": "Luxardo or brandied cherry",
+      "unit": "oz",
+      "item": "bourbon",
       "prep": null,
       "note": null
     },
@@ -75,13 +66,41 @@
       "item": "orange peel",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1 Luxardo or brandied cherry",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "Luxardo or brandied cherry",
+      "prep": null,
+      "note": null
     }
   ],
   "steps": [
-    "Add syrup and bitters to a rocks glass.",
-    "Add large ice cube. Pour bourbon. Stir.",
-    "Garnish with orange peel and cherry."
+    "Add the syrup and bitters to a rocks glass.",
+    "Add the large ice cube and pour in the bourbon.",
+    "Stir for 20 to 30 seconds, until the glass is cold and the drink is slightly diluted.",
+    "Twist the orange peel over the drink to express its oils, drop it in, and add the cherry."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Most published versions (The Kitchn, Difford's Guide) use 2 oz bourbon; this one runs 2 1/2 oz with only 1/4 oz syrup, so it is stronger and drier.",
+    "No demerara syrup on hand: stir 1 tsp demerara sugar with 2 tsp water in the glass until nearly dissolved and use that in its place (The Kitchn's method)."
+  ],
+  "references": [
+    {
+      "url": "https://www.thekitchn.com/old-fashioned-recipe-23690466",
+      "site": "The Kitchn",
+      "title": "Old-Fashioned",
+      "usedFor": "demerara sugar and water shortcut, expressing the peel",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.diffordsguide.com/cocktails/recipe/5853/bourbon-old-fashioned",
+      "site": "Difford's Guide",
+      "title": "Bourbon Old Fashioned",
+      "usedFor": "bourbon amount comparison, large cube",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

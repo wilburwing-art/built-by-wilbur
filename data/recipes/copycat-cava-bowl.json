@@ -3,72 +3,81 @@
   "name": "Copycat CAVA Bowl",
   "category": "Dinner",
   "emoji": "🥙",
-  "desc": "The full build: harissa honey chicken, jasmine rice, and a harissa vinaigrette from scratch",
-  "time": "1.5 hrs",
-  "minutes": 90,
+  "desc": "Harissa honey chicken thighs over brown jasmine rice and greens with hummus, tzatziki, feta and a harissa vinaigrette.",
+  "time": "1 hr 40 min",
+  "minutes": 100,
   "difficulty": "Medium",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://foolproofliving.com/cava-bowl-recipe/",
+    "site": "Foolproof Living",
+    "title": "Copycat CAVA Bowl Recipe",
+    "matchType": "original",
+    "evidence": "Same components and amounts (2 lb thighs, 1/2 cup harissa, 5 garlic cloves, 1 cup brown jasmine rice in 2 cups liquid, identical toppings and vinaigrette) and the same mason-jar vinaigrette; the page lists 1/4 cup honey in the chicken and 1/4 cup oil in the vinaigrette where this card has 1/3 cup.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 6,
+    "basis": "publisher",
+    "source": "https://foolproofliving.com/cava-bowl-recipe/"
   },
   "ingredients": [
     {
-      "raw": "2 pounds chicken thighs (boneless, skinless)",
+      "raw": "Harissa honey chicken:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 lb boneless skinless chicken thighs",
       "qty": 2,
       "qtyMax": null,
       "unit": "lb",
-      "item": "chicken thighs (boneless, skinless)",
+      "item": "boneless skinless chicken thighs",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 teaspoon kosher salt (for chicken)",
+      "raw": "1 tsp kosher salt",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "kosher salt (for chicken)",
+      "item": "kosher salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 teaspoon black pepper (for chicken)",
+      "raw": "1/2 tsp ground black pepper",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "black pepper (for chicken)",
+      "item": "ground black pepper",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 cup harissa (for chicken)",
+      "raw": "1/2 cup harissa paste",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "harissa (for chicken)",
+      "item": "harissa paste",
       "prep": null,
       "note": null
     },
     {
-      "raw": "5 garlic cloves, minced (for chicken)",
+      "raw": "5 garlic cloves, finely minced",
       "qty": 5,
       "qtyMax": null,
-      "unit": null,
-      "item": "garlic cloves",
-      "prep": "minced (for chicken)",
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "finely minced",
       "note": null
     },
     {
-      "raw": "1/2 teaspoon lemon zest",
+      "raw": "1/2 tsp lemon zest",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
@@ -77,137 +86,164 @@
       "note": null
     },
     {
-      "raw": "2 tablespoons lemon juice (for chicken)",
+      "raw": "2 tbsp fresh lemon juice",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "lemon juice (for chicken)",
+      "item": "fresh lemon juice",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/3 cup honey (for chicken)",
-      "qty": 0.3333,
+      "raw": "1/3 cup honey",
+      "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
-      "item": "honey (for chicken)",
+      "item": "honey",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 cups water or stock",
+      "raw": "Rice:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups water or low-sodium chicken or vegetable stock",
       "qty": 2,
       "qtyMax": null,
       "unit": "cup",
-      "item": "water or stock",
+      "item": "water or low-sodium chicken or vegetable stock",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tablespoon olive oil (for rice)",
+      "raw": "1 tbsp olive oil",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "olive oil (for rice)",
+      "item": "olive oil",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 teaspoon kosher salt (for rice)",
+      "raw": "1 tsp kosher salt",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "kosher salt (for rice)",
+      "item": "kosher salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 cup brown jasmine rice, rinsed",
+      "raw": "1 cup brown jasmine rice, rinsed well",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
       "item": "brown jasmine rice",
-      "prep": "rinsed",
+      "prep": "rinsed well",
       "note": null
     },
     {
-      "raw": "1/2 teaspoon black pepper (for rice)",
+      "raw": "1/2 tsp ground black pepper",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "black pepper (for rice)",
+      "item": "ground black pepper",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tablespoon parsley, chopped",
+      "raw": "1 tbsp chopped fresh parsley",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "parsley",
+      "item": "fresh parsley",
       "prep": "chopped",
       "note": null
     },
     {
-      "raw": "1/3 cup olive oil (for vinaigrette)",
-      "qty": 0.3333,
+      "raw": "Harissa vinaigrette:",
+      "qty": null,
       "qtyMax": null,
-      "unit": "cup",
-      "item": "olive oil (for vinaigrette)",
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     },
     {
-      "raw": "3 tablespoons lemon juice (for vinaigrette)",
+      "raw": "1/3 cup extra-virgin olive oil",
+      "qty": 0.3333333333333333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "extra-virgin olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp fresh lemon juice",
       "qty": 3,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "lemon juice (for vinaigrette)",
+      "item": "fresh lemon juice",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 tablespoons harissa (for vinaigrette)",
+      "raw": "2 tbsp harissa paste",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "harissa (for vinaigrette)",
+      "item": "harissa paste",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tablespoon honey (for vinaigrette)",
+      "raw": "1 tbsp honey",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "honey (for vinaigrette)",
+      "item": "honey",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 garlic clove, minced (for vinaigrette)",
+      "raw": "1 garlic clove, minced",
       "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": "garlic clove",
-      "prep": "minced (for vinaigrette)",
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
       "note": null
     },
     {
-      "raw": "1/2 teaspoon kosher salt (for vinaigrette)",
+      "raw": "1/2 tsp kosher salt",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "kosher salt (for vinaigrette)",
+      "item": "kosher salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/4 teaspoon black pepper (for vinaigrette)",
+      "raw": "1/4 tsp ground black pepper",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "black pepper (for vinaigrette)",
+      "item": "ground black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Bowls:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     },
@@ -221,11 +257,11 @@
       "note": null
     },
     {
-      "raw": "1 cup cucumbers, diced",
+      "raw": "1 cup diced cucumber",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "cucumbers",
+      "item": "cucumber",
       "prep": "diced",
       "note": null
     },
@@ -257,21 +293,21 @@
       "note": null
     },
     {
-      "raw": "1/2 cup feta cheese, crumbled",
+      "raw": "1/2 cup crumbled feta cheese",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "feta cheese, crumbled",
-      "prep": null,
+      "item": "feta cheese",
+      "prep": "crumbled",
       "note": null
     },
     {
-      "raw": "1 cup Kalamata olives",
+      "raw": "1 cup pitted Kalamata olives",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
       "item": "Kalamata olives",
-      "prep": null,
+      "prep": "pitted",
       "note": null
     },
     {
@@ -284,13 +320,13 @@
       "note": null
     },
     {
-      "raw": "1 cup corn (grilled or canned)",
+      "raw": "1 cup corn kernels (grilled, or canned and drained)",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "corn (grilled or canned)",
+      "item": "corn kernels",
       "prep": null,
-      "note": null
+      "note": "grilled, or canned and drained"
     },
     {
       "raw": "Pita chips, for serving (optional)",
@@ -303,15 +339,25 @@
     }
   ],
   "steps": [
-    "Marinate the chicken: Pat dry 2 pounds chicken thighs with paper towels. Season with 1 teaspoon kosher salt (for chicken) and 1/2 teaspoon black pepper (for chicken). Whisk together 1/2 cup harissa (for chicken), 5 garlic cloves, minced (for chicken), 1/2 teaspoon lemon zest, 2 tablespoons lemon juice (for chicken), and 1/3 cup honey (for chicken). Toss chicken in the marinade, cover, and refrigerate.",
-    "Preheat oven: Place a rack in the center of the oven and preheat to 400°F / 204°C. Line a baking sheet with parchment paper.",
-    "Bake chicken: Arrange marinated chicken on the baking sheet. Brush with any leftover sauce. Bake until internal temp reaches 165°F.",
-    "Rest and cut chicken: Cover chicken with foil and rest. Then cut into bite-sized cubes.",
-    "Cook the rice: Bring 2 cups water or stock, 1 tablespoon olive oil (for rice), and 1 teaspoon kosher salt (for rice) to a boil in a saucepan. Add 1 cup brown jasmine rice, rinsed, return to a boil, then cover and reduce heat to low. Simmer without peeking.",
-    "Rest the rice: Turn off heat and let rice rest with the lid on. Then fluff with a fork and season with 1/2 teaspoon black pepper (for rice) and 1 tablespoon parsley, chopped.",
-    "Make the vinaigrette: Combine 1/3 cup olive oil (for vinaigrette), 3 tablespoons lemon juice (for vinaigrette), 2 tablespoons harissa (for vinaigrette), 1 tablespoon honey (for vinaigrette), 1 garlic clove, minced (for vinaigrette), 1/2 teaspoon kosher salt (for vinaigrette), and 1/4 teaspoon black pepper (for vinaigrette) in a mason jar. Shake until emulsified, about 30 seconds . Adjust seasoning to taste.",
-    "Assemble bowls: Divide rice among bowls. Top with 6 cups salad greens, chicken, 1 cup cucumbers, diced, 1 cup cherry tomatoes, halved, 1/2 cup pickled red onions, 1 cup Kalamata olives, and 1 cup corn (grilled or canned). Add dollops of 1 cup hummus, 1 cup tzatziki, and 1/2 cup feta cheese, crumbled. Drizzle with vinaigrette and serve with 1 pita chips (optional)."
+    "Marinate the chicken: Pat the thighs dry and season both sides with 1 tsp salt and 1/2 tsp pepper. Whisk the harissa, garlic, lemon zest, lemon juice, and honey in a large bowl. Add the chicken and toss to coat. Cover and refrigerate at least 30 minutes, or up to a day.",
+    "Cook the rice while the chicken marinates: Bring the water or stock, olive oil, and 1 tsp salt to a boil in a medium saucepan. Add the rice, return to a boil, then cover, reduce the heat to low, and simmer 30 minutes without lifting the lid. If liquid remains, simmer in 5-minute increments until absorbed.",
+    "Turn off the heat and let the rice rest, covered, for 10 minutes. Fluff with a fork and season with 1/2 tsp pepper and the parsley.",
+    "Preheat the oven to 400°F with a rack in the center. Line a baking sheet with parchment paper.",
+    "Bake the chicken: Arrange the thighs on the sheet and brush with any leftover marinade. Bake 13-15 minutes, until the thickest part reads 165°F.",
+    "Rest the chicken under foil for 10 minutes, then cut into bite-sized cubes.",
+    "Make the vinaigrette: Combine all the vinaigrette ingredients in a mason jar, cover, and shake until emulsified, about 30 seconds. Adjust the seasoning to taste.",
+    "Assemble: Divide the rice among 6 bowls and top with the greens, chicken, cucumber, tomatoes, pickled onions, olives, and corn. Add a dollop each of hummus, tzatziki, and feta. Drizzle with the vinaigrette and serve with pita chips if you like."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The Foolproof Living card uses 1/4 cup honey in the marinade and 1/4 cup oil in the vinaigrette; this version runs a little sweeter and richer with 1/3 cup of each."
+  ],
+  "references": [
+    {
+      "url": "https://foolproofliving.com/cava-bowl-recipe/",
+      "site": "Foolproof Living",
+      "title": "Copycat CAVA Bowl Recipe",
+      "usedFor": "bake time, rest times, rice simmer time, servings, total time",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

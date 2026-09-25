@@ -3,41 +3,41 @@
   "name": "Broccoli Chicken Divan",
   "category": "Dinner",
   "emoji": "🥦",
-  "desc": "Weeknight casserole of broccoli and chicken under cheddar and buttered crumbs",
+  "desc": "Broccoli and cooked chicken baked under a creamy soup sauce, Cheddar, and buttered crumbs.",
   "time": "35 min",
   "minutes": 35,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.campbells.com/recipes/chicken-broccoli-divan/",
+    "site": "Campbell's",
+    "title": "Chicken Broccoli Divan",
+    "matchType": "closest",
+    "evidence": "Same build and pan: broccoli and cooked chicken in a 9-inch pie plate, condensed soup thinned with milk, Cheddar, and buttered bread crumbs; Campbell's current version uses cream of chicken soup at 400°F.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "1 lb chopped fresh broccoli",
+      "raw": "1 lb fresh broccoli, chopped (about 4 cups)",
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
-      "item": "chopped fresh broccoli",
-      "prep": null,
-      "note": null
+      "item": "fresh broccoli",
+      "prep": "chopped",
+      "note": "about 4 cups"
     },
     {
       "raw": "1 1/2 cups cubed cooked chicken",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "cubed cooked chicken",
-      "prep": null,
+      "item": "cooked chicken",
+      "prep": "cubed",
       "note": null
     },
     {
@@ -47,53 +47,63 @@
       "unit": "can",
       "item": "condensed cream of broccoli soup",
       "prep": null,
-      "note": "(10.75 oz)"
+      "note": "10.75 oz"
     },
     {
-      "raw": "1/3 cup milk",
-      "qty": 0.3333,
+      "raw": "1/3 cup whole milk",
+      "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
-      "item": "milk",
+      "item": "whole milk",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 cup shredded cheddar cheese",
+      "raw": "1/2 cup shredded Cheddar cheese",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "shredded cheddar cheese",
-      "prep": null,
+      "item": "Cheddar cheese",
+      "prep": "shredded",
       "note": null
     },
     {
-      "raw": "1 tbsp butter, melted",
+      "raw": "1 tbsp unsalted butter, melted",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "butter",
+      "item": "unsalted butter",
       "prep": "melted",
       "note": null
     },
     {
-      "raw": "2 tbsp dried bread crumbs",
+      "raw": "2 tbsp plain dry bread crumbs",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "dried bread crumbs",
+      "item": "plain dry bread crumbs",
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Preheat the oven to 450F.",
-    "Place the broccoli in a saucepan with enough water to cover. Bring to a boil and cook 5 minutes until tender, then drain.",
-    "Put the cooked broccoli in a 9 inch pie plate and top with the chicken.",
-    "Mix the soup and milk in a bowl and pour over the chicken. Sprinkle with the cheddar.",
-    "Mix the melted butter with the bread crumbs and scatter over the cheese.",
-    "Bake 15 to 20 minutes until bubbling and browned on top."
+    "Preheat the oven to 450°F.",
+    "Put the broccoli in a saucepan with enough water to cover. Bring to a boil and cook until tender, about 5 minutes, then drain well.",
+    "Spread the broccoli in a 9-inch pie plate and top with the chicken.",
+    "Stir the soup and milk together in a bowl and pour over the chicken. Sprinkle with the Cheddar.",
+    "Stir the melted butter into the bread crumbs and scatter over the cheese.",
+    "Bake 15-20 minutes, until bubbling at the edges and browned on top."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Campbell's current version of this recipe uses cream of chicken soup and bakes at 400°F for 20 minutes; either soup works."
+  ],
+  "references": [
+    {
+      "url": "https://www.campbells.com/recipes/chicken-broccoli-divan/",
+      "site": "Campbell's",
+      "title": "Chicken Broccoli Divan",
+      "usedFor": "pan size, servings basis, alternate soup and oven temperature",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

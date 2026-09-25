@@ -3,31 +3,31 @@
   "name": "Elderflower Grapefruit Margarita",
   "category": "Drinks",
   "emoji": "🍊",
-  "desc": "Grapefruit and St-Germain in place of the usual sweetener",
+  "desc": "A long tequila and grapefruit margarita sweetened with St-Germain and Cointreau.",
   "time": "5 min",
   "minutes": 5,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.freutcake.com/in-the-kitchen/drinks-anyone/elderflower-grapefruit-margaritas/",
+    "site": "Freutcake",
+    "title": "Elderflower Grapefruit Margaritas",
+    "matchType": "closest",
+    "evidence": "Same core of tequila, St-Germain, grapefruit juice and lime with a salt rim; Freutcake adds cherry syrup and skips the orange liqueurs.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 1,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "2 parts tequila",
+      "raw": "2 parts blanco tequila",
       "qty": 2,
       "qtyMax": null,
       "unit": "part",
-      "item": "tequila",
+      "item": "blanco tequila",
       "prep": null,
       "note": null
     },
@@ -59,11 +59,11 @@
       "note": null
     },
     {
-      "raw": "1 part St-Germain",
+      "raw": "1 part St-Germain elderflower liqueur",
       "qty": 1,
       "qtyMax": null,
       "unit": "part",
-      "item": "St-Germain",
+      "item": "St-Germain elderflower liqueur",
       "prep": null,
       "note": null
     },
@@ -72,12 +72,30 @@
       "qty": 0.25,
       "qtyMax": null,
       "unit": "part",
-      "item": "Grand Marnier (optional)",
+      "item": "Grand Marnier",
       "prep": null,
-      "note": null
+      "note": "optional"
     },
     {
-      "raw": "Ice, plus a lime wedge and salt for the rim",
+      "raw": "1 lime wedge, for the rim",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lime wedge",
+      "prep": null,
+      "note": "for the rim"
+    },
+    {
+      "raw": "1 tbsp coarse salt, for the rim",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "coarse salt",
+      "prep": null,
+      "note": "for the rim"
+    },
+    {
+      "raw": "Ice",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -87,11 +105,30 @@
     }
   ],
   "steps": [
-    "Rub a lime wedge around the glass rim, dip in salt, and fill the glass with fresh ice.",
-    "Add all the liquid ingredients to a shaker with ice.",
-    "Shake vigorously until well chilled.",
-    "Strain into the glass. For more body, swap part of the sweetener for a splash of fresh orange juice."
+    "Pick a part size: 3/4 oz per part makes one tall drink of about 7 oz (1 1/2 oz tequila), 1/2 oz per part makes one rocks-glass drink, and 1/2 cup per part makes a pitcher for about 6.",
+    "Spread the salt on a small plate. Rub the lime wedge around the glass rim, dip the rim in the salt, and fill the glass with fresh ice.",
+    "Add the tequila, lime juice, grapefruit juice, Cointreau, St-Germain and Grand Marnier (if using) to a shaker with ice.",
+    "Shake vigorously until the outside of the shaker is frosty, about 15 seconds.",
+    "Strain into the prepared glass."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "For more body, swap some of the Cointreau for a splash of fresh orange juice.",
+    "Published elderflower grapefruit margaritas run far less juice (Thistle Key Lane uses 3/4 oz grapefruit to 2 oz tequila); this one is long and juice-forward on purpose."
+  ],
+  "references": [
+    {
+      "url": "https://www.freutcake.com/in-the-kitchen/drinks-anyone/elderflower-grapefruit-margaritas/",
+      "site": "Freutcake",
+      "title": "Elderflower Grapefruit Margaritas",
+      "usedFor": "salt rim, grapefruit plus lime build",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://thistlekeylane.com/elderflower-grapefruit-margarita-cocktail-recipe/",
+      "site": "Thistle Key Lane",
+      "title": "Elderflower Grapefruit Margarita Cocktail Recipe",
+      "usedFor": "juice ratio comparison in tips",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

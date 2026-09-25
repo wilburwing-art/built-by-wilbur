@@ -1,0 +1,114 @@
+{
+  "slug": "sous-vide-hollandaise",
+  "name": "Cheat Sous-Vide Hollandaise",
+  "category": "Sides & Snacks",
+  "emoji": "🍳",
+  "desc": "Hollandaise cooked in a bag in a 70°C water bath, then shaken or blended smooth.",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DJHIO4Vs4Pr/",
+    "site": "Instagram @jamessharmanchef",
+    "title": "Cheat Sous-Vide Hollandaise",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 8,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "200g unsalted butter, cubed",
+      "qty": 200,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "unsalted butter",
+      "prep": "cubed",
+      "note": null
+    },
+    {
+      "raw": "110g egg yolks (about 8 large)",
+      "qty": 110,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "egg yolks",
+      "prep": null,
+      "note": "about 8 large"
+    },
+    {
+      "raw": "20g fresh lemon juice",
+      "qty": 20,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "fresh lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "20g shallot vinegar (white wine vinegar infused with shallot)",
+      "qty": 20,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "shallot vinegar",
+      "prep": null,
+      "note": "white wine vinegar infused with shallot"
+    },
+    {
+      "raw": "80g water",
+      "qty": 80,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4g fine salt",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat a water bath to 70°C (158°F) with a sous-vide circulator.",
+    "Put all the ingredients in a zip-top freezer bag or vacuum bag. Lower it into the water to push out the air, then seal.",
+    "Cook 30 minutes, taking the bag out and shaking it every 5 to 10 minutes.",
+    "Shake hard, or pour into a blender and blend on medium until silky, before serving warm."
+  ],
+  "tips": [
+    "If it looks split when it comes out of the bath, blending brings it back together.",
+    "Streetsmart Kitchen's version runs at 75°C (167°F) for the same 30 minutes; 70°C gives a looser, more delicate sauce.",
+    "No shallot vinegar? Use plain white wine vinegar."
+  ],
+  "references": [
+    {
+      "url": "https://www.threads.com/@jamessharmanchef/post/DJHIwHkMH7i",
+      "site": "Threads @jamessharmanchef",
+      "title": "Cheat Hollandaise (creator's caption)",
+      "usedFor": "confirmed gram amounts, 70°C, 30 minutes",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.streetsmartkitchen.com/sous-vide-hollandaise/",
+      "site": "StreetSmart Kitchen",
+      "title": "Foolproof Sous Vide Hollandaise",
+      "usedFor": "bagging by water displacement, blending a split sauce smooth, 75°C comparison",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.kingarthurbaking.com/learn/ingredient-weight-chart",
+      "site": "King Arthur Baking",
+      "title": "Ingredient Weight Chart",
+      "usedFor": "large egg yolk weight (14g) to convert 110g to about 8 yolks",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

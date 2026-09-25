@@ -3,37 +3,37 @@
   "name": "Chinese Chicken Fried Rice",
   "category": "Lunch",
   "emoji": "🍚",
-  "desc": "Cold rice stir-fried with chicken, egg, soy sauce, and onion",
+  "desc": "Cold rice stir-fried with chicken, shredded egg, onion, and soy sauce.",
   "time": "20 min",
   "minutes": 20,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/16954/chinese-chicken-fried-rice-ii/",
+    "site": "Allrecipes",
+    "title": "Chicken Fried Rice",
+    "matchType": "closest",
+    "evidence": "Identical ingredient list and amounts (1 egg, 1 tbsp each water, butter and oil, 2 cups cold rice, 1 cup cooked chicken, 2 tbsp soy sauce, 1 tsp pepper) and the same flat-omelet method.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 2,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "1 egg",
-      "qty": 1,
+      "raw": "1 large egg",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
-      "item": "egg",
+      "item": "large egg",
       "prep": null,
       "note": null
     },
     {
       "raw": "1 tbsp water",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "water",
@@ -41,17 +41,17 @@
       "note": null
     },
     {
-      "raw": "1 tbsp butter",
-      "qty": 1,
+      "raw": "1 tbsp unsalted butter",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "butter",
+      "item": "unsalted butter",
       "prep": null,
       "note": null
     },
     {
       "raw": "1 tbsp vegetable oil",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "vegetable oil",
@@ -59,26 +59,26 @@
       "note": null
     },
     {
-      "raw": "1 yellow onion, chopped",
-      "qty": 1,
+      "raw": "1 medium yellow onion, chopped",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
-      "item": "yellow onion",
+      "item": "medium yellow onion",
       "prep": "chopped",
       "note": null
     },
     {
-      "raw": "2 cups cooked white rice, COLD",
-      "qty": 2,
+      "raw": "2 cups cooked white rice, cold (day-old)",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "cup",
-      "item": "cooked white rice, COLD",
-      "prep": null,
-      "note": null
+      "item": "cooked white rice",
+      "prep": "cold",
+      "note": "day-old"
     },
     {
       "raw": "2 tbsp soy sauce",
-      "qty": 2,
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "soy sauce",
@@ -87,7 +87,7 @@
     },
     {
       "raw": "1 tsp black pepper",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "black pepper",
@@ -95,21 +95,38 @@
       "note": null
     },
     {
-      "raw": "1 cup cooked, chopped chicken",
-      "qty": 1,
+      "raw": "1 cup cooked chicken, chopped",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "cup",
-      "item": "cooked",
-      "prep": "chopped chicken",
+      "item": "cooked chicken",
+      "prep": "chopped",
       "note": null
     }
   ],
   "steps": [
-    "Beat egg with water. Melt butter in a skillet over medium-low heat. Cook egg flat 1-2 min. Remove and cut into shreds.",
-    "Heat oil in same skillet. Saute onion until soft.",
-    "Add cold rice, soy sauce, pepper, and chicken. Stir-fry about 5 minutes.",
-    "Stir in shredded egg. Serve hot."
+    "Beat the egg with the water. Melt the butter in a large skillet or wok over medium-low heat, add the egg, and cook without stirring until set, 1 to 2 minutes. Slide it out, roll it up, and cut into thin shreds.",
+    "Heat the oil in the same skillet over medium-high heat. Add the onion and cook, stirring, until soft, about 3 minutes.",
+    "Add the cold rice and spread it out. Let it sizzle undisturbed for 1 minute, then add the soy sauce, pepper, and chicken and stir-fry until the rice is hot through, about 5 minutes.",
+    "Stir in the shredded egg and serve hot."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Use rice cooked a day ahead and chilled; freshly cooked rice turns mushy in the pan."
+  ],
+  "references": [
+    {
+      "url": "https://web.archive.org/web/20260122211617/https://www.allrecipes.com/recipe/16954/chinese-chicken-fried-rice-ii/",
+      "site": "Allrecipes (Wayback Machine copy)",
+      "title": "Chicken Fried Rice",
+      "usedFor": "onion cook time, egg timing, 5-minute stir-fry",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://natashaskitchen.com/chicken-fried-rice/",
+      "site": "Natasha's Kitchen",
+      "title": "Chicken Fried Rice",
+      "usedFor": "letting the rice sit undisturbed so it sizzles before stirring",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

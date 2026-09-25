@@ -3,95 +3,115 @@
   "name": "Rebalanced Margarita",
   "category": "Drinks",
   "emoji": "🍸",
-  "desc": "More lime and agave, less tequila. Built in parts so it scales to a pitcher",
+  "desc": "A margarita with equal tequila and lime plus agave, built in parts so it scales to a pitcher.",
   "time": "5 min",
   "minutes": 5,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://alexandracooks.com/2017/05/04/favorite-margarita-grand-marnier-tequila-fresh-lime/",
+    "site": "Alexandra's Kitchen",
+    "title": "Classic Margarita with Tequila & Grand Marnier",
+    "matchType": "closest",
+    "evidence": "Same idea of equal tequila and lime with Grand Marnier plus a separate sweetener, batched by the pitcher; that version uses simple syrup and no Cointreau.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 1,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "3 tequila blanco or reposado (parts)",
+      "raw": "3 parts tequila (blanco or reposado)",
       "qty": 3,
       "qtyMax": null,
-      "unit": null,
-      "item": "tequila blanco or reposado (parts)",
+      "unit": "part",
+      "item": "tequila",
       "prep": null,
-      "note": null
+      "note": "blanco or reposado"
     },
     {
-      "raw": "1 Cointreau (parts)",
+      "raw": "1 part Cointreau",
       "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": "Cointreau (parts)",
+      "unit": "part",
+      "item": "Cointreau",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 Grand Marnier (parts)",
+      "raw": "1 part Grand Marnier",
       "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": "Grand Marnier (parts)",
+      "unit": "part",
+      "item": "Grand Marnier",
       "prep": null,
       "note": null
     },
     {
-      "raw": "3 fresh lime juice (parts)",
+      "raw": "3 parts fresh lime juice",
       "qty": 3,
       "qtyMax": null,
-      "unit": null,
-      "item": "fresh lime juice (parts)",
+      "unit": "part",
+      "item": "fresh lime juice",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 1/2 agave nectar (parts)",
+      "raw": "1 1/2 parts agave nectar",
       "qty": 1.5,
       "qtyMax": null,
-      "unit": null,
-      "item": "agave nectar (parts)",
+      "unit": "part",
+      "item": "agave nectar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 lime wedge, for garnish",
+      "raw": "1 lime wedge, for the rim and garnish",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "lime wedge",
-      "prep": "for garnish",
-      "note": null
+      "prep": null,
+      "note": "for the rim and garnish"
     },
     {
-      "raw": "1 tablespoon kosher salt or Tajin, for rimming (optional)",
+      "raw": "1 tbsp kosher salt or Tajin, for the rim (optional)",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "kosher salt or Tajin",
-      "prep": "for rimming (optional)",
+      "prep": null,
+      "note": "for the rim, optional"
+    },
+    {
+      "raw": "Ice",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Prep the glass: If salting the rim, run a 1 lime wedge, for garnish around the rim of a rocks glass, then dip in kosher salt. Fill the glass with ice and set aside.",
-    "Combine ingredients: Add 3 tequila blanco or reposado (parts), 1 Cointreau (parts), 1 Grand Marnier (parts), 3 fresh lime juice (parts), and 1 1/2 agave nectar (parts) to a cocktail shaker filled with ice.",
-    "Shake: Shake hard for about 15 seconds  until well chilled.",
-    "Strain and serve: Strain into your prepared glass over fresh ice. Garnish with a 1 lime wedge, for garnish and serve immediately."
+    "Pick a part size: 1/2 oz per part makes one drink (1 1/2 oz tequila), and 1/2 cup per part makes a pitcher of about 8.",
+    "Prep the glass: if salting the rim, spread the salt on a small plate, run the lime wedge around the rim of a rocks glass, then dip it in the salt. Fill the glass with ice.",
+    "Add the tequila, Cointreau, Grand Marnier, lime juice and agave to a cocktail shaker filled with ice.",
+    "Shake hard until well chilled, about 15 seconds.",
+    "Strain into the prepared glass over the ice. Garnish with the lime wedge and serve right away."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "For a pitcher, stir the mix with a couple of cups of ice for a full minute before pouring so it gets the dilution a shaker would give."
+  ],
+  "references": [
+    {
+      "url": "https://alexandracooks.com/2017/05/04/favorite-margarita-grand-marnier-tequila-fresh-lime/",
+      "site": "Alexandra's Kitchen",
+      "title": "Classic Margarita with Tequila & Grand Marnier",
+      "usedFor": "pitcher batching, salt rim over ice",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

@@ -3,87 +3,87 @@
   "name": "Parmesan-Crusted Chicken",
   "category": "Dinner",
   "emoji": "🍗",
-  "desc": "Panko-parmesan chicken over creamy lemon spaghetti with roasted tomatoes",
+  "desc": "Mustard-brushed chicken breasts with a panko-Parmesan crust, roasted beside tomatoes and served over creamy lemon spaghetti.",
   "time": "35 min",
   "minutes": 35,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.hellofresh.com/recipes/parmesan-crusted-chicken-5eb9ae9de88fa8571c5fbc7c",
+    "site": "HelloFresh",
+    "title": "Parmesan-Crusted Chicken with Creamy Lemon Tomato Spaghetti",
+    "matchType": "original",
+    "evidence": "Same meal-kit ingredient list and amounts (1/2 cup panko, 1 tbsp Fry Seasoning, 1/2 cup Parmesan, 12 oz chicken, 2 tsp Dijon, 2 tbsp sour cream, 6 oz spaghetti, 2 Roma tomatoes, 2 tbsp cream cheese) and the same sheet-pan and pasta-pot method.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 2,
+    "basis": "publisher",
+    "source": "https://www.hellofresh.com/recipes/parmesan-crusted-chicken-5eb9ae9de88fa8571c5fbc7c"
   },
   "ingredients": [
     {
-      "raw": "2 Roma tomatoes",
+      "raw": "2 Roma tomatoes, cut into 1/2-inch wedges",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
       "item": "Roma tomatoes",
-      "prep": null,
+      "prep": "cut into 1/2-inch wedges",
       "note": null
     },
     {
-      "raw": "1 garlic clove",
+      "raw": "1 garlic clove, minced or grated",
       "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": "garlic clove",
-      "prep": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced or grated",
       "note": null
     },
     {
-      "raw": "1 lemon",
+      "raw": "1 lemon, zested and quartered",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "lemon",
-      "prep": null,
+      "prep": "zested and quartered",
       "note": null
     },
     {
-      "raw": "1/2 cup panko",
+      "raw": "1/2 cup panko breadcrumbs",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "panko",
+      "item": "panko breadcrumbs",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tbsp Fry Seasoning",
+      "raw": "1 tbsp HelloFresh Fry Seasoning (or a salt-free all-purpose seasoning blend), divided",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "Fry Seasoning",
-      "prep": null,
-      "note": null
+      "prep": "divided",
+      "note": "or a salt-free all-purpose seasoning blend"
     },
     {
-      "raw": "1/2 cup Parmesan",
+      "raw": "1/2 cup grated Parmesan cheese, divided",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "Parmesan",
-      "prep": null,
+      "item": "Parmesan cheese",
+      "prep": "grated, divided",
       "note": null
     },
     {
-      "raw": "12 oz chicken breast",
+      "raw": "12 oz boneless skinless chicken breasts (2 small)",
       "qty": 12,
       "qtyMax": null,
       "unit": "oz",
-      "item": "chicken breast",
+      "item": "boneless skinless chicken breasts",
       "prep": null,
-      "note": null
+      "note": "2 small"
     },
     {
       "raw": "2 tsp Dijon mustard",
@@ -104,11 +104,11 @@
       "note": null
     },
     {
-      "raw": "6 oz spaghetti",
+      "raw": "6 oz dry spaghetti",
       "qty": 6,
       "qtyMax": null,
       "unit": "oz",
-      "item": "spaghetti",
+      "item": "dry spaghetti",
       "prep": null,
       "note": null
     },
@@ -122,31 +122,63 @@
       "note": null
     },
     {
-      "raw": "1 tbsp butter",
-      "qty": 1,
+      "raw": "2 tbsp unsalted butter, divided",
+      "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "butter",
-      "prep": null,
+      "item": "unsalted butter",
+      "prep": "divided",
       "note": null
     },
     {
-      "raw": "1 tbsp olive oil",
+      "raw": "4 tsp olive oil, divided",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "1 tsp vegetable oil, for the pan",
       "qty": 1,
       "qtyMax": null,
-      "unit": "tbsp",
-      "item": "olive oil",
+      "unit": "tsp",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": "for the pan"
+    },
+    {
+      "raw": "Kosher salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Preheat to 425°F. Mix panko, half the seasoning, half the Parmesan, and oil.",
-    "Roast tomatoes on one side of sheet. Coat chicken with mustard-cream mix, press on panko.",
-    "Roast 15-20 min. Cook spaghetti al dente.",
-    "Melt butter with garlic, stir in cream cheese and lemon zest for sauce.",
-    "Serve chicken over pasta with tomatoes and remaining Parmesan."
+    "Adjust a rack to the middle and preheat the oven to 425°F. Bring a large pot of salted water to a boil. Line a baking sheet with foil and rub it with the vegetable oil.",
+    "In a small bowl, combine the panko, half the Fry Seasoning, half the Parmesan, and 1 tbsp olive oil. Season with salt and pepper.",
+    "Toss the tomato wedges on one side of the sheet with half the garlic and the remaining 1 tsp olive oil. Season with salt and pepper and lay them skin side down.",
+    "Pat the chicken dry and season all over with the remaining Fry Seasoning, salt, and pepper; set it on the empty side of the sheet. Stir the mustard and sour cream together, spread it on the tops of the chicken, and press the panko mixture onto the coated tops.",
+    "Roast until the tomatoes are soft and lightly browned and the chicken reads 165°F in the thickest part, 15-20 min. If the tomatoes are still firm, take the chicken off and roast them a few minutes more.",
+    "Meanwhile, cook the spaghetti in the boiling water until al dente, 9-11 min. Reserve 1 cup pasta water, then drain.",
+    "Melt 1 tbsp butter in the empty pasta pot over medium heat. Add the remaining garlic and cook until fragrant, 30 seconds.",
+    "Lower the heat and stir in the cream cheese, a pinch of lemon zest, the remaining 1 tbsp butter, and 1/4 cup pasta water until smooth. Squeeze in 1 tbsp juice from the lemon quarters, add the spaghetti, and toss, adding more pasta water a splash at a time until creamy.",
+    "Toss in half the roasted tomatoes and season with salt and pepper. Plate the pasta and chicken, top the pasta with the remaining tomatoes and Parmesan, and serve with the remaining lemon wedges."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The earlier version of this card listed 1 tbsp butter; the HelloFresh card uses 2 tbsp (1 to bloom the garlic, 1 to finish the sauce), which this version restores."
+  ],
+  "references": [
+    {
+      "url": "https://www.hellofresh.com/recipes/parmesan-crusted-chicken-5eb9ae9de88fa8571c5fbc7c",
+      "site": "HelloFresh",
+      "title": "Parmesan-Crusted Chicken with Creamy Lemon Tomato Spaghetti",
+      "usedFor": "oil and butter amounts, foil-lined sheet, tomato prep, pasta and roast times, sauce method",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

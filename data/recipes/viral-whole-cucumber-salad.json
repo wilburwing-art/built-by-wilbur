@@ -1,0 +1,114 @@
+{
+  "slug": "viral-whole-cucumber-salad",
+  "name": "Viral Whole-Cucumber Salad",
+  "category": "Sides & Snacks",
+  "emoji": "🥒",
+  "desc": "A whole cucumber sliced thin into a deli container and shaken with soy, rice vinegar, sesame oil, MSG and chili crisp.",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C-O1TvVx5yc/",
+    "site": "Instagram @the_plant_slant",
+    "title": "Viral Whole-Cucumber Salad",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 1,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 English cucumber, sliced very thin",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "English cucumber",
+      "prep": "sliced very thin",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp soy sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp rice vinegar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "rice vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp toasted sesame oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "toasted sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 small pinch MSG",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "MSG",
+      "prep": null,
+      "note": "small"
+    },
+    {
+      "raw": "1 tbsp chili crisp",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chili crisp",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp creamy peanut butter (optional)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "creamy peanut butter",
+      "prep": null,
+      "note": "optional"
+    }
+  ],
+  "steps": [
+    "Slice the cucumber very thin, ideally on a mandoline, straight into a quart deli container.",
+    "Add the soy sauce, rice vinegar, sesame oil, MSG, chili crisp and peanut butter if using.",
+    "Put the lid on and shake hard until every slice is coated. Eat right away for the crunchiest cucumbers, or chill 1 to 2 hours for a quick-pickle texture."
+  ],
+  "tips": [
+    "MSG plus chili crisp is what makes it taste like takeout.",
+    "The reel shows the ingredients without amounts. These follow published versions of the viral cucumber salad, so taste and adjust."
+  ],
+  "references": [
+    {
+      "url": "https://iamafoodblog.com/tiktok-cucumber-salad/",
+      "site": "I Am a Food Blog",
+      "title": "TikTok Cucumber Guy Recipe",
+      "usedFor": "soy sauce and sesame oil amounts for one cucumber, slicing into a deli container, eat now or marinate 1 to 2 hours",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.recipetineats.com/spicy-asian-cucumber-salad/",
+      "site": "RecipeTin Eats",
+      "title": "Spicy Asian Cucumber Salad",
+      "usedFor": "rice vinegar and chili crisp proportions per cucumber",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

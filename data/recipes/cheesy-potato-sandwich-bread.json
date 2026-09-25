@@ -1,0 +1,157 @@
+{
+  "slug": "cheesy-potato-sandwich-bread",
+  "name": "Cheesy Potato Sandwich Bread",
+  "category": "Lunch",
+  "emoji": "🥔",
+  "desc": "Overlapping thin potato slices baked with cheese into a crisp sheet, filled with avocado, cottage cheese, tomato, cucumber and egg.",
+  "time": "50 min",
+  "minutes": 50,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DAGz1C2upxg/",
+    "site": "Instagram @deryaxburak",
+    "title": "Käse Kartoffel Sandwich",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 3,
+    "basis": "publisher",
+    "source": "https://www.instagram.com/reel/DAGz1C2upxg/"
+  },
+  "ingredients": [
+    {
+      "raw": "Potato bread:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 medium waxy potatoes (about 1 lb), such as Yukon Gold",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium waxy potatoes",
+      "prep": "such as Yukon Gold",
+      "note": "about 1 lb"
+    },
+    {
+      "raw": "1 tbsp neutral oil, for brushing",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "neutral oil",
+      "prep": "for brushing",
+      "note": null
+    },
+    {
+      "raw": "100 g grated cheese (such as Gouda or mozzarella)",
+      "qty": 100,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "grated cheese",
+      "prep": null,
+      "note": "such as Gouda or mozzarella"
+    },
+    {
+      "raw": "Filling:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 avocado",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "avocado",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp lemon juice",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (200 g) tub cottage cheese",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "tub cottage cheese",
+      "prep": null,
+      "note": "200 g"
+    },
+    {
+      "raw": "1 large beefsteak tomato, sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large beefsteak tomato",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1/2 cucumber, sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "cucumber",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "2 hard-boiled eggs, sliced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "hard-boiled eggs",
+      "prep": "sliced",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat the oven to 160°C (320°F) convection and line a baking sheet with parchment paper.",
+    "Wash the potatoes and slice them 2 mm (about 1/16 in) thick, ideally on a mandoline.",
+    "Lay the slices on the parchment in rows, each slice overlapping the next by about a third, to make one large rectangle.",
+    "Brush with oil and scatter the cheese over it, making sure every seam between slices is covered so the sheet holds together.",
+    "Bake 10 min, then raise the oven to 180°C (355°F) convection and bake until the potatoes are golden brown, about 15 to 20 min more.",
+    "While it bakes, mash the avocado with the lemon juice and a pinch of salt and pepper.",
+    "Let the potato sheet cool about 5 min. Flip it so the cheese side faces down, blot the top with paper towels and cut it into 6 pieces.",
+    "Spread 3 pieces with the avocado and cottage cheese, layer on the tomato, cucumber and egg, season with salt and pepper and top with the remaining pieces."
+  ],
+  "tips": [
+    "Translated from German. Makes 3 sandwiches.",
+    "For a regular (non-convection) oven, set it about 20°C (35°F) higher. Tasty's version of this viral sandwich bakes at 400°F for about 25 min."
+  ],
+  "references": [
+    {
+      "url": "https://tasty.co/recipe/viral-potato-sandwich",
+      "site": "Tasty",
+      "title": "Viral Potato Sandwich",
+      "usedFor": "golden, crisp-edged doneness cue, total bake time comparison and cooling about 5 min before filling (read via a Wayback Machine snapshot)",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

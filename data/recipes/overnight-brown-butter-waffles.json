@@ -3,23 +3,23 @@
   "name": "Overnight Brown-Butter Waffles",
   "category": "Breakfast",
   "emoji": "🧇",
-  "desc": "Yeast-raised batter rested overnight for a deep, crisp, almost malty waffle",
-  "time": "18 hrs",
-  "minutes": 1080,
+  "desc": "Stella Parks's yeast-raised brown butter batter, rested overnight for crisp, malty waffles.",
+  "time": "12 hrs 30 min",
+  "minutes": 750,
   "difficulty": "Medium",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.seriouseats.com/brown-butter-yeast-raised-waffles-recipe",
+    "site": "Serious Eats",
+    "title": "Overnight Brown-Butter Yeast-Raised Waffles",
+    "matchType": "original",
+    "evidence": "Stella Parks's Serious Eats recipe: identical weights, overnight rest of 12 to 18 hours, and serving suggestions.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 3,
+    "basis": "publisher",
+    "source": "https://www.seriouseats.com/brown-butter-yeast-raised-waffles-recipe"
   },
   "ingredients": [
     {
@@ -33,47 +33,47 @@
     },
     {
       "raw": "3 ounces unsalted butter (6 tablespoons; 85g)",
-      "qty": 3,
+      "qty": 3.0,
       "qtyMax": null,
       "unit": "oz",
-      "item": "unsalted butter (6 tablespoons; 85g)",
+      "item": "unsalted butter",
       "prep": null,
-      "note": null
+      "note": "6 tablespoons; 85g"
     },
     {
       "raw": "3/4 ounce sugar (4 teaspoons; 20 g)",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "oz",
-      "item": "sugar (4 teaspoons; 20 g)",
+      "item": "granulated sugar",
       "prep": null,
-      "note": null
+      "note": "4 teaspoons; 20 g"
     },
     {
       "raw": "1 teaspoon (4 g) Diamond Crystal kosher salt (for table salt, use half as much by volume or use the same weight)",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "(4 g) Diamond Crystal kosher salt (for table salt, use half as much by volume or use the same weight)",
+      "item": "Diamond Crystal kosher salt",
       "prep": null,
-      "note": null
+      "note": "4 g; for table salt, use half as much by volume or use the same weight"
     },
     {
       "raw": "10 ounces cold milk; any percentage will do (1 1/4 cups; 280 g)",
       "qty": 10,
       "qtyMax": null,
       "unit": "oz",
-      "item": "cold milk; any percentage will do (1 1/4 cups; 280 g)",
+      "item": "cold milk",
       "prep": null,
-      "note": null
+      "note": "any percentage will do; 1 1/4 cups; 280 g"
     },
     {
       "raw": "1 large egg, cold",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
-      "item": "large egg, cold",
-      "prep": null,
+      "item": "large egg",
+      "prep": "cold",
       "note": null
     },
     {
@@ -81,18 +81,18 @@
       "qty": 7.5,
       "qtyMax": null,
       "unit": "oz",
-      "item": "all-purpose flour (1 1/2 cups; 210 g)",
+      "item": "all-purpose flour",
       "prep": null,
-      "note": null
+      "note": "1 1/2 cups; 210 g"
     },
     {
       "raw": "1 1/4 teaspoons (4 g) instant dry yeast (not rapid-rise)",
       "qty": 1.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "(4 g) instant dry yeast (not rapid-rise)",
+      "item": "instant dry yeast",
       "prep": null,
-      "note": null
+      "note": "4 g; not rapid-rise"
     },
     {
       "raw": "1/4 teaspoon baking soda",
@@ -132,30 +132,40 @@
     },
     {
       "raw": "6 ounces lemon chantilly (1 cup; 170 g) (optional)",
-      "qty": 6,
+      "qty": 6.0,
       "qtyMax": null,
       "unit": "oz",
-      "item": "lemon chantilly (1 cup; 170 g) (optional)",
+      "item": "lemon chantilly",
       "prep": null,
-      "note": null
+      "note": "1 cup; 170 g; optional"
     },
     {
       "raw": "10 ounces fresh strawberries (2 cups; 280 g), washed and sliced (optional)",
-      "qty": 10,
+      "qty": 10.0,
       "qtyMax": null,
       "unit": "oz",
-      "item": "fresh strawberries (2 cups; 280 g), washed and sliced (optional)",
-      "prep": null,
-      "note": null
+      "item": "fresh strawberries",
+      "prep": "washed and sliced",
+      "note": "2 cups; 280 g; optional"
     }
   ],
   "steps": [
-    "Make the batter: melt the butter in a 3-quart saucepan, stirring and scraping, and cook until golden brown. Remove from heat and stir in the sugar, salt, and milk, then the egg.",
-    "Sift in the flour and stir until smooth. Stir in the yeast and baking soda last. Cover and refrigerate overnight, 12 to 18 hours; the batter should be gooey and spongy.",
-    "Preheat the waffle iron to medium; brush with oil if needed. For an 8-inch square iron, add half the batter per batch (about one third for a 7-inch Belgian iron).",
+    "Make the batter: melt the butter in a 3-quart saucepan over medium heat, stirring and scraping with a heat-resistant spatula as it bubbles, until golden brown and nutty. Remove from the heat and immediately stir in the sugar, salt, and cold milk, then the egg.",
+    "Sift in the flour and stir until smooth. Stir in the yeast and baking soda last. Cover and refrigerate 12 to 18 hours; the batter will be gooey and spongy.",
+    "Preheat the waffle iron to medium; brush with oil if it is cast iron or tends to stick. Scrape in half the batter for an 8-inch square iron, or about one third for a 7-inch Belgian iron.",
     "Close and cook until golden brown but still steaming, 5 to 7 minutes. Hold finished waffles on a rack in a 200°F oven while the rest cook.",
-    "Serve with maple syrup, lemon chantilly, and/or strawberries."
+    "Serve right away with maple syrup, lemon chantilly, and/or strawberries."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Lemon chantilly is a separate Serious Eats recipe; lightly sweetened whipped cream with lemon zest is a fine stand-in."
+  ],
+  "references": [
+    {
+      "url": "https://web.archive.org/web/2026/https://www.seriouseats.com/brown-butter-yeast-raised-waffles-recipe",
+      "site": "Serious Eats (Wayback Machine copy)",
+      "title": "Overnight Brown-Butter Yeast-Raised Waffles",
+      "usedFor": "confirmed weights, 12 to 18 hour rest, batch sizes, holding oven temperature, yield of 3",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

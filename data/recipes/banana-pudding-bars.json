@@ -1,0 +1,166 @@
+{
+  "slug": "banana-pudding-bars",
+  "name": "Banana Pudding Bars",
+  "category": "Desserts",
+  "emoji": "🍌",
+  "desc": "Vanilla wafer crust under a banana pudding and cream cheese layer with fresh bananas and whipped cream.",
+  "time": "5 hrs 15 min",
+  "minutes": 315,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C8163bwOpuS/",
+    "site": "Instagram @bonappeteach",
+    "title": "Banana Pudding Bars",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 15,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Crust:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (11 oz) box vanilla wafers, 8-12 set aside for topping",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "box",
+      "item": "vanilla wafers",
+      "prep": "8-12 set aside for topping",
+      "note": "11 oz"
+    },
+    {
+      "raw": "1/2 cup (1 stick) unsalted butter, melted",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "unsalted butter",
+      "prep": "melted",
+      "note": "1 stick"
+    },
+    {
+      "raw": "1/4 cup granulated sugar",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Filling:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (5.1 oz) package instant banana pudding mix",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "package",
+      "item": "instant banana pudding mix",
+      "prep": null,
+      "note": "5.1 oz"
+    },
+    {
+      "raw": "1 1/2 cups cold whole milk",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cold whole milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (8 oz) block cream cheese, softened",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "block cream cheese",
+      "prep": "softened",
+      "note": "8 oz"
+    },
+    {
+      "raw": "3 medium ripe bananas, sliced 1/4 in thick",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium ripe bananas",
+      "prep": "sliced 1/4 in thick",
+      "note": null
+    },
+    {
+      "raw": "Whipped cream:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup cold heavy cream",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cold heavy cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup powdered sugar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "powdered sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp vanilla extract",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 350°F. Line a 9x13 in pan with parchment, leaving an overhang on two sides.",
+    "Pulse the vanilla wafers (minus the ones set aside) in a food processor to fine crumbs. Stir in the melted butter and sugar until it looks like wet sand.",
+    "Press the crumbs firmly into the pan. Bake 9 min, until lightly golden. Cool completely on a rack, about 30 min.",
+    "Beat the cream cheese until smooth, then add the pudding mix and cold milk and beat on low until thick and smooth.",
+    "Spread half the filling over the cooled crust, lay the banana slices on top, and cover them completely with the rest of the filling.",
+    "Whip the heavy cream, powdered sugar and vanilla to stiff peaks and spread over the filling.",
+    "Cover and refrigerate at least 4 hr, best overnight.",
+    "Crumble the reserved wafers over the top, lift the bars out by the parchment, and cut into squares with a sharp knife, wiping it between cuts."
+  ],
+  "tips": [
+    "The creator's current website version is larger: two 3.4 oz boxes of pudding, 16 oz cream cheese, 1/2 cup milk and 2 cups cream, with the second pudding box stabilizing the whipped cream in place of powdered sugar.",
+    "Cover the bananas completely with filling so they do not brown."
+  ],
+  "references": [
+    {
+      "url": "https://www.bonappeteach.com/banana-pudding-bars-recipe/",
+      "site": "Bonappeteach",
+      "title": "Banana Pudding Bars Recipe",
+      "usedFor": "9x13 in parchment-lined pan, wet-sand crumb texture, layering order, 4 hr chill, reserving 8-12 wafers",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

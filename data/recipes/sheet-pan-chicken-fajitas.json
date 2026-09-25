@@ -3,27 +3,27 @@
   "name": "Sheet Pan Chicken Fajitas",
   "category": "Dinner",
   "emoji": "🌮",
-  "desc": "Everything on one pan with a scratch fajita seasoning",
-  "time": "50 min",
-  "minutes": 50,
+  "desc": "Chicken strips, onions, and bell peppers roasted on one pan with a from-scratch fajita seasoning.",
+  "time": "55 min",
+  "minutes": 55,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.budgetbytes.com/oven-fajitas/",
+    "site": "Budget Bytes",
+    "title": "Sheet Pan Chicken Fajitas",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and amounts, including the eight-spice seasoning (1 tbsp chili powder, 1/2 tbsp paprika, 1/8 tsp cayenne, 1 tsp sugar), and step text that matches the page nearly word for word.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://www.budgetbytes.com/oven-fajitas/"
   },
   "ingredients": [
     {
-      "raw": "Fajita Seasoning:",
+      "raw": "Fajita seasoning:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -32,7 +32,7 @@
       "note": null
     },
     {
-      "raw": "1 Tbsp chili powder",
+      "raw": "1 tbsp chili powder",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
@@ -41,11 +41,11 @@
       "note": null
     },
     {
-      "raw": "1/2 Tbsp paprika",
+      "raw": "1/2 tbsp sweet paprika",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "paprika",
+      "item": "sweet paprika",
       "prep": null,
       "note": null
     },
@@ -68,11 +68,11 @@
       "note": null
     },
     {
-      "raw": "1/4 tsp cumin",
+      "raw": "1/4 tsp ground cumin",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "cumin",
+      "item": "ground cumin",
       "prep": null,
       "note": null
     },
@@ -95,11 +95,11 @@
       "note": null
     },
     {
-      "raw": "1/2 tsp salt",
+      "raw": "1/2 tsp fine salt",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
@@ -113,34 +113,34 @@
       "note": null
     },
     {
-      "raw": "2 small yellow onions (or one large)",
+      "raw": "2 small yellow onions (or 1 large)",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "small yellow onions (or one large)",
+      "item": "small yellow onions",
       "prep": null,
-      "note": null
+      "note": "or 1 large"
     },
     {
       "raw": "3 bell peppers, any color",
       "qty": 3,
       "qtyMax": null,
       "unit": null,
-      "item": "bell peppers, any color",
+      "item": "bell peppers",
       "prep": null,
-      "note": null
+      "note": "any color"
     },
     {
-      "raw": "1 lb. chicken breast",
+      "raw": "1 lb boneless skinless chicken breast",
       "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": "lb. chicken breast",
+      "unit": "lb",
+      "item": "boneless skinless chicken breast",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 Tbsp vegetable oil",
+      "raw": "2 tbsp vegetable oil",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
@@ -149,49 +149,58 @@
       "note": null
     },
     {
-      "raw": "1 lime",
+      "raw": "1 lime, halved",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "lime",
-      "prep": null,
+      "prep": "halved",
       "note": null
     },
     {
-      "raw": "8 6-inch tortillas",
+      "raw": "8 (6-inch) flour tortillas",
       "qty": 8,
       "qtyMax": null,
       "unit": null,
-      "item": "6-inch tortillas",
+      "item": "flour tortillas",
       "prep": null,
-      "note": null
+      "note": "6-inch"
     },
     {
-      "raw": "1/2 cup sour cream (optional)",
+      "raw": "1/2 cup sour cream, optional",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "sour cream (optional)",
+      "item": "sour cream",
       "prep": null,
-      "note": null
+      "note": "optional"
     },
     {
-      "raw": "1/4 bunch cilantro (optional)",
+      "raw": "1/4 bunch fresh cilantro, optional",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "bunch",
-      "item": "cilantro (optional)",
+      "item": "fresh cilantro",
       "prep": null,
-      "note": null
+      "note": "optional"
     }
   ],
   "steps": [
-    "Preheat the oven to 400ºF. Mix all of the spices for the fajita seasoning in a small bowl and set aside (chili powder, paprika, onion powder, garlic powder, cumin, cayenne pepper, sugar, and salt).",
-    "Cut the onion and bell peppers into 1/4-inch wide strips. Slice the chicken breast into thin strips. Add the chicken and vegetables to a large baking sheet or casserole dish.",
-    "Drizzle the cooking oil over the chicken and vegetables, then sprinkle the fajita seasoning mix over top. Use your hands to toss the ingredients until everything is well coated in oil and seasoning. Spread the chicken and vegetables out over the baking sheet evenly.",
-    "Bake the chicken and vegetables in the preheated oven for 35-40 minutes, stirring once halfway through. Squeeze the juice from half of the lime over top of the meat and vegetables after they come out of the oven.",
-    "To serve, scoop a small amount of meat and vegetables into the center of each tortilla. Top with a few sprigs of cilantro, a dollop of sour cream, and an extra squeeze of lime if desired"
+    "Preheat the oven to 400°F. Mix the chili powder, paprika, onion powder, garlic powder, cumin, cayenne, sugar, and salt in a small bowl.",
+    "Cut the onions and bell peppers into 1/4-inch strips. Slice the chicken into thin strips. Put the chicken and vegetables on a large rimmed baking sheet.",
+    "Drizzle with the oil, sprinkle the seasoning over, and toss with your hands until everything is coated. Spread into an even layer.",
+    "Bake 35-40 min, stirring once halfway, until the vegetables are tender and browned at the edges and the thickest chicken strip reads 165°F.",
+    "Squeeze the juice of half the lime over the pan as it comes out of the oven. Cut the other half into wedges.",
+    "Warm the tortillas, fill each with some chicken and vegetables, and top with cilantro sprigs, a spoonful of sour cream, and an extra squeeze of lime."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.budgetbytes.com/oven-fajitas/",
+      "site": "Budget Bytes",
+      "title": "Sheet Pan Chicken Fajitas",
+      "usedFor": "yield and total time",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

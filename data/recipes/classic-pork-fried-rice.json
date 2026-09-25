@@ -3,27 +3,36 @@
   "name": "Classic Pork Fried Rice",
   "category": "Dinner",
   "emoji": "🍚",
-  "desc": "Day-old jasmine rice with char siu pork, egg and dark soy",
+  "desc": "Day-old jasmine rice stir-fried with char siu pork, onion, egg and bean sprouts in a light and dark soy sauce.",
   "time": "25 min",
   "minutes": 25,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://thewoksoflife.com/classic-pork-fried-rice/",
+    "site": "The Woks of Life",
+    "title": "Pork Fried Rice",
+    "matchType": "original",
+    "evidence": "Every ingredient and amount matches the Woks of Life recipe card (5 cups jasmine rice, 1 lb char siu, 1 tsp salt, 1/2 cup bean sprouts, 2 eggs) and the steps follow the same order.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 6,
+    "basis": "publisher",
+    "source": "https://thewoksoflife.com/classic-pork-fried-rice/"
   },
   "ingredients": [
     {
-      "raw": "1 tablespoon hot water",
+      "raw": "Sauce:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp hot water",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
@@ -32,7 +41,7 @@
       "note": null
     },
     {
-      "raw": "1 teaspoon honey",
+      "raw": "1 tsp honey",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
@@ -41,25 +50,25 @@
       "note": null
     },
     {
-      "raw": "1 teaspoon sesame oil",
+      "raw": "1 tsp toasted sesame oil",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "sesame oil",
+      "item": "toasted sesame oil",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 teaspoon Shaoxing wine (or dry cooking sherry)",
+      "raw": "1 tsp Shaoxing wine (or dry sherry)",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "Shaoxing wine (or dry cooking sherry)",
+      "item": "Shaoxing wine",
       "prep": null,
-      "note": null
+      "note": "or dry sherry"
     },
     {
-      "raw": "1 tablespoon soy sauce",
+      "raw": "1 tbsp soy sauce",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
@@ -68,7 +77,7 @@
       "note": null
     },
     {
-      "raw": "1 teaspoon dark soy sauce",
+      "raw": "1 tsp dark soy sauce",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
@@ -77,25 +86,52 @@
       "note": null
     },
     {
-      "raw": "1/4 teaspoon white pepper",
+      "raw": "1/4 tsp ground white pepper",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "white pepper",
+      "item": "ground white pepper",
       "prep": null,
       "note": null
     },
     {
-      "raw": "5 cups cooked jasmine rice (add 1 tsp vegetable oil to the rice when cooking)",
+      "raw": "Fried rice:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5 cups cooked jasmine rice, preferably day-old (cook it with 1 tsp vegetable oil)",
       "qty": 5,
       "qtyMax": null,
       "unit": "cup",
       "item": "cooked jasmine rice",
-      "prep": null,
-      "note": "add 1 tsp vegetable oil to the rice when cooking"
+      "prep": "preferably day-old",
+      "note": "cook it with 1 tsp vegetable oil"
     },
     {
-      "raw": "1 tablespoon vegetable oil",
+      "raw": "2 large eggs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp vegetable oil, for the eggs",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vegetable oil",
+      "prep": "for the eggs",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp vegetable oil",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
@@ -113,16 +149,16 @@
       "note": null
     },
     {
-      "raw": "1 pound Chinese BBQ pork (450g char siu cut into 1/2 inch chunks; click here for our char siu recipe!)",
+      "raw": "1 lb (450 g) Chinese BBQ pork (char siu), cut into 1/2-inch chunks",
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
-      "item": "Chinese BBQ pork (450g char siu cut into 1/2 inch chunks; click here for our char siu recipe!)",
-      "prep": null,
-      "note": null
+      "item": "Chinese BBQ pork (char siu)",
+      "prep": "cut into 1/2-inch chunks",
+      "note": "450 g"
     },
     {
-      "raw": "1 teaspoon salt",
+      "raw": "1 tsp salt",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
@@ -131,40 +167,42 @@
       "note": null
     },
     {
-      "raw": "1/2 cup bean sprouts",
+      "raw": "1/2 cup mung bean sprouts",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "bean sprouts",
+      "item": "mung bean sprouts",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 eggs (scrambled)",
+      "raw": "2 scallions, chopped",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "eggs (scrambled)",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "2 scallions (chopped)",
-      "qty": 2,
-      "qtyMax": null,
-      "unit": null,
-      "item": "scallions (chopped)",
-      "prep": null,
+      "item": "scallions",
+      "prep": "chopped",
       "note": null
     }
   ],
   "steps": [
-    "Start by combining the hot water, honey, sesame oil, shaoxing wine (if using), soy sauce, dark soy sauce, and white pepper in a small bowl. This is the sauce that you'll be adding to the rice, and it's much easier to have it combined and ready to go before you start cooking.",
-    "Take your cooked rice and fluff it with a fork or with your hands (you can rinse your hands in cold water if the rice starts sticking to them). There shouldn't be any big clumps!",
-    "With the wok over medium heat, add a tablespoon of oil and sauté the onions until translucent and then stir in the roast pork. Add the rice and mix well. If the rice is cold from the refrigerator, continue stir-frying until the rice is warmed up, which will take about 5 minutes. If the rice was made fresh, then you just need to mix until everything is incorporated.",
-    "Add the sauce mixture and salt and mix with a scooping motion until the rice is evenly coated with sauce. You will have to break up any remaining clumps of rice with the spatula as best as possible, but no need to be obsessive. The rice should be hot by this time.",
-    "Toss in your mung bean sprouts, scrambled eggs, and scallions. Mix thoroughly for another minute or two and serve!"
+    "Stir together the hot water, honey, sesame oil, Shaoxing wine, soy sauce, dark soy sauce, and white pepper in a small bowl so the sauce is ready before you start cooking.",
+    "Fluff the rice with a fork or your hands (wet them with cold water if the rice sticks) until there are no big clumps.",
+    "Beat the eggs. Heat the 1 tsp oil in the wok over medium heat, add the eggs, and scramble until softly set, about 1 minute. Transfer to a plate.",
+    "Add the 1 tbsp oil to the wok over medium heat and saute the onion until translucent, 3-4 minutes. Stir in the pork, then add the rice and mix well. If the rice is cold from the refrigerator, keep stir-frying until it is heated through, about 5 minutes.",
+    "Add the sauce and salt and mix with a scooping motion until the rice is evenly coated, breaking up any remaining clumps. The rice should be hot by now.",
+    "Toss in the bean sprouts, scrambled eggs, and scallions and stir-fry 1-2 minutes more. Serve."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Use the Char Siu recipe on this site for the pork, or buy it from a Chinese barbecue shop."
+  ],
+  "references": [
+    {
+      "url": "https://thewoksoflife.com/classic-pork-fried-rice/",
+      "site": "The Woks of Life",
+      "title": "Pork Fried Rice",
+      "usedFor": "servings and times; egg scrambling step added since the card lists the eggs as already scrambled",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

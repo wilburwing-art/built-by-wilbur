@@ -3,8 +3,8 @@
   "name": "Apple Chips",
   "category": "Sides & Snacks",
   "emoji": "🍎",
-  "desc": "Thinly sliced apples baked low and slow until crispy",
-  "time": "2.5 hrs",
+  "desc": "Thin apple slices baked low until crisp, then seasoned with salt, pepper, and chaat masala.",
+  "time": "2 hr 30 min",
   "minutes": 150,
   "difficulty": "Easy",
   "addedOn": null,
@@ -17,19 +17,19 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "4 Fuji or Honeycrisp apples (about 1 1/2 lbs)",
+      "raw": "4 medium Fuji or Honeycrisp apples (about 1 1/2 lb)",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
-      "item": "Fuji or Honeycrisp apples",
+      "item": "medium Fuji or Honeycrisp apples",
       "prep": null,
-      "note": "about 1 1/2 lbs"
+      "note": "about 1 1/2 lb"
     },
     {
       "raw": "1 tbsp fresh lemon juice",
@@ -69,11 +69,23 @@
     }
   ],
   "steps": [
-    "Preheat oven to 200°F and line baking sheets with parchment.",
-    "Core the apples and slice them 1/8 inch thick. Toss with the lemon juice.",
-    "Lay the slices on the parchment without overlapping. Bake about 1 hour, flip, and bake about 1 hour more, until the edges curl and the slices feel dry.",
-    "Season with the salt, pepper, and chaat masala while warm. They crisp further as they cool."
+    "Preheat the oven to 200°F and line 3 to 4 baking sheets with parchment paper.",
+    "Core the apples with an apple corer and slice them crosswise about 1/8 inch thick (a mandoline keeps them even). Toss the slices gently with the lemon juice in a large bowl.",
+    "Lay the slices on the parchment in a single layer, not touching.",
+    "Bake 1 hour, flip each slice, and bake about 1 hour more, until the edges curl and the slices feel dry and leathery. Rotate the pans between racks at the flip.",
+    "Stir the salt, pepper, and chaat masala together and sprinkle over the warm chips. Let cool completely on the pans; they crisp as they cool. Store airtight."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Trisha Yearwood's version bakes about 2 hours without flipping and seasons with sugar, cinnamon, and a pinch of salt instead, for a sweet chip.",
+    "Thicker or uneven slices stay chewy in the center; if some are still soft after 2 hours, give them 15 more minutes."
+  ],
+  "references": [
+    {
+      "url": "https://www.foodnetwork.com/recipes/trisha-yearwood/baked-apple-chips-5389029",
+      "site": "Food Network (Trisha Yearwood)",
+      "title": "Baked Apple Chips",
+      "usedFor": "apple count and weight, lemon juice, 200°F, 1/8 inch slices, about 2 hours, 4 parchment-lined sheets",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

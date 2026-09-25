@@ -3,23 +3,23 @@
   "name": "Baked Ziti",
   "category": "Dinner",
   "emoji": "🧀",
-  "desc": "Layered pasta bake with meat sauce, provolone, sour cream, and mozzarella",
+  "desc": "Layered ziti bake with beef meat sauce, provolone, sour cream and mozzarella.",
   "time": "1 hr",
   "minutes": 60,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/11758/baked-ziti-i/",
+    "site": "Allrecipes",
+    "title": "Baked Ziti",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and amounts (1 lb ziti, 2 jars 26 oz sauce, 6 oz provolone, 1 1/2 cups sour cream, 6 oz mozzarella) and the same layering order and 350°F, 30-minute bake.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 10,
+    "basis": "publisher",
+    "source": "https://www.allrecipes.com/recipe/11758/baked-ziti-i/"
   },
   "ingredients": [
     {
@@ -32,11 +32,20 @@
       "note": null
     },
     {
-      "raw": "1 yellow onion, chopped",
+      "raw": "Salt, for the pasta water",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 medium yellow onion, chopped",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "yellow onion",
+      "item": "medium yellow onion",
       "prep": "chopped",
       "note": null
     },
@@ -59,7 +68,16 @@
       "note": "26 oz"
     },
     {
-      "raw": "6 oz provolone cheese, sliced",
+      "raw": "1 tbsp butter, for greasing the dish",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": "for greasing the dish",
+      "note": null
+    },
+    {
+      "raw": "6 oz sliced provolone cheese",
       "qty": 6,
       "qtyMax": null,
       "unit": "oz",
@@ -77,31 +95,41 @@
       "note": null
     },
     {
-      "raw": "6 oz mozzarella cheese, shredded",
+      "raw": "6 oz mozzarella cheese, shredded (about 1 1/2 cups)",
       "qty": 6,
       "qtyMax": null,
       "unit": "oz",
       "item": "mozzarella cheese",
       "prep": "shredded",
-      "note": null
+      "note": "about 1 1/2 cups"
     },
     {
       "raw": "2 tbsp grated Parmesan cheese",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "grated Parmesan cheese",
-      "prep": null,
+      "item": "Parmesan cheese",
+      "prep": "grated",
       "note": null
     }
   ],
   "steps": [
-    "Cook ziti al dente, about 8 minutes. Drain.",
-    "Brown onion and ground beef. Add spaghetti sauce, simmer 15 min.",
-    "Preheat oven to 350°F. Butter a 9x13 dish.",
-    "Layer: half ziti, provolone, sour cream, half sauce, remaining ziti, mozzarella, remaining sauce. Top with Parmesan.",
-    "Bake 30 minutes until cheeses are melted."
+    "Bring a large pot of lightly salted water to a boil. Cook the ziti until al dente, about 8 minutes, then drain.",
+    "Meanwhile, brown the ground beef and onion in a large skillet over medium heat, breaking up the meat, until no pink remains (160°F) and the onion is soft, 8-10 minutes. Spoon off excess fat.",
+    "Stir the spaghetti sauce into the beef and simmer for 15 minutes.",
+    "Preheat the oven to 350°F. Butter a 9x13 in baking dish.",
+    "Spread half the ziti in the dish. Cover with the provolone slices, then spread the sour cream over the provolone.",
+    "Top with half the meat sauce, the remaining ziti, the mozzarella, and the remaining meat sauce. Sprinkle with the Parmesan.",
+    "Bake for about 30 minutes, until heated through and the cheeses are melted."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/11758/baked-ziti-i/",
+      "site": "Allrecipes",
+      "title": "Baked Ziti",
+      "usedFor": "servings, simmer and bake times, layering order",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

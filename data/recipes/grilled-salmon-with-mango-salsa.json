@@ -3,23 +3,23 @@
   "name": "Grilled Salmon with Mango Salsa",
   "category": "Dinner",
   "emoji": "🐟",
-  "desc": "Spice-rubbed salmon topped with fresh mango, red pepper, and cilantro salsa",
+  "desc": "Chili and garlic rubbed salmon grilled and topped with a fresh mango, red pepper, jalapeno and cilantro salsa.",
   "time": "25 min",
   "minutes": 25,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.lecremedelacrumb.com/grilled-salmon-with-mango-salsa/",
+    "site": "Creme De La Crumb",
+    "title": "Grilled Salmon with Mango Salsa",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and amounts (4 6-oz fillets, 1 tsp each garlic and chili powder, juice of 1 lime, 2-3 mangoes, 1/2 red pepper, 1/2 red onion, 1 small jalapeno, 1/4 cup cilantro) and the same three steps.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://www.lecremedelacrumb.com/grilled-salmon-with-mango-salsa/"
   },
   "ingredients": [
     {
@@ -29,7 +29,7 @@
       "unit": null,
       "item": "salmon fillets",
       "prep": null,
-      "note": "6 oz"
+      "note": "6 oz each"
     },
     {
       "raw": "1 tsp garlic powder",
@@ -68,12 +68,21 @@
       "note": null
     },
     {
-      "raw": "Juice of 1 lime",
-      "qty": null,
+      "raw": "1 tbsp vegetable oil, for the grill grates",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": "for the grill grates",
+      "note": null
+    },
+    {
+      "raw": "1 lime, juiced",
+      "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": null,
-      "prep": null,
+      "item": "lime",
+      "prep": "juiced",
       "note": null
     },
     {
@@ -86,12 +95,12 @@
       "note": null
     },
     {
-      "raw": "2-3 mangoes, diced",
+      "raw": "2-3 ripe mangoes, peeled and diced",
       "qty": 2,
       "qtyMax": 3,
       "unit": null,
-      "item": "mangoes",
-      "prep": "diced",
+      "item": "ripe mangoes",
+      "prep": "peeled and diced",
       "note": null
     },
     {
@@ -113,30 +122,48 @@
       "note": null
     },
     {
-      "raw": "1 small jalapeño, seeded and finely chopped",
+      "raw": "1 small jalapeno, seeded and finely chopped",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "small jalapeño",
+      "item": "small jalapeno",
       "prep": "seeded and finely chopped",
       "note": null
     },
     {
-      "raw": "1/4 cup packed cilantro leaves, roughly chopped",
+      "raw": "1/4 cup packed fresh cilantro leaves, roughly chopped",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "packed cilantro leaves",
-      "prep": "roughly chopped",
+      "item": "fresh cilantro leaves",
+      "prep": "packed, roughly chopped",
       "note": null
     }
   ],
   "steps": [
-    "Mix mango salsa ingredients in a bowl. Set aside.",
-    "Combine garlic powder, chili powder, salt, and pepper. Rub onto salmon.",
-    "Grill over medium heat 6-8 minutes per side (or bake at 450°F for 15 min).",
-    "Squeeze fresh lime juice over salmon, top with mango salsa."
+    "Stir the mango, red pepper, onion, jalapeno, and cilantro together in a medium bowl. Set aside.",
+    "Preheat the grill to medium heat and oil the grates.",
+    "Stir together the garlic powder, chili powder, salt, and pepper and rub it over the salmon.",
+    "Grill the salmon 6-8 minutes per side, until it flakes easily and the thickest part reads 145°F. (Or bake on a lined sheet pan at 450°F for about 15 minutes.)",
+    "Squeeze the lime juice over the salmon, top with the mango salsa, and serve."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Thinner 6 oz fillets can be done in less time; Kalejunkie cooks similar fillets about 6 minutes on the first side and 5 to 6 on the second, so check the temperature early."
+  ],
+  "references": [
+    {
+      "url": "https://www.lecremedelacrumb.com/grilled-salmon-with-mango-salsa/",
+      "site": "Creme De La Crumb",
+      "title": "Grilled Salmon with Mango Salsa",
+      "usedFor": "servings; about 1/2 tsp each salt and pepper in the rub",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://kalejunkie.com/grilled-salmon-with-mango-salsa/",
+      "site": "Kalejunkie",
+      "title": "Grilled Salmon with Mango Salsa",
+      "usedFor": "shorter cook time comparison for the tip",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

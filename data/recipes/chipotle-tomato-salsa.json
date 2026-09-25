@@ -3,31 +3,31 @@
   "name": "Chipotle Tomato Salsa",
   "category": "Sides & Snacks",
   "emoji": "🍅",
-  "desc": "Fresh pico with three jalapenos, lemon and lime",
-  "time": "15 min",
-  "minutes": 15,
+  "desc": "Copycat Chipotle fresh tomato salsa with red onion, cilantro, three jalapenos, lemon, and lime.",
+  "time": "10 min",
+  "minutes": 10,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.culinaryhill.com/fresh-tomato-salsa-chipotle-copycat/",
+    "site": "Culinary Hill",
+    "title": "Chipotle Tomato Salsa (Copycat)",
+    "matchType": "original",
+    "evidence": "Same seven ingredients in the same amounts (1 lb tomatoes, 1/4 cup red onion, 1/4 cup cilantro, 3 jalapenos, 1 tbsp each lemon and lime) and the same one-bowl method.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://www.culinaryhill.com/fresh-tomato-salsa-chipotle-copycat/"
   },
   "ingredients": [
     {
-      "raw": "1 pound tomatoes, cut into 1/4-inch pieces",
+      "raw": "1 lb ripe tomatoes, cut into 1/4-inch pieces",
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
-      "item": "tomatoes",
+      "item": "ripe tomatoes",
       "prep": "cut into 1/4-inch pieces",
       "note": null
     },
@@ -36,9 +36,9 @@
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "finely chopped red onion (from 1 small)",
+      "item": "finely chopped red onion",
       "prep": null,
-      "note": null
+      "note": "from 1 small"
     },
     {
       "raw": "1/4 cup finely chopped fresh cilantro",
@@ -59,25 +59,34 @@
       "note": null
     },
     {
-      "raw": "1 tablespoon lemon juice",
+      "raw": "1 tbsp fresh lemon juice",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "lemon juice",
+      "item": "fresh lemon juice",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tablespoon lime juice",
+      "raw": "1 tbsp fresh lime juice",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "lime juice",
+      "item": "fresh lime juice",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Salt",
+      "raw": "Kosher salt, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Tortilla chips, for serving",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -87,10 +96,19 @@
     }
   ],
   "steps": [
-    "In a medium bowl, combine tomatoes, red onion, cilantro, jalapeño, lemon juice, and lime juice.",
-    "Season to taste with salt and stir to combine.",
-    "Serve immediately or chill until ready to use."
+    "In a medium bowl, combine the tomatoes, red onion, cilantro, jalapeños, lemon juice, and lime juice.",
+    "Season with salt and stir to combine. Serve with tortilla chips right away, or cover and chill until ready to use."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Seed the jalapeños for a milder salsa."
+  ],
+  "references": [
+    {
+      "url": "https://www.culinaryhill.com/fresh-tomato-salsa-chipotle-copycat/",
+      "site": "Culinary Hill",
+      "title": "Chipotle Tomato Salsa (Copycat)",
+      "usedFor": "yield, total time, serving with chips",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

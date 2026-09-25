@@ -1,0 +1,71 @@
+{
+  "slug": "bloomed-garlic-powder",
+  "name": "Bloomed Garlic Powder",
+  "category": "Sides & Snacks",
+  "emoji": "🧄",
+  "desc": "Hydrate garlic powder in an equal amount of water so it tastes like fresh garlic.",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C74ZLSHCXc1/",
+    "site": "Instagram @cooksillustrated",
+    "title": "Bloomed Garlic Powder",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1/2 tsp garlic powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp room-temperature water (equal to the garlic powder)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "room-temperature water",
+      "prep": null,
+      "note": "equal to the garlic powder"
+    },
+    {
+      "raw": "1 tbsp unsalted butter (optional, for blooming)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": null,
+      "note": "optional, for blooming"
+    }
+  ],
+  "steps": [
+    "In a small bowl, stir the garlic powder and water into a smooth paste. Do not heat it at this stage.",
+    "Optional: melt the butter in a small skillet over medium-low heat, add the garlic paste and cook, stirring, about 30 seconds until fragrant.",
+    "Stir the paste (or the garlic butter) into your dish. This amount seasons a 4-serving batch of mashed potatoes, soup or sauce; scale the powder and water together."
+  ],
+  "tips": [
+    "Hydrating the powder wakes up the enzyme alliinase, which turns alliin into allicin and gives a much stronger fresh-garlic flavor.",
+    "Never toast dry garlic powder in fat before hydrating it. Heat destroys the enzyme and the garlic flavor mostly disappears."
+  ],
+  "references": [
+    {
+      "url": "https://www.americastestkitchen.com/how_tos/8896-experiment-bringing-out-the-best-in-garlic-powder",
+      "site": "America's Test Kitchen",
+      "title": "Experiment: Bringing Out the Best in Garlic Powder",
+      "usedFor": "1/2 tsp powder to 1/2 tsp water ratio, sauteing the hydrated paste in butter, why heating dry powder kills the flavor",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

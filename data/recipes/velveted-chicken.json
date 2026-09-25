@@ -1,0 +1,90 @@
+{
+  "slug": "velveted-chicken",
+  "name": "Velveted Chicken (Takeout-Tender)",
+  "category": "Dinner",
+  "emoji": "🥢",
+  "desc": "Thin-sliced chicken tenderized with baking soda and coated in cornstarch for takeout-style stir-fries.",
+  "time": "25 min",
+  "minutes": 25,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/Db-IPt2N11n/",
+    "site": "Instagram @itscheffatty",
+    "title": "Velveted Chicken (takeout-tender)",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 3,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 lb boneless skinless chicken breasts or thighs",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless skinless chicken breasts or thighs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp baking soda",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp cornstarch",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Cold water, for rinsing",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Slice the chicken against the grain into thin strips, 1/4 to 1/2 inch thick.",
+    "Toss the chicken with the baking soda until evenly coated. Refrigerate 15 minutes.",
+    "Rinse well in a colander under cold water to remove any soda taste, then pat dry with paper towels.",
+    "Toss with the cornstarch to coat lightly.",
+    "Stir-fry or sauce it like any Chinese takeout dish, cooking until no pink remains and the thickest piece reads 165°F."
+  ],
+  "tips": [
+    "Baking soda raises the pH so the proteins can't tighten up, which keeps the meat tender.",
+    "The cornstarch coating holds in moisture and helps sauce cling.",
+    "RecipeTin Eats uses much more baking soda (3/4 tsp per 8 oz for 20 minutes); this lighter ratio is less likely to turn the chicken spongy."
+  ],
+  "references": [
+    {
+      "url": "https://garlicallday.com/velvet-chicken-breast/",
+      "site": "Garlic All Day",
+      "title": "Quicker Velvet Chicken Breast Marinade",
+      "usedFor": "same baking soda ratio (1/8 tsp per 8 to 10 oz), cornstarch amount, slice thickness",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.recipetineats.com/velveting-chicken-chinese-restaurant-tenderise-chicken/",
+      "site": "RecipeTin Eats",
+      "title": "How to Tenderise Chicken for Stir Fries",
+      "usedFor": "refrigerating while it rests, rinse and pat dry, higher-soda comparison",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

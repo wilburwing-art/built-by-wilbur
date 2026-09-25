@@ -3,34 +3,25 @@
   "name": "Kahlua Hot Chocolate",
   "category": "Drinks",
   "emoji": "☕",
-  "desc": "Cozy cocoa spiked with Kahlua, topped with marshmallows and caramel",
+  "desc": "Spiced stovetop cocoa spiked with Kahlua and topped with marshmallows and caramel.",
   "time": "10 min",
   "minutes": 10,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.tasteofhome.com/recipes/kahlua-hot-chocolate/",
+    "site": "Taste of Home",
+    "title": "Kahlua Hot Chocolate",
+    "matchType": "closest",
+    "evidence": "Same ingredients (2 cups milk, 2 tbsp sugar, Dutch-processed cocoa, 1/4 tsp cinnamon, a dash of nutmeg, Kahlua off the heat) and the same marshmallow, caramel and chocolate syrup toppings.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 2,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
-    {
-      "raw": "2 cups milk",
-      "qty": 2,
-      "qtyMax": null,
-      "unit": "cup",
-      "item": "milk",
-      "prep": null,
-      "note": null
-    },
     {
       "raw": "2 tbsp granulated sugar",
       "qty": 2,
@@ -41,11 +32,11 @@
       "note": null
     },
     {
-      "raw": "1 1/2 tbsp unsweetened cocoa powder",
+      "raw": "1 1/2 tbsp unsweetened Dutch-processed cocoa powder",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "unsweetened cocoa powder",
+      "item": "unsweetened Dutch-processed cocoa powder",
       "prep": null,
       "note": null
     },
@@ -68,28 +59,78 @@
       "note": null
     },
     {
-      "raw": "1 oz Kahlua",
-      "qty": 1,
+      "raw": "2 cups whole or 2% milk",
+      "qty": 2,
       "qtyMax": null,
-      "unit": "oz",
-      "item": "Kahlua",
+      "unit": "cup",
+      "item": "whole or 2% milk",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Marshmallows, caramel sauce, and chocolate syrup, for topping",
+      "raw": "1 oz Kahlua coffee liqueur",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "Kahlua coffee liqueur",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Toppings:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
       "item": null,
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1/2 cup mini marshmallows",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "mini marshmallows",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp salted caramel sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "salted caramel sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp chocolate syrup",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chocolate syrup",
+      "prep": null,
+      "note": null
     }
   ],
   "steps": [
-    "Heat milk, sugar, cocoa, cinnamon, and nutmeg 2-3 min.",
-    "Stir in Kahlua. Top with marshmallows and drizzles."
+    "Whisk the sugar, cocoa, cinnamon and nutmeg together in a small saucepan.",
+    "Gradually whisk in the milk. Cook over medium heat, whisking, until steaming and the cocoa is fully dissolved, 2 to 3 minutes (longer if the milk starts cold). Do not let it boil.",
+    "Remove from the heat and stir in the Kahlua.",
+    "Pour into 2 mugs, top with marshmallows, and drizzle with caramel sauce and chocolate syrup."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Starting from cold milk, Taste of Home heats it 5 to 7 minutes; go by the steam, not the clock.",
+    "Taste of Home uses 2 to 4 tbsp (1 to 2 oz) Kahlua for 2 servings if you want it stronger.",
+    "Add the Kahlua off the heat so the alcohol does not cook off."
+  ],
+  "references": [
+    {
+      "url": "https://www.tasteofhome.com/recipes/kahlua-hot-chocolate/",
+      "site": "Taste of Home",
+      "title": "Kahlua Hot Chocolate",
+      "usedFor": "Dutch-processed cocoa, whisking dry ingredients first, heat time, Kahlua range, toppings",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

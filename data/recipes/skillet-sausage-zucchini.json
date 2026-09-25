@@ -3,7 +3,7 @@
   "name": "Skillet Sausage & Zucchini",
   "category": "Dinner",
   "emoji": "🍳",
-  "desc": "Quick 20-minute sausage with zucchini, peppers, and herbs",
+  "desc": "Sliced precooked sausage browned and tossed with zucchini, onion, bell pepper, dried herbs, and garlic in one skillet.",
   "time": "20 min",
   "minutes": 20,
   "difficulty": "Easy",
@@ -17,62 +17,62 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://thewholecook.com/20-minute-skillet-sausage-zucchini/"
   },
   "ingredients": [
     {
-      "raw": "2 1/2 tbsp olive or avocado oil",
+      "raw": "2 1/2 tbsp olive or avocado oil, divided",
       "qty": 2.5,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "olive or avocado oil",
-      "prep": null,
+      "prep": "divided",
       "note": null
     },
     {
-      "raw": "4 fully cooked sausages, sliced 1/4 inch thick",
+      "raw": "4 fully cooked sausage links (about 12 oz, such as chicken or smoked pork), sliced 1/4 inch thick",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
-      "item": "fully cooked sausages",
+      "item": "fully cooked sausage links",
       "prep": "sliced 1/4 inch thick",
-      "note": null
+      "note": "about 12 oz, such as chicken or smoked pork"
     },
     {
-      "raw": "2 medium zucchini, cubed",
+      "raw": "2 medium zucchini, cut into 3/4-inch cubes",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
       "item": "medium zucchini",
-      "prep": "cubed",
+      "prep": "cut into 3/4-inch cubes",
       "note": null
     },
     {
-      "raw": "1 yellow onion, cut into 3/4-inch pieces",
+      "raw": "1 medium yellow onion, cut into 3/4-inch pieces",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "yellow onion",
+      "item": "medium yellow onion",
       "prep": "cut into 3/4-inch pieces",
       "note": null
     },
     {
-      "raw": "1 bell pepper (any color), cut into 3/4-inch pieces",
+      "raw": "1 medium bell pepper (any color), cut into 3/4-inch pieces",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "bell pepper",
+      "item": "medium bell pepper",
       "prep": "cut into 3/4-inch pieces",
       "note": "any color"
     },
     {
-      "raw": "1/2 tsp salt",
+      "raw": "1/2 tsp fine salt",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
@@ -122,29 +122,40 @@
       "note": null
     },
     {
-      "raw": "1 tsp minced garlic",
+      "raw": "1 tsp minced garlic (1 to 2 cloves)",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "minced garlic",
-      "prep": null,
-      "note": null
+      "item": "garlic",
+      "prep": "minced",
+      "note": "1 to 2 cloves"
     },
     {
-      "raw": "Fresh basil, for garnish (optional)",
-      "qty": null,
+      "raw": "2 tbsp chopped fresh basil, optional",
+      "qty": 2,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
+      "unit": "tbsp",
+      "item": "fresh basil",
+      "prep": "chopped",
+      "note": "optional"
     }
   ],
   "steps": [
-    "Brown sausage in 1 tbsp of the oil. Remove.",
-    "Add the remaining oil. Cook zucchini, onion, and pepper with the salt, oregano, basil, garlic powder, onion powder, and pepper until tender, 5-10 min.",
-    "Add sausage back with garlic. Cover 1-2 min. Garnish with fresh basil if you like."
+    "Heat 1 tbsp of the oil in a large skillet over medium-high heat. Add the sausage and cook, flipping often, until the slices have some browning, 1-2 min. Move to a plate.",
+    "Reduce the heat to medium and add the remaining 1 1/2 tbsp oil, the zucchini, onion, and bell pepper. Sprinkle with the salt, oregano, dried basil, garlic powder, onion powder, and pepper and stir.",
+    "Cook, stirring occasionally, until the onion is translucent and the zucchini and pepper are close to tender, 5-10 min.",
+    "Return the sausage to the skillet with the minced garlic, stir, cover, and cook until heated through, 1-2 min. Taste for salt and serve scattered with fresh basil."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Cut the vegetables to about the size of the zucchini cubes so everything finishes cooking at the same time."
+  ],
+  "references": [
+    {
+      "url": "https://thewholecook.com/20-minute-skillet-sausage-zucchini/",
+      "site": "The Whole Cook",
+      "title": "20 Minute Sausage and Zucchini Skillet",
+      "usedFor": "heat levels, cook times, cut sizes, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

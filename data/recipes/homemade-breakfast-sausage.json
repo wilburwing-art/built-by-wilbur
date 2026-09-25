@@ -3,9 +3,9 @@
   "name": "Homemade Breakfast Sausage",
   "category": "Breakfast",
   "emoji": "🥓",
-  "desc": "Ground pork with sage, thyme, brown sugar, and red pepper flakes",
-  "time": "15 min",
-  "minutes": 15,
+  "desc": "Ground pork seasoned with sage, thyme, brown sugar, and red pepper flakes, formed into patties.",
+  "time": "20 min",
+  "minutes": 20,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
@@ -17,14 +17,14 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
       "raw": "1 lb ground pork",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "lb",
       "item": "ground pork",
@@ -50,13 +50,13 @@
       "note": null
     },
     {
-      "raw": "2 tsp brown sugar",
-      "qty": 2,
+      "raw": "2 tsp brown sugar (light or dark)",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "brown sugar",
       "prep": null,
-      "note": null
+      "note": "light or dark"
     },
     {
       "raw": "1/4 tsp crushed red pepper flakes",
@@ -93,13 +93,32 @@
       "item": "ground sage",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1 tsp vegetable oil, for the skillet",
+      "qty": 1.0,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vegetable oil",
+      "prep": "for the skillet",
+      "note": null
     }
   ],
   "steps": [
-    "Mix all ingredients into the ground pork until well combined.",
-    "Form into patties.",
-    "Cook in a skillet over medium heat until browned and cooked through on both sides."
+    "In a bowl, mix the salt, pepper, brown sugar, red pepper flakes, garlic powder, thyme, and sage into the pork with your hands until evenly combined.",
+    "Scoop about 3 tbsp of the mixture per patty and flatten into 2 1/2-inch patties, about 8 total.",
+    "Heat the oil in a large skillet over medium heat. Cook the patties until browned on both sides and 160°F inside, 4 to 5 minutes per side."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "For deeper flavor, cover and refrigerate the mixed sausage for 1 hour before shaping."
+  ],
+  "references": [
+    {
+      "url": "https://web.archive.org/web/2026/https://www.beyondthechickencoop.com/homemade-pork-breakfast-sausage/",
+      "site": "Beyond The Chicken Coop (Wayback Machine copy)",
+      "title": "Homemade Breakfast Sausage",
+      "usedFor": "3 tbsp scoop, 8 patties, 4 to 5 minutes per side, optional 1-hour chill",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

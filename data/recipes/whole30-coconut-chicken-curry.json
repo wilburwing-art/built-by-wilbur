@@ -3,27 +3,27 @@
   "name": "Whole30 Coconut Chicken Curry",
   "category": "Dinner",
   "emoji": "🍛",
-  "desc": "Coconut curry with sweet potato, plantain and kale",
-  "time": "1 hr",
-  "minutes": 60,
+  "desc": "Chicken, sweet potato, green plantain, and carrots simmered in coconut milk and crushed tomatoes with curry powder, finished with baby kale.",
+  "time": "1 hr 45 min",
+  "minutes": 105,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/261457/whole30-coconut-chicken-curry/",
+    "site": "Allrecipes",
+    "title": "Whole30 Coconut Chicken Curry",
+    "matchType": "closest",
+    "evidence": "All eighteen ingredients and amounts match this page (1 1/2 lb chicken breast, 1 green plantain, 2 cans coconut milk, 24 oz crushed tomatoes, 3 tbsp curry powder, 1 1/2 tsp dried cilantro) and the three steps follow it nearly word for word.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 8,
+    "basis": "publisher",
+    "source": "https://www.allrecipes.com/recipe/261457/whole30-coconut-chicken-curry/"
   },
   "ingredients": [
     {
-      "raw": "3 tablespoons coconut oil",
+      "raw": "3 tbsp coconut oil",
       "qty": 3,
       "qtyMax": null,
       "unit": "tbsp",
@@ -32,20 +32,20 @@
       "note": null
     },
     {
-      "raw": "1 ½ pounds skinless, boneless chicken breast halves, cubed",
+      "raw": "1 1/2 lb boneless skinless chicken breasts, cut into 1-inch cubes",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "lb",
-      "item": "skinless, boneless chicken breast halves, cubed",
-      "prep": null,
+      "item": "boneless skinless chicken breasts",
+      "prep": "cut into 1-inch cubes",
       "note": null
     },
     {
-      "raw": "2 yellow onions, sliced",
+      "raw": "2 medium yellow onions, sliced",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "yellow onions",
+      "item": "medium yellow onions",
       "prep": "sliced",
       "note": null
     },
@@ -59,11 +59,11 @@
       "note": null
     },
     {
-      "raw": "1 jalapeno pepper, seeded and minced",
+      "raw": "1 jalapeño pepper, seeded and minced",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "jalapeno pepper",
+      "item": "jalapeño pepper",
       "prep": "seeded and minced",
       "note": null
     },
@@ -71,36 +71,36 @@
       "raw": "4 small garlic cloves, minced",
       "qty": 4,
       "qtyMax": null,
-      "unit": null,
-      "item": "small garlic cloves",
+      "unit": "clove",
+      "item": "garlic",
       "prep": "minced",
-      "note": null
+      "note": "small"
     },
     {
-      "raw": "1 (1 inch) piece fresh ginger, peeled and minced",
+      "raw": "1 (1-inch) piece fresh ginger, peeled and minced",
       "qty": 1,
       "qtyMax": null,
       "unit": "piece",
       "item": "fresh ginger",
       "prep": "peeled and minced",
-      "note": "(1 inch)"
+      "note": "1-inch"
     },
     {
-      "raw": "1 large sweet potato, peeled and cubed",
+      "raw": "1 large sweet potato, peeled and cut into 3/4-inch cubes",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "large sweet potato",
-      "prep": "peeled and cubed",
+      "prep": "peeled and cut into 3/4-inch cubes",
       "note": null
     },
     {
-      "raw": "1 green plantain, sliced into 1/2-inch rounds and quartered",
+      "raw": "1 green plantain, peeled, sliced into 1/2-inch rounds, and quartered",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "green plantain",
-      "prep": "sliced into 1/2-inch rounds and quartered",
+      "prep": "peeled, sliced into 1/2-inch rounds, and quartered",
       "note": null
     },
     {
@@ -113,25 +113,25 @@
       "note": null
     },
     {
-      "raw": "2 (14 ounce) cans coconut milk, shaken",
+      "raw": "2 (14 oz) cans full-fat coconut milk, shaken",
       "qty": 2,
       "qtyMax": null,
       "unit": "can",
-      "item": "coconut milk, shaken",
-      "prep": null,
-      "note": "(14 ounce)"
+      "item": "full-fat coconut milk",
+      "prep": "shaken",
+      "note": "14 oz"
     },
     {
-      "raw": "1 (24 ounce) container crushed tomatoes",
+      "raw": "1 (24 oz) container crushed tomatoes",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "container crushed tomatoes",
+      "item": "crushed tomatoes",
       "prep": null,
-      "note": "(24 ounce)"
+      "note": "24 oz container"
     },
     {
-      "raw": "½ cup water",
+      "raw": "1/2 cup water",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
@@ -144,30 +144,30 @@
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "packed baby kale",
-      "prep": null,
+      "item": "baby kale",
+      "prep": "packed",
       "note": null
     },
     {
-      "raw": "3 tablespoons curry powder, or more to taste",
+      "raw": "3 tbsp curry powder, or more to taste",
       "qty": 3,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "curry powder, or more to taste",
+      "item": "curry powder",
       "prep": null,
-      "note": null
+      "note": "or more to taste"
     },
     {
-      "raw": "1 tablespoon sea salt",
+      "raw": "1 tbsp fine sea salt",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "sea salt",
+      "item": "fine sea salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tablespoon ground black pepper",
+      "raw": "1 tbsp ground black pepper",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
@@ -176,7 +176,7 @@
       "note": null
     },
     {
-      "raw": "1 ½ teaspoons dried cilantro",
+      "raw": "1 1/2 tsp dried cilantro",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "tsp",
@@ -186,10 +186,23 @@
     }
   ],
   "steps": [
-    "Heat coconut oil in a heavy-bottomed skillet over medium-low heat until shimmering. Add chicken. Cook, tossing to avoid sticking and burning, until no longer pink in the center, about 7 minutes. Move chicken to a bowl.",
-    "Combine onions, red bell pepper, jalapeno pepper, garlic, and ginger in the skillet. Cook and stir until vegetables are softened, about 7 minutes. Add sweet potato, plantain, and carrots. Cook, stirring occasionally, until slightly tender, about 5 minutes.",
-    "Pour coconut milk, tomatoes, and water into the vegetable mixture; stir to combine. Cook, covered, until flavors meld, about 30 minutes. Add kale, curry powder, salt, black pepper, and cilantro. Cook until sweet potatoes and carrots are soft, about 30 minutes more"
+    "Heat the coconut oil in a large heavy-bottomed skillet or Dutch oven over medium-low heat until shimmering. Add the chicken and cook, tossing so it does not stick, until no longer pink in the center (165°F), about 7 min. Move the chicken to a bowl.",
+    "Add the onions, bell pepper, jalapeño, garlic, and ginger to the pan. Cook and stir until softened, about 7 min.",
+    "Add the sweet potato, plantain, and carrots and cook, stirring occasionally, until slightly tender, about 5 min.",
+    "Pour in the coconut milk, crushed tomatoes, and water and stir. Cover and cook at a gentle simmer until the flavors meld, about 30 min.",
+    "Stir in the kale, curry powder, salt, pepper, and dried cilantro, and return the chicken with any juices. Cover and cook at a gentle simmer until the sweet potatoes and carrots are soft, about 30 min more. Taste and add more curry powder if you like."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The Allrecipes steps set the browned chicken aside and never say to add it back; this version returns it with the kale.",
+    "1 tbsp black pepper is a lot of heat on top of the jalapeño; start with 1 1/2 tsp and add more at the end if you want it."
+  ],
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/261457/whole30-coconut-chicken-curry/",
+      "site": "Allrecipes",
+      "title": "Whole30 Coconut Chicken Curry",
+      "usedFor": "yield and total time",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

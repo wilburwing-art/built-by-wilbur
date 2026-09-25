@@ -1,0 +1,417 @@
+{
+  "slug": "fried-chicken-caesar-sandwiches",
+  "name": "Fried Chicken Caesar Sandwiches",
+  "category": "Lunch",
+  "emoji": "🥖",
+  "desc": "Parmesan-crusted fried chicken cutlets and lemony Caesar salad on garlic Parmesan baguettes.",
+  "time": "1 hr 15 min",
+  "minutes": 75,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dc34xixpfUy/",
+    "site": "Instagram @seattlehanddoc",
+    "title": "Fried Chicken Caesar Sandwiches",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 6,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Chicken:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 boneless skinless chicken breasts, halved horizontally into thin cutlets",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": null,
+      "item": "boneless skinless chicken breasts",
+      "prep": "halved horizontally into thin cutlets",
+      "note": null
+    },
+    {
+      "raw": "2 tsp kosher salt",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp onion powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp paprika",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 quarts vegetable or peanut oil, for frying",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "quart",
+      "item": "vegetable or peanut oil",
+      "prep": "for frying",
+      "note": null
+    },
+    {
+      "raw": "Dry dredge:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup all-purpose flour",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp onion powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp paprika",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Egg wash:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6-8 large eggs",
+      "qty": 6,
+      "qtyMax": 8,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup dill pickle brine",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "dill pickle brine",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp heavy cream",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Parmesan breadcrumb coating:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups plain dry breadcrumbs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "plain dry breadcrumbs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup grated Parmesan cheese",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp dried basil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dried basil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Lemon herb Caesar dressing:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup mayonnaise",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 garlic cloves, minced",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp Worcestershire sauce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Worcestershire sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp Dijon mustard",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Dijon mustard",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp fresh lemon juice",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup freshly grated Parmesan cheese",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "freshly grated Parmesan cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp cracked black pepper",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cracked black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp fresh parsley, finely chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh parsley",
+      "prep": "finely chopped",
+      "note": null
+    },
+    {
+      "raw": "Garlic Parmesan baguettes:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 baguettes, split lengthwise",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "baguettes",
+      "prep": "split lengthwise",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup unsalted butter, melted",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "unsalted butter",
+      "prep": "melted",
+      "note": null
+    },
+    {
+      "raw": "3 garlic cloves, minced",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp fresh parsley, chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh parsley",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup grated Parmesan cheese",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Pinch of kosher salt",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "For serving:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 romaine hearts, chopped",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "romaine hearts",
+      "prep": "chopped",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Season the chicken cutlets on both sides with the kosher salt, garlic powder, onion powder, black pepper and paprika.",
+    "Set up three shallow bowls: whisk the dry dredge ingredients in the first, the eggs, pickle brine and cream in the second, and the breadcrumbs, Parmesan and basil in the third.",
+    "Heat about 2 in of oil in a large heavy pot or Dutch oven over medium-high heat to 350°F. Set a wire rack over a rimmed sheet pan.",
+    "Dredge each cutlet in the flour mixture and shake off the excess, dip it in the egg wash and let the excess drip off, then press it firmly into the Parmesan breadcrumbs on both sides.",
+    "Fry 2 or 3 cutlets at a time, 4 to 5 min per side, until deep golden brown and an instant-read thermometer reads 165°F in the thickest part. Drain on the rack and let the oil come back to 350°F between batches.",
+    "Preheat the oven to 425°F. Mix the melted butter, garlic, parsley, Parmesan and salt, and brush it generously over the cut sides of the baguettes.",
+    "Set the baguettes cut side up on a sheet pan and bake 6 to 8 min, until golden and toasted at the edges.",
+    "Whisk all the Caesar dressing ingredients together, then toss with the chopped romaine right before serving.",
+    "Cut each baguette into 3 pieces. Build each sandwich with 2 crispy cutlets and a pile of Caesar salad, and serve right away."
+  ],
+  "tips": [
+    "Pickle brine in the egg wash seasons the crust.",
+    "The dressing makes about 2 1/2 cups, more than the salad needs. Spread the extra on the baguettes or keep it covered in the fridge."
+  ],
+  "references": [
+    {
+      "url": "https://www.chilitochoc.com/chicken-caesar-sandwich/",
+      "site": "Chili to Choc",
+      "title": "Crispy Chicken Caesar Sandwich",
+      "usedFor": "fry time per side for breaded cutlets, romaine hearts per sandwich count",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://gimmedelicious.com/chicken-caesar-sandwiches/",
+      "site": "Gimme Delicious",
+      "title": "Chicken Caesar Sandwiches",
+      "usedFor": "garlic butter baguettes toasted cut side up for a few minutes in a hot oven",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

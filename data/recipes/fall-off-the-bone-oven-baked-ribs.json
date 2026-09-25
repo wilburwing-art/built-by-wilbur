@@ -3,23 +3,23 @@
   "name": "Fall Off the Bone Oven Baked Ribs",
   "category": "Dinner",
   "emoji": "🍖",
-  "desc": "Baby backs baked low under foil, then broiled with a quick homemade BBQ sauce",
-  "time": "3.5 hrs",
+  "desc": "Baby back ribs baked low under foil until tender, then broiled with a quick ketchup and Sriracha BBQ sauce.",
+  "time": "3 hrs 30 min",
   "minutes": 210,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.inspiredtaste.net/7179/sweet-and-spicy-oven-baked-ribs/",
+    "site": "Inspired Taste",
+    "title": "Easy Fall Off the Bone Oven Baked Ribs",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and amounts (2 to 2 1/2 lb baby backs; sauce of 1 tbsp oil, 1/4 cup onion, 1/2 tsp cumin, 1/2 cup ketchup, 1 tbsp Sriracha, 2 tbsp light brown sugar, 1 tbsp cider vinegar) and the same 275°F foil-covered bake.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://www.inspiredtaste.net/7179/sweet-and-spicy-oven-baked-ribs/"
   },
   "ingredients": [
     {
@@ -32,7 +32,7 @@
       "note": null
     },
     {
-      "raw": "2 to 2.5 lb baby back pork ribs",
+      "raw": "2 to 2 1/2 lb baby back pork ribs",
       "qty": 2,
       "qtyMax": 2.5,
       "unit": "lb",
@@ -41,7 +41,7 @@
       "note": null
     },
     {
-      "raw": "Salt and pepper to taste",
+      "raw": "Salt and black pepper, for seasoning generously",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -50,7 +50,7 @@
       "note": null
     },
     {
-      "raw": "Bbq Sauce:",
+      "raw": "BBQ sauce:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -68,7 +68,7 @@
       "note": null
     },
     {
-      "raw": "1/4 cup yellow onion, finely diced",
+      "raw": "1/4 cup finely diced yellow onion",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
@@ -95,21 +95,21 @@
       "note": null
     },
     {
-      "raw": "1 tbsp hot chili sauce (Sriracha)",
+      "raw": "1 tbsp hot chili sauce (such as Sriracha)",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "hot chili sauce (Sriracha)",
+      "item": "hot chili sauce",
       "prep": null,
-      "note": null
+      "note": "such as Sriracha"
     },
     {
-      "raw": "2 tbsp light brown sugar",
+      "raw": "2 tbsp packed light brown sugar",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "light brown sugar",
-      "prep": null,
+      "prep": "packed",
       "note": null
     },
     {
@@ -122,7 +122,7 @@
       "note": null
     },
     {
-      "raw": "Salt to taste",
+      "raw": "Salt, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -132,16 +132,23 @@
     }
   ],
   "steps": [
-    "Preheat oven to 275°F.",
-    "Remove the thin membrane from the back of the rack (slide a knife under it, then peel off with your fingers; use a kitchen towel if slippery).",
-    "Season both sides of ribs generously with salt and pepper.",
-    "Place ribs meatiest-side down in a roasting pan or rimmed baking sheet. Cut in half if needed to fit.",
-    "Cover tightly with foil (or wrap racks individually in foil packets).",
-    "Bake 2.5 to 3.5 hours until meat falls easily from the bone. Check at 2 hours. Test with a knife: no resistance = done.",
-    "While ribs bake, make the sauce: heat oil over medium, cook onion 5-8 min until soft. Add cumin, cook 30 sec. Add remaining sauce ingredients, stir, season with salt, cook 2 min. Set aside.",
-    "Remove ribs from oven, discard foil, brush both sides with BBQ sauce.",
-    "Move rack near top of oven, broil on high 3-4 min until sauce caramelizes. Watch closely."
+    "Preheat the oven to 275°F. Have ready a large roasting pan or rimmed baking sheet and aluminum foil.",
+    "Remove the thin membrane from the back of the rack: slide a knife under it at one end, then peel it off with your fingers (grip with a kitchen towel if it is slippery).",
+    "Season both sides of the ribs generously with salt and pepper.",
+    "Place the ribs meaty side down in the pan, cutting the rack in half if needed to fit. Cover tightly with foil, or wrap the racks individually in foil packets.",
+    "Bake 2 1/2 to 3 1/2 hours, checking at 2 hours, until the meat pulls easily from the bone and a knife slides in with no resistance.",
+    "While the ribs bake, make the sauce: Heat the oil in a small saucepan over medium heat and cook the onion until soft, 5-8 minutes. Add the cumin and cook 30 seconds. Stir in the ketchup, Sriracha, brown sugar, and vinegar, season with salt, and cook 2 minutes. Set aside.",
+    "Take the ribs out, discard the foil, and turn them meaty side up. Move an oven rack near the top and set the oven to broil on high.",
+    "Brush both sides of the ribs with the sauce and broil 3-4 minutes, watching closely, until the sauce bubbles and caramelizes."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.inspiredtaste.net/7179/sweet-and-spicy-oven-baked-ribs/",
+      "site": "Inspired Taste",
+      "title": "Easy Fall Off the Bone Oven Baked Ribs",
+      "usedFor": "servings, confirmed sauce amounts and 275°F bake",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

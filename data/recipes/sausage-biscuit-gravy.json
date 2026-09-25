@@ -3,28 +3,28 @@
   "name": "Sausage & Biscuit Gravy",
   "category": "Breakfast",
   "emoji": "🍳",
-  "desc": "Rich sausage gravy ladled over fluffy buttermilk biscuits",
+  "desc": "Creamy pork sausage gravy spooned over split buttermilk biscuits.",
   "time": "25 min",
   "minutes": 25,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.pillsbury.com/recipes/unbeatable-sausage-gravy-and-biscuits/3140d428-fb73-4e94-9c9b-ad2f3c7497ec",
+    "site": "Pillsbury",
+    "title": "Unbeatable Sausage Gravy and Biscuits",
+    "matchType": "closest",
+    "evidence": "Same dish built on a 16.3 oz can of Grands biscuits with a sausage, flour and milk gravy whisked until thick; Pillsbury uses 12 oz raw bulk sausage, 1/3 cup flour and 3 cups milk.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
       "raw": "1 (16.3 oz) can Pillsbury Grands refrigerated buttermilk biscuits (8 count)",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "can",
       "item": "Pillsbury Grands refrigerated buttermilk biscuits",
@@ -32,13 +32,13 @@
       "note": "16.3 oz; 8 count"
     },
     {
-      "raw": "1 (9.6 oz) package pork sausage crumbles",
-      "qty": 1,
+      "raw": "1 (9.6 oz) package fully cooked pork sausage crumbles",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "package",
-      "item": "pork sausage crumbles",
+      "item": "fully cooked pork sausage crumbles",
       "prep": null,
-      "note": "(9.6 oz)"
+      "note": "9.6 oz"
     },
     {
       "raw": "1/4 cup all-purpose flour",
@@ -50,16 +50,16 @@
       "note": null
     },
     {
-      "raw": "2 1/2 cups milk",
+      "raw": "2 1/2 cups whole milk",
       "qty": 2.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "milk",
+      "item": "whole milk",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Salt and pepper to taste",
+      "raw": "Salt and black pepper, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -69,12 +69,30 @@
     }
   ],
   "steps": [
-    "Bake biscuits according to package directions.",
-    "Cook sausage in a large skillet over medium heat 5-6 minutes, stirring frequently.",
-    "Stir in flour. Gradually add milk; cook until mixture boils and thickens, stirring constantly.",
-    "Reduce heat, simmer 2 minutes. Season with salt and pepper.",
-    "Split biscuits in half, top each with about 1/3 cup gravy."
+    "Bake the biscuits according to the can directions (Pillsbury bakes Grands at 375°F).",
+    "Meanwhile, cook the sausage crumbles in a large skillet over medium heat, stirring often, until hot and lightly browned, 5 to 6 minutes.",
+    "Sprinkle the flour over the sausage and stir until no dry flour remains, about 1 minute.",
+    "Gradually stir in the milk. Cook, stirring constantly, until the gravy comes to a boil and thickens.",
+    "Reduce the heat to medium-low and simmer 2 minutes, stirring. Season with salt and pepper.",
+    "Split the warm biscuits and spoon about 1/3 cup gravy over each biscuit."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Precooked crumbles release little fat, so if the flour looks dry and clumpy, stir in 1 tbsp butter or oil before adding the milk."
+  ],
+  "references": [
+    {
+      "url": "https://www.pillsbury.com/recipes/unbeatable-sausage-gravy-and-biscuits/3140d428-fb73-4e94-9c9b-ad2f3c7497ec",
+      "site": "Pillsbury",
+      "title": "Unbeatable Sausage Gravy and Biscuits",
+      "usedFor": "375°F biscuit bake, whisking the flour in before the milk",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.jimmydean.com/recipes/breakfast/creamy-sausage-gravy",
+      "site": "Jimmy Dean",
+      "title": "Sausage Gravy: Easy and Creamy",
+      "usedFor": "topping up the drippings with oil to 1 tbsp before the flour",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

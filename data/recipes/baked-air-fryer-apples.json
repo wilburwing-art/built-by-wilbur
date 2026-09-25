@@ -1,0 +1,127 @@
+{
+  "slug": "baked-air-fryer-apples",
+  "name": "Baked Air Fryer Apples",
+  "category": "Desserts",
+  "emoji": "🍎",
+  "desc": "Honeycrisp apple halves filled with buttery oats, brown sugar and walnuts and air fried until tender.",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C_a5ZFCJMN6/",
+    "site": "Instagram @myforkinglife",
+    "title": "Baked Air Fryer Apples",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://www.myforkinglife.com/baked-air-fryer-apples/"
+  },
+  "ingredients": [
+    {
+      "raw": "2 Honeycrisp apples",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "Honeycrisp apples",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 tbsp unsalted butter, softened",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": "softened",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp old-fashioned oats",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "old-fashioned oats",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp packed light brown sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "packed light brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp chopped walnuts",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "walnuts",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp ground cinnamon",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/8 tsp ground nutmeg",
+      "qty": 0.125,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground nutmeg",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pinch fine salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Vanilla ice cream or whipped cream, for serving",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Cut the apples in half from stem to bottom. With a paring knife, spoon or melon baller, remove the core, stem and some of the flesh to make a hollow.",
+    "In a bowl, stir the butter, oats, brown sugar, walnuts, cinnamon, nutmeg and salt until combined.",
+    "Divide the filling among the apple halves.",
+    "Set the halves in the air fryer basket in a single layer. Air fry at 350°F for 20-25 min, until a fork slides into the apple easily and the topping is toasted. (Oven: 375°F, about 40 min.)",
+    "Serve warm with ice cream or whipped cream."
+  ],
+  "tips": [
+    "Granny Smith or Fuji also work. Do not cut the apples too far ahead or they brown; the filling can be mixed ahead and refrigerated.",
+    "Reheat leftovers in the air fryer at 370°F for 3-4 min."
+  ],
+  "references": [
+    {
+      "url": "https://www.myforkinglife.com/baked-air-fryer-apples/",
+      "site": "My Forking Life",
+      "title": "Baked Air Fryer Apples",
+      "usedFor": "full measured recipe, fork-tender cue, oven method, 4 servings",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

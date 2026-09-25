@@ -3,32 +3,32 @@
   "name": "Chipotle Fajita Quesadilla",
   "category": "Lunch",
   "emoji": "🫔",
-  "desc": "Steak and peppers folded in a cheesy tortilla with chipotle crema",
-  "time": "30 min",
-  "minutes": 30,
+  "desc": "Steak and fajita peppers folded into a cheesy tortilla, oven-crisped, with a chipotle sour cream dip.",
+  "time": "35 min",
+  "minutes": 35,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.yellowblissroad.com/chipotle-steak-quesadilla/",
+    "site": "Yellow Bliss Road",
+    "title": "Copycat Chipotle Steak Quesadillas",
+    "matchType": "closest",
+    "evidence": "Same copycat of Chipotle's fajita quesadilla: steak with cumin and smoked paprika, sliced onion and bell pepper, Monterey Jack, and a dip of sour cream stirred into chipotle honey vinaigrette.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 2,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "2 tbsp extra-virgin olive oil, plus more for brushing",
-      "qty": 2,
+      "raw": "2 tbsp extra-virgin olive oil, divided, plus more for brushing",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "extra-virgin olive oil",
-      "prep": "plus more for brushing",
+      "prep": "divided, plus more for brushing",
       "note": null
     },
     {
@@ -59,12 +59,12 @@
       "note": null
     },
     {
-      "raw": "Kosher salt, a pinch",
-      "qty": null,
+      "raw": "1 pinch kosher salt, for the vegetables",
+      "qty": 1.0,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
+      "unit": "pinch",
+      "item": "kosher salt",
+      "prep": "for the vegetables",
       "note": null
     },
     {
@@ -74,6 +74,15 @@
       "unit": "lb",
       "item": "sirloin steak",
       "prep": "cut into 1-inch pieces",
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp kosher salt, for the steak",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": "for the steak",
       "note": null
     },
     {
@@ -104,17 +113,17 @@
       "note": null
     },
     {
-      "raw": "2 (12-inch) tortillas",
-      "qty": 2,
+      "raw": "2 (12-inch) flour tortillas",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": null,
-      "item": "tortillas",
+      "item": "flour tortillas",
       "prep": null,
       "note": "12-inch"
     },
     {
       "raw": "2 cups shredded Monterey Jack cheese",
-      "qty": 2,
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "cup",
       "item": "shredded Monterey Jack cheese",
@@ -122,22 +131,51 @@
       "note": null
     },
     {
-      "raw": "Creamy chipotle dip: 1/4 cup sour cream stirred with 1/4 cup chipotle honey vinaigrette (store-bought or homemade)",
+      "raw": "Creamy chipotle dip:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
       "item": null,
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1/4 cup sour cream",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sour cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup chipotle honey vinaigrette (store-bought or homemade)",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chipotle honey vinaigrette",
+      "prep": null,
+      "note": "store-bought or homemade"
     }
   ],
   "steps": [
-    "Heat 1 tbsp oil in a skillet over medium-high. Cook the onion and peppers with a pinch of salt until softened and browned, about 15 minutes. Set aside.",
-    "Preheat the oven to 450°F. Heat the remaining oil and cook the steak with the cumin, paprika, and chili powder until browned, 3-4 minutes.",
-    "Brush one side of each tortilla with oil and lay it oiled side down. Layer cheese, fajita veggies, steak, and more cheese on one half, then fold in half.",
-    "Bake on a parchment-lined sheet about 8 minutes, flipping halfway, until golden and melty.",
-    "Stir the sour cream and chipotle vinaigrette together and serve with the quesadillas for dipping."
+    "Heat 1 tbsp oil in a large skillet over medium-high heat. Cook the onion and peppers with the pinch of salt, stirring occasionally, until soft and browned in spots, about 15 minutes. Transfer to a plate.",
+    "Preheat the oven to 450°F and line a baking sheet with parchment.",
+    "Heat the remaining 1 tbsp oil in the same skillet over medium-high heat. Add the steak, salt, cumin, paprika, and chili powder and cook, stirring, until browned outside, 3 to 4 minutes.",
+    "Brush one side of each tortilla with oil and lay them oiled side down on the baking sheet. Over one half of each, layer 1/2 cup cheese, half the vegetables, half the steak, and another 1/2 cup cheese, then fold in half.",
+    "Bake until golden and the cheese is melted, about 8 minutes, flipping halfway through.",
+    "Stir the sour cream and chipotle vinaigrette together. Cut the quesadillas into wedges and serve with the dip."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Yellow Bliss Road marinates the steak in adobo and crisps the quesadillas in a skillet over medium-low heat, 2 to 4 minutes per side, if you would rather skip the oven."
+  ],
+  "references": [
+    {
+      "url": "https://www.yellowblissroad.com/chipotle-steak-quesadilla/",
+      "site": "Yellow Bliss Road",
+      "title": "Copycat Chipotle Steak Quesadillas",
+      "usedFor": "skillet alternative and timing, sour cream and vinaigrette dip",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

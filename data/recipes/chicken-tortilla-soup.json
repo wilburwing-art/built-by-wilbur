@@ -1,0 +1,227 @@
+{
+  "slug": "chicken-tortilla-soup",
+  "name": "Chicken Tortilla Soup",
+  "category": "Dinner",
+  "emoji": "🌮",
+  "desc": "Big-batch chicken tortilla soup with fire-roasted tomatoes, black beans and corn.",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C_yYWh6S7ni/",
+    "site": "Instagram @fitness4lazygirls",
+    "title": "Chicken Tortilla Soup",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 8,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 tbsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large yellow onion, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large yellow onion",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "3-5 garlic cloves, minced",
+      "qty": 3,
+      "qtyMax": 5,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1 jalapeño, seeded and diced (optional)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "jalapeño",
+      "prep": "seeded and diced",
+      "note": "optional"
+    },
+    {
+      "raw": "2-4 large boneless skinless chicken breasts (about 1 1/2 to 3 lb)",
+      "qty": 2,
+      "qtyMax": 4,
+      "unit": null,
+      "item": "large boneless skinless chicken breasts",
+      "prep": null,
+      "note": "about 1 1/2 to 3 lb"
+    },
+    {
+      "raw": "2 tsp paprika",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp ground cumin",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tsp kosher salt, plus more to taste",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": "plus more to taste",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (28 oz) can fire-roasted crushed tomatoes",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "fire-roasted crushed tomatoes",
+      "prep": null,
+      "note": "28 oz"
+    },
+    {
+      "raw": "1 (32 oz) carton chicken broth",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "chicken broth",
+      "prep": null,
+      "note": "32 oz carton"
+    },
+    {
+      "raw": "2 (15 oz) cans black beans, drained and rinsed",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "black beans",
+      "prep": "drained and rinsed",
+      "note": "15 oz"
+    },
+    {
+      "raw": "1 (10-12 oz) bag frozen fire-roasted corn",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "bag",
+      "item": "frozen fire-roasted corn",
+      "prep": null,
+      "note": "10-12 oz"
+    },
+    {
+      "raw": "Toppings:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 avocado, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "avocado",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup chopped fresh cilantro",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh cilantro",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "4 oz tortilla chips, lightly crushed",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "tortilla chips",
+      "prep": "lightly crushed",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup plain Greek yogurt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "plain Greek yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded Monterey Jack or cheddar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded Monterey Jack or cheddar",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the olive oil in a large pot over medium heat. Cook the onion 3-5 min until softened, then add the garlic and jalapeño and cook 1 min.",
+    "Add the whole chicken breasts, paprika, cumin, garlic powder, salt and pepper and stir to coat.",
+    "Add the crushed tomatoes and broth, cover, and bring to a boil. Boil gently 15 min.",
+    "Add the black beans and corn and boil 10 min more, until the chicken reaches 165°F in the thickest part.",
+    "Lift out the chicken, shred it in a bowl with two forks, and return it to the pot. Taste and add salt; this soup needs more seasoning than you expect.",
+    "Serve with avocado, cilantro, tortilla chips, Greek yogurt and cheese."
+  ],
+  "tips": [
+    "8 servings: 325 cal and 35g protein each.",
+    "The creator says to be generous with the spices; the amounts here are a starting point, so taste before serving."
+  ],
+  "references": [
+    {
+      "url": "https://www.cookingclassy.com/chicken-tortilla-soup/",
+      "site": "Cooking Classy",
+      "title": "Chicken Tortilla Soup",
+      "usedFor": "cumin amount, 32 oz broth carton, topping amounts for cilantro, tortilla chips and cheese",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

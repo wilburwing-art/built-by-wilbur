@@ -1,0 +1,79 @@
+{
+  "slug": "cream-fried-eggs",
+  "name": "Cream-Fried Eggs",
+  "category": "Breakfast",
+  "emoji": "🍳",
+  "desc": "Eggs fried in heavy cream that cooks down to browned butter, for crisp buttery edges.",
+  "time": "10 min",
+  "minutes": 10,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DGTTZBDPsbI/",
+    "site": "Instagram @ourbestbites",
+    "title": "Cream-Fried Eggs",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 1,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3 tbsp heavy cream",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 large eggs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Pour the cream into an 8-inch nonstick skillet that has a lid and set it over medium heat.",
+    "Let the cream simmer, stirring now and then, about 2 to 3 minutes until the water cooks off, the bubbles get small and the cream separates into butterfat and golden milk solids.",
+    "Turn the heat to medium-low, crack in the eggs and season with salt and pepper. Cook 1 to 2 minutes until the whites are set on the bottom and the edges are brown and crisp.",
+    "Cover and cook 1 to 2 minutes more, until the tops of the whites are set and the yolks are done the way you like them."
+  ],
+  "tips": [
+    "Use heavy cream; lighter creams have too little fat to fry in.",
+    "Add a splash more cream if the pan goes dry before the eggs are done."
+  ],
+  "references": [
+    {
+      "url": "https://stemandspoon.com/cream-fried-eggs-recipe/",
+      "site": "Stem and Spoon",
+      "title": "Cream Fried Eggs",
+      "usedFor": "medium heat, simmer time before adding eggs, lower heat, lid time and doneness cues",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://styleblueprint.com/everyday/recipe-amazing-fried-eggs-made-with-cream/",
+      "site": "StyleBlueprint",
+      "title": "Fried Eggs in Cream",
+      "usedFor": "8-inch skillet for two eggs, adding more cream if it runs dry",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

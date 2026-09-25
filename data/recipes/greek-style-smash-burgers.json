@@ -1,0 +1,292 @@
+{
+  "slug": "greek-style-smash-burgers",
+  "name": "Greek-Style Smash Burgers",
+  "category": "Dinner",
+  "emoji": "🍔",
+  "desc": "Mint and oregano lamb smashed straight onto pita on a hot griddle, topped with feta, vegetables and tzatziki.",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C-8u_F-SU3u/",
+    "site": "Instagram @broccyourbody",
+    "title": "Greek-Style Smash Burgers",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://broccyourbody.com/greek-style-smash-burgers/"
+  },
+  "ingredients": [
+    {
+      "raw": "Tzatziki:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 medium cucumber, grated",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium cucumber",
+      "prep": "grated",
+      "note": null
+    },
+    {
+      "raw": "3/4 cup plain Greek yogurt",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "plain Greek yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 garlic clove, minced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic clove",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "Juice of 1 lemon",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp fresh dill, chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh dill",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp fresh mint, chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh mint",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp extra-virgin olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "extra-virgin olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp kosher salt, plus more to taste",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": "plus more to taste",
+      "note": null
+    },
+    {
+      "raw": "Burgers:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lb ground lamb (or 80/20 ground beef)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "ground lamb",
+      "prep": null,
+      "note": "or 80/20 ground beef"
+    },
+    {
+      "raw": "1/2 red onion, grated or finely minced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red onion",
+      "prep": "grated or finely minced",
+      "note": null
+    },
+    {
+      "raw": "3 garlic cloves, minced",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp fresh mint, chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh mint",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 tsp kosher salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp dried oregano",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp paprika",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 pita breads",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "pita breads",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil, for the griddle",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": "for the griddle",
+      "note": null
+    },
+    {
+      "raw": "Toppings:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded romaine lettuce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded romaine lettuce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 medium tomato, sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium tomato",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1/2 medium cucumber, sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium cucumber",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1/4 red onion, thinly sliced",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red onion",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup crumbled feta",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "crumbled feta",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp za'atar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "za'atar",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Tzatziki: grate the cucumber on the large holes of a box grater, then wring out the liquid in a kitchen towel.",
+    "In a medium bowl, mix the cucumber, yogurt, lemon juice, dill, mint, garlic, olive oil and salt. Cover and refrigerate (keeps up to 3 days).",
+    "Burgers: mix the meat with the onion, garlic, mint, salt, pepper, oregano and paprika until fully combined. Roll into 4 balls.",
+    "Heat a flat-top griddle or cast iron pan over medium-high heat and oil it well.",
+    "Set a meatball on the hot surface, lay a pita on top, and smash down hard with a heavy pan or burger press until as flat as you can get it.",
+    "Cook 3-4 minutes, until the meat is crispy and cooked through (160°F). Flip and cook about 1 minute, until the pita is golden. Repeat with the rest.",
+    "Top with lettuce, tomato, cucumber, red onion, feta, za'atar and tzatziki."
+  ],
+  "tips": [
+    "Smash the pita directly onto the meat so they fuse (the method @chilesandsmoke made viral).",
+    "The blog version cooks 4-5 minutes before flipping; go longer if your patties are thicker.",
+    "Instead of smashing a ball, you can spread the raw meat thinly over the pita and lay it meat side down."
+  ],
+  "references": [
+    {
+      "url": "https://broccyourbody.com/greek-style-smash-burgers/",
+      "site": "BroccYourBody",
+      "title": "Greek-Style Smash Burgers",
+      "usedFor": "confirmed amounts, 4 pitas, oiled griddle, alternative spread method, 4 servings",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

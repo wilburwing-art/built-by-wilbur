@@ -3,42 +3,42 @@
   "name": "Mixed Berry Bright Sorbet",
   "category": "Desserts",
   "emoji": "🍓",
-  "desc": "Ninja Creami sorbet, zingy and light, heavy on strawberry and peach",
-  "time": "24 hrs",
-  "minutes": 1440,
+  "desc": "A light, tart Ninja Creami sorbet built on strawberries and peaches.",
+  "time": "25 hrs",
+  "minutes": 1500,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
     "url": null,
     "site": null,
     "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "matchType": "none",
+    "evidence": "Searched Ninja Creami mixed berry sorbet recipes (Food Banjo, I Dream of Ice Cream, Detoxinista, Recipes From A Pantry); none use this fruit combination and gram ratio, which reads as the owner's own formula.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "250 g frozen mixed fruit, heavy on strawberries and peach",
+      "raw": "250 g frozen mixed fruit, mostly strawberries and peaches",
       "qty": 250,
       "qtyMax": null,
       "unit": "g",
-      "item": "frozen mixed fruit, heavy on strawberries and peach",
+      "item": "frozen mixed fruit",
       "prep": null,
-      "note": null
+      "note": "mostly strawberries and peaches"
     },
     {
-      "raw": "100 g watermelon (or mango for a less icy result)",
+      "raw": "100 g seedless watermelon, cubed (or mango for a less icy result)",
       "qty": 100,
       "qtyMax": null,
       "unit": "g",
-      "item": "watermelon (or mango for a less icy result)",
-      "prep": null,
-      "note": null
+      "item": "seedless watermelon",
+      "prep": "cubed",
+      "note": "or mango for a less icy result"
     },
     {
       "raw": "80 to 90 g granulated sugar",
@@ -50,11 +50,11 @@
       "note": null
     },
     {
-      "raw": "1.5 tbsp lemon juice",
+      "raw": "1 1/2 tbsp fresh lemon juice",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "lemon juice",
+      "item": "fresh lemon juice",
       "prep": null,
       "note": null
     },
@@ -63,17 +63,41 @@
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "vodka (optional",
-      "prep": "for scoopability)",
+      "item": "vodka",
+      "prep": null,
+      "note": "optional, for scoopability"
+    },
+    {
+      "raw": "1-2 tbsp water or fruit juice, for re-spinning",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "tbsp",
+      "item": "water or fruit juice",
+      "prep": "for re-spinning",
       "note": null
     }
   ],
   "steps": [
-    "Blend everything until smooth.",
-    "Chill, then pour into a Ninja Creami pint container.",
-    "Freeze flat for 24 hours.",
-    "Spin on the Sorbet setting, then re-spin with a splash of juice if needed."
+    "Blend the frozen fruit, watermelon, sugar, lemon juice and vodka (if using) until smooth and the sugar has dissolved.",
+    "Refrigerate about 30 minutes, then pour into a Ninja Creami pint container, no higher than the max fill line.",
+    "Lid the pint and freeze on a level surface for 24 hours, until solid.",
+    "Spin on the Sorbet setting. If it is crumbly, add 1-2 tbsp water or juice and Re-spin."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.foodbanjo.com/ninja-creami-mango-sorbet/",
+      "site": "Food Banjo",
+      "title": "Ninja Creami Mango Sorbet",
+      "usedFor": "blend then freeze at least 18 hours on a level surface, splash of liquid before a re-spin",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://idreamoficecream.com/easy-ninja-creami-mango-sorbet/",
+      "site": "I Dream of Ice Cream",
+      "title": "Easy Ninja Creami Mango Sorbet",
+      "usedFor": "max fill line, 24 hour level freeze, Re-spin when crumbly",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

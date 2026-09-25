@@ -3,36 +3,36 @@
   "name": "Easy Chicken Pasta",
   "category": "Dinner",
   "emoji": "🍝",
-  "desc": "Penne with chicken, broccoli and canned tomatoes in one skillet",
+  "desc": "Whole-grain penne tossed in one skillet with garlicky chicken, broccoli and seasoned canned tomatoes.",
   "time": "30 min",
   "minutes": 30,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.justapinch.com/recipes/easy-chicken-pasta.html",
+    "site": "Just A Pinch",
+    "title": "Easy Chicken Pasta",
+    "matchType": "closest",
+    "evidence": "Identical ingredient list and amounts (12 oz chicken, 6 oz multigrain penne, 2 cups broccoli, a 14.5 oz can of diced tomatoes with green pepper, celery and onions) and the same four steps; the original publisher is not named on the page.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "12 ounces skinless, boneless chicken breast halves",
+      "raw": "12 oz boneless skinless chicken breasts, cut into bite-size strips",
       "qty": 12,
       "qtyMax": null,
       "unit": "oz",
-      "item": "skinless, boneless chicken breast halves",
-      "prep": null,
+      "item": "boneless skinless chicken breasts",
+      "prep": "cut into bite-size strips",
       "note": null
     },
     {
-      "raw": "6 ounces dried multigrain or whole-grain penne pasta",
+      "raw": "6 oz dried multigrain or whole-grain penne pasta",
       "qty": 6,
       "qtyMax": null,
       "unit": "oz",
@@ -41,7 +41,7 @@
       "note": null
     },
     {
-      "raw": "1 tablespoon olive oil or canola oil",
+      "raw": "1 tbsp olive oil or canola oil",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
@@ -50,7 +50,7 @@
       "note": null
     },
     {
-      "raw": "4 cloves garlic, minced",
+      "raw": "4 garlic cloves, minced",
       "qty": 4,
       "qtyMax": null,
       "unit": "clove",
@@ -59,11 +59,11 @@
       "note": null
     },
     {
-      "raw": "1/4 tsp crushed red pepper",
+      "raw": "1/4 tsp crushed red pepper flakes",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "crushed red pepper",
+      "item": "crushed red pepper flakes",
       "prep": null,
       "note": null
     },
@@ -77,39 +77,48 @@
       "note": null
     },
     {
-      "raw": "1 (14.5 ounce) can diced tomatoes with green pepper, celery and onions, undrained",
+      "raw": "1 (14.5 oz) can diced tomatoes with green pepper, celery, and onions, undrained",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
-      "item": "diced tomatoes with green pepper, celery and onions, undrained",
-      "prep": null,
-      "note": "(14.5 ounce)"
+      "item": "diced tomatoes with green pepper, celery, and onions",
+      "prep": "undrained",
+      "note": "14.5 oz"
     },
     {
-      "raw": "1 tablespoon snipped fresh basil or oregano",
+      "raw": "1 tbsp snipped fresh basil or oregano",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "snipped fresh basil or oregano",
-      "prep": null,
+      "item": "fresh basil or oregano",
+      "prep": "snipped",
       "note": null
     },
     {
-      "raw": "1 pinch Shaved Parmesan cheese",
-      "qty": 1,
+      "raw": "1/4 cup shaved Parmesan cheese (optional)",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": "pinch",
-      "item": "Shaved Parmesan cheese",
-      "prep": null,
-      "note": null
+      "unit": "cup",
+      "item": "Parmesan cheese",
+      "prep": "shaved",
+      "note": "optional"
     }
   ],
   "steps": [
-    "Cut chicken into bite-size strips; set aside. Cook pasta according to package directions. Drain.",
-    "Meanwhile, in a large nonstick skillet, heat oil over medium-high heat. Add garlic and crushed red pepper; cook and stir for 30 seconds. Add broccoli; cook and stir for 3 minutes more. Remove broccoli from skillet.",
-    "Add chicken to the hot skillet; cook and stir for 3 to 4 minutes or until no longer pink. Return broccoli to the skillet. Add undrained tomatoes and drained pasta. Cook, stirring occasionally, until heated through.",
-    "To serve, divide mixture among four shallow bowls. Sprinkle with basil or oregano and, if desired, Parmesan cheese."
+    "Cook the pasta in a pot of salted boiling water according to the package directions. Drain.",
+    "Meanwhile, heat the oil in a large nonstick skillet over medium-high heat. Add the garlic and red pepper flakes and cook, stirring, for 30 seconds. Add the broccoli and cook, stirring, 3 minutes more. Remove the broccoli from the skillet.",
+    "Add the chicken to the hot skillet and cook, stirring, 3-4 minutes, until no longer pink and 165°F inside.",
+    "Return the broccoli to the skillet and add the tomatoes with their juice and the drained pasta. Cook, stirring occasionally, until heated through, 2-3 minutes.",
+    "Divide among 4 shallow bowls and sprinkle with the basil or oregano and the Parmesan."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.justapinch.com/recipes/easy-chicken-pasta.html",
+      "site": "Just A Pinch",
+      "title": "Easy Chicken Pasta",
+      "usedFor": "confirmed amounts; four-bowl serving count",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

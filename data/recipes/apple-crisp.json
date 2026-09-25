@@ -3,33 +3,33 @@
   "name": "Apple Crisp",
   "category": "Desserts",
   "emoji": "🍎",
-  "desc": "Warm baked apples under a buttery oat-cinnamon crumble",
-  "time": "45 min",
-  "minutes": 45,
+  "desc": "Sliced tart apples baked under a brown sugar, oat and nutmeg crumble.",
+  "time": "50 min",
+  "minutes": 50,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.bettycrocker.com/recipes/apple-crisp/3715a45c-3c00-430c-bbe2-9865f9013238",
+    "site": "Betty Crocker",
+    "title": "Apple Crisp",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and amounts (4 tart apples, 3/4 cup brown sugar, 1/2 cup each flour and oats, 1/3 cup butter, 3/4 tsp each cinnamon and nutmeg) and the same 375°F, 30 minute bake.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 6,
+    "basis": "publisher",
+    "source": "https://www.bettycrocker.com/recipes/apple-crisp/3715a45c-3c00-430c-bbe2-9865f9013238"
   },
   "ingredients": [
     {
-      "raw": "4 medium tart cooking apples, sliced (about 4 cups)",
+      "raw": "4 medium tart cooking apples such as Granny Smith (about 1 1/2 lb), cored and sliced 1/2 inch thick (about 4 cups)",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
       "item": "medium tart cooking apples",
-      "prep": "sliced",
-      "note": "about 4 cups"
+      "prep": "cored and sliced 1/2 inch thick",
+      "note": "such as Granny Smith; about 1 1/2 lb, 4 cups sliced"
     },
     {
       "raw": "3/4 cup packed brown sugar",
@@ -50,20 +50,20 @@
       "note": null
     },
     {
-      "raw": "1/2 cup quick-cooking or old-fashioned oats",
+      "raw": "1/2 cup quick-cooking or old-fashioned rolled oats",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "quick-cooking or old-fashioned oats",
+      "item": "quick-cooking or old-fashioned rolled oats",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/3 cup butter, softened",
+      "raw": "1/3 cup salted butter, softened",
       "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
-      "item": "butter",
+      "item": "salted butter",
       "prep": "softened",
       "note": null
     },
@@ -84,13 +84,41 @@
       "item": "ground nutmeg",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "Butter or shortening, for greasing the pan",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Vanilla ice cream, for serving (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
     }
   ],
   "steps": [
-    "Preheat to 375°F. Grease an 8-inch dish.",
-    "Spread apples. Mix remaining ingredients; sprinkle over apples.",
-    "Bake about 30 minutes until golden."
+    "Preheat the oven to 375°F. Grease the bottom and sides of an 8-inch square (2-quart) baking dish.",
+    "Peel the apples if you like, core them, and cut into 1/2-inch slices. Spread them in an even layer in the dish.",
+    "In a medium bowl, mix the brown sugar, flour, oats, butter, cinnamon and nutmeg with a fork or pastry blender until it looks like coarse crumbs. Sprinkle evenly over the apples.",
+    "Bake about 30 minutes, until the topping is golden brown and the apples are tender when pierced with a fork.",
+    "Cool 10 minutes, then serve warm with ice cream."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.bettycrocker.com/recipes/apple-crisp/3715a45c-3c00-430c-bbe2-9865f9013238",
+      "site": "Betty Crocker",
+      "title": "Apple Crisp",
+      "usedFor": "pan size and prep, apple weight and slice thickness, salted butter, bake doneness cue, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

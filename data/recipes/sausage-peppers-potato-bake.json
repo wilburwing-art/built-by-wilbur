@@ -3,99 +3,117 @@
   "name": "Sausage, Peppers & Potato Bake",
   "category": "Dinner",
   "emoji": "🌶️",
-  "desc": "Italian sausage with bell peppers, onions, and potatoes roasted together",
+  "desc": "Browned Italian sausage, potatoes, bell peppers, and onions baked together in white wine and chicken stock.",
   "time": "1 hr",
   "minutes": 60,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/214500/sausage-peppers-onions-and-potato-bake/",
+    "site": "Allrecipes",
+    "title": "Sausage, Peppers, Onions, and Potato Bake",
+    "matchType": "closest",
+    "evidence": "Every ingredient and amount matches this page (2 lb Italian sausage, 4 large potatoes, 2 green and 2 red peppers, 3 large onions, 1/2 cup each wine and stock, 1 tsp Italian seasoning), as do the brown-then-bake method and 400°F oven.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 8,
+    "basis": "publisher",
+    "source": "https://www.allrecipes.com/recipe/214500/sausage-peppers-onions-and-potato-bake/"
   },
   "ingredients": [
     {
-      "raw": "2 tsp + 1/4 cup olive oil",
+      "raw": "2 tsp olive oil, for the sausage",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "+ 1/4 cup olive oil",
+      "item": "olive oil",
       "prep": null,
-      "note": null
+      "note": "for the sausage"
     },
     {
-      "raw": "2 lbs Italian sausage, 2-inch pieces",
+      "raw": "2 lb sweet or hot Italian sausage links, cut into 2-inch pieces",
       "qty": 2,
       "qtyMax": null,
       "unit": "lb",
-      "item": "Italian sausage, 2-inch pieces",
-      "prep": null,
-      "note": null
+      "item": "Italian sausage links",
+      "prep": "cut into 2-inch pieces",
+      "note": "sweet or hot"
     },
     {
-      "raw": "4 large potatoes, thickly sliced",
+      "raw": "1/4 cup olive oil, for the potatoes",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": "for the potatoes"
+    },
+    {
+      "raw": "4 large russet potatoes, peeled and cut into 1/2-inch slices",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
-      "item": "large potatoes, thickly sliced",
-      "prep": null,
+      "item": "large russet potatoes",
+      "prep": "peeled and cut into 1/2-inch slices",
       "note": null
     },
     {
-      "raw": "2 green + 2 red bell peppers, wedges",
+      "raw": "2 large green bell peppers, seeded and cut into wedges",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "green + 2 red bell peppers, wedges",
-      "prep": null,
+      "item": "large green bell peppers",
+      "prep": "seeded and cut into wedges",
       "note": null
     },
     {
-      "raw": "3 large yellow onions, wedges",
+      "raw": "2 large red bell peppers, seeded and cut into wedges",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large red bell peppers",
+      "prep": "seeded and cut into wedges",
+      "note": null
+    },
+    {
+      "raw": "3 large yellow onions, cut into wedges",
       "qty": 3,
       "qtyMax": null,
       "unit": null,
       "item": "large yellow onions",
-      "prep": "wedges",
+      "prep": "cut into wedges",
       "note": null
     },
     {
-      "raw": "1/2 cup white wine",
+      "raw": "1/2 cup dry white wine",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "white wine",
+      "item": "dry white wine",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 cup chicken stock",
+      "raw": "1/2 cup low-sodium chicken stock",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "chicken stock",
+      "item": "low-sodium chicken stock",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tsp Italian seasoning",
+      "raw": "1 tsp dried Italian seasoning",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "Italian seasoning",
+      "item": "dried Italian seasoning",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Salt and pepper",
+      "raw": "Kosher salt and black pepper, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -105,11 +123,30 @@
     }
   ],
   "steps": [
-    "Preheat oven to 400°F. Brown sausage in 2 tsp oil. Transfer to baking dish.",
-    "Brown potatoes in 1/4 cup oil about 10 min. Add to dish.",
-    "Cook peppers and onions until softening, about 5 min. Add to dish.",
-    "Pour wine and stock over everything. Season. Bake 20-25 minutes."
+    "Preheat the oven to 400°F.",
+    "Heat the 2 tsp olive oil in a large skillet over medium heat. Cook the sausage, turning, until browned on all sides, 6-8 min. Move it to a large baking dish or roasting pan (a 9x13 in dish will be very full; a larger pan is better).",
+    "Pour the 1/4 cup olive oil into the same skillet and cook the potato slices, stirring now and then, until browned, about 10 min. Add them to the baking dish, leaving some oil behind.",
+    "Cook the green and red peppers and onions in the skillet, stirring, until they begin to soften, about 5 min. Add them to the dish.",
+    "Pour the wine and stock over everything, sprinkle with the Italian seasoning, salt, and pepper, and stir gently to mix.",
+    "Bake until bubbling, the potatoes are tender when pierced, and the sausage reads 160°F inside, 20-25 min. Serve hot."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Work in batches if the skillet is crowded; potatoes piled up steam instead of browning."
+  ],
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/214500/sausage-peppers-onions-and-potato-bake/",
+      "site": "Allrecipes",
+      "title": "Sausage, Peppers, Onions, and Potato Bake",
+      "usedFor": "yield",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.justapinch.com/recipes/sausage-peppers-onions-and-potato-bake.html",
+      "site": "Just A Pinch",
+      "title": "Sausage, Peppers, Onions, and Potato Bake",
+      "usedFor": "step text of the same recipe: heat levels, potato and pepper cook times, 20-25 min bake",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

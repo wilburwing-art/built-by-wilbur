@@ -3,33 +3,33 @@
   "name": "Hash Browns",
   "category": "Breakfast",
   "emoji": "🥔",
-  "desc": "Crispy shredded potatoes with onion, pan-fried until golden",
-  "time": "20 min",
-  "minutes": 20,
+  "desc": "Crispy shredded potato and onion hash browns bound with egg and a little flour.",
+  "time": "30 min",
+  "minutes": 30,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/57783/emilys-famous-hash-browns/",
+    "site": "Allrecipes",
+    "title": "Emily's Famous Hash Browns",
+    "matchType": "closest",
+    "evidence": "Identical ingredient list (2 medium russets, 1/2 onion, 1/4 cup flour, 1 egg, 1 cup oil) and the same rinse, squeeze and 1/2-inch-layer fry, read through a Punchfork copy because allrecipes.com blocked direct reads.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "2 medium russet potatoes, shredded",
-      "qty": 2,
+      "raw": "2 medium russet potatoes (about 1 lb), peeled and shredded",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": null,
       "item": "medium russet potatoes",
-      "prep": "shredded",
-      "note": null
+      "prep": "peeled and shredded",
+      "note": "about 1 lb"
     },
     {
       "raw": "1/2 medium yellow onion, finely chopped",
@@ -50,25 +50,25 @@
       "note": null
     },
     {
-      "raw": "1 egg",
-      "qty": 1,
+      "raw": "1 large egg",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
-      "item": "egg",
+      "item": "large egg",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 cup oil for frying",
-      "qty": 1,
+      "raw": "1 cup vegetable or canola oil, for frying",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "cup",
-      "item": "oil for frying",
-      "prep": null,
+      "item": "vegetable or canola oil",
+      "prep": "for frying",
       "note": null
     },
     {
-      "raw": "Salt, pepper, paprika, cayenne to taste",
+      "raw": "Salt, black pepper, paprika, and cayenne, to taste, for finishing",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -78,11 +78,29 @@
     }
   ],
   "steps": [
-    "Rinse shredded potatoes until water is clear, then drain and squeeze dry. Mix with onion, flour, and egg.",
-    "Heat about 1/4 inch of oil in a heavy skillet over medium-high heat.",
-    "Place potatoes in pan in a 1/2 inch thick layer. Cook until nicely browned on bottom, then flip. About 5 minutes per side.",
-    "Drain on paper towels. Season and serve immediately."
+    "Shred the potatoes on the large holes of a box grater. Rinse in a colander until the water runs clear, then squeeze them dry in a clean kitchen towel.",
+    "In a bowl, mix the potatoes with the onion, flour, and egg until evenly combined.",
+    "Heat about 1/4 inch of oil in a large heavy skillet over medium-high heat until it sizzles when a shred of potato goes in.",
+    "Spread the potatoes in the pan in a 1/2-inch-thick layer. Cook undisturbed until deep golden brown on the bottom, about 5 minutes, then flip and brown the other side, about 5 minutes more.",
+    "Drain on paper towels, season with salt, pepper, paprika, and cayenne, and serve right away."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Squeezing out the water is what makes them crisp; wet shreds steam instead of frying."
+  ],
+  "references": [
+    {
+      "url": "https://www.punchfork.com/recipe/Emilys-Famous-Hash-Browns-Allrecipes",
+      "site": "Punchfork (copy of Allrecipes)",
+      "title": "Emily's Famous Hash Browns",
+      "usedFor": "confirmed ingredient amounts and serving count",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://web.archive.org/web/2026/https://www.budgetbytes.com/make-crispy-hash-browns/",
+      "site": "Budget Bytes (Wayback Machine copy)",
+      "title": "Crispy Hash Browns Recipe",
+      "usedFor": "squeezing the shreds in a towel, frying undisturbed until deep golden",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

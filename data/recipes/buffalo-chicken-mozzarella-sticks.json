@@ -1,0 +1,138 @@
+{
+  "slug": "buffalo-chicken-mozzarella-sticks",
+  "name": "Buffalo Chicken Mozzarella Sticks",
+  "category": "Sides & Snacks",
+  "emoji": "🧀",
+  "desc": "A frozen block of buffalo chicken, cream cheese and mozzarella cut into sticks, double breaded and deep fried.",
+  "time": "2 hrs 30 min",
+  "minutes": 150,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DRDbGlZgE7r/",
+    "site": "Instagram @karissastevens_",
+    "title": "Buffalo Chicken Mozzarella Sticks",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 cups shredded rotisserie chicken",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "rotisserie chicken",
+      "prep": "shredded",
+      "note": null
+    },
+    {
+      "raw": "6 oz cream cheese, softened",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "cream cheese",
+      "prep": "softened",
+      "note": null
+    },
+    {
+      "raw": "8 oz low-moisture mozzarella, grated",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "low-moisture mozzarella",
+      "prep": "grated",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup buffalo wing sauce",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "buffalo wing sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp garlic powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp onion powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 large eggs, whisked",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": "whisked",
+      "note": null
+    },
+    {
+      "raw": "3 cups seasoned breadcrumbs",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "seasoned breadcrumbs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 cups vegetable oil, for frying",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "vegetable oil",
+      "prep": "for frying",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Line a 9x5 inch loaf pan with parchment, leaving some overhang on the long sides.",
+    "In a large bowl, mix the chicken, cream cheese, mozzarella, buffalo sauce, pepper, garlic powder and onion powder until even. Press it firmly and evenly into the pan.",
+    "Freeze until firm enough to slice cleanly, 1 to 2 hours.",
+    "Lift the block out by the parchment and cut it into 8 sticks.",
+    "Set up the eggs and breadcrumbs in two shallow dishes. Dip each stick in egg, then breadcrumbs, then egg and breadcrumbs again for a double coat.",
+    "Heat about 2 inches of oil in a heavy pot to 375°F. Fry the sticks in two batches, turning occasionally, until deep golden brown all over, 1 to 2 min. Drain on a rack or paper towels and serve warm."
+  ],
+  "tips": [
+    "Freezing the block makes them easy to cut and bread.",
+    "Tasty's version fries smaller sticks for about 30 seconds at 375°F; these are thicker, so watch for color, and pull them before the cheese starts leaking.",
+    "If the breaded sticks soften while you work, put them back in the freezer for 15 min before frying."
+  ],
+  "references": [
+    {
+      "url": "https://tasty.co/recipe/buffalo-chicken-mozzarella-sticks",
+      "site": "Tasty",
+      "title": "Buffalo Chicken Mozzarella Sticks",
+      "usedFor": "375°F oil temperature, double-breading order, comparison fry time",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

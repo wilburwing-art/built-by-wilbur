@@ -1,0 +1,377 @@
+{
+  "slug": "three-chicken-marinades",
+  "name": "3 Chicken Marinades",
+  "category": "Dinner",
+  "emoji": "🍗",
+  "desc": "Three make-ahead chicken marinades (garlic parm, sweet balsamic, and smoky tomato), each baked at 400°F.",
+  "time": "2 hrs 50 min",
+  "minutes": 170,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C9NUbLLvhH9/",
+    "site": "Instagram @2tfitness",
+    "title": "3 Chicken Marinades",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 12,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4.5 lb boneless skinless chicken breasts or thighs (1.5 lb per marinade)",
+      "qty": 4.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless skinless chicken breasts or thighs",
+      "prep": null,
+      "note": "1.5 lb per marinade"
+    },
+    {
+      "raw": "Garlic parm marinade:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup extra-virgin olive oil",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "extra-virgin olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp white wine vinegar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "white wine vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp dried oregano",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp onion powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp crushed red pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "crushed red pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp truffle salt (or kosher salt)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "truffle salt",
+      "prep": null,
+      "note": "or kosher salt"
+    },
+    {
+      "raw": "1 tsp black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp honey",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "honey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup finely grated Parmesan",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "finely grated Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sweet marinade:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp extra-virgin olive oil",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "extra-virgin olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp balsamic vinegar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "balsamic vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp low-sodium soy sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "low-sodium soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp Worcestershire sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Worcestershire sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp kosher salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 garlic cloves, minced",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1 tsp dried rosemary",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried rosemary",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp light brown sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "light brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Juice of 1/2 lemon",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp Dijon mustard",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "Dijon mustard",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Tomato marinade:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp extra-virgin olive oil",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "extra-virgin olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp tomato paste",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "tomato paste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Zest and juice of 1 lemon",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 garlic cloves, minced",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1 tsp kosher salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp smoked paprika",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "smoked paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp dried oregano",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp dried thyme",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried thyme",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp cayenne",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cayenne",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Garlic parm: whisk the olive oil, vinegar, garlic powder, oregano, onion powder, crushed red pepper, truffle salt, pepper, honey and Parmesan in a zip-top bag or bowl.",
+    "Sweet: whisk the olive oil, balsamic, soy sauce, Worcestershire, salt, pepper, garlic, rosemary, brown sugar, lemon juice and Dijon until the sugar dissolves.",
+    "Tomato: whisk the olive oil, tomato paste, lemon zest and juice, garlic, salt, pepper, smoked paprika, oregano, thyme and cayenne.",
+    "All three: add 1.5 lb chicken to each marinade, turn to coat, and refrigerate at least 2 hours or up to overnight.",
+    "Heat the oven to 400°F and line sheet pans with parchment. Lay the chicken out in a single layer, letting excess marinade drip off.",
+    "Bake 30-40 minutes, until the thickest piece reads 165°F. Rest 5 minutes before slicing."
+  ],
+  "tips": [
+    "The creator gives the teaspoon spice amounts for the garlic parm marinade only; the oil, vinegar, honey and Parmesan amounts and the other two marinades are filled from comparable published marinades.",
+    "Chicken breasts are usually done near 30 minutes; thighs take the longer end.",
+    "The sugar and honey marinades brown fast; parchment keeps them from sticking and scorching."
+  ],
+  "references": [
+    {
+      "url": "https://www.simplysissom.com/simple-spiced-balsamic-chicken-marinade/",
+      "site": "Simply Sissom",
+      "title": "Simple Spiced Balsamic Chicken Marinade",
+      "usedFor": "sweet marinade ratios (scaled to 1.5 lb), 2 hr to overnight marinating, 400°F bake to 165°F",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.evardi.com/smoky-paprika-grilled-chicken-marinade/",
+      "site": "Evardi",
+      "title": "Smoky Paprika Grilled Chicken Marinade",
+      "usedFor": "tomato paste, smoked paprika, salt, pepper and cayenne proportions",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://paleoleap.com/paprika-lemon-chicken-marinade/",
+      "site": "Paleo Leap",
+      "title": "Paprika-Lemon Chicken Marinade",
+      "usedFor": "lemon, oregano and cayenne proportions for the tomato marinade",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

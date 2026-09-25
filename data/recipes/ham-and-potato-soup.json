@@ -3,33 +3,33 @@
   "name": "Ham and Potato Soup",
   "category": "Dinner",
   "emoji": "🍲",
-  "desc": "Creamy, thick potato soup loaded with ham and celery",
-  "time": "40 min",
-  "minutes": 40,
+  "desc": "Creamy, thick potato soup with diced ham and celery, thickened with a butter and milk roux.",
+  "time": "45 min",
+  "minutes": 45,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/56927/delicious-ham-and-potato-soup/",
+    "site": "Allrecipes",
+    "title": "Delicious Ham and Potato Soup",
+    "matchType": "closest",
+    "evidence": "All eleven ingredients and amounts match this page line for line, as does the two-pot method (simmer the vegetables, thicken with a separate roux).",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 8,
+    "basis": "publisher",
+    "source": "https://www.allrecipes.com/recipe/56927/delicious-ham-and-potato-soup/"
   },
   "ingredients": [
     {
-      "raw": "3 1/2 cups peeled and diced potatoes",
+      "raw": "3 1/2 cups peeled and diced potatoes (1/2-inch dice, about 3 medium russet or Yukon Gold)",
       "qty": 3.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "peeled and diced potatoes",
-      "prep": null,
-      "note": null
+      "item": "potatoes",
+      "prep": "peeled and diced",
+      "note": "1/2-inch dice, about 3 medium russet or Yukon Gold"
     },
     {
       "raw": "3 1/4 cups water",
@@ -45,26 +45,26 @@
       "qty": 0.75,
       "qtyMax": null,
       "unit": "cup",
-      "item": "diced cooked ham",
-      "prep": null,
+      "item": "cooked ham",
+      "prep": "diced",
       "note": null
     },
     {
-      "raw": "1/3 cup diced celery",
+      "raw": "1/3 cup diced celery (about 1 rib)",
       "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
-      "item": "diced celery",
-      "prep": null,
-      "note": null
+      "item": "celery",
+      "prep": "diced",
+      "note": "about 1 rib"
     },
     {
       "raw": "1/3 cup finely chopped yellow onion",
       "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
-      "item": "finely chopped yellow onion",
-      "prep": null,
+      "item": "yellow onion",
+      "prep": "finely chopped",
       "note": null
     },
     {
@@ -86,20 +86,20 @@
       "note": null
     },
     {
-      "raw": "1/2 tsp salt",
+      "raw": "1/2 tsp fine salt, or to taste",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
-      "note": null
+      "note": "or to taste"
     },
     {
-      "raw": "5 tbsp butter",
+      "raw": "5 tbsp unsalted butter",
       "qty": 5,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "butter",
+      "item": "unsalted butter",
       "prep": null,
       "note": null
     },
@@ -113,20 +113,39 @@
       "note": null
     },
     {
-      "raw": "2 cups milk",
+      "raw": "2 cups whole milk",
       "qty": 2,
       "qtyMax": null,
       "unit": "cup",
-      "item": "milk",
+      "item": "whole milk",
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Combine potatoes, water, ham, celery, and onion. Boil then simmer until tender. Add bouillon, pepper, and salt.",
-    "Melt butter, stir in flour 1 min. Whisk in milk, cook until thick.",
-    "Pour milk mixture into stockpot, stir until warmed through."
+    "Combine the potatoes, water, ham, celery, and onion in a large pot. Bring to a boil over high heat, then reduce to medium and simmer until the potatoes are fork-tender, 10-15 min.",
+    "Stir in the bouillon granules, pepper, and salt.",
+    "Meanwhile, melt the butter in a medium saucepan over medium-low heat. Whisk in the flour and cook, stirring constantly, until thick and smooth, about 1 min.",
+    "Slowly whisk in the milk a little at a time so no lumps form. Keep stirring over medium-low heat until the sauce is thick enough to coat a spoon, 4-5 min.",
+    "Stir the milk mixture into the soup pot and cook, stirring, until heated through, 2-3 min. Taste for salt and serve hot."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Bouillon granules are salty; taste the soup before adding the 1/2 tsp salt."
+  ],
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/56927/delicious-ham-and-potato-soup/",
+      "site": "Allrecipes",
+      "title": "Delicious Ham and Potato Soup",
+      "usedFor": "yield, total time",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.bigoven.com/recipe/delicious-ham-and-potato-soup-from-allrecipescom/351447",
+      "site": "BigOven",
+      "title": "Delicious Ham and Potato Soup from allrecipes.com",
+      "usedFor": "step text of the same recipe: simmer and roux times, heat levels",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

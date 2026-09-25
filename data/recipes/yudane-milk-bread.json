@@ -1,0 +1,138 @@
+{
+  "slug": "yudane-milk-bread",
+  "name": "Yudane Milk Bread",
+  "category": "Sides & Snacks",
+  "emoji": "🍞",
+  "desc": "A soft, fluffy milk bread loaf made with a scalded-flour yudane, honey and butter.",
+  "time": "5 hrs",
+  "minutes": 300,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DNnPMFZyNna/",
+    "site": "Instagram @oishimate",
+    "title": "Yudane Milk Bread",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 10,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "350g bread flour, divided (25g for the yudane, 325g for the dough)",
+      "qty": 350,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "bread flour",
+      "prep": "divided",
+      "note": "25g for the yudane, 325g for the dough"
+    },
+    {
+      "raw": "50g boiling water",
+      "qty": 50,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "boiling water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "210-220g whole milk, lukewarm",
+      "qty": 210,
+      "qtyMax": 220,
+      "unit": "g",
+      "item": "whole milk",
+      "prep": "lukewarm",
+      "note": null
+    },
+    {
+      "raw": "20g granulated sugar",
+      "qty": 20,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "10g honey",
+      "qty": 10,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "honey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3g instant yeast",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "instant yeast",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "7g kosher salt",
+      "qty": 7,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "25g unsalted butter, room temperature",
+      "qty": 25,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "unsalted butter",
+      "prep": "room temperature",
+      "note": null
+    },
+    {
+      "raw": "Neutral oil or butter, for the bowl and pan",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Make the yudane: stir 25g of the flour into the 50g boiling water until it forms a smooth, gluey paste. Cover and cool to room temperature, about 30 min (or refrigerate overnight).",
+    "In a stand mixer bowl, combine the remaining 325g flour, 210g milk, sugar, honey, yeast and salt. Tear the yudane into small pieces and add them. Mix on low with the dough hook until a shaggy dough forms; add up to 10g more milk if it feels stiff.",
+    "Knead on medium 8-10 min, until smooth. Add the butter in small pieces and knead 5-10 min more, until the dough is glossy and stretches thin without tearing.",
+    "Shape into a ball, set in a lightly oiled bowl, cover, and let rise in a warm place until doubled, 60-90 min.",
+    "Grease an 8.5x4.5 in loaf pan. Divide the dough into 3 equal pieces. Roll each into an 8 in long rectangle, fold it in thirds lengthwise, then roll it up into a tight spiral. Set the 3 spirals seam side down, side by side, in the pan.",
+    "Cover and let rise until the dough domes level with the rim of the pan, 40-60 min. Meanwhile heat the oven to 375°F.",
+    "Bake 28-32 min, until deep golden brown and the center reads 195°F on an instant-read thermometer.",
+    "Turn out onto a rack and cool completely, about 1 hr, before slicing."
+  ],
+  "tips": [
+    "The Instagram caption says 210g milk and the TikTok caption says 220g. Start with 210g and add the rest if the dough is stiff.",
+    "The creator never posted a written method; the steps follow the standard yudane method as written by Mochi Mommy and Karen's Kitchen Stories.",
+    "Weigh the salt. At 7g the brand of kosher salt does not matter."
+  ],
+  "references": [
+    {
+      "url": "https://www.mochimommy.com/yudane-shokupan/",
+      "site": "Mochi Mommy",
+      "title": "Yudane Shokupan (authentic Japanese recipe)",
+      "usedFor": "yudane mixing, tearing it into the dough, 3-spiral shaping, loaf pan size, rise cues",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.karenskitchenstories.com/2024/12/japanese-milk-bread-with-yudane-shokupan.html",
+      "site": "Karen's Kitchen Stories",
+      "title": "Japanese Milk Bread with Yudane (Shokupan)",
+      "usedFor": "375°F bake, internal temperature, kneading times, cooling before slicing",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

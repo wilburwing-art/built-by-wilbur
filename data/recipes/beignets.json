@@ -3,9 +3,9 @@
   "name": "Beignets",
   "category": "Desserts",
   "emoji": "☁️",
-  "desc": "Pillowy fried dough squares showered in powdered sugar",
-  "time": "2.5 hrs",
-  "minutes": 150,
+  "desc": "New Orleans style yeast-raised dough squares, deep fried until puffed and buried in powdered sugar.",
+  "time": "3 hrs 15 min",
+  "minutes": 195,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
@@ -17,8 +17,8 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 12,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
@@ -50,58 +50,58 @@
       "note": null
     },
     {
-      "raw": "1 tsp salt",
+      "raw": "1 tsp fine salt",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 eggs, beaten",
+      "raw": "2 large eggs, beaten",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "eggs",
+      "item": "large eggs",
       "prep": "beaten",
       "note": null
     },
     {
-      "raw": "1 cup evaporated milk",
+      "raw": "1 cup evaporated milk (from a 12 oz can)",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
       "item": "evaporated milk",
       "prep": null,
-      "note": null
+      "note": "from a 12 oz can"
     },
     {
-      "raw": "7 cups all-purpose flour",
+      "raw": "7 cups all-purpose flour, divided, plus more for rolling",
       "qty": 7,
       "qtyMax": null,
       "unit": "cup",
       "item": "all-purpose flour",
-      "prep": null,
-      "note": null
+      "prep": "divided",
+      "note": "plus more for rolling"
     },
     {
-      "raw": "1/4 cup shortening, softened",
+      "raw": "1/4 cup vegetable shortening, softened",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "shortening",
+      "item": "vegetable shortening",
       "prep": "softened",
       "note": null
     },
     {
-      "raw": "Vegetable or peanut oil, for deep frying",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
+      "raw": "1-2 quarts vegetable or peanut oil, for deep frying (enough for 2 inches in the pot)",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "quart",
+      "item": "vegetable or peanut oil",
+      "prep": "for deep frying",
+      "note": "enough for 2 inches in the pot"
     },
     {
       "raw": "1 cup powdered sugar, for dusting",
@@ -114,10 +114,32 @@
     }
   ],
   "steps": [
-    "Dissolve yeast in water. Mix in sugar, salt, eggs, milk. Add flour and shortening. Chill up to 24 hrs.",
-    "Roll 1/8 inch thick. Cut into 2.5-inch squares. Let rise.",
-    "Fry at 360°F until golden. Shake powdered sugar over hot beignets."
+    "Pour the warm water into a large bowl, sprinkle the yeast over it, and stir to dissolve. Let stand about 5 minutes, until foamy.",
+    "Stir in the sugar, salt, eggs and evaporated milk. Add 4 cups of the flour and beat until smooth.",
+    "Mix in the shortening, then the remaining 3 cups flour, to a soft dough.",
+    "Cover the bowl and refrigerate at least 2 hours, or up to 24 hours.",
+    "On a floured surface, roll the dough 1/8 inch thick and cut into 2 1/2-inch squares. Cover loosely and let rise until slightly puffy, about 30 minutes.",
+    "Heat 2 inches of oil in a heavy pot to 360°F. Fry a few squares at a time, turning once, about 3 minutes total, until puffed and light golden brown. If they sink and do not float up, the oil is not hot enough.",
+    "Drain on paper towels and shake powdered sugar over the hot beignets. Serve right away."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The food.com version cuts a double slash through the center of each square to help the middle cook through.",
+    "Any dough you are not frying keeps in the fridge up to 24 hours from when it was mixed."
+  ],
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/7179/beignets/",
+      "site": "Allrecipes",
+      "title": "Beignets",
+      "usedFor": "adding flour in two stages, 2 to 24 hour chill, oil temperature test",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.food.com/recipe/french-market-beignets-31854",
+      "site": "Food.com",
+      "title": "French Market Beignets",
+      "usedFor": "yeast bloom, 3 minute fry time and color cue, double-slash tip",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

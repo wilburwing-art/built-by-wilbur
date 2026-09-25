@@ -3,42 +3,42 @@
   "name": "Hot Toddy",
   "category": "Drinks",
   "emoji": "🥃",
-  "desc": "Warm whiskey with honey, lemon juice, and hot water",
+  "desc": "Whiskey, honey and lemon juice topped with hot water in a warm mug.",
   "time": "5 min",
   "minutes": 5,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.loveandlemons.com/hot-toddy/",
+    "site": "Love and Lemons",
+    "title": "Hot Toddy",
+    "matchType": "closest",
+    "evidence": "Same five ingredients at the same base amounts (3/4 cup hot water, 1 1/2 oz whiskey, 2 tsp each lemon juice and honey, lemon round); this version gives a 2 to 3 tsp range.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 1,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "3/4 cup hot water",
+      "raw": "3/4 cup water",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "cup",
-      "item": "hot water",
+      "item": "water",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 1/2 oz whiskey",
+      "raw": "1 1/2 oz whiskey (bourbon, rye or Irish)",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "oz",
       "item": "whiskey",
       "prep": null,
-      "note": null
+      "note": "bourbon, rye or Irish"
     },
     {
       "raw": "2-3 tsp honey",
@@ -50,11 +50,11 @@
       "note": null
     },
     {
-      "raw": "2-3 tsp lemon juice",
+      "raw": "2-3 tsp fresh lemon juice",
       "qty": 2,
       "qtyMax": 3,
       "unit": "tsp",
-      "item": "lemon juice",
+      "item": "fresh lemon juice",
       "prep": null,
       "note": null
     },
@@ -64,14 +64,34 @@
       "qtyMax": null,
       "unit": null,
       "item": "lemon round",
-      "prep": "for garnish",
-      "note": null
+      "prep": null,
+      "note": "for garnish"
     }
   ],
   "steps": [
-    "Combine whiskey, honey, and lemon juice in a mug.",
-    "Pour hot water over top. Stir. Garnish with lemon."
+    "Fill an 8 oz mug with hot tap water to warm it while you heat the water, then pour it out.",
+    "Bring the 3/4 cup water to a simmer in a small saucepan or kettle, then take it off the heat.",
+    "Add the whiskey, 2 tsp honey and 2 tsp lemon juice to the warm mug.",
+    "Pour the hot water over the top and stir until the honey dissolves. Taste and add up to 1 tsp more honey or lemon.",
+    "Garnish with the lemon round and serve right away."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "A cinnamon stick or a few whole cloves in the mug add spice (Love and Lemons)."
+  ],
+  "references": [
+    {
+      "url": "https://www.loveandlemons.com/hot-toddy/",
+      "site": "Love and Lemons",
+      "title": "Hot Toddy",
+      "usedFor": "base amounts, cinnamon stick or clove garnish",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.thekitchn.com/best-hot-toddy-recipe-23689306",
+      "site": "The Kitchn",
+      "title": "Perfect Hot Toddy",
+      "usedFor": "warming the mug, bringing the water only to a simmer",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

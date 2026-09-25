@@ -1,0 +1,180 @@
+{
+  "slug": "walking-deli-sandwich-chip-bag",
+  "name": "Walking Deli Sandwich (in a Chip Bag)",
+  "category": "Lunch",
+  "emoji": "🥪",
+  "desc": "A chopped Italian deli salad with a creamy red wine vinegar dressing, tossed with salt and vinegar kettle chips and eaten out of the bag.",
+  "time": "15 min",
+  "minutes": 15,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DafnpLWRtnA/",
+    "site": "Instagram @vanessaspinarsky",
+    "title": "Walking Deli Sandwich",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 2,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Salad:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (8 oz) bag salt and vinegar kettle-cooked potato chips",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "bag",
+      "item": "salt and vinegar kettle-cooked potato chips",
+      "prep": null,
+      "note": "8 oz"
+    },
+    {
+      "raw": "3 cups chopped romaine lettuce (or regular lettuce)",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chopped romaine lettuce",
+      "prep": null,
+      "note": "or regular lettuce"
+    },
+    {
+      "raw": "2 oz Genoa salami, chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "Genoa salami",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "2 oz prosciutto, chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "prosciutto",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "3 oz sliced provolone cheese, chopped",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "sliced provolone cheese",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup banana pepper rings (or pepperoncini), chopped",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "banana pepper rings",
+      "prep": "chopped",
+      "note": "or pepperoncini"
+    },
+    {
+      "raw": "1/4 cup pitted green or black olives, chopped",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "pitted green or black olives",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup grated Parmesan cheese",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Dressing:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp mayonnaise",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tbsp red wine vinegar",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "red wine vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp olive brine (from the olive jar)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive brine",
+      "prep": null,
+      "note": "from the olive jar"
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Chop the salami, prosciutto, provolone, banana peppers and olives into bite-size pieces.",
+    "Whisk the mayonnaise, red wine vinegar, olive brine and a pinch each of salt and pepper in a small bowl.",
+    "In a large bowl, combine the romaine, chopped meats, provolone, banana peppers, olives, Parmesan and dressing. Toss until everything is coated.",
+    "Carefully open the chip bag along the top seam (or cut straight across the top) so it can work as a bowl. Lightly crush the chips inside the bag.",
+    "Tip the chips into the salad and toss again.",
+    "Spoon everything back into the chip bag and eat right away with a fork, before the chips soften."
+  ],
+  "tips": [
+    "The deli version of walking tacos.",
+    "The reel gives no amounts. The meat, cheese and dressing quantities here are scaled from published chopped Italian sandwich recipes for two servings."
+  ],
+  "references": [
+    {
+      "url": "https://www.stephaniesdish.com/walking-italian-sub-sandwich-bag-chopped-italian-sandwich-in-a-chip-bag/",
+      "site": "Stephanie's Dish",
+      "title": "Walking Italian Sub Sandwich Bag",
+      "usedFor": "crushing the chips lightly and cutting the bag open; per-serving meat, cheese and pepperoncini amounts",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://ingoodflavor.com/chopped-italian-sandwich/",
+      "site": "In Good Flavor",
+      "title": "Chopped Italian Sandwich",
+      "usedFor": "mayonnaise to red wine vinegar ratio for the dressing (1/4 cup to 2 tbsp, scaled)",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

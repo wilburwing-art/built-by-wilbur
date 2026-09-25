@@ -1,0 +1,309 @@
+{
+  "slug": "korean-fried-chicken-sandwich",
+  "name": "Korean Fried Chicken Sandwich",
+  "category": "Lunch",
+  "emoji": "🍔",
+  "desc": "Buttermilk and kimchi brined fried chicken with fried garlic, kimchi mayo, cabbage slaw and perilla leaves on a toasted bun.",
+  "time": "2 hrs 45 min",
+  "minutes": 165,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C8e_CN1p28o/",
+    "site": "Instagram @chefboylee",
+    "title": "Korean Fried Chicken Sandwich",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Chicken and marinade:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 large boneless skinless chicken breasts (about 1 1/2 lb), each halved into 2 cutlets",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large boneless skinless chicken breasts",
+      "prep": "each halved into 2 cutlets",
+      "note": "about 1 1/2 lb"
+    },
+    {
+      "raw": "1 cup buttermilk",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "buttermilk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup kimchi brine (juice from a jar of kimchi)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "kimchi brine",
+      "prep": null,
+      "note": "juice from a jar of kimchi"
+    },
+    {
+      "raw": "Dredge:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup all-purpose flour",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup potato starch",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "potato starch",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp gochugaru (Korean chili flakes)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "gochugaru",
+      "prep": null,
+      "note": "Korean chili flakes"
+    },
+    {
+      "raw": "2 tsp garlic powder",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp kosher salt",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 quarts canola or peanut oil, for frying",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "quart",
+      "item": "canola or peanut oil",
+      "prep": "for frying",
+      "note": null
+    },
+    {
+      "raw": "Fried garlic:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp neutral oil",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "neutral oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 garlic cloves, minced",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "Kimchi mayo:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup mayonnaise (Kewpie preferred)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": "Kewpie preferred"
+    },
+    {
+      "raw": "1/3 cup kimchi, drained and finely chopped",
+      "qty": 0.3333333333333333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "kimchi",
+      "prep": "drained and finely chopped",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp sriracha",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sriracha",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Slaw:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups thinly sliced green cabbage",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "thinly sliced green cabbage",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup thinly sliced purple cabbage",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "thinly sliced purple cabbage",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 medium carrot, julienned",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium carrot",
+      "prep": "julienned",
+      "note": null
+    },
+    {
+      "raw": "3 tbsp mayonnaise",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp rice vinegar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "rice vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp kosher salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "To serve:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 brioche burger buns, toasted",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "brioche burger buns",
+      "prep": "toasted",
+      "note": null
+    },
+    {
+      "raw": "8 perilla (or shiso) leaves",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": null,
+      "item": "perilla leaves",
+      "prep": null,
+      "note": "or shiso"
+    }
+  ],
+  "steps": [
+    "Pound the thick end of each chicken breast so it is an even thickness, then halve into 4 cutlets. Whisk the buttermilk and kimchi brine in a bowl or zip-top bag, add the chicken, and refrigerate 2 to 8 hours.",
+    "Make the kimchi mayo: stir the mayonnaise, chopped kimchi and sriracha together. Chill until needed.",
+    "Make the slaw: toss both cabbages and the carrot with the mayonnaise, rice vinegar and salt. Chill until needed.",
+    "Make the fried garlic: warm the 3 tbsp oil and minced garlic together in a small skillet over medium-low heat, stirring, 3 to 5 min, until the garlic is light golden. Pour into a heatproof bowl right away, since it keeps cooking in the hot oil.",
+    "Heat 2 to 3 in of frying oil in a heavy pot or Dutch oven to 360°F. Set a wire rack over a sheet pan.",
+    "Whisk the flour, potato starch, gochugaru, garlic powder and salt in a shallow dish. Lift the chicken from the marinade, let the excess drip off, and press into the dredge to coat well.",
+    "Fry 2 cutlets at a time about 7 min, flipping once, until deep golden brown and 165°F inside. Drain on the rack.",
+    "While the chicken is hot, spoon the fried garlic and some of its oil over each piece.",
+    "Build on toasted buns: kimchi mayo, perilla leaves, slaw, chicken, more kimchi mayo, then the top bun."
+  ],
+  "tips": [
+    "The reel shows the method without amounts. Marinade, dredge, frying and sauce amounts here follow published Korean fried chicken sandwich recipes.",
+    "No kimchi brine? Stir 1 tbsp gochugaru into the buttermilk instead."
+  ],
+  "references": [
+    {
+      "url": "https://thesubversivetable.com/korean-fried-chicken-sandwich/",
+      "site": "The Subversive Table",
+      "title": "Korean Fried Chicken Sandwich with Kimchi Mayo",
+      "usedFor": "buttermilk to kimchi juice ratio for the marinade, kimchi mayo (mayonnaise, chopped kimchi, sriracha), scaled to 4",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://somuchfoodblog.com/spicy-korean-fried-chicken-sandwiches/",
+      "site": "So Much Food",
+      "title": "Spicy Korean Fried Chicken Sandwiches",
+      "usedFor": "halving pounded breasts into cutlets, 2 to 8 hour marinade, dredge amounts, frying at 360°F about 7 min to 165°F, slaw dressing proportions",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

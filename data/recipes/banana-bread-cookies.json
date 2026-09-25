@@ -1,0 +1,147 @@
+{
+  "slug": "banana-bread-cookies",
+  "name": "Banana Bread Cookies",
+  "category": "Desserts",
+  "emoji": "🍌",
+  "desc": "Soft, cakey chocolate chip cookies made with one ripe banana.",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C9umv5jJ_Mr/",
+    "site": "Instagram @mersgoodeats",
+    "title": "Banana Bread Cookies",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 18,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1/2 cup (1 stick) unsalted butter, softened",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "unsalted butter",
+      "prep": "softened",
+      "note": "1 stick"
+    },
+    {
+      "raw": "1/2 cup packed light brown sugar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "packed light brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp granulated sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large egg",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 medium ripe banana, mashed",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium ripe banana",
+      "prep": "mashed",
+      "note": null
+    },
+    {
+      "raw": "1 tsp vanilla extract",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups all-purpose flour",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp baking soda",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp baking powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp fine salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup semisweet chocolate chips",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "semisweet chocolate chips",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 350°F and line a baking sheet with parchment.",
+    "Cream the butter, brown sugar and granulated sugar on low for 2 min.",
+    "Add the egg, banana and vanilla and mix on low 2 min more.",
+    "Add the flour, baking soda, baking powder and salt and fold until just combined.",
+    "Fold in the chocolate chips.",
+    "Scoop 2 tbsp mounds 2 in apart on the sheet.",
+    "Bake 10-12 min, until the edges are lightly golden and the tops look set. The centers stay soft.",
+    "Cool 5 min on the sheet, then move to a rack."
+  ],
+  "tips": [
+    "The creator's blog version doubles the banana, adds cinnamon and uses 2 1/4 cups flour. This is the smaller reel batch."
+  ],
+  "references": [
+    {
+      "url": "https://www.mersgoodeats.com/recipes/banana-bread-cookies",
+      "site": "Mer's Good Eats",
+      "title": "Soft & Fluffy Banana Bread Cookies",
+      "usedFor": "unsalted butter, lined baking sheet, soft-center doneness cue",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

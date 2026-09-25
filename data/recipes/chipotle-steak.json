@@ -3,27 +3,27 @@
   "name": "Chipotle Steak",
   "category": "Dinner",
   "emoji": "🥩",
-  "desc": "Ancho and adobo marinated sirloin, seared and chopped",
-  "time": "13 hrs",
-  "minutes": 780,
+  "desc": "Steak marinated in adobo, ancho chile and cumin, seared in a skillet and chopped like the burrito bowl chain.",
+  "time": "1 hr 10 min",
+  "minutes": 70,
   "difficulty": "Medium",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.culinaryhill.com/chipotle-steak-recipe-copycat/",
+    "site": "Culinary Hill",
+    "title": "Chipotle Steak (Copycat)",
+    "matchType": "original",
+    "evidence": "Identical ingredient list (3 garlic cloves, 2 tbsp adobo, 2 tbsp ancho chile powder, 2 tsp each cumin and oregano, 4 lb steak) and the same marinate, sear-to-temperature, rest, and chop steps.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 20,
+    "basis": "publisher",
+    "source": "https://www.culinaryhill.com/chipotle-steak-recipe-copycat/"
   },
   "ingredients": [
     {
-      "raw": "3 cloves garlic",
+      "raw": "3 garlic cloves",
       "qty": 3,
       "qtyMax": null,
       "unit": "clove",
@@ -32,16 +32,16 @@
       "note": null
     },
     {
-      "raw": "2 tablespoons adobo sauce",
+      "raw": "2 tbsp adobo sauce (from a can of chipotle peppers in adobo)",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "adobo sauce",
       "prep": null,
-      "note": null
+      "note": "from a can of chipotle peppers in adobo"
     },
     {
-      "raw": "2 tablespoons ancho chile powder",
+      "raw": "2 tbsp ancho chile powder",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
@@ -50,16 +50,16 @@
       "note": null
     },
     {
-      "raw": "2 tablespoons olive oil or rice bran oil, plus more for cooking",
+      "raw": "2 tbsp olive oil or rice bran oil, plus 2 tbsp more for cooking",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "olive oil or rice bran oil",
-      "prep": "plus more for cooking",
-      "note": null
+      "prep": null,
+      "note": "plus 2 tbsp more for cooking"
     },
     {
-      "raw": "2 teaspoons ground cumin",
+      "raw": "2 tsp ground cumin",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
@@ -68,7 +68,7 @@
       "note": null
     },
     {
-      "raw": "2 teaspoons dried oregano",
+      "raw": "2 tsp dried oregano",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
@@ -77,30 +77,49 @@
       "note": null
     },
     {
-      "raw": "Salt and freshly ground black pepper",
-      "qty": null,
+      "raw": "1 tbsp salt, plus more to finish",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tbsp",
+      "item": "salt",
+      "prep": "plus more to finish",
+      "note": null
+    },
+    {
+      "raw": "1 tsp freshly ground black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "freshly ground black pepper",
       "prep": null,
       "note": null
     },
     {
-      "raw": "4 pounds steak (sirloin, round steak, or flat iron steak)",
+      "raw": "4 lb steak (sirloin, round steak, or flat iron)",
       "qty": 4,
       "qtyMax": null,
       "unit": "lb",
-      "item": "steak (sirloin, round steak, or flat iron steak)",
+      "item": "steak",
       "prep": null,
-      "note": null
+      "note": "sirloin, round steak, or flat iron"
     }
   ],
   "steps": [
-    "Make the Marinade: In a food processor or blender, combine garlic, adobo sauce, ancho chile powder, olive oil, cumin, oregano, 1 tablespoon salt, and 1 teaspoon pepper. Blend until smooth, adding a bit of water if needed to fully blend.",
-    "Marinate the Steak: Add steak and marinade to a large resealable bag or bowl, tossing to coat evenly. Let marinate at room temperature for 30 minutes or up to 12 hours in the refrigerator. Bring to room temperature for at least 30 minutes before cooking.",
-    "Cook the Steak: In a large skillet over medium-high heat, heat 2 tablespoons olive oil until shimmering. Add marinated steak and cook, stirring occasionally, until internal temperature reaches 120-125°F for rare or 130-135°F for medium-rare. Cook in batches if needed.",
-    "Rest and Serve: Transfer steak to a cutting board, tent with foil, and let rest for 10 minutes. Chop into small pieces, season with salt, and serve with rice, beans, guacamole, and salsa."
+    "Make the marinade: In a food processor or blender, combine the garlic, adobo sauce, ancho chile powder, 2 tbsp oil, cumin, oregano, 1 tbsp salt, and the pepper. Blend until smooth, adding a little water if needed to blend.",
+    "Marinate the steak: Toss the steak with the marinade in a large zip-top bag or bowl. Marinate at room temperature for 30 minutes, or refrigerate up to 12 hours and then let it sit at room temperature for 30 minutes before cooking.",
+    "Cook the steak: Heat 2 tbsp oil in a large skillet over medium-high heat until shimmering. Add the steak, in batches if needed, and cook, turning occasionally, until it reads 120-125°F for rare or 130-135°F for medium-rare.",
+    "Rest and serve: Move the steak to a cutting board, tent with foil, and rest for 10 minutes. Chop into small pieces, season with salt, and serve with rice, beans, guacamole, and salsa."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "For more flavor, marinate the steak in the refrigerator overnight (up to 12 hours); that brings the total to about 13 hours."
+  ],
+  "references": [
+    {
+      "url": "https://www.culinaryhill.com/chipotle-steak-recipe-copycat/",
+      "site": "Culinary Hill",
+      "title": "Chipotle Steak (Copycat)",
+      "usedFor": "servings, total time, cut options",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

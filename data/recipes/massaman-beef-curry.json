@@ -1,0 +1,232 @@
+{
+  "slug": "massaman-beef-curry",
+  "name": "Massaman Beef Curry",
+  "category": "Dinner",
+  "emoji": "🍛",
+  "desc": "Oven-braised beef chuck finished in a rich massaman coconut curry with potatoes, carrots, tamarind and peanuts.",
+  "time": "2 hrs 45 min",
+  "minutes": 165,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C3x5-ngxs3Q/",
+    "site": "Instagram @chrislovesjulia",
+    "title": "Massaman Beef Curry",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://chrislovesjulia.com/authentic-massaman-curry/"
+  },
+  "ingredients": [
+    {
+      "raw": "Braise:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp coconut oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "coconut oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp massaman curry paste (Mae Ploy preferred)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "massaman curry paste",
+      "prep": null,
+      "note": "Mae Ploy preferred"
+    },
+    {
+      "raw": "2.5 lb beef chuck roast, fat trimmed, cut into bite-size cubes",
+      "qty": 2.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "beef chuck roast",
+      "prep": "fat trimmed, cut into bite-size cubes",
+      "note": null
+    },
+    {
+      "raw": "2 cups beef bone broth",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "beef bone broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Curry:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp coconut oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "coconut oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp massaman curry paste",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "massaman curry paste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 (19 oz) cans coconut cream or full-fat coconut milk, divided",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "coconut cream or full-fat coconut milk",
+      "prep": "divided",
+      "note": "19 oz"
+    },
+    {
+      "raw": "3 medium russet potatoes, peeled and cubed",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium russet potatoes",
+      "prep": "peeled and cubed",
+      "note": null
+    },
+    {
+      "raw": "3 large carrots, cut into large rough chunks",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large carrots",
+      "prep": "cut into large rough chunks",
+      "note": null
+    },
+    {
+      "raw": "2 kaffir lime leaves (optional)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "kaffir lime leaves",
+      "prep": null,
+      "note": "optional"
+    },
+    {
+      "raw": "2 1/2 tbsp fish sauce",
+      "qty": 2.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fish sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 tbsp coconut or palm sugar",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "coconut or palm sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp tamarind concentrate",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "tamarind concentrate",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3-1/2 cup roasted peanuts or cashews",
+      "qty": 0.3333333333333333,
+      "qtyMax": 0.5,
+      "unit": "cup",
+      "item": "roasted peanuts or cashews",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "To serve:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups uncooked jasmine rice, cooked (or cauliflower rice with finely chopped cabbage)",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "uncooked jasmine rice",
+      "prep": "cooked",
+      "note": "or cauliflower rice with finely chopped cabbage"
+    },
+    {
+      "raw": "1/4 cup fresh cilantro, chopped",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh cilantro",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 lime, cut into wedges",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lime",
+      "prep": "cut into wedges",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 325°F.",
+    "Braise: heat 2 tbsp coconut oil in a medium lidded Dutch oven over medium heat for a minute or two. Add 2 tbsp curry paste and stir-fry until fragrant.",
+    "Add the beef, stir to coat in the paste, and brown lightly. Add the broth, turn the heat up and bring to a simmer.",
+    "Cover, turn off the burner, and braise in the oven for 90 minutes, until the beef is tender.",
+    "Lift the beef into a bowl. Set the Dutch oven over medium-high heat and reduce the cooking liquid by about half.",
+    "Curry: while that reduces, heat 2 tbsp coconut oil in a second large lidded pot over medium heat. Stir-fry 3 tbsp curry paste until fragrant.",
+    "Add half a can of coconut cream and simmer, stirring often, until it bubbles and the oil turns red.",
+    "Add the reduced braising liquid, the remaining coconut cream, the beef, potatoes, carrots and lime leaves. Bring to a boil, cover, lower the heat to medium and simmer 30 minutes.",
+    "Uncover, add the fish sauce, sugar, tamarind and peanuts, and cook 15 minutes more, until the potatoes are tender. Taste; if too salty, add water 1/4 cup at a time. Remove the lime leaves.",
+    "Serve over rice (or the cabbage and cauliflower rice), topped with cilantro and a squeeze of lime."
+  ],
+  "tips": [
+    "\"Crack\" the coconut cream: cook it until the oil separates and turns red before adding the rest of the liquid.",
+    "The blog lists 1/3 cup peanuts; the reel shows 1/2 cup. Either works.",
+    "The creator's low-carb swap: finely chopped cabbage and cauliflower rice stir-fried in a little olive oil with salt and pepper."
+  ],
+  "references": [
+    {
+      "url": "https://chrislovesjulia.com/authentic-massaman-curry/",
+      "site": "Chris Loves Julia",
+      "title": "How to Make the Best Thai Massaman Curry",
+      "usedFor": "confirmed amounts, can size, cut of beef, braise and reduce method, 4 servings, salt adjustment",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

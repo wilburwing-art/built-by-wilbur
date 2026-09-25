@@ -1,0 +1,566 @@
+{
+  "slug": "big-mac-everything-6-ways",
+  "name": "Big Mac Everything (6 Ways)",
+  "category": "Lunch",
+  "emoji": "🍔",
+  "desc": "Six single-serving Big Mac riffs (sweet potato bun, burrito, salad, chopped egg salad, cauliflower bun and cucumber salad) sharing one lighter burger sauce.",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DHGWqo6T-TB/",
+    "site": "Instagram @angelarummans",
+    "title": "Big Mac Everything (6 ways)",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 6,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Burger sauce (one batch is about 5 tbsp; make 2 batches to build all six):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp ketchup",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "ketchup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp plain Greek yogurt or mayonnaise",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "plain Greek yogurt or mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp yellow mustard",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "yellow mustard",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sweet potato bun burger (295 cal):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 thick (1/2 in) slices sweet potato, cut from the widest part",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "sweet potato",
+      "prep": "cut from the widest part",
+      "note": "1/2 in thick"
+    },
+    {
+      "raw": "1 tsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 oz lean ground beef (or plant-based ground)",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "lean ground beef",
+      "prep": null,
+      "note": "or plant-based ground"
+    },
+    {
+      "raw": "1 lettuce leaf",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lettuce leaf",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 slices tomato",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "tomato",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 slices onion",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "onion",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 small dill pickle, sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small dill pickle",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp burger sauce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "burger sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Burger burrito (525 cal):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large high-protein, low-carb tortilla",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large high-protein low-carb tortilla",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 oz lean ground beef (or plant-based ground), formed into a log",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "lean ground beef",
+      "prep": "formed into a log",
+      "note": "or plant-based ground"
+    },
+    {
+      "raw": "1/4 cup burger sauce",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "burger sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup sliced onion",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sliced onion",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 small tomato, sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small tomato",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1 dill pickle, sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "dill pickle",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "Big Mac salad (350 cal):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 cup cooked lean ground beef (about 4 oz raw)",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cooked lean ground beef",
+      "prep": null,
+      "note": "about 4 oz raw"
+    },
+    {
+      "raw": "2 cups chopped iceberg lettuce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chopped iceberg lettuce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup chopped dill pickle",
+      "qty": 0.3333333333333333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chopped dill pickle",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 small tomato, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small tomato",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1/2 small red onion, chopped",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small red onion",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp burger sauce, as dressing",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "burger sauce",
+      "prep": "as dressing",
+      "note": null
+    },
+    {
+      "raw": "Big Mac chopped egg salad (490 cal):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 hard-boiled egg whites",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "hard-boiled egg whites",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 oz lean ground beef (or plant-based ground)",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "lean ground beef",
+      "prep": null,
+      "note": "or plant-based ground"
+    },
+    {
+      "raw": "1 small tomato",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small tomato",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 small dill pickle",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small dill pickle",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 small onion",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small onion",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 large lettuce leaves",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large lettuce leaves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1-2 tbsp ketchup",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "tbsp",
+      "item": "ketchup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp vegan mayonnaise",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vegan mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 oz tortilla chips and cucumber chips, for scooping",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "tortilla chips and cucumber chips",
+      "prep": "for scooping",
+      "note": null
+    },
+    {
+      "raw": "Cauliflower bun burger (406 cal):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 thick (1 in) slices cauliflower, cut through the center of the head",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "cauliflower",
+      "prep": "cut through the center of the head",
+      "note": "1 in thick"
+    },
+    {
+      "raw": "1 tsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 oz lean ground beef (or plant-based ground), formed into a patty",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "lean ground beef",
+      "prep": "formed into a patty",
+      "note": "or plant-based ground"
+    },
+    {
+      "raw": "3-4 slices tomato",
+      "qty": 3,
+      "qtyMax": 4,
+      "unit": "slice",
+      "item": "tomato",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded iceberg lettuce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded iceberg lettuce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp chopped onion",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chopped onion",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 dill pickle slices",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "dill pickle slices",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp burger sauce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "burger sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Big Mac cucumber salad (326 cal):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 whole English cucumber, thinly sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "whole English cucumber",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "3 oz lean ground beef (or plant-based ground)",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "lean ground beef",
+      "prep": null,
+      "note": "or plant-based ground"
+    },
+    {
+      "raw": "1 small tomato, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small tomato",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 small dill pickle, chopped",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small dill pickle",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1/4 small onion, chopped",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small onion",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1-2 tbsp ketchup",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "tbsp",
+      "item": "ketchup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp vegan mayonnaise",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vegan mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "For all the beef:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Burger sauce: Whisk the ketchup, Greek yogurt (or mayo) and mustard in a small bowl.",
+    "Sweet potato bun burger: Preheat the oven to 400°F and line a sheet pan with parchment. Brush the sweet potato slices with the oil, season with salt and pepper, and roast 25 to 30 min, flipping halfway, until tender and browned.",
+    "Sweet potato bun burger: Form the beef into a patty, season with salt and pepper and cook in a skillet over medium-high heat 3 to 4 min per side, until 160°F inside.",
+    "Sweet potato bun burger: Stack one sweet potato slice, the lettuce, patty, tomato, onion, pickle and burger sauce, and top with the second slice.",
+    "Burger burrito: Season the beef log and cook it in a skillet over medium-high heat, turning, 8 to 10 min, until browned on all sides and 160°F inside.",
+    "Burger burrito: Spread the sauce down the middle of the tortilla, lay the beef log on top, add the onion, tomato and pickle, fold in the ends and roll up tight. Sear seam side down in the hot skillet for 1 to 2 min to seal.",
+    "Big Mac salad: Brown the beef in a skillet over medium-high heat, breaking it up, 6 to 8 min, until no pink remains. Season with salt and pepper and drain.",
+    "Big Mac salad: Toss the iceberg, pickle, tomato, onion and beef in a bowl and drizzle with the burger sauce.",
+    "Big Mac chopped egg salad: Brown and season the beef as for the salad and let it cool a few minutes.",
+    "Big Mac chopped egg salad: Pile the egg whites, tomato, pickle, onion and lettuce on a cutting board and chop together. Add the beef, ketchup and mayo, chop and mix again, and serve with the chips for scooping.",
+    "Cauliflower bun burger: Brush the cauliflower slices with the oil and season with salt and pepper. Cook on a grill or grill pan over medium heat, flipping occasionally, 10 to 15 min, until golden on both sides and fork-tender.",
+    "Cauliflower bun burger: Season the patty and cook it in a skillet over medium-high heat 3 to 4 min per side, until 160°F inside.",
+    "Cauliflower bun burger: Stack one cauliflower slice, the lettuce, patty, tomato, onion, pickles and burger sauce, and top with the second slice.",
+    "Big Mac cucumber salad: Brown and season the beef as for the salad. Slice the cucumber thin into a lidded container, add the beef, tomato, pickle, onion, ketchup and mayo, close the lid and shake to combine."
+  ],
+  "tips": [
+    "Calorie counts are the creator's, per serving. Protein per serving: sweet potato bun 25 g, burrito 31 g, salad 26 g, egg salad 30 g, cauliflower bun 28 g, cucumber salad 15 g.",
+    "Every variant works with plant-based ground in place of the beef."
+  ],
+  "references": [
+    {
+      "url": "https://pipandebby.com/pip-ebby/healthy-burgers-with-sweet-potato-buns-whole30/",
+      "site": "Pip and Ebby",
+      "title": "Sweet Potato Buns Recipe",
+      "usedFor": "sweet potato bun thickness (1/2 in), oil brush, 400°F for 30 min flipping halfway",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.kitchentreaty.com/grilled-cauliflower-steak-burgers/",
+      "site": "Kitchen Treaty",
+      "title": "Grilled Cauliflower \"Steak\" Burgers",
+      "usedFor": "1 in cauliflower slices through the center of the head, grill over medium 10 to 15 min until fork-tender",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

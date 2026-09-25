@@ -3,7 +3,7 @@
   "name": "Banana Pancakes",
   "category": "Breakfast",
   "emoji": "🥞",
-  "desc": "Fluffy pancakes loaded with mashed ripe banana",
+  "desc": "Fluffy griddle pancakes with two mashed ripe bananas in the batter.",
   "time": "20 min",
   "minutes": 20,
   "difficulty": "Easy",
@@ -17,14 +17,14 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 6,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
       "raw": "1 cup all-purpose flour",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "cup",
       "item": "all-purpose flour",
@@ -32,17 +32,17 @@
       "note": null
     },
     {
-      "raw": "1 tbsp white sugar",
-      "qty": 1,
+      "raw": "1 tbsp granulated sugar",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "white sugar",
+      "item": "granulated sugar",
       "prep": null,
       "note": null
     },
     {
       "raw": "2 tsp baking powder",
-      "qty": 2,
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "baking powder",
@@ -50,56 +50,68 @@
       "note": null
     },
     {
-      "raw": "1/4 tsp salt",
+      "raw": "1/4 tsp table salt",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "table salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 egg, beaten",
-      "qty": 1,
+      "raw": "1 large egg, beaten",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
-      "item": "egg",
+      "item": "large egg",
       "prep": "beaten",
       "note": null
     },
     {
-      "raw": "1 cup milk",
-      "qty": 1,
+      "raw": "1 cup milk (whole or 2%)",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "cup",
       "item": "milk",
       "prep": null,
-      "note": null
+      "note": "whole or 2%"
     },
     {
-      "raw": "2 tbsp vegetable oil",
-      "qty": 2,
+      "raw": "2 tbsp vegetable oil, plus more for the griddle",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "vegetable oil",
-      "prep": null,
+      "prep": "plus more for the griddle",
       "note": null
     },
     {
-      "raw": "2 ripe bananas, mashed",
-      "qty": 2,
+      "raw": "2 ripe medium bananas, mashed",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": null,
-      "item": "ripe bananas",
+      "item": "ripe medium bananas",
       "prep": "mashed",
       "note": null
     }
   ],
   "steps": [
-    "Combine flour, sugar, baking powder, and salt. In a separate bowl, mix egg, milk, oil, and bananas.",
-    "Stir flour mixture into banana mixture; batter will be slightly lumpy.",
-    "Heat a lightly oiled griddle over medium-high heat. Pour about 1/4 cup batter per pancake. Cook until golden brown on both sides."
+    "In a medium bowl, whisk together the flour, sugar, baking powder, and salt.",
+    "In a large bowl, mix the egg, milk, oil, and mashed bananas.",
+    "Stir the flour mixture into the banana mixture until no dry flour remains; the batter will be slightly lumpy.",
+    "Heat a griddle or large skillet over medium-high heat and brush it lightly with oil.",
+    "Pour about 1/4 cup batter per pancake. Cook until bubbles form on top and the bottom is golden brown, 3 to 5 minutes, then flip and cook until the second side is golden and the center springs back, 2 to 3 minutes more. Serve hot."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Makes about 12 pancakes. If the outsides brown before the centers set, turn the heat down to medium."
+  ],
+  "references": [
+    {
+      "url": "https://web.archive.org/web/20251214095334/https://www.allrecipes.com/recipe/20334/banana-pancakes-i/",
+      "site": "Allrecipes (Wayback Machine copy)",
+      "title": "Banana Pancakes",
+      "usedFor": "confirmed amounts, 1/4 cup per pancake, 3 to 5 minutes per side, yield of 12 pancakes",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

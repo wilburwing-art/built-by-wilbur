@@ -3,32 +3,32 @@
   "name": "Sweet Potato Sloppy Joes",
   "category": "Dinner",
   "emoji": "🍠",
-  "desc": "Whole30 beef and tomato filling piled into roasted sweet potatoes",
-  "time": "1 hr",
-  "minutes": 60,
+  "desc": "Whole30 sloppy joe filling of ground beef, peppers, tomato paste, and coconut aminos spooned into foil-roasted sweet potatoes.",
+  "time": "1 hr 10 min",
+  "minutes": 70,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://whole30.com/recipes/whole30-sweet-potato-sloppy-joes/",
+    "site": "Whole30",
+    "title": "Whole30 Sweet Potato Sloppy Joes",
+    "matchType": "original",
+    "evidence": "Same title and identical ingredient list and amounts (4 medium sweet potatoes, 1 tbsp ghee, 2 tsp sea salt, 1 lb ground beef, 6 oz tomato paste, 2 tbsp coconut aminos, 1 tsp smoked paprika) with the same 400°F bake.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://whole30.com/recipes/whole30-sweet-potato-sloppy-joes/"
   },
   "ingredients": [
     {
-      "raw": "4 medium sweet potatoes",
+      "raw": "4 medium sweet potatoes, scrubbed and dried",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
       "item": "medium sweet potatoes",
-      "prep": null,
+      "prep": "scrubbed and dried",
       "note": null
     },
     {
@@ -41,38 +41,38 @@
       "note": null
     },
     {
-      "raw": "1 yellow onion, diced",
+      "raw": "1 medium yellow onion, diced",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "yellow onion",
+      "item": "medium yellow onion",
       "prep": "diced",
       "note": null
     },
     {
-      "raw": "3 garlic cloves",
+      "raw": "3 garlic cloves, minced",
       "qty": 3,
       "qtyMax": null,
-      "unit": null,
-      "item": "garlic cloves",
-      "prep": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
       "note": null
     },
     {
-      "raw": "1 red or green bell pepper",
+      "raw": "1 red or green bell pepper, seeded and diced",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "red or green bell pepper",
-      "prep": null,
+      "prep": "seeded and diced",
       "note": null
     },
     {
-      "raw": "2 tsp sea salt",
+      "raw": "2 tsp fine sea salt",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "sea salt",
+      "item": "fine sea salt",
       "prep": null,
       "note": null
     },
@@ -86,12 +86,12 @@
       "note": null
     },
     {
-      "raw": "1 lb ground beef",
+      "raw": "1 lb ground beef (85/15)",
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
       "item": "ground beef",
-      "prep": null,
+      "prep": "85/15",
       "note": null
     },
     {
@@ -104,13 +104,13 @@
       "note": "6 oz"
     },
     {
-      "raw": "2 tbsp coconut aminos or soy sauce",
+      "raw": "2 tbsp coconut aminos (or soy sauce if not Whole30)",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "coconut aminos or soy sauce",
+      "item": "coconut aminos",
       "prep": null,
-      "note": null
+      "note": "or soy sauce if not Whole30"
     },
     {
       "raw": "1 tsp smoked paprika",
@@ -122,21 +122,33 @@
       "note": null
     },
     {
-      "raw": "1 medium scallion, for garnish",
+      "raw": "1 medium scallion, minced, for garnish",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "medium scallion",
-      "prep": "for garnish",
-      "note": null
+      "prep": "minced",
+      "note": "for garnish"
     }
   ],
   "steps": [
-    "Bake sweet potatoes at 400°F for 45-60 min.",
-    "Heat the ghee in a skillet. Sauté the onion, garlic, and bell pepper 5-7 min.",
-    "Add the beef, salt, pepper, and paprika and cook until browned. Stir in the tomato paste and coconut aminos.",
-    "Slit potatoes open and fill. Garnish with scallion."
+    "Preheat the oven to 400°F. Prick each sweet potato several times with a fork, wrap in foil, and bake on a baking sheet until very tender when squeezed, 45-60 min.",
+    "About 20 min before the potatoes are done, heat the ghee in a large skillet over medium heat. Add the onion, garlic, and bell pepper, season with the salt and pepper, and sauté until soft, 5-7 min.",
+    "Add the beef and smoked paprika and cook, breaking up the meat, until browned with no pink left (160°F), 6-8 min. Spoon off excess fat.",
+    "Stir in the tomato paste and coconut aminos and cook until the mixture is heated through and coats the meat, 2-3 min. Turn off the heat.",
+    "Unwrap the potatoes, slit each down the middle, and push the ends in to open a pocket. Fill with the sloppy joe mixture and garnish with scallion."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The Whole30 page starts from 1 lb already cooked ground beef and only warms it with the vegetables; this version browns raw beef in the same skillet instead.",
+    "Leftover filling keeps up to 3 days in the fridge."
+  ],
+  "references": [
+    {
+      "url": "https://whole30.com/recipes/whole30-sweet-potato-sloppy-joes/",
+      "site": "Whole30",
+      "title": "Whole30 Sweet Potato Sloppy Joes",
+      "usedFor": "foil-wrapped bake, heat level, 2-3 min finish, yield, storage",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

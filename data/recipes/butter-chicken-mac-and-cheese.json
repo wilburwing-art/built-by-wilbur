@@ -1,0 +1,270 @@
+{
+  "slug": "butter-chicken-mac-and-cheese",
+  "name": "Butter Chicken Mac and Cheese",
+  "category": "Dinner",
+  "emoji": "🧀",
+  "desc": "Yogurt-marinated butter chicken folded into elbow macaroni with hand-grated cheese and baked under breadcrumbs.",
+  "time": "2 hrs",
+  "minutes": 120,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DRcWE4oEdAY/",
+    "site": "Instagram @thejoemustgoon_",
+    "title": "Butter Chicken Mac & Cheese",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 8,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Chicken and marinade:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 lb boneless skinless chicken thighs, cut in bite-size pieces",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless skinless chicken thighs",
+      "prep": "cut in bite-size pieces",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup plain whole-milk yogurt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "plain whole-milk yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp lemon juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp garam masala",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garam masala",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp ground turmeric",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground turmeric",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp ground cumin",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp chili powder or cayenne",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "chili powder or cayenne",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp freshly grated ginger",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "freshly grated ginger",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 garlic cloves, crushed",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "crushed",
+      "note": null
+    },
+    {
+      "raw": "Butter chicken sauce:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp ghee or unsalted butter",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "ghee or unsalted butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup tomato passata (tomato puree)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "tomato passata",
+      "prep": null,
+      "note": "tomato puree"
+    },
+    {
+      "raw": "1 cup heavy cream",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp granulated sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/4 tsp kosher salt",
+      "qty": 1.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Mac:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lb elbow macaroni",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "elbow macaroni",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp kosher salt, for the pasta water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "kosher salt",
+      "prep": "for the pasta water",
+      "note": null
+    },
+    {
+      "raw": "8 oz sharp cheddar, grated from the block",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "sharp cheddar",
+      "prep": "grated from the block",
+      "note": null
+    },
+    {
+      "raw": "8 oz low-moisture mozzarella, grated from the block",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "low-moisture mozzarella",
+      "prep": "grated from the block",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup panko breadcrumbs",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "panko breadcrumbs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp chopped fresh parsley",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh parsley",
+      "prep": "chopped",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Mix the chicken with the yogurt, lemon juice, garam masala, turmeric, cumin, chili powder, ginger and garlic. Cover and refrigerate at least 1 hr and up to overnight.",
+    "Heat the oven to 350°F and grease a 9x13 in baking dish.",
+    "Bring a large pot of water to a boil with the kosher salt. Cook the macaroni 2 min short of al dente, reserve 1 cup of the pasta water, and drain.",
+    "Heat the ghee in a large deep skillet over high heat. Add the chicken, letting the marinade cling to it, and cook about 3 min until white all over.",
+    "Add the passata, cream, sugar, salt and any marinade left in the bowl. Lower the heat and simmer 20 min, stirring now and then, until the sauce thickens and the chicken reaches 165°F.",
+    "Off the heat, stir in the macaroni and three quarters of the grated cheese until melted, loosening with pasta water if it looks tight.",
+    "Pour into the baking dish. Top with the remaining cheese and the breadcrumbs.",
+    "Bake 15-20 min until golden and bubbling. Rest 10 min, then sprinkle with parsley."
+  ],
+  "tips": [
+    "The creator's exact amounts are on his website (the \"Updated 2025\" version), which could not be read; the amounts here come from RecipeTin Eats' butter chicken and The Golden Balance's butter chicken mac, following the creator's method.",
+    "Grate the cheese yourself; pre-shredded cheese has anti-caking starch that keeps the sauce from going smooth."
+  ],
+  "references": [
+    {
+      "url": "https://www.recipetineats.com/butter-chicken/",
+      "site": "RecipeTin Eats",
+      "title": "Butter Chicken",
+      "usedFor": "marinade amounts, passata, cream, sugar and salt, 3 min sear and 20 min simmer",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.thegoldenbalance.com/recipes/recipe-588d7",
+      "site": "The Golden Balance",
+      "title": "Butter Chicken Mac and Cheese",
+      "usedFor": "9x13 dish, 350°F for 15 min until bubbling and golden, 10 min rest, 1 hr minimum marinade, 1 lb elbow macaroni",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://tasty.co/recipe/butter-chicken-mac-n-cheese",
+      "site": "Tasty",
+      "title": "Butter Chicken Mac 'n' Cheese",
+      "usedFor": "confirmed mozzarella and cheddar blend and a 15 min bake at 350°F",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

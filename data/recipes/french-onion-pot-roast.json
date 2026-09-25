@@ -3,27 +3,27 @@
   "name": "French Onion Pot Roast",
   "category": "Dinner",
   "emoji": "🥩",
-  "desc": "Fall-apart chuck roast braised with caramelized onions and Gruyere",
-  "time": "4 hrs",
-  "minutes": 240,
+  "desc": "Chuck roast braised low with a big pot of caramelized onions, white wine and herbs, then shredded and baked under Gruyere.",
+  "time": "4 hrs 45 min",
+  "minutes": 285,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://cookingformysoul.com/french-onion-pot-roast/",
+    "site": "Cooking For My Soul",
+    "title": "French Onion Pot Roast",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and amounts (3-4 lb chuck, 4 tbsp butter, 4 large onions, 3/4 cup Sauvignon Blanc or Pinot Grigio, 3 cups broth, 1 cup Gruyere) and the same 300°F, 3 1/2 hour braise.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 6,
+    "basis": "publisher",
+    "source": "https://cookingformysoul.com/french-onion-pot-roast/"
   },
   "ingredients": [
     {
-      "raw": "3-4 lbs boneless chuck roast, excess fat trimmed",
+      "raw": "3-4 lb boneless chuck roast, excess fat trimmed",
       "qty": 3,
       "qtyMax": 4,
       "unit": "lb",
@@ -32,13 +32,22 @@
       "note": null
     },
     {
-      "raw": "Kosher salt and ground black pepper, to season generously",
-      "qty": null,
+      "raw": "2 tsp kosher salt (about 1 tsp per side), plus more to taste",
+      "qty": 2,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": "plus more to taste",
+      "note": "about 1 tsp per side"
+    },
+    {
+      "raw": "1 tsp ground black pepper (about 1/2 tsp per side)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
       "prep": null,
-      "note": null
+      "note": "about 1/2 tsp per side"
     },
     {
       "raw": "2 tbsp olive oil, for searing",
@@ -68,11 +77,11 @@
       "note": null
     },
     {
-      "raw": "6 cloves fresh garlic, minced",
+      "raw": "6 garlic cloves, minced",
       "qty": 6,
       "qtyMax": null,
       "unit": "clove",
-      "item": "fresh garlic",
+      "item": "garlic",
       "prep": "minced",
       "note": null
     },
@@ -144,12 +153,21 @@
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "freshly shredded Gruyere cheese",
+      "item": "Gruyere cheese",
+      "prep": "freshly shredded",
+      "note": null
+    },
+    {
+      "raw": "Sliced baguette, toasted, for serving",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     },
     {
-      "raw": "Sliced baguette, for serving",
+      "raw": "Mashed potatoes, for serving (optional)",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -159,15 +177,26 @@
     }
   ],
   "steps": [
-    "Preheat oven to 300°F. Pat roast dry, season generously.",
-    "Sear roast in hot oil 5 min per side. Remove.",
-    "Melt butter, cook onions 25-30 min until golden.",
-    "Add garlic 2 min, deglaze with wine, reduce by half. Add flour.",
-    "Add broth, Worcestershire, bay leaves, rosemary, thyme. Bring to simmer.",
-    "Return roast. Cover and braise in oven 3 1/2 hours until tender.",
-    "Increase oven to 400°F. Shred beef. Top with Gruyere, bake 5-7 min until melted.",
-    "Serve over mashed potatoes or with toasted baguette."
+    "Preheat the oven to 300°F. Pat the roast dry and season both sides with the salt and pepper.",
+    "Heat the oil in a large Dutch oven over medium-high heat. Sear the roast without moving it until a golden brown crust forms, about 5 minutes per side. Set aside on a plate.",
+    "Reduce the heat to medium and melt the butter in the same pot. Add the onions and cook, stirring occasionally, until light golden brown, 25-30 minutes. Add a splash of broth if brown bits stick.",
+    "Add the garlic and cook 2 minutes. Pour in the wine to deglaze and simmer until reduced by about half. Sprinkle in the flour and stir to coat.",
+    "Add the broth, Worcestershire, bay leaves, rosemary, and thyme (tied with twine if you like). Bring to a simmer and season with salt and pepper.",
+    "Return the roast to the pot; the liquid should come at least three quarters of the way up the meat, so add more broth if needed. Cover tightly and braise in the oven for 3 1/2 hours, until fall-apart tender.",
+    "Take the pot out and raise the oven to 400°F. Shred the beef into chunks in the pot and discard excess fat, the bay leaves, and the herb stems.",
+    "Scatter the Gruyere over the top and return the pot to the oven until the cheese melts, 5-7 minutes.",
+    "Serve over mashed potatoes or with toasted baguette slices."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "For even more tender meat, braise an extra 20 minutes before shredding."
+  ],
+  "references": [
+    {
+      "url": "https://cookingformysoul.com/french-onion-pot-roast/",
+      "site": "Cooking For My Soul",
+      "title": "French Onion Pot Roast",
+      "usedFor": "salt and pepper amounts, liquid level, servings, total time",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

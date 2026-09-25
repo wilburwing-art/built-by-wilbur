@@ -3,28 +3,28 @@
   "name": "Homemade Crunchwrap Supreme",
   "category": "Lunch",
   "emoji": "🫓",
-  "desc": "Taco meat, nacho cheese, tostada, and fixings wrapped and crisped",
-  "time": "30 min",
-  "minutes": 30,
+  "desc": "Taco beef, nacho cheese, a tostada shell, and cold fixings folded into a flour tortilla and crisped in a skillet.",
+  "time": "35 min",
+  "minutes": 35,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://damndelicious.net/2017/01/11/homemade-crunch-wrap-supreme/",
+    "site": "Damn Delicious",
+    "title": "Homemade Crunch Wrap Supreme",
+    "matchType": "closest",
+    "evidence": "Same build and list: 1 lb ground beef with a packet of taco seasoning, large flour tortillas, warmed nacho cheese, tostada shells, sour cream, shredded lettuce, tomato and Mexican-blend cheese, folded and seared seam side down.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 6,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
       "raw": "1 lb ground beef",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "lb",
       "item": "ground beef",
@@ -33,7 +33,7 @@
     },
     {
       "raw": "1 (1 oz) packet taco seasoning",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "packet",
       "item": "taco seasoning",
@@ -41,17 +41,35 @@
       "note": "1 oz"
     },
     {
-      "raw": "6 burrito-size flour tortillas",
-      "qty": 6,
+      "raw": "1/2 cup water (or the amount on your seasoning packet)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": "or the amount on your seasoning packet"
+    },
+    {
+      "raw": "6 burrito-size (10-inch) flour tortillas",
+      "qty": 6.0,
       "qtyMax": null,
       "unit": null,
       "item": "burrito-size flour tortillas",
+      "prep": null,
+      "note": "10-inch"
+    },
+    {
+      "raw": "1 cup nacho cheese sauce",
+      "qty": 1.0,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "nacho cheese sauce",
       "prep": null,
       "note": null
     },
     {
       "raw": "6 tostada shells",
-      "qty": 6,
+      "qty": 6.0,
       "qtyMax": null,
       "unit": null,
       "item": "tostada shells",
@@ -60,7 +78,7 @@
     },
     {
       "raw": "1 cup sour cream",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "cup",
       "item": "sour cream",
@@ -68,49 +86,67 @@
       "note": null
     },
     {
-      "raw": "2 cups shredded lettuce",
-      "qty": 2,
+      "raw": "2 cups shredded iceberg lettuce",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "cup",
-      "item": "shredded lettuce",
+      "item": "shredded iceberg lettuce",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tomato, diced",
-      "qty": 1,
+      "raw": "1 medium Roma tomato, diced",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
-      "item": "tomato",
+      "item": "medium Roma tomato",
       "prep": "diced",
       "note": null
     },
     {
-      "raw": "1 cup shredded Mexican cheese",
-      "qty": 1,
+      "raw": "1 cup shredded Mexican-blend cheese",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "cup",
-      "item": "shredded Mexican cheese",
+      "item": "shredded Mexican-blend cheese",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 cup nacho cheese sauce, warmed",
-      "qty": 1,
+      "raw": "Cooking spray",
+      "qty": null,
       "qtyMax": null,
-      "unit": "cup",
-      "item": "nacho cheese sauce",
-      "prep": "warmed",
+      "unit": null,
+      "item": null,
+      "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Cook and crumble ground beef. Drain grease. Add taco seasoning and water per packet instructions.",
-    "Warm nacho cheese and tortillas.",
-    "Layer on each tortilla: nacho cheese, taco meat, tostada shell, sour cream, lettuce, tomato, shredded cheese.",
-    "Fold tortilla edges up and around to center, creating a sealed hexagon shape.",
-    "Cook seam-side down in a sprayed skillet over medium heat, 2-3 min per side until golden brown."
+    "Cook the beef in a large skillet over medium-high heat, breaking it up, until browned with no pink left, 6 to 8 minutes. Drain the fat.",
+    "Stir in the taco seasoning and water and simmer on low until the sauce thickens and coats the meat, 5 to 7 minutes.",
+    "Warm the nacho cheese in the microwave in 30-second bursts, stirring between. Wrap the tortillas in a damp paper towel and microwave until pliable, about 30 seconds.",
+    "In the center of each tortilla, spread a spoonful of nacho cheese and add about 1/3 cup beef. Set a tostada shell on top, spread with sour cream, and top with lettuce, tomato, and shredded cheese.",
+    "Fold the tortilla edges up over the center in overlapping pleats, working all the way around, to close it into a hexagon.",
+    "Coat a skillet with cooking spray and set over medium heat. Cook each crunchwrap seam side down first, 2 to 3 minutes per side, until golden brown. Serve hot."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "If the tortilla will not close over the top, cover the gap with a small taco-size tortilla before folding the edges over it."
+  ],
+  "references": [
+    {
+      "url": "https://web.archive.org/web/2026/https://damndelicious.net/2017/01/11/homemade-crunch-wrap-supreme/",
+      "site": "Damn Delicious (Wayback Machine copy)",
+      "title": "Homemade Crunch Wrap Supreme",
+      "usedFor": "fold and sear method, seam side down first",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.littlespicejar.com/crunchwrap-supreme/",
+      "site": "Little Spice Jar",
+      "title": "Homemade Crunchwrap Supreme",
+      "usedFor": "1/2 cup water, simmering until thick, 10-inch tortillas, scant 1/2 cup filling, small tortilla to cover the gap",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

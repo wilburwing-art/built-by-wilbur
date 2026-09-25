@@ -3,22 +3,22 @@
   "name": "Air Fryer Apple Pie Bombs",
   "category": "Desserts",
   "emoji": "💣",
-  "desc": "Biscuit dough stuffed with apple pie filling, air fried and sugar coated",
-  "time": "25 min",
-  "minutes": 25,
+  "desc": "Split biscuit dough wrapped around apple pie filling, air fried, then dipped in butter and spiced sugar.",
+  "time": "30 min",
+  "minutes": 30,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://fabulesslyfrugal.com/recipes/apple-pie-bombs-in-the-air-fryer/",
+    "site": "Fabulessly Frugal",
+    "title": "Apple Pie Bombs in the Air Fryer",
+    "matchType": "closest",
+    "evidence": "Same six ingredients in the same amounts (3/4 cup sugar, 1 tbsp apple pie spice, 8-count Grands not Flaky Layers, 1 cup chopped filling, 1 tsp cinnamon, 1/2 cup melted butter); this one air fries at 350°F instead of 330°F.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 8,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
@@ -32,30 +32,30 @@
       "note": "150 g"
     },
     {
-      "raw": "3 tsp apple pie spice",
+      "raw": "3 tsp (1 tbsp) apple pie spice",
       "qty": 3,
       "qtyMax": null,
       "unit": "tsp",
       "item": "apple pie spice",
       "prep": null,
-      "note": null
+      "note": "1 tbsp"
     },
     {
-      "raw": "1 (8-count) can Pillsbury Grands biscuits, not flaky layers",
+      "raw": "1 (16.3 oz, 8-count) can Pillsbury Grands biscuits (the original, not Flaky Layers)",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
       "item": "Pillsbury Grands biscuits",
-      "prep": "not flaky layers",
-      "note": "8-count"
+      "prep": null,
+      "note": "16.3 oz, 8-count; the original, not Flaky Layers"
     },
     {
-      "raw": "1 cup (243 g) apple pie filling, apples cut into small pieces",
+      "raw": "1 cup (243 g) canned apple pie filling, apples chopped into 1/2-inch pieces",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "apple pie filling",
-      "prep": "apples cut into small pieces",
+      "item": "canned apple pie filling",
+      "prep": "apples chopped into 1/2-inch pieces",
       "note": "243 g"
     },
     {
@@ -75,13 +75,51 @@
       "item": "unsalted butter",
       "prep": "melted",
       "note": "1 stick"
+    },
+    {
+      "raw": "Nonstick cooking spray, for the basket",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
     }
   ],
   "steps": [
-    "Mix the sugar and apple pie spice in a bowl. Stir the cinnamon into the apple pie filling.",
-    "Separate each biscuit into 2 layers and roll each into a 4-inch circle (16 circles). Spoon about 1 tbsp filling into the center of each, pinch closed, and roll into balls.",
-    "Air fry at 350°F for 8-9 minutes, in batches, until golden. Dip each in melted butter, then roll in the spiced sugar."
+    "Stir the sugar and apple pie spice together in a shallow bowl and set aside.",
+    "Chop the apples in the pie filling into 1/2-inch pieces, then stir the cinnamon into 1 cup of the filling.",
+    "Separate each biscuit into 2 thinner layers (16 pieces). Roll or press each into a 4-inch circle.",
+    "Spoon about 1 tbsp filling into the center of each circle. Pull the edges up over the filling, pinch the seams tightly closed with no gaps, and roll into a ball.",
+    "Preheat the air fryer to 350°F. Lightly spray the basket and arrange the balls seam side down, about 1 inch apart. Work in batches.",
+    "Air fry 8-9 minutes, until puffed and golden brown all over.",
+    "While each batch is still hot, dip the bombs in the melted butter, then roll them in the spiced sugar. Serve warm."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Fabulessly Frugal's version air fries at 330°F for 8 minutes, flips, then cooks 2 to 4 minutes more; this one runs hotter and skips the flip.",
+    "A tight seal matters more than anything else: a gap or thin spot lets the filling leak and burn in the basket."
+  ],
+  "references": [
+    {
+      "url": "https://fabulesslyfrugal.com/recipes/apple-pie-bombs-in-the-air-fryer/",
+      "site": "Fabulessly Frugal",
+      "title": "Apple Pie Bombs in the Air Fryer",
+      "usedFor": "ingredient amounts, 4-inch circles, spraying the basket, batch spacing",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://dessertsonadime.com/air-fryer-apple-pie-bombs/",
+      "site": "Desserts on a Dime",
+      "title": "Air Fryer Apple Pie Bombs",
+      "usedFor": "350°F bake cue (golden brown), dipping while hot, 16-piece yield",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.tasteofhome.com/recipes/air-fryer-apple-pie-bombs/",
+      "site": "Taste of Home",
+      "title": "Air-Fryer Apple Pie Bombs",
+      "usedFor": "sealing tip (no gaps or thin spots)",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

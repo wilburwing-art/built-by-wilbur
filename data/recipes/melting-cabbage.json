@@ -1,0 +1,173 @@
+{
+  "slug": "melting-cabbage",
+  "name": "Garlic-Parmesan Melting Cabbage",
+  "category": "Sides & Snacks",
+  "emoji": "🥬",
+  "desc": "Cabbage wedges seared deeply brown, then baked in a creamy garlic Parmesan broth until spoon-tender.",
+  "time": "1 hr 15 min",
+  "minutes": 75,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DBKOxGdSOBu/",
+    "site": "Instagram @eatingwell",
+    "title": "Melting Cabbage",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 8,
+    "basis": "publisher",
+    "source": "https://www.eatingwell.com/garlic-parmesan-melting-cabbage-8696564"
+  },
+  "ingredients": [
+    {
+      "raw": "1 (2 1/4 lb) head green cabbage, outermost leaves removed",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "head",
+      "item": "green cabbage",
+      "prep": "outermost leaves removed",
+      "note": "2 1/4 lb"
+    },
+    {
+      "raw": "4 tbsp extra-virgin olive oil, divided",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "extra-virgin olive oil",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp salt, divided",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp ground black pepper, divided",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "1 cup thinly sliced yellow onion",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "yellow onion",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "4 large garlic cloves, thinly sliced",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "thinly sliced",
+      "note": "large"
+    },
+    {
+      "raw": "1 tsp Italian seasoning",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "Italian seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp crushed red pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "crushed red pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 oz reduced-fat cream cheese, softened",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "reduced-fat cream cheese",
+      "prep": "softened",
+      "note": null
+    },
+    {
+      "raw": "2 cups low-sodium vegetable broth",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "low-sodium vegetable broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp cornstarch",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp water",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup finely grated Parmesan, divided",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Parmesan",
+      "prep": "finely grated, divided",
+      "note": null
+    },
+    {
+      "raw": "Chopped fresh flat-leaf parsley, for garnish (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat the oven to 350°F. Halve the cabbage through the stem end, then cut each half into 4 wedges about 2 inches thick, keeping the core on each wedge.",
+    "Heat 1 tbsp oil in a large cast-iron or other heavy ovenproof skillet over medium-high heat. Add 4 wedges and cook until deeply browned on both sides, about 5 min per side. Move to a plate and sprinkle with 1/8 tsp each salt and pepper. Repeat with 1 tbsp oil, the remaining wedges and another 1/8 tsp each salt and pepper.",
+    "Reduce the heat to medium. Add the remaining 2 tbsp oil, the onion, garlic, Italian seasoning and crushed red pepper and cook, stirring often, until the onion starts to soften and brown, 2 to 3 min.",
+    "Add the cream cheese and stir constantly until melted and creamy, about 1 min. Stir in the broth and the remaining 1/4 tsp each salt and pepper and bring to a boil.",
+    "Stir the cornstarch and water together until smooth and whisk into the pan. Take the pan off the heat and whisk in 1/2 cup Parmesan until melted.",
+    "Return the wedges to the pan, overlapping if needed. Bake, turning once, until the cabbage is very soft and the sauce has reduced and thickened, about 50 min.",
+    "Let stand 5 min, then sprinkle with the remaining 1/2 cup Parmesan and garnish with parsley."
+  ],
+  "tips": [
+    "Keep the core on each wedge so it holds together."
+  ],
+  "references": [
+    {
+      "url": "https://www.eatingwell.com/garlic-parmesan-melting-cabbage-8696564",
+      "site": "EatingWell",
+      "title": "Garlic-Parmesan Melting Cabbage",
+      "usedFor": "creator's full recipe: wedge size, oil and seasoning split per batch, cook times, servings",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

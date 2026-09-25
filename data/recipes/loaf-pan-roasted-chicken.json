@@ -1,0 +1,139 @@
+{
+  "slug": "loaf-pan-roasted-chicken",
+  "name": "Loaf-Pan Roasted Chicken",
+  "category": "Dinner",
+  "emoji": "🍗",
+  "desc": "Marinated chicken thighs packed into a loaf pan, roasted, then flipped out and sliced thin like doner for meal prep.",
+  "time": "3 hrs 45 min",
+  "minutes": 225,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C9QLJJLOl7L/",
+    "site": "Instagram @shredhappens",
+    "title": "Loaf-Pan Roasted Chicken",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 5,
+    "basis": "publisher",
+    "source": "https://shredhappens.substack.com/p/loaf-pan-chicken"
+  },
+  "ingredients": [
+    {
+      "raw": "2.5 lb boneless skinless chicken thighs, excess fat trimmed",
+      "qty": 2.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless skinless chicken thighs",
+      "prep": "excess fat trimmed",
+      "note": null
+    },
+    {
+      "raw": "1 medium yellow onion, processed in a food processor",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium yellow onion",
+      "prep": "processed in a food processor",
+      "note": null
+    },
+    {
+      "raw": "Juice of 1 large lemon",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 heaping tbsp tomato paste",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "heaping tbsp tomato paste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 heaping tbsp plain Greek yogurt",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "heaping tbsp plain Greek yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3-4 pinches kosher salt",
+      "qty": 3,
+      "qtyMax": 4,
+      "unit": "pinch",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp freshly cracked black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "freshly cracked black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp dried thyme",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dried thyme",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp urfa or Aleppo pepper (or other mild chili flakes)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "urfa or Aleppo pepper",
+      "prep": null,
+      "note": "or other mild chili flakes"
+    }
+  ],
+  "steps": [
+    "Put the chicken in a large bowl. Add the processed onion, lemon juice, tomato paste and yogurt.",
+    "Season with salt, pepper, thyme, garlic powder and urfa or Aleppo pepper, and mix very well to coat.",
+    "Cover and marinate in the fridge 2-6 hours, or overnight.",
+    "Heat the oven to 425°F and let the chicken sit at room temperature for 30 minutes.",
+    "Pack the chicken tightly into an 8.5 x 4.5 inch loaf pan. Roast 50 minutes, until the center reads 165°F.",
+    "Carefully tilt the pan and pour the juices into a heatproof container. Pour them back over the chicken, then drain again.",
+    "Flip the loaf out onto a cutting board and slice into thin strips like doner. Serve over rice, in wraps or in bowls."
+  ],
+  "tips": [
+    "Grated onion, yogurt and tomato paste all tenderize the chicken.",
+    "The creator's newer written version uses 3 tbsp tomato paste and 1.5 tbsp each of thyme and garlic powder; the reel amounts are kept here.",
+    "Save the drained juices for pouring over the sliced chicken or for soup. Keeps 4-5 days."
+  ],
+  "references": [
+    {
+      "url": "https://shredhappens.substack.com/p/loaf-pan-chicken",
+      "site": "The Secret Sauce by Shredhappens",
+      "title": "Loaf Pan Chicken",
+      "usedFor": "pan size, 425°F for 50 min, pouring off juices, 5 servings, newer amounts noted in tips",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

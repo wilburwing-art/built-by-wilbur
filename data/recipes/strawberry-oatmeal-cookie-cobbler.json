@@ -1,0 +1,220 @@
+{
+  "slug": "strawberry-oatmeal-cookie-cobbler",
+  "name": "Strawberry Oatmeal Cookie Cobbler",
+  "category": "Desserts",
+  "emoji": "🍓",
+  "desc": "Jammy skillet strawberries baked under a chewy brown sugar oatmeal cookie topping.",
+  "time": "1 hr 30 min",
+  "minutes": 90,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DIXqqAJs9Vy/",
+    "site": "Instagram @halfbakedharvest",
+    "title": "Strawberry Oatmeal Cookie Cobbler",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 8,
+    "basis": "publisher",
+    "source": "https://www.halfbakedharvest.com/strawberry-oatmeal-cookie-cobbler/"
+  },
+  "ingredients": [
+    {
+      "raw": "Strawberries:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6-7 cups fresh or frozen strawberries, halved (about 3 lb)",
+      "qty": 6,
+      "qtyMax": 7,
+      "unit": "cup",
+      "item": "fresh or frozen strawberries",
+      "prep": "halved",
+      "note": "about 3 lb"
+    },
+    {
+      "raw": "1/4-1/3 cup packed dark brown sugar",
+      "qty": 0.25,
+      "qtyMax": 0.3333333333333333,
+      "unit": "cup",
+      "item": "packed dark brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp cornstarch",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp salted butter",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "salted butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp vanilla extract",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Cookie topping:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 stick (8 tbsp) salted butter, melted",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "stick",
+      "item": "salted butter",
+      "prep": "melted",
+      "note": "8 tbsp"
+    },
+    {
+      "raw": "3/4-1 cup packed dark brown sugar",
+      "qty": 0.75,
+      "qtyMax": 1,
+      "unit": "cup",
+      "item": "packed dark brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large egg",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp vanilla extract",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup all-purpose flour",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup old-fashioned oats",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "old-fashioned oats",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp baking soda",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp fine salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Finish:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 tbsp salted butter",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "salted butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp maple syrup, honey or granulated sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "maple syrup, honey or granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Vanilla whipped cream or vanilla ice cream, for serving",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 350°F.",
+    "In a large (12 in) oven-safe skillet over high heat, combine the strawberries, brown sugar, cornstarch and 3 tbsp butter. Boil 5-10 min, until the juices bubble and turn jammy. Off the heat, stir in the vanilla.",
+    "In a bowl, whisk the melted butter, brown sugar, egg and vanilla. Stir in the flour, oats, baking soda and salt.",
+    "Drop the cookie dough in clumps over the fruit. Bake 30 min.",
+    "Take the skillet out, dot the 4 tbsp butter over the top, and drizzle with the maple syrup or honey. Bake 15 min more, until the topping is golden and the fruit bubbles at the edges.",
+    "Cool 10 min and serve warm with whipped cream or ice cream."
+  ],
+  "tips": [
+    "No oven-safe skillet? Cook the fruit in any pan and move it to a baking dish before topping.",
+    "Tieghan uses the smaller amount of brown sugar in both the berries and the topping.",
+    "Can be assembled ahead and refrigerated. Bring to room temp before baking.",
+    "Works with mixed berries or peaches, and with gluten-free flour and oats."
+  ],
+  "references": [
+    {
+      "url": "https://www.halfbakedharvest.com/strawberry-oatmeal-cookie-cobbler/",
+      "site": "Half Baked Harvest",
+      "title": "Strawberry Oatmeal Cookie Cobbler",
+      "usedFor": "full measured recipe, dark brown sugar preference, 8 servings",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "slug": "honey-chili-crunch-salmon-bites-edamame-salad",
+  "name": "Honey Chili Crunch Salmon Bites with Edamame Salad",
+  "category": "Dinner",
+  "emoji": "🐟",
+  "desc": "Air fryer salmon bites glazed with honey and chili crunch, served over rice with a sesame lime edamame salad and avocado.",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DESUPYKJ40f/",
+    "site": "Instagram @fitfoodiefinds",
+    "title": "Honey Chili Crunch Salmon Bites + Edamame Salad",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 6,
+    "basis": "publisher",
+    "source": "https://fitfoodiefinds.com/air-fryer-salmon-bites-recipe/"
+  },
+  "ingredients": [
+    {
+      "raw": "Salmon:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp chili crunch (such as Momofuku or Trader Joe's), plus more for serving",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chili crunch",
+      "prep": "plus more for serving",
+      "note": "such as Momofuku or Trader Joe's"
+    },
+    {
+      "raw": "2 tbsp honey",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "honey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp rice vinegar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "rice vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp toasted sesame oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "toasted sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp sea salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1.5 lb skinless, deboned salmon, cut into 1 to 1.5 in cubes",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "skinless deboned salmon",
+      "prep": "cut into 1 to 1.5 in cubes",
+      "note": null
+    },
+    {
+      "raw": "1.5 tbsp avocado oil, plus more for the basket",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "avocado oil",
+      "prep": "plus more for the basket",
+      "note": null
+    },
+    {
+      "raw": "Edamame salad:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 cups shelled edamame",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shelled edamame",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "8-10 green onions, sliced diagonally",
+      "qty": 8,
+      "qtyMax": 10,
+      "unit": null,
+      "item": "green onions",
+      "prep": "sliced diagonally",
+      "note": null
+    },
+    {
+      "raw": "3 tsp toasted sesame oil",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "toasted sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1.5 tbsp rice vinegar",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "rice vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp sea salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tsp black or white sesame seeds",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black or white sesame seeds",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 lime, juiced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lime",
+      "prep": "juiced",
+      "note": null
+    },
+    {
+      "raw": "Bowls:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 cups cooked white rice",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cooked white rice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 large avocados, cubed",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large avocados",
+      "prep": "cubed",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup chopped fresh cilantro",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chopped fresh cilantro",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Kewpie mayo, for topping (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat the air fryer to 400°F.",
+    "Whisk the chili crunch, honey, rice vinegar, sesame oil and salt in a large bowl. Add the salmon cubes and toss until coated.",
+    "Oil the bottom of the air fryer basket and add the salmon in a single layer, working in batches if needed. Drizzle with the avocado oil.",
+    "Cook 6 to 8 min, until the outside starts to brown and the salmon reads 145°F inside.",
+    "While the salmon cooks, mix the edamame, green onions, sesame oil, rice vinegar, salt, sesame seeds and lime juice in a bowl.",
+    "Build bowls with rice, salmon and edamame salad. Top with avocado, cilantro, extra chili crunch and Kewpie mayo if you like."
+  ],
+  "tips": [
+    "Do not stack the salmon in the basket, or it steams instead of browning.",
+    "If your edamame is frozen, thaw it in cool water so it does not turn slimy."
+  ],
+  "references": [
+    {
+      "url": "https://fitfoodiefinds.com/air-fryer-salmon-bites-recipe/",
+      "site": "Fit Foodie Finds",
+      "title": "Air Fryer Salmon Bites with Honey Chili Crunch",
+      "usedFor": "full measured recipe: marinade, salmon, edamame salad and bowl amounts, air fryer temp and time, 145°F doneness, servings (read via a Wayback Machine snapshot)",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

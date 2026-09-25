@@ -3,45 +3,45 @@
   "name": "Beef Birria",
   "category": "Dinner",
   "emoji": "🍲",
-  "desc": "Chile-braised chuck and short ribs with a rich consomme for dipping",
-  "time": "10 hrs",
-  "minutes": 600,
+  "desc": "Chuck and short ribs rubbed with warm spices overnight, then braised in a guajillo chile and tomato broth until fall-apart tender.",
+  "time": "10 hrs 10 min",
+  "minutes": 610,
   "difficulty": "Hard",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/282066/beef-birria/",
+    "site": "Allrecipes",
+    "title": "Beef Birria",
+    "matchType": "original",
+    "evidence": "Chef John's Allrecipes recipe: every ingredient and amount matches (2 1/2 lb chuck, 3 short ribs, 7 guajillos, 4 cups broth, 1/4 cup white vinegar, 1 tbsp honey), and the steps and chef's notes are the same text.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 10,
+    "basis": "publisher",
+    "source": "https://www.allrecipes.com/recipe/282066/beef-birria/"
   },
   "ingredients": [
     {
-      "raw": "1 (2 1/2 pound) beef chuck",
+      "raw": "1 (2 1/2 lb) beef chuck roast",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "beef chuck",
+      "item": "beef chuck roast",
       "prep": null,
-      "note": "(2 1/2 pound)"
+      "note": "2 1/2 lb"
     },
     {
-      "raw": "3 (8 ounce) beef short ribs",
+      "raw": "3 (8 oz) beef short ribs",
       "qty": 3,
       "qtyMax": null,
       "unit": null,
       "item": "beef short ribs",
       "prep": null,
-      "note": "(8 ounce)"
+      "note": "8 oz each"
     },
     {
-      "raw": "4 teaspoons kosher salt",
+      "raw": "4 tsp kosher salt",
       "qty": 4,
       "qtyMax": null,
       "unit": "tsp",
@@ -50,7 +50,7 @@
       "note": null
     },
     {
-      "raw": "2 teaspoons dried Mexican oregano",
+      "raw": "2 tsp dried Mexican oregano",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
@@ -59,7 +59,7 @@
       "note": null
     },
     {
-      "raw": "1 teaspoon freshly ground black pepper",
+      "raw": "1 tsp freshly ground black pepper",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
@@ -68,7 +68,7 @@
       "note": null
     },
     {
-      "raw": "1 teaspoon ground cumin",
+      "raw": "1 tsp ground cumin",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
@@ -77,7 +77,7 @@
       "note": null
     },
     {
-      "raw": "¼ teaspoon ground cinnamon",
+      "raw": "1/4 tsp ground cinnamon",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
@@ -86,7 +86,7 @@
       "note": null
     },
     {
-      "raw": "¼ teaspoon ground cloves",
+      "raw": "1/4 tsp ground cloves",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
@@ -95,16 +95,16 @@
       "note": null
     },
     {
-      "raw": "7 dried guajillo chilies",
+      "raw": "7 dried guajillo chiles",
       "qty": 7,
       "qtyMax": null,
       "unit": null,
-      "item": "dried guajillo chilies",
+      "item": "dried guajillo chiles",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 tablespoons olive oil",
+      "raw": "2 tbsp olive oil",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
@@ -122,7 +122,7 @@
       "note": null
     },
     {
-      "raw": "6 cloves garlic, peeled",
+      "raw": "6 garlic cloves, peeled",
       "qty": 6,
       "qtyMax": null,
       "unit": "clove",
@@ -137,7 +137,7 @@
       "unit": "piece",
       "item": "fresh ginger",
       "prep": "thinly sliced",
-      "note": "(1 inch)"
+      "note": "1 inch"
     },
     {
       "raw": "3 large tomatoes, cored and chopped",
@@ -167,7 +167,7 @@
       "note": null
     },
     {
-      "raw": "¼ cup white vinegar",
+      "raw": "1/4 cup white vinegar",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
@@ -185,7 +185,7 @@
       "note": null
     },
     {
-      "raw": "1 tablespoon honey",
+      "raw": "1 tbsp honey",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
@@ -194,21 +194,30 @@
       "note": null
     },
     {
-      "raw": "2 tablespoons finely diced white onion",
-      "qty": 2,
+      "raw": "For serving:",
+      "qty": null,
       "qtyMax": null,
-      "unit": "tbsp",
-      "item": "finely diced white onion",
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tablespoon chopped fresh cilantro",
+      "raw": "2 tbsp finely diced white onion",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "white onion",
+      "prep": "finely diced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp chopped fresh cilantro",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "chopped fresh cilantro",
-      "prep": null,
+      "item": "fresh cilantro",
+      "prep": "chopped",
       "note": null
     },
     {
@@ -222,19 +231,28 @@
     }
   ],
   "steps": [
-    "Cut beef chuck in half; cut each half into 3- to 4-inch pieces. Cut each beef short rib through the middle, all the way down to the bone.",
-    "Place beef chuck and short ribs into a soup pot; season with kosher salt, oregano, black pepper, cumin, cinnamon, and cloves. Toss thoroughly until meat is evenly coated with spices, 2 to 3 minutes. Cover and keep in the refrigerator for at least 6 hours to overnight.",
-    "Prep guajillo chiles by snipping off stems with scissors; slice open and scrape or shake out seeds onto a plate to discard.",
-    "Heat olive oil in a saucepan over medium heat. Add guajillo chiles and toss in hot oil, about 30 seconds. Add onion, garlic, and ginger; toss to combine. Add tomatoes and water; bring to a boil. Reduce heat to medium-low and let simmer for 30 minutes.",
-    "Turn off heat and use an immersion blender to purée mixture as smooth as possible, or use a countertop blender, working in batches as needed.",
-    "Remove the soup pot with meat from the refrigerator. Strain puréed chili mixture into the pot using a large mesh strainer. Add chicken broth, vinegar, bay leaves, and honey to the pot.",
-    "Bring to a boil, then reduce heat to medium-low. Simmer gently, stirring occasionally, until meat is fall-apart tender, 3 to 4 hours. Skim fat off of the top and reserve for future birria queso tacos.",
-    "To serve, place a few chunks of beef into a soup bowl and spoon some cooking liquid on the top. Sprinkle with some white onion and cilantro; squeeze lime juice over the top.",
-    "Chef's Notes",
-    "The rule of thumb for this kind of thing is to use 1 teaspoon of kosher salt per pound of meat. You can use other dried chiles, such as ancho, pasilla, or California, and you can use water with chicken bouillon powder instead of chicken broth.",
-    "Water or broth can be added as needed to keep the stew brothy as it simmers, or it can be allowed to reduce and thicken as it cooks. The beef can be served in large chunks or shredded with a fork.",
-    "If you enjoy this with beef, you should really get some goat or lamb and prepare it the same way. That little bit of extra gaminess you gain with those meats really does work out, even with this flavor profile."
+    "Cut the chuck in half, then cut each half into 3- to 4-inch pieces. Cut each short rib through the middle, down to the bone.",
+    "Put the chuck and short ribs in a soup pot and season with the kosher salt, oregano, black pepper, cumin, cinnamon, and cloves. Toss for 2-3 minutes until evenly coated. Cover and refrigerate for at least 6 hours or overnight.",
+    "Snip the stems off the guajillo chiles with scissors, slice them open, and shake out and discard the seeds.",
+    "Heat the olive oil in a saucepan over medium heat. Add the chiles and toss in the hot oil for about 30 seconds. Add the onion, garlic, and ginger and toss to combine.",
+    "Add the tomatoes and water and bring to a boil. Reduce the heat to medium-low and simmer for 30 minutes.",
+    "Turn off the heat and puree the mixture as smooth as possible with an immersion blender, or in batches in a countertop blender.",
+    "Take the pot of meat out of the refrigerator. Strain the chile puree into the pot through a large mesh strainer, pressing on the solids. Add the chicken broth, vinegar, bay leaves, and honey.",
+    "Bring to a boil, then reduce the heat to medium-low. Simmer gently, stirring occasionally, until the meat is fall-apart tender, 3 to 4 hours. Add water or broth as needed to keep it brothy. Skim the fat off the top and save it for birria queso tacos if you like.",
+    "To serve, put a few chunks of beef in each bowl and spoon the cooking liquid over the top. Sprinkle with white onion and cilantro and squeeze lime over the top."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Use about 1 tsp kosher salt per pound of meat.",
+    "Other dried chiles such as ancho, pasilla, or California work in place of guajillo, and water with chicken bouillon powder can stand in for the broth.",
+    "Serve the beef in large chunks or shred it with a fork. Goat or lamb prepared the same way also works well."
+  ],
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/282066/beef-birria/",
+      "site": "Allrecipes",
+      "title": "Beef Birria",
+      "usedFor": "servings and total time; chef notes condensed into tips",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

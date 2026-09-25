@@ -3,23 +3,23 @@
   "name": "Chipotle Cilantro Lime Rice",
   "category": "Sides & Snacks",
   "emoji": "🍚",
-  "desc": "The copycat rice: basmati with bay, lime and lemon folded through",
+  "desc": "Copycat Chipotle rice: basmati boiled with a bay leaf, then tossed with cilantro, lime, and lemon.",
   "time": "30 min",
   "minutes": 30,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.culinaryhill.com/chipotle-cilantro-lime-rice/",
+    "site": "Culinary Hill",
+    "title": "Chipotle Cilantro-Lime Rice (Copycat)",
+    "matchType": "original",
+    "evidence": "Same ingredient list and the same four methods (basmati pasta method, long-grain absorption, rice cooker, brown rice times), nearly word for word.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 12,
+    "basis": "publisher",
+    "source": "https://www.culinaryhill.com/chipotle-cilantro-lime-rice/"
   },
   "ingredients": [
     {
@@ -27,9 +27,9 @@
       "qty": 2,
       "qtyMax": null,
       "unit": "cup",
-      "item": "basmati rice (unrinsed), or any long-grain white rice (rinsed)",
+      "item": "basmati rice",
       "prep": null,
-      "note": null
+      "note": "unrinsed; or any long-grain white rice, rinsed"
     },
     {
       "raw": "1 bay leaf",
@@ -41,25 +41,25 @@
       "note": null
     },
     {
-      "raw": "Salt",
-      "qty": null,
+      "raw": "2 tsp kosher salt, plus about 1/4 tsp to finish",
+      "qty": 2,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": "plus about 1/4 tsp to finish",
       "note": null
     },
     {
-      "raw": "1 teaspoon olive oil or rice bran oil (optional)",
+      "raw": "1 tsp olive oil or rice bran oil (optional)",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "olive oil or rice bran oil (optional)",
+      "item": "olive oil or rice bran oil",
       "prep": null,
-      "note": null
+      "note": "optional"
     },
     {
-      "raw": "2 tablespoons minced fresh cilantro",
+      "raw": "2 tbsp minced fresh cilantro",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
@@ -68,31 +68,43 @@
       "note": null
     },
     {
-      "raw": "2 tablespoons lime juice",
+      "raw": "2 tbsp fresh lime juice",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "lime juice",
+      "item": "fresh lime juice",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 tablespoons lemon juice",
+      "raw": "2 tbsp fresh lemon juice",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "lemon juice",
+      "item": "fresh lemon juice",
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Stovetop (Basmati, “pasta method”): Bring 8 cups water to a boil. Add rice, bay leaf, optional oil, and salt to taste. Boil uncovered 10-12 minutes. Remove bay leaf; drain in a fine strainer and rinse with hot water. Transfer to a bowl; stir in cilantro, lime juice, and lemon juice. Adjust salt.",
-    "Stovetop (other long-grain, absorption): Bring 4 cups water to a boil. Add rice, bay leaf, optional oil, and salt to taste; return to a boil. Reduce heat to low, cover, and cook 15 minutes. Remove bay leaf; fluff in cilantro, lime juice, and lemon juice. Adjust salt.",
-    "Rice cooker (long-grain): Add rinsed rice, water per manufacturer, bay leaf, 1 tsp salt, and optional oil. Cook per cooker instructions. Remove bay leaf; stir in cilantro, lime juice, and lemon juice. Adjust salt.",
-    "Brown rice (any method): Use the same steps as above, but cook 40 minutes (basmati on stove), 45 minutes (other long-grain on stove), or 60-70 minutes in a rice cooker (or per manufacturer).",
-    "Remove the bay leaf, fluff the rice, and fold in the cilantro, lime juice, and lemon juice."
+    "Basmati, pasta method: Bring 8 cups water to a boil in a large pot. Add the rice, bay leaf, oil if using, and 2 tsp salt. Stir, return to a boil, and boil uncovered 10 to 12 minutes, until tender.",
+    "Basmati, pasta method: Remove the bay leaf. Drain the rice in a fine mesh strainer, rinse with hot water, and pour into a large bowl.",
+    "Other long-grain rice, absorption method: Bring 4 cups water to a boil. Add the rinsed rice, bay leaf, oil if using, and 2 tsp salt; return to a boil. Reduce the heat to low, cover, and cook 15 minutes. Remove the bay leaf.",
+    "Rice cooker: Add the rinsed rice, water per the manufacturer, the bay leaf, 1 tsp salt, and the oil if using. Cook per the cooker's instructions, then remove the bay leaf.",
+    "Brown rice: Follow the same steps, cooking 40 minutes for basmati on the stove, 45 minutes for other long-grain on the stove, or 60 to 70 minutes in a rice cooker.",
+    "To finish any method: Stir in the cilantro, lime juice, and lemon juice. Season with about 1/4 tsp more salt, to taste. Serve hot or at room temperature."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Start checking the basmati at 10 minutes; some cooks find 12 minutes turns it mushy.",
+    "Parsley can stand in for the cilantro."
+  ],
+  "references": [
+    {
+      "url": "https://www.culinaryhill.com/chipotle-cilantro-lime-rice/",
+      "site": "Culinary Hill",
+      "title": "Chipotle Cilantro-Lime Rice (Copycat)",
+      "usedFor": "salt amounts (2 tsp in the water, 1 tsp for the rice cooker, 1/4 tsp to finish), cook times, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

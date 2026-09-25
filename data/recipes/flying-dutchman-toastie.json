@@ -1,0 +1,221 @@
+{
+  "slug": "flying-dutchman-toastie",
+  "name": "Flying Dutchman Toastie",
+  "category": "Lunch",
+  "emoji": "🍔",
+  "desc": "Two smash-style cheeseburgers with bacon, pickles, sautéed onions and burger sauce, grilled inside a mozzarella toastie.",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C7W9sn6KB_F/",
+    "site": "Instagram @bitta_banging",
+    "title": "Flying Dutchman",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 2,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Burger sauce:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup mayonnaise",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp ketchup",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "ketchup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp yellow mustard",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "yellow mustard",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp sweet pickle relish",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sweet pickle relish",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp garlic powder",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp smoked paprika",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "smoked paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Kosher salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Toastie:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 slices smoked bacon",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "smoked bacon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 small yellow onion, thinly sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small yellow onion",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 oz 80/20 ground beef, formed into 2 thin patties",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "80/20 ground beef",
+      "prep": "formed into 2 thin patties",
+      "note": null
+    },
+    {
+      "raw": "2 slices American cheese",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "American cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 slices sourdough or white sandwich bread",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "sourdough or white sandwich bread",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp salted butter, softened",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "salted butter",
+      "prep": "softened",
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded low-moisture mozzarella cheese",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded low-moisture mozzarella cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4-6 dill pickle slices",
+      "qty": 4,
+      "qtyMax": 6,
+      "unit": null,
+      "item": "dill pickle slices",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Kosher salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Make the burger sauce: mix the mayonnaise, ketchup, mustard, relish, garlic powder, smoked paprika, salt and pepper in a small bowl.",
+    "Cook the bacon in a large skillet over medium heat, 8 to 10 min, turning, until crisp. Drain on paper towels and pour off all but a thin film of fat.",
+    "Add the olive oil and onion to the skillet and cook over medium heat, stirring, 5 to 7 min, until soft and caramelized. Set aside.",
+    "Season the patties with salt and pepper and cook in the same skillet over medium-high heat 3 to 4 min per side, until browned and 160°F inside. In the last minute, lay a slice of American cheese on each patty to melt.",
+    "Wipe out the skillet. Butter one side of each bread slice and place 2 slices butter side down in the skillet over medium heat.",
+    "Sprinkle the mozzarella over both slices, then spread with about 2 tbsp of the burger sauce.",
+    "Layer half the onions, a cheeseburger patty, a slice of bacon and the pickles on each, then the rest of the onions and another drizzle of sauce.",
+    "Top with the remaining bread, butter side up. Cook 2 to 3 min per side, pressing down lightly, until the bread is golden and crisp and the mozzarella has melted.",
+    "Slice in half and serve right away."
+  ],
+  "tips": [
+    "The usual Flying Dutchman style uses the onions as the bun. This one goes inside a mozzarella toastie instead.",
+    "The creator's recipe calls for 2 small cooked patties without a weight. About 3 oz of beef per patty keeps them thin enough to fit inside a toastie."
+  ],
+  "references": [
+    {
+      "url": "https://thefeedfeed.com/bitta_banging/flying-dutchman",
+      "site": "The Feedfeed (@bitta_banging)",
+      "title": "Flying Dutchman",
+      "usedFor": "full measured recipe: burger sauce, onion, patty and toastie amounts, times and heat levels (read via a Wayback Machine snapshot)",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

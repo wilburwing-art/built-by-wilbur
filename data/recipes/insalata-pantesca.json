@@ -1,0 +1,152 @@
+{
+  "slug": "insalata-pantesca",
+  "name": "Insalata Pantesca",
+  "category": "Sides & Snacks",
+  "emoji": "🥔",
+  "desc": "Pantelleria potato salad with cherry tomatoes, salted capers, Taggiasca olives, red onion, oregano and basil.",
+  "time": "1 hr 20 min",
+  "minutes": 80,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C9hQURoAxrd/",
+    "site": "Instagram @tirmagno",
+    "title": "Insalata Pantesca",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 6,
+    "basis": "publisher",
+    "source": "https://www.instagram.com/reel/C9hQURoAxrd/"
+  },
+  "ingredients": [
+    {
+      "raw": "500 g waxy potatoes",
+      "qty": 500,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "waxy potatoes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "400 g Pachino (cherry) tomatoes, halved",
+      "qty": 400,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "Pachino tomatoes",
+      "prep": "halved",
+      "note": "cherry"
+    },
+    {
+      "raw": "30 g salted Pantelleria capers",
+      "qty": 30,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "salted Pantelleria capers",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "100 g Taggiasca olives",
+      "qty": 100,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "Taggiasca olives",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 red onions, thinly sliced",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red onions",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "25 g white wine vinegar",
+      "qty": 25,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "white wine vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp extra-virgin olive oil",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "extra-virgin olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp dried oregano",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "8 fresh basil leaves, torn",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fresh basil leaves",
+      "prep": "torn",
+      "note": null
+    },
+    {
+      "raw": "Fine salt, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Put the whole, unpeeled potatoes in a pot of cold salted water, bring to a boil and cook about 30 min, until a fork slides in easily. Drain and let cool.",
+    "Meanwhile, soak the sliced onion in ice water for 10 min to soften its bite, then drain.",
+    "Rinse the capers well under running water to remove the salt.",
+    "Peel the cooled potatoes and cut them into large chunks.",
+    "In a large bowl, combine the potatoes, tomatoes, capers, olives and onion.",
+    "Season with the vinegar, olive oil, oregano, basil and salt, and toss gently.",
+    "Cover and let rest at least 10 min, or up to 1 hour, so the flavors come together before serving."
+  ],
+  "tips": [
+    "Translated from Italian. Serves 6.",
+    "The creator lists no olive oil or olive amount. These follow Italian home versions of the dish."
+  ],
+  "references": [
+    {
+      "url": "https://blog.giallozafferano.it/fantasiaincucina/linsalata-pantesca/",
+      "site": "GialloZafferano blog (Fantasia in Cucina)",
+      "title": "Insalata pantesca: ricetta originale di Pantelleria",
+      "usedFor": "boiling potatoes in their skins about 30 min, ice-water soak for the onion, rinsing capers, 10 min rest",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://blog.giallozafferano.it/ricettepanedolci/insalata-pantesca/",
+      "site": "GialloZafferano blog (Ricette Pane Dolci)",
+      "title": "Insalata Pantesca",
+      "usedFor": "Taggiasca olive, olive oil and oregano amounts",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://blog.giallozafferano.it/studentiaifornelli/insalata-pantesca/",
+      "site": "GialloZafferano blog (Studenti ai Fornelli)",
+      "title": "Insalata Pantesca",
+      "usedFor": "resting it covered up to an hour before serving",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

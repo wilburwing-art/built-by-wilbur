@@ -1,0 +1,136 @@
+{
+  "slug": "mini-sweet-chili-crunchwraps",
+  "name": "Mini Sweet Chili Crunchwraps",
+  "category": "Dinner",
+  "emoji": "🌯",
+  "desc": "Small crunchwraps of taco-seasoned lean beef, tostada, cheese and fresh vegetables, toasted golden and dipped in sweet chili sauce.",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DCFDP-SRjZU/",
+    "site": "Instagram @fitfoodiestasia",
+    "title": "Mini Sweet Chili Heat Crunchwrap Supremes",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 lb extra-lean ground beef",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "extra-lean ground beef",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp taco seasoning",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "taco seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup water",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "8 small (8-inch) flour tortillas",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small flour tortillas",
+      "prep": null,
+      "note": "8-inch"
+    },
+    {
+      "raw": "4 tostada shells, broken in half",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "tostada shells",
+      "prep": "broken in half",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup nacho cheese sauce (or 8 slices cheddar)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "nacho cheese sauce",
+      "prep": null,
+      "note": "or 8 slices cheddar"
+    },
+    {
+      "raw": "1 medium Roma tomato, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium Roma tomato",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded iceberg lettuce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded iceberg lettuce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Cooking spray",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup Thai sweet chili sauce, for dipping",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Thai sweet chili sauce",
+      "prep": "for dipping",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Brown the beef in a large skillet over medium-high heat, breaking it up, until no pink remains (160°F). Stir in the taco seasoning and water and simmer until the liquid is absorbed, 3-4 minutes.",
+    "Lay out the tortillas. In the center of each, add about 1/4 cup beef, a tostada half, 1 tbsp cheese sauce (or a cheese slice), tomato and lettuce.",
+    "Fold the edges of the tortilla in toward the center around the filling, pleating as you go.",
+    "Spray a nonstick skillet and heat over medium-low. Toast the crunchwraps seam side down until golden, 2-3 minutes, then flip and toast 2-3 minutes more.",
+    "Serve with sweet chili sauce."
+  ],
+  "tips": [
+    "The creator's measured recipe is in her e-book and pinned comment; these amounts are filled from standard crunchwrap proportions.",
+    "Put the cheese sauce under the tostada so it glues the layers together."
+  ],
+  "references": [
+    {
+      "url": "https://www.littlespicejar.com/crunchwrap-supreme/",
+      "site": "Little Spice Jar",
+      "title": "Homemade Crunchwrap Supreme",
+      "usedFor": "beef and taco seasoning ratio, build order, medium-low heat and 2-3 min per side",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "banana-cream-latte",
+  "name": "Banana Cream Latte",
+  "category": "Drinks",
+  "emoji": "🍌",
+  "desc": "Iced latte topped with a blended ripe banana and milk cream.",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DBq2k8GRpU7/",
+    "site": "Instagram @jimmyeverydayy",
+    "title": "Banana Cream Latte",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 2,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Banana cream:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 ripe banana",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "ripe banana",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup whole milk",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "whole milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp vanilla extract or maple syrup (optional)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract or maple syrup",
+      "prep": null,
+      "note": "optional"
+    },
+    {
+      "raw": "Iced latte:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 shots espresso (4 oz)",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "shot",
+      "item": "espresso",
+      "prep": null,
+      "note": "4 oz"
+    },
+    {
+      "raw": "1 cup whole milk",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "whole milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups ice",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "ice",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Blend the banana, 1/2 cup milk and vanilla or maple syrup (if using) until completely smooth. Strain if your blender leaves bits.",
+    "Divide the ice between two glasses. Pour 1/2 cup milk and 2 shots espresso into each.",
+    "Pour the banana cream over the top of each latte."
+  ],
+  "tips": [
+    "The riper the banana, the sweeter the cream."
+  ],
+  "references": [
+    {
+      "url": "https://www.cottercrunch.com/banana-latte-recipe/",
+      "site": "Cotter Crunch",
+      "title": "Creamy Banana Latte",
+      "usedFor": "1 banana to 4 oz milk for the banana milk, straining if the blender leaves bits",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://danishealthyeats.com/creamy-banana-milk-latte-with-real-bananas-no-syrups/",
+      "site": "Danis Healthy Eats",
+      "title": "Banana Latte (with real bananas)",
+      "usedFor": "2 espresso shots per iced latte, optional sweetener",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

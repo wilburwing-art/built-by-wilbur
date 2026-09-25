@@ -1,0 +1,152 @@
+{
+  "slug": "one-pan-creamy-tagliatelle",
+  "name": "One-Pan Creamy Tagliatelle",
+  "category": "Dinner",
+  "emoji": "🍝",
+  "desc": "Tagliatelle cooked right in a creamy tomato broth with cherry tomatoes, red onion and spinach.",
+  "time": "25 min",
+  "minutes": 25,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DQZ7RmxDrE-/",
+    "site": "Instagram @safaa__mourad",
+    "title": "One-Pan Creamy Tagliatelle",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 2,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "200 g dried tagliatelle (nests)",
+      "qty": 200,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "dried tagliatelle",
+      "prep": null,
+      "note": "nests"
+    },
+    {
+      "raw": "10-12 cherry tomatoes, quartered",
+      "qty": 10,
+      "qtyMax": 12,
+      "unit": null,
+      "item": "cherry tomatoes",
+      "prep": "quartered",
+      "note": null
+    },
+    {
+      "raw": "1/2 red onion, thinly sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red onion",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1 packed cup (about 1 oz) baby spinach",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "baby spinach",
+      "prep": null,
+      "note": "packed; about 1 oz"
+    },
+    {
+      "raw": "2 garlic cloves, thinly sliced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp tomato paste",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "tomato paste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp olive oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp dried Italian herbs",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried Italian herbs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "100 ml cooking cream or heavy cream",
+      "qty": 100,
+      "qtyMax": null,
+      "unit": "ml",
+      "item": "cooking cream or heavy cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "250-300 ml vegetable broth",
+      "qty": 250,
+      "qtyMax": 300,
+      "unit": "ml",
+      "item": "vegetable broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup (20 g) grated Parmesan, for topping",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan",
+      "prep": "for topping",
+      "note": "20 g"
+    }
+  ],
+  "steps": [
+    "In a large deep skillet with a lid (about 12 in), lay the tagliatelle nests in the center. Arrange the tomatoes, onion, spinach and garlic around and over them.",
+    "Dot the tomato paste over the pasta, then add the olive oil, dried herbs, a pinch of salt and pepper, the cream, and 250 ml of the broth so the pasta is mostly covered.",
+    "Cover and bring to a boil over medium heat, then cook about 15 min, stirring every few minutes to separate the nests. Add the remaining broth if the pan looks dry. It is done when the pasta is tender and the sauce is thick and creamy.",
+    "Taste for salt and pepper and top with the Parmesan."
+  ],
+  "tips": [
+    "Serves 2 and takes about 15 minutes of cooking."
+  ],
+  "references": [
+    {
+      "url": "https://drveganblog.com/one-pan-creamy-tomato-spinach-pasta/",
+      "site": "Dr. Vegan",
+      "title": "One-Pan Creamy Tomato Spinach Pasta",
+      "usedFor": "pan setup with nests in the center, covering the pasta with liquid, bringing to a boil over medium",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

@@ -3,33 +3,33 @@
   "name": "Parsley-Parmesan Fries",
   "category": "Sides & Snacks",
   "emoji": "🍟",
-  "desc": "Oven-baked russet fries with parmesan and fresh parsley",
-  "time": "55 min",
-  "minutes": 55,
+  "desc": "Oven-baked russet fries finished with Parmesan and fresh parsley.",
+  "time": "1 hr 5 min",
+  "minutes": 65,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
     "url": null,
     "site": null,
     "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "matchType": "none",
+    "evidence": "Searched Parmesan parsley oven fries (Budget Bytes, Food.com, Southern Plate, Evolving Table); none uses this oil, salt, and Parmesan ratio at 400°F for 50 to 55 minutes.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "4 russet potatoes, cut into strips",
+      "raw": "4 medium russet potatoes (about 2 1/2 lb), scrubbed and cut into 1/2-inch-thick fries",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
-      "item": "russet potatoes",
-      "prep": "cut into strips",
-      "note": null
+      "item": "medium russet potatoes",
+      "prep": "scrubbed and cut into 1/2-inch-thick fries",
+      "note": "about 2 1/2 lb"
     },
     {
       "raw": "4 tsp olive oil",
@@ -41,38 +41,49 @@
       "note": null
     },
     {
-      "raw": "1/2 tsp salt",
+      "raw": "1/2 tsp fine salt",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/3 cup Parmesan",
-      "qty": 0.3333,
+      "raw": "1/3 cup finely grated Parmesan cheese",
+      "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
-      "item": "Parmesan",
+      "item": "finely grated Parmesan cheese",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 tbsp parsley",
+      "raw": "2 tbsp chopped fresh flat-leaf parsley",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "parsley",
+      "item": "chopped fresh flat-leaf parsley",
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Preheat to 400°F. Toss potatoes with oil and salt.",
-    "Bake 45-50 min, turning at 25 min.",
-    "Sprinkle Parmesan and parsley. Bake 5 more min."
+    "Preheat the oven to 400°F and line a large rimmed baking sheet with parchment.",
+    "Toss the potatoes with the oil and salt in a large bowl, then spread them in a single layer on the sheet.",
+    "Bake 25 minutes, turn the fries, and bake 20 to 25 minutes more, until golden and crisp at the edges.",
+    "Sprinkle with the Parmesan and bake 5 minutes more, until the cheese melts. Toss with the parsley and serve hot."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Budget Bytes bakes similar fries at 425°F for about 30 minutes; this version goes lower and longer."
+  ],
+  "references": [
+    {
+      "url": "https://www.budgetbytes.com/thick-cut-garlic-parmesan-oven-fries/",
+      "site": "Budget Bytes",
+      "title": "Oven Baked Garlic Parmesan Fries",
+      "usedFor": "1/2-inch fry cut, parchment-lined sheet, parsley and Parmesan finish",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

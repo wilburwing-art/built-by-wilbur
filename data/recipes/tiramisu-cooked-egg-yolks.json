@@ -1,0 +1,138 @@
+{
+  "slug": "tiramisu-cooked-egg-yolks",
+  "name": "Tiramisu with Cooked Egg Yolks",
+  "category": "Desserts",
+  "emoji": "🍰",
+  "desc": "Moka pot espresso ladyfingers layered with mascarpone, whipped cream and gently cooked sweetened egg yolks.",
+  "time": "8 hrs 45 min",
+  "minutes": 525,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C92gcNvpmsD/",
+    "site": "Instagram @chefboylee",
+    "title": "Tiramisu",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 12,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 cup (240 ml) strong espresso, brewed in a moka pot",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "strong espresso",
+      "prep": "brewed in a moka pot",
+      "note": "240 ml"
+    },
+    {
+      "raw": "4 large egg yolks",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg yolks",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup (100g) granulated sugar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": "100g"
+    },
+    {
+      "raw": "1/8 tsp fine salt",
+      "qty": 0.125,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "16 oz (450g) mascarpone, cold",
+      "qty": 16,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "mascarpone",
+      "prep": "cold",
+      "note": "450g"
+    },
+    {
+      "raw": "2 cups (480 ml) cold heavy cream",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cold heavy cream",
+      "prep": null,
+      "note": "480 ml"
+    },
+    {
+      "raw": "1/2 tsp vanilla extract",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "40-45 Savoiardi ladyfingers (about 2 packages)",
+      "qty": 40,
+      "qtyMax": 45,
+      "unit": null,
+      "item": "Savoiardi ladyfingers",
+      "prep": null,
+      "note": "about 2 packages"
+    },
+    {
+      "raw": "2 tbsp unsweetened cocoa powder, for dusting",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsweetened cocoa powder",
+      "prep": "for dusting",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Brew the espresso, pour it into a shallow bowl, and cool to room temperature.",
+    "Set a heatproof bowl over a pot of barely simmering water without letting it touch the water. Whisk the yolks, sugar and salt constantly until pale, thick and foamy and 160°F on an instant-read thermometer, about 5 min. Take off the heat and cool 10 min.",
+    "Whip the cold cream and vanilla on medium-high to medium peaks, about 3 min.",
+    "In a large bowl, beat the mascarpone a few seconds to loosen it, then fold in the whipped cream until smooth.",
+    "Fold in the cooled yolk mixture until no streaks remain.",
+    "Dip half the ladyfingers in the espresso, a quick 1-second dunk per side, and lay them in a single layer in a 9x13 in dish, trimming to fill gaps.",
+    "Spread half the cream over them. Dip the remaining ladyfingers, layer them on top, and spread on the rest of the cream.",
+    "Dust heavily with cocoa through a fine-mesh sieve. Cover and refrigerate at least 8 hr, up to 1 day, until set."
+  ],
+  "tips": [
+    "Dip fast so the ladyfingers do not go soggy.",
+    "The reel shows the method but no amounts. The amounts follow Sally's Baking Addiction's tiramisu with its egg whites left out, which cooks the yolks the same way.",
+    "Cooking the yolks to 160°F makes them safe to eat. Sally's cooks them until light and foamy without naming a temperature."
+  ],
+  "references": [
+    {
+      "url": "https://sallysbakingaddiction.com/tiramisu/",
+      "site": "Sally's Baking Addiction",
+      "title": "Tiramisu",
+      "usedFor": "all amounts, double-boiler yolk method, no-egg-white variation, 9x13 dish, chill time",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.onceuponachef.com/recipes/tiramisu.html",
+      "site": "Once Upon a Chef",
+      "title": "Tiramisu",
+      "usedFor": "cocoa amount for a 9x13 dish",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

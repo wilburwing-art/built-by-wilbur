@@ -1,0 +1,226 @@
+{
+  "slug": "fall-pearl-couscous-salad",
+  "name": "Fall Pearl Couscous Salad",
+  "category": "Lunch",
+  "emoji": "🍂",
+  "desc": "Pearl couscous with roasted butternut squash, massaged kale, cranberries, red onion and pecans in a maple-cider dressing.",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DdUHmvRP7jQ/",
+    "site": "Instagram @kalefornia_kravings",
+    "title": "Fall Pearl Couscous Salad",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://kaleforniakravings.com/autumn-pearl-couscous-salad-with-maple-cider-vinaigrette/"
+  },
+  "ingredients": [
+    {
+      "raw": "Salad:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup dry pearl couscous",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "dry pearl couscous",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups water",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 small butternut squash (about 2 lb), peeled and diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small butternut squash",
+      "prep": "peeled and diced",
+      "note": "about 2 lb"
+    },
+    {
+      "raw": "1 tbsp olive oil, for roasting",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": "for roasting",
+      "note": null
+    },
+    {
+      "raw": "2 cups lacinato kale leaves, stems removed and chopped (or green kale)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "lacinato kale leaves",
+      "prep": "stems removed and chopped",
+      "note": "or green kale"
+    },
+    {
+      "raw": "1/2 cup dried cranberries",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "dried cranberries",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 red onion, thinly sliced",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red onion",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup pecans",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "pecans",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, for roasting",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup crumbled feta or 2 cups shredded cooked chicken (optional)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "crumbled feta or shredded cooked chicken",
+      "prep": null,
+      "note": "optional"
+    },
+    {
+      "raw": "Maple-cider dressing:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup olive oil",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp pure maple syrup",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "pure maple syrup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp fresh orange juice",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh orange juice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp apple cider vinegar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "apple cider vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp Dijon mustard",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Dijon mustard",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp fine salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/8 tsp black pepper",
+      "qty": 0.125,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat the oven to 400°F and line a baking sheet with parchment paper.",
+    "Toss the squash with 1 tbsp olive oil and season generously with salt and pepper. Spread on the sheet and roast 25 to 30 min, until tender. Let cool.",
+    "While the squash roasts, bring the water to a boil in a small saucepan. Add the couscous, cover, reduce the heat to low and simmer 10 to 12 min, until tender and the water is absorbed. Let cool completely.",
+    "Toast the pecans in a dry skillet over medium heat, stirring, 3 to 5 min, until fragrant. Let cool and roughly chop.",
+    "Whisk the dressing ingredients together in a measuring cup or jar.",
+    "Put the kale in a large serving bowl with a small splash of the dressing and rub the leaves between your hands for about 5 min, until they soften, shrink and turn bright green.",
+    "Add the cooled squash, couscous, cranberries and red onion, pour over as much dressing as you like and toss. Taste and adjust salt and pepper.",
+    "Serve right away or chill 30 min to 1 hr. Top each portion with the toasted pecans, plus feta or chicken if using."
+  ],
+  "tips": [
+    "Good for meal-prep lunches. Keep the pecans separate so they stay crunchy."
+  ],
+  "references": [
+    {
+      "url": "https://kaleforniakravings.com/autumn-pearl-couscous-salad-with-maple-cider-vinaigrette/",
+      "site": "Kalefornia Kravings",
+      "title": "Fall Pearl Couscous Salad with Maple-Cider Vinaigrette",
+      "usedFor": "full measured recipe: couscous, squash, kale, cranberry, onion and dressing amounts, roast temp and time, massage and chill steps, servings",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.littlespicejar.com/autumn-pearl-couscous-salad-with-roasted-butternut-squash/",
+      "site": "Little Spice Jar",
+      "title": "Autumn Pearl Couscous Salad with Roasted Butternut Squash",
+      "usedFor": "pecan amount (1/2 cup) and squash weight for a small squash (2 lb)",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

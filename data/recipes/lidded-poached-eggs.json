@@ -1,0 +1,108 @@
+{
+  "slug": "lidded-poached-eggs",
+  "name": "Lidded Poached Eggs (No Vinegar)",
+  "category": "Breakfast",
+  "emoji": "🥚",
+  "desc": "Eggs slipped into barely simmering water and cooked under a lid so the tops set without vinegar, served on toast.",
+  "time": "10 min",
+  "minutes": 10,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DUxoTT8iFgG/",
+    "site": "Instagram @tinytreatslab",
+    "title": "Easy Poached Eggs (no vinegar)",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 2,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 large eggs, very fresh",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": "very fresh",
+      "note": null
+    },
+    {
+      "raw": "Water, to fill a lidded saucepan halfway",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "To serve:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 slices toast",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "toast",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup cottage cheese or ricotta",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cottage cheese or ricotta",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 small cucumber, thinly sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small cucumber",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "Flaky salt and black pepper, to finish",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Fill a saucepan with a tight-fitting lid halfway with water, bring to a boil, then lower the heat to a gentle simmer (small bubbles on the bottom, surface barely moving).",
+    "Crack one egg into a small cup, then slide it gently into the water. Cover with the lid.",
+    "Cook 3 to 4 minutes, until the white is firmly set and the yolk is still runny.",
+    "Lift the egg out with a slotted spoon, let it drain for a few seconds, and set it on the toast spread with cottage cheese or ricotta and topped with cucumber. Repeat with the second egg, then season with flaky salt and pepper."
+  ],
+  "tips": [
+    "The lid steams the top so the egg holds together without salt or vinegar in the water.",
+    "If the whites spread into wisps, crack each egg into a small fine-mesh sieve first and let the thin white drain away for a few seconds before sliding it into the pan. Some versions of this lid method cook the egg right in the sprayed sieve."
+  ],
+  "references": [
+    {
+      "url": "https://www.aol.com/lifestyle/favorite-hands-off-method-perfectly-170000552.html",
+      "site": "Allrecipes (via AOL)",
+      "title": "My New Favorite Hands-off Method for Perfectly Poached Eggs",
+      "usedFor": "the creator's sieve-and-lid method, sieve size, cooking spray, 3 to 4 minutes, doneness cue",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

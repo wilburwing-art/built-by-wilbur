@@ -3,7 +3,7 @@
   "name": "Baked Tomatoes",
   "category": "Sides & Snacks",
   "emoji": "🍅",
-  "desc": "Halved tomatoes with parmesan, oregano, and olive oil",
+  "desc": "Halved tomatoes topped with Parmesan, fresh oregano, and olive oil and baked until tender.",
   "time": "20 min",
   "minutes": 20,
   "difficulty": "Easy",
@@ -17,17 +17,17 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "4 tomatoes, halved horizontally",
+      "raw": "4 medium ripe tomatoes, halved horizontally",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
-      "item": "tomatoes",
+      "item": "medium ripe tomatoes",
       "prep": "halved horizontally",
       "note": null
     },
@@ -50,11 +50,11 @@
       "note": null
     },
     {
-      "raw": "1/4 tsp salt",
+      "raw": "1/4 tsp fine salt",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
@@ -78,10 +78,18 @@
     }
   ],
   "steps": [
-    "Preheat oven to 450°F. Place the tomato halves cut side up on a baking sheet.",
-    "Top with the Parmesan, oregano, salt, and pepper, then drizzle with the olive oil.",
-    "Bake until the tomatoes are tender, about 15 minutes."
+    "Preheat the oven to 450°F. Line a rimmed baking sheet with foil or parchment.",
+    "Place the tomato halves cut side up on the sheet. Top with the Parmesan, oregano, salt, and pepper, then drizzle each half with 1/2 tsp olive oil.",
+    "Bake until the tomatoes are tender and the cheese is lightly golden, about 15 minutes. Serve warm."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.food.com/recipe/baked-parmesan-tomatoes-294227",
+      "site": "Food.com",
+      "title": "Baked Parmesan Tomatoes",
+      "usedFor": "amounts, 450°F, 15 minutes",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

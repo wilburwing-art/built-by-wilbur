@@ -3,37 +3,37 @@
   "name": "Nashville Hot Chicken Sandwich",
   "category": "Lunch",
   "emoji": "🔥",
-  "desc": "Buttermilk-brined thighs, double dredged, then painted with cayenne frying oil",
+  "desc": "Buttermilk-marinated chicken, double dredged and fried, then brushed with cayenne-spiked frying oil.",
   "time": "5 hrs",
   "minutes": 300,
   "difficulty": "Medium",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://gimmedelicious.com/nashville-hot-chicken-sandwiches/",
+    "site": "Gimme Delicious",
+    "title": "Nashville Hot Chicken Sandwiches",
+    "matchType": "closest",
+    "evidence": "Same approach: buttermilk and hot sauce, a flour-cornstarch dredge with cayenne and garlic powder, frying at 350°F, and a glaze of hot frying oil whisked with brown sugar, cayenne, chili powder, paprika and garlic powder.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 2,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "2 boneless, skinless chicken thighs or breasts",
-      "qty": 2,
+      "raw": "2 boneless skinless chicken thighs or breasts",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": null,
-      "item": "boneless, skinless chicken thighs or breasts",
+      "item": "boneless skinless chicken thighs or breasts",
       "prep": null,
       "note": null
     },
     {
       "raw": "1 cup buttermilk",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "cup",
       "item": "buttermilk",
@@ -42,7 +42,7 @@
     },
     {
       "raw": "1 tbsp hot sauce",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "hot sauce",
@@ -50,7 +50,25 @@
       "note": null
     },
     {
-      "raw": "Kosher salt and black pepper",
+      "raw": "1/2 tsp kosher salt, for the marinade",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": "for the marinade",
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp black pepper, for the marinade",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": "for the marinade",
+      "note": null
+    },
+    {
+      "raw": "Dredge:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -78,7 +96,7 @@
     },
     {
       "raw": "1 tsp garlic powder",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "garlic powder",
@@ -87,7 +105,7 @@
     },
     {
       "raw": "1 tsp paprika",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "paprika",
@@ -96,7 +114,7 @@
     },
     {
       "raw": "1 tsp cayenne pepper",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "cayenne pepper",
@@ -104,7 +122,25 @@
       "note": null
     },
     {
-      "raw": "Neutral oil for frying",
+      "raw": "1 tsp kosher salt",
+      "qty": 1.0,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Neutral oil (peanut or canola), for frying, enough for 2 inches in the pot",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -123,16 +159,16 @@
     },
     {
       "raw": "1/3 cup frying oil, taken after frying",
-      "qty": 0.3333,
+      "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
-      "item": "frying oil, taken after frying",
-      "prep": null,
+      "item": "frying oil",
+      "prep": "taken after frying",
       "note": null
     },
     {
       "raw": "1 tbsp cayenne pepper",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "cayenne pepper",
@@ -140,11 +176,11 @@
       "note": null
     },
     {
-      "raw": "1 tbsp brown sugar",
-      "qty": 1,
+      "raw": "1 tbsp light brown sugar",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "brown sugar",
+      "item": "light brown sugar",
       "prep": null,
       "note": null
     },
@@ -194,17 +230,17 @@
       "note": null
     },
     {
-      "raw": "2 tbsp mayo",
-      "qty": 2,
+      "raw": "2 tbsp mayonnaise",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "mayo",
+      "item": "mayonnaise",
       "prep": null,
       "note": null
     },
     {
       "raw": "1 tsp apple cider vinegar",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "apple cider vinegar",
@@ -213,10 +249,19 @@
     },
     {
       "raw": "1 tsp granulated sugar",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     },
@@ -230,43 +275,60 @@
       "note": null
     },
     {
-      "raw": "2 soft brioche buns",
-      "qty": 2,
+      "raw": "2 brioche buns, split",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": null,
-      "item": "soft brioche buns",
-      "prep": null,
+      "item": "brioche buns",
+      "prep": "split",
       "note": null
     },
     {
-      "raw": "Dill pickle chips, for serving",
-      "qty": null,
+      "raw": "1 tbsp unsalted butter, for toasting the buns",
+      "qty": 1.0,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": "for toasting the buns",
       "note": null
     },
     {
-      "raw": "Butter, for toasting the buns",
-      "qty": null,
+      "raw": "8 dill pickle chips",
+      "qty": 8.0,
       "qtyMax": null,
       "unit": null,
-      "item": null,
+      "item": "dill pickle chips",
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Mix the buttermilk, hot sauce, and a pinch of salt and pepper in a bowl. Add the chicken and marinate at least 4 hours, or overnight.",
-    "Mix the cabbage, mayo, vinegar, sugar, salt and pepper for the slaw and let it sit in the fridge while everything else cooks.",
-    "Set up a breading station: leftover marinade in one bowl, and the flour, cornstarch, garlic powder, paprika, cayenne, salt and pepper in another.",
-    "Dredge each piece in the flour mix, back into the buttermilk, then into the flour mix again. Press to coat well and rest on a rack for 10 minutes.",
-    "Heat oil to 325 to 350F in a heavy skillet or Dutch oven. Fry until golden brown and 165F inside, about 5 to 7 minutes per side. Drain on a wire rack.",
-    "Whisk 1/3 cup of the hot frying oil with the cayenne, brown sugar, garlic powder, paprika and chili powder until smooth.",
+    "If using breasts, slice each in half horizontally so the pieces are an even 1/2 to 3/4 inch thick. Mix the buttermilk, hot sauce, 1/2 tsp salt, and 1/4 tsp pepper in a bowl, add the chicken, cover, and refrigerate at least 4 hours or overnight.",
+    "Slaw: mix the cabbage, mayonnaise, vinegar, sugar, salt, and pepper. Refrigerate while you cook.",
+    "Set up the breading: lift the chicken out of the marinade and keep the marinade in its bowl. In a second shallow bowl, whisk the flour, cornstarch, garlic powder, paprika, cayenne, 1 tsp salt, and 1/2 tsp pepper.",
+    "Dredge each piece in the flour mix, dip back into the buttermilk, then into the flour mix again, pressing to coat. Rest on a rack for 10 minutes.",
+    "Heat 2 inches of oil in a heavy pot or Dutch oven to 325 to 350°F. Fry the chicken until deep golden and 165°F inside, 5 to 7 minutes per side for thighs (less for thin breast cutlets). Drain on a wire rack.",
+    "Carefully ladle 1/3 cup of the hot frying oil into a heatproof bowl and whisk in the cayenne, brown sugar, garlic powder, paprika, and chili powder until smooth.",
     "Brush the glaze generously over both sides of the chicken while it is still hot.",
-    "Toast the buns in butter, then build with pickles, chicken and slaw."
+    "Toast the cut sides of the buns in the butter in a skillet over medium heat, then build with pickles, chicken, and slaw."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "If the frying oil tastes burnt, make the glaze with melted butter or half butter, half oil instead."
+  ],
+  "references": [
+    {
+      "url": "https://gimmedelicious.com/nashville-hot-chicken-sandwiches/",
+      "site": "Gimme Delicious",
+      "title": "Nashville Hot Chicken Sandwiches",
+      "usedFor": "halving breasts into cutlets, 165°F cue, melted butter alternative for the glaze",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://web.archive.org/web/2026/https://littlesunnykitchen.com/nashville-hot-chicken-sandwich/",
+      "site": "Little Sunny Kitchen (Wayback Machine copy)",
+      "title": "Nashville-Style Hot Chicken Sandwich",
+      "usedFor": "1 to 2 inches of oil at 350°F, glazing while hot",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

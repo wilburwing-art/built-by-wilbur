@@ -3,23 +3,23 @@
   "name": "Homemade Ranch Dressing",
   "category": "Sides & Snacks",
   "emoji": "🥛",
-  "desc": "Mayo, sour cream and buttermilk with dill, chives and a squeeze of lemon",
+  "desc": "Mayo, sour cream and buttermilk with dried dill, parsley and chives and a squeeze of lemon.",
   "time": "5 min",
   "minutes": 5,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://barefeetinthekitchen.com/homemade-ranch-salad-dressing/",
+    "site": "Barefeet in the Kitchen",
+    "title": "The Best Homemade Ranch Salad Dressing",
+    "matchType": "original",
+    "evidence": "Every ingredient line and amount matches the publisher's recipe card verbatim, including the 3/4 to 1 tsp dried dill weed and 1/8 tsp finely cracked pepper.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 24,
+    "basis": "publisher",
+    "source": "https://barefeetinthekitchen.com/homemade-ranch-salad-dressing/"
   },
   "ingredients": [
     {
@@ -41,13 +41,13 @@
       "note": null
     },
     {
-      "raw": "1/2 cup buttermilk or regular milk",
+      "raw": "1/2 cup buttermilk (or whole milk)",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "buttermilk or regular milk",
+      "item": "buttermilk",
       "prep": null,
-      "note": null
+      "note": "or whole milk"
     },
     {
       "raw": "3/4 to 1 tsp dried dill weed",
@@ -104,11 +104,11 @@
       "note": null
     },
     {
-      "raw": "1/8 tsp finely cracked pepper",
+      "raw": "1/8 tsp finely cracked black pepper",
       "qty": 0.125,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "finely cracked pepper",
+      "item": "finely cracked black pepper",
       "prep": null,
       "note": null
     },
@@ -123,11 +123,21 @@
     }
   ],
   "steps": [
-    "Whisk together the mayo, sour cream and milk until smooth.",
-    "Add the spices and whisk until combined.",
-    "Add the lemon juice and whisk again, tasting as you go.",
-    "Pour into a jar and chill until ready to serve. Keeps about a week in the refrigerator."
+    "In a medium bowl, whisk together the mayonnaise, sour cream and buttermilk until smooth.",
+    "Add the dill, parsley, chives, onion powder, garlic powder, salt and pepper and whisk until combined.",
+    "Add 1 tsp lemon juice and whisk again, tasting and adding more, up to 3 tsp, as you go.",
+    "Pour into a jar and chill until ready to serve."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Makes about 1 1/2 cups. Keeps about a week in the refrigerator."
+  ],
+  "references": [
+    {
+      "url": "https://barefeetinthekitchen.com/homemade-ranch-salad-dressing/",
+      "site": "Barefeet in the Kitchen",
+      "title": "The Best Homemade Ranch Salad Dressing",
+      "usedFor": "verified every amount, yield (about 1 1/2 cups, 24 one-tbsp servings) and the storage time",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

@@ -3,31 +3,40 @@
   "name": "Paleo Chicken Cobb Salad with Buffalo Ranch",
   "category": "Lunch",
   "emoji": "🥗",
-  "desc": "Cobb with bacon, egg and avocado under a creamy buffalo ranch",
+  "desc": "Cobb salad with bacon-fat seared chicken, egg, and avocado under a creamy buffalo ranch.",
   "time": "30 min",
   "minutes": 30,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.paleorunningmomma.com/paleo-chicken-cobb-salad-whole30/",
+    "site": "Paleo Running Momma",
+    "title": "Paleo Chicken Cobb Salad with Buffalo Ranch {Whole30}",
+    "matchType": "original",
+    "evidence": "Ingredient lines and method match Paleo Running Momma's recipe card word for word, using her mayo-based dressing option.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://www.paleorunningmomma.com/paleo-chicken-cobb-salad-whole30/"
   },
   "ingredients": [
     {
-      "raw": "4 to 6 slices nitrate-free bacon, cooked and crumbled",
-      "qty": 4,
-      "qtyMax": 6,
+      "raw": "Salad:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 to 6 slices nitrate-free, sugar-free bacon",
+      "qty": 4.0,
+      "qtyMax": 6.0,
       "unit": "slice",
-      "item": "nitrate-free bacon, cooked and crumbled",
+      "item": "nitrate-free, sugar-free bacon",
       "prep": null,
       "note": null
     },
@@ -41,20 +50,20 @@
       "note": null
     },
     {
-      "raw": "2 to 3 tbsp bacon fat or other cooking fat",
-      "qty": 2,
-      "qtyMax": 3,
-      "unit": "tbsp",
-      "item": "bacon fat or other cooking fat",
+      "raw": "1/4 tsp fine sea salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine sea salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Salt and pepper",
-      "qty": null,
+      "raw": "1/4 tsp black pepper",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "black pepper",
       "prep": null,
       "note": null
     },
@@ -77,6 +86,15 @@
       "note": null
     },
     {
+      "raw": "2 to 3 tbsp bacon fat (reserved from the bacon) or other cooking fat",
+      "qty": 2.0,
+      "qtyMax": 3.0,
+      "unit": "tbsp",
+      "item": "bacon fat or other cooking fat",
+      "prep": null,
+      "note": "reserved from the bacon"
+    },
+    {
       "raw": "1/2 cup chopped and peeled mini cucumbers",
       "qty": 0.5,
       "qtyMax": null,
@@ -95,11 +113,11 @@
       "note": null
     },
     {
-      "raw": "2 hardboiled eggs, chopped",
-      "qty": 2,
+      "raw": "2 hard-boiled eggs, chopped",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": null,
-      "item": "hardboiled eggs",
+      "item": "hard-boiled eggs",
       "prep": "chopped",
       "note": null
     },
@@ -114,7 +132,7 @@
     },
     {
       "raw": "3 cups baby spinach, baby kale, or mixed greens",
-      "qty": 3,
+      "qty": 3.0,
       "qtyMax": null,
       "unit": "cup",
       "item": "baby spinach, baby kale, or mixed greens",
@@ -122,12 +140,12 @@
       "note": null
     },
     {
-      "raw": "Thinly sliced green onion, to garnish",
-      "qty": null,
+      "raw": "2 green onions, thinly sliced, for garnish",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": null,
-      "item": null,
-      "prep": null,
+      "item": "green onions",
+      "prep": "thinly sliced, for garnish",
       "note": null
     },
     {
@@ -150,7 +168,7 @@
     },
     {
       "raw": "1 tbsp fresh lemon juice",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "fresh lemon juice",
@@ -159,7 +177,7 @@
     },
     {
       "raw": "2 tsp onion powder",
-      "qty": 2,
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "onion powder",
@@ -168,7 +186,7 @@
     },
     {
       "raw": "1 tsp garlic powder",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "garlic powder",
@@ -185,23 +203,60 @@
       "note": null
     },
     {
-      "raw": "Hot sauce, to taste",
-      "qty": null,
+      "raw": "1/2 tsp smoked paprika",
+      "qty": 0.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "smoked paprika",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1/2 tsp dried chives",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried chives",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp to 1 tbsp hot sauce",
+      "qty": 2.0,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "hot sauce",
+      "prep": null,
+      "note": "up to 1 tbsp"
+    },
+    {
+      "raw": "1 to 2 tbsp water, to thin (optional)",
+      "qty": 1.0,
+      "qtyMax": 2.0,
+      "unit": "tbsp",
+      "item": "water",
+      "prep": "to thin",
+      "note": "optional"
     }
   ],
   "steps": [
-    "Cook the bacon, then reserve the fat and crumble the bacon once cool.",
-    "Season the chicken tenderloins with salt, pepper, onion powder and smoked paprika.",
-    "Cook the chicken in the bacon fat over medium heat until cooked through, about 4 minutes per side. Rest, then slice.",
-    "Whisk all the buffalo ranch ingredients together, adding hot sauce until it is as hot as you want it. Thin with a little water if it is too thick.",
-    "Arrange the greens on a platter and lay the chicken, bacon, cucumber, tomato, egg and avocado over the top in rows.",
+    "Cook the bacon in a large skillet over medium heat until crisp, 8 to 10 minutes. Drain on paper towels, reserving 2 to 3 tbsp fat in the skillet, and crumble once cool.",
+    "Season the chicken tenderloins with salt, pepper, onion powder, and smoked paprika.",
+    "Cook the chicken in the bacon fat over medium heat until browned and 165°F inside, about 4 to 5 minutes per side. Rest, then slice or chop.",
+    "Whisk the mayo, lemon juice, onion powder, garlic powder, dill, smoked paprika, and chives. Add hot sauce until it is as hot as you like, and thin with water if it is too thick.",
+    "Arrange the greens on a platter and lay the chicken, bacon, cucumber, tomato, egg, and avocado over the top in rows, avocado last so it does not brown.",
     "Drizzle with the buffalo ranch and finish with green onion."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The creator also offers a dairy-free dressing made with 1/2 cup blended full-fat coconut milk, 2 tbsp lemon juice, and 1 tsp brown mustard in place of the mayo. Leftover dressing keeps 4 days refrigerated."
+  ],
+  "references": [
+    {
+      "url": "https://web.archive.org/web/2026/https://www.paleorunningmomma.com/paleo-chicken-cobb-salad-whole30/",
+      "site": "Paleo Running Momma (Wayback Machine copy)",
+      "title": "Paleo Chicken Cobb Salad with Buffalo Ranch {Whole30}",
+      "usedFor": "dressing smoked paprika, chives and hot sauce amounts, 5 minutes per side, coconut milk option, storage, yield of 4",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

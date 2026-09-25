@@ -3,23 +3,23 @@
   "name": "Turkey Bolognese",
   "category": "Dinner",
   "emoji": "🍝",
-  "desc": "Rich tomato meat sauce with carrots, red wine, and milk over tagliatelle",
-  "time": "35 min",
-  "minutes": 35,
+  "desc": "Quick ground turkey Bolognese with carrots, red wine, crushed tomatoes, and a splash of whole milk, over tagliatelle.",
+  "time": "45 min",
+  "minutes": 45,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.wellplated.com/turkey-bolognese/",
+    "site": "Well Plated",
+    "title": "Turkey Bolognese",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and amounts, down to the 93 percent lean turkey note and the extra can of crushed tomatoes as a wine substitute, and the same one-skillet method with a 10 min simmer.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://www.wellplated.com/turkey-bolognese/"
   },
   "ingredients": [
     {
@@ -72,12 +72,12 @@
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
-      "item": "ground turkey or ground chicken",
+      "item": "ground turkey",
       "prep": null,
-      "note": "93% lean; avoid 99% lean"
+      "note": "93% lean; avoid 99% lean; or ground chicken"
     },
     {
-      "raw": "3 cloves garlic, minced (about 1 tbsp)",
+      "raw": "3 garlic cloves, minced (about 1 tbsp)",
       "qty": 3,
       "qtyMax": null,
       "unit": "clove",
@@ -104,13 +104,13 @@
       "note": null
     },
     {
-      "raw": "1 cup dry red wine (or 1 more 14.5 oz can crushed tomatoes)",
+      "raw": "1 cup dry red wine, such as Cabernet Sauvignon (or 1 more 14.5 oz can crushed tomatoes)",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
       "item": "dry red wine",
       "prep": null,
-      "note": "or 1 more 14.5 oz can crushed tomatoes"
+      "note": "such as Cabernet Sauvignon, or 1 more 14.5 oz can crushed tomatoes"
     },
     {
       "raw": "1 (14.5 oz) can crushed tomatoes",
@@ -140,32 +140,50 @@
       "note": null
     },
     {
-      "raw": "10 oz tagliatelle or fettuccine",
+      "raw": "10 oz dry tagliatelle or fettuccine",
       "qty": 10,
       "qtyMax": null,
       "unit": "oz",
-      "item": "tagliatelle or fettuccine",
+      "item": "dry tagliatelle or fettuccine",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Freshly grated Parmesan, chopped fresh basil, and/or chopped fresh parsley, for serving",
-      "qty": null,
+      "raw": "1/4 cup freshly grated Parmesan, for serving",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
+      "unit": "cup",
+      "item": "Parmesan",
+      "prep": "freshly grated",
+      "note": "for serving"
+    },
+    {
+      "raw": "2 tbsp chopped fresh basil and/or parsley, for serving",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh basil and/or parsley",
+      "prep": "chopped",
+      "note": "for serving"
     }
   ],
   "steps": [
-    "Heat oil in a large skillet. Cook carrots, onion, salt, and pepper until softened, 5-7 min.",
-    "Add ground turkey, cook until browned, about 3 min.",
-    "Stir in garlic, oregano, and red pepper flakes for 1 minute.",
-    "Pour in wine, scrape up browned bits. Add crushed tomatoes, tomato paste, and milk.",
-    "Bring to a boil, reduce heat, simmer 10 minutes. Adjust seasoning.",
-    "Cook pasta al dente. Serve topped with sauce, Parmesan, and herbs."
+    "Heat the oil in a large skillet over medium heat. Add the carrots, onion, salt, and pepper and cook until the vegetables begin to soften, 5-7 min.",
+    "Raise the heat to medium-high, add the turkey, and cook, breaking it up with a spoon, until it starts to brown, about 3 min.",
+    "Stir in the garlic, oregano, and red pepper flakes and cook until fragrant, about 1 min.",
+    "Pour in the wine and scrape up the browned bits from the bottom of the pan. Stir in the crushed tomatoes, tomato paste, and milk.",
+    "Bring to a boil, then lower the heat and simmer until slightly thickened and the turkey is cooked through (165°F), about 10 min. Taste and add more salt, pepper, or pepper flakes.",
+    "Meanwhile, bring a large pot of salted water to a boil and cook the pasta until al dente. Drain.",
+    "Top the pasta with the sauce and serve sprinkled with Parmesan and basil or parsley."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.wellplated.com/turkey-bolognese/",
+      "site": "Well Plated",
+      "title": "Turkey Bolognese",
+      "usedFor": "heat levels, total time, yield, wine example",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

@@ -3,64 +3,64 @@
   "name": "Bold 'n' Beefy Tacos",
   "category": "Lunch",
   "emoji": "🌮",
-  "desc": "Tex-Mex ground beef tacos with tangy slaw and guacamole cream",
-  "time": "25 min",
-  "minutes": 25,
+  "desc": "Tex-Mex ground beef tacos with a tangy lime slaw, pico, and guacamole cream.",
+  "time": "30 min",
+  "minutes": 30,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.hellofresh.com/recipes/bold-n-beefy-tacos-5de6d076cd60886d8050e1f6",
+    "site": "HelloFresh",
+    "title": "Bold 'n' Beefy Tacos with Tangy Slaw, Pico, & Guacamole Cream",
+    "matchType": "original",
+    "evidence": "The site recipe is HelloFresh's 2-serving card: same ingredient list, quantities, and step order.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 2,
+    "basis": "publisher",
+    "source": "https://www.hellofresh.com/recipes/bold-n-beefy-tacos-5de6d076cd60886d8050e1f6"
   },
   "ingredients": [
     {
-      "raw": "1 yellow onion",
-      "qty": 1,
+      "raw": "1 medium yellow onion, finely diced",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
-      "item": "yellow onion",
-      "prep": null,
+      "item": "medium yellow onion",
+      "prep": "finely diced",
       "note": null
     },
     {
-      "raw": "1 Roma tomato",
-      "qty": 1,
+      "raw": "1 Roma tomato, finely diced",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
       "item": "Roma tomato",
-      "prep": null,
+      "prep": "finely diced",
       "note": null
     },
     {
-      "raw": "1/4 oz cilantro",
+      "raw": "1/4 oz fresh cilantro, leaves and stems finely chopped",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "oz",
-      "item": "cilantro",
-      "prep": null,
+      "item": "fresh cilantro",
+      "prep": "leaves and stems finely chopped",
       "note": null
     },
     {
-      "raw": "1 lime",
-      "qty": 1,
+      "raw": "1 lime, zested and quartered",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
       "item": "lime",
-      "prep": null,
+      "prep": "zested and quartered",
       "note": null
     },
     {
       "raw": "4 oz coleslaw mix",
-      "qty": 4,
+      "qty": 4.0,
       "qtyMax": null,
       "unit": "oz",
       "item": "coleslaw mix",
@@ -69,7 +69,7 @@
     },
     {
       "raw": "4 tbsp guacamole",
-      "qty": 4,
+      "qty": 4.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "guacamole",
@@ -78,7 +78,7 @@
     },
     {
       "raw": "2 tbsp sour cream",
-      "qty": 2,
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "sour cream",
@@ -87,7 +87,7 @@
     },
     {
       "raw": "10 oz ground beef",
-      "qty": 10,
+      "qty": 10.0,
       "qtyMax": null,
       "unit": "oz",
       "item": "ground beef",
@@ -96,7 +96,7 @@
     },
     {
       "raw": "1 packet HelloFresh Tex-Mex paste (or 1 tbsp tomato paste mixed with 2 tsp taco seasoning)",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "packet",
       "item": "HelloFresh Tex-Mex paste",
@@ -104,17 +104,17 @@
       "note": "or 1 tbsp tomato paste mixed with 2 tsp taco seasoning"
     },
     {
-      "raw": "6 flour tortillas",
-      "qty": 6,
+      "raw": "6 small flour tortillas",
+      "qty": 6.0,
       "qtyMax": null,
       "unit": null,
-      "item": "flour tortillas",
+      "item": "small flour tortillas",
       "prep": null,
       "note": null
     },
     {
       "raw": "1 tsp granulated sugar",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "granulated sugar",
@@ -122,12 +122,21 @@
       "note": null
     },
     {
-      "raw": "1 tbsp olive oil",
-      "qty": 1,
+      "raw": "1 tbsp olive oil, for the slaw",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "olive oil",
-      "prep": null,
+      "prep": "for the slaw",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp vegetable oil, for the beef",
+      "qty": 1.0,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": "for the beef",
       "note": null
     },
     {
@@ -138,16 +147,34 @@
       "item": "water",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
     }
   ],
   "steps": [
-    "Dice onion, tomato, cilantro. Zest and quarter lime.",
-    "Make slaw: lime juice, olive oil, sugar, coleslaw mix. Toss and set aside.",
-    "Make guacamole cream: mix guacamole, sour cream, half the tomato, cilantro, and onion.",
-    "Make pico: remaining tomato, cilantro, lime zest, lime juice, onion.",
-    "Cook beef with remaining onion until browned. Add Tex-Mex paste and water; coat for 2-3 min.",
-    "Warm tortillas, fill with beef, top with slaw, guac cream, and pico."
+    "Finely dice the onion and tomato, finely chop the cilantro, and zest and quarter the lime.",
+    "Slaw: squeeze the juice from 3 lime wedges into a medium bowl. Stir in the olive oil and sugar, add the coleslaw mix, season with salt and pepper, and toss. Set aside, tossing occasionally.",
+    "Guacamole cream: in a second bowl, combine the guacamole and sour cream. Stir in half the tomato, half the cilantro, and a pinch of the onion. Season with salt and pepper.",
+    "Pico: in a third bowl, combine the remaining tomato and cilantro with the lime zest, the juice of the last lime wedge, and a little more onion. Season with salt and pepper. Save the rest of the onion for the beef.",
+    "Heat the vegetable oil in a large pan over medium-high heat. Add the beef and remaining onion and cook, breaking the meat up, until browned with no pink left and the onion is soft, 5 to 7 minutes. Transfer to a paper-towel-lined plate and wipe out the pan.",
+    "Return the pan to medium heat. Stir in the Tex-Mex paste and water, add the beef and onion back, and cook until coated, 2 to 3 minutes. Season with salt and pepper.",
+    "Wrap the tortillas in damp paper towels and microwave until warm and pliable, about 30 seconds. Fill with the beef and top with slaw, guacamole cream, and pico."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.hellofresh.com/recipes/bold-n-beefy-tacos-5de6d076cd60886d8050e1f6",
+      "site": "HelloFresh",
+      "title": "Bold 'n' Beefy Tacos with Tangy Slaw, Pico, & Guacamole Cream",
+      "usedFor": "slaw, pico, and guacamole cream method, beef cook time, tortilla warming, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

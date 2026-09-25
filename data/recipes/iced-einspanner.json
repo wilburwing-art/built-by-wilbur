@@ -1,0 +1,97 @@
+{
+  "slug": "iced-einspanner",
+  "name": "Iced Einspänner",
+  "category": "Drinks",
+  "emoji": "🧊",
+  "desc": "Cold brew over ice under a pour of lightly sweetened, salted cream and a dusting of cocoa.",
+  "time": "5 min",
+  "minutes": 5,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DSYFdjwAJmm/",
+    "site": "Instagram @nytcooking",
+    "title": "Iced Einspänner",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 2,
+    "basis": "publisher",
+    "source": "https://cooking.nytimes.com/recipes/1022403-iced-einspanner"
+  },
+  "ingredients": [
+    {
+      "raw": "1/4 cup heavy whipping cream",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "heavy whipping cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp granulated sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/8 tsp kosher salt (Diamond Crystal)",
+      "qty": 0.125,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": "Diamond Crystal"
+    },
+    {
+      "raw": "2 cups ice cubes",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "ice cubes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup cold-brewed coffee",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cold-brewed coffee",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Cocoa powder, for dusting",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "In a small bowl, whisk the cream, sugar and salt until thickened and airy but well before peaks form. It should be thinner than whipped cream, silky and pourable, like melted ice cream.",
+    "Divide the ice and coffee between two 12-ounce glasses.",
+    "Pour the cream over each glass and dust lightly with cocoa through a fine-mesh sieve or with your fingertips."
+  ],
+  "tips": [
+    "The reel shows a thick layer of cream; NYT Cooking's written recipe whips it only to a pourable stage, which floats better on iced coffee. Whip to soft peaks if you want it thicker."
+  ],
+  "references": [
+    {
+      "url": "https://cooking.nytimes.com/recipes/1022403-iced-einspanner",
+      "site": "NYT Cooking",
+      "title": "Iced Einspänner",
+      "usedFor": "creator's recipe: all amounts, cream texture, glass size, serves 2",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

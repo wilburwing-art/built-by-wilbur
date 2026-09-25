@@ -1,0 +1,169 @@
+{
+  "slug": "panda-express-style-chow-mein",
+  "name": "Panda Express-Style Chow Mein",
+  "category": "Dinner",
+  "emoji": "🥡",
+  "desc": "Fresh chow mein noodles tossed with cabbage, celery and onion in a soy and oyster sauce.",
+  "time": "15 min",
+  "minutes": 15,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DRsI_Ulj1LS/",
+    "site": "Instagram @success.recipes",
+    "title": "Panda Express-Style Chow Mein",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 lb fresh chow mein noodles (refrigerated)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "fresh chow mein noodles",
+      "prep": null,
+      "note": "refrigerated"
+    },
+    {
+      "raw": "2 cups green cabbage, thinly sliced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "green cabbage",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1 cup celery, thinly sliced on the diagonal (about 2 stalks)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "celery",
+      "prep": "thinly sliced on the diagonal",
+      "note": "about 2 stalks"
+    },
+    {
+      "raw": "1 small yellow onion, sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small yellow onion",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp vegetable oil, divided",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "Sauce:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp soy sauce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tbsp dark soy sauce",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dark soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp oyster sauce",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "oyster sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp toasted sesame oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "toasted sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 garlic cloves, minced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup low-sodium chicken stock or water",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "low-sodium chicken stock or water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tbsp cornstarch",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Whisk the sauce ingredients in a small bowl until the cornstarch dissolves.",
+    "Bring a pot of water to a boil. Blanch the noodles 20-30 sec until they loosen, then drain well. Do not rinse.",
+    "Heat 1 tbsp of the oil in a wok or large skillet over high heat. Stir-fry the cabbage, celery and onion about 1 min, until they start to soften.",
+    "Push the vegetables aside and add the remaining oil. Add the noodles, re-whisk the sauce, and pour it in. Toss 1-2 min until the sauce thickens and every strand is coated."
+  ],
+  "tips": [
+    "4 servings, about 390 cal each.",
+    "Look for fresh chow mein or yakisoba noodles in the refrigerated case at an Asian grocery; fresh ramen also works."
+  ],
+  "references": [
+    {
+      "url": "https://recipesbyjanet.com/panda-express-chow-mein-recipe/",
+      "site": "Recipes by Janet",
+      "title": "Panda Express Chow Mein Recipe",
+      "usedFor": "confirmed the blanch-without-rinsing method and sauce ratios for the same ingredient set",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://chefjar.com/panda-express-chow-mein/",
+      "site": "Chefjar",
+      "title": "Panda Express Chow Mein",
+      "usedFor": "celery amount (about 2 ribs) and high-heat stir-fry",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

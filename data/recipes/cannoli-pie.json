@@ -3,33 +3,33 @@
   "name": "Cannoli Pie",
   "category": "Desserts",
   "emoji": "🥧",
-  "desc": "Cream cheese and ricotta filling with chocolate chips and ganache",
-  "time": "3 hrs",
-  "minutes": 180,
+  "desc": "A no-bake cannoli cream of cream cheese and ricotta in a baked crust, under chocolate ganache and whipped cream.",
+  "time": "4 hrs",
+  "minutes": 240,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.modernhoney.com/best-cannoli-pie-recipe/",
+    "site": "Modern Honey",
+    "title": "Best Cannoli Pie",
+    "matchType": "original",
+    "evidence": "Identical filling, ganache and whipped cream amounts (two 8 oz cream cheese, 1 cup ricotta, 1 1/2 cups cream, orange zest, cinnamon, mini chips) and the same 50% power ganache method.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 8,
+    "basis": "publisher",
+    "source": "https://www.modernhoney.com/best-cannoli-pie-recipe/"
   },
   "ingredients": [
     {
-      "raw": "1 (9-inch) refrigerated pie crust, blind baked and cooled",
+      "raw": "1 refrigerated pie crust (from a 14.1 oz box of 2), for a 9-inch pie plate",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "refrigerated pie crust",
-      "prep": "blind baked and cooled",
-      "note": "9-inch"
+      "prep": null,
+      "note": "from a 14.1 oz box of 2; for a 9-inch pie plate"
     },
     {
       "raw": "Filling:",
@@ -41,20 +41,20 @@
       "note": null
     },
     {
-      "raw": "2 (8 oz) packages cream cheese, slightly softened",
+      "raw": "2 (8 oz) packages full-fat cream cheese, slightly softened",
       "qty": 2,
       "qtyMax": null,
       "unit": "package",
-      "item": "cream cheese",
+      "item": "full-fat cream cheese",
       "prep": "slightly softened",
-      "note": "8 oz"
+      "note": "8 oz each"
     },
     {
-      "raw": "1 cup ricotta cheese",
+      "raw": "1 cup whole-milk ricotta cheese",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "ricotta cheese",
+      "item": "whole-milk ricotta cheese",
       "prep": null,
       "note": null
     },
@@ -86,11 +86,11 @@
       "note": null
     },
     {
-      "raw": "1 tsp orange zest",
+      "raw": "1 tsp finely grated orange zest",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "orange zest",
+      "item": "finely grated orange zest",
       "prep": null,
       "note": null
     },
@@ -104,11 +104,11 @@
       "note": null
     },
     {
-      "raw": "1 to 1 1/2 cups mini chocolate chips",
+      "raw": "1 to 1 1/2 cups mini semisweet chocolate chips",
       "qty": 1,
       "qtyMax": 1.5,
       "unit": "cup",
-      "item": "mini chocolate chips",
+      "item": "mini semisweet chocolate chips",
       "prep": null,
       "note": null
     },
@@ -122,11 +122,11 @@
       "note": null
     },
     {
-      "raw": "1 cup semi-sweet chocolate chips",
+      "raw": "1 cup semisweet chocolate chips",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "semi-sweet chocolate chips",
+      "item": "semisweet chocolate chips",
       "prep": null,
       "note": null
     },
@@ -149,11 +149,11 @@
       "note": null
     },
     {
-      "raw": "1 1/2 cups heavy cream",
+      "raw": "1 1/2 cups cold heavy cream",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "heavy cream",
+      "item": "cold heavy cream",
       "prep": null,
       "note": null
     },
@@ -176,22 +176,51 @@
       "note": null
     },
     {
-      "raw": "Mini chocolate chips, bakery cannolis, and pistachios, for topping",
-      "qty": null,
+      "raw": "2 tbsp mini semisweet chocolate chips",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "mini semisweet chocolate chips",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 mini cannoli (bakery or store-bought)",
+      "qty": 4,
       "qtyMax": null,
       "unit": null,
-      "item": null,
+      "item": "mini cannoli",
+      "prep": null,
+      "note": "bakery or store-bought"
+    },
+    {
+      "raw": "2 tbsp chopped shelled pistachios",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chopped shelled pistachios",
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Blind bake the pie crust according to the package and let it cool.",
-    "Beat the cream cheese, ricotta, heavy cream, powdered sugar, vanilla, orange zest, and cinnamon until light and fluffy, 4-5 minutes. Fold in the mini chocolate chips.",
-    "Fill the cooled crust and chill at least 2 hours (or 45 minutes in the freezer).",
-    "Make the ganache: microwave the chocolate chips and 3 tbsp cream at 50% power for 45 seconds, then in 15-second bursts, stirring, until smooth. Pour over the chilled filling and chill 1-2 hours to set.",
-    "Whip the 1 1/2 cups cream to soft peaks, add the powdered sugar, and beat to stiff peaks. Pipe onto the pie and top with mini chips, cannolis, and pistachios."
+    "Fit the crust into a 9-inch pie plate and crimp the edge. Blind bake according to the package directions, lined with parchment and pie weights, until light golden brown. Cool completely, about 30 minutes.",
+    "Filling: beat the cream cheese, ricotta, heavy cream, powdered sugar, vanilla, orange zest and cinnamon with a mixer until smooth, light and fluffy, 4-5 minutes. Fold in the mini chocolate chips.",
+    "Spread the filling in the cooled crust and refrigerate at least 2 hours (or freeze 45 minutes), until firm on top.",
+    "Ganache: microwave the chocolate chips and 3 tbsp cream at 50% power for 45 seconds, stir, then continue in 15-second bursts, stirring each time, until smooth. Pour over the chilled filling, spread to the edges, and refrigerate 1-2 hours until set.",
+    "Whipped cream: beat the cold cream to soft peaks, add the powdered sugar, and beat to stiff peaks.",
+    "Pipe or spread the whipped cream over the pie. Top with mini chocolate chips, the cannoli and pistachios. Keep refrigerated."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Full-fat cream cheese, whole-milk ricotta and heavy cream give the firmest set; low-fat versions stay loose."
+  ],
+  "references": [
+    {
+      "url": "https://www.modernhoney.com/best-cannoli-pie-recipe/",
+      "site": "Modern Honey",
+      "title": "Best Cannoli Pie",
+      "usedFor": "confirmed filling, ganache and topping amounts, 4 to 5 minute beat, 2 hour chill or 45 minute freeze, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

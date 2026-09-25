@@ -3,22 +3,22 @@
   "name": "Pork & Veggie Bibimbap",
   "category": "Dinner",
   "emoji": "🍚",
-  "desc": "Korean rice bowl with seasoned pork, pickled scallions, and fried egg",
+  "desc": "Jasmine rice bowls with ginger-garlic ground pork, sautéed carrot ribbons, cucumber, quick-pickled scallions, a fried egg, and a sweet sriracha sauce.",
   "time": "35 min",
   "minutes": 35,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.hellofresh.com/recipes/pork-veggie-bibimbap-621e7f2ffb705a38f51a2a16",
+    "site": "HelloFresh",
+    "title": "Pork & Veggie Bibimbap with Carrots & Pickled Scallions",
+    "matchType": "closest",
+    "evidence": "Same amounts of jasmine rice, vinegar, sesame oil, sriracha, soy sauce, ground pork, and sugar, with the same pickled scallion whites and sauce; this version swaps HelloFresh's sautéed zucchini for raw cucumber, uses rice vinegar for white wine vinegar, and adds fried eggs.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 2,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
@@ -32,20 +32,38 @@
       "note": null
     },
     {
-      "raw": "2 carrots",
-      "qty": 2,
+      "raw": "1 1/4 cups water",
+      "qty": 1.25,
       "qtyMax": null,
-      "unit": null,
-      "item": "carrots",
+      "unit": "cup",
+      "item": "water",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 thumb fresh ginger and 2 cloves garlic, minced",
-      "qty": 1,
+      "raw": "2 medium carrots (about 6 oz)",
+      "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "thumb fresh ginger and 2 cloves garlic",
+      "item": "medium carrots",
+      "prep": null,
+      "note": "about 6 oz"
+    },
+    {
+      "raw": "1 thumb-size piece fresh ginger, peeled and minced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "piece",
+      "item": "fresh ginger",
+      "prep": "peeled and minced",
+      "note": "thumb-size"
+    },
+    {
+      "raw": "2 garlic cloves, minced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
       "prep": "minced",
       "note": null
     },
@@ -59,21 +77,21 @@
       "note": null
     },
     {
-      "raw": "2 tsp sriracha",
+      "raw": "2 tsp sriracha, divided",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
       "item": "sriracha",
-      "prep": null,
+      "prep": "divided",
       "note": null
     },
     {
-      "raw": "2 tbsp soy sauce",
+      "raw": "2 tbsp soy sauce, divided",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "soy sauce",
-      "prep": null,
+      "prep": "divided",
       "note": null
     },
     {
@@ -86,58 +104,89 @@
       "note": null
     },
     {
-      "raw": "2 scallions",
+      "raw": "2 scallions, thinly sliced, whites and greens separated",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
       "item": "scallions",
-      "prep": null,
+      "prep": "thinly sliced, whites and greens separated",
       "note": null
     },
     {
-      "raw": "1 tbsp sesame oil",
+      "raw": "1 tbsp toasted sesame oil",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "sesame oil",
+      "item": "toasted sesame oil",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tbsp sugar",
+      "raw": "1 tbsp granulated sugar",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "sugar",
+      "item": "granulated sugar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 cucumber, thinly sliced",
+      "raw": "1 small cucumber, thinly sliced",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "cucumber",
+      "item": "small cucumber",
       "prep": "thinly sliced",
       "note": null
     },
     {
-      "raw": "2 eggs",
+      "raw": "2 large eggs",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "eggs",
+      "item": "large eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp neutral cooking oil, divided",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "neutral cooking oil",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "Kosher salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Cook rice 15-18 min. Pickle scallion whites in vinegar.",
-    "Make sauce: sesame oil, half the soy sauce, sugar, sriracha.",
-    "Cook carrot ribbons 3-4 min. Set aside.",
-    "Cook pork with ginger and garlic until browned. Add remaining soy sauce.",
-    "Fry the eggs to your liking. Arrange rice, pork, carrots, and sliced cucumber in bowls. Top each with a fried egg, pickled scallions, scallion greens, and sauce."
+    "Combine the rice, 1 1/4 cups water, and a big pinch of salt in a small pot. Bring to a boil, cover, reduce to a low simmer, and cook until tender, 15-18 min. Keep covered off the heat until serving.",
+    "Meanwhile, trim and peel the carrots, then shave them lengthwise into ribbons with a vegetable peeler, rotating as you go; discard the cores.",
+    "Pickle: combine the scallion whites, vinegar, and a pinch of salt in a small bowl. Set aside, stirring now and then.",
+    "Sauce: in another small bowl, stir the sesame oil, 1 tbsp of the soy sauce, the sugar, and up to half the sriracha until the sugar dissolves.",
+    "Heat a drizzle of the cooking oil in a large nonstick pan over medium-high heat. Add the carrot ribbons, season with salt and pepper, and cook, stirring, until slightly softened, 3-4 min. Set aside.",
+    "Add another drizzle of oil and the pork, ginger, and garlic. Cook, breaking up the meat, until browned and cooked through (160°F), 4-6 min. Add the remaining 1 tbsp soy sauce and cook until the liquid has mostly evaporated, 1-2 min. Season with salt and pepper and move to a plate.",
+    "Wipe out the pan, add the last of the oil over medium heat, and fry the eggs until the whites are set and the yolks still runny, 2-3 min.",
+    "Fluff the rice, season lightly, and divide between bowls. Arrange the pork, carrots, and cucumber on top, then a fried egg. Spoon over the pickled scallion whites with their liquid, drizzle with the sauce and remaining sriracha to taste, and scatter the scallion greens."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "HelloFresh's version browns 1 zucchini (half-moons, 3-5 min per side) in place of the raw cucumber; either works."
+  ],
+  "references": [
+    {
+      "url": "https://www.hellofresh.com/recipes/pork-veggie-bibimbap-621e7f2ffb705a38f51a2a16",
+      "site": "HelloFresh",
+      "title": "Pork & Veggie Bibimbap with Carrots & Pickled Scallions",
+      "usedFor": "rice water ratio, carrot weight and ribbon method, sauce and pickle ratios, cook times, cooking oil",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

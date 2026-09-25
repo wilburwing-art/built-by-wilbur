@@ -3,45 +3,45 @@
   "name": "Brown Sugar-Cinnamon Butter",
   "category": "Sides & Snacks",
   "emoji": "🧈",
-  "desc": "Whipped butter with dark brown sugar and cinnamon for toast or cornbread",
+  "desc": "Whipped butter with dark brown sugar and cinnamon for toast, biscuits, or cornbread.",
   "time": "5 min",
   "minutes": 5,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/237629/brown-sugar-cinnamon-butter/",
+    "site": "Allrecipes",
+    "title": "Brown Sugar-Cinnamon Butter",
+    "matchType": "original",
+    "evidence": "Same three ingredients in the same amounts (1/2 cup butter, 1/4 cup dark brown sugar, 1/4 tsp cinnamon) and the same beat-with-a-mixer instruction, nearly word for word.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 12,
+    "basis": "publisher",
+    "source": "https://www.allrecipes.com/recipe/237629/brown-sugar-cinnamon-butter/"
   },
   "ingredients": [
     {
-      "raw": "½ cup butter, softened",
+      "raw": "1/2 cup (1 stick) salted butter, softened",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "butter",
+      "item": "salted butter",
       "prep": "softened",
-      "note": null
+      "note": "1 stick"
     },
     {
-      "raw": "¼ cup dark brown sugar",
+      "raw": "1/4 cup packed dark brown sugar",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "dark brown sugar",
+      "item": "packed dark brown sugar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "¼ teaspoon ground cinnamon",
+      "raw": "1/4 tsp ground cinnamon",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
@@ -51,8 +51,20 @@
     }
   ],
   "steps": [
-    "Beat butter, brown sugar, and cinnamon together in a bowl with an electric mixer until creamy and smooth."
+    "Let the butter sit at room temperature until it dents easily when pressed.",
+    "Beat the butter, brown sugar, and cinnamon in a bowl with an electric mixer on high until creamy and smooth, about 1 minute.",
+    "Transfer to a small dish or jar, cover, and keep refrigerated. Let it stand at room temperature 15 minutes before spreading."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Allrecipes does not say salted or unsalted. Unsalted works too; add a pinch of fine salt."
+  ],
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/237629/brown-sugar-cinnamon-butter/",
+      "site": "Allrecipes",
+      "title": "Brown Sugar-Cinnamon Butter",
+      "usedFor": "mixer speed and time, refrigerate between uses, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

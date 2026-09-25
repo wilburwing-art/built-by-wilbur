@@ -1,0 +1,73 @@
+{
+  "slug": "fizzy-grapes",
+  "name": "Fizzy Grapes",
+  "category": "Sides & Snacks",
+  "emoji": "🍇",
+  "desc": "Seedless grapes carbonated in a soda siphon so they pop and fizz when you bite them.",
+  "time": "4 hrs 10 min",
+  "minutes": 250,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DDvdp6RP7Xw/",
+    "site": "Instagram @michaeltchao",
+    "title": "Fizzy Grapes",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 cups seedless grapes (about 32), or other small firm fruit, chilled",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "seedless grapes",
+      "prep": "chilled",
+      "note": "about 32, or other small firm fruit"
+    },
+    {
+      "raw": "1 (1 pint / 500 ml) soda siphon or whipped cream dispenser",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 CO2 soda chargers",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "CO2 soda chargers",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Wash the grapes, pat them completely dry and chill them.",
+    "Put the grapes in the siphon, screw the lid on tightly and charge with 2 CO2 chargers, one at a time.",
+    "Refrigerate the siphon for at least 4 hours so the gas dissolves into the fruit.",
+    "Hold the siphon upright and press the lever slowly to release all of the gas. Once it stops hissing, unscrew the lid, pour the grapes into a bowl and serve immediately. The fizz fades within about 15 minutes."
+  ],
+  "tips": [
+    "Grapes swell after carbonating, so use fruit a bit smaller than the canister opening or they get stuck.",
+    "Use CO2 soda chargers. N2O whipped cream chargers will not make the fruit fizzy.",
+    "Studio Kitchen adds 200 g sparkling wine to the siphon with the grapes for a boozy version; drain the wine off before opening."
+  ],
+  "references": [
+    {
+      "url": "https://studiokitchen.com.au/recipe/fizzy-grapes/",
+      "site": "Studio Kitchen",
+      "title": "Fizzy Grapes",
+      "usedFor": "grape count for a 500 ml siphon, 2 CO2 chargers, 4 hour fridge time, sparkling wine variation",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

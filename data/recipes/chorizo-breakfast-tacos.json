@@ -3,7 +3,7 @@
   "name": "Chorizo Breakfast Tacos",
   "category": "Breakfast",
   "emoji": "🌮",
-  "desc": "Spicy chorizo scrambled with eggs, cheese, and salsa on corn tortillas",
+  "desc": "Crumbled chorizo folded into soft scrambled eggs on crisp-edged corn tortillas with Jack cheese and salsa.",
   "time": "20 min",
   "minutes": 20,
   "difficulty": "Easy",
@@ -12,81 +12,72 @@
     "url": null,
     "site": null,
     "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "matchType": "none",
+    "evidence": "Searched chorizo breakfast tacos with eggs, milk, Monterey Jack and corn tortillas; a SparkPeople member recipe with the same list surfaced in search but could not be read, and America's Test Kitchen, Cuisine & Cocktails, and Lil' Luna versions all differ in ingredients.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "6 oz chorizo sausage",
-      "qty": 6,
+      "raw": "6 oz fresh Mexican chorizo, casings removed",
+      "qty": 6.0,
       "qtyMax": null,
       "unit": "oz",
-      "item": "chorizo sausage",
-      "prep": null,
+      "item": "fresh Mexican chorizo",
+      "prep": "casings removed",
       "note": null
     },
     {
-      "raw": "8 corn tortillas",
-      "qty": 8,
+      "raw": "8 (6-inch) corn tortillas",
+      "qty": 8.0,
       "qtyMax": null,
       "unit": null,
       "item": "corn tortillas",
       "prep": null,
-      "note": null
+      "note": "6-inch"
     },
     {
-      "raw": "6 eggs",
-      "qty": 6,
+      "raw": "6 large eggs",
+      "qty": 6.0,
       "qtyMax": null,
       "unit": null,
-      "item": "eggs",
+      "item": "large eggs",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/4 cup milk",
+      "raw": "1/4 cup whole milk",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "milk",
+      "item": "whole milk",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 tsp pepper",
+      "raw": "1/2 tsp black pepper",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "pepper",
+      "item": "black pepper",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 tsp salt",
+      "raw": "1/2 tsp table salt",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "table salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 cup shredded Monterey Jack cheese",
-      "qty": 1,
-      "qtyMax": null,
-      "unit": "cup",
-      "item": "shredded Monterey Jack cheese",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "Hot sauce to taste",
+      "raw": "Cooking spray",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -95,21 +86,57 @@
       "note": null
     },
     {
-      "raw": "1/2 cup salsa",
+      "raw": "1 cup shredded Monterey Jack cheese",
+      "qty": 1.0,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded Monterey Jack cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup red salsa",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "salsa",
+      "item": "red salsa",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Hot sauce, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Crumble sausage into a skillet over medium-high heat. Cook until browned. Set aside.",
-    "Whisk eggs, milk, salt, and pepper. Scramble in a sprayed skillet over medium heat. Add sausage when eggs are nearly firm.",
-    "Warm tortillas in a hot skillet about 45 seconds per side until crispy edges but still pliable.",
-    "Sprinkle cheese on hot tortillas, top with egg and sausage, then add hot sauce and salsa."
+    "Crumble the chorizo into a large skillet over medium-high heat and cook, breaking it up, until browned and cooked through, 6 to 8 minutes. Drain on paper towels.",
+    "Whisk the eggs, milk, salt, and pepper until evenly yellow.",
+    "Wipe out the skillet, coat with cooking spray, and set over medium heat. Add the eggs and stir slowly until they are mostly set but still a little wet, 2 to 3 minutes. Fold in the chorizo and cook until the eggs are set, about 1 minute more.",
+    "Heat a dry skillet over medium-high heat and warm the tortillas one or two at a time, about 45 seconds per side, until the edges crisp but they still bend. Keep them wrapped in a towel.",
+    "Sprinkle the cheese on the hot tortillas, top with the egg and chorizo, and finish with salsa and hot sauce."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Use raw Mexican chorizo; cured Spanish chorizo is a firm sausage and will not crumble."
+  ],
+  "references": [
+    {
+      "url": "https://www.americastestkitchen.com/recipes/9451-texas-breakfast-tacos-with-chorizo",
+      "site": "America's Test Kitchen",
+      "title": "Texas Breakfast Tacos with Chorizo",
+      "usedFor": "6 to 8 minute chorizo browning time, whisking eggs until evenly yellow",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.cuisineandcocktails.com/breakfast-tacos/",
+      "site": "Cuisine & Cocktails",
+      "title": "Easy Chorizo Breakfast Tacos",
+      "usedFor": "draining the chorizo fat before the eggs go in",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

@@ -1,0 +1,174 @@
+{
+  "slug": "brown-butter-banana-bread-oatmeal-cookies",
+  "name": "Brown Butter Banana Bread Oatmeal Cookies",
+  "category": "Desserts",
+  "emoji": "🍪",
+  "desc": "Chewy oatmeal chocolate cookies with brown butter, mashed banana and a little yogurt.",
+  "time": "1 hr 15 min",
+  "minutes": 75,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C94zyElJNFx/",
+    "site": "Instagram @wellmadebykiley",
+    "title": "Brown Butter Banana Bread Oatmeal Cookies",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 14,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 1/2 cups (190g) all-purpose flour",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": "190g"
+    },
+    {
+      "raw": "1 1/2 cups (165g) old-fashioned rolled oats",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "old-fashioned rolled oats",
+      "prep": null,
+      "note": "165g"
+    },
+    {
+      "raw": "1 tsp ground cinnamon",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp baking soda",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp baking powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp fine salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup (226g) salted butter",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "salted butter",
+      "prep": null,
+      "note": "226g"
+    },
+    {
+      "raw": "3/4 cup (170g) packed brown sugar, light or dark",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "packed brown sugar",
+      "prep": null,
+      "note": "170g; light or dark"
+    },
+    {
+      "raw": "1/2 cup (110g) granulated sugar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": "110g"
+    },
+    {
+      "raw": "1/2 cup (145g) mashed ripe banana (about 1 1/2 bananas)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "mashed ripe banana",
+      "prep": null,
+      "note": "145g; about 1 1/2 bananas"
+    },
+    {
+      "raw": "2 1/2 tbsp plain yogurt",
+      "qty": 2.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "plain yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tsp vanilla extract",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups (300g) semisweet chocolate chips or chopped dark chocolate",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "semisweet chocolate chips or chopped dark chocolate",
+      "prep": null,
+      "note": "300g"
+    },
+    {
+      "raw": "Flaky sea salt, for topping",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Brown the butter in a saucepan over medium-high heat, stirring constantly, 5-8 min. It foams and sizzles, the foam subsides, and the milk solids turn deep brown and smell nutty. Pour into a large bowl and cool 10 min.",
+    "In a medium bowl, whisk the flour, oats, cinnamon, baking soda, baking powder and salt.",
+    "Whisk both sugars into the brown butter, then the banana, yogurt and vanilla, until combined.",
+    "Fold the dry ingredients into the wet until just combined, then fold in the chocolate.",
+    "Cover and refrigerate at least 30 min. Meanwhile heat the oven to 375°F and line 2 baking sheets with parchment.",
+    "Scoop 3 tbsp balls onto the sheets, spaced 3 in apart.",
+    "Bake 12-14 min, until the edges are golden and the middles still look soft.",
+    "Cool 5-10 min on the pan, then move to a rack. Sprinkle with flaky salt."
+  ],
+  "tips": [
+    "The creator's website version swaps the yogurt for 1 room-temperature egg yolk."
+  ],
+  "references": [
+    {
+      "url": "https://www.wellmadebykiley.com/blog/brown-butter-banana-bread-oatmeal-chocolate-chip-cookies",
+      "site": "Well Made by Kiley",
+      "title": "Brown Butter Banana Bread Oatmeal Chocolate Chip Cookies",
+      "usedFor": "gram weights, old-fashioned oats, brown butter cues, 12-16 yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

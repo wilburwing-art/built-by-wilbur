@@ -3,27 +3,27 @@
   "name": "Skillet Gnocchi With Miso Butter and Asparagus",
   "category": "Dinner",
   "emoji": "🥟",
-  "desc": "Ali Slagle's one-skillet gnocchi, seared not boiled, glossed in miso butter",
+  "desc": "Ali Slagle's one-skillet shelf-stable gnocchi, seared instead of boiled, with asparagus, arugula, and a miso butter glaze.",
   "time": "20 min",
   "minutes": 20,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://cooking.nytimes.com/recipes/1026745-skillet-gnocchi-with-miso-butter-and-asparagus",
+    "site": "NYT Cooking",
+    "title": "Skillet Gnocchi With Miso Butter and Asparagus",
+    "matchType": "original",
+    "evidence": "Same title and author, the same 16 to 18 oz shelf-stable gnocchi, 4 tbsp butter, 2 tbsp white miso, 2 tsp vinegar, 1 lb asparagus and 2 packed cups arugula, and the same covered sear, miso butter off the heat method.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 3,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "2 tablespoons olive oil",
+      "raw": "2 tbsp olive oil",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
@@ -32,25 +32,25 @@
       "note": null
     },
     {
-      "raw": "18 ounces shelf-stable potato gnocchi (do not boil)",
+      "raw": "18 oz shelf-stable potato gnocchi (do not boil)",
       "qty": 18,
       "qtyMax": null,
       "unit": "oz",
-      "item": "shelf-stable potato gnocchi (do not boil)",
+      "item": "shelf-stable potato gnocchi",
       "prep": null,
-      "note": null
+      "note": "do not boil"
     },
     {
-      "raw": "4 tablespoons unsalted butter, room temp",
+      "raw": "4 tbsp unsalted butter, at room temperature",
       "qty": 4,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "unsalted butter, room temp",
-      "prep": null,
+      "item": "unsalted butter",
+      "prep": "at room temperature",
       "note": null
     },
     {
-      "raw": "2 tablespoons white miso",
+      "raw": "2 tbsp white miso",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
@@ -59,7 +59,7 @@
       "note": null
     },
     {
-      "raw": "2 teaspoons rice vinegar",
+      "raw": "2 tsp rice vinegar",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
@@ -68,48 +68,58 @@
       "note": null
     },
     {
-      "raw": "1/4 teaspoon black pepper, freshly ground",
+      "raw": "1/4 tsp freshly ground black pepper, plus more to taste",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
       "item": "black pepper",
       "prep": "freshly ground",
-      "note": null
+      "note": "plus more to taste"
     },
     {
-      "raw": "1 pound asparagus, trimmed, cut into 1-inch pieces",
+      "raw": "1 lb asparagus (1 bunch), tough ends trimmed, cut into 1-inch pieces",
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
       "item": "asparagus",
-      "prep": "trimmed, cut into 1-inch pieces",
-      "note": null
+      "prep": "tough ends trimmed, cut into 1-inch pieces",
+      "note": "1 bunch"
     },
     {
-      "raw": "2 cups baby arugula, packed",
+      "raw": "1/4 tsp kosher salt, plus more to taste",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": "plus more to taste"
+    },
+    {
+      "raw": "2 packed cups baby arugula",
       "qty": 2,
       "qtyMax": null,
       "unit": "cup",
       "item": "baby arugula",
       "prep": "packed",
       "note": null
-    },
-    {
-      "raw": "1/4 teaspoon kosher salt",
-      "qty": 0.25,
-      "qtyMax": null,
-      "unit": "tsp",
-      "item": "kosher salt",
-      "prep": null,
-      "note": null
     }
   ],
   "steps": [
-    "Sear the gnocchi: Heat 2 tablespoons olive oil in a large nonstick or well-seasoned cast iron skillet over medium-high. Break apart any stuck-together gnocchi and add 18 ounces shelf-stable potato gnocchi (do not boil) in an even layer. Cover and cook undisturbed until golden brown underneath and releasing from the pan, 2 to 4 minutes .",
-    "Make miso butter: While gnocchi sears, smash together 4 tablespoons unsalted butter, room temp, 2 tablespoons white miso, 2 teaspoons rice vinegar, and 1/4 teaspoon black pepper, freshly ground in a small bowl until fully combined.",
-    "Cook the asparagus: Add 1 pound asparagus, trimmed, cut into 1-inch pieces and 1/4 teaspoon kosher salt to the skillet. Cook, stirring occasionally, until bright green and crisp-tender, 2 to 3 minutes .",
-    "Finish with miso butter and arugula: Turn off the heat and add the miso butter in spoonfuls. Stir until melted and the gnocchi are glossed in sauce. Season with salt and pepper, then stir in 2 cups baby arugula, packed until just wilted. Serve immediately."
+    "Heat the olive oil in a large nonstick or well-seasoned cast-iron skillet over medium-high heat. Break apart any gnocchi that are stuck together and add them in an even layer. Cover and cook, undisturbed, until golden brown underneath and releasing from the pan, 2-4 min.",
+    "While the gnocchi sear, smash the butter, miso, vinegar, and 1/4 tsp pepper together in a small bowl with a fork until fully combined.",
+    "Add the asparagus and 1/4 tsp salt to the skillet. Cook, stirring occasionally, until the asparagus is bright green and crisp-tender, 2-3 min.",
+    "Turn off the heat and add the miso butter in spoonfuls. Stir until it melts and the gnocchi are glossy. Season with salt and pepper, stir in the arugula until barely wilted, and serve right away."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The NYT recipe uses 1 tbsp vegetable or canola oil, sherry vinegar in the miso butter, and 1/2-inch asparagus pieces; this version uses olive oil, rice vinegar, and 1-inch pieces. Either vinegar works."
+  ],
+  "references": [
+    {
+      "url": "https://cooking.nytimes.com/recipes/1026745-skillet-gnocchi-with-miso-butter-and-asparagus",
+      "site": "NYT Cooking",
+      "title": "Skillet Gnocchi With Miso Butter and Asparagus",
+      "usedFor": "yield, confirmation of cook times and method",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

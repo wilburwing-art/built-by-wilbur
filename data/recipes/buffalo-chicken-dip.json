@@ -3,49 +3,49 @@
   "name": "Buffalo Chicken Dip",
   "category": "Sides & Snacks",
   "emoji": "🔥",
-  "desc": "Creamy, cheesy, spicy hot dip with Frank's hot sauce and ranch",
-  "time": "20 min",
-  "minutes": 20,
+  "desc": "Hot, creamy buffalo dip of canned chicken, Frank's hot sauce, cream cheese, ranch, and cheddar, held warm in a slow cooker.",
+  "time": "50 min",
+  "minutes": 50,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/68461/buffalo-chicken-dip/",
+    "site": "Allrecipes",
+    "title": "Buffalo Chicken Dip",
+    "matchType": "closest",
+    "evidence": "Same 2 cans chicken, 2 packages cream cheese, 3/4 cup Frank's and 1 cup ranch, the same skillet then slow cooker method; this version uses more cheddar and serves it with baguette.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 20,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "2 (10 oz) cans chicken, drained",
+      "raw": "2 (10 oz) cans chunk chicken breast, drained",
       "qty": 2,
       "qtyMax": null,
       "unit": "can",
-      "item": "chicken",
+      "item": "chunk chicken breast",
       "prep": "drained",
       "note": "10 oz"
     },
     {
-      "raw": "2 (8 oz) packages cream cheese",
+      "raw": "2 (8 oz) packages cream cheese, softened",
       "qty": 2,
       "qtyMax": null,
       "unit": "package",
       "item": "cream cheese",
-      "prep": null,
+      "prep": "softened",
       "note": "8 oz"
     },
     {
-      "raw": "3/4 cup Frank's hot sauce",
+      "raw": "3/4 cup Frank's RedHot Original hot sauce",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "cup",
-      "item": "Frank's hot sauce",
+      "item": "Frank's RedHot Original hot sauce",
       "prep": null,
       "note": null
     },
@@ -68,19 +68,31 @@
       "note": null
     },
     {
-      "raw": "2 loaves baguette, sliced, for serving",
+      "raw": "2 French baguettes, sliced 1/2 inch thick, for serving",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "loaves baguette",
-      "prep": "sliced, for serving",
+      "item": "French baguettes",
+      "prep": "sliced 1/2 inch thick, for serving",
       "note": null
     }
   ],
   "steps": [
-    "Heat the chicken with the hot sauce in a saucepan over medium until heated through. Add the cream cheese and stir until blended.",
-    "Stir in the ranch and 1 1/2 cups cheddar until melted. Pour into a crock pot, top with the remaining cheese, and keep warm on low. Serve with baguette slices."
+    "Heat the chicken and hot sauce in a large skillet over medium heat, breaking up the chicken, until heated through, 3 to 5 minutes.",
+    "Stir in the cream cheese and ranch and cook, stirring, until smooth and warm, 3 to 5 minutes more.",
+    "Stir in 1 1/2 cups of the cheddar until melted. Transfer to a small slow cooker (about 3 quarts) and sprinkle the remaining 1/2 cup cheddar over the top.",
+    "Cover and cook on Low until hot and bubbly, about 35 minutes. Keep on Low or Warm for serving, with the baguette slices for dipping."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Allrecipes' version uses 1 1/2 cups cheddar and serves the dip with celery sticks and crackers."
+  ],
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/68461/buffalo-chicken-dip/",
+      "site": "Allrecipes",
+      "title": "Buffalo Chicken Dip",
+      "usedFor": "skillet times, slow cooker on Low about 35 minutes, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

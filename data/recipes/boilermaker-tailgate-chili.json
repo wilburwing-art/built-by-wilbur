@@ -3,27 +3,27 @@
   "name": "Boilermaker Tailgate Chili",
   "category": "Dinner",
   "emoji": "🌶️",
-  "desc": "Loaded beef and sausage chili with beans, beer, and all the fixings",
-  "time": "2.5 hrs",
+  "desc": "Beef and Italian sausage chili loaded with beans, peppers, beer and a long list of spices, served over corn chips with Cheddar.",
+  "time": "2 hrs 30 min",
   "minutes": 150,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/78299/boilermaker-tailgate-chili/",
+    "site": "Allrecipes",
+    "title": "Boilermaker Tailgate Chili",
+    "matchType": "original",
+    "evidence": "The Allrecipes recipe (read through a food.com copy for the full text): same 28 ingredients and amounts, down to 4 bouillon cubes and 1/2 cup beer, and the same 2-hour simmer; the copy lists a 10 1/2 oz bag of corn chips.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 12,
+    "basis": "publisher",
+    "source": "https://www.allrecipes.com/recipe/78299/boilermaker-tailgate-chili/"
   },
   "ingredients": [
     {
-      "raw": "2 lbs ground beef chuck",
+      "raw": "2 lb ground beef chuck",
       "qty": 2,
       "qtyMax": null,
       "unit": "lb",
@@ -113,13 +113,13 @@
       "note": null
     },
     {
-      "raw": "2 green chile peppers, seeded and chopped",
+      "raw": "2 fresh green chile peppers (such as Anaheim), seeded and chopped",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "green chile peppers",
+      "item": "fresh green chile peppers",
       "prep": "seeded and chopped",
-      "note": null
+      "note": "such as Anaheim"
     },
     {
       "raw": "1 tbsp bacon bits",
@@ -131,11 +131,11 @@
       "note": null
     },
     {
-      "raw": "4 cubes beef bouillon",
+      "raw": "4 beef bouillon cubes",
       "qty": 4,
       "qtyMax": null,
-      "unit": "piece",
-      "item": "beef bouillon",
+      "unit": null,
+      "item": "beef bouillon cubes",
       "prep": null,
       "note": null
     },
@@ -171,8 +171,8 @@
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "minced garlic",
-      "prep": null,
+      "item": "garlic",
+      "prep": "minced",
       "note": null
     },
     {
@@ -194,13 +194,13 @@
       "note": null
     },
     {
-      "raw": "2 tsp hot pepper sauce (Tabasco)",
+      "raw": "2 tsp hot pepper sauce (such as Tabasco)",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
       "item": "hot pepper sauce",
       "prep": null,
-      "note": "Tabasco"
+      "note": "such as Tabasco"
     },
     {
       "raw": "1 tsp dried basil",
@@ -257,29 +257,57 @@
       "note": null
     },
     {
-      "raw": "1 (9.25 oz) bag Fritos, for serving",
+      "raw": "For serving:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (9.25 oz) bag Fritos corn chips",
       "qty": 1,
       "qtyMax": null,
       "unit": "bag",
-      "item": "Fritos",
-      "prep": "for serving",
+      "item": "Fritos corn chips",
+      "prep": null,
       "note": "9.25 oz"
     },
     {
-      "raw": "1 (8 oz) package shredded Cheddar cheese, for serving",
+      "raw": "1 (8 oz) package shredded Cheddar cheese",
       "qty": 1,
       "qtyMax": null,
       "unit": "package",
       "item": "shredded Cheddar cheese",
-      "prep": "for serving",
+      "prep": null,
       "note": "8 oz"
     }
   ],
   "steps": [
-    "Heat a large stock pot over medium-high heat. Crumble in the ground chuck and sausage and cook until evenly browned. Drain off excess grease.",
-    "Add the chili beans, spicy chili beans, diced tomatoes, and tomato paste. Add the onion, celery, green and red bell peppers, chile peppers, bacon bits, bouillon, and beer. Season with the chili powder, Worcestershire, garlic, oregano, cumin, hot sauce, basil, salt, pepper, cayenne, paprika, and sugar.",
-    "Stir to blend, cover, and simmer over low heat for at least 2 hours, stirring occasionally. Serve over Fritos, topped with Cheddar."
+    "Heat a large stockpot over medium-high heat. Crumble in the ground chuck and sausage and cook, breaking it up, until evenly browned with no pink remaining, 10-12 minutes. Drain off the excess grease.",
+    "Add the drained chili beans, spicy chili beans, diced tomatoes with their juice, and tomato paste. Add the onion, celery, green and red bell peppers, chile peppers, bacon bits, bouillon cubes, and beer.",
+    "Season with the chili powder, Worcestershire, garlic, oregano, cumin, hot sauce, basil, salt, pepper, cayenne, paprika, and sugar. Stir to blend.",
+    "Cover and simmer over low heat for at least 2 hours, stirring occasionally, until the vegetables are soft and the chili has thickened. Taste and adjust the salt, pepper, and chili powder.",
+    "Ladle over corn chips in bowls and top with shredded Cheddar."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The chili tastes better the longer it simmers, and it reheats well the next day."
+  ],
+  "references": [
+    {
+      "url": "https://www.food.com/recipe/boilermaker-tailgate-chili-232242",
+      "site": "Food.com",
+      "title": "Boilermaker Tailgate Chili",
+      "usedFor": "full ingredient and step text of the Allrecipes recipe, taste-and-adjust step, make-ahead tip",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.allrecipes.com/recipe/78299/boilermaker-tailgate-chili/",
+      "site": "Allrecipes",
+      "title": "Boilermaker Tailgate Chili",
+      "usedFor": "servings and total time",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

@@ -3,7 +3,7 @@
   "name": "Maraschino Margarita",
   "category": "Drinks",
   "emoji": "🍒",
-  "desc": "Pineapple and Luxardo maraschino behind the tequila, built in parts",
+  "desc": "A long tequila and pineapple margarita built in parts with Luxardo maraschino and Cointreau.",
   "time": "5 min",
   "minutes": 5,
   "difficulty": "Easy",
@@ -12,22 +12,22 @@
     "url": null,
     "site": null,
     "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "matchType": "none",
+    "evidence": "Searched for a margarita combining pineapple juice, Luxardo maraschino, Cointreau and Grand Marnier; found Grand Marnier and pineapple margaritas but none with this combination.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 1,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "2 parts tequila",
+      "raw": "2 parts blanco tequila",
       "qty": 2,
       "qtyMax": null,
       "unit": "part",
-      "item": "tequila",
+      "item": "blanco tequila",
       "prep": null,
       "note": null
     },
@@ -77,7 +77,34 @@
       "note": null
     },
     {
-      "raw": "Ice, plus a lime wedge and salt for the rim",
+      "raw": "1 lime wedge, for the rim",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lime wedge",
+      "prep": null,
+      "note": "for the rim"
+    },
+    {
+      "raw": "1 lime wheel, for garnish",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lime wheel",
+      "prep": null,
+      "note": "for garnish"
+    },
+    {
+      "raw": "1 tbsp coarse salt, for the rim",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "coarse salt",
+      "prep": null,
+      "note": "for the rim"
+    },
+    {
+      "raw": "Ice",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -87,11 +114,14 @@
     }
   ],
   "steps": [
-    "Rub a lime wedge around the glass rim, dip in salt, and fill the glass with fresh ice.",
-    "Add all the liquid ingredients to a shaker with ice.",
-    "Shake vigorously until the outside of the shaker frosts.",
-    "Strain into the glass and garnish with a lime wheel."
+    "Pick a part size: 3/4 oz per part makes one tall drink of about 7 oz (1 1/2 oz tequila), 1/2 oz per part makes one rocks-glass drink, and 1/2 cup per part makes a pitcher for about 6.",
+    "Spread the salt on a small plate. Rub the lime wedge around the glass rim, dip the rim in the salt, and fill the glass with fresh ice.",
+    "Add the tequila, lime juice, pineapple juice, Cointreau, maraschino and Grand Marnier to a shaker with ice.",
+    "Shake vigorously until the outside of the shaker frosts, about 15 seconds.",
+    "Strain into the glass and garnish with the lime wheel."
   ],
-  "tips": [],
+  "tips": [
+    "Luxardo maraschino is a clear, dry cherry liqueur; the red syrup from a jar of maraschino cherries is not a substitute."
+  ],
   "references": []
 }

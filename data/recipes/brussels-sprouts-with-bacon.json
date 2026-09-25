@@ -3,9 +3,9 @@
   "name": "Brussels Sprouts with Bacon",
   "category": "Sides & Snacks",
   "emoji": "🥬",
-  "desc": "Sheet pan roasted sprouts with bacon grease and maple syrup",
-  "time": "25 min",
-  "minutes": 25,
+  "desc": "Sheet pan Brussels sprouts roasted with bacon, onion, bacon grease, and maple syrup.",
+  "time": "30 min",
+  "minutes": 30,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
@@ -17,18 +17,18 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "1 1/2 lbs Brussels sprouts, trimmed and halved",
+      "raw": "1 1/2 lb Brussels sprouts, trimmed and halved lengthwise",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "lb",
       "item": "Brussels sprouts",
-      "prep": "trimmed and halved",
+      "prep": "trimmed and halved lengthwise",
       "note": null
     },
     {
@@ -41,29 +41,29 @@
       "note": null
     },
     {
-      "raw": "1 tbsp bacon grease (or olive oil)",
+      "raw": "1 tbsp bacon grease (or extra-virgin olive oil)",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "bacon grease",
       "prep": null,
-      "note": "or olive oil"
+      "note": "or extra-virgin olive oil"
     },
     {
-      "raw": "1/2 white onion, sliced",
+      "raw": "1/2 medium white onion, sliced 1/4 inch thick",
       "qty": 0.5,
       "qtyMax": null,
       "unit": null,
-      "item": "white onion",
-      "prep": "sliced",
+      "item": "medium white onion",
+      "prep": "sliced 1/4 inch thick",
       "note": null
     },
     {
-      "raw": "1 tbsp maple syrup",
+      "raw": "1 tbsp pure maple syrup",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "maple syrup",
+      "item": "pure maple syrup",
       "prep": null,
       "note": null
     },
@@ -87,10 +87,21 @@
     }
   ],
   "steps": [
-    "Preheat oven to 425°F.",
-    "Toss the sprouts, bacon pieces, onion, bacon grease, maple syrup, salt, and pepper on a sheet pan and spread in one layer, cut sides down.",
-    "Roast on the top shelf until the sprouts are browned and the bacon is crisp, 20-25 minutes, stirring once halfway."
+    "Place a rack in the upper third of the oven and preheat to 425°F. Line a large rimmed baking sheet with foil.",
+    "Pile the sprouts, bacon pieces, and onion on the sheet. Drizzle with the bacon grease and maple syrup, sprinkle with the salt and pepper, and toss until coated.",
+    "Spread in a single layer with the bacon scattered evenly and the sprouts cut side down.",
+    "Roast until the sprouts are browned and tender in the center and the bacon is crisp, 20 to 25 minutes, stirring once halfway. Taste and add salt if needed."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Well Plated roasts at 400°F on the center rack for 20 to 30 minutes with olive oil; this version runs hotter on the top shelf for more char. The outer leaves go very dark from the maple syrup, which is expected."
+  ],
+  "references": [
+    {
+      "url": "https://www.wellplated.com/maple-bacon-brussels-sprouts/",
+      "site": "Well Plated",
+      "title": "Maple Bacon Brussels Sprouts",
+      "usedFor": "sprout, bacon, maple syrup, salt and pepper amounts; foil-lined sheet; cut side down; doneness cues",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

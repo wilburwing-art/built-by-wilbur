@@ -1,0 +1,155 @@
+{
+  "slug": "hasselback-veggie-stuffed-potatoes",
+  "name": "Hasselback Veggie-Stuffed Potatoes",
+  "category": "Sides & Snacks",
+  "emoji": "🥔",
+  "desc": "A big potato sliced accordion-style, stuffed with zucchini, eggplant, tomato, onion and basil, and baked wrapped in parchment until tender.",
+  "time": "1 hr 20 min",
+  "minutes": 80,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C7thngdq5Gj/",
+    "site": "Instagram @matts_recipes",
+    "title": "Hasselback Veggie-Stuffed Potatoes",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 1,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Per potato:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large russet potato (about 10 oz), scrubbed",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large russet potato",
+      "prep": "scrubbed",
+      "note": "about 10 oz"
+    },
+    {
+      "raw": "4 thin slices zucchini, halved",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "zucchini",
+      "prep": "thin, halved",
+      "note": null
+    },
+    {
+      "raw": "4 thin slices small eggplant, halved",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "slice",
+      "item": "small eggplant",
+      "prep": "thin, halved",
+      "note": null
+    },
+    {
+      "raw": "1/4 Roma tomato, thinly sliced",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": null,
+      "item": "Roma tomato",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1/4 small yellow onion, thinly sliced",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small yellow onion",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "4 fresh basil leaves",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "fresh basil leaves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 sprig fresh thyme or rosemary",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "sprig",
+      "item": "fresh thyme or rosemary",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp kosher salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Pinch of black pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sour cream, for serving (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat the oven to 180°C (about 350°F).",
+    "Lay the potato between two chopsticks or wooden spoon handles and cut slices about 1/4 inch apart across its length, stopping at the chopsticks so the base stays connected.",
+    "Tuck the zucchini, eggplant, tomato, onion and basil into the slits, alternating so every few slits hold a different vegetable.",
+    "Set the potato on a large square of parchment. Drizzle with the olive oil, season with the salt and pepper, and lay the herb sprig on top.",
+    "Wrap the parchment tightly around the potato, set it on a baking sheet and bake 60 min, until a knife slides easily into the center.",
+    "Unwrap and serve hot, with sour cream if you like."
+  ],
+  "tips": [
+    "Great with sour cream.",
+    "Most hasselback recipes roast unwrapped at 425°F for 60 to 70 min for crisp edges; the parchment wrap and lower heat here steam the potato and vegetables soft instead."
+  ],
+  "references": [
+    {
+      "url": "https://www.thekitchn.com/how-to-make-hasselback-potatoes-cooking-lessons-from-the-kitchn-199763",
+      "site": "The Kitchn",
+      "title": "Hasselback Potatoes",
+      "usedFor": "slice spacing, chopstick guide for cutting, knife-tender doneness test, comparison roasting temperature and time",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

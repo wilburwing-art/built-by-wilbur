@@ -3,32 +3,32 @@
   "name": "Korean BBQ Chicken Wings",
   "category": "Dinner",
   "emoji": "🍗",
-  "desc": "Crispy wings glazed in gochujang, soy, brown sugar, and ginger",
-  "time": "2 hrs",
-  "minutes": 120,
+  "desc": "Grilled chicken wings marinated in gochujang, soy sauce, brown sugar, and ginger, then brushed with the boiled marinade.",
+  "time": "1 hr 50 min",
+  "minutes": 110,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.cakenknife.com/crispy-korean-bbq-chicken-wings/",
+    "site": "Cake 'n Knife",
+    "title": "Crispy Korean BBQ Chicken Wings",
+    "matchType": "closest",
+    "evidence": "All twelve ingredients and amounts match this page, as do the 1 hour marinade, 400°F grill, and boiled-marinade glaze.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 6,
+    "basis": "publisher",
+    "source": "https://www.cakenknife.com/crispy-korean-bbq-chicken-wings/"
   },
   "ingredients": [
     {
-      "raw": "4 lbs chicken wings, broken down into drummettes and flats",
+      "raw": "4 lb chicken wings, split into drumettes and flats",
       "qty": 4,
       "qtyMax": null,
       "unit": "lb",
       "item": "chicken wings",
-      "prep": "broken down into drummettes and flats",
+      "prep": "split into drumettes and flats",
       "note": null
     },
     {
@@ -41,12 +41,12 @@
       "note": "Korean red chili pepper paste"
     },
     {
-      "raw": "1/4 cup brown sugar",
+      "raw": "1/4 cup packed light brown sugar",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "brown sugar",
-      "prep": null,
+      "item": "light brown sugar",
+      "prep": "packed",
       "note": null
     },
     {
@@ -68,11 +68,11 @@
       "note": null
     },
     {
-      "raw": "1 tbsp sesame oil",
+      "raw": "1 tbsp toasted sesame oil",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "sesame oil",
+      "item": "toasted sesame oil",
       "prep": null,
       "note": null
     },
@@ -86,7 +86,7 @@
       "note": null
     },
     {
-      "raw": "4 cloves garlic, minced",
+      "raw": "4 garlic cloves, minced",
       "qty": 4,
       "qtyMax": null,
       "unit": "clove",
@@ -122,21 +122,42 @@
       "note": null
     },
     {
-      "raw": "Sesame seeds and sliced green onion, for garnish",
-      "qty": null,
+      "raw": "1 tsp toasted sesame seeds, for garnish",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "toasted sesame seeds",
+      "prep": null,
+      "note": "for garnish"
+    },
+    {
+      "raw": "2 green onions, thinly sliced, for garnish",
+      "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
+      "item": "green onions",
+      "prep": "thinly sliced",
+      "note": "for garnish"
     }
   ],
   "steps": [
-    "Whisk together gochujang, brown sugar, soy sauce, water, sesame oil, vinegar, garlic, ginger, salt, and pepper.",
-    "Marinate wings at least 1 hour in the fridge.",
-    "Grill at 400°F, flipping every 10-15 min, for 30-40 min until crispy and 165°F.",
-    "Boil reserved marinade 1-2 minutes. Brush on wings. Garnish with sesame seeds and green onion."
+    "Put the wings in a large zip-top bag.",
+    "Whisk the gochujang, brown sugar, soy sauce, water, sesame oil, vinegar, garlic, ginger, salt, and pepper in a small bowl until smooth. Pour over the wings, seal, and refrigerate at least 1 hour.",
+    "Preheat the grill to 400°F. Lift the wings out of the bag and pour the marinade into a small saucepan; keep it for the glaze.",
+    "Grill the wings, flipping every 10-15 min, until the skin is crisp and the thickest drumette reads 165°F, 30-40 min total. Move to a plate.",
+    "Bring the reserved marinade to a full boil over high heat and boil, stirring constantly, 1-2 min (this makes the raw-chicken marinade safe to use).",
+    "Brush the wings with the glaze, sprinkle with sesame seeds and green onion, and serve right away."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Wings are safe at 165°F but render and crisp better if you keep going to 175-185°F; they stay juicy."
+  ],
+  "references": [
+    {
+      "url": "https://www.cakenknife.com/crispy-korean-bbq-chicken-wings/",
+      "site": "Cake 'n Knife",
+      "title": "Crispy Korean BBQ Chicken Wings",
+      "usedFor": "yield, marinating and grill times, boil time for the glaze",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

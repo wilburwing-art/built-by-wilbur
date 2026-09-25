@@ -3,9 +3,9 @@
   "name": "Buttermilk Pie",
   "category": "Desserts",
   "emoji": "🥧",
-  "desc": "A Southern classic: tangy, sweet custard pie with lemon and nutmeg",
-  "time": "1 hr",
-  "minutes": 60,
+  "desc": "A Southern custard pie of buttermilk, butter and sugar, brightened with lemon and nutmeg.",
+  "time": "3 hrs 15 min",
+  "minutes": 195,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
@@ -17,37 +17,37 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 8,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "1 (9-inch) unbaked pie crust, store-bought or homemade",
+      "raw": "1 (9-inch) deep-dish unbaked pie crust, store-bought or homemade",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "unbaked pie crust",
-      "prep": "store-bought or homemade",
-      "note": "9-inch"
+      "item": "deep-dish unbaked pie crust",
+      "prep": null,
+      "note": "9-inch; store-bought or homemade"
     },
     {
-      "raw": "3 large eggs",
+      "raw": "3 large eggs, room temperature",
       "qty": 3,
       "qtyMax": null,
       "unit": null,
       "item": "large eggs",
-      "prep": null,
+      "prep": "room temperature",
       "note": null
     },
     {
-      "raw": "1/2 cup butter, melted",
+      "raw": "1/2 cup (1 stick) unsalted butter, melted and cooled 15 minutes",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "butter",
-      "prep": "melted",
-      "note": null
+      "item": "unsalted butter",
+      "prep": "melted and cooled 15 minutes",
+      "note": "1 stick"
     },
     {
       "raw": "1 1/2 cups granulated sugar",
@@ -68,12 +68,12 @@
       "note": null
     },
     {
-      "raw": "1 cup buttermilk",
+      "raw": "1 cup buttermilk, room temperature",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
       "item": "buttermilk",
-      "prep": null,
+      "prep": "room temperature",
       "note": null
     },
     {
@@ -86,11 +86,11 @@
       "note": null
     },
     {
-      "raw": "1 tbsp lemon juice",
+      "raw": "1 tbsp fresh lemon juice",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "lemon juice",
+      "item": "fresh lemon juice",
       "prep": null,
       "note": null
     },
@@ -105,10 +105,22 @@
     }
   ],
   "steps": [
-    "Beat eggs until frothy. Add butter, sugar, and flour until smooth.",
-    "Stir in buttermilk, vanilla, lemon juice, and nutmeg. Pour into shell.",
-    "Bake at 350°F for 40-60 minutes until center is firm."
+    "Melt the butter and let it cool at least 15 minutes. Preheat the oven to 350°F and set the pie crust on a rimmed baking sheet.",
+    "Whisk the eggs in a large bowl until frothy. Whisk in the cooled butter, sugar and flour until smooth.",
+    "Stir in the buttermilk, vanilla, lemon juice and nutmeg, then pour into the crust.",
+    "Bake 40-60 minutes, until the edges are set and golden and the center jiggles only slightly when the pan is nudged. If the crust edge browns too fast, cover it with foil.",
+    "Cool on a rack at least 2 hours so the custard finishes setting. Serve at room temperature or chilled."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Small Town Woman uses 1 1/4 cups sugar, pre-bakes the crust 5 to 6 minutes at 400°F, then bakes the pie 10 minutes at 400°F and 40 to 45 minutes at 350°F."
+  ],
+  "references": [
+    {
+      "url": "https://www.smalltownwoman.com/buttermilk-pie/",
+      "site": "Small Town Woman",
+      "title": "Buttermilk Pie Recipe",
+      "usedFor": "room-temperature eggs and buttermilk, cooling the melted butter, deep-dish crust, slight-jiggle doneness cue, alternate bake schedule",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

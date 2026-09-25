@@ -3,64 +3,64 @@
   "name": "Chicken Fajitas",
   "category": "Lunch",
   "emoji": "🌯",
-  "desc": "Spiced chicken strips with sauteed peppers and onions in warm tortillas",
+  "desc": "Spiced chicken strips with quick-seared peppers and onions in warm flour tortillas.",
   "time": "30 min",
   "minutes": 30,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://natashaskitchen.com/chicken-fajitas-recipe/",
+    "site": "Natasha's Kitchen",
+    "title": "Chicken Fajitas Recipe",
+    "matchType": "closest",
+    "evidence": "Same skillet fajita: chicken breast tossed in oil, lime juice, chili powder, cumin, paprika, onion powder and pepper, three bell peppers, one onion, and 8 small flour tortillas.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "3 chicken breasts",
-      "qty": 3,
+      "raw": "3 medium boneless skinless chicken breasts (about 1 1/2 lb)",
+      "qty": 3.0,
       "qtyMax": null,
       "unit": null,
-      "item": "chicken breasts",
+      "item": "medium boneless skinless chicken breasts",
       "prep": null,
-      "note": null
+      "note": "about 1 1/2 lb"
     },
     {
-      "raw": "1 medium yellow onion",
-      "qty": 1,
+      "raw": "1 medium yellow onion, cut into thin slivers",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
       "item": "medium yellow onion",
-      "prep": null,
+      "prep": "cut into thin slivers",
       "note": null
     },
     {
-      "raw": "1 lime",
-      "qty": 1,
+      "raw": "1 lime, halved",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
       "item": "lime",
-      "prep": null,
+      "prep": "halved",
       "note": null
     },
     {
-      "raw": "3 bell peppers",
-      "qty": 3,
+      "raw": "3 bell peppers (mixed colors), sliced 1/4 inch thick",
+      "qty": 3.0,
       "qtyMax": null,
       "unit": null,
       "item": "bell peppers",
-      "prep": null,
-      "note": null
+      "prep": "sliced 1/4 inch thick",
+      "note": "mixed colors"
     },
     {
       "raw": "3 tbsp olive oil, divided",
-      "qty": 3,
+      "qty": 3.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "olive oil",
@@ -69,7 +69,7 @@
     },
     {
       "raw": "1 tsp chili powder",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "chili powder",
@@ -104,40 +104,51 @@
       "note": null
     },
     {
-      "raw": "1/2 tsp cumin",
+      "raw": "1/2 tsp ground cumin",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "cumin",
+      "item": "ground cumin",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Salt to taste",
-      "qty": null,
+      "raw": "1 tsp kosher salt, plus more to taste",
+      "qty": 1.0,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": "plus more to taste",
       "note": null
     },
     {
-      "raw": "8 small flour tortillas, warmed",
-      "qty": 8,
+      "raw": "8 small flour tortillas",
+      "qty": 8.0,
       "qtyMax": null,
       "unit": null,
       "item": "small flour tortillas",
-      "prep": "warmed",
+      "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Cut onion into slivers and slice peppers.",
-    "Combine 1 tbsp oil, juice of half a lime, and all spices. Cut chicken into strips and toss with spice mixture.",
-    "Cook chicken in batches in hot oil until cooked through, 3-5 min per batch. Set aside.",
-    "Add remaining oil, cook onions 2 min, add peppers, cook 2 more min. Return chicken to pan.",
-    "Squeeze lime over top and serve in warm tortillas."
+    "Cut the onion into slivers and slice the peppers.",
+    "In a large bowl, combine 1 tbsp oil, the juice of half the lime, the chili powder, smoked paprika, onion powder, black pepper, cumin, and salt. Cut the chicken into 1/2-inch-thick strips and toss to coat.",
+    "Heat 1 tbsp oil in a large heavy skillet (cast iron works well) over medium-high heat. Cook the chicken in batches in a single layer, turning once, until browned and 165°F inside, 3 to 5 minutes per batch. Transfer to a plate.",
+    "Add the remaining 1 tbsp oil to the skillet. Cook the onion 2 minutes, add the peppers, and cook 2 minutes more, until crisp-tender and browned in spots. Return the chicken and toss to reheat. Taste and add salt if needed.",
+    "Warm the tortillas in a dry skillet, about 20 seconds per side. Squeeze the remaining lime half over the fajitas and serve in the warm tortillas."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The chicken can sit in the spice mixture in the fridge for up to 4 hours.",
+    "Natasha's Kitchen cooks the peppers 5 to 6 minutes for softer fajitas; this version keeps them crisp."
+  ],
+  "references": [
+    {
+      "url": "https://natashaskitchen.com/chicken-fajitas-recipe/",
+      "site": "Natasha's Kitchen",
+      "title": "Chicken Fajitas Recipe",
+      "usedFor": "salt amount, cast iron, 165°F cue, marinating window, softer-pepper timing",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

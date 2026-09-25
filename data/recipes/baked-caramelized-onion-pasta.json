@@ -1,0 +1,172 @@
+{
+  "slug": "baked-caramelized-onion-pasta",
+  "name": "Baked Caramelized Onion Pasta",
+  "category": "Dinner",
+  "emoji": "🧅",
+  "desc": "Onions, sun-dried tomatoes and a whole head of garlic roasted until jammy, then tossed with pasta, coconut milk, herbs and lemon.",
+  "time": "1 hr 10 min",
+  "minutes": 70,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C7o3QaupdyZ/",
+    "site": "Instagram @plantyou",
+    "title": "Baked Caramelized Onion Pasta",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://plantyou.com/one-pan-caramelized-onion-pasta/"
+  },
+  "ingredients": [
+    {
+      "raw": "5 small yellow onions (or 3 large), sliced",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "small yellow onions",
+      "prep": "sliced",
+      "note": "or 3 large"
+    },
+    {
+      "raw": "1 head garlic, top sliced off",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "head",
+      "item": "garlic",
+      "prep": "top sliced off",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup oil-packed sun-dried tomatoes, chopped",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "oil-packed sun-dried tomatoes",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 tsp fine salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp paprika",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp dried parsley",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried parsley",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp olive oil or oil from the sun-dried tomato jar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil or oil from the sun-dried tomato jar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup canned full-fat coconut milk",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "canned full-fat coconut milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 cups cooked farfalle (about 6 oz dry; gluten-free works)",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cooked farfalle",
+      "prep": null,
+      "note": "about 6 oz dry; gluten-free works"
+    },
+    {
+      "raw": "1 handful (about 1/4 cup) fresh parsley, chopped",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh parsley",
+      "prep": "chopped",
+      "note": "1 handful"
+    },
+    {
+      "raw": "1 handful (about 1/4 cup) fresh basil, chopped",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh basil",
+      "prep": "chopped",
+      "note": "1 handful"
+    },
+    {
+      "raw": "1 lemon, juiced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lemon",
+      "prep": "juiced",
+      "note": null
+    },
+    {
+      "raw": "Up to 1 cup reserved pasta water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "reserved pasta water",
+      "prep": null,
+      "note": "up to"
+    }
+  ],
+  "steps": [
+    "Heat the oven to 400°F.",
+    "In a 9x13 in casserole dish, toss the onions and sun-dried tomatoes with the paprika, salt, pepper and dried parsley.",
+    "Set the garlic head in the middle and drizzle everything with the oil. Cover tightly with foil.",
+    "Roast 1 hr, tossing halfway, until the onions are soft, jammy and caramelized.",
+    "About 20 minutes before the onions are done, cook the pasta in salted water according to the package, reserving up to 1 cup of pasta water.",
+    "Lift out the garlic and, when cool enough to handle, squeeze the cloves into the dish. Stir in the parsley, basil, lemon juice, coconut milk and pasta, loosening with pasta water as needed."
+  ],
+  "tips": [
+    "Foil lets the onions go soft and jammy without burning. Vegan."
+  ],
+  "references": [
+    {
+      "url": "https://plantyou.com/one-pan-caramelized-onion-pasta/",
+      "site": "PlantYou (creator's site)",
+      "title": "One Pan Caramelized Onion Pasta",
+      "usedFor": "verified every amount and step, oil from the sun-dried tomato jar option, 4 servings",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "slug": "bakery-style-chocolate-chip-cookies",
+  "name": "Bakery-Style Chocolate Chip Cookies",
+  "category": "Desserts",
+  "emoji": "🍪",
+  "desc": "Thick chocolate chip cookies with chopped dark chocolate and an overnight chill for chewy centers.",
+  "time": "8 hrs 45 min",
+  "minutes": 525,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C-IUTK2OKO2/",
+    "site": "Instagram @scientifically.sweet",
+    "title": "Bakery-Style Chocolate Chip Cookies",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 16,
+    "basis": "publisher",
+    "source": "https://scientificallysweet.com/the-best-chocolate-chip-cookies-bakery-style/"
+  },
+  "ingredients": [
+    {
+      "raw": "Dry:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "250g (1 3/4 cups) all-purpose flour",
+      "qty": 250,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": "1 3/4 cups"
+    },
+    {
+      "raw": "3/4 tsp baking soda",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp fine salt (3/4 tsp if using unsalted butter)",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine salt",
+      "prep": null,
+      "note": "3/4 tsp if using unsalted butter"
+    },
+    {
+      "raw": "Wet:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "140g (10 tbsp) salted butter, room temperature",
+      "qty": 140,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "salted butter",
+      "prep": "room temperature",
+      "note": "10 tbsp"
+    },
+    {
+      "raw": "165g (3/4 cup) packed dark brown sugar",
+      "qty": 165,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "packed dark brown sugar",
+      "prep": null,
+      "note": "3/4 cup"
+    },
+    {
+      "raw": "80g (1/3 cup + 1 tbsp) granulated sugar",
+      "qty": 80,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": "1/3 cup + 1 tbsp"
+    },
+    {
+      "raw": "1 tsp vanilla extract",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp honey or light corn syrup",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "honey or light corn syrup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large egg, room temperature",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg",
+      "prep": "room temperature",
+      "note": null
+    },
+    {
+      "raw": "Mix-ins:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "200g (7 oz) dark chocolate (55-70%), coarsely chopped",
+      "qty": 200,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "dark chocolate",
+      "prep": "coarsely chopped",
+      "note": "7 oz; 55-70%"
+    },
+    {
+      "raw": "Flaky sea salt, for finishing (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Whisk the flour, baking soda and salt in a medium bowl.",
+    "In a large bowl, stir the butter, both sugars and the vanilla with a wide spatula about 2 min, until smooth and like damp sand. Do not whip it pale.",
+    "Mix in the honey, then the egg.",
+    "Add the dry mix and stir until most of the flour is absorbed, then fold in the chocolate.",
+    "Press plastic wrap onto the dough and refrigerate 8-24 hr (4 hr minimum).",
+    "Heat the oven to 350°F and line two baking sheets with parchment. If the dough is too firm to scoop, let it sit 20-30 min.",
+    "Scoop 16 balls of about 56g, roll them smooth, and space them 3 in apart, 6 per sheet.",
+    "Bake 9-11 min, until puffed and golden at the edges but still soft in the middle.",
+    "Cool on the pan 2 min, then move to a rack. Add flaky salt while warm."
+  ],
+  "tips": [
+    "Use softened salted butter, not brown butter, and chopped bar chocolate for melty pools.",
+    "For thicker cookies, cut the soda to 1/2 tsp or add 18g more flour. For bigger ones, make 13 at 2.5 oz and bake 2 min longer.",
+    "Maple syrup cannot replace the honey. With light brown sugar, use 200g light brown plus 45g granulated.",
+    "Dough balls freeze 3 months. Baked cookies keep 5 days airtight."
+  ],
+  "references": [
+    {
+      "url": "https://scientificallysweet.com/the-best-chocolate-chip-cookies-bakery-style/",
+      "site": "Scientifically Sweet",
+      "title": "The BEST Chocolate Chip Cookies (Bakery Style)",
+      "usedFor": "full measured recipe, parchment-lined sheets, 6 per sheet, yield of 16",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

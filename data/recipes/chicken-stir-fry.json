@@ -3,31 +3,49 @@
   "name": "Chicken Stir Fry",
   "category": "Dinner",
   "emoji": "🥡",
-  "desc": "Soy-ginger chicken with broccoli, peppers, and carrots over rice",
-  "time": "40 min",
-  "minutes": 40,
+  "desc": "Chicken marinated in a soy, brown sugar and ginger sauce, stir-fried with broccoli, peppers, carrots and water chestnuts over rice.",
+  "time": "45 min",
+  "minutes": 45,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.justapinch.com/recipes/chicken-stir-fry-recipe-3.html",
+    "site": "Just A Pinch",
+    "title": "Chicken Stir-Fry Recipe",
+    "matchType": "closest",
+    "evidence": "Same sauce (2/3 cup soy sauce, 1/4 cup brown sugar, 1 tbsp cornstarch, 1 tbsp ginger, 1/4 tsp red pepper flakes), 3 chicken breasts, 2 tbsp sesame oil, water chestnuts, broccoli, carrots and onion over 2 cups rice; this version uses a red rather than green bell pepper.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 6,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
+    {
+      "raw": "Rice:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
     {
       "raw": "2 cups uncooked jasmine rice",
       "qty": 2,
       "qtyMax": null,
       "unit": "cup",
       "item": "uncooked jasmine rice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 cups water",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
       "prep": null,
       "note": null
     },
@@ -50,12 +68,12 @@
       "note": null
     },
     {
-      "raw": "1/4 cup brown sugar",
+      "raw": "1/4 cup packed light brown sugar",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "brown sugar",
-      "prep": null,
+      "item": "light brown sugar",
+      "prep": "packed",
       "note": null
     },
     {
@@ -77,7 +95,7 @@
       "note": null
     },
     {
-      "raw": "3 cloves garlic, minced",
+      "raw": "3 garlic cloves, minced",
       "qty": 3,
       "qtyMax": null,
       "unit": "clove",
@@ -95,21 +113,21 @@
       "note": null
     },
     {
-      "raw": "3 boneless skinless chicken breasts, cut into bite-size pieces",
+      "raw": "3 boneless skinless chicken breasts (about 1 1/2 lb), cut into bite-size pieces",
       "qty": 3,
       "qtyMax": null,
       "unit": null,
       "item": "boneless skinless chicken breasts",
       "prep": "cut into bite-size pieces",
-      "note": null
+      "note": "about 1 1/2 lb"
     },
     {
-      "raw": "2 tbsp sesame oil",
+      "raw": "2 tbsp toasted sesame oil, divided",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "sesame oil",
-      "prep": null,
+      "item": "toasted sesame oil",
+      "prep": "divided",
       "note": null
     },
     {
@@ -149,11 +167,11 @@
       "note": null
     },
     {
-      "raw": "2 carrots, thinly sliced",
+      "raw": "2 medium carrots, thinly sliced",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "carrots",
+      "item": "medium carrots",
       "prep": "thinly sliced",
       "note": null
     },
@@ -168,11 +186,22 @@
     }
   ],
   "steps": [
-    "Cook rice. Combine soy sauce, sugar, cornstarch, ginger, garlic, pepper flakes. Marinate chicken 15 min.",
-    "Stir-fry vegetables 5 min in sesame oil. Remove.",
-    "Cook chicken 2 min per side. Return vegetables and marinade.",
-    "Boil, cook 5-7 min. Serve over rice."
+    "Cook the rice: Bring the rice and water to a boil in a saucepan over high heat. Reduce the heat to medium-low, cover, and simmer until tender and the water is absorbed, 20-25 minutes.",
+    "Make the marinade: Stir the soy sauce, brown sugar, and cornstarch in a bowl until smooth, then mix in the ginger, garlic, and red pepper flakes. Coat the chicken in it and refrigerate for at least 15 minutes.",
+    "Heat 1 tbsp sesame oil in a large skillet over medium-high heat. Stir-fry the bell pepper, water chestnuts, broccoli, carrots, and onion until crisp-tender, about 5 minutes. Remove to a plate.",
+    "Lift the chicken from the marinade, reserving the liquid. Heat the remaining 1 tbsp sesame oil in the skillet over medium-high and cook the chicken about 2 minutes per side, until browned.",
+    "Return the vegetables and the reserved marinade to the skillet. Bring to a boil and cook, stirring, until the sauce thickens and the chicken is cooked through (165°F), 5-7 minutes. Serve over the rice."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The marinade is boiled with the chicken for 5 to 7 minutes, which makes it safe to use as the sauce."
+  ],
+  "references": [
+    {
+      "url": "https://www.justapinch.com/recipes/chicken-stir-fry-recipe-3.html",
+      "site": "Just A Pinch",
+      "title": "Chicken Stir-Fry Recipe",
+      "usedFor": "rice water and cook time, marinade method, stir-fry and simmer times",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

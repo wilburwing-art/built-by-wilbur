@@ -1,0 +1,192 @@
+{
+  "slug": "homemade-cola",
+  "name": "Homemade Cola",
+  "category": "Drinks",
+  "emoji": "🥤",
+  "desc": "Citrus peel, ginger and warm spice syrup simmered with brown sugar and topped with sparkling water.",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dc_4o5NzDBK/",
+    "site": "Instagram @thedizzycook",
+    "title": "Homemade Cola",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 6,
+    "basis": "publisher",
+    "source": "https://thedizzycook.com/homemade-cola/"
+  },
+  "ingredients": [
+    {
+      "raw": "Syrup (makes about 1 cup):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Peel of 1 large orange",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large orange",
+      "prep": "peel only",
+      "note": null
+    },
+    {
+      "raw": "Peel of 1 lemon",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lemon",
+      "prep": "peel only",
+      "note": null
+    },
+    {
+      "raw": "Peel of 1 lime",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "lime",
+      "prep": "peel only",
+      "note": null
+    },
+    {
+      "raw": "1 cup light brown sugar, lightly packed",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "light brown sugar",
+      "prep": "lightly packed",
+      "note": null
+    },
+    {
+      "raw": "3 tbsp freshly grated ginger (no need to peel)",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "freshly grated ginger",
+      "prep": null,
+      "note": "no need to peel"
+    },
+    {
+      "raw": "1/2 cinnamon stick",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "cinnamon stick",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp ground coriander",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground coriander",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/8 tsp ground nutmeg",
+      "qty": 0.125,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground nutmeg",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pinch sea salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/4 cups filtered water",
+      "qty": 1.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "filtered water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "To serve:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Ice",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "16 oz sparkling water",
+      "qty": 16,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "sparkling water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Fresh lime juice, optional",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "A few drops liquid caffeine or vanilla extract, optional",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Remove the whole peel from the orange, lemon and lime with a vegetable peeler.",
+    "Put the peels, brown sugar, ginger, cinnamon stick, coriander, nutmeg and salt in a small to medium pot. Stir often over medium heat until the sugar starts to melt.",
+    "Stir in the water and bring to a boil over medium-high heat, then turn the heat to low and simmer 8 minutes.",
+    "Remove the cinnamon stick and simmer 7 minutes more.",
+    "Turn off the heat and cool 15 minutes. Strain through a fine-mesh sieve into a jar.",
+    "For each drink, pour about 1/4 cup syrup over ice, top with sparkling water and stir. Add a squeeze of lime and a few drops of caffeine or vanilla if you like."
+  ],
+  "tips": [
+    "Keeps 7 to 10 days in the fridge, or freeze in 2 tbsp cubes.",
+    "Cherry cola: add 10 frozen sweet cherries with the spices and skip the nutmeg.",
+    "Leave out the coriander if it tastes soapy to you."
+  ],
+  "references": [
+    {
+      "url": "https://thedizzycook.com/homemade-cola/",
+      "site": "The Dizzy Cook",
+      "title": "Homemade Cola",
+      "usedFor": "creator's recipe: amounts, simmer times, yield of 6 drinks, 35 min total",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

@@ -3,63 +3,72 @@
   "name": "Salsa Chicken",
   "category": "Dinner",
   "emoji": "🍗",
-  "desc": "The simplest baked chicken: taco seasoning, salsa, and melted cheddar",
+  "desc": "Chicken breasts rubbed with taco seasoning, baked under salsa, and finished with melted cheddar.",
   "time": "35 min",
   "minutes": 35,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/16700/salsa-chicken/",
+    "site": "Allrecipes",
+    "title": "Salsa Chicken",
+    "matchType": "closest",
+    "evidence": "All five ingredients and amounts match this page (4 breasts, 4 tsp taco seasoning, 1 cup salsa, 1 cup shredded cheddar, optional sour cream), as do the 375°F bake and the cheese added for the last few minutes.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://www.allrecipes.com/recipe/16700/salsa-chicken/"
   },
   "ingredients": [
     {
-      "raw": "4 chicken breasts",
+      "raw": "4 boneless skinless chicken breasts (about 2 lb total)",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
-      "item": "chicken breasts",
+      "item": "boneless skinless chicken breasts",
       "prep": null,
-      "note": null
+      "note": "about 2 lb total"
     },
     {
-      "raw": "4 tsp taco seasoning",
+      "raw": "4 tsp taco seasoning mix",
       "qty": 4,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "taco seasoning",
+      "item": "taco seasoning mix",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 cup salsa",
+      "raw": "1 cup jarred tomato salsa, mild or medium",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "salsa",
+      "item": "jarred tomato salsa",
       "prep": null,
-      "note": null
+      "note": "mild or medium"
     },
     {
-      "raw": "1 cup shredded cheddar",
+      "raw": "1 cup shredded cheddar cheese",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "shredded cheddar",
-      "prep": null,
+      "item": "cheddar cheese",
+      "prep": "shredded",
       "note": null
     },
     {
-      "raw": "Sour cream (optional)",
+      "raw": "2 tbsp sour cream, optional",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sour cream",
+      "prep": null,
+      "note": "optional"
+    },
+    {
+      "raw": "Nonstick cooking spray or oil, for the dish",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -69,11 +78,28 @@
     }
   ],
   "steps": [
-    "Preheat to 375°F. Place chicken in a greased dish.",
-    "Season both sides with taco seasoning. Pour salsa over all.",
-    "Bake 25-35 min until juices run clear.",
-    "Top with cheese, bake 3-5 more min. Serve with sour cream if you like."
+    "Preheat the oven to 375°F. Lightly grease a 9x13 in baking dish and lay the chicken in it in one layer.",
+    "Sprinkle the taco seasoning on both sides of the chicken, then pour the salsa over everything.",
+    "Bake until the thickest part of the chicken reads 165°F, 25-35 min.",
+    "Sprinkle the cheese evenly over the chicken and bake until melted and bubbly, 3-5 min more. Serve topped with the sour cream if you like."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Thick breasts cook unevenly; pound them to an even 3/4 inch or halve them horizontally for the shorter end of the bake time."
+  ],
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/16700/salsa-chicken/",
+      "site": "Allrecipes",
+      "title": "Salsa Chicken",
+      "usedFor": "yield, sour cream amount",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://justapinch.com/recipes/salsa-chicken.html",
+      "site": "Just A Pinch",
+      "title": "Salsa Chicken",
+      "usedFor": "step text of the same recipe: greased 9x13 dish, 25-35 min bake, 3-5 min with cheese",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

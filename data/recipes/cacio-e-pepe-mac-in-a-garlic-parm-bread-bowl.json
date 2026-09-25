@@ -1,0 +1,247 @@
+{
+  "slug": "cacio-e-pepe-mac-in-a-garlic-parm-bread-bowl",
+  "name": "Cacio e Pepe Mac in a Garlic Parm Bread Bowl",
+  "category": "Dinner",
+  "emoji": "🍞",
+  "desc": "Peppery cacio e pepe style mac and cheese served in a round loaf toasted with roasted garlic Parmesan butter.",
+  "time": "1 hr 30 min",
+  "minutes": 90,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C7xSxAkxlZi/",
+    "site": "Instagram @thenaughtyfork",
+    "title": "Cacio e Pepe Mac in a Garlic Parm Bread Bowl",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Garlic butter:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 head garlic, for roasting (you need 3 roasted cloves)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "head",
+      "item": "garlic",
+      "prep": "for roasting",
+      "note": "you need 3 roasted cloves"
+    },
+    {
+      "raw": "1 tsp olive oil, for roasting",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": "for roasting",
+      "note": null
+    },
+    {
+      "raw": "1 stick (1/2 cup) unsalted butter, softened",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "stick",
+      "item": "unsalted butter",
+      "prep": "softened",
+      "note": "1/2 cup"
+    },
+    {
+      "raw": "1 tbsp Italian seasoning",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Italian seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp red pepper flakes",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp kosher salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp finely grated Parmesan",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "finely grated Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp chopped fresh basil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh basil",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "Bread bowl:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large round crusty loaf (about 1 1/2 lb boule)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large round crusty loaf",
+      "prep": null,
+      "note": "about 1 1/2 lb boule"
+    },
+    {
+      "raw": "1/4 cup shaved Parmesan",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shaved Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Mac:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lb short pasta, such as elbows or cavatappi",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "short pasta",
+      "prep": null,
+      "note": "such as elbows or cavatappi"
+    },
+    {
+      "raw": "1 tbsp kosher salt, for the pasta water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "kosher salt",
+      "prep": "for the pasta water",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp black peppercorns",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "black peppercorns",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp unsalted butter",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp all-purpose flour",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 cups whole milk",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "whole milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup finely grated Parmesan",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "finely grated Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup shredded sharp cheddar or Gruyère, grated from the block",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded sharp cheddar or Gruyère",
+      "prep": "grated from the block",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp kosher salt, or to taste",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": "or to taste",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 400°F. Slice the top off the garlic head, drizzle with the olive oil, wrap in foil, and roast 1 hr until soft and golden. Leave the oven on.",
+    "Squeeze out 3 roasted cloves (save the rest) and mash them into the softened butter with the Italian seasoning, red pepper flakes, salt, grated Parmesan and basil.",
+    "Cut a lid off the top of the loaf and hollow it out, leaving walls about 3/4 in thick. Spread the garlic butter over the inside and the cut side of the lid, sprinkle with the shaved Parmesan, and bake on a sheet pan 10-15 min until golden and crisp.",
+    "Meanwhile, bring a large pot of water to a boil with the kosher salt. Cook the pasta until al dente. Reserve 1 cup of pasta water and drain.",
+    "Toast the peppercorns in a dry skillet over medium heat 3-4 min until fragrant, then crush them coarsely in a mortar or under a heavy pan.",
+    "In a large saucepan over medium heat, melt the butter, whisk in the flour, and cook 30 sec. Add the crushed pepper and cook 1 min. Slowly whisk in the milk and cook 3-4 min, whisking, until it steams and thickens slightly.",
+    "Turn off the heat. Stir in the Parmesan and cheddar until melted, season with salt, then stir in the pasta. Loosen with a splash of pasta water if needed.",
+    "Spoon the mac into the bread bowl and serve right away, with the extra in a dish alongside."
+  ],
+  "tips": [
+    "Toast the pepper in the roux to bloom it.",
+    "A Cozy Kitchen's cacio e pepe mac uses 6 tbsp each of butter and flour for the same 3 cups of milk; with 1 tbsp each this sauce stays loose, so use more roux if you want it thicker."
+  ],
+  "references": [
+    {
+      "url": "https://www.acozykitchen.com/cacio-e-pepe-macaroni-and-cheese",
+      "site": "A Cozy Kitchen",
+      "title": "Cacio e Pepe Macaroni and Cheese",
+      "usedFor": "peppercorn toasting time and crushing, salt amount, reserving pasta water, roux comparison",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

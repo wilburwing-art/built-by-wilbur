@@ -3,23 +3,23 @@
   "name": "Blue Zone Sheet Pan Gnocchi",
   "category": "Dinner",
   "emoji": "🫒",
-  "desc": "Lentils, gnocchi, and roasted veggies with Greek dressing and goat cheese",
+  "desc": "Store-bought gnocchi roasted on one pan with lentils, eggplant, peppers and tomatoes in a Greek dressing, finished with goat cheese.",
   "time": "40 min",
   "minutes": 40,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.instagram.com/reel/DLCy4-YO6bz/",
+    "site": "Instagram @foodbymaria",
+    "title": "Greek Sheet Pan Gnocchi with Lentils",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://web.archive.org/web/2025/https://www.foodbymaria.com/sheet-pan-gnocchi/"
   },
   "ingredients": [
     {
@@ -41,11 +41,11 @@
       "note": "19 oz"
     },
     {
-      "raw": "1 pint baby tomatoes, halved",
+      "raw": "1 pint cherry tomatoes, halved",
       "qty": 1,
       "qtyMax": null,
       "unit": "pint",
-      "item": "baby tomatoes",
+      "item": "cherry tomatoes",
       "prep": "halved",
       "note": null
     },
@@ -68,11 +68,11 @@
       "note": null
     },
     {
-      "raw": "1 red onion, cut into 1/2-inch pieces",
+      "raw": "1 medium red onion, cut into 1/2-inch pieces",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "red onion",
+      "item": "medium red onion",
       "prep": "cut into 1/2-inch pieces",
       "note": null
     },
@@ -86,11 +86,11 @@
       "note": null
     },
     {
-      "raw": "500 g store-bought potato gnocchi",
+      "raw": "500g shelf-stable potato gnocchi",
       "qty": 500,
       "qtyMax": null,
       "unit": "g",
-      "item": "store-bought potato gnocchi",
+      "item": "shelf-stable potato gnocchi",
       "prep": null,
       "note": null
     },
@@ -104,11 +104,11 @@
       "note": null
     },
     {
-      "raw": "1/2 cup olive oil",
+      "raw": "1/2 cup extra-virgin olive oil",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "olive oil",
+      "item": "extra-virgin olive oil",
       "prep": null,
       "note": null
     },
@@ -122,11 +122,11 @@
       "note": null
     },
     {
-      "raw": "1/2 tsp salt",
+      "raw": "1/2 tsp fine salt",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
@@ -176,7 +176,7 @@
       "note": null
     },
     {
-      "raw": "100-125 g plain goat cheese",
+      "raw": "100-125g plain goat cheese",
       "qty": 100,
       "qtyMax": 125,
       "unit": "g",
@@ -185,42 +185,61 @@
       "note": null
     },
     {
-      "raw": "1/2 cup chopped fresh herbs (parsley, dill, mint)",
+      "raw": "1/2 cup chopped fresh herbs (a mix of parsley, dill and mint)",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
       "item": "chopped fresh herbs",
       "prep": null,
-      "note": "parsley, dill, mint"
+      "note": "a mix of parsley, dill and mint"
     },
     {
-      "raw": "Olive oil, for drizzling",
-      "qty": null,
+      "raw": "1 tbsp extra-virgin olive oil, for drizzling (optional)",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
+      "unit": "tbsp",
+      "item": "extra-virgin olive oil",
+      "prep": "for drizzling",
+      "note": "optional"
     },
     {
-      "raw": "Black olives, a handful (optional)",
-      "qty": null,
+      "raw": "1/4 cup pitted black olives (optional)",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "cup",
+      "item": "pitted black olives",
       "prep": null,
-      "note": null
+      "note": "optional"
     }
   ],
   "steps": [
-    "Preheat oven to 400°F. Line a baking sheet with parchment.",
-    "Mix all dressing ingredients and set aside.",
-    "Add lentils, tomatoes, pepper, eggplant, onion, gnocchi, and garlic to the pan.",
-    "Drizzle dressing over everything and toss well.",
-    "Bake 25 minutes, tossing at 15 minutes.",
-    "Crumble goat cheese over pan, bake 5 more minutes.",
-    "Top with fresh herbs, olive oil drizzle, and optional olives."
+    "Heat the oven to 400°F and line a large rimmed baking sheet with parchment.",
+    "Whisk the dressing ingredients together and set aside.",
+    "Put the lentils, tomatoes, bell pepper, eggplant, onion, gnocchi and chopped garlic on the pan. Drizzle with the dressing and toss until everything is well coated. Spread in an even layer.",
+    "Roast 25 minutes, tossing at the 15-minute mark, until the gnocchi are golden and the eggplant is tender.",
+    "Crumble the goat cheese over the top and roast 5 minutes more, until softened.",
+    "Serve right away, topped with the herbs, a drizzle of olive oil and the olives if using."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Vacuum-packed shelf-stable gnocchi crisp best; there is no need to boil them first.",
+    "Cut all the vegetables the same size so they finish together.",
+    "Chickpeas, butter beans or cannellini can replace the lentils, and shrimp or chicken can be added.",
+    "Keeps 4 days in the fridge. Reheat at 375°F for 5-7 minutes, or eat it cold as a pasta salad."
+  ],
+  "references": [
+    {
+      "url": "https://web.archive.org/web/2025/https://www.foodbymaria.com/sheet-pan-gnocchi/",
+      "site": "Food by Maria (archived copy of foodbymaria.com, live page returns 403)",
+      "title": "Blue Zone Sheet Pan Gnocchi",
+      "usedFor": "confirmed amounts, 400°F for 25 min plus 5 min with the cheese, 4 servings, 40 min total",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.tiktok.com/@foodbymaria/video/7332532115541691653",
+      "site": "TikTok @foodbymaria",
+      "title": "Simple Sheet Pan Gnocchi (Greek Blue Zone)",
+      "usedFor": "confirmed the same ingredient list and method in the creator's caption",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

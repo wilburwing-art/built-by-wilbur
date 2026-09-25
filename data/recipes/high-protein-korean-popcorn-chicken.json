@@ -1,0 +1,263 @@
+{
+  "slug": "high-protein-korean-popcorn-chicken",
+  "name": "High Protein Korean Popcorn Chicken",
+  "category": "Dinner",
+  "emoji": "🍗",
+  "desc": "Air-fried chicken breast bites in a sticky gochujang glaze over seasoned sticky rice, built for meal prep.",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C5wM31wCzYd/",
+    "site": "Instagram @countyurcalories",
+    "title": "High Protein Korean Popcorn Chicken",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Chicken:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "800g boneless skinless chicken breast, cut into bite-size pieces",
+      "qty": 800,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "boneless skinless chicken breast",
+      "prep": "cut into bite-size pieces",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "20ml soy sauce",
+      "qty": 20,
+      "qtyMax": null,
+      "unit": "ml",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large egg",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "40g cornstarch",
+      "qty": 40,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Cooking spray",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Korean glaze:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "60ml soy sauce",
+      "qty": 60,
+      "qtyMax": null,
+      "unit": "ml",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "80ml water",
+      "qty": 80,
+      "qtyMax": null,
+      "unit": "ml",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp reduced-sugar ketchup",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "reduced-sugar ketchup",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp gochujang",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "gochujang",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp rice vinegar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "rice vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp honey",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "honey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "30g brown sugar substitute (brown stevia)",
+      "qty": 30,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "brown sugar substitute",
+      "prep": null,
+      "note": "brown stevia"
+    },
+    {
+      "raw": "Sweet sticky rice:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "200g uncooked sticky (short-grain) rice",
+      "qty": 200,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "uncooked sticky rice",
+      "prep": null,
+      "note": "short-grain"
+    },
+    {
+      "raw": "3 tbsp rice vinegar",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "rice vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp granulated sweetener",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "granulated sweetener",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Garnish:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 green onions, green parts sliced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "green onions",
+      "prep": "green parts sliced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp sesame seeds",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sesame seeds",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Cook the rice according to the package. Let it cool 10 minutes, then mix in the rice vinegar, sweetener and salt to taste.",
+    "Preheat the air fryer to 400°F (200°C).",
+    "Toss the chicken with the pepper, soy sauce and egg, then add the cornstarch and toss until every piece is coated.",
+    "Spray the chicken and air fry in a single layer (in batches if needed) 10-12 minutes, shaking halfway, until crisp and the thickest piece reads 165°F.",
+    "Meanwhile, simmer the glaze ingredients in a large pan over medium heat, stirring, until thick and sticky, 3-5 minutes.",
+    "Toss the chicken in the glaze. Serve over the rice with green onions and sesame seeds."
+  ],
+  "tips": [
+    "No air fryer: bake at 425°F (220°C) for 15-18 minutes, flipping halfway.",
+    "Serves 4, about 495 cal and 50g protein each.",
+    "Keeps 5 days in the fridge. Reheat with 1 tsp water, partially covered, in the microwave for 3 minutes.",
+    "The recipe originates with @panaceapalm; the air fryer and oven settings come from his sibling sweet chilli version, which uses the same chicken and coating."
+  ],
+  "references": [
+    {
+      "url": "https://www.tiktok.com/@panaceapalm/video/7368910606826622240",
+      "site": "TikTok @panaceapalm",
+      "title": "High Protein Sweet Chilli Popcorn Chicken",
+      "usedFor": "air fry 200°C for 10-12 min and oven 220°C for 15-18 min, shake or flip halfway",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://myfoodstory.com/korean-popcorn-chicken-recipe/",
+      "site": "My Food Story",
+      "title": "Crunchy Korean Popcorn Chicken",
+      "usedFor": "glaze simmer time until slightly thick",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

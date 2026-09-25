@@ -1,0 +1,161 @@
+{
+  "slug": "one-pan-creamy-orzo-with-chicken-sausage",
+  "name": "One-Pan Creamy Orzo with Chicken Sausage",
+  "category": "Dinner",
+  "emoji": "🍲",
+  "desc": "Chicken sausage and toasted orzo simmered in broth and coconut milk, finished with spinach and Parmesan.",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C_JmmMqpY5O/",
+    "site": "Instagram @smileyandhealthy",
+    "title": "One-Pan Creamy Orzo with Chicken Sausage",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "12 oz sweet Italian chicken sausage, sliced into coins",
+      "qty": 12,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "sweet Italian chicken sausage",
+      "prep": "sliced into coins",
+      "note": null
+    },
+    {
+      "raw": "3 tbsp olive oil, divided",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "2 cups dry orzo",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "dry orzo",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 garlic cloves, minced",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "4 cups low-sodium chicken broth",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "low-sodium chicken broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup canned full-fat coconut milk (or heavy cream)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "canned full-fat coconut milk",
+      "prep": null,
+      "note": "or heavy cream"
+    },
+    {
+      "raw": "1 tsp dried Italian herbs",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried Italian herbs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp red pepper flakes",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp kosher salt, plus more to taste",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": "plus more to taste",
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (5 oz) bag baby spinach",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "bag",
+      "item": "baby spinach",
+      "prep": null,
+      "note": "5 oz"
+    },
+    {
+      "raw": "1 cup grated Parmesan",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup torn fresh basil, for serving",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh basil",
+      "prep": "torn, for serving",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat 2 tbsp of the olive oil in a large deep skillet with a lid over medium-high heat. Brown the sausage about 8 min, stirring now and then. If your sausage is raw, cook it to 165°F.",
+    "Add the remaining 1 tbsp oil, the orzo and the garlic. Stir 1 min to toast the orzo.",
+    "Add the broth, coconut milk, dried herbs, red pepper flakes, salt and pepper. Bring to a boil, then cover, lower the heat, and simmer 10 min, stirring once or twice, until the orzo is tender and most of the liquid is absorbed.",
+    "Stir in the spinach a handful at a time until wilted, then stir in the Parmesan. Taste for salt and serve with basil."
+  ],
+  "tips": [
+    "Makes 4 large servings."
+  ],
+  "references": [
+    {
+      "url": "https://www.fitmencook.com/recipes/one-pan-chicken-sausage-orzo/",
+      "site": "Fit Men Cook",
+      "title": "One-Pan Chicken Sausage Orzo",
+      "usedFor": "12 oz sausage amount, lowering to a simmer until orzo is al dente and liquid absorbed",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

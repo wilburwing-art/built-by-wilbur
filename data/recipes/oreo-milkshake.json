@@ -3,40 +3,40 @@
   "name": "Oreo Milkshake",
   "category": "Drinks",
   "emoji": "🥛",
-  "desc": "Thick vanilla ice cream shake blended with chocolate sandwich cookies",
-  "time": "5 min",
-  "minutes": 5,
+  "desc": "Thick vanilla ice cream shake blended with Oreo cookies.",
+  "time": "15 min",
+  "minutes": 15,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.sugarhero.com/oreo-milkshake/",
+    "site": "SugarHero",
+    "title": "Oreo Milkshake",
+    "matchType": "closest",
+    "evidence": "Same three core ingredients (6 Oreos blended, vanilla ice cream, milk) and the same pulse-the-cookies-first method; SugarHero uses far less milk and adds toppings.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 2,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "3 scoops vanilla ice cream",
+      "raw": "3 scoops (about 1 1/2 cups) vanilla ice cream",
       "qty": 3,
       "qtyMax": null,
       "unit": "scoop",
       "item": "vanilla ice cream",
       "prep": null,
-      "note": null
+      "note": "about 1 1/2 cups"
     },
     {
-      "raw": "3/4 cup milk",
+      "raw": "3/4 cup whole milk",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "cup",
-      "item": "milk",
+      "item": "whole milk",
       "prep": null,
       "note": null
     },
@@ -51,8 +51,28 @@
     }
   ],
   "steps": [
-    "Blend ice cream, milk, and Oreos until smooth. Pour into glasses."
+    "Let the ice cream sit out until slightly softened, 10 to 15 minutes, so it blends without extra milk. Chill 2 glasses in the freezer meanwhile.",
+    "Add the Oreos to the blender and pulse a few times on low to break them into small pieces.",
+    "Add the milk and ice cream and blend on low, then medium, until smooth and pourable, 30 to 45 seconds. Do not overblend or it turns thin.",
+    "Pour into the chilled glasses and serve right away."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "For bigger cookie bits, blend with 4 Oreos and pulse the last 2 in at the end (The Kitchn's method)."
+  ],
+  "references": [
+    {
+      "url": "https://www.sugarhero.com/oreo-milkshake/",
+      "site": "SugarHero",
+      "title": "Oreo Milkshake",
+      "usedFor": "pulse Oreos first, then blend with ice cream and milk",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.thekitchn.com/oreo-milkshake-recipe-23281050",
+      "site": "The Kitchn",
+      "title": "Thick and Creamy Oreo Milkshake",
+      "usedFor": "softening the ice cream 10 to 15 minutes, chilled glasses, blend speeds, reserving cookies",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

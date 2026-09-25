@@ -3,32 +3,32 @@
   "name": "Chipotle Burrito Bowl",
   "category": "Lunch",
   "emoji": "🍚",
-  "desc": "Copycat Chipotle bowl with cilantro lime rice, chicken, corn salsa, and guac",
-  "time": "50 min",
-  "minutes": 50,
+  "desc": "Copycat Chipotle bowl with adobo chicken, cilantro lime rice, corn and tomato salsas, and guacamole.",
+  "time": "1 hr 20 min",
+  "minutes": 80,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.culinaryhill.com/chipotle-burrito-bowl-recipe/",
+    "site": "Culinary Hill",
+    "title": "Chipotle Burrito Bowl Recipe",
+    "matchType": "closest",
+    "evidence": "Near-identical ingredient list: adobo, ancho, cumin and oregano marinade for 2 lb thighs, basmati rice boiled with a bay leaf, corn salsa with roasted poblano, tomato salsa with 3 jalapeños, and the same guacamole.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 4,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "2 lbs boneless, skinless chicken thighs",
-      "qty": 2,
+      "raw": "2 lb boneless skinless chicken thighs",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "lb",
-      "item": "boneless",
-      "prep": "skinless chicken thighs",
+      "item": "boneless skinless chicken thighs",
+      "prep": null,
       "note": null
     },
     {
@@ -50,17 +50,17 @@
       "note": null
     },
     {
-      "raw": "2 cloves garlic",
-      "qty": 2,
+      "raw": "2 garlic cloves, peeled",
+      "qty": 2.0,
       "qtyMax": null,
-      "unit": "clove",
-      "item": "garlic",
-      "prep": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "peeled",
       "note": null
     },
     {
       "raw": "1 tbsp adobo sauce (from a can of chipotle peppers in adobo)",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "adobo sauce",
@@ -69,7 +69,7 @@
     },
     {
       "raw": "1 tbsp ancho chile powder",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "ancho chile powder",
@@ -77,17 +77,17 @@
       "note": null
     },
     {
-      "raw": "1 tbsp olive oil, plus more for cooking",
-      "qty": 1,
+      "raw": "1 tbsp olive oil, plus 1 tbsp for the skillet",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "olive oil",
-      "prep": "plus more for cooking",
+      "prep": "plus 1 tbsp for the skillet",
       "note": null
     },
     {
       "raw": "1 tsp ground cumin",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "ground cumin",
@@ -96,7 +96,7 @@
     },
     {
       "raw": "1 tsp dried oregano",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "dried oregano",
@@ -104,11 +104,29 @@
       "note": null
     },
     {
-      "raw": "Salt and black pepper, to taste",
-      "qty": null,
+      "raw": "2 tbsp water",
+      "qty": 2.0,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tbsp",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp kosher salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
       "prep": null,
       "note": null
     },
@@ -123,7 +141,7 @@
     },
     {
       "raw": "1 cup basmati rice",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "cup",
       "item": "basmati rice",
@@ -131,8 +149,17 @@
       "note": null
     },
     {
+      "raw": "4 cups water",
+      "qty": 4.0,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
       "raw": "1 bay leaf",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
       "item": "bay leaf",
@@ -141,7 +168,7 @@
     },
     {
       "raw": "1 tbsp minced fresh cilantro",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "minced fresh cilantro",
@@ -150,7 +177,7 @@
     },
     {
       "raw": "1 tbsp lime juice",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "lime juice",
@@ -159,7 +186,7 @@
     },
     {
       "raw": "1 tbsp lemon juice",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "lemon juice",
@@ -186,7 +213,7 @@
     },
     {
       "raw": "12 oz frozen corn",
-      "qty": 12,
+      "qty": 12.0,
       "qtyMax": null,
       "unit": "oz",
       "item": "frozen corn",
@@ -203,17 +230,17 @@
       "note": null
     },
     {
-      "raw": "1/2 large roasted poblano pepper, peeled, seeded, finely chopped",
-      "qty": 0.5,
+      "raw": "1 large poblano pepper (half is used)",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
-      "item": "large roasted poblano pepper",
-      "prep": "peeled, seeded, finely chopped",
-      "note": null
+      "item": "large poblano pepper",
+      "prep": null,
+      "note": "half is used"
     },
     {
       "raw": "1 jalapeño pepper, stemmed, seeded, finely chopped",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
       "item": "jalapeño pepper",
@@ -222,7 +249,7 @@
     },
     {
       "raw": "2 tbsp finely chopped fresh cilantro",
-      "qty": 2,
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "finely chopped fresh cilantro",
@@ -258,7 +285,7 @@
     },
     {
       "raw": "1 lb tomatoes, cut into 1/4-inch pieces",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "lb",
       "item": "tomatoes",
@@ -284,17 +311,17 @@
       "note": null
     },
     {
-      "raw": "3 jalapeño peppers, finely chopped",
-      "qty": 3,
+      "raw": "3 jalapeño peppers, seeded and finely chopped",
+      "qty": 3.0,
       "qtyMax": null,
       "unit": null,
       "item": "jalapeño peppers",
-      "prep": "finely chopped",
+      "prep": "seeded and finely chopped",
       "note": null
     },
     {
       "raw": "1 tbsp lemon juice",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "lemon juice",
@@ -303,7 +330,7 @@
     },
     {
       "raw": "1 tbsp lime juice",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "lime juice",
@@ -320,17 +347,17 @@
       "note": null
     },
     {
-      "raw": "2 large avocados, halved and pitted",
-      "qty": 2,
+      "raw": "2 large ripe avocados, halved and pitted",
+      "qty": 2.0,
       "qtyMax": null,
       "unit": null,
-      "item": "large avocados",
+      "item": "large ripe avocados",
       "prep": "halved and pitted",
       "note": null
     },
     {
       "raw": "1 tsp lemon juice",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "lemon juice",
@@ -339,7 +366,7 @@
     },
     {
       "raw": "1 tsp lime juice",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "lime juice",
@@ -366,7 +393,7 @@
     },
     {
       "raw": "2 tbsp finely chopped fresh cilantro",
-      "qty": 2,
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "finely chopped fresh cilantro",
@@ -374,11 +401,11 @@
       "note": null
     },
     {
-      "raw": "1/2 tsp salt",
+      "raw": "1/2 tsp kosher salt",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "kosher salt",
       "prep": null,
       "note": null
     },
@@ -392,17 +419,17 @@
       "note": null
     },
     {
-      "raw": "1 (15 oz) can black beans, drained and warmed",
-      "qty": 1,
+      "raw": "1 (15 oz) can black beans, drained, rinsed, and warmed",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "can",
       "item": "black beans",
-      "prep": "drained and warmed",
+      "prep": "drained, rinsed, and warmed",
       "note": "15 oz"
     },
     {
       "raw": "1 cup shredded cheddar cheese",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "cup",
       "item": "shredded cheddar cheese",
@@ -411,13 +438,25 @@
     }
   ],
   "steps": [
-    "Blend marinade ingredients. Marinate chicken at least 30 min or overnight.",
-    "Cook chicken in oiled skillet to 165°F. Chop into pieces.",
-    "Boil rice with bay leaf and salt 10-12 min. Drain, rinse, stir in cilantro and citrus juices.",
-    "Make corn salsa: cook corn, toss with onion, peppers, cilantro, and citrus.",
-    "Make tomato salsa and guacamole by combining their respective ingredients.",
-    "Assemble bowls: rice, chicken, beans, salsas, guac, and cheese."
+    "Marinade: blend the red onion, garlic, adobo sauce, ancho powder, 1 tbsp olive oil, cumin, oregano, water, salt, and pepper until smooth. Toss with the chicken in a zip-top bag and refrigerate at least 30 minutes or overnight.",
+    "Roast the poblano: set it directly over a gas flame or under the broiler, turning, until blackened all over, 8 to 10 minutes. Seal in a covered bowl for 10 minutes, then peel, seed, and finely chop half of it for the corn salsa.",
+    "Rice: bring the 4 cups water to a boil, add the rice, a pinch of salt, and the bay leaf, and boil until tender, 10 to 12 minutes. Drain, rinse with hot water in a fine-mesh sieve, discard the bay leaf, and stir in the cilantro, lime juice, and lemon juice. Season with salt.",
+    "Corn salsa: cook the corn according to the package directions and spread it on a sheet pan to cool. Toss with the red onion, chopped poblano, jalapeño, cilantro, and lemon and lime juice. Season with salt.",
+    "Tomato salsa: combine the tomatoes, red onion, cilantro, jalapeños, and lemon and lime juice. Season with salt.",
+    "Guacamole: scoop the avocados into a bowl, add the lemon and lime juice, and mash. Fold in the red onion, jalapeño, cilantro, and salt.",
+    "Heat the remaining 1 tbsp oil in a large skillet over medium-high heat. Sear the chicken on both sides until it reaches 165°F inside, 5 to 7 minutes per side. Rest 5 minutes, then chop into bite-size pieces.",
+    "Assemble the bowls: rice, chicken, black beans, both salsas, guacamole, and cheese."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Use the other half of the roasted poblano in eggs or quesadillas."
+  ],
+  "references": [
+    {
+      "url": "https://web.archive.org/web/2026/https://www.culinaryhill.com/chipotle-burrito-bowl-recipe/",
+      "site": "Culinary Hill (Wayback Machine copy)",
+      "title": "Chipotle Burrito Bowl Recipe",
+      "usedFor": "water in the marinade, 4:1 water to rice, rinsing the rice, cooling the corn, 165°F cue",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

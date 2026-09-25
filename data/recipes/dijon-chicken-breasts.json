@@ -3,40 +3,49 @@
   "name": "Dijon Chicken Breasts",
   "category": "Dinner",
   "emoji": "🍗",
-  "desc": "Chicken simmered in a creamy Dijon pan sauce, done in one skillet",
+  "desc": "Seared chicken breasts finished in a creamy white wine and Dijon pan sauce, all in one skillet.",
   "time": "30 min",
   "minutes": 30,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.spendwithpennies.com/dijon-chicken-breasts/",
+    "site": "Spend With Pennies",
+    "title": "Dijon Chicken Breasts",
+    "matchType": "original",
+    "evidence": "Every ingredient and amount matches the Spend With Pennies card (1/3 cup wine, 1/3 cup cream, 1/4 cup broth, 1 tsp soy sauce, 2 tbsp Dijon, 1/8 tsp thyme) and the six steps are the same.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://www.spendwithpennies.com/dijon-chicken-breasts/"
   },
   "ingredients": [
     {
-      "raw": "4 boneless, skinless chicken breasts (5 to 6 oz each)",
+      "raw": "4 boneless skinless chicken breasts (5 to 6 oz each)",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
-      "item": "boneless, skinless chicken breasts (5 to 6 oz each)",
+      "item": "boneless skinless chicken breasts",
+      "prep": null,
+      "note": "5 to 6 oz each"
+    },
+    {
+      "raw": "1/2 tsp salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Salt and black pepper",
-      "qty": null,
+      "raw": "1/4 tsp ground black pepper",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
       "prep": null,
       "note": null
     },
@@ -50,16 +59,16 @@
       "note": null
     },
     {
-      "raw": "2 tbsp butter",
+      "raw": "2 tbsp unsalted butter",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "butter",
+      "item": "unsalted butter",
       "prep": null,
       "note": null
     },
     {
-      "raw": "3 cloves garlic, minced",
+      "raw": "3 garlic cloves, minced",
       "qty": 3,
       "qtyMax": null,
       "unit": "clove",
@@ -69,7 +78,7 @@
     },
     {
       "raw": "1/3 cup dry white wine",
-      "qty": 0.3333,
+      "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
       "item": "dry white wine",
@@ -78,19 +87,19 @@
     },
     {
       "raw": "1/3 cup heavy whipping cream (or evaporated milk)",
-      "qty": 0.3333,
+      "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
-      "item": "heavy whipping cream (or evaporated milk)",
+      "item": "heavy whipping cream",
       "prep": null,
-      "note": null
+      "note": "or evaporated milk"
     },
     {
-      "raw": "1/4 cup chicken broth",
+      "raw": "1/4 cup low-sodium chicken broth",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "chicken broth",
+      "item": "low-sodium chicken broth",
       "prep": null,
       "note": null
     },
@@ -113,23 +122,31 @@
       "note": null
     },
     {
-      "raw": "1/8 tsp dried thyme leaves, or 1 sprig fresh",
+      "raw": "1/8 tsp dried thyme leaves (or 1 sprig fresh thyme)",
       "qty": 0.125,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "dried thyme leaves, or 1 sprig fresh",
+      "item": "dried thyme leaves",
       "prep": null,
-      "note": null
+      "note": "or 1 sprig fresh thyme"
     }
   ],
   "steps": [
-    "Pound the chicken to 1 inch thickness and season with salt and pepper.",
-    "Heat the olive oil in a skillet over medium-high. Cook the chicken 5 to 6 minutes per side until browned and 165F inside. Remove and cover loosely with foil.",
+    "Pound the chicken between sheets of plastic wrap to an even 1-inch thickness and season with the salt and pepper.",
+    "Heat the olive oil in a large skillet over medium-high heat. Cook the chicken 5-6 minutes per side, until browned and 165°F inside. Move to a plate and cover loosely with foil.",
     "Add the butter and garlic to the same pan and cook until fragrant, about 30 seconds.",
-    "Deglaze with the white wine, scraping up the browned bits. Simmer about 3 minutes until reduced by half.",
-    "Whisk in the cream, broth, soy sauce, Dijon and thyme, and simmer 2 to 4 minutes until slightly thickened.",
-    "Return the chicken and its juices to the pan and heat through, about 2 minutes."
+    "Pour in the wine and scrape up the browned bits. Simmer until reduced by half, about 3 minutes.",
+    "Whisk in the cream, broth, soy sauce, Dijon, and thyme and simmer 2-4 minutes, until slightly thickened.",
+    "Return the chicken and its juices to the pan and cook until heated through, about 2 minutes. Spoon the sauce over to serve."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.spendwithpennies.com/dijon-chicken-breasts/",
+      "site": "Spend With Pennies",
+      "title": "Dijon Chicken Breasts",
+      "usedFor": "servings, confirmed amounts and times",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

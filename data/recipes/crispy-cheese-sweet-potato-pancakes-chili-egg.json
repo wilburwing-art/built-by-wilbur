@@ -1,0 +1,155 @@
+{
+  "slug": "crispy-cheese-sweet-potato-pancakes-chili-egg",
+  "name": "Crispy Cheese Smashed Sweet Potato Pancakes with Chili Egg",
+  "category": "Breakfast",
+  "emoji": "🍠",
+  "desc": "Smashed sweet potatoes fried into a crisp cheddar base, topped with a chili-crisp fried egg.",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DM41gQpMyFZ/",
+    "site": "Instagram @craigamorrison",
+    "title": "Crispy Cheese Smashed Sweet Potato Pancakes + Chili Egg",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 2,
+    "basis": "publisher",
+    "source": "https://www.craigamorrison.com/recipes/crispy-cheese-smashed-sweet-potato-pancakes-chilli-fried-egg"
+  },
+  "ingredients": [
+    {
+      "raw": "Pancakes:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 medium or 6 small sweet potatoes",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium sweet potatoes",
+      "prep": null,
+      "note": "or 6 small"
+    },
+    {
+      "raw": "1 to 1 1/2 cups shredded sharp cheddar (4 to 6 small handfuls)",
+      "qty": 1,
+      "qtyMax": 1.5,
+      "unit": "cup",
+      "item": "shredded sharp cheddar",
+      "prep": null,
+      "note": "4 to 6 small handfuls"
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Eggs:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 large eggs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 to 2 tbsp crispy chili oil (such as Lao Gan Ma)",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "tbsp",
+      "item": "crispy chili oil",
+      "prep": null,
+      "note": "such as Lao Gan Ma"
+    },
+    {
+      "raw": "Garnish:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup crème fraîche or plain Greek yogurt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "crème fraîche or plain Greek yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup pickled red onions",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "pickled red onions",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp chili crisp, for serving",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "chili crisp",
+      "prep": "for serving",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp fresh chives or green onion, sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh chives or green onion",
+      "prep": "sliced",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Prick the sweet potatoes all over with a fork. Microwave on high 15 to 20 minutes, until a knife slides in easily.",
+    "One at a time, put a potato between two sheets of parchment and smash it about 1/2 inch thick with a burger press, spatula or the bottom of a pan. Season with salt and pepper.",
+    "Heat a large nonstick skillet over medium-high heat with no oil. Add the cheese in small rounds about the size of a smashed potato and set a potato on each.",
+    "Cook until the cheese is golden and crisp, 3 to 4 minutes, then flip and cook until the other side is golden and crisp. Work in batches.",
+    "Wipe the pan clean. Heat the chili oil over medium heat, crack in the eggs and fry until the whites are set at the edges. Cover with a lid for the last 15 to 20 seconds to set the whites on top.",
+    "Stack the sweet potato pancakes and top with the eggs, crème fraîche, pickled onions, extra chili crisp and chives."
+  ],
+  "tips": [
+    "The cheese goes into the dry pan first, with no oil, so it melts into a crisp frico base.",
+    "Plant-based cheese works too. Pesto can stand in for the chili oil; add a little extra oil to fry the eggs."
+  ],
+  "references": [
+    {
+      "url": "https://www.craigamorrison.com/recipes/crispy-cheese-smashed-sweet-potato-pancakes-chilli-fried-egg",
+      "site": "Craig A Morrison",
+      "title": "Crispy Cheese Smashed Sweet Potato Pancakes + Chilli Fried Egg",
+      "usedFor": "creator's recipe: medium-high heat, wiping the pan before the eggs, garnish list, serves 2, 30 to 35 min",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

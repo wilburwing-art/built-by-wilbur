@@ -1,0 +1,205 @@
+{
+  "slug": "rotisserie-chicken-and-dumplings",
+  "name": "Rotisserie Chicken and Dumplings",
+  "category": "Dinner",
+  "emoji": "🥟",
+  "desc": "Creamy chicken soup made with rotisserie chicken and small fluffy drop dumplings.",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DLlJ-4CgmkT/",
+    "site": "Instagram @rappingchef",
+    "title": "Rotisserie Chicken & Dumplings",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 6,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Soup:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp unsalted butter",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 medium carrots, diced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium carrots",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1 medium yellow onion, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium yellow onion",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "2 celery stalks, diced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "stalk",
+      "item": "celery",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "6 cups low-sodium chicken broth",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "low-sodium chicken broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup heavy cream",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 cups shredded rotisserie chicken (about 1 chicken, skin and bones removed)",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded rotisserie chicken",
+      "prep": null,
+      "note": "about 1 chicken, skin and bones removed"
+    },
+    {
+      "raw": "Kosher salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Drop dumplings:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup all-purpose flour",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp baking powder",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp granulated sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp kosher salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 tbsp cold unsalted butter, cubed",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cold unsalted butter",
+      "prep": "cubed",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup whole milk, warmed",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "whole milk",
+      "prep": "warmed",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Melt the butter in a large Dutch oven over medium heat. Sweat the carrot, onion and celery 6-8 min, stirring, until softened but not browned.",
+    "Add the broth and cream and bring to a simmer.",
+    "Stir in the shredded chicken and season with salt and pepper.",
+    "Make the dumplings: whisk the flour, baking powder, sugar and salt. Cut in the butter with a pastry cutter or two forks until crumbly, then stir in the warm milk only until combined.",
+    "With the soup at a gentle simmer, drop in small spoonfuls of dough (about 1 tsp each). Cover and simmer 15 min without lifting the lid, until the dumplings float, have puffed, and are cooked through with no raw dough in the center.",
+    "Taste for salt and pepper and serve."
+  ],
+  "tips": [
+    "For a shortcut, cut a can of refrigerated biscuits into small pieces and drop those in instead; simmer until cooked through.",
+    "Keep the soup at a gentle simmer once the dumplings go in; a hard boil breaks them apart."
+  ],
+  "references": [
+    {
+      "url": "https://www.bakingbeauty.net/chicken-and-dumplings-with-rotisserie-chicken/",
+      "site": "Baking Beauty",
+      "title": "Chicken and Dumplings With Rotisserie Chicken",
+      "usedFor": "drop dumpling dough amounts and the 15 min covered simmer",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://somuchfoodblog.com/creamy-chicken-and-dumpling-soup/",
+      "site": "So Much Food",
+      "title": "One-Pot Creamy Chicken and Dumpling Soup",
+      "usedFor": "6 cups stock, 1 cup heavy cream and 3 cups shredded chicken for a 6-serving pot",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.gritsandpinecones.com/easy-southern-chicken-and-dumplings/",
+      "site": "Grits and Pinecones",
+      "title": "Chicken and Dumplings with Biscuits",
+      "usedFor": "canned biscuit shortcut",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

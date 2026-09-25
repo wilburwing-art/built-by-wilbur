@@ -3,22 +3,22 @@
   "name": "Orange Dream Machine",
   "category": "Drinks",
   "emoji": "🍊",
-  "desc": "Jamba Juice copycat: OJ, soy milk, orange sherbet, and frozen yogurt",
+  "desc": "Jamba Juice copycat smoothie of orange juice, soy milk, orange sherbet and vanilla frozen yogurt.",
   "time": "5 min",
   "minutes": 5,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "http://sundayeating.blogspot.com/2008/03/copy-cat-jamba-juice-orange-dream.html",
+    "site": "On Sunday We Eat",
+    "title": "Copy-cat Jamba Juice Orange Dream Machine",
+    "matchType": "closest",
+    "evidence": "Same five ingredients (2 scoops vanilla frozen yogurt, 2 scoops orange sherbet, soy milk, orange juice, a little ice) blended together; that version uses 1/2 cup each of milk and juice.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 1,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
@@ -41,36 +41,48 @@
       "note": null
     },
     {
-      "raw": "2 scoops orange sherbet",
+      "raw": "2 scoops (about 1 cup) orange sherbet",
       "qty": 2,
       "qtyMax": null,
       "unit": "scoop",
       "item": "orange sherbet",
       "prep": null,
-      "note": null
+      "note": "about 1 cup"
     },
     {
-      "raw": "2 scoops frozen yogurt",
+      "raw": "2 scoops (about 1 cup) vanilla frozen yogurt",
       "qty": 2,
       "qtyMax": null,
       "unit": "scoop",
-      "item": "frozen yogurt",
+      "item": "vanilla frozen yogurt",
       "prep": null,
-      "note": null
+      "note": "about 1 cup"
     },
     {
-      "raw": "1 scoop ice",
+      "raw": "1 scoop (about 1/2 cup) ice",
       "qty": 1,
       "qtyMax": null,
       "unit": "scoop",
       "item": "ice",
       "prep": null,
-      "note": null
+      "note": "about 1/2 cup"
     }
   ],
   "steps": [
-    "Blend all ingredients until smooth. Pour and serve."
+    "Pour the orange juice and soy milk into the blender first so the blades can move.",
+    "Add the sherbet, frozen yogurt and ice.",
+    "Blend, starting low and working up to high, until smooth and thick, about 30 seconds. Pour into a tall glass and serve."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Too thick to blend? Add a splash more orange juice. Too thin? Add another scoop of sherbet."
+  ],
+  "references": [
+    {
+      "url": "http://sundayeating.blogspot.com/2008/03/copy-cat-jamba-juice-orange-dream.html",
+      "site": "On Sunday We Eat",
+      "title": "Copy-cat Jamba Juice Orange Dream Machine",
+      "usedFor": "vanilla frozen yogurt, ice amount, liquid check",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

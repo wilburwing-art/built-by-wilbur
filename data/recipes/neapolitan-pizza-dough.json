@@ -3,23 +3,23 @@
   "name": "Neapolitan Pizza Dough",
   "category": "Dinner",
   "emoji": "🍕",
-  "desc": "Four ingredients and a full day of fermentation, mixed by hand",
-  "time": "24+ hrs",
-  "minutes": 1440,
+  "desc": "Four-ingredient Neapolitan dough mixed by hand and fermented a full day at room temperature, for six 10-inch pizzas.",
+  "time": "24 hrs 30 min",
+  "minutes": 1470,
   "difficulty": "Medium",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://thepizzaheaven.com/authentic-neapolitan-pizza-dough-recipe/",
+    "site": "The Pizza Heaven",
+    "title": "Authentic Neapolitan Pizza Dough Recipe",
+    "matchType": "original",
+    "evidence": "Identical gram formula (922 g tipo 00, 553 ml water, 23 g fine sea salt, 1 g fresh yeast), the same salt-first, 10 percent batter, then yeast mixing order, and 250 g balls in a proofing box.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 6,
+    "basis": "publisher",
+    "source": "https://thepizzaheaven.com/authentic-neapolitan-pizza-dough-recipe/"
   },
   "ingredients": [
     {
@@ -32,13 +32,13 @@
       "note": null
     },
     {
-      "raw": "553 ml cool water, 60 to 72F",
+      "raw": "553 ml cool water (60-72°F)",
       "qty": 553,
       "qtyMax": null,
       "unit": "ml",
-      "item": "cool water, 60 to 72F",
-      "prep": null,
-      "note": null
+      "item": "water",
+      "prep": "cool",
+      "note": "60-72°F"
     },
     {
       "raw": "23 g fine sea salt",
@@ -50,25 +50,48 @@
       "note": null
     },
     {
-      "raw": "1 g fresh yeast",
+      "raw": "1 g fresh yeast (or 0.3 g active dry yeast)",
       "qty": 1,
       "qtyMax": null,
       "unit": "g",
       "item": "fresh yeast",
       "prep": null,
+      "note": "or 0.3 g active dry yeast"
+    },
+    {
+      "raw": "Tipo 00 or semolina flour, for the proofing box and shaping",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Add the water to a mixing bowl and dissolve the salt in it.",
-    "Add about 10 percent of the flour, mixing with your hands or a wooden spoon until it has a smooth, batter-like consistency.",
-    "Add the yeast and dissolve it. Keeping it out of direct contact with the salt is the reason for the order.",
-    "Add the rest of the flour gradually, mixing until it comes together into a shaggy dough.",
-    "Knead 10 to 15 minutes until smooth and elastic. It should pass a windowpane test.",
-    "Cover and bulk ferment at room temperature about 2 hours.",
-    "Divide into 250 g balls, place in a covered proofing box, and ferment 22 to 24 hours total.",
-    "Stretch by hand, never with a rolling pin, and bake as hot as your oven will go."
+    "Pour the water into a large mixing bowl and stir in the salt until dissolved.",
+    "Add about 10 percent of the flour (roughly 90 g) and mix with your hand or a wooden spoon until smooth and batter-like.",
+    "Add the yeast and stir until dissolved. Adding it after the batter keeps it out of direct contact with the concentrated salt.",
+    "Add the rest of the flour gradually, mixing until it all comes together into one shaggy mass.",
+    "Turn the dough onto the counter and knead by hand 15-20 min (or 10-15 min on low in a stand mixer) until smooth and elastic; a small piece should stretch thin enough to see light through without tearing.",
+    "Cover and rest 15-30 min, then fold the dough over itself a few times into a smooth round.",
+    "Bulk ferment: put it in an airtight container or a bowl covered with plastic wrap and leave at cool room temperature about 14 hours.",
+    "Divide into six 250 g pieces and shape each into a tight, smooth ball. Set them in a lightly floured proofing box (or individual lidded containers) and let rise another 10 hours, until soft and puffy.",
+    "Preheat: a wood-fired or outdoor pizza oven to about 850°F on the floor, or a home oven at its highest setting with a pizza stone or steel inside for at least 1 hour.",
+    "Set a ball in a little flour and press from the center outward with your fingertips, leaving a 1/2-inch rim for the crust, then stretch by hand to 10-11 inches. Do not use a rolling pin; it presses out the gas that makes the rim puff.",
+    "Top lightly and bake 60-90 seconds in a pizza oven, turning for an even bake, or 4-8 min on the stone or steel in a home oven (switch to the broiler partway if you have one), until the rim is puffed and spotted with char."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The earlier version of this card bulk fermented about 2 hours and gave the balls the remaining 22 hours; the creator splits it 14 hours bulk and 10 hours in balls. Both run about 24 hours total at cool room temperature.",
+    "In a warm kitchen the dough will overproof on this schedule; use the cooler water and a cooler spot, or cut the bulk time."
+  ],
+  "references": [
+    {
+      "url": "https://thepizzaheaven.com/authentic-neapolitan-pizza-dough-recipe/",
+      "site": "The Pizza Heaven",
+      "title": "Authentic Neapolitan Pizza Dough Recipe",
+      "usedFor": "14 plus 10 hour fermentation split, knead times, dry yeast equivalent, oven temperatures, stretch size, bake times",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

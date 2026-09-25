@@ -3,33 +3,33 @@
   "name": "Baked Chicken Wings",
   "category": "Dinner",
   "emoji": "🍗",
-  "desc": "Garlicky chili-rubbed wings baked low then hot so the skin crisps",
-  "time": "1.5 hrs",
+  "desc": "Wings tossed in olive oil, fresh garlic, chili powder and garlic powder, then baked until crisp.",
+  "time": "1 hr 30 min",
   "minutes": 90,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/187822/baked-chicken-wings/",
+    "site": "Allrecipes",
+    "title": "Baked Chicken Wings",
+    "matchType": "closest",
+    "evidence": "Same five-ingredient coating and 375°F oven; this version is the Allrecipes recipe scaled four times (3 tbsp oil to 3/4 cup, 3 garlic cloves to 12, 2 tsp chili powder to 2 tbsp plus 2 tsp) with a longer bake.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 8,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "4 lbs chicken wings",
+      "raw": "4 lb chicken wings (about 40 flats and drumettes), patted dry",
       "qty": 4,
       "qtyMax": null,
       "unit": "lb",
       "item": "chicken wings",
-      "prep": null,
-      "note": null
+      "prep": "patted dry",
+      "note": "about 40 flats and drumettes"
     },
     {
       "raw": "3/4 cup olive oil",
@@ -41,22 +41,22 @@
       "note": null
     },
     {
-      "raw": "12 cloves garlic, pressed (about 4 tbsp minced)",
+      "raw": "12 garlic cloves, pressed (about 4 tbsp minced)",
       "qty": 12,
       "qtyMax": null,
       "unit": "clove",
-      "item": "garlic, pressed (about 4 tbsp minced)",
-      "prep": null,
-      "note": null
+      "item": "garlic",
+      "prep": "pressed",
+      "note": "about 4 tbsp minced"
     },
     {
       "raw": "2 tbsp plus 2 tsp chili powder",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "plus 2 tsp chili powder",
+      "item": "chili powder",
       "prep": null,
-      "note": null
+      "note": "plus 2 tsp"
     },
     {
       "raw": "4 tsp garlic powder",
@@ -68,23 +68,42 @@
       "note": null
     },
     {
-      "raw": "2 to 3 tsp salt and 1 to 2 tsp black pepper, to taste",
+      "raw": "2-3 tsp salt",
       "qty": 2,
       "qtyMax": 3,
       "unit": "tsp",
-      "item": "salt and 1 to 2 tsp black pepper",
-      "prep": "to taste",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1-2 tsp ground black pepper",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "tsp",
+      "item": "ground black pepper",
+      "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Preheat oven to 375°F (190°C).",
-    "In a large bowl or gallon-size resealable bag, combine olive oil, garlic, chili powder, garlic powder, salt, and pepper.",
-    "Add chicken wings and toss or shake to coat evenly.",
-    "Arrange wings on a large rimmed baking sheet (or 2 sheets for spacing).",
-    "Bake for 60-75 minutes, flipping halfway through, until crispy and cooked through (internal temp should hit 165°F).",
-    "Optional: Broil for the last 3-5 minutes for extra crispiness."
+    "Preheat the oven to 375°F. Line 2 large rimmed baking sheets with foil for easier cleanup.",
+    "In a large bowl or gallon-size resealable bag, combine the olive oil, pressed garlic, chili powder, garlic powder, salt, and pepper.",
+    "Add the wings and toss or shake until evenly coated.",
+    "Arrange the wings in a single layer on the baking sheets with space between them, and spoon any leftover garlic oil over the top.",
+    "Bake for 60-75 minutes, flipping halfway through, until the skin is crisp and browned and the thickest wing reads at least 165°F.",
+    "Optional: switch the oven to broil and broil for 3-5 minutes, watching closely, for extra-crisp skin."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The Allrecipes original bakes 10 wings at 375°F for 30 to 45 minutes; a full 4 lb batch on crowded pans runs longer, so start checking at 45 minutes."
+  ],
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/187822/baked-chicken-wings/",
+      "site": "Allrecipes",
+      "title": "Baked Chicken Wings",
+      "usedFor": "confirmed the coating ratios and 375°F oven; wings-per-serving basis for the estimate",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

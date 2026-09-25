@@ -1,0 +1,343 @@
+{
+  "slug": "5-simple-macro-meals",
+  "name": "5 Simple Macro Meals",
+  "category": "Dinner",
+  "emoji": "🥗",
+  "desc": "Five portioned high-protein plates: chicken and sweet potato, turkey chili, egg white omelette with oats, salmon with cauliflower rice, and a taco bowl.",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DEI14dTSxJa/",
+    "site": "Instagram @bylt.by.britt",
+    "title": "5 Simple Macro Meals",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 5,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Chicken, broccoli, sweet potato (330 cal, 40g P):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5 oz boneless skinless chicken breast",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "boneless skinless chicken breast",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup broccoli florets",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "broccoli florets",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 oz sweet potato, cut in 1 in cubes",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "sweet potato",
+      "prep": "cut in 1 in cubes",
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Turkey chili (310 cal, 35g P):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5 oz 99% lean ground turkey",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "99% lean ground turkey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup canned black beans, drained and rinsed",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "canned black beans",
+      "prep": "drained and rinsed",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup canned diced tomatoes",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "canned diced tomatoes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp chili powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp ground cumin",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Egg white spinach omelette + oats (280 cal, 30g P):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "8 large egg whites (about 1 cup liquid egg whites)",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg whites",
+      "prep": null,
+      "note": "about 1 cup liquid egg whites"
+    },
+    {
+      "raw": "1 cup baby spinach",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "baby spinach",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup old-fashioned rolled oats",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "old-fashioned rolled oats",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup water, for the oats",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": "for the oats",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp ground cinnamon",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 packet stevia, or to taste",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "packet",
+      "item": "stevia",
+      "prep": "or to taste",
+      "note": null
+    },
+    {
+      "raw": "Salmon, asparagus, cauli rice (290 cal, 35g P):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 oz skinless salmon fillet",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "skinless salmon fillet",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup asparagus, trimmed and cut in 2 in pieces",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "asparagus",
+      "prep": "trimmed and cut in 2 in pieces",
+      "note": null
+    },
+    {
+      "raw": "1 cup riced cauliflower",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "riced cauliflower",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 garlic clove, minced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic clove",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "Salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Taco bowl (350 cal, 40g P):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5 oz 96/4 lean ground beef",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "96/4 lean ground beef",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp taco seasoning",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "taco seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup cooked white rice",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cooked white rice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup shredded romaine lettuce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded romaine lettuce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp salsa",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "salsa",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp plain nonfat Greek yogurt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "plain nonfat Greek yogurt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "For cooking:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Nonstick cooking spray",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Chicken plate: Heat the oven to 425°F. Toss the sweet potato with a light spray of oil, salt and pepper and roast 20-25 min until tender. Season the chicken and grill or pan-sear it over medium-high heat 5-7 min per side until 165°F. Steam the broccoli 4-5 min until bright green and tender.",
+    "Turkey chili: Brown the turkey in a sprayed skillet over medium-high heat until no pink remains (165°F). Add the beans, tomatoes, chili powder, cumin and a pinch of salt and simmer 10 min.",
+    "Omelette + oats: Simmer the oats in the water 5 min, stirring, then stir in the cinnamon and stevia. Wilt the spinach in a sprayed nonstick pan over medium heat, pour in the egg whites, and cook until set, folding the omelette in half.",
+    "Salmon plate: Heat the oven to 400°F. Put the salmon and asparagus on a sprayed sheet pan, season, and roast 12-15 min until the salmon flakes and reads 145°F. Saute the cauliflower rice with the garlic in a sprayed skillet over medium-high heat 5 min.",
+    "Taco bowl: Brown the beef in a skillet over medium-high heat, breaking it up, until no pink remains (160°F). Stir in the taco seasoning and 2 tbsp water. Build the bowl with the rice, lettuce, beef, salsa and Greek yogurt."
+  ],
+  "tips": [
+    "Calories and protein in each heading are the creator's per-plate numbers; cooking methods here are standard ones since the post gives amounts only."
+  ],
+  "references": []
+}

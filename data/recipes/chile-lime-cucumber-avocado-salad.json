@@ -1,0 +1,128 @@
+{
+  "slug": "chile-lime-cucumber-avocado-salad",
+  "name": "Chile Lime Cucumber Avocado Salad",
+  "category": "Sides & Snacks",
+  "emoji": "🥒",
+  "desc": "Thin Persian cucumbers, avocado, shallot, cilantro, pistachios and feta shaken with lime and chile lime seasoning.",
+  "time": "10 min",
+  "minutes": 10,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DIwlzGkOcdy/",
+    "site": "Instagram @shredhappens",
+    "title": "Chile Lime Cucumber Avocado Salad",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "4-5 Persian cucumbers (or 3 Japanese cucumbers)",
+      "qty": 4,
+      "qtyMax": 5,
+      "unit": null,
+      "item": "Persian cucumbers",
+      "prep": null,
+      "note": "or 3 Japanese cucumbers"
+    },
+    {
+      "raw": "1 avocado, cubed",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "avocado",
+      "prep": "cubed",
+      "note": null
+    },
+    {
+      "raw": "1 large shallot (or 1/3 red onion), finely diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large shallot",
+      "prep": "finely diced",
+      "note": "or 1/3 red onion"
+    },
+    {
+      "raw": "1/2 cup fresh cilantro (1 large handful), finely chopped, plus more for topping",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh cilantro",
+      "prep": "finely chopped, plus more for topping",
+      "note": "1 large handful"
+    },
+    {
+      "raw": "2 tbsp roasted pistachios",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "roasted pistachios",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 oz feta cheese, crumbled, plus more for topping",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "feta cheese",
+      "prep": "crumbled, plus more for topping",
+      "note": null
+    },
+    {
+      "raw": "1 large lime, zested and juiced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large lime",
+      "prep": "zested and juiced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp olive oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Kosher salt, a generous pinch",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2-1 tbsp chile lime seasoning (such as Tajín)",
+      "qty": 0.5,
+      "qtyMax": 1,
+      "unit": "tbsp",
+      "item": "chile lime seasoning",
+      "prep": null,
+      "note": "such as Tajín"
+    }
+  ],
+  "steps": [
+    "Cut the cucumbers thin into half moons, coins or sticks and put them in a large jar or bowl.",
+    "Add the avocado, shallot, cilantro and pistachios.",
+    "Top with the feta, lime zest and juice, olive oil, salt and chile lime seasoning.",
+    "Put the lid on and give it a good shake, or toss gently in the bowl.",
+    "Finish with more feta and chopped cilantro."
+  ],
+  "tips": [
+    "Keep the cucumbers thin so they soak up more dressing.",
+    "Good with grilled chicken, shrimp or steak."
+  ],
+  "references": []
+}

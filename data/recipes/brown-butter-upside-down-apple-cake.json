@@ -1,0 +1,221 @@
+{
+  "slug": "brown-butter-upside-down-apple-cake",
+  "name": "Brown Butter Upside-Down Apple Cake",
+  "category": "Desserts",
+  "emoji": "🍎",
+  "desc": "Spiced brown butter cake baked over apple wedges in a sticky honey caramel and flipped out warm.",
+  "time": "1 hr 30 min",
+  "minutes": 90,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DAjRQ_2SV5y/",
+    "site": "Instagram @kalememaybe",
+    "title": "Brown Butter Upside-Down Apple Cake",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 8,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Honey caramel apples:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 firm apples (Pink Lady, Honeycrisp or Fuji), peeled, cored and cut into 1/2 in wedges",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "firm apples",
+      "prep": "peeled, cored and cut into 1/2 in wedges",
+      "note": "Pink Lady, Honeycrisp or Fuji"
+    },
+    {
+      "raw": "6 tbsp unsalted butter",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup honey",
+      "qty": 0.3333333333333333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "honey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup granulated sugar",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Cake:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 stick (8 tbsp) unsalted butter",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "stick",
+      "item": "unsalted butter",
+      "prep": null,
+      "note": "8 tbsp"
+    },
+    {
+      "raw": "Oil spray or softened butter, for the pan",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups all-purpose flour",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tsp baking powder",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp ground cinnamon",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp ground ginger",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground ginger",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp fine salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3/4 cup granulated sugar",
+      "qty": 0.75,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup packed light brown sugar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "packed light brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 large eggs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp vanilla extract",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup milk (whole or oat)",
+      "qty": 0.3333333333333333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": "whole or oat"
+    },
+    {
+      "raw": "Powdered sugar, for dusting (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Heat the oven to 350°F.",
+    "Brown the stick of butter in a small saucepan over medium heat, stirring often, until the milk solids turn brown and smell nutty. Pour into a bowl right away and cool completely, about 20 min.",
+    "Line a 9 in round cake pan with parchment and grease it generously. Arrange the apple wedges in a spiral over the bottom.",
+    "Melt the 6 tbsp butter in a small saucepan, turn the heat to high, and add the honey and 1/4 cup sugar. Boil about 3 min, until frothy and caramelized. Pour over the apples right away, covering them evenly.",
+    "In a medium bowl, whisk the flour, baking powder, cinnamon, ginger and salt.",
+    "In another bowl, whisk the cooled brown butter, granulated sugar, brown sugar, eggs, vanilla and milk.",
+    "Stir the wet mixture into the dry until evenly combined. Spread over the apples.",
+    "Bake 45-50 min, until the top springs back when lightly pressed and a toothpick in the center comes out clean.",
+    "Cool 10 min, loosen the edge with a paring knife, set a plate on top and flip both together. Dust with powdered sugar if you like. Serve warm or at room temperature."
+  ],
+  "tips": [
+    "Pink Lady, Honeycrisp or Fuji hold their shape.",
+    "Cool the brown butter fully so it does not cook the eggs."
+  ],
+  "references": [
+    {
+      "url": "https://www.goodmoodfood.news/p/brown-butter-upside-down-apple-cake",
+      "site": "Good Mood Food (Carina Wolff)",
+      "title": "Brown Butter Upside Down Apple Cake with Sticky Honey Caramel",
+      "usedFor": "full measured recipe, oat milk, pan prep, flip method",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

@@ -3,23 +3,23 @@
   "name": "Crispy Oven Baked Chicken Tenders",
   "category": "Dinner",
   "emoji": "🍗",
-  "desc": "Dijon-battered tenders in toasted panko, baked not fried",
-  "time": "40 min",
-  "minutes": 40,
+  "desc": "Chicken tenders dipped in a Dijon-mayo batter and pressed into pre-toasted panko, then baked crisp.",
+  "time": "30 min",
+  "minutes": 30,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.recipetineats.com/truly-golden-crunchy-baked-chicken-tenders-less-mess/",
+    "site": "RecipeTin Eats",
+    "title": "Crispy Oven Baked Chicken Tenders",
+    "matchType": "original",
+    "evidence": "Every ingredient and amount matches the RecipeTin Eats card (1 1/2 cups panko, 1 egg, 1 tbsp mayo, 1 1/2 tbsp Dijon, 2 tbsp flour, 500 g tenderloins) and the steps are the same text.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 3,
+    "basis": "publisher",
+    "source": "https://www.recipetineats.com/truly-golden-crunchy-baked-chicken-tenders-less-mess/"
   },
   "ingredients": [
     {
@@ -32,11 +32,11 @@
       "note": null
     },
     {
-      "raw": "1 1/2 cups panko breadcrumbs (Note 1)",
+      "raw": "1 1/2 cups panko breadcrumbs",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "panko breadcrumbs (Note 1)",
+      "item": "panko breadcrumbs",
       "prep": null,
       "note": null
     },
@@ -59,11 +59,11 @@
       "note": null
     },
     {
-      "raw": "1 egg",
+      "raw": "1 large egg",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "egg",
+      "item": "large egg",
       "prep": null,
       "note": null
     },
@@ -77,13 +77,13 @@
       "note": null
     },
     {
-      "raw": "1 1/2 tbsp dijon mustard (or other mustard)",
+      "raw": "1 1/2 tbsp Dijon mustard (or other mustard)",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "dijon mustard (or other mustard)",
+      "item": "Dijon mustard",
       "prep": null,
-      "note": null
+      "note": "or other mustard"
     },
     {
       "raw": "2 tbsp all-purpose flour",
@@ -104,11 +104,11 @@
       "note": null
     },
     {
-      "raw": "Black pepper, to taste",
-      "qty": null,
+      "raw": "1/4 tsp ground black pepper",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
       "prep": null,
       "note": null
     },
@@ -122,13 +122,13 @@
       "note": null
     },
     {
-      "raw": "500 g/1 lb chicken tenderloins (or breast cut into 2/3\" / 1.5cm thick slices, lengthwise)",
+      "raw": "500 g (1 lb) chicken tenderloins (or breasts cut lengthwise into 2/3-inch / 1.5 cm thick slices)",
       "qty": 500,
       "qtyMax": null,
-      "unit": null,
-      "item": "g/1 lb chicken tenderloins (or breast cut into 2/3\" / 1.5cm thick slices, lengthwise)",
+      "unit": "g",
+      "item": "chicken tenderloins",
       "prep": null,
-      "note": null
+      "note": "or breasts cut lengthwise into 2/3-inch / 1.5 cm thick slices"
     },
     {
       "raw": "Oil spray",
@@ -138,19 +138,34 @@
       "item": null,
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "Chopped fresh parsley, for serving (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
     }
   ],
   "steps": [
-    "Preheat oven to 200C/390F.",
-    "Spread panko on a baking tray, spray with oil (spray vertically to avoid blowing the panko off the tray), then bake for 3 to 5 minutes until light golden. Transfer to bowl.",
-    "Place a rack on a baking tray (not critical but bakes more evenly).",
-    "Place the Batter ingredients in a bowl and whisk with a fork until combined.",
-    "Add the chicken into the Batter and toss to coat.",
-    "Pick up chicken with tongs and place it into the panko bowl.",
-    "Sprinkle surface with breadcrumbs, then press down to adhere. Transfer onto baking tray. Marvel at clean fingers, repeat with remaining chicken.",
-    "Spray lightly with oil, sprinkle with a touch of salt (optional). Bake 15 minutes (medium) or up to 20 minutes if gigantic. Any longer = dried out chicken.",
-    "Remove from oven and serve immediately, with your sauce of choice (honey mustard is great) and sprinkled with fresh parsley, if desired."
+    "Preheat the oven to 390°F (200°C; 355°F / 180°C fan).",
+    "Toast the panko: Spread it on a baking tray, spray with oil (spray from above so the crumbs do not blow off), and bake 3-5 minutes until light golden. Transfer to a bowl.",
+    "Set a rack on a baking tray; it helps the tenders bake evenly but is not essential.",
+    "Whisk the batter ingredients with a fork until combined. Add the chicken and toss to coat.",
+    "With tongs, lift each piece into the panko bowl, sprinkle crumbs over the top, and press to adhere. Transfer to the rack. Repeat with the rest.",
+    "Spray lightly with oil and sprinkle with a touch of salt if you like. Bake 15 minutes, or up to 20 for very large pieces, until golden and 165°F inside. Longer dries them out.",
+    "Serve right away with a dipping sauce (honey mustard works well) and a sprinkle of parsley."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.recipetineats.com/truly-golden-crunchy-baked-chicken-tenders-less-mess/",
+      "site": "RecipeTin Eats",
+      "title": "Crispy Oven Baked Chicken Tenders",
+      "usedFor": "fan-forced temperature, servings, total time",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

@@ -3,9 +3,9 @@
   "name": "Crispy Cream Doughnuts",
   "category": "Desserts",
   "emoji": "🍩",
-  "desc": "Yeasted doughnuts fried golden and dipped in warm vanilla glaze",
-  "time": "3 hrs",
-  "minutes": 180,
+  "desc": "Yeast-raised doughnuts fried golden and dipped warm in a butter and vanilla glaze.",
+  "time": "2 hrs 45 min",
+  "minutes": 165,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
@@ -17,8 +17,8 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 18,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
@@ -29,7 +29,7 @@
       "unit": "packet",
       "item": "active dry yeast",
       "prep": null,
-      "note": "1/4 oz"
+      "note": "1/4 oz each"
     },
     {
       "raw": "1/4 cup warm water (105-115°F)",
@@ -41,11 +41,11 @@
       "note": "105-115°F"
     },
     {
-      "raw": "1 1/2 cups lukewarm milk",
+      "raw": "1 1/2 cups lukewarm whole milk",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "lukewarm milk",
+      "item": "lukewarm whole milk",
       "prep": null,
       "note": null
     },
@@ -59,40 +59,40 @@
       "note": null
     },
     {
-      "raw": "1 tsp salt",
+      "raw": "1 tsp fine salt",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 eggs",
+      "raw": "2 large eggs",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "eggs",
+      "item": "large eggs",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/3 cup shortening",
+      "raw": "1/3 cup vegetable shortening",
       "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
-      "item": "shortening",
+      "item": "vegetable shortening",
       "prep": null,
       "note": null
     },
     {
-      "raw": "5 cups all-purpose flour",
+      "raw": "5 cups all-purpose flour, plus more for rolling",
       "qty": 5,
       "qtyMax": null,
       "unit": "cup",
       "item": "all-purpose flour",
       "prep": null,
-      "note": null
+      "note": "plus more for rolling"
     },
     {
       "raw": "1 quart vegetable oil, for frying",
@@ -113,11 +113,11 @@
       "note": null
     },
     {
-      "raw": "1/3 cup butter",
+      "raw": "1/3 cup unsalted butter",
       "qty": 0.3333333333333333,
       "qtyMax": null,
       "unit": "cup",
-      "item": "butter",
+      "item": "unsalted butter",
       "prep": null,
       "note": null
     },
@@ -150,11 +150,26 @@
     }
   ],
   "steps": [
-    "Dissolve yeast. Mix with milk, sugar, salt, eggs, shortening, and flour. Knead 5 min. Let rise until doubled.",
-    "Roll 1/2 inch, cut with cutter. Rise again.",
-    "Make glaze: melt butter, stir in powdered sugar, vanilla, water.",
-    "Fry at 350°F until golden. Dip in warm glaze."
+    "Sprinkle the yeast over the warm water in a small bowl and let stand about 5 minutes, until foamy.",
+    "In a large bowl, mix the yeast mixture, milk, sugar, salt, eggs, shortening and 2 cups of the flour on low speed for a few minutes.",
+    "Beat in the remaining flour 1/2 cup at a time, until the dough no longer sticks to the bowl.",
+    "Knead about 5 minutes, until smooth and elastic. Place in a greased bowl, cover, and let rise in a warm spot until doubled, about 1 hour.",
+    "Roll the dough 1/2 inch thick on a floured surface and cut with a floured doughnut cutter. Set the doughnuts and holes on floured parchment, cover, and let rise until puffy, about 30 minutes.",
+    "Heat the oil in a deep fryer or heavy pot to 350°F.",
+    "Glaze: melt the butter in a saucepan over medium heat. Stir in the powdered sugar and vanilla until smooth. Remove from the heat and stir in the hot water 1 tbsp at a time until the glaze is thin and runny.",
+    "Fry a few doughnuts at a time without crowding, about 1 minute per side, until golden brown.",
+    "Dip each doughnut in the glaze while still warm and set on a wire rack over a baking sheet to let the excess drip off."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The food.com original fries the doughnuts right after cutting; the second rise here gives a lighter doughnut."
+  ],
+  "references": [
+    {
+      "url": "https://www.food.com/recipe/crispy-and-creamy-doughnuts-279521",
+      "site": "Food.com",
+      "title": "Crispy and Creamy Doughnuts",
+      "usedFor": "yeast bloom, adding flour in stages, glaze consistency, golden brown cue, rack over a sheet pan, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

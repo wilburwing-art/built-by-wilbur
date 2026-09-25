@@ -3,23 +3,23 @@
   "name": "Thai Turkey Burgers",
   "category": "Lunch",
   "emoji": "🍔",
-  "desc": "Lemongrass and ginger turkey patties with crunchy Asian slaw",
+  "desc": "Lemongrass, ginger, and Thai basil turkey burgers with a crunchy lime slaw and spicy aioli.",
   "time": "45 min",
   "minutes": 45,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.feastingathome.com/thai-turkey-burgers/",
+    "site": "Feasting At Home",
+    "title": "Thai Turkey Burger Recipe",
+    "matchType": "original",
+    "evidence": "Burger, slaw and aioli ingredient lines match Feasting At Home's recipe card, using the fish sauce option in place of salt; this version halves the lime zest (1 tsp) and doubles the sugar (1 tsp).",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://www.feastingathome.com/thai-turkey-burgers/"
   },
   "ingredients": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "raw": "1 lb ground turkey",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "lb",
       "item": "ground turkey",
@@ -42,7 +42,7 @@
     },
     {
       "raw": "3 tbsp shallot, very finely diced (or red onion)",
-      "qty": 3,
+      "qty": 3.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "shallot",
@@ -50,17 +50,17 @@
       "note": "or red onion"
     },
     {
-      "raw": "1 1/2 tsp fresh ginger, grated or chopped",
+      "raw": "1 1/2 tsp fresh ginger, grated or finely chopped",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "tsp",
       "item": "fresh ginger",
-      "prep": "grated or chopped",
+      "prep": "grated or finely chopped",
       "note": null
     },
     {
       "raw": "2 garlic cloves, finely minced (or 1 tsp granulated garlic)",
-      "qty": 2,
+      "qty": 2.0,
       "qtyMax": null,
       "unit": null,
       "item": "garlic cloves",
@@ -69,7 +69,7 @@
     },
     {
       "raw": "1 tbsp finely chopped lemongrass",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "finely chopped lemongrass",
@@ -78,7 +78,7 @@
     },
     {
       "raw": "2 tbsp chopped Thai basil (or regular basil, cilantro, or mint)",
-      "qty": 2,
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "chopped Thai basil",
@@ -87,7 +87,7 @@
     },
     {
       "raw": "1 tsp lime zest",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "lime zest",
@@ -96,7 +96,7 @@
     },
     {
       "raw": "1 scallion, chopped",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
       "item": "scallion",
@@ -114,7 +114,7 @@
     },
     {
       "raw": "1 tbsp fish sauce (or soy sauce)",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "fish sauce",
@@ -123,7 +123,7 @@
     },
     {
       "raw": "1 tsp granulated sugar",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "granulated sugar",
@@ -140,6 +140,15 @@
       "note": "optional"
     },
     {
+      "raw": "2 tsp olive oil, for the grill",
+      "qty": 2.0,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": "for the grill",
+      "note": null
+    },
+    {
       "raw": "Crunchy Asian slaw:",
       "qty": null,
       "qtyMax": null,
@@ -150,7 +159,7 @@
     },
     {
       "raw": "1 cup grated carrots",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "cup",
       "item": "grated carrots",
@@ -159,7 +168,7 @@
     },
     {
       "raw": "1 cup shredded purple cabbage",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "cup",
       "item": "shredded purple cabbage",
@@ -168,7 +177,7 @@
     },
     {
       "raw": "1 scallion, thinly sliced",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
       "item": "scallion",
@@ -177,7 +186,7 @@
     },
     {
       "raw": "2 tbsp lime juice (or rice wine vinegar)",
-      "qty": 2,
+      "qty": 2.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "lime juice",
@@ -186,7 +195,7 @@
     },
     {
       "raw": "1 tbsp olive oil",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "olive oil",
@@ -195,7 +204,7 @@
     },
     {
       "raw": "1 tsp granulated sugar",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "granulated sugar",
@@ -203,11 +212,20 @@
       "note": null
     },
     {
-      "raw": "1/4 tsp each salt and black pepper",
+      "raw": "1/4 tsp kosher salt",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "each salt and black pepper",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
       "prep": null,
       "note": null
     },
@@ -231,29 +249,50 @@
     },
     {
       "raw": "1-2 tbsp sriracha or chili garlic sauce",
-      "qty": 1,
-      "qtyMax": 2,
+      "qty": 1.0,
+      "qtyMax": 2.0,
       "unit": "tbsp",
       "item": "sriracha or chili garlic sauce",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Toasted buns, for serving (optional)",
+      "raw": "To serve:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
       "item": null,
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "4 hamburger buns, toasted",
+      "qty": 4.0,
+      "qtyMax": null,
+      "unit": null,
+      "item": "hamburger buns",
+      "prep": "toasted",
+      "note": null
     }
   ],
   "steps": [
-    "Mix all burger ingredients together gently. Form into 3-4 patties.",
-    "Toss slaw ingredients together and set aside. Mix aioli ingredients.",
-    "Grill burgers over medium heat until cooked through, about 5-6 minutes per side.",
-    "Serve on toasted buns with slaw and aioli."
+    "Combine all the burger ingredients except the oil in a bowl, breaking up the turkey with a fork, then knead gently with a wet hand until mixed. The mixture will be soft. With damp hands, shape into 3 or 4 patties and refrigerate until ready to cook.",
+    "Toss the slaw ingredients together and set aside. Mix the mayonnaise and sriracha for the aioli.",
+    "Preheat a grill to medium and brush the grates with the oil. Grill the burgers until golden and 165°F in the center, 5 to 6 minutes per side.",
+    "Toast the buns on the grill. Spread aioli on the bottom buns and top with the patties, slaw, more aioli, and the top buns."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Feasting At Home pulls the patties at 160°F and lets carryover heat finish them; ground turkey is safe at 165°F, so check the center before serving.",
+    "To pan-sear instead, cook the patties in an oiled skillet over medium heat for the same time.",
+    "The slaw can be made a day ahead and the aioli up to 3 days ahead."
+  ],
+  "references": [
+    {
+      "url": "https://web.archive.org/web/2026/https://www.feastingathome.com/thai-turkey-burgers/",
+      "site": "Feasting At Home (Wayback Machine copy)",
+      "title": "Thai Turkey Burger Recipe",
+      "usedFor": "wet-hand mixing, chilling patties, oiling the grill, bun build order, make-ahead times, yield of 4",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

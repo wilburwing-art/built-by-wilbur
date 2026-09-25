@@ -1,0 +1,167 @@
+{
+  "slug": "campfire-churros",
+  "name": "Campfire Churros",
+  "category": "Desserts",
+  "emoji": "🔥",
+  "desc": "Choux-style churros piped into hot oil on a camp stove, tossed in cinnamon sugar and dipped in warm Nutella.",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DGb5xdyyRyB/",
+    "site": "Instagram @hipcampau",
+    "title": "Campfire Churros",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 2,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Dough:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup water",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp unsalted butter",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tbsp granulated sugar",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pinch fine salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "fine salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup all-purpose flour",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large egg",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large egg",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp vanilla extract",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Frying and coating:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 cups vegetable oil, for frying (about 2 in deep)",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "vegetable oil",
+      "prep": "for frying",
+      "note": "about 2 in deep"
+    },
+    {
+      "raw": "1/2 cup granulated sugar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp ground cinnamon",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup Nutella, warmed, for dipping",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Nutella",
+      "prep": "warmed, for dipping",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Mix the 1/2 cup sugar and the cinnamon in a shallow bowl or zip bag.",
+    "In a small saucepan over medium-high heat, bring the water, butter, 1 1/2 tbsp sugar and salt to a boil, until the butter melts.",
+    "Turn the heat to low, add the flour all at once, and stir hard with a wooden spoon until the dough forms a smooth ball that pulls away from the sides, about 1 min.",
+    "Move the dough to a bowl and cool 10 min.",
+    "Beat in the egg and vanilla until smooth and glossy. Spoon into a piping bag with a large star tip, or a zip bag with a corner snipped.",
+    "Heat the oil in a heavy pot on the camp stove to 350-375°F; a bit of dough should sizzle and float right away.",
+    "Pipe 4-5 in lengths into the oil a few at a time, snipping them off with scissors. Fry, turning once, until deep golden brown all over, 3-4 min.",
+    "Drain on paper towels, then toss in the cinnamon sugar while warm.",
+    "Warm the Nutella in a small pan over low heat (or set the jar in hot water) and serve for dipping."
+  ],
+  "tips": [
+    "The choux-style dough works on a camp stove as well as at home.",
+    "Keep the oil between 350 and 375°F. Hotter browns the outside before the center cooks."
+  ],
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/24700/churros/",
+      "site": "Allrecipes",
+      "title": "Churros",
+      "usedFor": "oil temperature range, cinnamon sugar amounts, star tip, stirring flour until a ball forms",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

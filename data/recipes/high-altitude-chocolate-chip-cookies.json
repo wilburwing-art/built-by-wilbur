@@ -3,40 +3,40 @@
   "name": "High Altitude Chocolate Chip Cookies",
   "category": "Desserts",
   "emoji": "🍪",
-  "desc": "Adjusted for altitude: perfectly chewy chocolate chip cookies every time",
-  "time": "25 min",
-  "minutes": 25,
+  "desc": "Chewy chocolate chip cookies with an extra egg and extra flour to hold their shape at altitude.",
+  "time": "45 min",
+  "minutes": 45,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/130736/ultimate-high-altitude-chocolate-chip-cookies/",
+    "site": "Allrecipes",
+    "title": "Ultimate High-Altitude Chocolate Chip Cookies",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and amounts (3 eggs, 3 1/2 cups flour, 1 cup each white and brown sugar, 1 cup chips) and the same heaping-teaspoon drop and 350°F, 12 to 15 minute bake.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 48,
+    "basis": "publisher",
+    "source": "https://www.allrecipes.com/recipe/130736/ultimate-high-altitude-chocolate-chip-cookies/"
   },
   "ingredients": [
     {
-      "raw": "1 cup butter or margarine",
+      "raw": "1 cup (2 sticks) unsalted butter, softened",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "butter or margarine",
-      "prep": null,
-      "note": null
+      "item": "unsalted butter",
+      "prep": "softened",
+      "note": "2 sticks"
     },
     {
-      "raw": "1 cup white sugar",
+      "raw": "1 cup granulated sugar",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "white sugar",
+      "item": "granulated sugar",
       "prep": null,
       "note": null
     },
@@ -50,11 +50,11 @@
       "note": null
     },
     {
-      "raw": "3 eggs",
+      "raw": "3 large eggs",
       "qty": 3,
       "qtyMax": null,
       "unit": null,
-      "item": "eggs",
+      "item": "large eggs",
       "prep": null,
       "note": null
     },
@@ -68,11 +68,11 @@
       "note": null
     },
     {
-      "raw": "1/2 tsp salt",
+      "raw": "1/2 tsp fine salt",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
@@ -105,10 +105,21 @@
     }
   ],
   "steps": [
-    "Stir butter and sugars. Mix in eggs and vanilla.",
-    "Combine flour, baking soda, salt. Stir in. Add chips.",
-    "Drop by teaspoonfuls. Bake at 350°F 12-15 min until edges are golden."
+    "Preheat the oven to 350°F.",
+    "Whisk the flour, baking soda and salt together in a bowl.",
+    "Beat the butter, granulated sugar and brown sugar with an electric mixer until smooth. Beat in the eggs one at a time, then the vanilla.",
+    "Add the flour mixture and beat only until incorporated. Stir in the chocolate chips.",
+    "Drop heaping teaspoonfuls of dough 2 inches apart onto ungreased baking sheets.",
+    "Bake 12-15 minutes, until the edges begin to turn golden. Cool a few minutes on the sheets, then move to wire racks."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/130736/ultimate-high-altitude-chocolate-chip-cookies/",
+      "site": "Allrecipes",
+      "title": "Ultimate High-Altitude Chocolate Chip Cookies",
+      "usedFor": "unsalted butter, mixing order, 2-inch spacing on ungreased sheets, cooling, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

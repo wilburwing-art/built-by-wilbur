@@ -1,0 +1,477 @@
+{
+  "slug": "5-crockpot-meal-prep-proteins",
+  "name": "5 Crockpot Meal Prep Proteins",
+  "category": "Dinner",
+  "emoji": "🍲",
+  "desc": "Five dump-and-go slow cooker proteins to portion for the week: lemon herb chicken, honey garlic beef, buffalo chicken chili, sesame ginger chicken, and Tuscan chicken.",
+  "time": "8 hrs 15 min",
+  "minutes": 495,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DTIn9EODZyo/",
+    "site": "Instagram @mckboroughs",
+    "title": "5 Crockpot Meal Prep Proteins",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 30,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Creamy lemon herb chicken (305 cal, 44g P):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 lb boneless skinless chicken breasts",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless skinless chicken breasts",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup low-sodium chicken broth",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "low-sodium chicken broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Zest and juice of 1 lemon",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp dried oregano",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp dried thyme",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried thyme",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp kosher salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup plain nonfat Greek yogurt (stirred in at the end)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "plain nonfat Greek yogurt",
+      "prep": null,
+      "note": "stirred in at the end"
+    },
+    {
+      "raw": "Honey garlic shredded beef (370 cal, 39g P):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 lb beef chuck roast",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "beef chuck roast",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup low-sodium beef broth",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "low-sodium beef broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup low-sodium soy sauce",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "low-sodium soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup honey",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "honey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp minced garlic",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "minced garlic",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp ground ginger",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground ginger",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Buffalo chicken chili (345 cal, 41g P):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 lb boneless skinless chicken breasts",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless skinless chicken breasts",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (15 oz) can black beans, drained and rinsed",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "black beans",
+      "prep": "drained and rinsed",
+      "note": "15 oz"
+    },
+    {
+      "raw": "1 (15 oz) can white (cannellini) beans, drained and rinsed",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "white (cannellini) beans",
+      "prep": "drained and rinsed",
+      "note": "15 oz"
+    },
+    {
+      "raw": "1 (14.5 oz) can diced tomatoes",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "diced tomatoes",
+      "prep": null,
+      "note": "14.5 oz"
+    },
+    {
+      "raw": "1/2 cup buffalo sauce",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "buffalo sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup low-sodium chicken broth",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "low-sodium chicken broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp chili powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sesame ginger chicken (360 cal, 37g P):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 lb boneless skinless chicken thighs",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless skinless chicken thighs",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup low-sodium chicken broth",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "low-sodium chicken broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup low-sodium soy sauce",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "low-sodium soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp honey",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "honey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp toasted sesame oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "toasted sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp rice vinegar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "rice vinegar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp freshly grated ginger",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "freshly grated ginger",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 garlic cloves, minced",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "Optional: 1 tbsp cornstarch + 2 tbsp water, stirred in at the end",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cornstarch",
+      "prep": "stirred in at the end",
+      "note": "optional; with 2 tbsp water"
+    },
+    {
+      "raw": "Creamy Tuscan chicken (310 cal, 44g P):",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 lb boneless skinless chicken breasts",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless skinless chicken breasts",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup low-sodium chicken broth",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "low-sodium chicken broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup oil-packed sun-dried tomatoes, drained and chopped",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "oil-packed sun-dried tomatoes",
+      "prep": "drained and chopped",
+      "note": null
+    },
+    {
+      "raw": "3 garlic cloves, minced",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "2 tsp Italian seasoning",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "Italian seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp kosher salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup plain nonfat Greek yogurt (stirred in at the end)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "plain nonfat Greek yogurt",
+      "prep": null,
+      "note": "stirred in at the end"
+    }
+  ],
+  "steps": [
+    "All five: Put each protein in its own slow cooker with every ingredient in its group except the Greek yogurt and the cornstarch slurry. Whisk the liquids and seasonings together first and pour them over the meat.",
+    "All five: Cook the chicken on LOW 6-8 hr or HIGH 3-4 hr, until it shreds easily and reads at least 165°F. Cook the beef on LOW 8 hr, until it pulls apart with a fork.",
+    "Lemon herb chicken: Shred the chicken in the juices. Let it stand 5 min off heat, then stir in the Greek yogurt so it does not curdle.",
+    "Honey garlic beef: Lift out the beef, shred it with two forks, discard any large pieces of fat, and toss it back in the sauce.",
+    "Buffalo chicken chili: Lift out the chicken, shred it, and stir it back into the beans and tomatoes.",
+    "Sesame ginger chicken: Shred the chicken. For a thicker sauce, whisk the cornstarch into the 2 tbsp water, stir it into the cooker, and cook on HIGH 15-20 min until glossy.",
+    "Tuscan chicken: Shred the chicken, let it stand 5 min off heat, then stir in the Greek yogurt.",
+    "All five: Taste and adjust the seasoning, then portion each into 6 containers. Refrigerate up to 4 days."
+  ],
+  "tips": [
+    "Each protein makes 6 servings. Add a carb and a vegetable to build meals.",
+    "Chicken breasts are done well before 8 hours on LOW; most published slow cooker versions call for 4-6 hr on LOW, so start checking for 165°F at 4 hours."
+  ],
+  "references": [
+    {
+      "url": "https://coconutsandkettlebells.com/slow-cooker-greek-chicken/",
+      "site": "Coconuts & Kettlebells",
+      "title": "Slow Cooker Greek Chicken",
+      "usedFor": "salt and pepper amounts for 2 lb chicken with lemon, oregano and thyme; 165°F doneness",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.slenderkitchen.com/recipe/sunday-slow-cooker-sesame-ginger-chicken",
+      "site": "Slender Kitchen",
+      "title": "Slow Cooker Sesame Ginger Chicken",
+      "usedFor": "cornstarch slurry method on HIGH; 3-4 hr LOW timing for chicken",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://whitneybond.com/buffalo-chicken-chili/",
+      "site": "Whitney Bond",
+      "title": "Slow Cooker Buffalo Chicken Chili",
+      "usedFor": "15 oz bean can size and chili powder amount for 2 lb chicken",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

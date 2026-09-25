@@ -3,23 +3,23 @@
   "name": "Chocolate Oreo Crumbl Cookie",
   "category": "Desserts",
   "emoji": "🍪",
-  "desc": "Black cocoa cookie loaded with crushed Oreos and cream cheese frosting",
-  "time": "45 min",
-  "minutes": 45,
+  "desc": "Giant black cocoa cookies packed with crushed Oreos, piped with cream cheese frosting.",
+  "time": "1 hr",
+  "minutes": 60,
   "difficulty": "Medium",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://cookingwithkarli.com/chocolate-oreo-crumbl-cookie/",
+    "site": "Cooking With Karli",
+    "title": "Chocolate Oreo Crumbl Cookie",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and amounts (1 1/2 cups salted butter, 1 cup black cocoa, 2 1/2 cups crushed Oreos, the same frosting) and the same half-cup portion and 12 to 15 minute bake.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 24,
+    "basis": "publisher",
+    "source": "https://cookingwithkarli.com/chocolate-oreo-crumbl-cookie/"
   },
   "ingredients": [
     {
@@ -32,76 +32,76 @@
       "note": null
     },
     {
-      "raw": "1 1/2 cups salted butter",
+      "raw": "1 1/2 cups (333 g) salted butter, softened",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "cup",
       "item": "salted butter",
-      "prep": null,
-      "note": null
+      "prep": "softened",
+      "note": "333 g"
     },
     {
-      "raw": "3/4 cup granulated sugar",
+      "raw": "3/4 cup (173 g) granulated sugar",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "cup",
       "item": "granulated sugar",
       "prep": null,
-      "note": null
+      "note": "173 g"
     },
     {
-      "raw": "1 1/2 cups brown sugar",
+      "raw": "1 1/2 cups (369 g) packed brown sugar",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "brown sugar",
+      "item": "packed brown sugar",
       "prep": null,
-      "note": null
+      "note": "369 g"
     },
     {
-      "raw": "2 eggs",
+      "raw": "2 large eggs",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "eggs",
+      "item": "large eggs",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tbsp vanilla",
+      "raw": "1 tbsp vanilla extract",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "vanilla",
+      "item": "vanilla extract",
       "prep": null,
       "note": null
     },
     {
-      "raw": "3 cups all purpose flour",
+      "raw": "3 cups (456 g) all-purpose flour",
       "qty": 3,
       "qtyMax": null,
       "unit": "cup",
-      "item": "all purpose flour",
+      "item": "all-purpose flour",
       "prep": null,
-      "note": null
+      "note": "456 g"
     },
     {
-      "raw": "1 cup black cocoa powder",
+      "raw": "1 cup (120 g) black cocoa powder",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
       "item": "black cocoa powder",
       "prep": null,
-      "note": null
+      "note": "120 g"
     },
     {
-      "raw": "2 1/2 cups crushed Oreos (about 40 Oreos)",
+      "raw": "2 1/2 cups (220 g) finely crushed Oreos (about 40 cookies)",
       "qty": 2.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "crushed Oreos",
-      "prep": null,
-      "note": "about 40 Oreos"
+      "item": "Oreos",
+      "prep": "finely crushed",
+      "note": "220 g, about 40 cookies"
     },
     {
       "raw": "2 tsp baking soda",
@@ -122,11 +122,11 @@
       "note": null
     },
     {
-      "raw": "1/2 tsp salt",
+      "raw": "1/2 tsp fine salt",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
@@ -140,75 +140,81 @@
       "note": null
     },
     {
-      "raw": "1/4 cup salted butter, softened",
+      "raw": "1/4 cup (56 g) salted butter, softened",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
       "item": "salted butter",
       "prep": "softened",
-      "note": null
+      "note": "56 g"
     },
     {
-      "raw": "8 oz cream cheese, room temperature",
-      "qty": 8,
+      "raw": "1 (8 oz) package cream cheese, room temperature",
+      "qty": 1,
       "qtyMax": null,
-      "unit": "oz",
+      "unit": "package",
       "item": "cream cheese",
       "prep": "room temperature",
-      "note": null
+      "note": "8 oz"
     },
     {
-      "raw": "2 tsp vanilla",
+      "raw": "2 tsp vanilla extract",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "vanilla",
+      "item": "vanilla extract",
       "prep": null,
       "note": null
     },
     {
-      "raw": "4 cups powdered sugar",
+      "raw": "4 cups (428 g) powdered sugar",
       "qty": 4,
       "qtyMax": null,
       "unit": "cup",
       "item": "powdered sugar",
       "prep": null,
-      "note": null
+      "note": "428 g"
     },
     {
-      "raw": "Milk, to thin if needed",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "raw": "1-3 tsp whole milk, to thin if needed",
+      "qty": 1,
+      "qtyMax": 3,
+      "unit": "tsp",
+      "item": "whole milk",
       "prep": null,
-      "note": null
+      "note": "to thin if needed"
     },
     {
-      "raw": "Extra crushed Oreos, for garnish",
-      "qty": null,
+      "raw": "1/4 cup crushed Oreos (about 4 cookies), for garnish",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
+      "unit": "cup",
+      "item": "crushed Oreos",
+      "prep": "for garnish",
+      "note": "about 4 cookies"
     }
   ],
   "steps": [
-    "Preheat oven to 350°.",
-    "Cream together the butter, granulated sugar and brown sugar.",
-    "Add the eggs and vanilla. Mix until light in color and creamy.",
-    "Add in the dry ingredients (flour, black cocoa, crushed oreos, baking soda, baking powder and salt), mix into the dough. Mix until completely combined.",
-    "Portion out the dough into 1/2 cup portions. Roll into a ball and arrange 6 onto each cookie sheet. Press down slightly on the cookie dough, flattening it into what looks like a hockey puck.",
-    "Bake for 12-15 minutes, until the cookies are no longer glossy on the top.",
-    "Allow the cookies to cool on the pan for 20 minutes before frosting.",
-    "While the cookies are cooling, make the frosting by whipping the butter, cream cheese and vanilla until smooth.",
-    "Add the powdered sugar, one cup at a time.",
-    "Add milk a tsp at a time until you've reached your desired consistency, if needed.",
-    "Add the frosting to a gallon sized zip top bag, cut the corner of the bag and use it to pipe the frosting onto the warm cookies in a spiral.",
-    "Add extra crushed Oreos on top for garnish.",
-    "Serve warm. Store in and air tight container either in the fridge or on the counter."
+    "Preheat the oven to 350°F and line two baking sheets with parchment paper.",
+    "Cream the butter, granulated sugar and brown sugar with a mixer until fluffy, 2-3 minutes.",
+    "Add the eggs and vanilla and beat until light in color and creamy.",
+    "Add the flour, black cocoa, crushed Oreos, baking soda, baking powder and salt. Mix on low until completely combined with no dry streaks.",
+    "Portion the dough into 1/2 cup balls (about 12). Place 6 on each sheet and press each down into a thick hockey puck about 1 inch tall.",
+    "Bake 12-15 minutes, until the tops are no longer glossy. Cool on the pan 20 minutes.",
+    "While the cookies cool, make the frosting: beat the butter, cream cheese and vanilla until smooth, then beat in the powdered sugar 1 cup at a time. Add milk 1 tsp at a time only if it is too stiff to pipe.",
+    "Spoon the frosting into a gallon zip-top bag, snip one corner, and pipe a spiral onto each still-warm cookie. Sprinkle with crushed Oreos.",
+    "Serve warm or at room temperature. Store leftovers airtight in the refrigerator."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Black cocoa is what gives the Oreo color and flavor; regular or Dutch-process cocoa makes a lighter brown cookie."
+  ],
+  "references": [
+    {
+      "url": "https://cookingwithkarli.com/chocolate-oreo-crumbl-cookie/",
+      "site": "Cooking With Karli",
+      "title": "Chocolate Oreo Crumbl Cookie",
+      "usedFor": "gram weights, Oreo count, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

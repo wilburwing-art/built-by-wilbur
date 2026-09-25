@@ -1,0 +1,242 @@
+{
+  "slug": "ribeye-meatballs-on-mashed-potatoes",
+  "name": "Ribeye Meatballs on Mashed Potatoes",
+  "category": "Dinner",
+  "emoji": "🍝",
+  "desc": "Large ground ribeye meatballs poached in a chunky onion and tomato marinara, served over olive oil mashed potatoes.",
+  "time": "50 min",
+  "minutes": 50,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/C2BFHnsSL7P/",
+    "site": "Instagram @ronrofe",
+    "title": "Ribeye Meatballs on Mashed Potatoes",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Meatballs:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1.5 lb ground ribeye",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "ground ribeye",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp kosher salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp sweet paprika",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sweet paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Chunky marinara:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp extra-virgin olive oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "extra-virgin olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 medium yellow onion, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "medium yellow onion",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1 cup cherry tomatoes, halved",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cherry tomatoes",
+      "prep": "halved",
+      "note": null
+    },
+    {
+      "raw": "1 (24 oz) jar marinara sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "jar",
+      "item": "marinara sauce",
+      "prep": null,
+      "note": "24 oz"
+    },
+    {
+      "raw": "Mashed potatoes:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 lb Yukon Gold potatoes, peeled and cut into 1-inch cubes",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "Yukon Gold potatoes",
+      "prep": "peeled and cut into 1-inch cubes",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp kosher salt, for the cooking water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "kosher salt",
+      "prep": "for the cooking water",
+      "note": null
+    },
+    {
+      "raw": "1/3 cup extra-virgin olive oil",
+      "qty": 0.3333333333333333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "extra-virgin olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup reserved potato cooking water",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "reserved potato cooking water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Salt, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Garnish:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp fresh cilantro, chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh cilantro",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "2 green onions (baby onions), thinly sliced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "green onions",
+      "prep": "thinly sliced",
+      "note": "baby onions"
+    },
+    {
+      "raw": "Flaky salt, for finishing",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Put the potatoes in a large pot with the salt and cover with cold water by 4 inches. Bring to a boil, then simmer rapidly about 15 minutes, until they fall apart when poked.",
+    "Meanwhile, heat the olive oil in a wide, deep skillet over medium heat. Cook the onion until soft, 5-6 minutes. Add the cherry tomatoes and cook 3 minutes, then add the marinara and bring to a simmer.",
+    "Gently mix the ribeye with the salt, pepper and paprika and roll into 8 large meatballs (about 3 oz each). Do not pack them tight.",
+    "Drop the raw meatballs into the simmering sauce and spoon sauce over them. Cover and simmer over medium-low 25-30 minutes, turning once, until they read 160°F in the center.",
+    "Reserve 1 cup of potato water, then drain the potatoes and return them to the pot for a minute to steam dry. Mash with the olive oil and enough reserved water to make them creamy. Season with salt.",
+    "Spoon the mash onto plates, top with meatballs and sauce, and finish with cilantro, green onions and flaky salt."
+  ],
+  "tips": [
+    "Mash by hand; a blender or food processor turns potatoes gluey.",
+    "The caption lists olive oil with the potatoes; RecipeTin Eats' classic mash uses 4 tbsp butter and 1/2 cup warm milk per 3 lb potatoes if you want a richer version.",
+    "The caption names \"baby onions\" as a garnish; sliced green onions or halved pearl onions both fit."
+  ],
+  "references": [
+    {
+      "url": "https://www.foodiecrush.com/meatballs-tomato-sauce/",
+      "site": "foodiecrush",
+      "title": "Meatballs in Tomato Sauce",
+      "usedFor": "dropping raw meatballs into simmering sauce and cooking covered until cooked through",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://mortadellahead.com/how-to-cook-meatballs-on-the-stove-in-sauce/",
+      "site": "Mortadella Head",
+      "title": "How to Cook Meatballs on the Stove in Sauce",
+      "usedFor": "simmer time of about 30 min over medium-low",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.recipetineats.com/mashed-potato/",
+      "site": "RecipeTin Eats",
+      "title": "Creamy Mashed Potato",
+      "usedFor": "boiling method and time, steam-drying, mash by hand, butter and milk alternative",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

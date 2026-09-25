@@ -3,45 +3,45 @@
   "name": "M&M Cookies",
   "category": "Desserts",
   "emoji": "🍪",
-  "desc": "Thick chocolate chip cookies loaded with M&Ms, better after a day in the fridge",
-  "time": "30 min",
-  "minutes": 30,
+  "desc": "Thick chocolate chip cookies loaded with M&M's, better after a day in the fridge.",
+  "time": "50 min",
+  "minutes": 50,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.iheartnaptime.net/best-mm-cookies/",
+    "site": "I Heart Naptime",
+    "title": "Best M&M Cookie Recipe",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and amounts (just barely softened butter, 1 cup light brown sugar, 3/4 cup granulated, 3 cups flour, 1 cup each chips and M&M's) and the same 15 to 60 minute chill and 375°F bake.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 24,
+    "basis": "publisher",
+    "source": "https://www.iheartnaptime.net/best-mm-cookies/"
   },
   "ingredients": [
     {
-      "raw": "1 cup unsalted butter, just barely softened",
+      "raw": "1 cup (2 sticks) unsalted butter, barely softened",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "unsalted butter, just barely softened",
+      "item": "unsalted butter",
+      "prep": "barely softened",
+      "note": "2 sticks"
+    },
+    {
+      "raw": "1 cup packed light brown sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "packed light brown sugar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 cup light brown sugar, packed",
-      "qty": 1,
-      "qtyMax": null,
-      "unit": "cup",
-      "item": "light brown sugar",
-      "prep": "packed",
-      "note": null
-    },
-    {
-      "raw": "¾ cup granulated sugar",
+      "raw": "3/4 cup granulated sugar",
       "qty": 0.75,
       "qtyMax": null,
       "unit": "cup",
@@ -59,7 +59,7 @@
       "note": null
     },
     {
-      "raw": "2 teaspoons vanilla extract",
+      "raw": "2 tsp vanilla extract",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
@@ -77,7 +77,7 @@
       "note": null
     },
     {
-      "raw": "1 teaspoon baking soda",
+      "raw": "1 tsp baking soda",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
@@ -86,44 +86,52 @@
       "note": null
     },
     {
-      "raw": "1 teaspoon salt",
+      "raw": "1 tsp fine salt",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 cup chocolate chips",
+      "raw": "1 cup semisweet chocolate chips",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "chocolate chips",
+      "item": "semisweet chocolate chips",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 cup M&M’s, plus more for tops if desired",
+      "raw": "1 cup milk chocolate M&M's, plus more for the tops if desired",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "M&M’s",
-      "prep": "plus more for tops if desired",
-      "note": null
+      "item": "milk chocolate M&M's",
+      "prep": null,
+      "note": "plus more for the tops if desired"
     }
   ],
   "steps": [
-    "Preheat the oven to 375°F. Line two baking sheets with silicone baking mats or parchment paper.",
-    "In a large bowl, cream together the softened butter, brown sugar, and granulated sugar for 1 minute.",
+    "Line two baking sheets with silicone baking mats or parchment paper.",
+    "In a large bowl, cream the butter, brown sugar and granulated sugar for 1 minute.",
     "Add the eggs and vanilla and mix until combined.",
-    "Add the flour, baking soda, and salt. Mix just until combined.",
-    "Fold in the chocolate chips and M&M’s.",
-    "Refrigerate the dough for 15-60 minutes (or up to 24 hours).",
-    "Using a large cookie scoop (about 3 tablespoons), scoop the dough onto the baking sheets about 2 inches apart. Add extra M&M’s on top if desired.",
-    "Bake for 7-10 minutes, or until the edges are barely golden brown.",
-    "Let cookies set on the pan for 2 minutes, then transfer to a cooling rack."
+    "Add the flour, baking soda and salt and mix only until combined.",
+    "Fold in the chocolate chips and M&M's.",
+    "Refrigerate the dough 15-60 minutes (or up to 24 hours). Preheat the oven to 375°F near the end of the chill.",
+    "Scoop 3 tbsp portions with a large cookie scoop and set 2 inches apart on the sheets. Press extra M&M's into the tops, if you like.",
+    "Bake 7-10 minutes, until the edges are barely golden brown.",
+    "Let the cookies set on the pan 2 minutes, then move to a cooling rack."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.iheartnaptime.net/best-mm-cookies/",
+      "site": "I Heart Naptime",
+      "title": "Best M&M Cookie Recipe",
+      "usedFor": "confirmed amounts, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

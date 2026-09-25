@@ -3,9 +3,9 @@
   "name": "Cinnamon Sugar Pillow Cookies",
   "category": "Desserts",
   "emoji": "🍪",
-  "desc": "Soft surprise-filled cookies with a crunchy cinnamon sugar shell",
-  "time": "45 min",
-  "minutes": 45,
+  "desc": "Small egg-free cookies with a sweet cream cheese center, rolled in cinnamon sugar.",
+  "time": "1 hr",
+  "minutes": 60,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
@@ -17,8 +17,8 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 8,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
@@ -50,11 +50,11 @@
       "note": null
     },
     {
-      "raw": "1/2 tsp salt",
+      "raw": "1/2 tsp fine salt",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
@@ -77,13 +77,13 @@
       "note": null
     },
     {
-      "raw": "1 1/2 tbsp milk",
+      "raw": "1 1/2 tbsp whole milk, plus more if the dough is dry",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "milk",
+      "item": "whole milk",
       "prep": null,
-      "note": null
+      "note": "plus more if the dough is dry"
     },
     {
       "raw": "2 tsp pure vanilla extract",
@@ -91,24 +91,6 @@
       "qtyMax": null,
       "unit": "tsp",
       "item": "pure vanilla extract",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "Coating:",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "2 tbsp granulated sugar mixed with 2 tbsp ground cinnamon",
-      "qty": 2,
-      "qtyMax": null,
-      "unit": "tbsp",
-      "item": "granulated sugar mixed with 2 tbsp ground cinnamon",
       "prep": null,
       "note": null
     },
@@ -122,6 +104,15 @@
       "note": null
     },
     {
+      "raw": "1/4 cup (2 oz) full-fat block cream cheese, room temperature",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "full-fat block cream cheese",
+      "prep": "room temperature",
+      "note": "2 oz"
+    },
+    {
       "raw": "4 tsp powdered sugar",
       "qty": 4,
       "qtyMax": null,
@@ -131,21 +122,51 @@
       "note": null
     },
     {
-      "raw": "1/4 cup cream cheese, room temperature",
-      "qty": 0.25,
+      "raw": "Coating:",
+      "qty": null,
       "qtyMax": null,
-      "unit": "cup",
-      "item": "cream cheese",
-      "prep": "room temperature",
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp granulated sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp ground cinnamon",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "ground cinnamon",
+      "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Make filling: beat powdered sugar and cream cheese.",
-    "Mix dry ingredients. Stir in oil, milk, vanilla.",
-    "Roll into balls, break in half, add filling, re-roll. Chill 30 min.",
-    "Roll in cinnamon sugar. Bake at 325°F for 11 min. Cool 10 min."
+    "Preheat the oven to 325°F and line a baking sheet with parchment paper.",
+    "Filling: beat the cream cheese and powdered sugar until smooth. Set aside.",
+    "In a mixing bowl, stir together the flour, baking soda, baking powder, salt and sugar.",
+    "Stir in the oil, milk and vanilla to form a soft dough. If it is too dry to hold together, add more milk 1 tsp at a time.",
+    "Roll the dough into 16 balls (about 1 1/2 tbsp each). Split each ball in half and flatten both halves. Put about 1/2 tsp filling on one half, cover with the other, pinch the edges closed, and roll smooth.",
+    "Chill the filled balls 30 minutes.",
+    "Coating: mix the sugar and cinnamon in a small bowl. Roll each ball in it and place 2 inches apart on the baking sheet.",
+    "Bake on the center rack 11 minutes. They will look underdone; let them cool on the sheet 10 minutes, where they firm up."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://12tomatoes.com/cinnamon-sugar-pillow-cookies/",
+      "site": "12 Tomatoes",
+      "title": "Cinnamon Sugar Pillow Cookies",
+      "usedFor": "16 cookie yield, parchment and center rack, extra milk if dry, underdone-then-firms cue",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

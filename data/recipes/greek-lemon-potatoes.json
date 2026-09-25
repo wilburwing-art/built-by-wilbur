@@ -1,0 +1,119 @@
+{
+  "slug": "greek-lemon-potatoes",
+  "name": "Greek Lemon Potatoes",
+  "category": "Sides & Snacks",
+  "emoji": "🍋",
+  "desc": "Potato wedges roasted in lemony garlic broth and olive oil until the liquid soaks in and the edges turn crisp.",
+  "time": "1 hr 15 min",
+  "minutes": 75,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DMRGaytsw22/",
+    "site": "Instagram @theartofeating.info",
+    "title": "Greek Lemon Potatoes",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 6,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "2 1/2 lb Yukon Gold potatoes, peeled and cut into thick wedges",
+      "qty": 2.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "Yukon Gold potatoes",
+      "prep": "peeled and cut into thick wedges",
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups low-sodium chicken or vegetable broth",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "low-sodium chicken or vegetable broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/3 cup fresh lemon juice (about 2 lemons)",
+      "qty": 0.3333333333333333,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh lemon juice",
+      "prep": null,
+      "note": "about 2 lemons"
+    },
+    {
+      "raw": "1/2 cup olive oil",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "5 garlic cloves, finely grated",
+      "qty": 5,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "finely grated",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp dried oregano",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp kosher salt",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Preheat the oven to 400°F (200°C).",
+    "Whisk the broth, lemon juice, olive oil, garlic, oregano, salt and pepper in a bowl.",
+    "Lay the potato wedges in a single layer in a large roasting pan or 9x13 inch baking dish and pour the liquid over them. Toss to coat.",
+    "Roast 20 min, then turn the potatoes and roast another 25 to 30 min, until most of the liquid has been absorbed.",
+    "Keep roasting, turning once, until the edges are browned and crisp, 15 to 20 min more.",
+    "Spoon the pan juices over the potatoes to serve."
+  ],
+  "tips": [
+    "The creator's amounts are behind a paywall (serves 6, 1 hr 15 min). Quantities and roasting stages here follow RecipeTin Eats.",
+    "RecipeTin Eats moves the potatoes to a second tray for the final crisping and reduces the garlicky pan juices separately; roasting in one pan is simpler and a little less crisp."
+  ],
+  "references": [
+    {
+      "url": "https://www.recipetineats.com/greek-lemon-potatoes/",
+      "site": "RecipeTin Eats",
+      "title": "Greek Lemon Potatoes",
+      "usedFor": "potato weight and cut, broth, oil, lemon, garlic, oregano and salt amounts, oven temperature, roasting stages",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

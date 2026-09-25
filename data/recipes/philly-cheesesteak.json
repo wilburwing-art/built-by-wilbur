@@ -3,51 +3,51 @@
   "name": "Philly Cheesesteak",
   "category": "Dinner",
   "emoji": "🥪",
-  "desc": "Ribeye, caramelized onions and provolone on a garlic-buttered hoagie",
+  "desc": "Thinly sliced ribeye with caramelized onions and melted provolone on garlic-butter toasted hoagie rolls.",
   "time": "30 min",
   "minutes": 30,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://natashaskitchen.com/philly-cheesesteak/",
+    "site": "Natasha's Kitchen",
+    "title": "Philly Cheesesteak",
+    "matchType": "original",
+    "evidence": "Same ingredients and amounts (1 lb ribeye, 1 large sweet onion, 8 slices mild provolone, 4 hoagie rolls, 2 tbsp butter with 1 pressed garlic clove, mayonnaise) and the same toast, caramelize, sear, melt order.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://natashaskitchen.com/philly-cheesesteak/"
   },
   "ingredients": [
     {
-      "raw": "1 lb ribeye steak, trimmed and thinly sliced",
+      "raw": "1 lb ribeye steak, trimmed and very thinly sliced",
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
       "item": "ribeye steak",
-      "prep": "trimmed and thinly sliced",
+      "prep": "trimmed and very thinly sliced",
       "note": null
     },
     {
-      "raw": "1/2 tsp sea salt, or to taste",
+      "raw": "1/2 tsp fine sea salt, or to taste",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "sea salt, or to taste",
+      "item": "fine sea salt",
       "prep": null,
-      "note": null
+      "note": "or to taste"
     },
     {
       "raw": "1/2 tsp black pepper, or to taste",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "black pepper, or to taste",
+      "item": "black pepper",
       "prep": null,
-      "note": null
+      "note": "or to taste"
     },
     {
       "raw": "1 large sweet onion, diced",
@@ -63,21 +63,21 @@
       "qty": 8,
       "qtyMax": null,
       "unit": "slice",
-      "item": "mild provolone cheese (not aged)",
+      "item": "mild provolone cheese",
       "prep": null,
-      "note": null
+      "note": "not aged"
     },
     {
-      "raw": "4 hoagie rolls, sliced 3/4 through",
+      "raw": "4 hoagie rolls, sliced 3/4 of the way through",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
       "item": "hoagie rolls",
-      "prep": "sliced 3/4 through",
+      "prep": "sliced 3/4 of the way through",
       "note": null
     },
     {
-      "raw": "2 tablespoons unsalted butter, softened",
+      "raw": "2 tbsp unsalted butter, softened",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
@@ -89,22 +89,22 @@
       "raw": "1 garlic clove, pressed",
       "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": "garlic clove, pressed",
-      "prep": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "pressed",
       "note": null
     },
     {
-      "raw": "3 tablespoons mayonnaise, or to taste",
+      "raw": "3 tbsp mayonnaise, or to taste",
       "qty": 3,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "mayonnaise, or to taste",
+      "item": "mayonnaise",
       "prep": null,
-      "note": null
+      "note": "or to taste"
     },
     {
-      "raw": "2 tablespoons neutral oil, divided",
+      "raw": "2 tbsp neutral oil, divided",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
@@ -114,13 +114,24 @@
     }
   ],
   "steps": [
-    "Toast the buns: mix the softened butter with the pressed garlic, spread on the cut sides of the hoagie rolls, and toast on a skillet or griddle over medium heat until golden. Set aside.",
-    "Caramelize the onions: add 1 tbsp of the oil to the pan and saute the diced onion until softened. Salt lightly and keep cooking until caramelized, then transfer to a bowl.",
-    "Cook the steak: raise the heat to high and add the remaining oil. Spread the sliced ribeye in an even layer and let it brown undisturbed for a couple of minutes.",
-    "Flip, season with the salt and pepper, and saute until cooked through, then stir the caramelized onions back in.",
-    "Melt the cheese: divide the meat into four piles, lay two slices of provolone over each, and cover briefly until melted.",
-    "Spread mayonnaise on the toasted rolls and scoop a pile of meat and cheese into each."
+    "Slice the hoagie rolls 3/4 of the way through with a serrated knife.",
+    "Stir the softened butter and pressed garlic together and spread it on the cut sides of the rolls. Toast cut side down on a large skillet or griddle over medium heat until golden brown, 2-3 min. Set aside.",
+    "Add 1 tbsp oil to the pan and cook the onion over medium heat until softened, about 5 min. Salt lightly and keep cooking, stirring now and then, until deep golden and caramelized, about 5 min more. Move to a bowl.",
+    "Raise the heat to high and add the remaining 1 tbsp oil. Spread the steak in an even layer and let it brown undisturbed, about 2 min.",
+    "Flip, season with the salt and pepper, and sauté until no pink remains, 1-2 min more. Stir the onions back in.",
+    "Divide the meat into 4 portions in the pan, lay 2 slices of provolone over each, and turn off the heat so the cheese melts without overcooking the meat.",
+    "Spread a thin layer of mayonnaise on the toasted side of each roll. Set a roll open-side down over one portion, slide a spatula under the meat, and flip it into the bun. Repeat and serve warm."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Freeze the ribeye for 30 to 45 min before slicing; it firms up enough to cut paper thin."
+  ],
+  "references": [
+    {
+      "url": "https://natashaskitchen.com/philly-cheesesteak/",
+      "site": "Natasha's Kitchen",
+      "title": "Philly Cheesesteak",
+      "usedFor": "oil split, heat levels, cheese-melting and flip-into-the-bun method, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

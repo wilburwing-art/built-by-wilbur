@@ -1,0 +1,171 @@
+{
+  "slug": "roasted-veg-cottage-cheese-soup",
+  "name": "Blended Roasted Veg Cottage Cheese Soup",
+  "category": "Dinner",
+  "emoji": "🥣",
+  "desc": "Roasted carrots, peppers, zucchini, tomatoes and onion blended with cottage cheese and bone broth into a creamy high-protein soup.",
+  "time": "1 hr",
+  "minutes": 60,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DEQSAaCv_4l/",
+    "site": "Instagram @theconsciousnutritionist",
+    "title": "Blended Roasted Veg Cottage Cheese Soup",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "3 large carrots, peeled and cut in 1 in pieces",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large carrots",
+      "prep": "peeled and cut in 1 in pieces",
+      "note": null
+    },
+    {
+      "raw": "1 red onion, cut in wedges",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red onion",
+      "prep": "cut in wedges",
+      "note": null
+    },
+    {
+      "raw": "1 large zucchini, cut in 1 in chunks",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large zucchini",
+      "prep": "cut in 1 in chunks",
+      "note": null
+    },
+    {
+      "raw": "1 cup cherry tomatoes",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cherry tomatoes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4-6 garlic cloves, peeled",
+      "qty": 4,
+      "qtyMax": 6,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "peeled",
+      "note": null
+    },
+    {
+      "raw": "3-4 bell peppers (red, yellow or orange), seeded and cut in chunks",
+      "qty": 3,
+      "qtyMax": 4,
+      "unit": null,
+      "item": "bell peppers",
+      "prep": "seeded and cut in chunks",
+      "note": "red, yellow or orange"
+    },
+    {
+      "raw": "3 tbsp olive oil",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp ground turmeric",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground turmeric",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp dried oregano",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp red pepper flakes",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tsp kosher salt, plus more to taste",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": "plus more to taste",
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups cottage cheese",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cottage cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "16-24 oz (2-3 cups) bone broth",
+      "qty": 16,
+      "qtyMax": 24,
+      "unit": "oz",
+      "item": "bone broth",
+      "prep": null,
+      "note": "2-3 cups"
+    }
+  ],
+  "steps": [
+    "Heat the oven to 400°F and line a large sheet pan with parchment.",
+    "Toss the carrots, onion, zucchini, tomatoes, garlic and peppers with the olive oil, turmeric, oregano, black pepper, red pepper flakes and salt. Spread in one layer (use two pans if crowded).",
+    "Roast 35-45 min, tossing halfway, until the carrots are tender and the edges are browned. Cool 10 min.",
+    "Blend the vegetables with the cottage cheese and 16 oz of the broth until completely smooth, working in batches. Add more broth to reach the thickness you like.",
+    "Taste for salt, then warm in a pot over medium-low before serving."
+  ],
+  "tips": [
+    "About 15-20g protein per serving. Swap in any vegetable you have (eggplant, celery, broccoli)."
+  ],
+  "references": [
+    {
+      "url": "https://jenneatsgoood.com/high-protein-creamy-tomato-soup/",
+      "site": "Jenn Eats Goood",
+      "title": "High Protein Creamy Tomato Soup",
+      "usedFor": "400°F roasting temperature and 35-45 min time, parchment-lined pan, 10 min cool before blending, kosher salt amount",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

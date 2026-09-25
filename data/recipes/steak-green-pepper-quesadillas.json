@@ -3,55 +3,82 @@
   "name": "Steak & Green Pepper Quesadillas",
   "category": "Lunch",
   "emoji": "🫔",
-  "desc": "Southwest-spiced steak and peppers with pepper jack and smoky crema",
+  "desc": "Southwest-spiced steak and green pepper quesadillas with pepper jack and a smoky red pepper crema.",
   "time": "25 min",
   "minutes": 25,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.hellofresh.com/recipes/steak-and-green-pepper-quesadillas-5ea8310a56a9d32f9d717bc9",
+    "site": "HelloFresh",
+    "title": "Steak & Green Pepper Quesadillas with Hot Sauce & Smoky Red Pepper Crema",
+    "matchType": "original",
+    "evidence": "The site recipe is HelloFresh's 2-serving card: same ingredients and quantities, same order of cooking.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 2,
+    "basis": "publisher",
+    "source": "https://www.hellofresh.com/recipes/steak-and-green-pepper-quesadillas-5ea8310a56a9d32f9d717bc9"
   },
   "ingredients": [
     {
-      "raw": "1 long green pepper",
-      "qty": 1,
+      "raw": "1 long green pepper (Anaheim type) or green bell pepper",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": null,
-      "item": "long green pepper",
+      "item": "long green pepper or green bell pepper",
       "prep": null,
-      "note": null
+      "note": "Anaheim type"
     },
     {
-      "raw": "1 tbsp Southwest spice blend",
-      "qty": 1,
+      "raw": "10 oz diced steak (sirloin), patted dry",
+      "qty": 10.0,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "diced steak",
+      "prep": "patted dry",
+      "note": "sirloin"
+    },
+    {
+      "raw": "1 tbsp HelloFresh Southwest spice blend (or taco seasoning)",
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "Southwest spice blend",
+      "item": "HelloFresh Southwest spice blend",
       "prep": null,
-      "note": null
+      "note": "or taco seasoning"
     },
     {
-      "raw": "1/2 cup pepper jack cheese",
+      "raw": "1/2 cup shredded pepper jack cheese",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "pepper jack cheese",
+      "item": "shredded pepper jack cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup shredded Mexican cheese blend",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "shredded Mexican cheese blend",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 large flour tortillas",
+      "qty": 2.0,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large flour tortillas",
       "prep": null,
       "note": null
     },
     {
       "raw": "4 tbsp smoky red pepper crema",
-      "qty": 4,
+      "qty": 4.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "smoky red pepper crema",
@@ -59,35 +86,8 @@
       "note": null
     },
     {
-      "raw": "10 oz diced steak",
-      "qty": 10,
-      "qtyMax": null,
-      "unit": "oz",
-      "item": "diced steak",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "2 flour tortillas",
-      "qty": 2,
-      "qtyMax": null,
-      "unit": null,
-      "item": "flour tortillas",
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "1/2 cup Mexican cheese blend",
-      "qty": 0.5,
-      "qtyMax": null,
-      "unit": "cup",
-      "item": "Mexican cheese blend",
-      "prep": null,
-      "note": null
-    },
-    {
       "raw": "1 tsp hot sauce",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tsp",
       "item": "hot sauce",
@@ -96,7 +96,7 @@
     },
     {
       "raw": "1 tbsp vegetable oil, divided",
-      "qty": 1,
+      "qty": 1.0,
       "qtyMax": null,
       "unit": "tbsp",
       "item": "vegetable oil",
@@ -114,12 +114,23 @@
     }
   ],
   "steps": [
-    "Slice green pepper into strips. Cook in oil over medium-high heat 3-4 min.",
-    "Add steak, Southwest spice, salt, and pepper. Cook until browned, 2-3 min. Remove from pan.",
-    "Sprinkle pepper jack on one half of each tortilla. Top with steak mixture and Mexican cheese. Fold in half.",
-    "Cook quesadillas in oiled pan over medium heat, 3-4 min per side until golden and cheese is melted.",
-    "Stir the hot sauce into the smoky red pepper crema and serve with the quesadillas."
+    "Halve, core, and thinly slice the green pepper crosswise into strips. Pat the steak dry with paper towels.",
+    "Heat half the oil in a large nonstick pan over medium-high heat. Cook the pepper, stirring occasionally, until slightly softened, 3 to 4 minutes.",
+    "Add the steak and season with the Southwest spice, pepper, and a big pinch of salt. Cook, stirring, until the steak is browned and cooked through and the pepper is tender, 2 to 3 minutes. Remove from the pan and wipe it out.",
+    "Sprinkle pepper jack over one half of each tortilla. Top with the steak mixture and the Mexican cheese, then fold in half.",
+    "Heat the remaining oil in the same pan over medium heat. Cook the quesadillas until golden brown and the cheese has melted, 3 to 4 minutes per side.",
+    "Cut each quesadilla into 3 wedges. Stir the hot sauce into the crema, or dollop the crema on top and drizzle with hot sauce, and serve."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "Without the HelloFresh crema, stir a pinch of smoked paprika or chipotle powder into 4 tbsp sour cream."
+  ],
+  "references": [
+    {
+      "url": "https://www.hellofresh.com/recipes/steak-and-green-pepper-quesadillas-5ea8310a56a9d32f9d717bc9",
+      "site": "HelloFresh",
+      "title": "Steak & Green Pepper Quesadillas with Hot Sauce & Smoky Red Pepper Crema",
+      "usedFor": "prep and cook times, patting the steak dry, cutting into wedges, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

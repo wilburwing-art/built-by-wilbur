@@ -3,22 +3,22 @@
   "name": "Cream Cheese Pound Cake",
   "category": "Desserts",
   "emoji": "🍰",
-  "desc": "Pound cake baked as a sheet, optionally finished with raspberry and whipped cream",
-  "time": "1.5 hrs",
-  "minutes": 90,
+  "desc": "Eric Kim's cream cheese pound cake baked in a sheet pan, optionally topped with raspberry jam, salted whipped cream and raspberry dust.",
+  "time": "3 hrs 30 min",
+  "minutes": 210,
   "difficulty": "Medium",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://cooking.nytimes.com/recipes/1023755-cream-cheese-pound-cake",
+    "site": "NYT Cooking",
+    "title": "Cream Cheese Pound Cake",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and gram weights (320 g flour, 345 g butter, 226 g cream cheese, 600 g sugar, 5 eggs) and the same raspberry, salted cream and freeze-dried raspberry finish in a 9x13 pan at 325°F.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 16,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
@@ -27,9 +27,9 @@
       "qty": 2.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "(320 g) all-purpose flour",
+      "item": "all-purpose flour",
       "prep": null,
-      "note": null
+      "note": "320 g"
     },
     {
       "raw": "1 tsp baking powder",
@@ -41,31 +41,31 @@
       "note": null
     },
     {
-      "raw": "1 1/2 cups (345 g) unsalted butter, at room temperature",
+      "raw": "1 1/2 cups (345 g) unsalted butter, at room temperature, plus more for the pan",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "(345 g) unsalted butter",
+      "item": "unsalted butter",
       "prep": "at room temperature",
-      "note": null
+      "note": "345 g; plus more for the pan"
     },
     {
-      "raw": "8 oz (226 g) cream cheese, at room temperature",
+      "raw": "8 oz (226 g) full-fat cream cheese, at room temperature",
       "qty": 8,
       "qtyMax": null,
       "unit": "oz",
-      "item": "(226 g) cream cheese",
+      "item": "full-fat cream cheese",
       "prep": "at room temperature",
-      "note": null
+      "note": "226 g"
     },
     {
       "raw": "3 cups (600 g) granulated sugar",
       "qty": 3,
       "qtyMax": null,
       "unit": "cup",
-      "item": "(600 g) granulated sugar",
+      "item": "granulated sugar",
       "prep": null,
-      "note": null
+      "note": "600 g"
     },
     {
       "raw": "1 tbsp vanilla extract",
@@ -104,13 +104,13 @@
       "note": null
     },
     {
-      "raw": "1 cup raspberry preserves",
+      "raw": "1 cup (305 g) raspberry preserves",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
       "item": "raspberry preserves",
       "prep": null,
-      "note": null
+      "note": "305 g"
     },
     {
       "raw": "2 cups cold heavy whipping cream",
@@ -140,25 +140,36 @@
       "note": null
     },
     {
-      "raw": "1 1/2 cups freeze-dried raspberries",
+      "raw": "1 1/2 cups (34 g) freeze-dried raspberries",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "cup",
       "item": "freeze-dried raspberries",
       "prep": null,
-      "note": null
+      "note": "34 g"
     }
   ],
   "steps": [
-    "Heat the oven to 325F and grease a 9x13 inch pan.",
+    "Heat the oven to 325°F with a rack in the center. Butter a 9x13-inch pan and line the bottom and long sides with parchment.",
     "Whisk the flour and baking powder together and set aside.",
-    "Beat the butter, cream cheese and sugar until pale and very fluffy, at least 5 minutes. Add the vanilla and salt.",
-    "Add the eggs one at a time, beating well after each.",
-    "Add the flour mixture in three additions on low speed, mixing only until it disappears.",
-    "Spread into the pan and bake 55 to 65 minutes, until a skewer comes out clean and the top is deep golden.",
-    "Cool completely in the pan. Undressed it keeps 3 to 4 days airtight.",
-    "To finish, spread with raspberry preserves, whip the cream with sugar and salt to soft peaks and spread over, then crush the freeze-dried raspberries over the top right before serving."
+    "Beat the butter, cream cheese, sugar, vanilla and salt with a stand mixer on medium-high until fluffy, almost white, and the sugar is mostly dissolved, 5-7 minutes.",
+    "On medium speed, add the eggs one at a time, beating until smooth after each. Scrape the bowl and beat 1 minute more.",
+    "On low speed, add the flour mixture gradually, mixing only until most streaks are gone, then finish folding by hand with a spatula.",
+    "Spread the batter in the pan and smooth the top. Bake 55-65 minutes, rotating halfway, until deep golden, a skewer in the center comes out clean, and a gentle press leaves no dent.",
+    "Cool completely in the pan, about 2 hours. Undressed, it keeps covered at room temperature 3 to 4 days.",
+    "To finish, spread the preserves over the cooled cake. Whip the cream, sugar and salt to soft, billowy peaks and spread over the jam.",
+    "Rub the freeze-dried raspberries through a fine-mesh sieve over the cake until the cream is covered in pink powder. Discard the seeds left in the sieve and serve right away."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "NYT Cooking gives 60 to 65 minutes; start checking at 55 because oven and pan color vary."
+  ],
+  "references": [
+    {
+      "url": "https://cooking.nytimes.com/recipes/1023755-cream-cheese-pound-cake",
+      "site": "NYT Cooking",
+      "title": "Cream Cheese Pound Cake",
+      "usedFor": "pan lining, 5 to 7 minute creaming cue, bake time and doneness cues, whipped cream peak, sieving the raspberry powder, gram weights for the toppings",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

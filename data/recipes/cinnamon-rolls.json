@@ -3,9 +3,9 @@
   "name": "Cinnamon Rolls",
   "category": "Desserts",
   "emoji": "🧁",
-  "desc": "Soft yeasted rolls with brown sugar-cinnamon filling and cream cheese frosting",
-  "time": "2.5 hrs",
-  "minutes": 150,
+  "desc": "Soft bread-machine rolls made with vanilla pudding, filled with brown sugar and cinnamon and spread with cream cheese frosting.",
+  "time": "3 hrs",
+  "minutes": 180,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
@@ -17,8 +17,8 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 16,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
@@ -32,22 +32,22 @@
       "note": null
     },
     {
-      "raw": "1/4 cup warm water",
+      "raw": "1/4 cup warm water (about 110°F)",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
       "item": "warm water",
       "prep": null,
-      "note": null
+      "note": "about 110°F"
     },
     {
-      "raw": "1/2 cup butter, melted",
+      "raw": "1/2 cup (1 stick) unsalted butter, melted",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "butter",
+      "item": "unsalted butter",
       "prep": "melted",
-      "note": null
+      "note": "1 stick"
     },
     {
       "raw": "1 (3.4 oz) package instant vanilla pudding mix",
@@ -59,20 +59,20 @@
       "note": "3.4 oz"
     },
     {
-      "raw": "1 cup warm milk",
+      "raw": "1 cup whole milk, warmed to about 110°F",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "warm milk",
-      "prep": null,
+      "item": "whole milk",
+      "prep": "warmed to about 110°F",
       "note": null
     },
     {
-      "raw": "1 egg, room temperature",
+      "raw": "1 large egg, room temperature",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "egg",
+      "item": "large egg",
       "prep": "room temperature",
       "note": null
     },
@@ -86,31 +86,31 @@
       "note": null
     },
     {
-      "raw": "1 tsp salt",
+      "raw": "1 tsp fine salt",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "4 cups bread flour",
+      "raw": "4 cups bread flour, plus more for rolling",
       "qty": 4,
       "qtyMax": null,
       "unit": "cup",
       "item": "bread flour",
       "prep": null,
-      "note": null
+      "note": "plus more for rolling"
     },
     {
-      "raw": "2 1/2 tsp bread machine yeast (1 packet)",
+      "raw": "2 1/2 tsp bread machine (instant) yeast",
       "qty": 2.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "bread machine yeast",
+      "item": "bread machine (instant) yeast",
       "prep": null,
-      "note": "1 packet"
+      "note": null
     },
     {
       "raw": "Filling:",
@@ -122,31 +122,31 @@
       "note": null
     },
     {
-      "raw": "1 cup butter, softened",
+      "raw": "1 cup (2 sticks) unsalted butter, softened, plus more for the pan",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "butter",
+      "item": "unsalted butter",
       "prep": "softened",
-      "note": null
+      "note": "2 sticks; plus more for the pan"
     },
     {
-      "raw": "1 cup packed brown sugar",
+      "raw": "1 cup packed light brown sugar",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "packed brown sugar",
+      "item": "packed light brown sugar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "6 tsp ground cinnamon",
+      "raw": "6 tsp (2 tbsp) ground cinnamon",
       "qty": 6,
       "qtyMax": null,
       "unit": "tsp",
       "item": "ground cinnamon",
       "prep": null,
-      "note": null
+      "note": "2 tbsp"
     },
     {
       "raw": "1/2 cup chopped pecans",
@@ -167,22 +167,22 @@
       "note": null
     },
     {
-      "raw": "8 oz cream cheese, softened",
-      "qty": 8,
+      "raw": "1 (8 oz) package cream cheese, softened",
+      "qty": 1,
       "qtyMax": null,
-      "unit": "oz",
+      "unit": "package",
       "item": "cream cheese",
       "prep": "softened",
-      "note": null
+      "note": "8 oz"
     },
     {
-      "raw": "1/2 cup butter, softened",
+      "raw": "1/2 cup (1 stick) unsalted butter, softened",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "butter",
+      "item": "unsalted butter",
       "prep": "softened",
-      "note": null
+      "note": "1 stick"
     },
     {
       "raw": "2 1/2 cups powdered sugar",
@@ -203,31 +203,44 @@
       "note": null
     },
     {
-      "raw": "1/8 tsp salt",
+      "raw": "1/8 tsp fine salt",
       "qty": 0.125,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "salt",
+      "item": "fine salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1-2 tbsp milk, to thin",
+      "raw": "1-2 tbsp whole milk, to thin",
       "qty": 1,
       "qtyMax": 2,
       "unit": "tbsp",
-      "item": "milk",
-      "prep": "to thin",
-      "note": null
+      "item": "whole milk",
+      "prep": null,
+      "note": "to thin"
     }
   ],
   "steps": [
-    "Add the water, melted butter, pudding mix, warm milk, egg, sugar, salt, bread flour, and yeast to the bread machine pan. Run the Dough cycle.",
-    "Roll the dough into a 17x10-inch rectangle on a lightly floured surface. Beat the softened butter, brown sugar, and cinnamon together and spread it over the dough. Sprinkle with pecans.",
-    "Roll up from the long side and slice into 16 rolls. Place in a buttered 9x13 pan, cover, and let rise until doubled, about 45 minutes.",
-    "Bake at 350°F for 15-20 minutes, until golden.",
-    "Beat the cream cheese and butter, then the powdered sugar, vanilla, and salt. Thin with milk as needed and spread over the warm rolls."
+    "Dough: add the water, melted butter, pudding mix, warm milk, egg, sugar, salt, bread flour and yeast to the bread machine pan in that order. Run the Dough cycle (about 1 1/2 hours).",
+    "Turn the dough out onto a lightly floured surface and roll it into a 17x10-inch rectangle.",
+    "Filling: beat the softened butter, brown sugar and cinnamon until smooth. Spread it evenly over the dough and sprinkle with the pecans.",
+    "Roll the dough up tightly, starting from a long side. Slice into 16 rolls about 1 inch thick.",
+    "Butter a 9x13-inch baking pan and arrange the rolls cut side up. Cover and let rise in a warm spot until doubled, about 45 minutes. Preheat the oven to 350°F while they rise.",
+    "Bake 15-20 minutes, until golden brown on top and the center rolls are cooked through.",
+    "Frosting: while the rolls bake, beat the cream cheese and butter until smooth, then beat in the powdered sugar, vanilla and salt. Add milk 1 tbsp at a time until spreadable.",
+    "Spread the frosting over the warm rolls and serve."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The food.com original also brushes the rolls with melted butter and sprinkles them with extra brown sugar before the final rise, and bakes them in a jellyroll pan."
+  ],
+  "references": [
+    {
+      "url": "https://www.food.com/recipe/cinnamon-rolls-145375",
+      "site": "Food.com",
+      "title": "Cinnamon Rolls",
+      "usedFor": "confirmed dough, filling and frosting amounts, 17x10 rectangle, 16 slices, 45 minute rise, 350°F bake, brush-with-butter variation",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

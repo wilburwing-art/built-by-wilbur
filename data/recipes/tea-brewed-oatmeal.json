@@ -1,0 +1,114 @@
+{
+  "slug": "tea-brewed-oatmeal",
+  "name": "Tea-Brewed Oatmeal",
+  "category": "Breakfast",
+  "emoji": "🍵",
+  "desc": "Rolled oats simmered in strong chai rooibos tea with almond butter, manuka honey and wild blueberries.",
+  "time": "15 min",
+  "minutes": 15,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DT8psOWCQBJ/",
+    "site": "Instagram @petalstoproduce",
+    "title": "Tea-Brewed Oatmeal",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 1,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 cup water",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 chai rooibos tea bags",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "chai rooibos tea bags",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup old-fashioned rolled oats",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "old-fashioned rolled oats",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pinch fine sea salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "fine sea salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp almond butter",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "almond butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 to 2 tsp manuka honey",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "tsp",
+      "item": "manuka honey",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup wild blueberries (frozen and thawed, or fresh)",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "wild blueberries",
+      "prep": null,
+      "note": "frozen and thawed, or fresh"
+    }
+  ],
+  "steps": [
+    "Bring the water to a boil in a small saucepan, remove from the heat, add the tea bags and steep 5 minutes. Squeeze out and discard the bags.",
+    "Stir the oats and salt into the tea. Bring to a boil over medium-high heat, then reduce to medium-low and cook, stirring occasionally, 2 to 5 minutes until thick and creamy.",
+    "Take off the heat and let stand 1 minute. Stir in the almond butter and honey.",
+    "Spoon into a bowl and top with the blueberries."
+  ],
+  "tips": [
+    "The tea flavor comes through strongly, so use a tea you would happily drink on its own."
+  ],
+  "references": [
+    {
+      "url": "https://www.loveandlemons.com/how-to-make-oatmeal/",
+      "site": "Love and Lemons",
+      "title": "How to Make Oatmeal",
+      "usedFor": "1 cup liquid to 1/2 cup rolled oats, pinch of salt, cook time and 1-minute stand",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://arborteas.com/blogs/tea-recipes/tea-oatmeal-recipe",
+      "site": "Arbor Teas",
+      "title": "Tea Oatmeal Recipe",
+      "usedFor": "method of cooking oats in brewed tea in place of water",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

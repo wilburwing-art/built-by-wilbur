@@ -3,22 +3,22 @@
   "name": "Negroni",
   "category": "Drinks",
   "emoji": "🍸",
-  "desc": "Equal parts gin, Campari and sweet vermouth, stirred",
+  "desc": "Equal parts gin, Campari and sweet vermouth, stirred and served over a large cube.",
   "time": "3 min",
   "minutes": 3,
   "difficulty": "Easy",
   "addedOn": "2026-08-30",
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.loveandlemons.com/negroni-recipe/",
+    "site": "Love and Lemons",
+    "title": "Negroni",
+    "matchType": "closest",
+    "evidence": "Same 1 oz each gin, Campari and sweet vermouth, stirred with ice and strained over one large cube with an orange peel.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 1,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
@@ -41,30 +41,65 @@
       "note": null
     },
     {
-      "raw": "1 oz vermouth rosso",
+      "raw": "1 oz sweet vermouth (vermouth rosso)",
       "qty": 1,
       "qtyMax": null,
       "unit": "oz",
-      "item": "vermouth rosso",
+      "item": "sweet vermouth",
       "prep": null,
-      "note": null
+      "note": "vermouth rosso"
     },
     {
-      "raw": "Orange peel, to garnish",
+      "raw": "Ice, for stirring",
       "qty": null,
       "qtyMax": null,
       "unit": null,
       "item": null,
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1 large ice cube, for serving",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large ice cube",
+      "prep": null,
+      "note": "for serving"
+    },
+    {
+      "raw": "1 wide strip orange peel, for garnish",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "strip",
+      "item": "orange peel",
+      "prep": "wide",
+      "note": "for garnish"
     }
   ],
   "steps": [
-    "Add the gin, Campari and vermouth to a mixing glass with ice.",
+    "Add the gin, Campari and vermouth to a mixing glass and fill it halfway with ice.",
     "Stir until well chilled and properly diluted, about 20 seconds.",
-    "Strain into a rocks glass over a large cube.",
-    "Express an orange peel over the surface and drop it in."
+    "Put the large cube in a rocks glass and strain the drink over it.",
+    "Twist the orange peel over the surface to express its oils, then drop it in."
   ],
-  "tips": [],
-  "references": []
+  "tips": [
+    "The Kitchn chills the rocks glass in the freezer for 5 minutes first and stirs for about 30 seconds."
+  ],
+  "references": [
+    {
+      "url": "https://www.loveandlemons.com/negroni-recipe/",
+      "site": "Love and Lemons",
+      "title": "Negroni",
+      "usedFor": "large cube service",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.thekitchn.com/negroni-recipe-23655515",
+      "site": "The Kitchn",
+      "title": "Negroni (Just 4 Ingredients)",
+      "usedFor": "chilled glass, stir time, wide orange peel",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

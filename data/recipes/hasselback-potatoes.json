@@ -3,31 +3,40 @@
   "name": "Hasselback Potatoes",
   "category": "Sides & Snacks",
   "emoji": "🥔",
-  "desc": "Accordion-cut potatoes with butter, cheddar, bacon, and sour cream",
-  "time": "1 hr",
-  "minutes": 60,
+  "desc": "Accordion-cut russets roasted with butter and olive oil, then loaded with cheddar, bacon, and sour cream.",
+  "time": "1 hr 15 min",
+  "minutes": 75,
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.dinneratthezoo.com/hasselback-potatoes-recipe/",
+    "site": "Dinner at the Zoo",
+    "title": "Hasselback Potatoes",
+    "matchType": "original",
+    "evidence": "Identical ingredient list and amounts (6 russets, 1/4 cup each oil and butter, 8 slices thin-cut cheddar in 1-inch squares, 4 slices bacon, 1/3 cup sour cream, 2 tbsp green onions), 450°F and 50 to 60 minutes.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 6,
+    "basis": "publisher",
+    "source": "https://www.dinneratthezoo.com/hasselback-potatoes-recipe/"
   },
   "ingredients": [
     {
-      "raw": "6 russet potatoes",
+      "raw": "6 medium russet potatoes, scrubbed",
       "qty": 6,
       "qtyMax": null,
       "unit": null,
-      "item": "russet potatoes",
+      "item": "medium russet potatoes",
+      "prep": "scrubbed",
+      "note": null
+    },
+    {
+      "raw": "Cooking spray",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     },
@@ -41,16 +50,16 @@
       "note": null
     },
     {
-      "raw": "1/4 cup butter, melted",
+      "raw": "1/4 cup unsalted butter, melted",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
-      "item": "butter",
+      "item": "unsalted butter",
       "prep": "melted",
       "note": null
     },
     {
-      "raw": "Salt and black pepper, to taste",
+      "raw": "Kosher salt and black pepper, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -68,12 +77,12 @@
       "note": null
     },
     {
-      "raw": "4 slices bacon, cooked and crumbled",
+      "raw": "4 slices bacon, cooked crisp and crumbled",
       "qty": 4,
       "qtyMax": null,
       "unit": "slice",
       "item": "bacon",
-      "prep": "cooked and crumbled",
+      "prep": "cooked crisp and crumbled",
       "note": null
     },
     {
@@ -86,21 +95,31 @@
       "note": null
     },
     {
-      "raw": "2 tbsp green onions, sliced",
+      "raw": "2 tbsp sliced green onions",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "green onions",
-      "prep": "sliced",
+      "item": "sliced green onions",
+      "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Preheat to 450°F. Slice potatoes between chopsticks in 1/4-inch slices.",
-    "Brush with oil-butter mix, getting between slices.",
-    "Bake 50-60 min. Insert cheese between cuts. Bake 3-5 more min.",
-    "Top with sour cream, bacon, and green onions."
+    "Preheat the oven to 450°F. Line a sheet pan with foil and coat the foil with cooking spray.",
+    "Lay a potato between two chopsticks on a cutting board and slice it crosswise 1/8 to 1/4 inch thick; the chopsticks stop the knife before it cuts all the way through. Repeat with the rest and set them on the pan.",
+    "Whisk the olive oil, butter, salt, and pepper in a small bowl. Brush it all over the potatoes, working some between the slices.",
+    "Bake until the potatoes are tender when pierced with a knife and browned, 50 to 60 minutes. Let cool 5 minutes.",
+    "Tuck the cheese squares between the slices. Return to the oven until the cheese melts, 3 to 5 minutes.",
+    "Top each potato with a spoonful of sour cream, the bacon, and the green onions. Serve right away."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.dinneratthezoo.com/hasselback-potatoes-recipe/",
+      "site": "Dinner at the Zoo",
+      "title": "Hasselback Potatoes",
+      "usedFor": "foil and cooking spray, slice thickness, bake time and doneness, 5-minute cool, cheese melt time, yield",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

@@ -1,0 +1,265 @@
+{
+  "slug": "marry-me-chicken-soup",
+  "name": "Marry Me Chicken Soup",
+  "category": "Dinner",
+  "emoji": "🍅",
+  "desc": "Creamy tomato and sun-dried tomato chicken soup with pasta, spinach and basil.",
+  "time": "35 min",
+  "minutes": 35,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DCCofpWSJK0/",
+    "site": "Instagram @shredhappens",
+    "title": "Marry Me Chicken Soup",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://shredhappens.com/high-protein-marry-me-chicken-soup/"
+  },
+  "ingredients": [
+    {
+      "raw": "2 tbsp extra-virgin olive oil",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "extra-virgin olive oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 large yellow onion, finely diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "large yellow onion",
+      "prep": "finely diced",
+      "note": null
+    },
+    {
+      "raw": "A few pinches of kosher salt and cracked black pepper",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tbsp dried oregano",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 lb boneless skinless chicken (thighs or breast), diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless skinless chicken",
+      "prep": "diced",
+      "note": "thighs or breast"
+    },
+    {
+      "raw": "Chicken seasoning:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp kosher salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp paprika",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp dried oregano",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp garlic powder",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Soup:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3-4 garlic cloves, minced",
+      "qty": 3,
+      "qtyMax": 4,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup oil-packed sun-dried tomatoes, diced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "oil-packed sun-dried tomatoes",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "3 tbsp tomato paste",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "tomato paste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp paprika",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "paprika",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup heavy cream",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "32-40 oz chicken bone broth",
+      "qty": 32,
+      "qtyMax": 40,
+      "unit": "oz",
+      "item": "chicken bone broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "8 oz dried pasta of choice (short shapes work best)",
+      "qty": 8,
+      "qtyMax": null,
+      "unit": "oz",
+      "item": "dried pasta of choice",
+      "prep": null,
+      "note": "short shapes work best"
+    },
+    {
+      "raw": "3-4 oz fresh baby spinach",
+      "qty": 3,
+      "qtyMax": 4,
+      "unit": "oz",
+      "item": "fresh baby spinach",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1-2 tbsp chopped fresh basil, plus more for serving",
+      "qty": 1,
+      "qtyMax": 2,
+      "unit": "tbsp",
+      "item": "fresh basil",
+      "prep": "chopped, plus more for serving",
+      "note": null
+    },
+    {
+      "raw": "To serve:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 cup grated Parmesan",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Red pepper flakes, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Toss the diced chicken with its seasoning (salt, pepper, paprika, oregano and garlic powder).",
+    "Heat the olive oil in a large pot over medium-low heat. Saute the onion a few minutes until translucent, then stir in a few pinches of salt and pepper and the 1 1/2 tbsp oregano.",
+    "Raise the heat to medium. Add the chicken and garlic and cook, stirring often, about 8 min until the chicken is browned.",
+    "Stir in the sun-dried tomatoes, tomato paste and paprika and cook 1-2 min.",
+    "Add the cream and bone broth, cover, and bring to a simmer, 6-10 min.",
+    "Add the pasta and simmer, stirring often, for the time on the package, until tender. Add a splash more broth or water if it gets too thick. The chicken should be cooked through (165°F) by now.",
+    "About 2 minutes before the pasta is done, stir in the spinach and basil until wilted. Taste and adjust the salt.",
+    "Serve topped with Parmesan, more basil and red pepper flakes."
+  ],
+  "tips": [
+    "If meal prepping, leave the pasta out and cook it into the soup when reheating.",
+    "The creator uses high-protein low-carb pasta that cooks in about 5 minutes; regular dried pasta takes 9-12 minutes and drinks more broth."
+  ],
+  "references": [
+    {
+      "url": "https://shredhappens.com/high-protein-marry-me-chicken-soup/",
+      "site": "Shredhappens (creator's site)",
+      "title": "Marry Me Chicken Soup",
+      "usedFor": "8 oz pasta, basil amount, simmer time after adding broth, 4 servings (read from the 2025-10-12 Wayback Machine snapshot; the live page returns 404)",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

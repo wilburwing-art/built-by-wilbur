@@ -3,9 +3,9 @@
   "name": "7 Layer Bean Dip",
   "category": "Sides & Snacks",
   "emoji": "🫘",
-  "desc": "Layered refried beans, cream cheese, salsa, cheese, and all the toppings",
-  "time": "15 min",
-  "minutes": 15,
+  "desc": "Refried beans, whipped cream cheese and sour cream, salsa, and fresh toppings layered on a platter.",
+  "time": "20 min",
+  "minutes": 20,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
@@ -17,8 +17,8 @@
     "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 12,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
@@ -120,13 +120,31 @@
       "item": "shredded Cheddar cheese",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "Tortilla chips, for serving",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
     }
   ],
   "steps": [
-    "Mix the taco seasoning into the refried beans and spread in the bottom of a large serving dish.",
-    "Beat the cream cheese and sour cream until smooth and spread over the beans.",
-    "Layer on the salsa, lettuce, tomato, green pepper, green onions, and olives, then top with the cheddar. Serve with chips."
+    "Stir the taco seasoning into the refried beans in a medium bowl until evenly mixed. Spread in an even layer over the bottom of a large serving platter or a 9x13 in dish.",
+    "In another bowl, beat the softened cream cheese and sour cream with a hand mixer or spoon until smooth, then spread over the beans.",
+    "Spread the salsa over the cream layer. Scatter the lettuce, tomato, green pepper, and green onions over the salsa.",
+    "Top with the cheddar and finish with the olives. Serve with tortilla chips, or cover and refrigerate up to a few hours until serving."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.allrecipes.com/recipe/19673/seven-layer-taco-dip/",
+      "site": "Allrecipes",
+      "title": "Seven-Layer Taco Dip",
+      "usedFor": "can and package sizes, layer order, cream cheese and sour cream method",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

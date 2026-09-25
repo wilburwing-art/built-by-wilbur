@@ -3,96 +3,157 @@
   "name": "Greek Lemon Chicken & Potatoes",
   "category": "Dinner",
   "emoji": "🍋",
-  "desc": "Oregano-lemon roasted chicken thighs with caramelized potatoes",
+  "desc": "Bone-in chicken thighs and potato wedges roasted in lemon, olive oil, garlic and oregano, with the potatoes broiled at the end.",
   "time": "1 hr",
   "minutes": 60,
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.allrecipes.com/recipe/242352/greek-lemon-chicken-and-potatoes/",
+    "site": "Allrecipes",
+    "title": "Greek Lemon Chicken and Potatoes",
+    "matchType": "original",
+    "evidence": "Chef John's recipe: same 4 lb thighs, 3 russets, 1/2 cup each lemon juice and olive oil, 6 garlic cloves, 1 tbsp each kosher salt and oregano, 1 tsp rosemary, pinch of cayenne, and the same 425°F, 20 plus 25 minute roast with a final broil.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
-    "source": null
+    "count": 4,
+    "basis": "publisher",
+    "source": "https://www.allrecipes.com/recipe/242352/greek-lemon-chicken-and-potatoes/"
   },
   "ingredients": [
     {
-      "raw": "4 lbs chicken thighs",
+      "raw": "4 lb skin-on, bone-in chicken thighs",
       "qty": 4,
       "qtyMax": null,
       "unit": "lb",
-      "item": "chicken thighs",
+      "item": "skin-on, bone-in chicken thighs",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 tbsp kosher salt, 1 tbsp oregano, 1 tsp pepper, 1 tsp rosemary, pinch cayenne",
+      "raw": "1 tbsp kosher salt",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "kosher salt, 1 tbsp oregano, 1 tsp pepper, 1 tsp rosemary, pinch cayenne",
+      "item": "kosher salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 cup lemon juice",
+      "raw": "1 tbsp dried oregano",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp freshly ground black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "freshly ground black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp dried rosemary",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried rosemary",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pinch cayenne pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "cayenne pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup fresh lemon juice",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "lemon juice",
+      "item": "fresh lemon juice",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 cup olive oil",
+      "raw": "1/2 cup olive oil, plus more for the pan",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
       "item": "olive oil",
-      "prep": null,
+      "prep": "plus more for the pan",
       "note": null
     },
     {
       "raw": "6 garlic cloves, minced",
       "qty": 6,
       "qtyMax": null,
-      "unit": null,
-      "item": "garlic cloves",
+      "unit": "clove",
+      "item": "garlic",
       "prep": "minced",
       "note": null
     },
     {
-      "raw": "3 russet potatoes, quartered",
+      "raw": "3 russet potatoes, peeled and quartered",
       "qty": 3,
       "qtyMax": null,
       "unit": null,
       "item": "russet potatoes",
-      "prep": "quartered",
+      "prep": "peeled and quartered",
       "note": null
     },
     {
-      "raw": "2/3 cup chicken broth",
-      "qty": 0.6667,
+      "raw": "2/3 cup chicken broth, plus about 1/3 cup to deglaze",
+      "qty": 0.6666666666666666,
       "qtyMax": null,
       "unit": "cup",
       "item": "chicken broth",
       "prep": null,
-      "note": null
+      "note": "plus about 1/3 cup to deglaze"
+    },
+    {
+      "raw": "1 tsp chopped fresh oregano, for garnish (optional)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "fresh oregano",
+      "prep": "chopped, for garnish",
+      "note": "optional"
     }
   ],
   "steps": [
-    "Preheat oven to 425°F. Oil a roasting pan.",
-    "Season chicken with all spices. Add lemon juice, oil, and garlic. Add potatoes and toss.",
-    "Arrange chicken skin-side up. Drizzle with broth and remaining marinade.",
-    "Bake 20 min. Toss, keeping chicken skin-side up. Bake 25 more min to 165°F.",
-    "Broil potatoes 3 min until caramelized. Spoon pan juices over top."
+    "Preheat the oven to 425°F. Lightly oil a large roasting pan.",
+    "Put the chicken in a large bowl and season with the salt, oregano, pepper, rosemary, and cayenne. Add the lemon juice, olive oil, and garlic, then the potatoes, and toss until everything is coated.",
+    "Arrange the chicken skin side up in the pan, reserving the marinade, and tuck the potatoes between the thighs. Drizzle with the 2/3 cup broth and spoon the remaining marinade over everything.",
+    "Roast 20 minutes. Toss the potatoes, keeping the chicken skin side up, and roast about 25 minutes more, until the chicken is browned and reads 165°F near the bone. Move the chicken to a platter and keep warm.",
+    "Set the oven to broil. Toss the potatoes in the pan juices and broil about 3 minutes, until caramelized. Move them to the platter.",
+    "Set the roasting pan over medium heat on the stove, add the extra broth, and scrape up the browned bits. Strain the juices over the chicken and potatoes and sprinkle with fresh oregano."
   ],
   "tips": [],
-  "references": []
+  "references": [
+    {
+      "url": "https://www.justapinch.com/recipes/greek-lemon-chicken-and-potatoes.html",
+      "site": "Just A Pinch",
+      "title": "Greek Lemon Chicken and Potatoes",
+      "usedFor": "full step text including the deglaze and strain step",
+      "checkedOn": "2026-09-25"
+    },
+    {
+      "url": "https://www.allrecipes.com/recipe/242352/greek-lemon-chicken-and-potatoes/",
+      "site": "Allrecipes",
+      "title": "Greek Lemon Chicken and Potatoes",
+      "usedFor": "servings, total time, 1 cup total broth, fresh oregano garnish",
+      "checkedOn": "2026-09-25"
+    }
+  ]
 }

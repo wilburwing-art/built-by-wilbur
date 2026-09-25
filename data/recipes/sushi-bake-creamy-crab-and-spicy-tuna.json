@@ -1,0 +1,229 @@
+{
+  "slug": "sushi-bake-creamy-crab-and-spicy-tuna",
+  "name": "Sushi Bake (Creamy Crab and Spicy Tuna)",
+  "category": "Dinner",
+  "emoji": "🍣",
+  "desc": "Seasoned sushi rice topped half with creamy crab and half with spicy tuna, broiled until golden and scooped into seaweed.",
+  "time": "30 min",
+  "minutes": 30,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": "https://www.instagram.com/reel/DRsI_Ulj1LS/",
+    "site": "Instagram @success.recipes",
+    "title": "Sushi Bake (creamy crab + spicy tuna)",
+    "matchType": "original",
+    "evidence": "Saved Instagram reel; caption and on-screen text captured in the owner's saved-recipes export",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 6,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "Creamy crab:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 lb imitation crab, shredded",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "imitation crab",
+      "prep": "shredded",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup Japanese mayo (Kewpie)",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Japanese mayo",
+      "prep": null,
+      "note": "Kewpie"
+    },
+    {
+      "raw": "1 tbsp ponzu",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "ponzu",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp cream cheese, softened",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cream cheese",
+      "prep": "softened",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp masago",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "masago",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Spicy tuna:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cans oil-packed tuna (about 280g total), drained",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "oil-packed tuna",
+      "prep": "drained",
+      "note": "about 280g total"
+    },
+    {
+      "raw": "3 tbsp Japanese mayo (Kewpie)",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Japanese mayo",
+      "prep": null,
+      "note": "Kewpie"
+    },
+    {
+      "raw": "1 tbsp gochujang",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "gochujang",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp cream cheese, softened",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "cream cheese",
+      "prep": "softened",
+      "note": null
+    },
+    {
+      "raw": "1 tsp black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Rice:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 cups cooked short-grain Japanese rice, warm",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "cooked short-grain Japanese rice",
+      "prep": "warm",
+      "note": null
+    },
+    {
+      "raw": "3 tbsp sushi vinegar (seasoned rice vinegar)",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sushi vinegar",
+      "prep": null,
+      "note": "seasoned rice vinegar"
+    },
+    {
+      "raw": "Topping:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp masago",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "masago",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp furikake, divided",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "furikake",
+      "prep": "divided",
+      "note": null
+    },
+    {
+      "raw": "2 tbsp Japanese mayo (Kewpie), for drizzling",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "Japanese mayo",
+      "prep": "for drizzling",
+      "note": "Kewpie"
+    },
+    {
+      "raw": "10 roasted seaweed snack sheets, for serving",
+      "qty": 10,
+      "qtyMax": null,
+      "unit": null,
+      "item": "roasted seaweed snack sheets",
+      "prep": "for serving",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Set an oven rack about 6 inches below the broiler and heat the broiler to high.",
+    "Stir the sushi vinegar into the warm rice and press it evenly into an 8x8 in baking dish.",
+    "Scatter a thin layer of masago over the rice, then 1 tbsp furikake.",
+    "Mix the crab, mayo, ponzu, cream cheese and masago in one bowl. Mix the tuna, mayo, gochujang, cream cheese and pepper in another.",
+    "Spread the creamy crab over one half of the rice and the spicy tuna over the other half.",
+    "Drizzle with mayo and sprinkle with the remaining furikake.",
+    "Broil 3-5 minutes, watching closely, until the top is golden and bubbling.",
+    "Scoop onto seaweed sheets and eat like hand rolls."
+  ],
+  "tips": [
+    "Credited to Tiffy Cooks. No raw fish, so it is a good sushi bake for a crowd.",
+    "Cucumber and avocado slices are good extras in each seaweed scoop."
+  ],
+  "references": [
+    {
+      "url": "https://tiffycooks.com/sushi-bake-spicy-tuna-creamy-crab/",
+      "site": "Tiffy Cooks",
+      "title": "Spicy Tuna and Creamy Crab Sushi Bake",
+      "usedFor": "confirmed crab and tuna mix amounts, layering order, broil 3-5 min",
+      "checkedOn": "2026-09-25"
+    }
+  ]
+}

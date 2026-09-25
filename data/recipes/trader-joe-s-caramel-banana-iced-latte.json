@@ -3,7 +3,7 @@
   "name": "Trader Joe's Caramel Banana Iced Latte",
   "category": "Drinks",
   "emoji": "🍌",
-  "desc": "Freeze-dried banana syrup, espresso, salted caramel and frothed milk over ice",
+  "desc": "Iced latte with a freeze-dried banana syrup, espresso, salted caramel and frothed milk.",
   "time": "10 min",
   "minutes": 10,
   "difficulty": "Easy",
@@ -12,36 +12,36 @@
     "url": null,
     "site": null,
     "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "matchType": "none",
+    "evidence": "Searched for a Trader Joe's caramel banana iced latte; the versions found online are short videos using a banana cold foam instead of a banana syrup, with no measured recipe page.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
-    "count": null,
-    "basis": null,
+    "count": 1,
+    "basis": "estimated",
     "source": null
   },
   "ingredients": [
     {
-      "raw": "3 tablespoons freeze-dried banana slices (Trader Joe's), crushed",
+      "raw": "3 tbsp Trader Joe's freeze-dried banana slices",
       "qty": 3,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "freeze-dried banana slices (Trader Joe's)",
-      "prep": "crushed",
-      "note": null
+      "item": "freeze-dried banana slices",
+      "prep": null,
+      "note": "Trader Joe's"
     },
     {
-      "raw": "1 tbsp brown sugar",
+      "raw": "1 tbsp light brown sugar",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "brown sugar",
+      "item": "light brown sugar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 tablespoons hot water",
+      "raw": "2 tbsp hot water",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
@@ -50,22 +50,22 @@
       "note": null
     },
     {
-      "raw": "2 espresso shots, freshly brewed",
+      "raw": "2 shots (2 oz) freshly brewed espresso",
       "qty": 2,
       "qtyMax": null,
-      "unit": null,
-      "item": "espresso shots",
+      "unit": "shot",
+      "item": "espresso",
       "prep": "freshly brewed",
-      "note": null
+      "note": "2 oz"
     },
     {
-      "raw": "2 tablespoons salted caramel sauce (Trader Jacques Fleur de Sel)",
+      "raw": "2 tbsp salted caramel sauce (Trader Joe's Fleur de Sel)",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "salted caramel sauce (Trader Jacques Fleur de Sel)",
+      "item": "salted caramel sauce",
       "prep": null,
-      "note": null
+      "note": "Trader Joe's Fleur de Sel"
     },
     {
       "raw": "1 cup ice cubes",
@@ -81,37 +81,37 @@
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "whole milk (or milk of choice)",
+      "item": "whole milk",
       "prep": null,
-      "note": null
+      "note": "or milk of choice"
     },
     {
-      "raw": "1/4 tsp vanilla sugar (Trader Joe's), for dusting",
+      "raw": "1/4 tsp Trader Joe's vanilla sugar, for dusting",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "vanilla sugar (Trader Joe's)",
-      "prep": "for dusting",
-      "note": null
+      "item": "vanilla sugar",
+      "prep": null,
+      "note": "Trader Joe's, for dusting"
     },
     {
       "raw": "2 fresh banana slices, for garnish",
       "qty": 2,
       "qtyMax": null,
-      "unit": null,
-      "item": "fresh banana slices",
-      "prep": "for garnish",
-      "note": null
+      "unit": "slice",
+      "item": "fresh banana",
+      "prep": null,
+      "note": "for garnish"
     }
   ],
   "steps": [
-    "Make banana powder: put the freeze-dried banana slices in a zip-top bag and crush with a rolling pin until finely powdered.",
-    "Build the banana base: in a small jar, combine the banana powder, brown sugar and hot water. Stir into a thick syrup.",
+    "Make the banana powder: put the freeze-dried banana slices in a zip-top bag and crush with a rolling pin until finely powdered.",
+    "Build the banana base: in a small jar, stir the banana powder, brown sugar and hot water into a thick syrup.",
     "Brew the espresso directly over the banana syrup and stir to combine.",
-    "Prep the glass: drizzle the salted caramel around the inside walls of a tall glass, swirling to coat, then fill with ice.",
-    "Froth the milk in a small pitcher or jar until light and foamy.",
+    "Prep the glass: drizzle the salted caramel around the inside walls of a tall glass, swirling to coat, then fill with the ice.",
+    "Froth the cold milk with a handheld frother, or shake it hard in a sealed jar, until light and foamy, about 30 seconds.",
     "Pour the espresso banana mixture over the ice, then top with the frothed milk.",
-    "Dust with vanilla sugar and float the fresh banana slices on the foam. Serve immediately."
+    "Dust with the vanilla sugar and float the banana slices on the foam. Serve right away."
   ],
   "tips": [],
   "references": []
