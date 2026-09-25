@@ -1,0 +1,184 @@
+{
+  "slug": "quick-chicken-stir-fry-bowls",
+  "name": "Quick Chicken Stir Fry Bowls",
+  "category": "Dinner",
+  "emoji": "🥡",
+  "desc": "Pantry stir fry of thin-sliced chicken in a soy and sesame sauce with steam-in-bag vegetables over microwave rice.",
+  "time": "20 min",
+  "minutes": 20,
+  "difficulty": "Easy",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "none",
+    "evidence": "Written for the owner in a claude.ai chat on 2026-09-15 from what was in the pantry; not adapted from a published recipe.",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 2,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "1 lb boneless skinless chicken breast, sliced into thin strips",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "boneless skinless chicken breast",
+      "prep": "sliced into thin strips",
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp garlic powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp ground ginger",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground ginger",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp ground black or white pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "ground black or white pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp neutral oil, such as canola or avocado",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "neutral oil",
+      "prep": "such as canola or avocado",
+      "note": null
+    },
+    {
+      "raw": "Sauce:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3 tbsp soy sauce",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp oyster, hoisin, or teriyaki sauce",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "oyster, hoisin, or teriyaki sauce",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp honey or light brown sugar",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "honey or light brown sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp toasted sesame oil",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "toasted sesame oil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp sriracha or red pepper flakes (optional)",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "sriracha or red pepper flakes",
+      "prep": null,
+      "note": "optional"
+    },
+    {
+      "raw": "1 tsp cornstarch (optional, for a thicker glaze)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": "optional, for a thicker glaze"
+    },
+    {
+      "raw": "To serve:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 (10 to 12 oz) bag frozen steam-in-bag stir fry vegetables",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "bag",
+      "item": "frozen steam-in-bag stir fry vegetables",
+      "prep": null,
+      "note": "10 to 12 oz"
+    },
+    {
+      "raw": "1 (8.5 oz) pouch 90-second white or jasmine rice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "packet",
+      "item": "90-second white or jasmine rice",
+      "prep": null,
+      "note": "8.5 oz"
+    },
+    {
+      "raw": "Sesame seeds and sliced green onion, for topping (optional)",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Toss the chicken strips with the garlic powder, ginger and pepper.",
+    "In a small bowl, stir together the soy sauce, oyster (or hoisin or teriyaki) sauce, honey, sesame oil, sriracha and cornstarch, if using, until the cornstarch dissolves.",
+    "Heat the oil in a large skillet over medium-high heat. Add the chicken in a single layer and cook, flipping once, until browned and cooked through to 165°F, 5 to 7 min total.",
+    "While the chicken cooks, microwave the vegetables per the bag directions, but stop about 1 min early so they stay crisp.",
+    "Add the vegetables to the skillet, pour in the sauce, and toss over high heat until the sauce is glossy and slightly reduced, 1 to 2 min.",
+    "Squeeze the rice pouch to break up clumps, tear the vent, and microwave per the package, about 90 seconds.",
+    "Divide the rice between two bowls, top with the stir fry, and finish with sesame seeds and green onion, if using."
+  ],
+  "tips": [
+    "Use whichever bottled sauce you have: oyster sauce is the most savory, hoisin the sweetest, and teriyaki can stand in for the honey.",
+    "Slicing the chicken thin keeps the sear short, so it stays juicy."
+  ],
+  "references": []
+}

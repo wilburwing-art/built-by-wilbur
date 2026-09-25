@@ -1,0 +1,98 @@
+{
+  "slug": "neapolitan-pizza-dough-camp-batch",
+  "name": "Neapolitan Pizza Dough (Cold Ferment, Camp Batch)",
+  "category": "Dinner",
+  "emoji": "🍕",
+  "desc": "The owner's 2% salt, 0.2% yeast Caputo 00 dough, cold-fermented 1 to 3 days, with a 3 kg camping batch and altitude notes.",
+  "time": "28 hrs",
+  "minutes": 1680,
+  "difficulty": "Medium",
+  "addedOn": "2026-09-25",
+  "source": {
+    "url": null,
+    "site": null,
+    "title": null,
+    "matchType": "none",
+    "evidence": "The owner's own formula (last updated 2025-09-24), shared in a claude.ai chat on 2026-08-30 along with the 3 kg scale-up and altitude plan.",
+    "checkedOn": "2026-09-25"
+  },
+  "servings": {
+    "count": 4,
+    "basis": "estimated",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "raw": "500 g Caputo \"00\" Chef's Flour (Caputo Pizzeria or Chef's red bag)",
+      "qty": 500,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "Caputo \"00\" Chef's Flour",
+      "prep": null,
+      "note": "Caputo Pizzeria or Chef's red bag"
+    },
+    {
+      "raw": "300-325 g cool water (60 to 65% hydration)",
+      "qty": 300,
+      "qtyMax": 325,
+      "unit": "g",
+      "item": "cool water",
+      "prep": null,
+      "note": "60 to 65% hydration"
+    },
+    {
+      "raw": "10 g fine sea salt (2%)",
+      "qty": 10,
+      "qtyMax": null,
+      "unit": "g",
+      "item": "fine sea salt",
+      "prep": null,
+      "note": "2%"
+    },
+    {
+      "raw": "0.7-1 g active dry yeast (about 0.2%)",
+      "qty": 0.7,
+      "qtyMax": 1,
+      "unit": "g",
+      "item": "active dry yeast",
+      "prep": null,
+      "note": "about 0.2%"
+    },
+    {
+      "raw": "Olive oil, for the containers",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Semolina or 00 flour, for shaping",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Dissolve the yeast in the water. Stir in about 50 g (10%) of the flour to make a loose batter.",
+    "Add the salt, dissolved in a splash of the water or sprinkled in gradually.",
+    "Add the remaining flour and knead until smooth and elastic: 15 to 20 min by hand, or 7 to 10 min in a stand mixer on low.",
+    "Cover and let the dough bulk ferment 1 hr at room temperature.",
+    "Refrigerate, covered, at about 39°F (4°C) for 24 to 72 hr.",
+    "Divide the cold dough into 4 balls of about 205 g each. Set them in lightly oiled lidded containers with room to expand.",
+    "Proof at room temperature 2 to 4 hr, until doubled, soft and jiggly but still holding their shape.",
+    "Stretch on a semolina-dusted surface and bake at 800-900°F for 60 to 90 seconds in a pizza oven, or at 480-570°F for 6 to 8 min on a preheated steel or stone in a home oven."
+  ],
+  "tips": [
+    "Yield: 500 g flour makes about 820 g of dough, so four balls come out near 205 g each; for 250 g balls, divide by 3 or scale up.",
+    "Camp batch (3 x 1 kg bags): 3000 g flour, 1800-1950 g water, 60 g salt and one 7 g packet of active dry yeast (0.23%). It makes about 4.9 kg of dough, which is 19 balls at 250 g or 24 at about 205 g.",
+    "4.9 kg of dough is beyond a planetary (KitchenAid-style) mixer. Mix it in two halves, use a bottom-drive mixer rated for that much dough, or mix by hand in a large tub with a few sets of stretch and folds over 30 to 45 min.",
+    "Making it ahead for high-altitude camping: keep the yeast at the low end, ball the dough cold the morning you leave, and carry the balls in lidded containers in an iced cooler. Dough rises faster and higher above 8,000 ft, so proof by look rather than the clock and err short.",
+    "If a ball overproofs (flattens, tears, or smells boozy), reball it and give it 30 to 45 min before stretching."
+  ],
+  "references": []
+}
