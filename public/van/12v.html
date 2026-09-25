@@ -41,9 +41,9 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 <h1>12 V system</h1>
 <p>Written 2026-09-22 from <code>shared/topics/powertrain-electrical/🚐 Prep aux battery van 🚐.md</code> (a plan built up between 2020 and 2024), corrected the same
 day when the owner described what is actually installed, and again on
-2026-09-25 when the fridge and fan models were named. Ratings below were read
-off vendor and manufacturer pages on those dates; anything marked <strong>est</strong> was
-not.</p>
+2026-09-25 when the fridge, fan, Starlink and puck lights were named. Ratings
+below were read off vendor and manufacturer pages on those dates; anything
+marked <strong>est</strong> was not.</p>
 <h2>Installed</h2>
 <table>
 <thead>
@@ -84,9 +84,14 @@ not.</p>
 <td>reseller spec for the draw; the fuse is from Fan-Tastic&#39;s own manual</td>
 </tr>
 <tr>
-<td>Also on that block</td>
-<td>cabinet and other lights</td>
-<td>owner</td>
+<td>Starlink Mini</td>
+<td><strong>average 25 to 40 W, input rating 12-48 V 60 W max</strong></td>
+<td>starlink.com Mini specification sheet</td>
+</tr>
+<tr>
+<td>8 x 12 V LED puck lights on a dimmer</td>
+<td><strong>est</strong> 1.5 to 3 W each, so 12 to 24 W for the set</td>
+<td>the fixtures are not identified</td>
 </tr>
 </tbody></table>
 <p>The house-battery-and-isolator half of the old note never got built, and does
@@ -132,33 +137,72 @@ ports at once and watching for a shutdown.</p>
 <thead>
 <tr>
 <th>Load</th>
-<th>Running draw</th>
+<th>A at 12 V</th>
 <th>Where the number comes from</th>
 </tr>
 </thead>
 <tbody><tr>
 <td>Costway fridge, compressor running</td>
-<td><strong>5.0 A</strong> (60 W +/- 20 %, so 4.0 to 6.0 A)</td>
+<td><strong>5.0</strong> (60 W +/- 20 %, so 4.0 to 6.0)</td>
 <td>its user manual&#39;s technical parameter table</td>
 </tr>
 <tr>
 <td>Fan-Tastic 1250 on high</td>
-<td><strong>up to 3 A</strong></td>
+<td><strong>up to 3.0</strong></td>
 <td>reseller spec, &quot;uses less than 3 amps on high&quot;; the manual fuses it at 4 A</td>
 </tr>
 <tr>
-<td>Lights</td>
-<td>1 to 3 A</td>
-<td><strong>est</strong>, the fixtures are not itemised</td>
+<td>Starlink Mini, average</td>
+<td><strong>2.1 to 3.3</strong> (25 to 40 W)</td>
+<td>starlink.com Mini specification sheet</td>
+</tr>
+<tr>
+<td>Starlink Mini, at its input rating</td>
+<td><strong>5.0</strong> (60 W max)</td>
+<td>same sheet</td>
+</tr>
+<tr>
+<td>8 puck lights on the dimmer</td>
+<td><strong>1.0 to 2.0 est</strong></td>
+<td>1.5 to 3 W per puck is the usual range; the fixtures are not identified</td>
 </tr>
 </tbody></table>
-<p><strong>Fridge at 5.0 A plus fan on high at 3 A is 8.0 A of the port&#39;s 10</strong>, before
-any light is switched on. That is not a theoretical worst case: it is a warm
-afternoon. The port is the thing that will trip, and it will trip at the
-moment the compressor restarts.</p>
-<p>The fridge is duty cycled and the fan is not, so on a warm night the fan is
-the larger load in both senses: 3 A continuously against a compressor that
-runs maybe a tenth of the time.</p>
+<h3>The port is already oversubscribed</h3>
+<p>Add the middle of each range and the four existing loads come to <strong>13.3 A on
+a 10 A port</strong>:</p>
+<pre><code>  fridge compressor   5.0 A  ████████████████████
+  fan on high         3.0 A  ████████████
+  Starlink average    3.3 A  █████████████
+  8 pucks             2.0 A  ████████
+                     ------
+  all four           13.3 A  |-------- 10 A port --------|  over by 3.3
+</code></pre>
+<p>Drop the fan and it is still 10.3 A. Only the fridge&#39;s duty cycle keeps this
+from being constant: the compressor is off most of the time in mild weather,
+so the four coincide only when it restarts. That is also exactly when a
+shutdown is least welcome.</p>
+<p>So this is not a question about whether the galley may add load. <strong>The
+existing four already exceed the port whenever the compressor runs</strong>, and
+what to do about that is the decision below.</p>
+<p>Two details behind the numbers. Starlink&#39;s sheet gives an average rather than
+a peak, and separately an input rating of 60 W, so 5.0 A is the number to
+size to and 3.3 A is what it spends. And the fridge is duty cycled while the
+fan and Starlink are not, so on a warm night those two are the larger load
+in watt-hours: 3 A and 3.3 A continuously against a compressor at roughly a
+tenth duty.</p>
+<h3>Splitting it</h3>
+<p>The Yeti publishes 10 A on each of three 12 V outputs, so the obvious fix is
+to stop hanging everything off one. <strong>Whether that is real headroom is the
+open question at the top of this doc</strong>, and it has stopped being academic:
+if the 10 A is a shared 120 W budget for the whole 12 V section, then no
+arrangement of ports helps and the answer is the inverter or fewer loads.
+Settle it with a meter before rewiring anything.</p>
+<p>If it is per port, the split that matches the loads is Starlink alone on its
+own port (5.0 A sized, 3.3 A spent) and the fridge, fan and pucks on the
+block (10.0 A worst case, still tight, so watch the fan on high).</p>
+<p>Starlink Mini takes <strong>12 to 48 V directly</strong>, so it does not need the
+inverter, and running it on AC through the Yeti&#39;s inverter would cost the
+conversion loss plus the inverter&#39;s idle draw for no benefit.</p>
 <h2>Where the galley circuits land</h2>
 <p><code>galley-cabinet.md</code> put both new circuits on the CCP battery-fed studs with
 inline fuses. That stays, and the pump&#39;s case is now settled rather than
@@ -226,20 +270,29 @@ a Costway of this family, and 13 Ah per 24 hours measured by an owner in a
 truck camper. Both imply about a tenth duty in mild conditions. Heat, a warm
 load, and a lid opened often all raise it, so treat 160 Wh as the floor and
 somewhere near 400 Wh as a hot-day figure. Neither is a manufacturer number.</p>
-<p>Against that, the fan is the surprise. Three amps continuously is 36 W, so
-running it overnight for eight hours is about <strong>290 Wh, more than the fridge
-spends in a mild day</strong>.</p>
+<p>Against that, the continuous loads are the surprise. Three amps of fan is
+36 W, so a night of it is about <strong>290 Wh, more than the fridge spends in a
+mild day</strong>. Starlink at 25 to 40 W is the same order: <strong>a four-hour evening
+is 100 to 160 Wh, and a full day of it would be 600 to 960 Wh, which is the
+whole pack.</strong></p>
 <p>200 W of solar at 4.5 peak-sun hours and 80 percent efficiency is about
 720 Wh on a good summer day and a small fraction of that in a Wasatch
 December. An hour of driving through the Victron adds 240 to 360 Wh
 depending on which port limit is real.</p>
-<p>So the pack is not the tight thing here. Fridge plus a night of fan is
-roughly 450 Wh against 950 usable, and either charging path covers it.
-<strong>The constraint is the instantaneous 10 A port</strong>, which is why the galley&#39;s
-3.5 Wh of lighting is noise and the pump&#39;s 8 A is disqualifying.</p>
+<p>So the pack is comfortable for the fridge and tight for the radio. Fridge
+plus a night of fan is roughly 450 Wh against 950 usable and either charging
+path covers it; add Starlink for a working day and the pack is the
+constraint rather than the port. For everything else <strong>the constraint is the
+instantaneous 10 A port</strong>, which is why the galley&#39;s 3.5 Wh of lighting is
+noise and the pump&#39;s 8 A is disqualifying.</p>
 <h2>Open items</h2>
 <ul>
-<li>Meter whether the 10 A limit is per port or shared across the 12 V section.</li>
+<li><strong>Meter whether the 10 A limit is per port or shared across the 12 V
+section.</strong> This now decides whether Starlink can be split onto its own
+port, so it is the first thing to settle.</li>
+<li>Identify the puck lights and their per-fixture wattage, or clamp the
+dimmer&#39;s feed. 8 x 3 W and 8 x 1.5 W are a whole amp apart on a port with
+none to spare.</li>
 <li>Confirm which Yeti input port the Victron and the solar are on, and whether
 that port is the 240 W or 360 W one.</li>
 <li>Confirm the Victron model and its configured output voltage and mode.</li>
