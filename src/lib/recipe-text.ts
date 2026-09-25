@@ -27,6 +27,9 @@ export function toPlainText(recipe: Recipe, scale = 1, units: Units = "us"): str
     "INSTRUCTIONS",
     ...recipe.steps.map((s, i) => `${i + 1}. ${displayStep(s, units)}`),
     "",
+    ...(recipe.tips.length > 0
+      ? ["TIPS", ...recipe.tips.map((t) => `- ${displayStep(t, units)}`), ""]
+      : []),
     ...(recipe.source.url
       ? [
           `${recipe.source.matchType === "original" ? "Source" : "Closest match"}: ${recipe.source.url}`,

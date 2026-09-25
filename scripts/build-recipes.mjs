@@ -16,9 +16,10 @@ const DIFFICULTIES = ["Easy", "Medium", "Hard"]
 const MATCH_TYPES = ["original", "closest", "none", "unresearched"]
 const SERVING_BASES = ["publisher", "estimated"]
 
-const RECIPE_KEYS = ["slug", "name", "category", "emoji", "desc", "time", "minutes", "difficulty", "addedOn", "source", "servings", "ingredients", "steps"]
+const RECIPE_KEYS = ["slug", "name", "category", "emoji", "desc", "time", "minutes", "difficulty", "addedOn", "source", "servings", "ingredients", "steps", "tips", "references"]
 const SOURCE_KEYS = ["url", "site", "title", "matchType", "evidence", "checkedOn"]
 const SERVINGS_KEYS = ["count", "basis", "source"]
+const REFERENCE_KEYS = ["url", "site", "title", "usedFor", "checkedOn"]
 const INGREDIENT_KEYS = ["raw", "qty", "qtyMax", "unit", "item", "prep", "note"]
 
 const errors = []
@@ -58,6 +59,21 @@ for (const f of files) {
   if (!Number.isInteger(r.minutes) || r.minutes <= 0) err(f, "minutes must be a positive integer")
   if (r.addedOn !== null && !isDate(r.addedOn)) err(f, "addedOn must be null or YYYY-MM-DD")
   if (!Array.isArray(r.steps) || r.steps.length === 0 || !r.steps.every(isStr)) err(f, "steps must be a non-empty array of strings")
+
+  if (!Array.isArray(r.tips) || !r.tips.every(isStr)) err(f, "tips must be an array of non-empty strings ([] when none)")
+
+  // Published recipes consulted to fill gaps the source left (amounts,
+  // specific ingredient names, missing steps). Each is auditable: a URL,
+  // what was taken from it, and when it was read.
+  if (Array.isArray(r.references)) {
+    r.references.forEach((ref, idx) => {
+      if (!ref || typeof ref !== "object") return err(f, `reference ${idx} must be an object`)
+      requireKeys(f, ref, REFERENCE_KEYS, `reference ${idx}`)
+      if (!isStr(ref.url) || !/^https?:\/\//.test(ref.url)) err(f, `reference ${idx} needs an http(s) url`)
+      if (!isStr(ref.usedFor)) err(f, `reference ${idx} needs usedFor (what was taken from it)`)
+      if (!isStr(ref.checkedOn) || !isDate(ref.checkedOn)) err(f, `reference ${idx} needs checkedOn YYYY-MM-DD`)
+    })
+  } else err(f, "references must be an array ([] when none)")
 
   if (r.source && typeof r.source === "object") {
     const s = r.source

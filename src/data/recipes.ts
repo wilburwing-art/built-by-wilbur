@@ -39,6 +39,16 @@ export interface RecipeSource {
   checkedOn: string | null
 }
 
+/** A published recipe consulted to fill a gap the source left. */
+export interface RecipeReference {
+  url: string
+  site: string | null
+  title: string | null
+  /** What was taken from it, e.g. "flour and sugar amounts, bake time". */
+  usedFor: string
+  checkedOn: string
+}
+
 export interface RecipeServings {
   count: number | null
   basis: "publisher" | "estimated" | null
@@ -61,6 +71,8 @@ export interface Recipe {
   servings: RecipeServings
   ingredients: IngredientLine[]
   steps: string[]
+  tips: string[]
+  references: RecipeReference[]
 }
 
 export const CATEGORY_COLORS: Record<Category, string> = {

@@ -608,6 +608,36 @@ export function Kitchen() {
                 </div>
               </div>
 
+              {viewingRecipe.tips.length > 0 && (
+                <div>
+                  <h3 className="section-title">
+                    <span style={{ color: CATEGORY_COLORS[viewingRecipe.category] }}>◆</span>{" "}
+                    Tips
+                  </h3>
+                  <ul className="tip-list">
+                    {viewingRecipe.tips.map((tip, i) => (
+                      <li key={i} className="step-text">
+                        {displayStep(tip, units)}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {viewingRecipe.references.length > 0 && (
+                <p className="ref-note">
+                  Gaps filled from:{" "}
+                  {viewingRecipe.references.map((ref, i) => (
+                    <span key={ref.url}>
+                      {i > 0 && " · "}
+                      <a href={ref.url} target="_blank" rel="noreferrer" title={ref.usedFor}>
+                        {ref.site ?? new URL(ref.url).hostname} ↗
+                      </a>
+                    </span>
+                  ))}
+                </p>
+              )}
+
               <button className="spin-again-btn" style={{ marginTop: 28 }} onClick={spinFresh}>
                 🎰 Spin for something else
               </button>
