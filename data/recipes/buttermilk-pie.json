@@ -9,12 +9,12 @@
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.smalltownwoman.com/buttermilk-pie/",
+    "site": "Small Town Woman",
+    "title": "Buttermilk Pie",
+    "matchType": "closest",
+    "evidence": "Same eggs, butter, flour, buttermilk and lemon juice; supplies the nutmeg (1/8-1/4 tsp, rounded to 1/4) and the unbaked 9-inch crust. Kept the site's 1 1/2 cups sugar.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
     "count": null,
@@ -23,21 +23,30 @@
   },
   "ingredients": [
     {
-      "raw": "3 eggs",
+      "raw": "1 (9-inch) unbaked pie crust, store-bought or homemade",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "unbaked pie crust",
+      "prep": "store-bought or homemade",
+      "note": "9-inch"
+    },
+    {
+      "raw": "3 large eggs",
       "qty": 3,
       "qtyMax": null,
       "unit": null,
-      "item": "eggs",
+      "item": "large eggs",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 cup butter",
+      "raw": "1/2 cup butter, melted",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
       "item": "butter",
-      "prep": null,
+      "prep": "melted",
       "note": null
     },
     {
@@ -68,11 +77,11 @@
       "note": null
     },
     {
-      "raw": "1 tsp vanilla",
+      "raw": "1 tsp vanilla extract",
       "qty": 1,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "vanilla",
+      "item": "vanilla extract",
       "prep": null,
       "note": null
     },
@@ -86,20 +95,11 @@
       "note": null
     },
     {
-      "raw": "Nutmeg",
-      "qty": null,
+      "raw": "1/4 tsp ground nutmeg",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "Unbaked 9-inch pie crust",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "ground nutmeg",
       "prep": null,
       "note": null
     }

@@ -257,13 +257,13 @@
       "note": null
     },
     {
-      "raw": "1 bag Fritos, for serving",
+      "raw": "1 (9.25 oz) bag Fritos, for serving",
       "qty": 1,
       "qtyMax": null,
       "unit": "bag",
       "item": "Fritos",
       "prep": "for serving",
-      "note": null
+      "note": "9.25 oz"
     },
     {
       "raw": "1 (8 oz) package shredded Cheddar cheese, for serving",

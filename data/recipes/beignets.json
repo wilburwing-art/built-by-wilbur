@@ -9,12 +9,12 @@
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.food.com/recipe/french-market-beignets-31854",
+    "site": "Food.com",
+    "title": "French Market Beignets",
+    "matchType": "closest",
+    "evidence": "Matches the site's 1/2 cup sugar, 1 cup evaporated milk, 7 cups flour and 1/4 cup shortening; supplies the water, yeast, salt and eggs the site lacked.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
     "count": null,
@@ -23,30 +23,48 @@
   },
   "ingredients": [
     {
-      "raw": "Yeast, warm water",
-      "qty": null,
+      "raw": "1 1/2 cups warm water (about 105°F)",
+      "qty": 1.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "cup",
+      "item": "warm water",
       "prep": null,
-      "note": null
+      "note": "about 105°F"
     },
     {
-      "raw": "1/2 cup sugar",
+      "raw": "1 (1/4 oz) packet active dry yeast",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "packet",
+      "item": "active dry yeast",
+      "prep": null,
+      "note": "1/4 oz"
+    },
+    {
+      "raw": "1/2 cup granulated sugar",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "sugar",
+      "item": "granulated sugar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Salt, eggs",
-      "qty": null,
+      "raw": "1 tsp salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 eggs, beaten",
+      "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": null,
-      "prep": null,
+      "item": "eggs",
+      "prep": "beaten",
       "note": null
     },
     {
@@ -59,25 +77,25 @@
       "note": null
     },
     {
-      "raw": "7 cups flour",
+      "raw": "7 cups all-purpose flour",
       "qty": 7,
       "qtyMax": null,
       "unit": "cup",
-      "item": "flour",
+      "item": "all-purpose flour",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/4 cup shortening",
+      "raw": "1/4 cup shortening, softened",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "cup",
       "item": "shortening",
-      "prep": null,
+      "prep": "softened",
       "note": null
     },
     {
-      "raw": "Oil for frying",
+      "raw": "Vegetable or peanut oil, for deep frying",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -86,12 +104,12 @@
       "note": null
     },
     {
-      "raw": "Powdered sugar",
-      "qty": null,
+      "raw": "1 cup powdered sugar, for dusting",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
+      "unit": "cup",
+      "item": "powdered sugar",
+      "prep": "for dusting",
       "note": null
     }
   ],

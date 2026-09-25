@@ -95,11 +95,11 @@
       "note": null
     },
     {
-      "raw": "pinch cayenne pepper",
-      "qty": null,
+      "raw": "1 pinch cayenne pepper",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "pinch",
+      "item": "cayenne pepper",
       "prep": null,
       "note": null
     },
@@ -149,7 +149,7 @@
       "note": null
     },
     {
-      "raw": "sour cream",
+      "raw": "Sour cream, for serving",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -158,7 +158,7 @@
       "note": null
     },
     {
-      "raw": "Guacamole",
+      "raw": "Guacamole, for serving",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -167,7 +167,7 @@
       "note": null
     },
     {
-      "raw": "salsa",
+      "raw": "Salsa, for serving",
       "qty": null,
       "qtyMax": null,
       "unit": null,

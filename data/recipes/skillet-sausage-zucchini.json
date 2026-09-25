@@ -9,12 +9,12 @@
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://thewholecook.com/20-minute-skillet-sausage-zucchini/",
+    "site": "The Whole Cook",
+    "title": "20 Minute Sausage and Zucchini Skillet",
+    "matchType": "closest",
+    "evidence": "Same 2 1/2 tbsp oil, 4 cooked sausages, 2 zucchini and 1 tsp garlic; supplies the six seasoning amounts.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
     "count": null,
@@ -23,21 +23,21 @@
   },
   "ingredients": [
     {
-      "raw": "2 1/2 tbsp oil",
+      "raw": "2 1/2 tbsp olive or avocado oil",
       "qty": 2.5,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "oil",
+      "item": "olive or avocado oil",
       "prep": null,
       "note": null
     },
     {
-      "raw": "4 cooked sausages, sliced",
+      "raw": "4 fully cooked sausages, sliced 1/4 inch thick",
       "qty": 4,
       "qtyMax": null,
       "unit": null,
-      "item": "cooked sausages",
-      "prep": "sliced",
+      "item": "fully cooked sausages",
+      "prep": "sliced 1/4 inch thick",
       "note": null
     },
     {
@@ -50,29 +50,74 @@
       "note": null
     },
     {
-      "raw": "1 yellow onion, chopped",
+      "raw": "1 yellow onion, cut into 3/4-inch pieces",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "yellow onion",
-      "prep": "chopped",
+      "prep": "cut into 3/4-inch pieces",
       "note": null
     },
     {
-      "raw": "1 bell pepper, chopped",
+      "raw": "1 bell pepper (any color), cut into 3/4-inch pieces",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "bell pepper",
-      "prep": "chopped",
+      "prep": "cut into 3/4-inch pieces",
+      "note": "any color"
+    },
+    {
+      "raw": "1/2 tsp salt",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
       "note": null
     },
     {
-      "raw": "Oregano, basil, garlic powder, onion powder, salt, pepper",
-      "qty": null,
+      "raw": "1/2 tsp dried oregano",
+      "qty": 0.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp dried basil",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried basil",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp garlic powder",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp onion powder",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
       "prep": null,
       "note": null
     },

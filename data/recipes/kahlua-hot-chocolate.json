@@ -41,29 +41,29 @@
       "note": null
     },
     {
-      "raw": "1 1/2 tbsp cocoa powder",
+      "raw": "1 1/2 tbsp unsweetened cocoa powder",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "cocoa powder",
+      "item": "unsweetened cocoa powder",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/4 tsp cinnamon",
+      "raw": "1/4 tsp ground cinnamon",
       "qty": 0.25,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "cinnamon",
+      "item": "ground cinnamon",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Pinch nutmeg",
-      "qty": null,
+      "raw": "1 pinch ground nutmeg",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "pinch",
+      "item": "ground nutmeg",
       "prep": null,
       "note": null
     },
@@ -77,7 +77,7 @@
       "note": null
     },
     {
-      "raw": "Marshmallows, caramel, chocolate syrup",
+      "raw": "Marshmallows, caramel sauce, and chocolate syrup, for topping",
       "qty": null,
       "qtyMax": null,
       "unit": null,

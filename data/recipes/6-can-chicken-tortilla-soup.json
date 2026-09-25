@@ -68,31 +68,40 @@
       "note": "10 oz"
     },
     {
-      "raw": "Ground cumin, to taste",
-      "qty": null,
+      "raw": "1 tsp ground cumin",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "ground cumin",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Chili powder, to taste",
-      "qty": null,
+      "raw": "1 tsp chili powder",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "chili powder",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Taco seasoning, to taste",
-      "qty": null,
+      "raw": "1 tbsp taco seasoning",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tbsp",
+      "item": "taco seasoning",
       "prep": null,
       "note": null
+    },
+    {
+      "raw": "1 (10.5 oz) can condensed cream of chicken soup (optional, for a creamier soup)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "condensed cream of chicken soup",
+      "prep": null,
+      "note": "10.5 oz; optional, for a creamier soup"
     },
     {
       "raw": "Salt and black pepper, to taste",

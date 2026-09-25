@@ -95,13 +95,13 @@
       "note": null
     },
     {
-      "raw": "1 Tex-Mex paste packet",
+      "raw": "1 packet HelloFresh Tex-Mex paste (or 1 tbsp tomato paste mixed with 2 tsp taco seasoning)",
       "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": "Tex-Mex paste packet",
+      "unit": "packet",
+      "item": "HelloFresh Tex-Mex paste",
       "prep": null,
-      "note": null
+      "note": "or 1 tbsp tomato paste mixed with 2 tsp taco seasoning"
     },
     {
       "raw": "6 flour tortillas",

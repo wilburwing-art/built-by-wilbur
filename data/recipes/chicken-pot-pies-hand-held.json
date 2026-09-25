@@ -29,7 +29,7 @@
       "unit": "package",
       "item": "frozen mixed vegetables",
       "prep": null,
-      "note": "(10 oz)"
+      "note": "10 oz"
     },
     {
       "raw": "2 tbsp water",
@@ -50,40 +50,67 @@
       "note": null
     },
     {
-      "raw": "2 cans diced chicken, drained",
+      "raw": "2 (10 oz) cans chunk chicken breast, drained",
       "qty": 2,
       "qtyMax": null,
       "unit": "can",
-      "item": "diced chicken",
+      "item": "chunk chicken breast",
       "prep": "drained",
-      "note": null
+      "note": "10 oz"
     },
     {
-      "raw": "1 can cream of chicken soup",
+      "raw": "1 (10.5 oz) can condensed cream of chicken soup",
       "qty": 1,
       "qtyMax": null,
       "unit": "can",
-      "item": "cream of chicken soup",
+      "item": "condensed cream of chicken soup",
       "prep": null,
-      "note": null
+      "note": "10.5 oz"
     },
     {
-      "raw": "Salt, pepper, garlic powder, everything bagel seasoning",
-      "qty": null,
+      "raw": "1/2 tsp salt",
+      "qty": 0.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 cans refrigerated biscuit dough",
+      "raw": "1/4 tsp black pepper",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 tsp garlic powder",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tbsp everything bagel seasoning",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "everything bagel seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 (16.3 oz) cans refrigerated biscuits, 8 count each (16 biscuits)",
       "qty": 2,
       "qtyMax": null,
       "unit": "can",
-      "item": "refrigerated biscuit dough",
-      "prep": null,
-      "note": null
+      "item": "refrigerated biscuits",
+      "prep": "8 count each",
+      "note": "16.3 oz; 16 biscuits"
     }
   ],
   "steps": [

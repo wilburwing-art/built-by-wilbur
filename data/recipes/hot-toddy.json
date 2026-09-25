@@ -59,12 +59,12 @@
       "note": null
     },
     {
-      "raw": "Lemon round",
-      "qty": null,
+      "raw": "1 lemon round, for garnish",
+      "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": null,
-      "prep": null,
+      "item": "lemon round",
+      "prep": "for garnish",
       "note": null
     }
   ],

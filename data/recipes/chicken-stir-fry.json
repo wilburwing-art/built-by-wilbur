@@ -23,17 +23,26 @@
   },
   "ingredients": [
     {
-      "raw": "2 cups rice",
+      "raw": "2 cups uncooked jasmine rice",
       "qty": 2,
       "qtyMax": null,
       "unit": "cup",
-      "item": "rice",
+      "item": "uncooked jasmine rice",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Sauce and marinade:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
       "prep": null,
       "note": null
     },
     {
       "raw": "2/3 cup soy sauce",
-      "qty": 0.6667,
+      "qty": 0.6666666666666666,
       "qtyMax": null,
       "unit": "cup",
       "item": "soy sauce",
@@ -59,21 +68,39 @@
       "note": null
     },
     {
-      "raw": "Ginger, garlic, red pepper flakes",
-      "qty": null,
+      "raw": "1 tbsp fresh ginger, minced",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tbsp",
+      "item": "fresh ginger",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "3 cloves garlic, minced",
+      "qty": 3,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp red pepper flakes",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "red pepper flakes",
       "prep": null,
       "note": null
     },
     {
-      "raw": "3 chicken breasts",
+      "raw": "3 boneless skinless chicken breasts, cut into bite-size pieces",
       "qty": 3,
       "qtyMax": null,
       "unit": null,
-      "item": "chicken breasts",
-      "prep": null,
+      "item": "boneless skinless chicken breasts",
+      "prep": "cut into bite-size pieces",
       "note": null
     },
     {
@@ -86,12 +113,57 @@
       "note": null
     },
     {
-      "raw": "Bell pepper, water chestnuts, broccoli, carrots, onion",
+      "raw": "Vegetables:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
       "item": null,
       "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 red bell pepper, sliced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "red bell pepper",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1 (8 oz) can sliced water chestnuts, drained",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "can",
+      "item": "sliced water chestnuts",
+      "prep": "drained",
+      "note": "8 oz"
+    },
+    {
+      "raw": "2 cups broccoli florets",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "broccoli florets",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 carrots, thinly sliced",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": null,
+      "item": "carrots",
+      "prep": "thinly sliced",
+      "note": null
+    },
+    {
+      "raw": "1/2 yellow onion, sliced",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": null,
+      "item": "yellow onion",
+      "prep": "sliced",
       "note": null
     }
   ],

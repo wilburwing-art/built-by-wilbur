@@ -23,22 +23,22 @@
   },
   "ingredients": [
     {
-      "raw": "1 lb ground meat",
+      "raw": "1 lb ground beef",
       "qty": 1,
       "qtyMax": null,
       "unit": "lb",
-      "item": "ground meat",
+      "item": "ground beef",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 packet taco seasoning",
+      "raw": "1 (1 oz) packet taco seasoning",
       "qty": 1,
       "qtyMax": null,
       "unit": "packet",
       "item": "taco seasoning",
       "prep": null,
-      "note": null
+      "note": "1 oz"
     },
     {
       "raw": "6 burrito-size flour tortillas",
@@ -77,12 +77,12 @@
       "note": null
     },
     {
-      "raw": "1 diced tomato",
+      "raw": "1 tomato, diced",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "diced tomato",
-      "prep": null,
+      "item": "tomato",
+      "prep": "diced",
       "note": null
     },
     {
@@ -95,12 +95,12 @@
       "note": null
     },
     {
-      "raw": "Nacho cheese sauce",
-      "qty": null,
+      "raw": "1 cup nacho cheese sauce, warmed",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
+      "unit": "cup",
+      "item": "nacho cheese sauce",
+      "prep": "warmed",
       "note": null
     }
   ],

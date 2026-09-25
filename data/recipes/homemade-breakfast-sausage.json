@@ -9,12 +9,12 @@
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.beyondthechickencoop.com/homemade-pork-breakfast-sausage/",
+    "site": "Beyond The Chicken Coop",
+    "title": "Homemade Breakfast Sausage",
+    "matchType": "closest",
+    "evidence": "Amounts for the site's seven seasonings on 1 lb pork; the page's dried parsley and rosemary are left out because the site recipe never had them.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
     "count": null,
@@ -32,65 +32,65 @@
       "note": null
     },
     {
-      "raw": "Salt",
-      "qty": null,
+      "raw": "1 1/2 tsp kosher salt",
+      "qty": 1.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "kosher salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Pepper",
-      "qty": null,
+      "raw": "1/2 tsp black pepper",
+      "qty": 0.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "black pepper",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Brown sugar",
-      "qty": null,
+      "raw": "2 tsp brown sugar",
+      "qty": 2,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "brown sugar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Crushed red pepper flakes",
-      "qty": null,
+      "raw": "1/4 tsp crushed red pepper flakes",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "crushed red pepper flakes",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Garlic powder",
-      "qty": null,
+      "raw": "1/4 tsp garlic powder",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "garlic powder",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Thyme",
-      "qty": null,
+      "raw": "1/4 tsp dried thyme",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "dried thyme",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Sage",
-      "qty": null,
+      "raw": "3/4 tsp ground sage",
+      "qty": 0.75,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "ground sage",
       "prep": null,
       "note": null
     }

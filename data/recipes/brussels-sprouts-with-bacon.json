@@ -9,12 +9,12 @@
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.wellplated.com/maple-bacon-brussels-sprouts/",
+    "site": "Well Plated",
+    "title": "Maple Bacon Brussels Sprouts",
+    "matchType": "closest",
+    "evidence": "Amounts for sprouts, bacon, maple syrup, salt and pepper; the site's bacon grease (in place of olive oil) and white onion are kept from the original version.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
     "count": null,
@@ -23,54 +23,72 @@
   },
   "ingredients": [
     {
-      "raw": "Brussels sprouts",
-      "qty": null,
+      "raw": "1 1/2 lbs Brussels sprouts, trimmed and halved",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "Brussels sprouts",
+      "prep": "trimmed and halved",
+      "note": null
+    },
+    {
+      "raw": "6 strips thick-cut bacon, cut into 1-inch pieces",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "strip",
+      "item": "thick-cut bacon",
+      "prep": "cut into 1-inch pieces",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp bacon grease (or olive oil)",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "bacon grease",
+      "prep": null,
+      "note": "or olive oil"
+    },
+    {
+      "raw": "1/2 white onion, sliced",
+      "qty": 0.5,
       "qtyMax": null,
       "unit": null,
-      "item": null,
+      "item": "white onion",
+      "prep": "sliced",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp maple syrup",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "maple syrup",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Bacon grease",
-      "qty": null,
+      "raw": "3/4 tsp kosher salt",
+      "qty": 0.75,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "kosher salt",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Bacon strips",
-      "qty": null,
+      "raw": "1/2 tsp ground black pepper",
+      "qty": 0.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "White onion",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "Maple syrup",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Toss all ingredients together.",
-    "Spread on a sheet pan.",
-    "Roast on top shelf at 425°F until browned."
+    "Preheat oven to 425°F.",
+    "Toss the sprouts, bacon pieces, onion, bacon grease, maple syrup, salt, and pepper on a sheet pan and spread in one layer, cut sides down.",
+    "Roast on the top shelf until the sprouts are browned and the bacon is crisp, 20-25 minutes, stirring once halfway."
   ]
 }

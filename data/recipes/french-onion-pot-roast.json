@@ -41,12 +41,12 @@
       "note": null
     },
     {
-      "raw": "Olive oil, for searing",
-      "qty": null,
+      "raw": "2 tbsp olive oil, for searing",
+      "qty": 2,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": "for searing",
       "note": null
     },
     {

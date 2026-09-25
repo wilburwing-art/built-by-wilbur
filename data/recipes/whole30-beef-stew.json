@@ -9,12 +9,12 @@
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://whole30.com/recipes/whole30-beef-stew/",
+    "site": "Whole30",
+    "title": "Whole30 Beef Stew",
+    "matchType": "closest",
+    "evidence": "Every quantity the site had matches this page line for line; supplies the oil type and the parsley and thyme amounts.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
     "count": null,
@@ -23,11 +23,11 @@
   },
   "ingredients": [
     {
-      "raw": "2 tbsp oil",
+      "raw": "2 tbsp olive or avocado oil",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "oil",
+      "item": "olive or avocado oil",
       "prep": null,
       "note": null
     },
@@ -41,65 +41,65 @@
       "note": null
     },
     {
-      "raw": "2 tsp salt",
+      "raw": "2 tsp salt, divided",
       "qty": 2,
       "qtyMax": null,
       "unit": "tsp",
       "item": "salt",
-      "prep": null,
+      "prep": "divided",
       "note": null
     },
     {
-      "raw": "1/2 tsp pepper",
+      "raw": "1/2 tsp black pepper",
       "qty": 0.5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "pepper",
+      "item": "black pepper",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1.5 lbs yellow potatoes",
+      "raw": "1.5 lbs yellow potatoes, cut into 1/2-inch pieces",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "lb",
       "item": "yellow potatoes",
-      "prep": null,
+      "prep": "cut into 1/2-inch pieces",
       "note": null
     },
     {
-      "raw": "3 carrots",
+      "raw": "3 medium carrots, cut into 1/4-inch pieces",
       "qty": 3,
       "qtyMax": null,
       "unit": null,
-      "item": "carrots",
-      "prep": null,
+      "item": "medium carrots",
+      "prep": "cut into 1/4-inch pieces",
       "note": null
     },
     {
-      "raw": "1 yellow onion",
+      "raw": "1 medium yellow onion, diced",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "yellow onion",
-      "prep": null,
+      "item": "medium yellow onion",
+      "prep": "diced",
       "note": null
     },
     {
-      "raw": "1 tbsp garlic",
+      "raw": "1 tbsp minced garlic",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "garlic",
+      "item": "minced garlic",
       "prep": null,
       "note": null
     },
     {
-      "raw": "4 cups beef broth",
+      "raw": "4 cups beef broth or bone broth",
       "qty": 4,
       "qtyMax": null,
       "unit": "cup",
-      "item": "beef broth",
+      "item": "beef broth or bone broth",
       "prep": null,
       "note": null
     },
@@ -131,11 +131,20 @@
       "note": null
     },
     {
-      "raw": "Parsley, thyme",
-      "qty": null,
+      "raw": "1 tbsp dried parsley",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tbsp",
+      "item": "dried parsley",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp dried thyme",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "dried thyme",
       "prep": null,
       "note": null
     },

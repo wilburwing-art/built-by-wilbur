@@ -41,20 +41,20 @@
       "note": null
     },
     {
-      "raw": "Ginger, garlic",
-      "qty": null,
+      "raw": "1 thumb fresh ginger and 2 cloves garlic, minced",
+      "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": null,
-      "prep": null,
+      "item": "thumb fresh ginger and 2 cloves garlic",
+      "prep": "minced",
       "note": null
     },
     {
-      "raw": "5 tsp vinegar",
+      "raw": "5 tsp rice wine vinegar",
       "qty": 5,
       "qtyMax": null,
       "unit": "tsp",
-      "item": "vinegar",
+      "item": "rice wine vinegar",
       "prep": null,
       "note": null
     },
@@ -113,12 +113,12 @@
       "note": null
     },
     {
-      "raw": "Cucumber",
-      "qty": null,
+      "raw": "1 cucumber, thinly sliced",
+      "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": null,
-      "prep": null,
+      "item": "cucumber",
+      "prep": "thinly sliced",
       "note": null
     },
     {

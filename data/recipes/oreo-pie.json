@@ -9,12 +9,12 @@
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.tasteofhome.com/recipes/oreo-pudding-pie/",
+    "site": "Taste of Home",
+    "title": "Oreo Pudding Pie",
+    "matchType": "closest",
+    "evidence": "Supplies the pudding box size (3.9 oz), the crust option and the 8 oz whipped topping. The site's 4 cups of milk (2 per box, set as pudding) is kept; the Oreo count is judgment.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
     "count": null,
@@ -32,40 +32,40 @@
       "note": null
     },
     {
-      "raw": "2 pkgs instant chocolate pudding",
+      "raw": "2 (3.9 oz) packages instant chocolate pudding mix",
       "qty": 2,
       "qtyMax": null,
       "unit": "package",
-      "item": "instant chocolate pudding",
+      "item": "instant chocolate pudding mix",
       "prep": null,
-      "note": null
+      "note": "3.9 oz"
     },
     {
-      "raw": "1 pkg Oreos, crushed",
-      "qty": 1,
+      "raw": "20 Oreo cookies, crushed (about 2 cups)",
+      "qty": 20,
       "qtyMax": null,
-      "unit": "package",
-      "item": "Oreos",
+      "unit": null,
+      "item": "Oreo cookies",
       "prep": "crushed",
-      "note": null
+      "note": "about 2 cups"
     },
     {
-      "raw": "1 baked pie crust",
+      "raw": "1 (9-inch) baked pie crust or Oreo cookie crust",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "baked pie crust",
+      "item": "baked pie crust or Oreo cookie crust",
       "prep": null,
-      "note": null
+      "note": "9-inch"
     },
     {
-      "raw": "Whipped topping",
-      "qty": null,
+      "raw": "1 (8 oz) container frozen whipped topping, thawed",
+      "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
+      "item": "container frozen whipped topping",
+      "prep": "thawed",
+      "note": "8 oz"
     }
   ],
   "steps": [

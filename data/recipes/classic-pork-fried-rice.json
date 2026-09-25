@@ -86,30 +86,30 @@
       "note": null
     },
     {
-      "raw": "5 cups cooked Jasmine rice (add 1 teaspoon oil to rice when cooking)",
+      "raw": "5 cups cooked jasmine rice (add 1 tsp vegetable oil to the rice when cooking)",
       "qty": 5,
       "qtyMax": null,
       "unit": "cup",
-      "item": "cooked Jasmine rice (add 1 teaspoon oil to rice when cooking)",
+      "item": "cooked jasmine rice",
       "prep": null,
-      "note": null
+      "note": "add 1 tsp vegetable oil to the rice when cooking"
     },
     {
-      "raw": "1 tablespoon oil",
+      "raw": "1 tablespoon vegetable oil",
       "qty": 1,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "oil",
+      "item": "vegetable oil",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1 medium onion (diced)",
+      "raw": "1 medium yellow onion, diced",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "medium onion (diced)",
-      "prep": null,
+      "item": "medium yellow onion",
+      "prep": "diced",
       "note": null
     },
     {

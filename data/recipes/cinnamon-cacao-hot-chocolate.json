@@ -68,11 +68,11 @@
       "note": null
     },
     {
-      "raw": "Pinch sea salt",
-      "qty": null,
+      "raw": "1 pinch sea salt",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "pinch",
+      "item": "sea salt",
       "prep": null,
       "note": null
     }

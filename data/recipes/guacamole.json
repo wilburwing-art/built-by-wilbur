@@ -9,12 +9,12 @@
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.simplyrecipes.com/recipes/perfect_guacamole/",
+    "site": "Simply Recipes",
+    "title": "How to Make the Best Guacamole",
+    "matchType": "closest",
+    "evidence": "Same 2 avocados, 2 tbsp onion, 2 tbsp cilantro and 1/2 tomato; supplies salt, lime juice and the onion type (red). The page's serrano is left out, as the site recipe never had it.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
     "count": null,
@@ -23,48 +23,66 @@
   },
   "ingredients": [
     {
-      "raw": "2 avocados",
+      "raw": "2 ripe avocados",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "avocados",
+      "item": "ripe avocados",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Salt, lime juice, pepper",
-      "qty": null,
+      "raw": "1/4 tsp salt, plus more to taste",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": "plus more to taste",
+      "note": null
+    },
+    {
+      "raw": "1 tbsp fresh lime juice",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "fresh lime juice",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 tbsp onion",
+      "raw": "2 tbsp minced red onion",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "onion",
+      "item": "minced red onion",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 tbsp cilantro",
+      "raw": "2 tbsp finely chopped cilantro",
       "qty": 2,
       "qtyMax": null,
       "unit": "tbsp",
-      "item": "cilantro",
+      "item": "finely chopped cilantro",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1/2 tomato",
+      "raw": "1 pinch freshly ground black pepper",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "freshly ground black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 ripe tomato, chopped",
       "qty": 0.5,
       "qtyMax": null,
       "unit": null,
-      "item": "tomato",
-      "prep": null,
+      "item": "ripe tomato",
+      "prep": "chopped",
       "note": null
     }
   ],

@@ -122,11 +122,11 @@
       "note": null
     },
     {
-      "raw": "Butter",
-      "qty": null,
+      "raw": "1 tbsp butter",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tbsp",
+      "item": "butter",
       "prep": null,
       "note": null
     }

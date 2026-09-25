@@ -113,12 +113,12 @@
       "note": null
     },
     {
-      "raw": "1 large onion, roughly chopped",
+      "raw": "1 large white onion, roughly chopped",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "large onion, roughly chopped",
-      "prep": null,
+      "item": "large white onion",
+      "prep": "roughly chopped",
       "note": null
     },
     {

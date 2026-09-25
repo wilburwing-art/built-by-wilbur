@@ -23,11 +23,11 @@
   },
   "ingredients": [
     {
-      "raw": "1 (9-inch) pie crust, blind baked and cooled",
+      "raw": "1 (9-inch) refrigerated pie crust, blind baked and cooled",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": "pie crust",
+      "item": "refrigerated pie crust",
       "prep": "blind baked and cooled",
       "note": "9-inch"
     },
@@ -122,11 +122,11 @@
       "note": null
     },
     {
-      "raw": "1 cup semi-sweet chocolate",
+      "raw": "1 cup semi-sweet chocolate chips",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "semi-sweet chocolate",
+      "item": "semi-sweet chocolate chips",
       "prep": null,
       "note": null
     },

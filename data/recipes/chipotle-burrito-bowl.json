@@ -392,20 +392,20 @@
       "note": null
     },
     {
-      "raw": "Black beans, for serving",
-      "qty": null,
+      "raw": "1 (15 oz) can black beans, drained and warmed",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
+      "unit": "can",
+      "item": "black beans",
+      "prep": "drained and warmed",
+      "note": "15 oz"
     },
     {
-      "raw": "Shredded cheddar cheese, for serving",
-      "qty": null,
+      "raw": "1 cup shredded cheddar cheese",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "cup",
+      "item": "shredded cheddar cheese",
       "prep": null,
       "note": null
     }

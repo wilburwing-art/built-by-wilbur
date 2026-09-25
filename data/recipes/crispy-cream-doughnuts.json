@@ -9,12 +9,12 @@
   "difficulty": "Medium",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.food.com/recipe/crispy-and-creamy-doughnuts-279521",
+    "site": "Food.com",
+    "title": "Crispy and Creamy Doughnuts",
+    "matchType": "closest",
+    "evidence": "Matches the site's 2 envelopes yeast and 5 cups flour and the same ingredient list and glaze (butter, powdered sugar, vanilla, hot water).",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
     "count": null,
@@ -23,29 +23,65 @@
   },
   "ingredients": [
     {
-      "raw": "2 envelopes yeast",
+      "raw": "2 (1/4 oz) envelopes active dry yeast",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "packet",
+      "item": "active dry yeast",
+      "prep": null,
+      "note": "1/4 oz"
+    },
+    {
+      "raw": "1/4 cup warm water (105-115°F)",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "warm water",
+      "prep": null,
+      "note": "105-115°F"
+    },
+    {
+      "raw": "1 1/2 cups lukewarm milk",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "lukewarm milk",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup granulated sugar",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 eggs",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "envelopes yeast",
+      "item": "eggs",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Warm water, milk",
-      "qty": null,
+      "raw": "1/3 cup shortening",
+      "qty": 0.3333333333333333,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "Sugar, salt, eggs, shortening",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "cup",
+      "item": "shortening",
       "prep": null,
       "note": null
     },
@@ -59,7 +95,16 @@
       "note": null
     },
     {
-      "raw": "Oil for frying",
+      "raw": "1 quart vegetable oil, for frying",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "quart",
+      "item": "vegetable oil",
+      "prep": "for frying",
+      "note": null
+    },
+    {
+      "raw": "Glaze:",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -68,11 +113,38 @@
       "note": null
     },
     {
-      "raw": "Glaze: butter, powdered sugar, vanilla, hot water",
-      "qty": null,
+      "raw": "1/3 cup butter",
+      "qty": 0.3333333333333333,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups powdered sugar",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "powdered sugar",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tsp vanilla extract",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "4 tbsp hot water",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "hot water",
       "prep": null,
       "note": null
     }

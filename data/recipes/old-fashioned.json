@@ -32,38 +32,38 @@
       "note": null
     },
     {
-      "raw": "Demerara simple syrup",
-      "qty": null,
+      "raw": "1/4 oz demerara simple syrup",
+      "qty": 0.25,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "oz",
+      "item": "demerara simple syrup",
       "prep": null,
       "note": null
     },
     {
-      "raw": "3 shakes bitters",
+      "raw": "3 dashes Angostura bitters",
       "qty": 3,
       "qtyMax": null,
-      "unit": null,
-      "item": "shakes bitters",
+      "unit": "dash",
+      "item": "Angostura bitters",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Cherry",
-      "qty": null,
+      "raw": "1 Luxardo or brandied cherry",
+      "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": null,
+      "item": "Luxardo or brandied cherry",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Orange peel",
-      "qty": null,
+      "raw": "1 strip orange peel",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "strip",
+      "item": "orange peel",
       "prep": null,
       "note": null
     }

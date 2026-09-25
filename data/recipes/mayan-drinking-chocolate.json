@@ -68,11 +68,11 @@
       "note": null
     },
     {
-      "raw": "Pinch nutmeg",
-      "qty": null,
+      "raw": "1 pinch ground nutmeg",
+      "qty": 1,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "pinch",
+      "item": "ground nutmeg",
       "prep": null,
       "note": null
     },

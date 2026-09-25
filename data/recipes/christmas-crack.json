@@ -9,12 +9,12 @@
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.littlesweetbaker.com/christmas-crack-saltine-cracker-toffee/",
+    "site": "Little Sweet Baker",
+    "title": "Christmas Crack (Saltine Cracker Toffee)",
+    "matchType": "closest",
+    "evidence": "Same 1 cup butter and 1 cup brown sugar; supplies the saltine count (40, about 1 sleeve).",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
     "count": null,
@@ -23,13 +23,13 @@
   },
   "ingredients": [
     {
-      "raw": "Saltine crackers",
-      "qty": null,
+      "raw": "40 saltine crackers (about 1 sleeve)",
+      "qty": 40,
       "qtyMax": null,
       "unit": null,
-      "item": null,
+      "item": "saltine crackers",
       "prep": null,
-      "note": null
+      "note": "about 1 sleeve"
     },
     {
       "raw": "1 cup butter",
@@ -41,31 +41,31 @@
       "note": null
     },
     {
-      "raw": "1 cup brown sugar",
+      "raw": "1 cup packed brown sugar",
       "qty": 1,
       "qtyMax": null,
       "unit": "cup",
-      "item": "brown sugar",
+      "item": "packed brown sugar",
       "prep": null,
       "note": null
     },
     {
-      "raw": "2 cups chocolate chips",
+      "raw": "2 cups semi-sweet chocolate chips",
       "qty": 2,
       "qtyMax": null,
       "unit": "cup",
-      "item": "chocolate chips",
+      "item": "semi-sweet chocolate chips",
       "prep": null,
       "note": null
     },
     {
-      "raw": "Optional: nuts, sprinkles",
-      "qty": null,
+      "raw": "1/2 cup chopped pecans or sprinkles (optional)",
+      "qty": 0.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "cup",
+      "item": "chopped pecans or sprinkles",
       "prep": null,
-      "note": null
+      "note": "optional"
     }
   ],
   "steps": [

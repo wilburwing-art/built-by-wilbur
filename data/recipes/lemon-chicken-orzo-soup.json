@@ -9,12 +9,12 @@
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://greenhealthycooking.com/lemon-chicken-orzo-soup/",
+    "site": "Green Healthy Cooking",
+    "title": "Lemon Chicken Orzo Soup",
+    "matchType": "closest",
+    "evidence": "All ingredients match the site (8 cups broth, 1.5 cups orzo, 1/2 cup peas, rosemary, thyme and sage); supplies the herb amounts. Parsley amount is judgment (the page gives none).",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
     "count": null,
@@ -23,49 +23,49 @@
   },
   "ingredients": [
     {
-      "raw": "1 yellow onion",
+      "raw": "1 yellow onion, diced",
       "qty": 1,
       "qtyMax": null,
       "unit": null,
       "item": "yellow onion",
-      "prep": null,
+      "prep": "diced",
       "note": null
     },
     {
-      "raw": "2 garlic cloves",
+      "raw": "2 cloves garlic, minced",
       "qty": 2,
       "qtyMax": null,
-      "unit": null,
-      "item": "garlic cloves",
-      "prep": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
       "note": null
     },
     {
-      "raw": "2 carrots",
+      "raw": "2 carrots, diced",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
       "item": "carrots",
-      "prep": null,
+      "prep": "diced",
       "note": null
     },
     {
-      "raw": "3 stalks celery",
+      "raw": "3 stalks celery, diced",
       "qty": 3,
       "qtyMax": null,
       "unit": "stalk",
       "item": "celery",
-      "prep": null,
+      "prep": "diced",
       "note": null
     },
     {
-      "raw": "2 chicken breasts",
+      "raw": "2 small chicken breasts (about 7 oz each)",
       "qty": 2,
       "qtyMax": null,
       "unit": null,
-      "item": "chicken breasts",
+      "item": "small chicken breasts",
       "prep": null,
-      "note": null
+      "note": "about 7 oz each"
     },
     {
       "raw": "8 cups chicken broth",
@@ -77,16 +77,34 @@
       "note": null
     },
     {
-      "raw": "Rosemary, thyme, sage",
-      "qty": null,
+      "raw": "2 sprigs fresh rosemary",
+      "qty": 2,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "sprig",
+      "item": "fresh rosemary",
       "prep": null,
       "note": null
     },
     {
-      "raw": "1.5 cups orzo",
+      "raw": "3-4 sprigs fresh thyme",
+      "qty": 3,
+      "qtyMax": 4,
+      "unit": "sprig",
+      "item": "fresh thyme",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "3-4 fresh sage leaves",
+      "qty": 3,
+      "qtyMax": 4,
+      "unit": null,
+      "item": "fresh sage leaves",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 cups orzo",
       "qty": 1.5,
       "qtyMax": null,
       "unit": "cup",
@@ -104,6 +122,15 @@
       "note": null
     },
     {
+      "raw": "Sea salt and black pepper, to taste",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
       "raw": "Juice of 1 lemon",
       "qty": null,
       "qtyMax": null,
@@ -113,11 +140,11 @@
       "note": null
     },
     {
-      "raw": "Parsley",
-      "qty": null,
+      "raw": "2 tbsp chopped fresh parsley",
+      "qty": 2,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tbsp",
+      "item": "chopped fresh parsley",
       "prep": null,
       "note": null
     }

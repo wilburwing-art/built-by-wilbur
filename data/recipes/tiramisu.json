@@ -77,13 +77,13 @@
       "note": null
     },
     {
-      "raw": "1 package Lady Fingers ,Savoiardi brand can be found in the cookie aisle at your local grocery store, or online",
+      "raw": "1 (7 oz) package Savoiardi ladyfingers (about 24), found in the cookie aisle",
       "qty": 1,
       "qtyMax": null,
       "unit": "package",
-      "item": "Lady Fingers ,Savoiardi brand can be found in the cookie aisle at your local grocery store, or online",
-      "prep": null,
-      "note": null
+      "item": "Savoiardi ladyfingers",
+      "prep": "found in the cookie aisle",
+      "note": "7 oz; about 24"
     },
     {
       "raw": "Cocoa powder for dusting the top",

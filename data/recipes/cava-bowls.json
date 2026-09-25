@@ -131,6 +131,24 @@
       "note": "optional"
     },
     {
+      "raw": "1/4 cup pickled red onions",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "pickled red onions",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pinch red pepper flakes",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null
+    },
+    {
       "raw": "Pita bread, for serving (optional)",
       "qty": null,
       "qtyMax": null,

@@ -122,12 +122,12 @@
       "note": null
     },
     {
-      "raw": "1 batch creamy chipotle vinaigrette, for dipping",
-      "qty": 1,
+      "raw": "Creamy chipotle dip: 1/4 cup sour cream stirred with 1/4 cup chipotle honey vinaigrette (store-bought or homemade)",
+      "qty": null,
       "qtyMax": null,
       "unit": null,
-      "item": "batch creamy chipotle vinaigrette",
-      "prep": "for dipping",
+      "item": null,
+      "prep": null,
       "note": null
     }
   ],

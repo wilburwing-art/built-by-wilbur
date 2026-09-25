@@ -9,12 +9,12 @@
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://www.food.com/recipe/baked-parmesan-tomatoes-294227",
+    "site": "Food.com",
+    "title": "Baked Parmesan Tomatoes",
+    "matchType": "closest",
+    "evidence": "Same method and the same five toppings as the original note (halve, Parmesan, oregano, salt and pepper, olive oil); supplies amounts, 450°F and 15 minutes.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
     "count": null,
@@ -23,7 +23,43 @@
   },
   "ingredients": [
     {
-      "raw": "Tomatoes",
+      "raw": "4 tomatoes, halved horizontally",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": null,
+      "item": "tomatoes",
+      "prep": "halved horizontally",
+      "note": null
+    },
+    {
+      "raw": "1/4 cup freshly grated Parmesan cheese",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "freshly grated Parmesan cheese",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp chopped fresh oregano",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "chopped fresh oregano",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/4 tsp salt",
+      "qty": 0.25,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Freshly ground black pepper, to taste",
       "qty": null,
       "qtyMax": null,
       "unit": null,
@@ -32,44 +68,18 @@
       "note": null
     },
     {
-      "raw": "Parmesan",
-      "qty": null,
+      "raw": "4 tsp extra-virgin olive oil",
+      "qty": 4,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "Oregano",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "Salt, pepper",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
-      "prep": null,
-      "note": null
-    },
-    {
-      "raw": "Olive oil",
-      "qty": null,
-      "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "extra-virgin olive oil",
       "prep": null,
       "note": null
     }
   ],
   "steps": [
-    "Halve tomatoes. Sprinkle with Parmesan, oregano, salt, pepper, and olive oil.",
-    "Bake until tender and golden."
+    "Preheat oven to 450°F. Place the tomato halves cut side up on a baking sheet.",
+    "Top with the Parmesan, oregano, salt, and pepper, then drizzle with the olive oil.",
+    "Bake until the tomatoes are tender, about 15 minutes."
   ]
 }

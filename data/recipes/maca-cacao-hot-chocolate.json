@@ -68,11 +68,20 @@
       "note": null
     },
     {
-      "raw": "Cinnamon, sea salt",
-      "qty": null,
+      "raw": "1/2 tsp ground cinnamon",
+      "qty": 0.5,
       "qtyMax": null,
-      "unit": null,
-      "item": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 pinch sea salt",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "pinch",
+      "item": "sea salt",
       "prep": null,
       "note": null
     }

@@ -9,12 +9,12 @@
   "difficulty": "Easy",
   "addedOn": null,
   "source": {
-    "url": null,
-    "site": null,
-    "title": null,
-    "matchType": "unresearched",
-    "evidence": null,
-    "checkedOn": null
+    "url": "https://togetherasfamily.com/root-beer-float-pie/",
+    "site": "Together as Family",
+    "title": "Root Beer Float Pie",
+    "matchType": "closest",
+    "evidence": "Supplies the pudding box size (3.4 oz) and the 6 oz ready-made graham crust. The site's own ratios (heavy cream, 12 oz root beer, 1 tbsp extract, 1/4 cup milk) are kept.",
+    "checkedOn": "2026-09-25"
   },
   "servings": {
     "count": null,
@@ -32,11 +32,11 @@
       "note": null
     },
     {
-      "raw": "12 oz COLD root beer",
+      "raw": "12 oz cold root beer",
       "qty": 12,
       "qtyMax": null,
       "unit": "oz",
-      "item": "COLD root beer",
+      "item": "cold root beer",
       "prep": null,
       "note": null
     },
@@ -59,22 +59,22 @@
       "note": null
     },
     {
-      "raw": "1 box instant vanilla pudding",
+      "raw": "1 (3.4 oz) box instant vanilla pudding mix",
       "qty": 1,
       "qtyMax": null,
       "unit": "box",
-      "item": "instant vanilla pudding",
+      "item": "instant vanilla pudding mix",
       "prep": null,
-      "note": null
+      "note": "3.4 oz"
     },
     {
-      "raw": "Graham cracker crust",
-      "qty": null,
+      "raw": "1 (6 oz) prepared graham cracker crust",
+      "qty": 1,
       "qtyMax": null,
       "unit": null,
-      "item": null,
+      "item": "prepared graham cracker crust",
       "prep": null,
-      "note": null
+      "note": "6 oz"
     }
   ],
   "steps": [
