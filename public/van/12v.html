@@ -37,12 +37,13 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 <body>
 <div class="wrap">
 <nav class="van-nav"><a href="/van/">Van docs</a></nav>
-<div class="stamp">Synced from dreamvan 2026-09-22</div>
+<div class="stamp">Synced from dreamvan 2026-09-25</div>
 <h1>12 V system</h1>
 <p>Written 2026-09-22 from <code>shared/topics/powertrain-electrical/🚐 Prep aux battery van 🚐.md</code> (a plan built up between 2020 and 2024), corrected the same
-day when the owner described what is actually installed. Ratings below were
-read off vendor and manufacturer pages on 2026-09-22; anything marked
-<strong>est</strong> was not.</p>
+day when the owner described what is actually installed, and again on
+2026-09-25 when the fridge and fan models were named. Ratings below were read
+off vendor and manufacturer pages on those dates; anything marked <strong>est</strong> was
+not.</p>
 <h2>Installed</h2>
 <table>
 <thead>
@@ -73,8 +74,18 @@ read off vendor and manufacturer pages on 2026-09-22; anything marked
 <td>bluesea.com, 5026 spec table</td>
 </tr>
 <tr>
-<td>On that block</td>
-<td>lights, fan, fridge</td>
+<td>Costway 54 qt fridge/freezer</td>
+<td><strong>60 W +/- 20 %, 5.0 A at 12 V</strong>, R134a, -20 to 20 C</td>
+<td>the 45/54/64 quart user manual (models ETERNAL43/51/61) hosted by Home Depot</td>
+</tr>
+<tr>
+<td>Fan-Tastic Vent 801250, 1250 series</td>
+<td><strong>up to 3 A on high</strong>, 3 speeds, reversible, manual lift dome, <strong>fused 4 A slo-blo</strong></td>
+<td>reseller spec for the draw; the fuse is from Fan-Tastic&#39;s own manual</td>
+</tr>
+<tr>
+<td>Also on that block</td>
+<td>cabinet and other lights</td>
 <td>owner</td>
 </tr>
 </tbody></table>
@@ -126,25 +137,28 @@ ports at once and watching for a shutdown.</p>
 </tr>
 </thead>
 <tbody><tr>
-<td>12 V compressor fridge</td>
-<td>4 to 6 A while the compressor runs, duty cycled</td>
-<td><strong>est</strong>, the model is not recorded</td>
+<td>Costway fridge, compressor running</td>
+<td><strong>5.0 A</strong> (60 W +/- 20 %, so 4.0 to 6.0 A)</td>
+<td>its user manual&#39;s technical parameter table</td>
 </tr>
 <tr>
-<td>Roof fan</td>
-<td>1 to 5 A by speed</td>
-<td><strong>est</strong>, the model is not recorded</td>
+<td>Fan-Tastic 1250 on high</td>
+<td><strong>up to 3 A</strong></td>
+<td>reseller spec, &quot;uses less than 3 amps on high&quot;; the manual fuses it at 4 A</td>
 </tr>
 <tr>
 <td>Lights</td>
 <td>1 to 3 A</td>
-<td><strong>est</strong></td>
+<td><strong>est</strong>, the fixtures are not itemised</td>
 </tr>
 </tbody></table>
-<p>Fridge plus fan on high already reaches roughly 9 A, so the port is close to
-full at the moment the compressor kicks in on a hot afternoon with the fan
-up. Record the actual models and their labelled draws; this table is the
-weakest part of the doc.</p>
+<p><strong>Fridge at 5.0 A plus fan on high at 3 A is 8.0 A of the port&#39;s 10</strong>, before
+any light is switched on. That is not a theoretical worst case: it is a warm
+afternoon. The port is the thing that will trip, and it will trip at the
+moment the compressor restarts.</p>
+<p>The fridge is duty cycled and the fan is not, so on a warm night the fan is
+the larger load in both senses: 3 A continuously against a compressor that
+runs maybe a tenth of the time.</p>
 <h2>Where the galley circuits land</h2>
 <p><code>galley-cabinet.md</code> put both new circuits on the CCP battery-fed studs with
 inline fuses. That stays, and the pump&#39;s case is now settled rather than
@@ -204,19 +218,27 @@ way, with input lockout at 13.2 / 13.4 V so it disengages when the engine
 stops.</li>
 </ol>
 <h2>Rough energy balance</h2>
-<p>1045 Wh peak, call it about 950 Wh usable. A compressor fridge at 30 to 40
-percent duty is roughly 600 Wh a day (<strong>est</strong>, from the 4 to 6 A above), so
-the fridge alone is most of the pack. 200 W of solar at 4.5 peak-sun hours
-and 80 percent efficiency is about 720 Wh on a good summer day and a small
-fraction of that in a Wasatch December. An hour of driving through the
-Victron adds 240 to 360 Wh depending on which port limit is real.</p>
-<p>That balance is why the galley&#39;s 3.5 Wh of lighting is noise and the pump&#39;s
-8 A is not: <strong>the constraint here is the instantaneous 10 A port, not the
-daily watt-hours.</strong></p>
+<p>1045 Wh peak, call it about 950 Wh usable.</p>
+<p><strong>An earlier version of this doc put the fridge at roughly 600 Wh a day by
+multiplying its running draw by an assumed duty cycle. Two reported figures
+say it is closer to 160 Wh</strong>: 0.16 kWh per 24 hours quoted by a reseller for
+a Costway of this family, and 13 Ah per 24 hours measured by an owner in a
+truck camper. Both imply about a tenth duty in mild conditions. Heat, a warm
+load, and a lid opened often all raise it, so treat 160 Wh as the floor and
+somewhere near 400 Wh as a hot-day figure. Neither is a manufacturer number.</p>
+<p>Against that, the fan is the surprise. Three amps continuously is 36 W, so
+running it overnight for eight hours is about <strong>290 Wh, more than the fridge
+spends in a mild day</strong>.</p>
+<p>200 W of solar at 4.5 peak-sun hours and 80 percent efficiency is about
+720 Wh on a good summer day and a small fraction of that in a Wasatch
+December. An hour of driving through the Victron adds 240 to 360 Wh
+depending on which port limit is real.</p>
+<p>So the pack is not the tight thing here. Fridge plus a night of fan is
+roughly 450 Wh against 950 usable, and either charging path covers it.
+<strong>The constraint is the instantaneous 10 A port</strong>, which is why the galley&#39;s
+3.5 Wh of lighting is noise and the pump&#39;s 8 A is disqualifying.</p>
 <h2>Open items</h2>
 <ul>
-<li>Record the fridge and fan models and their labelled draws; the load table
-is estimates.</li>
 <li>Meter whether the 10 A limit is per port or shared across the 12 V section.</li>
 <li>Confirm which Yeti input port the Victron and the solar are on, and whether
 that port is the 240 W or 360 W one.</li>
