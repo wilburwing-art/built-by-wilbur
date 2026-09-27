@@ -114,26 +114,33 @@ for (const f of files) {
   recipes.push(r)
 }
 
-// Printed recipe cards (scans or publisher PDFs) live beside the site as
-// public/kitchen/cards/<slug>.pdf, with <slug>-front.jpg and <slug>-back.jpg
-// rendered from its two pages for display. The file name is the join key, so
-// a card whose slug matches no recipe, or a PDF missing a rendered side, fails
-// the build rather than shipping a card nobody can reach.
+// Recipe cards live beside the site in public/kitchen/cards: the original
+// file to download (<slug>.pdf for a printed two-page card, <slug>.png for a
+// generated image card) plus <slug>-front.jpg, and <slug>-back.jpg when the
+// card has a second side. The file name is the join key, so a card whose slug
+// matches no recipe, or a card missing its download or front, fails the build
+// rather than shipping a card nobody can reach.
 const cardFiles = existsSync(CARDS) ? readdirSync(CARDS) : []
+const cardSlugs = new Set()
 for (const f of cardFiles) {
-  const m = f.match(/^(.+?)(-front\.jpg|-back\.jpg|\.pdf)$/)
-  if (!m) err(`cards/${f}`, "expected <slug>.pdf, <slug>-front.jpg or <slug>-back.jpg")
+  const m = f.match(/^(.+?)(-front\.jpg|-back\.jpg|\.pdf|\.png)$/)
+  if (!m) err(`cards/${f}`, "expected <slug>.pdf, <slug>.png, <slug>-front.jpg or <slug>-back.jpg")
   else if (!slugs.has(m[1])) err(`cards/${f}`, `no recipe has slug "${m[1]}"`)
+  else cardSlugs.add(m[1])
 }
 for (const r of recipes) {
-  const pdf = `${r.slug}.pdf`
-  if (!cardFiles.includes(pdf)) {
-    r.card = null
-    continue
+  r.card = null
+  if (!cardSlugs.has(r.slug)) continue
+  const has = (name) => cardFiles.includes(name)
+  const download = [`${r.slug}.pdf`, `${r.slug}.png`].filter(has)
+  if (download.length !== 1) err(`cards/${r.slug}`, "needs exactly one of <slug>.pdf or <slug>.png to download")
+  if (!has(`${r.slug}-front.jpg`)) err(`cards/${r.slug}`, `missing ${r.slug}-front.jpg`)
+  const at = (name) => `/kitchen/cards/${name}`
+  r.card = {
+    download: download[0] ? at(download[0]) : null,
+    front: at(`${r.slug}-front.jpg`),
+    back: has(`${r.slug}-back.jpg`) ? at(`${r.slug}-back.jpg`) : null,
   }
-  for (const side of ["front", "back"])
-    if (!cardFiles.includes(`${r.slug}-${side}.jpg`)) err(`cards/${pdf}`, `missing ${r.slug}-${side}.jpg`)
-  r.card = { pdf: `/kitchen/cards/${pdf}`, front: `/kitchen/cards/${r.slug}-front.jpg`, back: `/kitchen/cards/${r.slug}-back.jpg` }
 }
 
 if (errors.length > 0) {
@@ -148,4 +155,4 @@ if (!checkOnly) {
   writeFileSync(OUT, body)
 }
 const withCards = recipes.filter((r) => r.card).length
-console.log(`build-recipes: ${recipes.length} recipes valid, ${withCards} with a printed card${checkOnly ? " (check only)" : ", wrote src/data/recipes.gen.ts"}`)
+console.log(`build-recipes: ${recipes.length} recipes valid, ${withCards} with a card${checkOnly ? " (check only)" : ", wrote src/data/recipes.gen.ts"}`)

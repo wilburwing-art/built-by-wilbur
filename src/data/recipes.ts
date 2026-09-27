@@ -57,9 +57,11 @@ export interface RecipeServings {
 
 /** Site paths for a printed recipe card; attached by build-recipes from public/kitchen/cards. */
 export interface RecipeCardFiles {
-  pdf: string
+  /** The original: a two-page PDF for a printed card, a PNG for a generated one. */
+  download: string
   front: string
-  back: string
+  /** Null for a single-sided card. */
+  back: string | null
 }
 
 export interface Recipe {

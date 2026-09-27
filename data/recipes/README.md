@@ -35,16 +35,23 @@ bottle, bag, box, stick, clove, slice, stalk, sprig, bunch, head, ear, part,
 shot, scoop, piece, strip. `null` means counted by item ("2 eggs") or
 unparsed.
 
-## Printed cards
+## Recipe cards
 
-A recipe with a printed card (a scan or the publisher's PDF) has it at
-`public/kitchen/cards/<slug>.pdf`, with its two pages rendered beside it as
-`<slug>-front.jpg` and `<slug>-back.jpg`:
+A recipe with a card has its files in `public/kitchen/cards/`:
+
+- the original to download: `<slug>.pdf` for a printed two-page card (scan or
+  publisher PDF), or `<slug>.png` for a generated image card
+- `<slug>-front.jpg` for display, and `<slug>-back.jpg` when the card has a
+  second side
+
+Render a PDF's pages with:
 
     pdftoppm -jpeg -jpegopt quality=82 -scale-to 1600 -f 1 -l 1 -singlefile <slug>.pdf <slug>-front
     pdftoppm -jpeg -jpegopt quality=82 -scale-to 1600 -f 2 -l 2 -singlefile <slug>.pdf <slug>-back
 
+and a PNG card with `sips -s format jpeg -s formatOptions 82 <slug>.png --out <slug>-front.jpg`.
+
 `build-recipes.mjs` attaches these as `card` on the generated recipe (null
 when there is none) and fails the build on a card whose slug matches no
-recipe or that is missing a rendered side. The recipe JSON carries no card
+recipe, or one missing its download or front. The recipe JSON carries no card
 key: the file name is the join.
