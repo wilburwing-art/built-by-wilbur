@@ -55,6 +55,13 @@ export interface RecipeServings {
   source: string | null
 }
 
+/** Site paths for a printed recipe card; attached by build-recipes from public/kitchen/cards. */
+export interface RecipeCardFiles {
+  pdf: string
+  front: string
+  back: string
+}
+
 export interface Recipe {
   slug: string
   name: string
@@ -73,6 +80,8 @@ export interface Recipe {
   steps: string[]
   tips: string[]
   references: RecipeReference[]
+  /** Null when no printed card exists for this recipe. */
+  card: RecipeCardFiles | null
 }
 
 export const CATEGORY_COLORS: Record<Category, string> = {

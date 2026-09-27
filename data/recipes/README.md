@@ -34,3 +34,17 @@ oz, lb, g, kg, ml, l, pint, quart, pinch, dash, can, jar, package, packet,
 bottle, bag, box, stick, clove, slice, stalk, sprig, bunch, head, ear, part,
 shot, scoop, piece, strip. `null` means counted by item ("2 eggs") or
 unparsed.
+
+## Printed cards
+
+A recipe with a printed card (a scan or the publisher's PDF) has it at
+`public/kitchen/cards/<slug>.pdf`, with its two pages rendered beside it as
+`<slug>-front.jpg` and `<slug>-back.jpg`:
+
+    pdftoppm -jpeg -jpegopt quality=82 -scale-to 1600 -f 1 -l 1 -singlefile <slug>.pdf <slug>-front
+    pdftoppm -jpeg -jpegopt quality=82 -scale-to 1600 -f 2 -l 2 -singlefile <slug>.pdf <slug>-back
+
+`build-recipes.mjs` attaches these as `card` on the generated recipe (null
+when there is none) and fails the build on a card whose slug matches no
+recipe or that is missing a rendered side. The recipe JSON carries no card
+key: the file name is the join.

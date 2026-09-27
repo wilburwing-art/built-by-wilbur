@@ -2,13 +2,14 @@
 // src/data/recipes.gen.ts for the site to import. Run with --check to
 // validate without writing. Wired into the dev and build scripts, so an
 // invalid recipe file fails the build instead of shipping.
-import { readFileSync, readdirSync, writeFileSync } from "node:fs"
+import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs"
 import { fileURLToPath } from "node:url"
 import path from "node:path"
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)))
 const DATA = path.join(ROOT, "data", "recipes")
 const OUT = path.join(ROOT, "src", "data", "recipes.gen.ts")
+const CARDS = path.join(ROOT, "public", "kitchen", "cards")
 const checkOnly = process.argv.includes("--check")
 
 const CATEGORIES = ["Breakfast", "Lunch", "Dinner", "Sides & Snacks", "Desserts", "Drinks"]
@@ -113,6 +114,28 @@ for (const f of files) {
   recipes.push(r)
 }
 
+// Printed recipe cards (scans or publisher PDFs) live beside the site as
+// public/kitchen/cards/<slug>.pdf, with <slug>-front.jpg and <slug>-back.jpg
+// rendered from its two pages for display. The file name is the join key, so
+// a card whose slug matches no recipe, or a PDF missing a rendered side, fails
+// the build rather than shipping a card nobody can reach.
+const cardFiles = existsSync(CARDS) ? readdirSync(CARDS) : []
+for (const f of cardFiles) {
+  const m = f.match(/^(.+?)(-front\.jpg|-back\.jpg|\.pdf)$/)
+  if (!m) err(`cards/${f}`, "expected <slug>.pdf, <slug>-front.jpg or <slug>-back.jpg")
+  else if (!slugs.has(m[1])) err(`cards/${f}`, `no recipe has slug "${m[1]}"`)
+}
+for (const r of recipes) {
+  const pdf = `${r.slug}.pdf`
+  if (!cardFiles.includes(pdf)) {
+    r.card = null
+    continue
+  }
+  for (const side of ["front", "back"])
+    if (!cardFiles.includes(`${r.slug}-${side}.jpg`)) err(`cards/${pdf}`, `missing ${r.slug}-${side}.jpg`)
+  r.card = { pdf: `/kitchen/cards/${pdf}`, front: `/kitchen/cards/${r.slug}-front.jpg`, back: `/kitchen/cards/${r.slug}-back.jpg` }
+}
+
 if (errors.length > 0) {
   console.error(`build-recipes: ${errors.length} error(s) across ${files.length} files`)
   for (const e of errors) console.error("  " + e)
@@ -124,4 +147,5 @@ if (!checkOnly) {
   const body = `${banner}import type { Recipe } from "./recipes"\n\nexport const recipesData: Recipe[] = ${JSON.stringify(recipes, null, 2)}\n`
   writeFileSync(OUT, body)
 }
-console.log(`build-recipes: ${recipes.length} recipes valid${checkOnly ? " (check only)" : ", wrote src/data/recipes.gen.ts"}`)
+const withCards = recipes.filter((r) => r.card).length
+console.log(`build-recipes: ${recipes.length} recipes valid, ${withCards} with a printed card${checkOnly ? " (check only)" : ", wrote src/data/recipes.gen.ts"}`)
