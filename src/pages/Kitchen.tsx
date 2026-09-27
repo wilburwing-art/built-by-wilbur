@@ -11,6 +11,7 @@ import {
 } from "@/data/recipes"
 import type { Recipe } from "@/data/recipes"
 import { CookMode } from "@/components/CookMode"
+import { RecipeCard } from "@/components/RecipeCard"
 import { RecipeDirectory } from "@/components/RecipeDirectory"
 import { ShoppingList } from "@/components/ShoppingList"
 import { useShoppingList } from "@/hooks/useShoppingList"
@@ -513,6 +514,14 @@ export function Kitchen() {
                 <button className="action-btn" onClick={() => window.print()}>
                   Print
                 </button>
+                <button
+                  className="action-btn"
+                  onClick={() =>
+                    document.getElementById("recipe-card")?.scrollIntoView({ behavior: "smooth" })
+                  }
+                >
+                  Recipe card
+                </button>
               </div>
 
               <div style={{ marginBottom: 32 }}>
@@ -623,6 +632,14 @@ export function Kitchen() {
                   </ul>
                 </div>
               )}
+
+              <div className="card-section">
+                <h3 className="section-title">
+                  <span style={{ color: CATEGORY_COLORS[viewingRecipe.category] }}>◆</span>{" "}
+                  Recipe card
+                </h3>
+                <RecipeCard recipe={viewingRecipe} scale={scale} units={units} />
+              </div>
 
               {viewingRecipe.references.length > 0 && (
                 <p className="ref-note">
