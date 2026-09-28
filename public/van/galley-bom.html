@@ -186,6 +186,20 @@
     <b>Storage + light open items:</b> (1) decide where the reading light points (bench or bed) before drilling the upper's rail, the wall panel is the alternate mount; (2) the FCOB listing gives 480 LEDs/m and no wattage, 10 W/m is an estimate, the 4 A dimmer has headroom either way; (3) growing the upper to 12" tall (about $2 more extrusion est) would let dinner plates stand in it, declined for now; (4) the knife block's 3/8" kerfs at 1" pitch are a table-saw cut, do them before gluing. Full cut sizes and layout in <i>galley-cabinet.md</i>.
   </div>
 
+  <div class="section-head" id="hw-head">
+    <h2>Doors, latches and drawer retention (added 2026-09-28)</h2>
+    <p>A completeness pass found four gaps the 09-20 lists would have shown on the first drive: the coroplast doors had nothing a hinge could bolt to, the push-to-open magnetic latches release on a bump, the drawers had no retention at all, and each upper door had one hinge. Doors become 1/4" ply on two HI-010-A hinges each with a LAIFUCAM 2" slam latch (panel 2 to 7 mm), and each drawer gets a Camp'N RV catch. The four LAIFUCAM latches from the request are compared in the table; three were not used.</p>
+  </div>
+
+  <div class="stats" id="hwstats" style="grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:0 0 14px"></div>
+  <div class="grid" id="hwgrid"></div>
+  <div class="totals" id="hwtotals"></div>
+  <div class="totals" id="hwlatch" style="margin-top:14px;overflow-x:auto"></div>
+
+  <div class="foot" style="margin-top:16px">
+    <b>Door and drawer open items:</b> (1) read the slam latch keeper's hole size before choosing a #10-32 or 1/4-20 drop-in T-nut; (2) read the LONTAN slide hole size against the #10-32 button heads, and whether the slides ship with drawer-side screws; (3) the HI-010-A listing does not say hardware is included, so 12 combos are on this list; (4) push-button knob latches were ruled out because the listings give 15 to 18 mm doors and the fronts are about 32 mm (19 mm bamboo on a 1/2" box).
+  </div>
+
   <div class="foot">
     <b>Measure before ordering the bamboo:</b> (1) the owned sink's rim and bowl depth, it decides whether 18" deep holds; (2) the sled width, confirm 18" still leaves the load path. Sink, faucet, drain and tanks are owned per <i>My van build.md</i> and are not on this list. The bamboo top overhangs the frame 1/2" front only; cut 36" x 18" if the counter must not project. Weight est about 55 lb before sink, pump and water.
   </div>
@@ -278,7 +292,7 @@ const UPPER_ITEMS=[
  {vendor:"TNUTZ",cat:"Extrusion",name:"1010 extrusion, cut to length",qty:"12 pcs · 184 in · 8.4 lb",sku:"EX-1010",price:49.96,disp:"$49.96 est",est:true,note:"4x 10\" posts, 4x 28\" front/back rails, 4x 8\" side rails. Extrapolated at $0.2715/in from the six verified lengths (all landed 0.265 to 0.291 $/in), so treat as a band, not a quote.",ver:false},
  {vendor:"TNUTZ",cat:"Fasteners",name:"2-hole inside corner bracket",qty:"16",sku:"CB-010-B",price:36.80,disp:"$36.80",note:"8 rail ends on the top frame, 8 on the bottom, one bracket each. Hardware NOT included.",ver:true,link:"https://www.tnutz.com/product/cb-010-b/"},
  {vendor:"TNUTZ",cat:"Fasteners",name:"1/4-20 economy T-nut + BHCS combo, SS",qty:"32",sku:"COMBO-010-A-SS",price:17.60,disp:"$17.60",note:"2 per bracket (32 total). The HI-010-A hinges include their own hardware, so no extra combos are needed for them.",ver:true,link:"https://www.tnutz.com/product/combo-010-a-ss/"},
- {vendor:"TNUTZ",cat:"Hardware",name:"10-series aluminum hinge, 40 lb",qty:"2",sku:"HI-010-A",price:9.50,disp:"$9.50",note:"Two 15\" doors, one hinge each. Same part as the galley, so buy 4 total if ordering both cabinets.",ver:true,link:"https://www.tnutz.com/product/hi-010-a/"},
+ {vendor:"TNUTZ",cat:"Hardware",name:"10-series aluminum hinge, 40 lb",qty:"2",sku:"HI-010-A",price:9.50,disp:"$9.50",note:"2026-09-28: two per door now, see Doors and latches below. Two 15\" doors, one hinge each. Same part as the galley, so buy 4 total if ordering both cabinets.",ver:true,link:"https://www.tnutz.com/product/hi-010-a/"},
  {vendor:"Amazon",cat:"Hardware",name:"Magnetic touch latch, push to open, 2-pack",qty:"1",sku:"B0CMZBF86N",price:11.88,disp:"$11.88",note:"One latch per door, so one 2-pack covers this cabinet. Same ASIN as the galley; skip if the galley's pack has spares.",ver:true},
  {vendor:"Amazon",cat:"Panels",name:"Coroplast 4 mm black 48\" x 24\", 4-pack",qty:"1 pack",sku:"B0842P77SH",price:28.00,disp:"$28.00",note:"7 panels: 2 sides at 9-1/2\" x 9\", 1 back at 28\" x 9\", top and bottom at 28\" x 8\", 2 doors at 14-1/2\" x 9\"; all cut from one 4-pack. The first pass had no top; the LED strip mounts on the rail under it, so it is in the count now.",ver:true},
  {vendor:"Home Depot",cat:"Fasteners",name:"1/4-20 x 2\" SS bolts, fender washers, nylocks (6 ea)",qty:"1 set",sku:"",price:12.00,disp:"$12.00 est",est:true,note:"Top and bottom rails through-bolt into the wall ribs, 4 top and 2 bottom, through the coroplast back. Reachable from inside, so no rivnuts needed here."}
@@ -435,6 +449,51 @@ function renderStore(){
 }
 document.getElementById("stq").oninput=e=>{stq=e.target.value.toLowerCase();renderStore()};
 renderStore();
+
+/* ── DOORS, LATCHES, DRAWER RETENTION (2026-09-28) ─────────── */
+const HW_ITEMS=[
+ {vendor:"Home Depot",cat:"Latches",name:"LAIFUCAM 2\" flush spring slam latch, black, 2-pack",qty:"2 packs (3 doors, 1 spare)",sku:"25BSA11290",price:97.58,disp:"$97.58",note:"$48.79 a pack, $24.40 a latch. 2\" hole cutout, door or panel 2 to 7 mm, ABS body with steel screws and keeper, push to close. The latch body is also the door pull.",ver:true,link:"https://www.homedepot.com/p/LAIFUCAM-2-in-Black-Flush-Spring-Slam-Latch-Door-Latch-for-Boat-Marine-RV-Cabinet-Magnetic-Catch-2-Pack-25BSA11290/343308953"},
+ {vendor:"TNUTZ",cat:"Hinges",name:"10-series aluminum hinge, 40 lb",qty:"2 (second hinge per upper door)",sku:"HI-010-A",price:9.50,disp:"$9.50",note:"2\" x 2\", holes 1\" apart, 40 lb per hinge; TNUTZ says it also fits flat wood. Six in total with the galley.",ver:true,link:"https://www.tnutz.com/product/hi-010-a/"},
+ {vendor:"TNUTZ",cat:"Hinges",name:"1/4-20 economy T-nut + BHCS combo, SS",qty:"12",sku:"COMBO-010-A-SS",price:6.60,disp:"$6.60",note:"Post-side hinge leaves, 2 per hinge. The galley list leaves 6 spare and the upper list none. Price read 2026-09-20.",ver:true},
+ {vendor:"Home Depot",cat:"Hinges",name:"1/4-20 x 3/4\" SS button heads, fender washers, nylocks (12 ea)",qty:"1 set",sku:"",price:8.00,disp:"$8.00 est",est:true,note:"Door-side hinge leaves, through the 1/4\" ply."},
+ {vendor:"Home Depot",cat:"Doors",name:"1/4\" x 2' x 4' Sande plywood project panel",qty:"2",sku:"model 109023",price:32.86,disp:"$32.86",note:"Galley door 16-1/2\" x 32-1/2\", upper doors 14-1/2\" x 9\". One panel leaves a 7-1/2\" strip and a 16-1/2\" x 15-1/2\" block, which will not take the second upper door. Price read 2026-09-20. About 2.7 lb more than coroplast doors (est)."},
+ {vendor:"Amazon",cat:"Drawers",name:"Camp'N RV cabinet and drawer catch, 4-pack",qty:"1 pack (2 drawers, 2 spare)",sku:"B074WFN45Y",price:9.97,disp:"$9.97",note:"Model PCBK4PC, 4.6 stars on 2,094 ratings. Catch on a 1/2\" ply block in the rail slot above each drawer, strike on the box top; a firm pull opens it. Fronts get a routed finger pull.",ver:true,link:"https://www.amazon.com/dp/B074WFN45Y"},
+ {vendor:"Home Depot",cat:"Sink",name:"100% silicone sealant, clear",qty:"1 tube",sku:"",price:8.00,disp:"$8.00 est",est:true,note:"Sink rim to bamboo and the faucet base. No earlier list had sealant."},
+ {vendor:"Amazon",cat:"Latches",name:"REMOVED: QCAA magnetic touch latch, 2-pack",qty:"-2 (galley + upper)",sku:"B0CMZBF86N",price:-23.76,disp:"-$23.76",note:"Push to open by magnet, so a bump opens it. Still listed in the galley and upper sections above as the 09-20 baseline; this line takes them out of the new total.",ver:true}
+];
+const LATCHES=[
+ ["LAIFUCAM 2\" flush slam latch (25BSA11290)","2 for $48.79","2\" hole, panel 2 to 7 mm, push to close","Doors"],
+ ["LAIFUCAM 5/8\" thumb cam latch (25BSA11278)","5 for $57.66","cam lock sits 5/8\" behind the door face","No: lands inside the 1\" rail, needs a strike bracket"],
+ ["LAIFUCAM sliding magnetic latch (25BSA11291)","2 for $54.21","surface slide bolt, spacers for 5 mm gaps","No: slid by hand every time"],
+ ["LAIFUCAM double roller ball catch (25BSA11295)","4 for $54.21","brass, 67 x 12 x 17 mm, 60 g, adjustable spring","No: friction hold; anti-rattle backup at most"],
+ ["QCAA magnetic touch latch (B0CMZBF86N)","2 for $11.88","push to open, double barrel","Replaced"]
+];
+Object.assign(CAT,{Latches:{c:"var(--opt)"},Hinges:{c:"var(--alu)"},Doors:{c:"var(--wood)"},Drawers:{c:"var(--store)"},Sink:{c:"var(--plumb)"}});
+let latchSort={k:0,d:1};
+function renderHW(){
+  document.getElementById("hwgrid").innerHTML=HW_ITEMS.map(cardHTML).join("");
+  const net=HW_ITEMS.reduce((s,i)=>s+i.price,0), est=HW_ITEMS.filter(i=>i.est).reduce((s,i)=>s+i.price,0);
+  const lf=LF_ITEMS.reduce((s,i)=>s+i.price,0), upper=UPPER_ITEMS.reduce((s,i)=>s+i.price,0), sh=SH_ITEMS.reduce((s,i)=>s+i.price,0), st=ST_ITEMS.reduce((s,i)=>s+i.price,0);
+  const base=763.95+upper+lf+sh+st;
+  document.getElementById("hwstats").innerHTML=`
+    <div class="stat"><div class="n">$${net.toFixed(2)}</div><div class="l">net add</div></div>
+    <div class="stat"><div class="n">6 hinges · 3 latches</div><div class="l">3 doors, 1/4" ply</div></div>
+    <div class="stat"><div class="n">2 catches</div><div class="l">one per drawer</div></div>
+    <div class="stat"><div class="n">$${usd(base+net)}</div><div class="l">everything, with 09-28</div></div>`;
+  document.getElementById("hwtotals").innerHTML=`
+    <h2>Totals</h2>
+    <div class="trow"><span>Everything, core (09-20)</span><span class="v">$${usd(base)}</span></div>
+    <div class="trow"><span>Doors, latches, drawer retention, sealant</span><span class="v">$${(net+23.76).toFixed(2)}</span></div>
+    <div class="trow"><span>Touch latches removed</span><span class="v">-$23.76</span></div>
+    <div class="trow"><span>of which est</span><span class="v">$${est.toFixed(2)}</span></div>
+    <div class="trow big"><span>Everything, core, with 09-28 hardware</span><span class="v">$${usd(base+net)}</span></div>`;
+  const rows=[...LATCHES].sort((a,b)=>String(a[latchSort.k]).localeCompare(String(b[latchSort.k]))*latchSort.d);
+  const th=["Latch","Pack, price","Listing says","Verdict"].map((h,i)=>`<th data-k="${i}" style="text-align:left;padding:6px 8px;cursor:pointer;color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.08em">${h}${latchSort.k===i?(latchSort.d>0?" ▲":" ▼"):""}</th>`).join("");
+  const esc=t=>t.replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+  document.getElementById("hwlatch").innerHTML=`<h2>Latch options, read 2026-09-28 (click a header to sort)</h2><div class="tscroll"><table style="width:100%;border-collapse:collapse;font-size:13.5px"><thead><tr>${th}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(c=>`<td style="padding:7px 8px;border-top:1px solid rgba(120,160,210,.08);vertical-align:top">${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  document.querySelectorAll("#hwlatch th").forEach(el=>el.onclick=()=>{const k=+el.dataset.k;latchSort={k,d:latchSort.k===k?-latchSort.d:1};renderHW()});
+}
+renderHW();
 document.getElementById("lfq").oninput=e=>{lfq=e.target.value.toLowerCase();renderLF()};
 document.getElementById("uq").oninput=e=>{uq=e.target.value.toLowerCase();renderUppers()};
 renderUppers();
