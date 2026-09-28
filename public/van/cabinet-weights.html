@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cabinet weights by material</title>
+<style>
+  :root{
+    --bg1:#0a0e14; --bg2:#111823; --surface:#111823;
+    --card:rgba(20,28,40,.72);
+    --line:rgba(120,160,210,.14);
+    --grid:rgba(120,160,210,.10);
+    --txt:#dce6f2; --dim:#8fa3bb; --gold:#ffd166;
+    /* categorical, validated on #111823 (dark): fixed order, one per material */
+    --m-soft:#3987e5; --m-hw:#d95926; --m-bb:#199e70; --m-al:#c98500;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:var(--txt);min-height:100vh;
+    background:linear-gradient(160deg,var(--bg1) 0%,var(--bg2) 55%,#0d1320 100%);background-attachment:fixed}
+  .wrap{max-width:1080px;margin:0 auto;padding:28px 16px 60px}
+  .kicker{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim);margin-bottom:6px}
+  h1{font-size:clamp(24px,4vw,34px);font-weight:800;letter-spacing:-.01em}
+  h1 .hl{color:var(--gold)}
+  .sub{color:var(--dim);font-size:14px;margin-top:6px;line-height:1.55;max-width:820px}
+  a{color:#7dd3fc}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+  .stat .n{font-size:24px;font-weight:800;color:var(--txt);font-variant-numeric:tabular-nums}
+  .stat .l{font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.1em;margin-top:3px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px 14px;margin-top:18px}
+  .panel h2{font-size:17px;font-weight:800}
+  .panel .cap{color:var(--dim);font-size:13px;margin:4px 0 12px;line-height:1.5}
+  .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:14px 0 4px}
+  .chip{cursor:pointer;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--dim);
+    padding:6px 12px;border-radius:999px;font-size:13px;font-weight:600;user-select:none;display:inline-flex;align-items:center;gap:7px}
+  .chip .sw{width:10px;height:10px;border-radius:3px;background:var(--c)}
+  .chip.on{color:var(--txt);border-color:rgba(160,200,255,.45);background:rgba(255,255,255,.07)}
+  .chip:not(.on) .sw{opacity:.25}
+  .chip:focus-visible{outline:2px solid #7dd3fc;outline-offset:2px}
+  input[type=search],select{background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:999px;
+    padding:7px 14px;color:var(--txt);font-size:13px;outline:none}
+  input[type=search]{flex:1;min-width:160px}
+  .lbl{font-size:12px;color:var(--dim);text-transform:uppercase;letter-spacing:.1em;margin-right:2px}
+  svg{display:block;width:100%;height:auto;overflow:visible}
+  svg text{fill:var(--dim);font-size:12px}
+  svg .val{fill:var(--txt);font-weight:700;font-variant-numeric:tabular-nums}
+  svg .cat{fill:var(--txt);font-weight:600}
+  .bar{transition:opacity .12s}
+  .bar:hover,.bar:focus{opacity:.8;outline:none}
+  .legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12.5px;color:var(--dim);margin-top:8px}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .legend i{width:12px;height:12px;border-radius:3px;background:var(--c);display:inline-block}
+  .tbl-wrap{overflow-x:auto;margin-top:8px}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{padding:7px 8px;border-bottom:1px solid var(--grid);text-align:left;white-space:nowrap}
+  td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+  th{color:var(--dim);font-weight:700;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;cursor:pointer;user-select:none}
+  th[aria-sort="ascending"]::after{content:" \25B2";font-size:9px}
+  th[aria-sort="descending"]::after{content:" \25BC";font-size:9px}
+  tr:hover td{background:rgba(255,255,255,.03)}
+  td .dot{display:inline-block;width:9px;height:9px;border-radius:2px;background:var(--c);margin-right:7px}
+  tfoot td{font-weight:800;color:var(--gold);border-bottom:none}
+  .tip{position:fixed;pointer-events:none;background:#0b1018;border:1px solid rgba(160,200,255,.3);border-radius:10px;
+    padding:8px 11px;font-size:12.5px;box-shadow:0 8px 24px rgba(0,0,0,.5);opacity:0;transition:opacity .08s;z-index:10;max-width:280px}
+  .tip b{display:block;font-size:15px;color:var(--txt)}
+  .tip span{color:var(--dim)}
+  .notes{color:var(--dim);font-size:13px;line-height:1.6}
+  .notes li{margin:0 0 6px 18px}
+  .notes b{color:var(--txt)}
+  .est{color:#fb923c;font-weight:700}
+.van-nav{display:flex;gap:8px;margin-bottom:18px}.van-nav a{color:var(--gold,#ffd166);text-decoration:none;border:1px solid var(--line,#243244);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+.tscroll{overflow-x:auto;max-width:100%}img{max-width:100%}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="van-nav"><a href="/van/">Van docs</a></nav>
+  <div class="kicker">2016 Transit 130" WB · Cabinets · verified 2026-09-28</div>
+  <h1>Standard cabinets by material: aluminum + Coroplast is <span class="hl">about one third</span> the weight of 3/4" ply</h1>
+  <p class="sub">One 36" base (34½ H × 24 D, NKBA: 30" box on a 4½" toe kick) and one 36" upper (30 H × 12 D), built four ways. Plywood builds are frameless 3/4" everywhere including the back, with slab doors. The aluminum build is a TNUTZ EX-1010 frame with 4 mm Coroplast skins and doors and a 6 mm Coroplast shelf. Every weight is computed from the parts table below; hinges, pulls, screws, glue, edge banding and finish are left out of every build.</p>
+
+  <div class="stats" id="stats"></div>
+
+  <section class="panel">
+    <h2>Total weight per cabinet</h2>
+    <p class="cap">Hover or tab to a bar for its value. Toggle materials to compare any subset; colors stay with the material.</p>
+    <div class="controls" id="matChips"><span class="lbl">Materials</span></div>
+    <div class="controls" id="cabChips"><span class="lbl">Cabinet</span></div>
+    <div id="chartTotals"></div>
+    <div class="legend" id="legendTotals"></div>
+  </section>
+
+  <section class="panel">
+    <h2>Where the weight is: every part</h2>
+    <p class="cap">Bars follow the table's filters and sort. Plywood parts are weighed at the plywood type picked here.</p>
+    <div class="controls">
+      <span class="lbl">Plywood</span>
+      <select id="plySel"></select>
+      <span class="lbl">Build</span>
+      <select id="buildSel"><option value="">All</option><option value="ply">Plywood</option><option value="al">Aluminum + Coroplast</option></select>
+      <span class="lbl">Cabinet</span>
+      <select id="cabSel"><option value="">Both</option><option>Base</option><option>Upper</option></select>
+      <input type="search" id="q" placeholder="Search parts (door, rail, skin...)">
+    </div>
+    <div id="chartParts"></div>
+    <div class="tbl-wrap"><div class="tscroll"><table id="partsTbl"></table></div></div>
+  </section>
+
+  <section class="panel">
+    <h2>Material inputs</h2>
+    <p class="cap">Every density and part weight the math uses, with where it was read.</p>
+    <div class="tbl-wrap"><div class="tscroll"><table id="inTbl"></table></div></div>
+  </section>
+
+  <section class="panel">
+    <h2>Build notes</h2>
+    <ul class="notes">
+      <li><b>Coroplast floors and shelves do not carry kitchen loads</b> at a 34" span. A ¼" hardwood veneer-core floor and shelf in the base add about 7.4 lb (0.85 lb/sq ft, Hood table).</li>
+      <li><b>4 mm Coroplast doors flex</b> at 18 × 30. 6 mm doors add 1.0 lb a pair; a 1010 frame around each door adds about 8.7 lb a pair of extrusion.</li>
+      <li><b>Toe kick:</b> the aluminum base has a flush kick panel between the floor and a rail at 4½". A recessed kick needs a stepped front frame and more extrusion.</li>
+      <li><b>Joints:</b> one CB-010-B inside corner bracket and two COMBO-010-A T-nut screws per rail end. TNUTZ HI-010-A hinges are 0.04 lb each; a Blum-type plywood hinge weight was not found published, so hinges are out of both totals.</li>
+      <li><b>Tolerances:</b> plywood weight moves with moisture content; Coroplast is ±5% per its spec sheet. The Hood table has no unit label (lb/sq ft fits the magnitudes). The Baltic birch figure is a distributor's listed sheet weight.</li>
+    </ul>
+  </section>
+</div>
+<div class="tip" id="tip" role="status" aria-live="polite"></div>
+<script>
+const MAT = {
+  soft:{name:"Softwood ply 23/32", c:"var(--m-soft)", psf:2.2, src:"APA D510 Panel Design Specification, Table 13", url:"https://wood.tcaup.umich.edu/lectures/2021/D510.pdf"},
+  hw:  {name:"Hardwood veneer-core 3/4", c:"var(--m-hw)", psf:2.47, src:"Hood Distribution panel weight table", url:"https://hooddistribution.com/resources/product-weights/"},
+  bb:  {name:"Baltic birch 18mm", c:"var(--m-bb)", psf:63/25, src:"Plywood Company TX, SKU 75BBB: 63 lb per 5×5 sheet", url:"https://www.plywoodcompany.com/pd/birch-baltic-b-bb-18mm-5x5/582"},
+  al:  {name:"1010 aluminum + Coroplast", c:"var(--m-al)"}
+};
+const AL = {
+  ext:  {name:"TNUTZ EX-1010 extrusion", unit:"lb/ft", v:0.548, src:"TNUTZ EX-1010 spec", url:"https://www.tnutz.com/product/ex-1010/"},
+  joint:{name:"Joint: CB-010-B + 2× COMBO-010-A", unit:"lb/joint", v:0.025+2*0.017, src:"TNUTZ CB-010-B 0.025 lb, COMBO-010-A 0.017 lb", url:"https://www.tnutz.com/product/cb-010-b/"},
+  c4:   {name:"Coroplast 4 mm (natural/white)", unit:"lb/sq ft", v:0.150, src:"Coroplast spec sheet: 750 g/m², 150 lb/1000 sq ft", url:"https://www.professionalplastics.com/professionalplastics/content/CoroplastSpecifications.pdf"},
+  c6:   {name:"Coroplast 6 mm", unit:"lb/sq ft", v:0.286, src:"Coroplast spec sheet: 1400 g/m², 286 lb/1000 sq ft", url:"https://www.professionalplastics.com/professionalplastics/content/CoroplastSpecifications.pdf"}
+};
+// [cabinet, build, part, qty, a, b, kind]  kind: ply (a×b in) | ext (a in long) | joint (count) | c4 | c6 (a×b in)
+const P = [
+ ["Base","ply","Side",2,34.5,23.25,"ply"],["Base","ply","Toe notch removed from sides",2,-4.5,3,"ply"],
+ ["Base","ply","Bottom",1,34.5,22.5,"ply"],["Base","ply","Back",1,34.5,30,"ply"],["Base","ply","Top stretcher",2,34.5,4,"ply"],
+ ["Base","ply","Toe kick",1,34.5,4.5,"ply"],["Base","ply","Adjustable shelf",1,34.375,21.5,"ply"],["Base","ply","Door, full overlay slab",2,17.875,29.875,"ply"],
+ ["Upper","ply","Side",2,30,11.25,"ply"],["Upper","ply","Top and bottom",2,34.5,10.5,"ply"],["Upper","ply","Back",1,34.5,28.5,"ply"],
+ ["Upper","ply","Adjustable shelf",1,34.375,10.25,"ply"],["Upper","ply","Door, full overlay slab",2,17.875,29.875,"ply"],
+ ["Base","al","Post",4,34.5,0,"ext"],["Base","al","Width rail (top, floor, kick line, shelf)",8,34,0,"ext"],["Base","al","Depth rail (incl. center floor support)",7,21.75,0,"ext"],
+ ["Base","al","Corner joints",30,0,0,"joint"],["Base","al","Side skin",2,34.5,23.75,"c4"],["Base","al","Back skin",1,36,34.5,"c4"],
+ ["Base","al","Floor panel",1,34,21.75,"c4"],["Base","al","Kick panel",1,34,4.5,"c4"],["Base","al","Shelf panel",1,34,21.75,"c6"],["Base","al","Door, 4 mm slab",2,17.875,29.875,"c4"],
+ ["Upper","al","Post",4,30,0,"ext"],["Upper","al","Width rail",6,34,0,"ext"],["Upper","al","Depth rail",4,9.75,0,"ext"],
+ ["Upper","al","Corner joints",20,0,0,"joint"],["Upper","al","Side skin",2,30,11.75,"c4"],["Upper","al","Back skin",1,36,30,"c4"],
+ ["Upper","al","Top and bottom skin",2,36,11.75,"c4"],["Upper","al","Shelf panel",1,34,9.75,"c6"],["Upper","al","Door, 4 mm slab",2,17.875,29.875,"c4"]
+].map(([cab,build,part,qty,a,b,kind])=>({cab,build,part,qty,a,b,kind}));
+
+const measure = r => r.kind==="ext" ? r.qty*r.a/12 : r.kind==="joint" ? r.qty : r.qty*r.a*r.b/144;
+const unitOf = r => r.kind==="ext" ? "ft" : r.kind==="joint" ? "ea" : "sq ft";
+const rate = (r,ply) => r.kind==="ply" ? MAT[ply].psf : AL[r.kind].v;
+const wt = (r,ply) => measure(r)*rate(r,ply);
+const total = (cab,m) => P.filter(r=>r.cab===cab && r.build===(m==="al"?"al":"ply")).reduce((s,r)=>s+wt(r,m==="al"?"soft":m),0);
+const f1 = x => (Math.round(x*10)/10).toFixed(1);
+const dims = r => r.kind==="ext" ? `${r.a}" long` : r.kind==="joint" ? "" : `${Math.abs(r.a)} × ${r.b}"`;
+
+// tooltip
+const tip = document.getElementById("tip");
+function showTip(e, big, small){
+  tip.replaceChildren(); const b=document.createElement("b"); b.textContent=big; const s=document.createElement("span"); s.textContent=small;
+  tip.append(b,s); tip.style.opacity=1;
+  const bb = e.target.getBoundingClientRect ? e.target.getBoundingClientRect() : null;
+  const x = e.clientX ?? (bb.left+bb.width/2), y = e.clientY ?? bb.top;
+  tip.style.left = Math.min(x+14, innerWidth-290)+"px"; tip.style.top = (y-10-tip.offsetHeight)+"px";
+}
+const hideTip = () => tip.style.opacity=0;
+const NS="http://www.w3.org/2000/svg";
+const el=(t,a={},txt)=>{const n=document.createElementNS(NS,t);for(const k in a)n.setAttribute(k,a[k]);if(txt!=null)n.textContent=txt;return n};
+function roundedBar(x,y,w,h){ // 4px rounded data end on the right, square at the baseline
+  const r=Math.min(4,w/2,h/2); if(w<=0) return `M${x},${y}h0v${h}h0z`;
+  return `M${x},${y}h${w-r}a${r},${r} 0 0 1 ${r},${r}v${h-2*r}a${r},${r} 0 0 1 -${r},${r}h-${w-r}z`;
+}
+function hbarChart(host, groups, opts){ // groups:[{label, bars:[{key,label,value,c,sub}]}]
+  host.replaceChildren();
+  const W=1000, L=opts.left||150, R=60, barH=opts.barH||18, gap=2, gGap=16;
+  const n=groups.reduce((s,g)=>s+g.bars.length,0);
+  const H=opts.top+groups.length*gGap+n*(barH+gap)+24;
+  const max=Math.max(1,...groups.flatMap(g=>g.bars.map(b=>b.value)));
+  const niceMax=Math.ceil(max/(opts.step||10))*(opts.step||10);
+  const sx=v=>L+(W-L-R)*v/niceMax;
+  const svg=el("svg",{viewBox:`0 0 ${W} ${H}`,role:"img","aria-label":opts.aria});
+  for(let t=0;t<=niceMax;t+=opts.step||10){
+    svg.append(el("line",{x1:sx(t),x2:sx(t),y1:opts.top-6,y2:H-22,stroke:"var(--grid)"}));
+    svg.append(el("text",{x:sx(t),y:H-6,"text-anchor":"middle"},t+(opts.unit||"")));
+  }
+  let y=opts.top;
+  for(const g of groups){
+    if(g.label) svg.append(el("text",{x:0,y:y+barH*g.bars.length/2+g.bars.length+4,class:"cat"},g.label));
+    for(const b of g.bars){
+      const p=el("path",{d:roundedBar(L,y,sx(b.value)-L,barH),fill:b.c,class:"bar",tabindex:0,"aria-label":`${b.label}: ${f1(b.value)} lb`});
+      const hit=el("rect",{x:L,y:y-1,width:W-L-R,height:barH+2,fill:"transparent"});
+      const on=e=>showTip(e,`${f1(b.value)} lb`,b.sub||b.label);
+      for(const t of [p,hit]){t.addEventListener("pointermove",on);t.addEventListener("pointerleave",hideTip)}
+      p.addEventListener("focus",e=>showTip({clientX:e.target.getBoundingClientRect().right,clientY:e.target.getBoundingClientRect().top},`${f1(b.value)} lb`,b.sub||b.label));
+      p.addEventListener("blur",hideTip);
+      if(opts.inner) svg.append(el("text",{x:L-8,y:y+barH-5,"text-anchor":"end"},b.label));
+      svg.append(hit,p);
+      if(opts.direct) svg.append(el("text",{x:sx(b.value)+6,y:y+barH-5,class:"val"},f1(b.value)));
+      y+=barH+gap;
+    }
+    y+=gGap;
+  }
+  host.append(svg);
+}
+
+// ---- totals chart
+const matOn = {soft:true,hw:true,bb:true,al:true}, cabOn={Base:true,Upper:true};
+function chip(host,label,c,get,set){
+  const b=document.createElement("button"); b.className="chip"; b.type="button"; b.style.setProperty("--c",c||"transparent");
+  if(c){const s=document.createElement("span");s.className="sw";b.append(s)}
+  b.append(document.createTextNode(label));
+  const sync=()=>{b.classList.toggle("on",get());b.setAttribute("aria-pressed",get())};
+  b.onclick=()=>{set(!get());sync();drawTotals()}; sync(); host.append(b);
+}
+for(const k in MAT) chip(document.getElementById("matChips"),MAT[k].name,MAT[k].c,()=>matOn[k],v=>matOn[k]=v);
+for(const k in cabOn) chip(document.getElementById("cabChips"),k,null,()=>cabOn[k],v=>cabOn[k]=v);
+function drawTotals(){
+  const groups=["Base","Upper"].filter(c=>cabOn[c]).map(c=>({label:c==="Base"?'Base 36×34½×24':'Upper 36×30×12',
+    bars:Object.keys(MAT).filter(k=>matOn[k]).map(k=>({key:k,label:MAT[k].name,value:total(c,k),c:MAT[k].c,
+      sub:`${MAT[k].name} · ${c}`}))}));
+  hbarChart(document.getElementById("chartTotals"),groups,{top:10,left:150,barH:20,step:20,direct:true,aria:"Total weight per cabinet by material"});
+  const lg=document.getElementById("legendTotals"); lg.replaceChildren();
+  for(const k in MAT) if(matOn[k]){const s=document.createElement("span");const i=document.createElement("i");i.style.setProperty("--c",MAT[k].c);s.append(i,document.createTextNode(MAT[k].name));lg.append(s)}
+}
+drawTotals();
+
+// ---- stat tiles
+(function(){
+  const st=document.getElementById("stats");
+  const tiles=[[f1(total("Base","al"))+" lb","Aluminum base"],[`${f1(total("Base","soft"))} to ${f1(total("Base","bb"))} lb`,"Plywood base"],
+    [f1(total("Upper","al"))+" lb","Aluminum upper"],[`${f1(total("Upper","soft"))} to ${f1(total("Upper","bb"))} lb`,"Plywood upper"],
+    [Math.round(100*total("Base","al")/total("Base","soft"))+"%","Aluminum base vs lightest ply"]];
+  for(const [n,l] of tiles){const d=document.createElement("div");d.className="stat";const a=document.createElement("div");a.className="n";a.textContent=n;const b=document.createElement("div");b.className="l";b.textContent=l;d.append(a,b);st.append(d)}
+})();
+
+// ---- parts table + chart
+const plySel=document.getElementById("plySel");
+for(const k of ["soft","hw","bb"]){const o=document.createElement("option");o.value=k;o.textContent=MAT[k].name;plySel.append(o)}
+const COLS=[["Cabinet","cab"],["Build","buildName"],["Part","part"],["Qty","qty",1],["Size","dims"],["Amount","amt",1],["Unit","unit"],["Rate","rate",1],["Weight lb","w",1]];
+let sortKey="w", sortDir=-1;
+function rows(){
+  const ply=plySel.value, q=document.getElementById("q").value.trim().toLowerCase(), bf=document.getElementById("buildSel").value, cf=document.getElementById("cabSel").value;
+  return P.filter(r=>(!bf||r.build===bf)&&(!cf||r.cab===cf)&&(!q||(r.part+" "+r.cab).toLowerCase().includes(q)))
+   .map(r=>({...r,buildName:r.build==="al"?"Aluminum + Coroplast":MAT[ply].name,dims:dims(r),amt:measure(r),unit:unitOf(r),rate:rate(r,ply),w:wt(r,ply),
+     c:r.build==="al"?MAT.al.c:MAT[ply].c}))
+   .sort((a,b)=>{const x=a[sortKey],y=b[sortKey];return (typeof x==="number"?x-y:String(x).localeCompare(String(y)))*sortDir});
+}
+function drawParts(){
+  const rs=rows(), t=document.getElementById("partsTbl"); t.replaceChildren();
+  const th=t.createTHead().insertRow();
+  for(const [lab,k,num] of COLS){const c=document.createElement("th");c.textContent=lab;if(num)c.className="n";c.tabIndex=0;
+    if(k===sortKey)c.setAttribute("aria-sort",sortDir>0?"ascending":"descending");
+    const go=()=>{sortDir=k===sortKey?-sortDir:(num?-1:1);sortKey=k;drawParts()};c.onclick=go;c.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();go()}};th.append(c)}
+  const tb=t.createTBody();
+  for(const r of rs){const tr=tb.insertRow();
+    for(const [,k,num] of COLS){const td=tr.insertCell();if(num)td.className="n";
+      let v=r[k]; if(k==="amt")v=f1(v); if(k==="rate")v=r.rate.toFixed(3); if(k==="w")v=f1(v);
+      if(k==="buildName"){const d=document.createElement("span");d.className="dot";d.style.setProperty("--c",r.c);td.append(d)}
+      td.append(document.createTextNode(v));}}
+  const ft=t.createTFoot().insertRow(); const a=ft.insertCell(); a.colSpan=COLS.length-1; a.textContent=`${rs.length} parts shown`;
+  const b=ft.insertCell(); b.className="n"; b.textContent=f1(rs.reduce((s,r)=>s+r.w,0));
+  const bars=rs.filter(r=>r.w>0).slice(0,40).map(r=>({label:(t=>t.length>36?t.slice(0,35)+"…":t)(`${r.cab} · ${r.part}`),value:Math.max(0,r.w),c:r.c,sub:`${r.cab} · ${r.part} · ${r.buildName}`}));
+  hbarChart(document.getElementById("chartParts"),[{label:"",bars}],{top:6,left:300,barH:14,step:5,inner:true,direct:true,aria:"Weight of each part"});
+}
+for(const id of ["plySel","buildSel","cabSel"]) document.getElementById(id).onchange=drawParts;
+document.getElementById("q").oninput=drawParts;
+drawParts();
+
+// ---- inputs table (sortable)
+(function(){
+  const data=[...["soft","hw","bb"].map(k=>({m:MAT[k].name,v:MAT[k].psf,u:"lb/sq ft",s:MAT[k].src,url:MAT[k].url,c:MAT[k].c})),
+    ...Object.values(AL).map(a=>({m:a.name,v:a.v,u:a.unit,s:a.src,url:a.url,c:MAT.al.c})),
+    {m:"NKBA standard sizes",v:null,u:"",s:"Base 30\" box + 4½\" toe kick, 24\" deep; wall 12\" deep, 36\" max width",url:"https://elearning.nkba.org/wp-content/uploads/2023/11/Chapter-6-Illustrating-CabinetryCasework.pdf",c:"transparent"}];
+  const t=document.getElementById("inTbl"); let k="m",d=1;
+  const cols=[["Material","m"],["Value","v",1],["Unit","u"],["Source","s"]];
+  function draw(){t.replaceChildren();const h=t.createTHead().insertRow();
+    for(const [lab,key,num] of cols){const c=document.createElement("th");c.textContent=lab;if(num)c.className="n";c.tabIndex=0;if(key===k)c.setAttribute("aria-sort",d>0?"ascending":"descending");
+      const go=()=>{d=key===k?-d:1;k=key;draw()};c.onclick=go;c.onkeydown=e=>{if(e.key==="Enter"){go()}};h.append(c)}
+    const b=t.createTBody();
+    for(const r of [...data].sort((x,y)=>(typeof x[k]==="number"||x[k]==null?(x[k]??-1)-(y[k]??-1):String(x[k]).localeCompare(y[k]))*d)){
+      const tr=b.insertRow();
+      const c0=tr.insertCell();const dot=document.createElement("span");dot.className="dot";dot.style.setProperty("--c",r.c);c0.append(dot,document.createTextNode(r.m));
+      const c1=tr.insertCell();c1.className="n";c1.textContent=r.v==null?"":r.v.toFixed(3);
+      tr.insertCell().textContent=r.u;
+      const c3=tr.insertCell();c3.style.whiteSpace="normal";const a=document.createElement("a");a.href=r.url;a.textContent=r.s;a.target="_blank";a.rel="noopener";c3.append(a);
+    }}
+  draw();
+})();
+</script>
+</body>
+</html>

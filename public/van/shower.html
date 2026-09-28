@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pull-out shower data</title>
+<style>
+  :root{
+    --bg1:#0a0e14; --bg2:#111823;
+    --card:rgba(20,28,40,.72); --line:rgba(120,160,210,.14); --grid:rgba(120,160,210,.10);
+    --txt:#dce6f2; --dim:#8fa3bb; --gold:#ffd166; --ref:#dce6f2;
+    /* categorical, validated on #111823 (dark), fixed order: S, M, L, XL, XXL */
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:var(--txt);min-height:100vh;
+    background:linear-gradient(160deg,var(--bg1) 0%,var(--bg2) 55%,#0d1320 100%);background-attachment:fixed}
+  .wrap{max-width:1080px;margin:0 auto;padding:28px 16px 60px}
+  .kicker{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim);margin-bottom:6px}
+  h1{font-size:clamp(24px,4vw,34px);font-weight:800;letter-spacing:-.01em}
+  h1 .hl{color:var(--gold)}
+  .sub{color:var(--dim);font-size:14px;margin-top:6px;line-height:1.55;max-width:820px}
+  a{color:#7dd3fc}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+  .stat .n{font-size:24px;font-weight:800;font-variant-numeric:tabular-nums}
+  .stat .l{font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.1em;margin-top:3px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px 14px;margin-top:18px}
+  .panel h2{font-size:17px;font-weight:800}
+  .panel .cap{color:var(--dim);font-size:13px;margin:4px 0 12px;line-height:1.5}
+  .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 6px}
+  .chip{cursor:pointer;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--dim);
+    padding:6px 12px;border-radius:999px;font-size:13px;font-weight:600;user-select:none;display:inline-flex;align-items:center;gap:7px}
+  .chip .sw{width:14px;height:2px;background:var(--c)}
+  .chip.on{color:var(--txt);border-color:rgba(160,200,255,.45);background:rgba(255,255,255,.07)}
+  .chip:not(.on) .sw{opacity:.25}
+  .chip:focus-visible{outline:2px solid #7dd3fc;outline-offset:2px}
+  input[type=search],select{background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:999px;padding:7px 14px;color:var(--txt);font-size:13px;outline:none}
+  input[type=search]{flex:1;min-width:160px}
+  .lbl{font-size:12px;color:var(--dim);text-transform:uppercase;letter-spacing:.1em}
+  svg{display:block;width:100%;height:auto;overflow:visible}
+  svg text{fill:var(--dim);font-size:12px}
+  svg .val{fill:var(--txt);font-weight:700;font-variant-numeric:tabular-nums}
+  svg .cat{fill:var(--txt);font-weight:600}
+  .bar:hover,.bar:focus{opacity:.8;outline:none}
+  .legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12.5px;color:var(--dim);margin-top:8px}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .legend i{width:14px;height:2px;background:var(--c);display:inline-block}
+  .legend i.box{height:12px;width:12px;border-radius:3px}
+  .legend i.dash{background:none;border-top:2px dashed var(--c);height:0}
+  .tbl-wrap{overflow-x:auto;margin-top:8px}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{padding:7px 8px;border-bottom:1px solid var(--grid);text-align:left;vertical-align:top}
+  td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  th{color:var(--dim);font-weight:700;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;cursor:pointer;user-select:none;white-space:nowrap}
+  th[aria-sort="ascending"]::after{content:" \25B2";font-size:9px}
+  th[aria-sort="descending"]::after{content:" \25BC";font-size:9px}
+  tr:hover td{background:rgba(255,255,255,.03)}
+  tfoot td{font-weight:800;color:var(--gold);border-bottom:none}
+  .pill{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;border-radius:5px;padding:2px 7px;white-space:nowrap}
+  .p-yes{background:rgba(110,231,183,.13);color:#6ee7b7;border:1px solid rgba(110,231,183,.3)}
+  .p-no{background:rgba(251,113,133,.13);color:#fb7185;border:1px solid rgba(251,113,133,.3)}
+  .p-maybe{background:rgba(251,146,60,.14);color:#fb923c;border:1px dashed rgba(251,146,60,.5)}
+  .tip{position:fixed;pointer-events:none;background:#0b1018;border:1px solid rgba(160,200,255,.3);border-radius:10px;
+    padding:8px 11px;font-size:12.5px;box-shadow:0 8px 24px rgba(0,0,0,.5);opacity:0;transition:opacity .08s;z-index:10;max-width:300px}
+  .tip b{display:block;font-size:15px;color:var(--txt)}
+  .tip .row{display:flex;align-items:center;gap:7px;color:var(--dim)}
+  .tip .row i{width:12px;height:2px;background:var(--c)}
+  .tip .row b{display:inline;font-size:13px}
+  .notes{color:var(--dim);font-size:13px;line-height:1.6}
+  .notes li{margin:0 0 6px 18px}
+  .notes b{color:var(--txt)}
+  .est{color:#fb923c;font-weight:700}
+.van-nav{display:flex;gap:8px;margin-bottom:18px}.van-nav a{color:var(--gold,#ffd166);text-decoration:none;border:1px solid var(--line,#243244);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+.tscroll{overflow-x:auto;max-width:100%}img{max-width:100%}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="van-nav"><a href="/van/">Van docs</a></nav>
+  <div class="kicker">2016 Transit 130" WB medium roof · Pull-out shower · verified 2026-09-28</div>
+  <h1>48" folding basin under a <span class="hl">45.7" circular ceiling track</span></h1>
+  <p class="sub">Proposed change to the 09-20 galley shower: the Jasonwell L (48") replaces the S (32"), and a 12 ft bendable ceiling track closed into a circle replaces the 69" folding rod. Two questions are still open: whether the ceiling is bare ribs or paneled (the track's 9 brackets need something to screw into), and the showerer's height against a 70" ceiling.</p>
+
+  <div class="stats" id="stats"></div>
+
+  <section class="panel">
+    <h2>Basin size against the aisle</h2>
+    <p class="cap">Jasonwell's six sizes. The dashed line is the aisle beside the 18" galley: 53" between wheel wells plus two 8"-deep wells gives about 69" wall to wall (arithmetic from Upfit Supply's figures), minus 18" leaves about 51".</p>
+    <div class="controls"><span class="lbl">Show</span>
+      <select id="sizeFilter"><option value="all">All sizes</option><option value="fit">Only sizes that fit the aisle</option><option value="priced">Only sizes with a read price</option></select>
+      <select id="sizeSort"><option value="d">Sort by diameter</option><option value="w">Sort by weight</option><option value="p">Sort by price</option></select>
+    </div>
+    <div id="chartSize"></div>
+    <div class="legend"><span><i class="box" style="--c:var(--s3)"></i>Basin diameter</span><span><i class="dash" style="--c:var(--ref)"></i>Aisle, about 51"</span></div>
+    <div class="tbl-wrap"><div class="tscroll"><table id="sizeTbl"></table></div></div>
+  </section>
+
+  <section class="panel">
+    <h2>How deep the water sits</h2>
+    <p class="cap">Depth = gallons × 231 in³ ÷ basin floor area. A shower's water spreads thin, so the side drain only empties if the van leans toward it. Hover anywhere on the plot for all sizes at that volume.</p>
+    <div class="controls" id="depthChips"><span class="lbl">Basins</span></div>
+    <div id="chartDepth"></div>
+    <div class="legend" id="depthLegend"></div>
+  </section>
+
+  <section class="panel">
+    <h2>Curtain options</h2>
+    <p class="cap">A circular curtain has to hang inside the 48" rim so drips land in the basin. Bars show the circle each option makes; the dashed line is the rim.</p>
+    <div class="controls"><span class="lbl">Show</span>
+      <select id="curFilter"><option value="all">All options</option><option value="yes">Works with the 48" basin</option></select>
+      <input type="search" id="curQ" placeholder="Search options">
+    </div>
+    <div id="chartCurtain"></div>
+    <div class="legend"><span><i class="box" style="--c:var(--s1)"></i>Circle the option makes</span><span><i class="dash" style="--c:var(--ref)"></i>Basin rim, 48"</span></div>
+    <div class="tbl-wrap"><div class="tscroll"><table id="curTbl"></table></div></div>
+  </section>
+
+  <section class="panel">
+    <h2>Kit: 09-20 design against the proposal</h2>
+    <div class="controls"><span class="lbl">Design</span>
+      <select id="kitFilter"><option value="">Both</option><option>09-20</option><option>Proposed</option></select></div>
+    <div class="tbl-wrap"><div class="tscroll"><table id="kitTbl"></table></div></div>
+  </section>
+
+  <section class="panel">
+    <h2>Fit, drain and mounting notes</h2>
+    <ul class="notes">
+      <li><b>Roof:</b> the 130" WB came in low (53") or medium (70") roof per Upfit Supply. The galley's upper tops out near 62", so this van is the medium roof and <b>70" is the ceiling</b>.</li>
+      <li><b>Curtain drop:</b> 70" minus about 2" for track, rollers and hooks (<span class="est">est</span>) leaves about 68". Trim the 72" PEVA to about 64" so the hem sits inside the basin.</li>
+      <li><b>Two curtains:</b> the 45.7" circle is 143.7" around; one 72" curtain covers half. The magnet use that works here is a pair sewn into the overlap where the two meet.</li>
+      <li><b>Magnets alone do not work:</b> the basin is vinyl, the galley is aluminum, and steel only shows at the transverse roof ribs, so nothing holds a circle.</li>
+      <li><b>Drain:</b> gravity out the slider door to the ground works. Into the grey tank only if its inlet sits below the van floor. One Amazon reviewer reports the hose connector needs a quick-connect that is not in the box; check on arrival.</li>
+      <li><b>Track install:</b> KOLAKO reviewers report the coil set is hard to straighten; one mounted theirs to a 1x3 on the ceiling first. A ring of ply or cleats across the ribs does the same job here.</li>
+    </ul>
+  </section>
+</div>
+<div class="tip" id="tip" role="status" aria-live="polite"></div>
+<script>
+const f1=x=>(Math.round(x*10)/10).toFixed(1);
+const AISLE=69-18, RIM=48;
+// Jasonwell sizes: diameters from jasonwell.co; weight/price only where a listing was read
+const SIZES=[
+ {k:"S",d:32,h:8,w:5.3,p:21.99,asin:"B01I3DL9XW",read:"2026-09-20",c:"var(--s1)"},
+ {k:"M",d:39.5,h:11.8,w:9.4,p:27.99,asin:"B01MU0JMNG",read:"2026-09-20",c:"var(--s2)"},
+ {k:"L",d:48,h:11.8,w:10.6,p:27.99,asin:"B01I3DIWDM",read:"2026-09-28",c:"var(--s3)"},
+ {k:"XL",d:55.1,h:11.8,w:null,p:null,asin:"",read:"",c:"var(--s4)"},
+ {k:"XXL",d:63,h:11.8,w:null,p:null,asin:"",read:"",c:"var(--s5)"},
+ {k:"XXXL",d:71,h:11.8,w:null,p:null,asin:"",read:"",c:"var(--dim)"}
+];
+const CURT=[
+ {o:"KOLAKO 12 ft bendable ceiling track",id:"B09P58RNYR",circle:143.7/Math.PI,price:"$17.99",pv:17.99,wt:"0.9 kg",works:"yes",how:"Closed into a 143.7\" circle on 9 ceiling brackets",url:"https://www.amazon.com/dp/B09P58RNYR"},
+ {o:"XCK 10 ft bendable ceiling track",id:"B0CYLVKPW2",circle:118/Math.PI,price:"new not read",pv:null,wt:"16 oz",works:"no",how:"118\" closes to a 37.6\" circle, 5\" inside the rim on each side",url:"https://www.amazon.com/dp/B0CYLVKPW2"},
+ {o:"Stainless circular rod DR 100",id:"DR1000",circle:100/2.54,price:"€495",pv:null,wt:"",works:"maybe",how:"Fixed 100 cm ring, ceiling holders; made in Germany",url:"https://www.showercurtain365.com/shower-rod-circular-round-dr-100-ceiling-hold-only-stainless-steel"},
+ {o:"69\" 5-fold swing rod (09-20 design)",id:"B0DJBV7C6G",circle:0,price:"$50.99",pv:50.99,wt:"",works:"no",how:"One straight arm off the upper's post; it cannot wrap a circle",url:"https://www.amazon.com/dp/B0DJBV7C6G"},
+ {o:"Tetravan magnetic curtain",id:"tetravan",circle:0,price:"$175.00",pv:175,wt:"907 g",works:"no",how:"Magnets sewn in the bottom edge grab a steel shower pan; the Jasonwell is vinyl",url:"https://tetravan.com/products/tetravan-universal-shower-curtain"}
+];
+const KIT=[
+ {d:"09-20",part:"Jasonwell S basin 32\" × 8\"",id:"B01I3DL9XW",q:1,each:21.99,lb:5.3},
+ {d:"09-20",part:"69\" 5-fold folding curtain rod",id:"B0DJBV7C6G",q:1,each:50.99,lb:null},
+ {d:"09-20",part:"AmazerBath PEVA curtain 72 × 72",id:"B07236M4HC",q:1,each:8.98,lb:null},
+ {d:"Proposed",part:"Jasonwell L basin 48\" × 11.8\"",id:"B01I3DIWDM",q:1,each:27.99,lb:10.6},
+ {d:"Proposed",part:"KOLAKO 12 ft bendable ceiling track",id:"B09P58RNYR",q:1,each:17.99,lb:0.9*2.20462},
+ {d:"Proposed",part:"AmazerBath PEVA curtain 72 × 72",id:"B07236M4HC",q:2,each:8.98,lb:null}
+];
+
+const tip=document.getElementById("tip");
+function tipAt(x,y,title,rows){tip.replaceChildren();const b=document.createElement("b");b.textContent=title;tip.append(b);
+  for(const r of rows){const d=document.createElement("div");d.className="row";if(r.c){const i=document.createElement("i");i.style.setProperty("--c",r.c);d.append(i)}
+    const v=document.createElement("b");v.textContent=r.v;d.append(v,document.createTextNode(" "+r.l));tip.append(d)}
+  tip.style.opacity=1;tip.style.left=Math.min(x+14,innerWidth-310)+"px";tip.style.top=Math.max(8,y-12-tip.offsetHeight)+"px"}
+const hide=()=>tip.style.opacity=0;
+const NS="http://www.w3.org/2000/svg";
+const el=(t,a={},txt)=>{const n=document.createElementNS(NS,t);for(const k in a)n.setAttribute(k,a[k]);if(txt!=null)n.textContent=txt;return n};
+function rbar(x,y,w,h){const r=Math.min(4,w/2,h/2);if(w<=0)return "";return `M${x},${y}h${w-r}a${r},${r} 0 0 1 ${r},${r}v${h-2*r}a${r},${r} 0 0 1 -${r},${r}h-${w-r}z`}
+function hbars(host,items,o){ // items:{label,value,c,tipTitle,tipRows}
+  host.replaceChildren();const W=1000,L=o.left,R=70,bh=22,gap=2,top=26;const H=top+items.length*(bh+gap)+30;
+  const max=o.max;const sx=v=>L+(W-L-R)*v/max;
+  const svg=el("svg",{viewBox:`0 0 ${W} ${H}`,role:"img","aria-label":o.aria});
+  for(let t=0;t<=max;t+=o.step){svg.append(el("line",{x1:sx(t),x2:sx(t),y1:top-4,y2:H-24,stroke:"var(--grid)"}));svg.append(el("text",{x:sx(t),y:H-8,"text-anchor":"middle"},t+'"'))}
+  let y=top;
+  for(const it of items){
+    svg.append(el("text",{x:L-8,y:y+bh-6,"text-anchor":"end",class:"cat"},it.label));
+    const hit=el("rect",{x:L,y:y-1,width:W-L-R,height:bh+2,fill:"transparent"});
+    const p=el("path",{d:rbar(L,y,sx(it.value)-L,bh),fill:it.c,class:"bar",tabindex:0,"aria-label":`${it.label}: ${it.valueText}`});
+    const on=e=>tipAt(e.clientX,e.clientY,it.tipTitle,it.tipRows);
+    for(const t of [hit,p]){t.addEventListener("pointermove",on);t.addEventListener("pointerleave",hide)}
+    p.addEventListener("focus",e=>{const r=e.target.getBoundingClientRect();tipAt(r.right,r.top,it.tipTitle,it.tipRows)});p.addEventListener("blur",hide);
+    const inside=sx(it.value)-L>70;
+    svg.append(hit,p,el("text",inside?{x:sx(it.value)-8,y:y+bh-6,"text-anchor":"end",class:"val",style:"fill:#0b1018"}:{x:Math.max(sx(it.value),L)+6,y:y+bh-6,class:"val"},it.valueText));y+=bh+gap}
+  const rx=sx(o.ref);svg.append(el("line",{x1:rx,x2:rx,y1:top-6,y2:H-24,stroke:"var(--ref)","stroke-width":2,"stroke-dasharray":"5 4"}));
+  svg.append(el("text",{x:rx,y:top-10,"text-anchor":"middle",class:"val"},o.refLabel));
+  host.append(svg)}
+function sortable(t,cols,data,state,filter){
+  function draw(){t.replaceChildren();const h=t.createTHead().insertRow();
+    for(const c of cols){const th=document.createElement("th");th.textContent=c.t;if(c.n)th.className="n";th.tabIndex=0;
+      if(c.k===state.k)th.setAttribute("aria-sort",state.d>0?"ascending":"descending");
+      const go=()=>{state.d=c.k===state.k?-state.d:(c.n?-1:1);state.k=c.k;draw()};th.onclick=go;th.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();go()}};h.append(th)}
+    const rows=data().filter(filter||(()=>true)).sort((a,b)=>{const x=a[state.k],y=b[state.k];
+      if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;return (typeof x==="number"?x-y:String(x).localeCompare(String(y)))*state.d});
+    const tb=t.createTBody();for(const r of rows){const tr=tb.insertRow();for(const c of cols){const td=tr.insertCell();if(c.n)td.className="n";c.r?td.append(c.r(r)):td.append(document.createTextNode(r[c.k]==null?"not read":r[c.k]))}}
+    return rows}
+  return draw}
+const txt=s=>document.createTextNode(s);
+const pill=(cls,s)=>{const p=document.createElement("span");p.className="pill "+cls;p.textContent=s;return p};
+const link=(href,s)=>{const a=document.createElement("a");a.href=href;a.textContent=s;a.target="_blank";a.rel="noopener";return a};
+
+// stats
+(()=>{const st=document.getElementById("stats");
+  const L=SIZES.find(s=>s.k==="L");const kitT=d=>KIT.filter(k=>k.d===d).reduce((s,k)=>s+k.q*k.each,0);
+  for(const [n,l] of [[`${L.d}"`,"Basin diameter"],[`${f1(AISLE)}"`,"Aisle beside galley (derived)"],[f1(143.7/Math.PI)+'"',"Curtain circle"],
+    ['70"',"Medium roof ceiling"],["$"+kitT("Proposed").toFixed(2),"Proposed kit vs $"+kitT("09-20").toFixed(2)]]){
+    const d=document.createElement("div");d.className="stat";const a=document.createElement("div");a.className="n";a.textContent=n;const b=document.createElement("div");b.className="l";b.textContent=l;d.append(a,b);st.append(d)}})();
+
+// basin size chart + table
+const sizeState={k:"d",d:1};
+const sizeFilterFn=()=>{const v=document.getElementById("sizeFilter").value;return s=>v==="all"||(v==="fit"?s.d<=AISLE:s.p!=null)};
+const sizeData=()=>SIZES.map(s=>({...s,fits:s.d<=AISLE?"fits":"blocks",margin:AISLE-s.d,floor:Math.PI*(s.d/2)**2/144}));
+function drawSize(){const f=sizeFilterFn();const key=document.getElementById("sizeSort").value;
+  const items=sizeData().filter(f).sort((a,b)=>((a[key]??1e9)-(b[key]??1e9))).map(s=>({label:`${s.k}`,value:s.d,valueText:s.d+'"',c:s.k==="L"?"var(--s3)":"rgba(143,163,187,.55)",
+    tipTitle:`${s.k}: ${s.d}" across`,tipRows:[{v:s.fits==="fits"?`${f1(s.margin)}"`:`${f1(-s.margin)}"`,l:s.fits==="fits"?"spare in the aisle":"wider than the aisle"},
+      {v:s.w==null?"not read":s.w+" lb",l:"weight"},{v:s.p==null?"not read":"$"+s.p.toFixed(2),l:"price"}]}));
+  hbars(document.getElementById("chartSize"),items,{left:70,max:80,step:10,ref:AISLE,refLabel:`aisle ${f1(AISLE)}"`,aria:"Basin diameter by size against aisle width"});
+  sizeState.k=key;drawSizeTbl2()}
+function drawSizeTbl2(){const f=sizeFilterFn();const t=document.getElementById("sizeTbl");
+  const draw=sortable(t,[
+  {t:"Size",k:"k"},{t:"Diameter",k:"d",n:1,r:r=>txt(r.d+'"')},{t:"Wall",k:"h",n:1,r:r=>txt(r.h+'"')},{t:"Floor sq ft",k:"floor",n:1,r:r=>txt(f1(r.floor))},
+  {t:"Weight lb",k:"w",n:1,r:r=>txt(r.w==null?"not read":f1(r.w))},{t:"Price",k:"p",n:1,r:r=>txt(r.p==null?"not read":"$"+r.p.toFixed(2))},
+  {t:"Aisle room",k:"margin",n:1,r:r=>txt((r.margin>=0?"+":"")+f1(r.margin)+'"')},{t:"Aisle",k:"fits",r:r=>pill(r.fits==="fits"?"p-yes":"p-no",r.fits)},
+  {t:"Listing",k:"asin",r:r=>r.asin?link("https://www.amazon.com/dp/"+r.asin,r.asin+" · read "+r.read):txt("jasonwell.co size list")}
+  ],sizeData,sizeState,f);draw()}
+document.getElementById("sizeFilter").onchange=drawSize;document.getElementById("sizeSort").onchange=drawSize;drawSize();
+
+// depth line chart
+const depthOn={S:true,M:true,L:true,XL:false,XXL:false};
+const depthSizes=SIZES.filter(s=>s.k in depthOn);
+const depth=(g,d)=>g*231/(Math.PI*(d/2)**2);
+const chips=document.getElementById("depthChips");
+for(const s of depthSizes){const b=document.createElement("button");b.type="button";b.className="chip";b.style.setProperty("--c",s.c);
+  const sw=document.createElement("span");sw.className="sw";b.append(sw,txt(`${s.k} ${s.d}"`));
+  const sync=()=>{b.classList.toggle("on",depthOn[s.k]);b.setAttribute("aria-pressed",depthOn[s.k])};b.onclick=()=>{depthOn[s.k]=!depthOn[s.k];sync();drawDepth()};sync();chips.append(b)}
+function drawDepth(){const host=document.getElementById("chartDepth");host.replaceChildren();
+  const W=1000,H=320,L=56,R=90,T=12,B=40;const G=[0.5,6];const on=depthSizes.filter(s=>depthOn[s.k]);
+  const ymax=Math.max(0.5,...on.map(s=>depth(G[1],s.d)));const yNice=Math.ceil(ymax*4)/4;
+  const sx=g=>L+(W-L-R)*(g-G[0])/(G[1]-G[0]),sy=v=>H-B-(H-B-T)*v/yNice;
+  const svg=el("svg",{viewBox:`0 0 ${W} ${H}`,role:"img","aria-label":"Water depth in inches by gallons for each basin size"});
+  for(let v=0;v<=yNice+1e-9;v+=0.25){svg.append(el("line",{x1:L,x2:W-R,y1:sy(v),y2:sy(v),stroke:"var(--grid)"}));svg.append(el("text",{x:L-8,y:sy(v)+4,"text-anchor":"end"},v.toFixed(2)+'"'))}
+  for(let g=1;g<=6;g++)svg.append(el("text",{x:sx(g),y:H-B+18,"text-anchor":"middle"},g+" gal"));
+  svg.append(el("rect",{x:sx(2),y:T,width:sx(3)-sx(2),height:H-B-T,fill:"rgba(255,209,102,.06)"}));
+  svg.append(el("text",{x:sx(2.5),y:T+14,"text-anchor":"middle"},"est. 2 to 3 gal shower"));
+  for(const s of on){let d="";for(let g=G[0];g<=G[1]+1e-9;g+=0.1)d+=(d?"L":"M")+sx(g)+","+sy(depth(g,s.d));
+    svg.append(el("path",{d,fill:"none",stroke:s.c,"stroke-width":2}));
+    svg.append(el("text",{x:W-R+6,y:sy(depth(G[1],s.d))+4,class:"val"},`${s.k} ${depth(G[1],s.d).toFixed(2)}"`))}
+  const hair=el("line",{y1:T,y2:H-B,stroke:"var(--dim)","stroke-width":1,opacity:0});svg.append(hair);
+  const dots=on.map(s=>{const c=el("circle",{r:5,fill:s.c,stroke:"#111823","stroke-width":2,opacity:0});svg.append(c);return c});
+  const hit=el("rect",{x:L,y:T,width:W-L-R,height:H-B-T,fill:"transparent",tabindex:0});svg.append(hit);
+  const at=(g,x,y)=>{g=Math.round(Math.min(G[1],Math.max(G[0],g))*2)/2;hair.setAttribute("x1",sx(g));hair.setAttribute("x2",sx(g));hair.setAttribute("opacity",.6);
+    on.forEach((s,i)=>{dots[i].setAttribute("cx",sx(g));dots[i].setAttribute("cy",sy(depth(g,s.d)));dots[i].setAttribute("opacity",1)});
+    tipAt(x,y,`${g} gal`,on.map(s=>({c:s.c,v:depth(g,s.d).toFixed(2)+'"',l:`${s.k} ${s.d}"`})))};
+  hit.addEventListener("pointermove",e=>{const r=svg.getBoundingClientRect();const vx=(e.clientX-r.left)*W/r.width;at(G[0]+(vx-L)/(W-L-R)*(G[1]-G[0]),e.clientX,e.clientY)});
+  hit.addEventListener("pointerleave",()=>{hide();hair.setAttribute("opacity",0);dots.forEach(d=>d.setAttribute("opacity",0))});
+  let kg=2.5;hit.addEventListener("focus",()=>{const r=hit.getBoundingClientRect();at(kg,r.left+r.width/2,r.top)});
+  hit.addEventListener("keydown",e=>{if(e.key==="ArrowRight"||e.key==="ArrowLeft"){kg=Math.min(G[1],Math.max(G[0],kg+(e.key==="ArrowRight"?.5:-.5)));const r=hit.getBoundingClientRect();at(kg,r.left+(sx(kg)-L)/(W-L-R)*r.width,r.top)}});
+  hit.addEventListener("blur",hide);
+  host.append(svg);
+  const lg=document.getElementById("depthLegend");lg.replaceChildren();for(const s of on){const sp=document.createElement("span");const i=document.createElement("i");i.style.setProperty("--c",s.c);sp.append(i,txt(`${s.k} ${s.d}"`));lg.append(sp)}}
+drawDepth();
+
+// curtain chart + table
+const curState={k:"circle",d:-1};
+const curFilter=()=>{const v=document.getElementById("curFilter").value,q=document.getElementById("curQ").value.toLowerCase().trim();
+  return c=>(v==="all"||c.works==="yes")&&(!q||(c.o+" "+c.how).toLowerCase().includes(q))};
+function drawCurtain(){const f=curFilter();
+  const items=CURT.filter(f).sort((a,b)=>b.circle-a.circle).map(c=>({label:c.o.length>34?c.o.slice(0,33)+"…":c.o,value:c.circle,valueText:c.circle?f1(c.circle)+'"':"no circle",c:"var(--s1)",
+    tipTitle:c.o,tipRows:[{v:c.circle?f1(c.circle)+'"':"none",l:"circle"},{v:c.circle?f1((RIM-c.circle)/2)+'"':"n/a",l:"inside the rim per side"},{v:c.price,l:"price"}]}));
+  hbars(document.getElementById("chartCurtain"),items,{left:270,max:60,step:10,ref:RIM,refLabel:'rim 48"',aria:"Circle diameter each curtain option makes"});
+  sortable(document.getElementById("curTbl"),[
+    {t:"Option",k:"o",r:r=>link(r.url,r.o)},{t:"Circle",k:"circle",n:1,r:r=>txt(r.circle?f1(r.circle)+'"':"none")},
+    {t:"Price",k:"pv",n:1,r:r=>txt(r.price)},{t:"Weight",k:"wt",r:r=>txt(r.wt||"not read")},
+    {t:"48\" basin",k:"works",r:r=>pill(r.works==="yes"?"p-yes":r.works==="no"?"p-no":"p-maybe",r.works==="maybe"?"too costly":r.works==="yes"?"works":"no")},
+    {t:"How it holds",k:"how",r:r=>txt(r.how)}],()=>CURT,curState,f)()}
+document.getElementById("curFilter").onchange=drawCurtain;document.getElementById("curQ").oninput=drawCurtain;drawCurtain();
+
+// kit table
+const kitState={k:"d",d:1};
+function drawKit(){const v=document.getElementById("kitFilter").value;const t=document.getElementById("kitTbl");
+  const rows=sortable(t,[{t:"Design",k:"d"},{t:"Part",k:"part"},{t:"SKU",k:"id",r:r=>link("https://www.amazon.com/dp/"+r.id,r.id)},{t:"Qty",k:"q",n:1},
+    {t:"Each",k:"each",n:1,r:r=>txt("$"+r.each.toFixed(2))},{t:"Ext",k:"ext",n:1,r:r=>txt("$"+r.ext.toFixed(2))},{t:"Weight lb",k:"lb",n:1,r:r=>txt(r.lb==null?"not read":f1(r.lb))}],
+    ()=>KIT.map(k=>({...k,ext:k.q*k.each})),kitState,k=>!v||k.d===v)();
+  const foot=t.createTFoot();
+  for(const d of (v?[v]:["09-20","Proposed"])){const ft=foot.insertRow();const a=ft.insertCell();a.colSpan=5;a.textContent=`${d} subtotal`;
+    const b=ft.insertCell();b.className="n";b.textContent="$"+KIT.filter(k=>k.d===d).reduce((s,k)=>s+k.q*k.each,0).toFixed(2);
+    const c=ft.insertCell();c.className="n";const lb=KIT.filter(k=>k.d===d&&k.lb!=null).reduce((s,k)=>s+k.lb,0);c.textContent=f1(lb)+" read";}}
+document.getElementById("kitFilter").onchange=drawKit;drawKit();
+</script>
+</body>
+</html>
