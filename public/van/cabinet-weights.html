@@ -107,6 +107,48 @@
     <div class="tbl-wrap"><div class="tscroll"><table id="partsTbl"></table></div></div>
   </section>
 
+  <section class="panel" id="products">
+    <h2>Products and builds compared</h2>
+    <p class="cap">Click a column header to sort; click again to reverse. Rows without a published weight sort last. Prices checked 2026-09-28 unless noted.</p>
+    <div class="controls">
+      <input type="search" id="pq" placeholder="Search name, vendor, scope...">
+      <span class="lbl">Category</span><select id="pCat"><option value="">All</option></select>
+      <span class="lbl">Type</span><select id="pType"><option value="">All</option></select>
+    </div>
+    <div class="controls">
+      <span class="lbl">Confidence</span><select id="pConf"><option value="">All</option></select>
+      <span class="lbl">Van fit</span><select id="pFit"><option value="0">Any</option><option value="2">2+</option><option value="3">3+</option><option value="4">4+</option><option value="5">5 only</option></select>
+      <label class="chip" style="cursor:pointer"><input type="checkbox" id="pHasW" style="accent-color:#7dd3fc"> Only rows with a weight</label>
+      <span class="lbl" id="pCount" style="margin-left:auto"></span>
+    </div>
+    <div class="tbl-wrap"><div class="tscroll"><table id="prodTbl"></table></div></div>
+    <ul class="notes" style="margin-top:14px">
+      <li><b>Van fit (1 to 5):</b> fit for this 2016 Transit 130" WB apart from weight: Transit-specific sizing, van mounting (L-track, airline track, rivnuts), depth, and build for road vibration. 5 is Transit-specific with van mounting; 1 is trailer or residential sizing.</li>
+      <li><b>Confidence:</b> High is an exact manufacturer weight. Med is a retailer copy of the spec, conflicting page versions, a configured example, or a weight summed from parts. Low is a range, "about", or "approximately". Modeled is calculated here from published densities. None means no weight is published.</li>
+      <li><b>Modeled rows</b> use standard van sizes (upper 36 x 16 x 14, base 36 x 34 x 20), six faces, full-size skins; the 1010 rows include 24 brackets, 48 T-nuts and 4 hinges. They are a different geometry from the NKBA cabinets above.</li>
+      <li><b>Vankea</b> lists fit for Transit 148 only, so it scores 2 for this 130" WB van.</li>
+      <li><b>CTech trailer cabinets</b> (Econo, Pro, ULTRA) ship with back and top panels omitted, so their weights are not equal scope with enclosed boxes.</li>
+    </ul>
+  </section>
+
+  <section class="panel" id="doors">
+    <h2>Door panel materials</h2>
+    <p class="cap">Weight per square foot and for one pair of doors at this page's door size (two 17⅞ × 29⅞ slabs, 7.417 sq ft). Click a header to sort. Hinges, pulls and edge finish are not included.</p>
+    <div class="controls">
+      <input type="search" id="dq" placeholder="Search material, product, notes...">
+      <span class="lbl">Group</span><select id="dGrp"><option value="">All</option></select>
+      <span class="lbl">Confidence</span><select id="dConf"><option value="">All</option></select>
+      <span class="lbl" id="dCount" style="margin-left:auto"></span>
+    </div>
+    <div class="tbl-wrap"><div class="tscroll"><table id="doorTbl"></table></div></div>
+    <ul class="notes" style="margin-top:14px">
+      <li><b>Sheet-derived rows</b> divide a published sheet weight by sheet area. King Plastic labels its sheet weights approximate, and the others are distributor figures, so those rows are Med.</li>
+      <li><b>Density-derived rows</b> multiply a published density by thickness (Curbell expanded PVC 0.58 g/cm³; Roseburg Medite 3D MDF 45 lb/ft³).</li>
+      <li><b>PP honeycomb</b> weight depends on the skins; the row shows the manufacturer's range for its 6 to 12 mm grade, not one product.</li>
+      <li><b>Thermofoil</b> is a PVC film over MDF; the row is the MDF core only.</li>
+    </ul>
+  </section>
+
   <section class="panel">
     <h2>Material inputs</h2>
     <p class="cap">Every density and part weight the math uses, with where it was read.</p>
@@ -292,6 +334,156 @@ drawParts();
       const c3=tr.insertCell();c3.style.whiteSpace="normal";const a=document.createElement("a");a.href=r.url;a.textContent=r.s;a.target="_blank";a.rel="noopener";c3.append(a);
     }}
   draw();
+})();
+</script>
+<script>
+(function(){
+const R=(cat,name,type,dims,vol,w,wDisp,lbft,lbcf,lbcfDisp,scope,conf,fit,price,url,where)=>({cat,name,type,dims,vol,w,wDisp,lbft,lbcf,lbcfDisp,scope,conf,fit,price,url,where});
+const TN="https://www.tnutz.com/product/ex-1010/", PC="https://www.plywoodcompany.com/pl/panels-plywood-hardwood-russian-birch-russian-birch-5x5/836";
+const ECO="https://ctechmanufacturing.com/products/cabinets/trailer-cabinets/econo-trailer-cabinets", ULT="https://ctechmanufacturing.com/products/cabinets/trailer-cabinets/ultra-trailer-cabinets", TIT="https://www.vandermoon.com/eng/en/moon-box/1330-moon-box-titan.html";
+const D=[
+R("Extruded frame","MODELED: 1010 T-slot frame + 4mm Coroplast","Base","36 x 34 x 20",14.167,23.483,null,7.828,1.658,null,"6 skinned faces, 24 brackets, 48 T-nuts, 4 hinges; no shelf, latch or countertop","Modeled",4,"n/a",TN),
+R("Bent aluminum","CTech ECONO1 Trailer Cabinet Package","Package","72 x 75 x 24",75.000,154,null,25.667,2.053,null,"72\" overhead + 72\" base, laminate countertop, Adjust-A-Loc shelves, MotionLatch doors; no back, top or floor panels","High",1,"$1,688.79","https://ctechmanufacturing.com/econo1-trailer-cabinet-package"),
+R("Bent aluminum","CTech ECONO3","Package","94 x 75 x 24",97.917,208,null,26.553,2.124,null,"Component SKUs not captured; no back or top panels","High",1,"$2,431.85",ECO),
+R("Bent aluminum","CTech ECC752422L Econo Trailer Closet","Closet","22 x 75 x 24",22.917,54,null,29.455,2.356,null,"Closet body; no back or top panels","High",1,"$736.45 (older listing)","https://ctechmanufacturing.com/shop/products/cabinets/econo-cabinets/"),
+R("Bent aluminum","CTech ECONO4","Package","94 x 75 x 24",97.917,243,null,31.021,2.482,null,"Component SKUs not captured; no back or top panels","High",1,"$3,310.02",ECO),
+R("Bent aluminum","CTech ECONO2","Package","72 x 75 x 24",75.000,189,null,31.500,2.520,null,"Component SKUs not captured; no back or top panels","High",1,"$2,566.95",ECO),
+R("Bent aluminum","CTech ECBA723624 Econo Trailer Base Cabinet","Base","72 x 38.25 x 24",38.250,101,null,16.833,2.641,null,"Laminate countertop, Adjust-A-Loc shelves, doors; no back or floor panel","High",2,"$1,157.69","https://ctechmanufacturing.com/shop/cabinets/econo-cabinets/base/econo-base-cabinet/"),
+R("Bent aluminum","CTech Pro Enclosed Trailer Base Cabinet (72 x 42.25 x 24 config)","Base","72 x 42.25 x 24",42.250,132,null,22.000,3.124,null,"Laminate countertop, internal bracing, 1 shelf per opening; no back or top","Med",1,"Not captured","https://ctechmanufacturing.com/aaed0db2-6a0d-4508-88d9-883013eee92d"),
+R("Extruded frame","MODELED: 1010 T-slot frame + 4mm Coroplast","Upper","36 x 16 x 14",4.667,16.349,null,5.450,3.503,null,"6 skinned faces, 24 brackets, 48 T-nuts, 4 hinges; no shelf, latch or countertop","Modeled",4,"n/a",TN),
+R("Bent aluminum","Van Der Moon Moon Box Titan 950 mm","Upper","37.402 x 11.969 x 15.354",3.978,14.550,null,4.668,3.658,null,"Riveted aluminum box with doors","Med",4,"Not published",TIT),
+R("Bent aluminum","Van Der Moon 'Moon Kitchen Solid' Camper Van Kitchen Cabinets (Model 1)","Galley base","54.7 x 35.4 x 19.3",21.627,80,"80 to 120",17.55,3.699,"3.699 to 5.549","Drawers with 3 aluminum dividers each, coffee-machine drawer, 19.7\" pot drawer, fold-out rear dining table, 2.5 cu ft technical chamber, bay for Indel B Slim 70 fridge (fridge not included), airline-track quick connect. Page does not tie the weight range to a configuration (Shell, HPL fronts, countertop extension, drawer above fridge)","Low",5,"$1,745.95 to $2,179.95 (Nomadic Supply)",null,"Search the name on nomadicsupply.com"),
+R("Bent aluminum","CTech ULTRA Enclosed Trailer Base Cabinet (72 x 42.25 x 24 config)","Base","72 x 42.25 x 24",42.250,159,null,26.500,3.763,null,"Stainless countertop, radius panels, 1 shelf per opening; no back or top","Med",1,"Not captured","https://ctechmanufacturing.com/29dcddb3-c814-4d5f-8541-1b1469eeb225"),
+R("Wood","MODELED: frameless 1/2\" (12mm) Baltic birch","Base","36 x 34 x 20",14.167,58.311,null,19.437,4.116,null,"6 panels only; no hinges, slides or top","Modeled",4,"n/a",PC),
+R("Bent aluminum","Van Der Moon Moon Box Titan 700 mm","Upper","27.559 x 11.969 x 15.354",2.931,12.346,null,5.376,4.212,null,"Riveted aluminum box with doors","Med",4,"Not published",TIT),
+R("Bent aluminum","Van Der Moon Moon Box Titan 1140 mm","Upper","44.882 x 11.969 x 15.354",4.773,21.164,null,5.659,4.434,null,"Riveted aluminum box with doors","Med",4,"Not published",TIT),
+R("Bent aluminum","Van Der Moon Moon Box Titan 500 mm","Upper","19.685 x 11.969 x 15.354",2.094,9.480,null,5.779,4.528,null,"Riveted aluminum box with doors","Med",4,"Not published",TIT),
+R("Bent aluminum","CTech ECW482416 Econo Trailer Wall Cabinet 48\"","Wall","48 x 24 x 16",10.667,49,null,12.250,4.594,null,"Doors, Adjust-A-Loc shelving; no back or top","High",2,"$625.08 (older listing)","https://ctechmanufacturing.com/econo-trailer-wall-cabinet-48"),
+R("Bent aluminum","CTech ECW362416 Econo Trailer Wall Cabinet 36\"","Wall","36 x 24 x 16",8.000,37,"37 (older listing: 45)",12.333,4.625,null,"Doors, Adjust-A-Loc shelving; no back or top","Med",2,"$513.71 (older listing)","https://ctechmanufacturing.com/shop/cabinets/econo/econo-cabinets/36-econo-wall-cabinet/"),
+R("Bent aluminum","CTech ECO721614 Econo Trailer Overhead 72\"","Upper","72 x 16 x 14",9.333,46,"46 (older listing: 53)",7.667,4.929,null,"MotionLatch doors, gas stays; no back or top","Med",2,"$637.55",ECO),
+R("Bent aluminum","CTech ECO481614 Econo Trailer Overhead Cabinet: 48\"","Upper","48 x 16 x 14",6.222,31,null,7.750,4.982,null,"MotionLatch doors, gas stays; no back or top","High",3,"$438.41","https://ctechmanufacturing.com/shop/cabinets/econo/econo-cabinets/48-econo-overhead-cabinet/"),
+R("Bent aluminum","Flatline Van Co Transit Van 48\" Upper Cabinet (TR5009B)","Upper","48 x 15 x 13.8",5.750,29,null,7.250,5.043,null,"3mm aluminum base, bamboo or aluminum doors, soft-close hinges, latches","High",5,"Not captured","https://flatlinevanco.com/products/transit-48-upper-cabinet"),
+R("Bent aluminum","Flatline Van Co Sprinter Van 48\" Upper Cabinet","Upper","48 x 15 x 13.75",5.729,29,null,7.250,5.062,null,"Same scope as Transit 48\"; fits Sprinter","Med",2,"Not captured","https://flatlinevanco.com/products/48-upper-cabinet"),
+R("Bent aluminum","CTech ULTRA CFG-3634","Wall","48 x 24 x 16",10.667,55,null,13.750,5.156,null,"Options behind the listed weight not captured","High",2,"$1,215.99",ULT),
+R("Bent aluminum","CTech ULTRA CFG-3632","Upper","72 x 16 x 14",9.333,54,null,9.000,5.786,null,"Options behind the listed weight not captured","High",2,"$1,537.99",ULT),
+R("Bent aluminum","Van Der Moon Moon Box IO 25 cm","Upper","9.843 x 10.433 x 10.236",0.608,3.748,null,4.569,6.161,null,"1.5mm aluminum, wooden doors, LED lighting, Molle. Van Der Moon also lists a 35 cm depth, which gives 4.612 lb/cu ft","High",4,"Not published","https://www.vandermoon.com/eng/en/moon-box/1417-moon-box-1015.html"),
+R("Wood","MODELED: frameless 1/2\" (12mm) Baltic birch","Upper","36 x 16 x 14",4.667,28.978,null,9.659,6.210,null,"6 panels only","Modeled",4,"n/a",PC),
+R("Bent aluminum","CTech ULTRA CFG-3633","Upper","48 x 16 x 14",6.222,39,null,9.750,6.268,null,"Options behind the listed weight not captured","High",3,"$1,056.61",ULT),
+R("Bent aluminum","Flatline Van Co 24\" Upper Cabinet (Sprinter)","Upper","24 x 15 x 13.75",2.865,18,null,9.000,6.284,null,"Same scope as Transit 48\"; fits Sprinter","High",2,"Not captured","https://flatlinevanco.com/products/24-upper-cabinet"),
+R("Residential baseline","MODELED: 3/4\" (18mm) Baltic birch frameless","Base","36 x 34 x 20",14.167,91.839,null,30.613,6.483,null,"6 panels only","Modeled",2,"n/a",PC),
+R("Wood","RecPro RV Cabinets Maple Wood Shaker | 3 Drawer Base 30\" W | RTA Cabinets (SKU MU3DR3034.524RTA)","Base","30 x 34.5 x 24",14.375,100,"about 100 (staff Q&A, 2026-07-08)",40.000,6.957,null,"3 full-extension soft-close drawers, solid maple face frame and fronts, 1/2\" birch plywood box, unfinished, ready to assemble; no countertop","Low",2,"$554.95",null,"Search the SKU on recpro.com"),
+R("Residential baseline","MODELED: 3/4\" (18mm) Baltic birch frameless","Upper","36 x 16 x 14",4.667,45.640,null,15.213,9.780,null,"6 panels only","Modeled",2,"n/a",PC),
+R("Wood","Vankea White Kitchen Cabinet with Fold-Out Bamboo Counter for Campervan (Transit 148)","Galley base","43.94 x 36.54 x 18.70",17.375,186.5,"approximately 186.5 (84.6 kg)",50.93,10.734,null,"Fully assembled, 0.59\" plywood, Shaker drawers and a door (drawer count not stated), narrow side pull-out, hidden low compartment, bamboo counter with fold-out extension, sink cutout; sink, faucet and the +$680 optional 83L fridge not included. Listed for Transit 148 only","Low",2,"$4,500.00",null,"Search the name on the Vankea site"),
+R("Bent aluminum","Flatline Van Co Transit Van 24\" Upper Cabinet","Upper","24 x not published",null,17,null,8.500,null,"Not calculable","3mm aluminum base, bamboo or aluminum doors, soft-close hinges, latches","High",5,"Not captured","https://flatlinevanco.com/products/transit-24-upper-cabinet"),
+R("Bent aluminum","Flatline Van Co Transit 40\" Shallow Upper Cabinet","Upper","40 x not published",null,25,null,7.500,null,"Not calculable","3mm aluminum base, bamboo or aluminum doors, soft-close hinges, latches","Med",5,"Not captured","https://alpinevanworks.com/products/transit-40-shallow-upper-cabinet"),
+R("Extruded frame","OurKaravan 80/20 galley (Sprinter DIY build)","Galley base","58.5 x not published x 20",null,93.9,null,19.262,null,"Not calculable","1515-LS frame, bamboo door, drawer faces and sides; no countertop, drawer boxes, slides or hinges","Med",4,"n/a","https://ourkaravan.com/8020-cost-and-weight/"),
+R("Soft-sided","VanEssential Overhead Soft-Sided Storage Cabinet 24\" / 36\" / 48\"","Upper","24, 36 or 48 x 16.75 x 14.75",null,null,"Not published",null,null,"n/a","Fabric over honeycomb board, roll-up zip doors, 1 removable shelf, mesh pockets, L-track bolts","None",5,"36\": $239.95; 48\": $319.95","https://www.amazon.com/VanEssential-Overhead-Soft-Sided-Storage-Cabinet/dp/B0CFCTMMRL"),
+R("Soft-sided","SKYJDM 36\" RV Overhead Soft-Sided Storage Cabinet, RV Organizer Storage Cabinet Compatible with Mercedes-Benz Sprinter, Ford Transit & RAM Promaster Vans, Gray","Upper","36 x 14 x 14",4.083,null,"Not published",null,null,"n/a","Removable partitions, side pockets, 6 L-track studs, folds flat","None",4,"Not captured","https://www.amazon.com/SKYJDM-Soft-Sided-Organizer-Compatible-Mercedes-Benz/dp/B0DY7FXKG6"),
+R("Soft-sided","36\" RV Overhead Soft-Sided Storage Cabinet Van Organizers and Storage (black)","Upper","36 x 14 x 14",4.083,null,"Not published",null,null,"n/a","Fabric; details not published","None",3,"Not captured","https://www.amazon.com/RV-Overhead-Soft-Sided-Storage-Cabinet/dp/B0GQ8SYKG7"),
+R("Soft-sided","36\" RV Overhead Soft-Sided Storage Cabinet, Universal Overhead Organizer","Upper","36 x 12 x 14",3.500,null,"Not published",null,null,"n/a","Fabric; details not published","None",3,"Not captured","https://www.amazon.com/RV-Soft-Sided-Compatible-Mercedes-Benz-Lightweight/dp/B0H4VK4FZJ"),
+R("Bent aluminum","Lost Hiway 2015+ Ford Transit Overhead Cabinet (28\" / 52\")","Upper","28 or 52 x 14 x 14",null,null,"Not published",null,null,"n/a","One-piece bent aluminum shell, bamboo or aluminum doors, hinges that lock open","None",5,"$744 (size not identified)","https://losthiwaycustoms.com/products/transit-overhead-cabinet"),
+R("Bent aluminum","Moduline ProII Aluminum Wall Cabinet 18\"H x 11\"D x 36\"W","Wall","36 x 18 x 11",4.125,null,"Not published",null,null,"n/a","Double-wall doors, trigger latches; shelves sold separately","None",3,"$416 (2024 price sheet)","https://modulinecabinets.com/product/proiitm-aluminum-wall-cabinet-18h-x-11d-x-36w/")
+];
+D.forEach(r=>{const m=String(r.price).match(/\$([\d,]+\.?\d*)/);r.p=m?parseFloat(m[1].replace(/,/g,"")):null;});
+const CONF_ORDER={High:1,Med:2,Modeled:3,Low:4,None:5};
+const COLS=[["Product","name"],["Category","cat"],["Type","type"],["W x H x D (in)","dims"],["Vol cu ft","vol",1],["Weight lb","w",1],["lb/ft","lbft",1],["lb/cu ft","lbcf",1],["What the weight includes","scope"],["Confidence","conf"],["Van fit","fit",1],["Price","p",1],["Link","url"]];
+const fill=(id,vals)=>{const s=document.getElementById(id);for(const v of vals){const o=document.createElement("option");o.value=v;o.textContent=v;s.append(o)}};
+fill("pCat",[...new Set(D.map(r=>r.cat))].sort());
+fill("pType",[...new Set(D.map(r=>r.type))].sort());
+fill("pConf",["High","Med","Modeled","Low","None"]);
+let sk="lbcf", sd=1;
+const fmt=(v,d)=>v==null?"":v.toFixed(d);
+function draw(){
+  const q=document.getElementById("pq").value.trim().toLowerCase(), c=document.getElementById("pCat").value, ty=document.getElementById("pType").value,
+    cf=document.getElementById("pConf").value, ft=+document.getElementById("pFit").value, hw=document.getElementById("pHasW").checked;
+  const rs=D.filter(r=>(!c||r.cat===c)&&(!ty||r.type===ty)&&(!cf||r.conf===cf)&&r.fit>=ft&&(!hw||r.w!=null)&&
+    (!q||(r.name+" "+r.cat+" "+r.scope+" "+r.type).toLowerCase().includes(q)))
+   .sort((a,b)=>{let x=a[sk],y=b[sk];
+     if(sk==="conf"){x=CONF_ORDER[x];y=CONF_ORDER[y]}
+     if(x==null&&y==null)return 0; if(x==null)return 1; if(y==null)return -1;
+     return (typeof x==="number"?x-y:String(x).localeCompare(String(y)))*sd});
+  const t=document.getElementById("prodTbl"); t.replaceChildren();
+  const h=t.createTHead().insertRow();
+  for(const [lab,k,num] of COLS){const th=document.createElement("th");th.textContent=lab;if(num)th.className="n";th.tabIndex=0;
+    if(k===sk)th.setAttribute("aria-sort",sd>0?"ascending":"descending");
+    const go=()=>{sd=k===sk?-sd:1;sk=k;draw()};th.onclick=go;th.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();go()}};h.append(th)}
+  const b=t.createTBody();
+  for(const r of rs){const tr=b.insertRow();
+    const cell=(txt,cls,wrap)=>{const td=tr.insertCell();if(cls)td.className=cls;if(wrap){td.style.whiteSpace="normal";td.style.minWidth=wrap+"px"}td.textContent=txt;return td};
+    cell(r.name,"",260); cell(r.cat); cell(r.type); cell(r.dims);
+    cell(fmt(r.vol,3),"n"); cell(r.wDisp??fmt(r.w,3),"n"); cell(r.lbft==null?"":(r.cat==="Bent aluminum"&&r.wDisp&&r.wDisp.startsWith("80")?"17.55 to 26.33":fmt(r.lbft,3)),"n");
+    cell(r.lbcfDisp??fmt(r.lbcf,3),"n"); cell(r.scope,"",320);
+    const cc=cell(r.conf); if(r.conf==="Low"||r.conf==="None")cc.classList.add("est");
+    cell(String(r.fit),"n"); cell(r.price,"",130);
+    const lt=tr.insertCell(); lt.style.whiteSpace="normal"; lt.style.minWidth="120px";
+    if(r.url){const a=document.createElement("a");a.href=r.url;a.target="_blank";a.rel="noopener";a.textContent=new URL(r.url).hostname.replace(/^www\./,"");lt.append(a)} else lt.textContent=r.where;
+  }
+  document.getElementById("pCount").textContent=`${rs.length} of ${D.length} rows`;
+}
+for(const id of ["pCat","pType","pConf","pFit","pHasW"]) document.getElementById(id).onchange=draw;
+document.getElementById("pq").oninput=draw;
+draw();
+})();
+</script>
+<script>
+(function(){
+const PAIR=2*17.875*29.875/144;
+const KS="https://www.kingplastic.com/products/king-starboard/", KX="https://www.kingplastic.com/products/king-starboard-xl/", PX="https://www.plastecprofiles.com/king-starboardreg-xl.html",
+ CB="https://www.curbellplastics.com/Research-Solutions/Technical-Resources/Technical-Resources/Expanded-PVC-Data-Sheet", AC="https://www.acrylite.co/resources/knowledge-base/article/whats-the-average-weight-per-sq-ft-of-acrylic-sheet",
+ PR="https://www.polyreflex.com/pid18299144/PP-Honeycomb-Panels.htm", RB="https://www.roseburg.com/wp-content/uploads/2024/09/RFP-Medite3D-Medford-TechDataSheet_Digital_081424.pdf",
+ CO="https://www.professionalplastics.com/professionalplastics/content/CoroplastSpecifications.pdf", PC="https://www.plywoodcompany.com/pl/panels-plywood-hardwood-russian-birch-russian-birch-5x5/836";
+const M=(grp,name,search,th,psf,psfHi,basis,conf,notes,url,src)=>({grp,name,search,th,psf,psfHi,basis,conf,notes,url,src});
+const D=[
+M("HDPE","King StarBoard","King StarBoard HDPE sheet 1/4\"","1/4\" (6.4 mm)",1.250,null,"40 lb per 48 x 96 sheet","Med","Solid marine HDPE, matte both sides, does not rot or delaminate",KS,"King Plastic"),
+M("HDPE","King StarBoard","King StarBoard HDPE sheet 3/8\"","3/8\" (9.5 mm)",1.875,null,"60 lb per 48 x 96 sheet","Med","Solid marine HDPE",KS,"King Plastic"),
+M("HDPE","King StarBoard","King StarBoard HDPE sheet 1/2\"","1/2\" (12.7 mm)",2.500,null,"80 lb per 48 x 96 sheet","Med","Solid marine HDPE; $341.00 per 54 x 96 sheet, white, at Buck Woodcraft",KS,"King Plastic"),
+M("HDPE","King StarBoard","King StarBoard HDPE sheet 3/4\"","3/4\" (19 mm)",3.750,null,"120 lb per 48 x 96 sheet","Med","Solid marine HDPE; $515.00 per 54 x 96 sheet, white, at Buck Woodcraft",KS,"King Plastic"),
+M("HDPE","King StarBoard XL","King StarBoard XL cellular HDPE 1/4\"","1/4\" (6.4 mm)",1.000,null,"32 lb per 48 x 96 sheet","Med","Closed-cell HDPE core, same surface as StarBoard; King lists cabinetry as a use",PX,"Plastec Profiles (King spec)"),
+M("HDPE","King StarBoard XL","King StarBoard XL cellular HDPE 3/8\"","3/8\" (9.5 mm)",1.531,null,"49 lb per 48 x 96 sheet","Med","Closed-cell HDPE core",PX,"Plastec Profiles (King spec)"),
+M("HDPE","King StarBoard XL","King StarBoard XL cellular HDPE 1/2\"","1/2\" (12.7 mm)",2.000,null,"64 lb per 48 x 96 sheet","Med","Closed-cell HDPE core",KX,"King Plastic"),
+M("HDPE","King StarBoard XL","King StarBoard XL cellular HDPE 3/4\"","3/4\" (19 mm)",3.000,null,"96 lb per 48 x 96 sheet","Med","Closed-cell HDPE core",KX,"King Plastic"),
+M("PVC foam","Expanded PVC (Sintra, Celtec, InteCel)","Sintra PVC foam board 6mm","6 mm",0.713,null,"0.58 g/cm³ x thickness","Med","Curbell lists kitchen wall and base cabinets, vanities and doors as uses",CB,"Curbell Expanded PVC data sheet"),
+M("PVC foam","Expanded PVC, E&T Plastics sheet weight","PVC foam board 6mm 4x8","6 mm",0.938,null,"30 lb per 48 x 96 sheet","Med","Distributor sheet weight; heavier than the Curbell density gives","https://e-tplastics.com/expanded-pvc/","E&T Plastics"),
+M("PVC foam","Expanded PVC (Sintra, Celtec, InteCel)","Sintra PVC foam board 10mm","10 mm",1.188,null,"0.58 g/cm³ x thickness","Med","Closed-cell expanded PVC",CB,"Curbell Expanded PVC data sheet"),
+M("PVC foam","Expanded PVC (Sintra, Celtec, InteCel)","Sintra PVC foam board 1/2\" 13mm","12.7 mm",1.509,null,"0.58 g/cm³ x thickness","Med","Closed-cell expanded PVC",CB,"Curbell Expanded PVC data sheet"),
+M("PVC foam","Expanded PVC (Sintra, Celtec, InteCel)","Sintra PVC foam board 19mm","19 mm",2.257,null,"0.58 g/cm³ x thickness","Med","Closed-cell expanded PVC",CB,"Curbell Expanded PVC data sheet"),
+M("Acrylic","ACRYLITE acrylic sheet","ACRYLITE acrylic sheet 6mm","6 mm (0.236\")",1.424,null,"Manufacturer lb/sq ft table","High","Solid PMMA; cast and extruded weigh the same",AC,"ACRYLITE"),
+M("Acrylic","ACRYLITE acrylic sheet","ACRYLITE acrylic sheet 3/8\"","9.5 mm (0.375\")",2.266,null,"Manufacturer lb/sq ft table","High","Solid PMMA",AC,"ACRYLITE"),
+M("Acrylic","ACRYLITE acrylic sheet","ACRYLITE acrylic sheet 12mm","12 mm (0.472\")",2.879,null,"Manufacturer lb/sq ft table","High","Solid PMMA",AC,"ACRYLITE"),
+M("PP honeycomb","Polypropylene honeycomb panel (Polyreflex thick grade)","polypropylene honeycomb panel 10mm","6 to 12 mm",0.410,0.922,"2,000 to 4,500 g/m²","Low","Weight depends on skin and core; range covers the grade, not one product",PR,"Polyreflex"),
+M("MDF (thermofoil core)","Thermofoil door core, Roseburg Medite 3D MDF","thermofoil cabinet door","5/8\"",2.344,null,"45 lb/ft³ x thickness","High","MDF core only; PVC film not included. Medite 3D lists routed doors as a use",RB,"Roseburg Medite 3D data sheet"),
+M("MDF (thermofoil core)","Thermofoil door core, Roseburg Medite 3D MDF","thermofoil cabinet door","3/4\"",2.813,null,"45 lb/ft³ x thickness","High","MDF core only; PVC film not included",RB,"Roseburg Medite 3D data sheet"),
+M("Reference","Coroplast (already on this page)","Coroplast 4mm sheet","4 mm",0.150,null,"150 lb per 1,000 sq ft","High","Flexes at this door size (see build notes)",CO,"Coroplast spec sheet"),
+M("Reference","Coroplast (already on this page)","Coroplast 6mm sheet","6 mm",0.286,null,"286 lb per 1,000 sq ft","High","Fluted polypropylene",CO,"Coroplast spec sheet"),
+M("Reference","Baltic birch","Baltic birch plywood 3mm","3 mm",0.400,null,"10 lb per 5 x 5 sheet","Med","Distributor sheet weight",PC,"Plywood Company TX"),
+M("Reference","Baltic birch (slab door on this page)","Baltic birch plywood 18mm","18 mm",2.520,null,"63 lb per 5 x 5 sheet","Med","Distributor sheet weight",PC,"Plywood Company TX")
+];
+D.forEach(r=>{r.pair=r.psf*PAIR;r.pairHi=r.psfHi==null?null:r.psfHi*PAIR});
+const CO_={High:1,Med:2,Low:3};
+const COLS=[["Material","name"],["Group","grp"],["Thickness","th"],["lb/sq ft","psf",1],["Door pair lb","pair",1],["Basis","basis"],["Confidence","conf"],["Notes","notes"],["Search name","search"],["Source","src"]];
+const fill=(id,v)=>{const s=document.getElementById(id);for(const x of v){const o=document.createElement("option");o.value=x;o.textContent=x;s.append(o)}};
+fill("dGrp",[...new Set(D.map(r=>r.grp))]); fill("dConf",["High","Med","Low"]);
+let sk="psf",sd=1;
+const rng=(a,b)=>b==null?a.toFixed(3):`${a.toFixed(3)} to ${b.toFixed(3)}`;
+function draw(){
+  const q=document.getElementById("dq").value.trim().toLowerCase(),g=document.getElementById("dGrp").value,c=document.getElementById("dConf").value;
+  const rs=D.filter(r=>(!g||r.grp===g)&&(!c||r.conf===c)&&(!q||(r.name+" "+r.grp+" "+r.notes+" "+r.search).toLowerCase().includes(q)))
+    .sort((a,b)=>{let x=a[sk],y=b[sk];if(sk==="conf"){x=CO_[x];y=CO_[y]}return (typeof x==="number"?x-y:String(x).localeCompare(String(y)))*sd});
+  const t=document.getElementById("doorTbl");t.replaceChildren();const h=t.createTHead().insertRow();
+  for(const [lab,k,num] of COLS){const th=document.createElement("th");th.textContent=lab;if(num)th.className="n";th.tabIndex=0;
+    if(k===sk)th.setAttribute("aria-sort",sd>0?"ascending":"descending");
+    const go=()=>{sd=k===sk?-sd:1;sk=k;draw()};th.onclick=go;th.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();go()}};h.append(th)}
+  const b=t.createTBody();
+  for(const r of rs){const tr=b.insertRow();
+    const cell=(txt,cls,w)=>{const td=tr.insertCell();if(cls)td.className=cls;if(w){td.style.whiteSpace="normal";td.style.minWidth=w+"px"}td.textContent=txt;return td};
+    cell(r.name,"",200);cell(r.grp);cell(r.th);cell(rng(r.psf,r.psfHi),"n");cell(rng(r.pair,r.pairHi),"n");cell(r.basis,"",150);
+    const cc=cell(r.conf);if(r.conf==="Low")cc.classList.add("est");
+    cell(r.notes,"",240);cell(r.search,"",160);
+    const s=tr.insertCell();const a=document.createElement("a");a.href=r.url;a.target="_blank";a.rel="noopener";a.textContent=r.src;s.style.whiteSpace="normal";s.append(a);}
+  document.getElementById("dCount").textContent=`${rs.length} of ${D.length} rows`;
+}
+for(const id of ["dGrp","dConf"])document.getElementById(id).onchange=draw;
+document.getElementById("dq").oninput=draw;draw();
 })();
 </script>
 </body>
