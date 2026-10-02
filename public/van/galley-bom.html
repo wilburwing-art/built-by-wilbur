@@ -200,6 +200,18 @@
     <b>Door and drawer open items:</b> (1) read the slam latch keeper's hole size before choosing a #10-32 or 1/4-20 drop-in T-nut; (2) read the LONTAN slide hole size against the #10-32 button heads, and whether the slides ship with drawer-side screws; (3) the HI-010-A listing does not say hardware is included, so 12 combos are on this list; (4) push-button knob latches were ruled out because the listings give 15 to 18 mm doors and the fronts are about 32 mm (19 mm bamboo on a 1/2" box).
   </div>
 
+  <div class="section-head" id="p2-head">
+    <h2>Simple plumbing and second completeness pass (added 2026-10-02)</h2>
+    <p>The water system redrawn around one goal, as simple as possible with a direct drain outside: tank, pump, one hose, and the pull-out wand as the only outlet. The sink is a collapsible basin that sits on the counter, so the countertop needs no sink cutout. The shower basin drains through a hose out the slider door. The rest of this section is parts the earlier lists never named: thread tape, enough hose clamps, thread locker for the T-slot bolts, wire loom, hole saws.</p>
+  </div>
+  <div class="stats" id="p2stats" style="grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:0 0 14px"></div>
+  <div class="controls" id="p2chips"></div>
+  <div class="grid" id="p2grid"></div>
+  <div class="totals" id="p2totals"></div>
+  <div class="foot" style="margin-top:16px">
+    <b>Shower shape with the 69" folding rod:</b> five 13.8" segments make five sides of a hexagon about 24" to 28" across with the cabinet face as the sixth side, which suits the 32" basin. In a corner the rod makes a 27.6" x 41.4" L, which suits the 48" basin. <b>Sink drain:</b> start by tipping the basin out the door; a counter funnel and a floor fitting (est $25) is the upgrade, after checking under the floor for the fuel tank and lines.
+  </div>
+
   <div class="foot">
     <b>Measure before ordering the bamboo:</b> (1) the owned sink's rim and bowl depth, it decides whether 18" deep holds; (2) the sled width, confirm 18" still leaves the load path. Sink, faucet, drain and tanks are owned per <i>My van build.md</i> and are not on this list. The bamboo top overhangs the frame 1/2" front only; cut 36" x 18" if the counter must not project. Weight est about 55 lb before sink, pump and water.
   </div>
@@ -494,6 +506,44 @@ function renderHW(){
   document.querySelectorAll("#hwlatch th").forEach(el=>el.onclick=()=>{const k=+el.dataset.k;latchSort={k,d:latchSort.k===k?-latchSort.d:1};renderHW()});
 }
 renderHW();
+
+/* ── SIMPLE PLUMBING + SECOND COMPLETENESS PASS (2026-10-02) ── */
+const P2_ITEMS=[
+ {vendor:"Amazon",cat:"Water",name:"GIMWA 2.4 gal collapsible dish basin, drain plug",qty:"1",sku:"B0CRVV9HVG",price:17.99,disp:"$17.99",note:"The sink. 12.5\" x 12\" x 7.6\", folds to 3\", 1.2 lb, twist drain plug, four feet. Sits on the counter, so no sink cutout.",ver:true,link:"https://www.amazon.com/dp/B0CRVV9HVG"},
+ {vendor:"Amazon",cat:"Water",name:"3/8\" NPT x 1/2\" barb brass fitting, 2-pack",qty:"1 pack",sku:"B0CLYCPFMT",price:5.99,disp:"$5.99",note:"Tank pickup: the owned tank takes 3/8\" male NPT fittings. One spare.",ver:true,link:"https://www.amazon.com/dp/B0CLYCPFMT"},
+ {vendor:"Amazon",cat:"Water",name:"PTFE thread seal tape, 4 rolls",qty:"1 pack",sku:"B091913Z7F",price:3.99,disp:"$3.99",note:"Every NPT thread: tank fitting and the wand elbow.",ver:true,link:"https://www.amazon.com/dp/B091913Z7F"},
+ {vendor:"Amazon",cat:"Water",name:"Stainless worm-gear hose clamps, 11 to 23 mm, 10-pack",qty:"1 pack",sku:"B086MDGNRJ",price:13.99,disp:"$13.99",note:"The earlier list had 4. Tank, strainer, pump and wand need 6 or more.",ver:true,link:"https://www.amazon.com/dp/B086MDGNRJ"},
+ {vendor:"Amazon",cat:"Water",name:"Garden hose quick-connect set, 3/4\", 4 sets",qty:"1",sku:"B07FXL7W2P",price:12.99,disp:"$12.99",note:"Shower basin drain. A reviewer of the 48\" basin says its hose connector needs a quick-connect piece that is not in the box.",ver:true,link:"https://www.amazon.com/dp/B07FXL7W2P"},
+ {vendor:"Amazon",cat:"Hardware",name:"Loctite 242 blue threadlocker, 6 ml",qty:"1",sku:"B000I1RSNS",price:7.02,disp:"$7.02",note:"Every T-slot bolt. Road vibration backs them out.",ver:true,link:"https://www.amazon.com/dp/B000I1RSNS"},
+ {vendor:"Amazon",cat:"Wiring",name:"Split wire loom, 1/2\", 25 ft",qty:"1",sku:"B07TCDTFL2",price:13.99,disp:"$13.99",note:"Pump and lights runs from the CCP to the galley.",ver:true,link:"https://www.amazon.com/dp/B07TCDTFL2"},
+ {vendor:"Amazon",cat:"Tools",name:"Hole saw with arbor, 2\"",qty:"1",sku:"B0BHKT5RT8",price:8.99,disp:"$8.99",note:"Slam latch holes in the three doors.",ver:true,link:"https://www.amazon.com/dp/B0BHKT5RT8"},
+ {vendor:"Amazon",cat:"Tools",name:"Hole saw with arbor, 2-3/4\"",qty:"1",sku:"B0D7T9C91L",price:8.99,disp:"$8.99",note:"Wand cup in the countertop.",ver:true,link:"https://www.amazon.com/dp/B0D7T9C91L"},
+ {vendor:"Home Depot",cat:"Wiring",name:"Cable ties and screw-mount tie bases",qty:"1",sku:"",price:8.00,disp:"$8.00 est",est:true,note:"Adhesive bases do not hold on polypropylene."},
+ {vendor:"Home Depot",cat:"Hardware",name:"Paint or clear coat for the ply doors and drawer boxes",qty:"1",sku:"",price:15.00,disp:"$15.00 est",est:true,note:"The earlier finish line covered the bamboo only."},
+ {vendor:"Home Depot",cat:"Wiring",name:"ATC fuse assortment",qty:"1",sku:"",price:6.00,disp:"$6.00 est",est:true,note:"Spares for the 7.5 A and 10 A branches."}
+];
+Object.assign(CAT,{Water:{c:"var(--water)"},Wiring:{c:"var(--light)"},Tools:{c:"var(--fab)"}});
+let p2filter="All";
+function renderP2(){
+  const chips=["All","Water","Wiring","Hardware","Tools"];
+  document.getElementById("p2chips").innerHTML=chips.map(c=>`<span class="chip ${c===p2filter?'on':''}" style="--c:${CAT[c]?CAT[c].c:'var(--gold)'}">${c}</span>`).join("");
+  document.querySelectorAll("#p2chips .chip").forEach(el=>el.onclick=()=>{p2filter=el.textContent;renderP2()});
+  document.getElementById("p2grid").innerHTML=P2_ITEMS.filter(i=>p2filter==="All"||i.cat===p2filter).map(cardHTML).join("");
+  const sum=P2_ITEMS.reduce((s,i)=>s+i.price,0), est=P2_ITEMS.filter(i=>i.est).reduce((s,i)=>s+i.price,0);
+  const prior=763.95+[UPPER_ITEMS,LF_ITEMS,SH_ITEMS,ST_ITEMS,HW_ITEMS].flat().reduce((s,i)=>s+i.price,0);
+  document.getElementById("p2stats").innerHTML=`
+    <div class="stat"><div class="n">$${sum.toFixed(2)}</div><div class="l">this pass</div></div>
+    <div class="stat"><div class="n">1 outlet</div><div class="l">wand is faucet and shower</div></div>
+    <div class="stat"><div class="n">0 cutouts</div><div class="l">basin sits on the counter</div></div>
+    <div class="stat"><div class="n">$${usd(prior+sum)}</div><div class="l">everything, through 10-02</div></div>`;
+  document.getElementById("p2totals").innerHTML=`
+    <h2>Totals</h2>
+    <div class="trow"><span>Everything, core, with 09-28 hardware</span><span class="v">$${usd(prior)}</span></div>
+    <div class="trow"><span>Simple plumbing and second pass</span><span class="v">$${sum.toFixed(2)}</span></div>
+    <div class="trow"><span>of which est</span><span class="v">$${est.toFixed(2)}</span></div>
+    <div class="trow big"><span>Everything, core, through 10-02</span><span class="v">$${usd(prior+sum)}</span></div>`;
+}
+renderP2();
 document.getElementById("lfq").oninput=e=>{lfq=e.target.value.toLowerCase();renderLF()};
 document.getElementById("uq").oninput=e=>{uq=e.target.value.toLowerCase();renderUppers()};
 renderUppers();

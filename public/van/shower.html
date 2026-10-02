@@ -80,8 +80,8 @@
 <div class="wrap">
 <nav class="van-nav"><a href="/van/">Van docs</a></nav>
   <div class="kicker">2016 Transit 130" WB medium roof · Pull-out shower · verified 2026-09-28</div>
-  <h1>48" folding basin under a <span class="hl">45.7" circular ceiling track</span></h1>
-  <p class="sub">Proposed change to the 09-20 galley shower: the Jasonwell L (48") replaces the S (32"), and a 12 ft bendable ceiling track closed into a circle replaces the 69" folding rod. Two questions are still open: whether the ceiling is bare ribs or paneled (the track's 9 brackets need something to screw into), and the showerer's height against a 70" ceiling.</p>
+  <h1>Folding rod over a 32" or 48" basin: <span class="hl">a 24" to 28" hexagon stall, or a corner L</span></h1>
+  <p class="sub">Updated 2026-10-02: the owner is leaning to the 69" 5-fold folding rod with the Jasonwell 48" (or the 32"). The rod is five 13.8" segments. As five sides of a hexagon with the cabinet face as the sixth, it encloses a stall 23.9" across flats and 27.6" across corners, which sits inside the 32" basin. In a corner it makes a 27.6" x 41.4" L, which needs the 48" basin. The 12 ft ceiling track is the alternate for a full 45.7" circle. Still open: whether the ceiling is bare ribs or paneled, and the showerer's height against a 70" ceiling.</p>
 
   <div class="stats" id="stats"></div>
 
@@ -118,9 +118,9 @@
   </section>
 
   <section class="panel">
-    <h2>Kit: 09-20 design against the proposal</h2>
+    <h2>Kit: folding rod against ceiling track</h2>
     <div class="controls"><span class="lbl">Design</span>
-      <select id="kitFilter"><option value="">Both</option><option>09-20</option><option>Proposed</option></select></div>
+      <select id="kitFilter"><option value="">Both</option><option>Folding rod</option><option>Ceiling track</option></select></div>
     <div class="tbl-wrap"><div class="tscroll"><table id="kitTbl"></table></div></div>
   </section>
 
@@ -153,16 +153,16 @@ const CURT=[
  {o:"KOLAKO 12 ft bendable ceiling track",id:"B09P58RNYR",circle:143.7/Math.PI,price:"$17.99",pv:17.99,wt:"0.9 kg",works:"yes",how:"Closed into a 143.7\" circle on 9 ceiling brackets",url:"https://www.amazon.com/dp/B09P58RNYR"},
  {o:"XCK 10 ft bendable ceiling track",id:"B0CYLVKPW2",circle:118/Math.PI,price:"new not read",pv:null,wt:"16 oz",works:"no",how:"118\" closes to a 37.6\" circle, 5\" inside the rim on each side",url:"https://www.amazon.com/dp/B0CYLVKPW2"},
  {o:"Stainless circular rod DR 100",id:"DR1000",circle:100/2.54,price:"€495",pv:null,wt:"",works:"maybe",how:"Fixed 100 cm ring, ceiling holders; made in Germany",url:"https://www.showercurtain365.com/shower-rod-circular-round-dr-100-ceiling-hold-only-stainless-steel"},
- {o:"69\" 5-fold swing rod (09-20 design)",id:"B0DJBV7C6G",circle:0,price:"$50.99",pv:50.99,wt:"",works:"no",how:"One straight arm off the upper's post; it cannot wrap a circle",url:"https://www.amazon.com/dp/B0DJBV7C6G"},
+ {o:"69\" 5-fold folding rod (owner leaning)",id:"B0DJBV7C6G",circle:27.6,price:"$50.99",pv:50.99,wt:"2.6 lb",works:"yes",how:"Five 13.8\" segments: a hexagon 27.6\" across corners against the cabinet (suits the 32\" basin), or a 27.6\" x 41.4\" L in a corner (suits the 48\")",url:"https://www.amazon.com/dp/B0DJBV7C6G"},
  {o:"Tetravan magnetic curtain",id:"tetravan",circle:0,price:"$175.00",pv:175,wt:"907 g",works:"no",how:"Magnets sewn in the bottom edge grab a steel shower pan; the Jasonwell is vinyl",url:"https://tetravan.com/products/tetravan-universal-shower-curtain"}
 ];
 const KIT=[
- {d:"09-20",part:"Jasonwell S basin 32\" × 8\"",id:"B01I3DL9XW",q:1,each:21.99,lb:5.3},
- {d:"09-20",part:"69\" 5-fold folding curtain rod",id:"B0DJBV7C6G",q:1,each:50.99,lb:null},
- {d:"09-20",part:"AmazerBath PEVA curtain 72 × 72",id:"B07236M4HC",q:1,each:8.98,lb:null},
- {d:"Proposed",part:"Jasonwell L basin 48\" × 11.8\"",id:"B01I3DIWDM",q:1,each:27.99,lb:10.6},
- {d:"Proposed",part:"KOLAKO 12 ft bendable ceiling track",id:"B09P58RNYR",q:1,each:17.99,lb:0.9*2.20462},
- {d:"Proposed",part:"AmazerBath PEVA curtain 72 × 72",id:"B07236M4HC",q:2,each:8.98,lb:null}
+ {d:"Folding rod",part:"Jasonwell S basin 32\" × 8\"",id:"B01I3DL9XW",q:1,each:21.99,lb:5.3},
+ {d:"Folding rod",part:"69\" 5-fold folding curtain rod",id:"B0DJBV7C6G",q:1,each:50.99,lb:null},
+ {d:"Folding rod",part:"AmazerBath PEVA curtain 72 × 72",id:"B07236M4HC",q:1,each:8.98,lb:null},
+ {d:"Ceiling track",part:"Jasonwell L basin 48\" × 11.8\"",id:"B01I3DIWDM",q:1,each:27.99,lb:10.6},
+ {d:"Ceiling track",part:"KOLAKO 12 ft bendable ceiling track",id:"B09P58RNYR",q:1,each:17.99,lb:0.9*2.20462},
+ {d:"Ceiling track",part:"AmazerBath PEVA curtain 72 × 72",id:"B07236M4HC",q:2,each:8.98,lb:null}
 ];
 
 const tip=document.getElementById("tip");
@@ -209,8 +209,8 @@ const link=(href,s)=>{const a=document.createElement("a");a.href=href;a.textCont
 // stats
 (()=>{const st=document.getElementById("stats");
   const L=SIZES.find(s=>s.k==="L");const kitT=d=>KIT.filter(k=>k.d===d).reduce((s,k)=>s+k.q*k.each,0);
-  for(const [n,l] of [[`${L.d}"`,"Basin diameter"],[`${f1(AISLE)}"`,"Aisle beside galley (derived)"],[f1(143.7/Math.PI)+'"',"Curtain circle"],
-    ['70"',"Medium roof ceiling"],["$"+kitT("Proposed").toFixed(2),"Proposed kit vs $"+kitT("09-20").toFixed(2)]]){
+  for(const [n,l] of [[`${L.d}"`,"Basin diameter"],[`${f1(AISLE)}"`,"Aisle beside galley (derived)"],['27.6"',"Rod hexagon, corner to corner"],
+    ['70"',"Medium roof ceiling"],["$"+kitT("Ceiling track").toFixed(2),"Track kit vs rod kit $"+kitT("Folding rod").toFixed(2)]]){
     const d=document.createElement("div");d.className="stat";const a=document.createElement("div");a.className="n";a.textContent=n;const b=document.createElement("div");b.className="l";b.textContent=l;d.append(a,b);st.append(d)}})();
 
 // basin size chart + table
@@ -289,7 +289,7 @@ function drawKit(){const v=document.getElementById("kitFilter").value;const t=do
     {t:"Each",k:"each",n:1,r:r=>txt("$"+r.each.toFixed(2))},{t:"Ext",k:"ext",n:1,r:r=>txt("$"+r.ext.toFixed(2))},{t:"Weight lb",k:"lb",n:1,r:r=>txt(r.lb==null?"not read":f1(r.lb))}],
     ()=>KIT.map(k=>({...k,ext:k.q*k.each})),kitState,k=>!v||k.d===v)();
   const foot=t.createTFoot();
-  for(const d of (v?[v]:["09-20","Proposed"])){const ft=foot.insertRow();const a=ft.insertCell();a.colSpan=5;a.textContent=`${d} subtotal`;
+  for(const d of (v?[v]:["Folding rod","Ceiling track"])){const ft=foot.insertRow();const a=ft.insertCell();a.colSpan=5;a.textContent=`${d} subtotal`;
     const b=ft.insertCell();b.className="n";b.textContent="$"+KIT.filter(k=>k.d===d).reduce((s,k)=>s+k.q*k.each,0).toFixed(2);
     const c=ft.insertCell();c.className="n";const lb=KIT.filter(k=>k.d===d&&k.lb!=null).reduce((s,k)=>s+k.lb,0);c.textContent=f1(lb)+" read";}}
 document.getElementById("kitFilter").onchange=drawKit;drawKit();
