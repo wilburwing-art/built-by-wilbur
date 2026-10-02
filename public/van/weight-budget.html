@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Van weight budget</title>
+<style>
+  :root{
+    --bg1:#0a0e14; --bg2:#111823;
+    --card:rgba(20,28,40,.72); --line:rgba(120,160,210,.14); --grid:rgba(120,160,210,.10);
+    --txt:#dce6f2; --dim:#8fa3bb; --gold:#ffd166; --bar:#3987e5; --track:rgba(143,163,187,.22);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:var(--txt);min-height:100vh;
+    background:linear-gradient(160deg,var(--bg1) 0%,var(--bg2) 55%,#0d1320 100%);background-attachment:fixed}
+  .wrap{max-width:1080px;margin:0 auto;padding:28px 16px 60px}
+  .kicker{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim);margin-bottom:6px}
+  h1{font-size:clamp(24px,4vw,34px);font-weight:800;letter-spacing:-.01em}
+  h1 .hl{color:var(--gold)}
+  .sub{color:var(--dim);font-size:14px;margin-top:6px;line-height:1.55;max-width:820px}
+  a{color:#7dd3fc}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+  .stat .n{font-size:24px;font-weight:800;font-variant-numeric:tabular-nums}
+  .stat .l{font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.1em;margin-top:3px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px 14px;margin-top:18px}
+  .panel h2{font-size:17px;font-weight:800}
+  .panel .cap{color:var(--dim);font-size:13px;margin:4px 0 12px;line-height:1.5}
+  .controls{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin:10px 0 6px}
+  .field{display:flex;flex-direction:column;gap:4px}
+  .field label,.lbl{font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.1em}
+  input[type=number],input[type=search],select{background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:10px;padding:8px 12px;color:var(--txt);font-size:14px;outline:none}
+  input[type=number]{width:104px}
+  input[type=search]{flex:1;min-width:160px;border-radius:999px}
+  input:focus-visible,select:focus-visible{border-color:#7dd3fc}
+  svg{display:block;width:100%;height:auto;overflow:visible}
+  svg text{fill:var(--dim);font-size:12px}
+  svg .val{fill:var(--txt);font-weight:700;font-variant-numeric:tabular-nums}
+  svg .cat{fill:var(--txt);font-weight:600}
+  .bar:hover,.bar:focus{opacity:.8;outline:none}
+  .tbl-wrap{overflow-x:auto;margin-top:8px}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{padding:7px 8px;border-bottom:1px solid var(--grid);text-align:left;vertical-align:top}
+  td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  th{color:var(--dim);font-weight:700;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;cursor:pointer;user-select:none;white-space:nowrap}
+  th[aria-sort="ascending"]::after{content:" \25B2";font-size:9px}
+  th[aria-sort="descending"]::after{content:" \25BC";font-size:9px}
+  tr:hover td{background:rgba(255,255,255,.03)}
+  tfoot td{font-weight:800;color:var(--gold);border-bottom:none}
+  .pill{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;border-radius:5px;padding:2px 7px;white-space:nowrap}
+  .p-read{background:rgba(110,231,183,.13);color:#6ee7b7;border:1px solid rgba(110,231,183,.3)}
+  .p-derived{background:rgba(125,211,252,.13);color:#7dd3fc;border:1px solid rgba(125,211,252,.3)}
+  .p-est{background:rgba(251,146,60,.14);color:#fb923c;border:1px dashed rgba(251,146,60,.5)}
+  .p-you{background:rgba(255,209,102,.12);color:var(--gold);border:1px solid rgba(255,209,102,.3)}
+  .tip{position:fixed;pointer-events:none;background:#0b1018;border:1px solid rgba(160,200,255,.3);border-radius:10px;
+    padding:8px 11px;font-size:12.5px;box-shadow:0 8px 24px rgba(0,0,0,.5);opacity:0;transition:opacity .08s;z-index:10;max-width:300px}
+  .tip b{display:block;font-size:15px;color:var(--txt)}
+  .tip span{color:var(--dim)}
+  .notes{color:var(--dim);font-size:13px;line-height:1.6}
+  .notes li{margin:0 0 6px 18px}
+  .notes b{color:var(--txt)}
+.van-nav{display:flex;gap:8px;margin-bottom:18px}.van-nav a{color:var(--gold,#ffd166);text-decoration:none;border:1px solid var(--line,#243244);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+.tscroll{overflow-x:auto;max-width:100%}img{max-width:100%}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="van-nav"><a href="/van/">Van docs</a></nav>
+  <div class="kicker">2016 Transit 250 · 130" WB medium roof · weight budget · 2026-10-02</div>
+  <h1 id="headline"></h1>
+  <p class="sub">Everything added to the van, plus people, water and gear, against the payload rating. Change any input and the page recalculates. The payload default is a published figure for this model; the real number for this van is on the yellow sticker in the driver's door jamb ("the combined weight of occupants and cargo should never exceed").</p>
+
+  <div class="stats" id="stats"></div>
+
+  <section class="panel">
+    <h2>Your numbers</h2>
+    <p class="cap">People, water and gear defaults are examples. Water is 8.34 lb per gallon.</p>
+    <div class="controls">
+      <div class="field"><label for="payload">Payload lb</label><input type="number" id="payload" value="3940" min="500" step="10"></div>
+      <div class="field"><label for="people">People</label><input type="number" id="people" value="2" min="0" max="8"></div>
+      <div class="field"><label for="plb">lb each</label><input type="number" id="plb" value="150" min="0" step="5"></div>
+      <div class="field"><label for="water">Water gal</label><input type="number" id="water" value="10" min="0" step="1"></div>
+      <div class="field"><label for="gear">Gear lb</label><input type="number" id="gear" value="200" min="0" step="10"></div>
+    </div>
+    <div class="controls">
+      <div class="field"><label for="bed">Bed</label><select id="bed"><option value="A">A: east-west queen-ish</option><option value="B24">B: four bunks, 24"</option><option value="B28">B: four bunks, 28"</option><option value="none">No bed</option></select></div>
+      <div class="field"><label for="bedmat">Bed panels</label><select id="bedmat"><option value="hc">Aluminum honeycomb 3/4"</option><option value="bb">Baltic birch 18 mm</option></select></div>
+      <div class="field"><label for="matt">Mattresses lb</label><input type="number" id="matt" value="0" min="0" step="1"></div>
+      <div class="field"><label for="top">Countertop</label><select id="top"><option value="b34">Bamboo 3/4"</option><option value="b12">Bamboo 1/2"</option><option value="hc">Aluminum honeycomb</option></select></div>
+      <div class="field"><label for="basin">Shower basin</label><select id="basin"><option value="L">Jasonwell L 48"</option><option value="S">Jasonwell S 32"</option></select></div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2 id="meterTitle">Payload used</h2>
+    <p class="cap">One bar, to scale: what is loaded against what the van may carry.</p>
+    <div id="meter"></div>
+  </section>
+
+  <section class="panel">
+    <h2>Where the pounds are</h2>
+    <p class="cap">Largest first. Hover or tab to a bar for its share of payload.</p>
+    <div id="chartCat"></div>
+  </section>
+
+  <section class="panel">
+    <h2>What each lighter choice saves</h2>
+    <p class="cap">Pounds saved by the lighter option in each pair, and that saving as a share of payload. These do not change with the inputs above, except payload.</p>
+    <div id="chartSave"></div>
+  </section>
+
+  <section class="panel">
+    <h2>Every line</h2>
+    <p class="cap">Click a header to sort. Read = off the maker's or seller's page. Derived = arithmetic from read numbers. Est = a ballpark. Yours = an input above.</p>
+    <div class="controls">
+      <input type="search" id="q" placeholder="Search items...">
+      <span class="lbl">Category</span><select id="fCat"><option value="">All</option></select>
+      <span class="lbl">Basis</span><select id="fConf"><option value="">All</option><option>Read</option><option>Derived</option><option>Est</option><option>Yours</option></select>
+    </div>
+    <div class="tbl-wrap"><div class="tscroll"><table id="tbl"></table></div></div>
+  </section>
+
+  <section class="panel">
+    <h2>What is not counted</h2>
+    <ul class="notes">
+      <li><b>Not weighed:</b> the owned sink, faucet and tanks, wall and floor lining, the roof fan, wiring, the Victron charger, and anything already in the van that is not listed.</li>
+      <li><b>Payload default:</b> 3,940 lb is a dealer spec page's figure for a medium roof 130" WB T-250 with the 3.7 L (GVWR 9,000 lb). KBB lists 2016 T-250 payloads from 3,510 to 4,080 lb by trim. NHTSA decodes this van as GVWR class 2G, 8,001 to 9,000 lb.</li>
+      <li><b>Axle limits:</b> payload is one check. Each axle has its own rating on the same door sticker, and a bed and garage load sit mostly on the rear axle. A truck scale gives both numbers for a few dollars.</li>
+      <li><b>150 lb per person</b> is the figure federal tire-load rules use (FMVSS 110: 68 kg per occupant). Enter real weights.</li>
+      <li><b>Solar panels</b> are not identified; 28 lb for the pair is a from-memory ballpark for two rigid 100 W panels.</li>
+    </ul>
+  </section>
+</div>
+<div class="tip" id="tip" role="status" aria-live="polite"></div>
+<script>
+const f1=x=>(Math.round(x*10)/10).toFixed(1), f0=x=>Math.round(x).toLocaleString("en-US");
+const $=id=>document.getElementById(id), num=id=>Math.max(0,parseFloat($(id).value)||0);
+const AL=0.548, BRK=0.025, CMB=0.017, HC=44/32, BB=63/25, C4=0.150, PLY14=0.63;
+const U={
+  yeti:"https://goalzero.com/products/goal-zero-yeti-1000-lithium-portable-power-station", fridge:"https://www.outdoorgearlab.com/reviews/camping-and-hiking/powered-cooler/costway-54",
+  star:"https://starlink.com/public-files/specification_sheet_mini.pdf", pump:"https://www.amazon.com/dp/B07DQT1FVZ", tn:"https://www.tnutz.com/product/ex-1010/",
+  coro:"https://www.professionalplastics.com/professionalplastics/content/CoroplastSpecifications.pdf", hood:"https://hooddistribution.com/resources/product-weights/",
+  plyboo:"https://www.plyboo.com/products/plywood-veneer/edge-grain-bamboo-plywood/", oms:"https://www.amazon.com/dp/B0CVVXP2DL", slides:"https://www.amazon.com/dp/B0DM59QGPQ",
+  flat:"https://www.flatironpanelproducts.com/wp-content/uploads/2020/02/Flatiron-Stock-AHP04038-Data-Sheet-2-11-2020.pdf", pc:"https://www.plywoodcompany.com/pd/birch-baltic-b-bb-18mm-5x5/582",
+  jl:"https://www.amazon.com/dp/B01I3DIWDM", js:"https://www.amazon.com/dp/B01I3DL9XW", rod:"https://www.amazon.com/dp/B0DJBV7C6G", apa:"https://wood.tcaup.umich.edu/lectures/2021/D510.pdf",
+  dealer:"https://www.southbayfordcommercial.com/transit/transit-250-van-specs.html", fmvss:"https://www.law.cornell.edu/cfr/text/49/571.110"
+};
+const TOPS={b34:["Bamboo top 3/4\", 36 x 18-1/2\"",4.625*90/32,"Derived","Plyboo 90 lb per 4x8; FLEXISPOT publishes no weight",U.plyboo],
+            b12:["Bamboo top 1/2\", 36 x 18-1/2\"",4.625*65/32,"Derived","Plyboo 65 lb per 4x8",U.plyboo],
+            hc:["Aluminum honeycomb top 0.702\", before a laminate face",4.625*0.48,"Derived","0.48 lb/sq ft listing",U.oms]};
+const BEDS={A:{sf:27.5,rail:238,brk:24,cmb:48,hw:0,label:"two 30 x 66\" panels"},
+            B24:{sf:48,rail:288,brk:16,cmb:32,hw:15,label:"four 24 x 72\" panels"},
+            B28:{sf:56,rail:288,brk:16,cmb:32,hw:15,label:"four 28 x 72\" panels"}};
+function lines(){
+  const R=[], add=(cat,item,lb,conf,basis,url)=>R.push({cat,item,lb,conf,basis,url});
+  add("Power and fridge","Goal Zero Yeti 1000 Lithium",40,"Read","Goal Zero spec: 40 lb",U.yeti);
+  add("Power and fridge","Costway 54 qt fridge, empty",34,"Read","OutdoorGearLab review: 34 lb",U.fridge);
+  add("Power and fridge","Starlink Mini with kickstand and 15 m cable",3.37,"Read","Starlink spec sheet: 1.53 kg",U.star);
+  add("Power and fridge","Starlink power supply",0.44,"Read","Starlink spec sheet: 0.2 kg",U.star);
+  add("Power and fridge","Two 100 W solar panels",28,"Est","model not identified; from-memory ballpark",null);
+  add("Galley","1010 extrusion, 496 in",496/12*AL,"Derived","0.548 lb/ft",U.tn);
+  add("Galley","45 brackets and 80 T-nut screws",45*BRK+80*CMB,"Derived","TNUTZ 0.025 and 0.017 lb each","https://www.tnutz.com/product/cb-010-b/");
+  add("Galley","Coroplast panels, 4 mm, 6 pieces",(4*16.5*32.5+34.5*16.5)/144*C4,"Derived","150 lb per 1,000 sq ft",U.coro);
+  add("Galley","Sink door, 1/4\" ply",16.5*32.5/144*PLY14,"Derived","Hood import veneer-core 1/4\": 0.63 lb/sq ft",U.hood);
+  const t=TOPS[$("top").value]; add("Galley",t[0],t[1],t[2],t[3],t[4]);
+  add("Galley","Two drawer boxes, 1/2\" ply",10,"Est","galley doc estimate",null);
+  add("Galley","Two pairs of drawer slides",4.6,"Derived","LONTAN listing: 2.3 lb a pair (18\" size)",U.slides);
+  add("Galley","Fabric lining",2.5,"Est","galley doc estimate",null);
+  add("Galley","Plate, mug and knife dividers",5,"Est","galley doc estimate",null);
+  add("Upper cabinet","1010 extrusion, 184 in",184/12*AL,"Derived","0.548 lb/ft",U.tn);
+  add("Upper cabinet","16 brackets and 32 T-nut screws",16*BRK+32*CMB,"Derived","TNUTZ part weights","https://www.tnutz.com/product/cb-010-b/");
+  add("Upper cabinet","Coroplast panels and two 1/4\" ply doors",(2*9.5*9+28*9+2*28*8)/144*C4+2*14.5*9/144*PLY14,"Derived","Coroplast spec and Hood table",U.coro);
+  add("Shower and water system","SEAFLO 33 pump",4.5,"Read","Amazon listing: 4.5 lb",U.pump);
+  const L=$("basin").value==="L"; add("Shower and water system",L?"Jasonwell L basin, 48\"":"Jasonwell S basin, 32\"",L?10.6:5.34,"Read",L?"Amazon listing: 10.6 lb":"Amazon listing: 5.34 lb",L?U.jl:U.js);
+  add("Shower and water system","69\" folding curtain rod",2.6,"Read","Amazon listing: 2.6 lb",U.rod);
+  add("Shower and water system","Shower wand, hose and curtain",2.5,"Est","galley doc estimate",null);
+  const b=BEDS[$("bed").value];
+  if(b){const hc=$("bedmat").value==="hc";
+    add("Bed",(hc?"Honeycomb 3/4\", ":"Baltic birch 18 mm, ")+b.label,b.sf*(hc?HC:BB),"Derived",hc?"Flatiron: 44 lb per 4x8":"63 lb per 5x5 sheet",hc?U.flat:U.pc);
+    add("Bed","T-slot rails and legs, "+b.rail+" in",b.rail/12*AL,"Derived","0.548 lb/ft",U.tn);
+    add("Bed",b.brk+" brackets and "+b.cmb+" T-nut screws",b.brk*BRK+b.cmb*CMB,"Derived","TNUTZ part weights","https://www.tnutz.com/product/cb-010-b/");
+    if(b.hw) add("Bed","Hinges, straps, fold-down legs, ceiling track",b.hw,"Est","not yet chosen",null);
+    if(num("matt")) add("Bed","Mattresses",num("matt"),"Yours","input above",null);}
+  if(num("water")) add("Water",f0(num("water"))+" gal of water",num("water")*8.34,"Yours","8.34 lb per gallon",null);
+  if(num("people")*num("plb")) add("People",f0(num("people"))+" people at "+f0(num("plb"))+" lb",num("people")*num("plb"),"Yours","input above; 150 lb is the FMVSS 110 figure",U.fmvss);
+  if(num("gear")) add("Gear","Food, clothes, bikes, skis, tools",num("gear"),"Yours","input above",null);
+  return R;
+}
+const BUILD=new Set(["Power and fridge","Galley","Upper cabinet","Shower and water system","Bed"]);
+const tip=$("tip");
+function tipAt(x,y,big,small){tip.replaceChildren();const b=document.createElement("b");b.textContent=big;const s=document.createElement("span");s.textContent=small;tip.append(b,s);tip.style.opacity=1;
+  tip.style.left=Math.min(x+14,innerWidth-310)+"px";tip.style.top=Math.max(8,y-12-tip.offsetHeight)+"px"}
+const hide=()=>tip.style.opacity=0;
+const NS="http://www.w3.org/2000/svg";
+const el=(t,a={},txt)=>{const n=document.createElementNS(NS,t);for(const k in a)n.setAttribute(k,a[k]);if(txt!=null)n.textContent=txt;return n};
+const rbar=(x,y,w,h)=>{const r=Math.min(4,w/2,h/2);return w<=0?"":`M${x},${y}h${w-r}a${r},${r} 0 0 1 ${r},${r}v${h-2*r}a${r},${r} 0 0 1 -${r},${r}h-${w-r}z`};
+function hbars(host,items,o){
+  host.replaceChildren();const W=1000,L=o.left,R=120,bh=22,gap=2,top=8,H=top+items.length*(bh+gap)+30;
+  const max=Math.max(1,...items.map(i=>i.value)),step=o.step(max),nice=Math.ceil(max/step)*step,sx=v=>L+(W-L-R)*v/nice;
+  const svg=el("svg",{viewBox:`0 0 ${W} ${H}`,role:"img","aria-label":o.aria});
+  for(let t=0;t<=nice+1e-9;t+=step){svg.append(el("line",{x1:sx(t),x2:sx(t),y1:top-4,y2:H-24,stroke:"var(--grid)"}));svg.append(el("text",{x:sx(t),y:H-8,"text-anchor":"middle"},f0(t)+" lb"))}
+  let y=top;
+  for(const it of items){
+    svg.append(el("text",{x:L-8,y:y+bh-6,"text-anchor":"end",class:"cat"},it.label));
+    const hit=el("rect",{x:L,y:y-1,width:W-L-R,height:bh+2,fill:"transparent"});
+    const p=el("path",{d:rbar(L,y,sx(it.value)-L,bh),fill:"var(--bar)",class:"bar",tabindex:0,"aria-label":`${it.label}: ${it.text}`});
+    const on=e=>tipAt(e.clientX,e.clientY,it.tipBig,it.tipSmall);
+    for(const t of [hit,p]){t.addEventListener("pointermove",on);t.addEventListener("pointerleave",hide)}
+    p.addEventListener("focus",e=>{const r=e.target.getBoundingClientRect();tipAt(r.right,r.top,it.tipBig,it.tipSmall)});p.addEventListener("blur",hide);
+    svg.append(hit,p,el("text",{x:sx(it.value)+6,y:y+bh-6,class:"val"},it.text));y+=bh+gap}
+  host.append(svg)}
+function meter(used,payload){
+  const host=$("meter");host.replaceChildren();const W=1000,H=74,x0=0,w=W,frac=Math.min(1,used/payload),over=used>payload;
+  const svg=el("svg",{viewBox:`0 0 ${W} ${H}`,role:"img","aria-label":`${f0(used)} of ${f0(payload)} lb payload used`});
+  svg.append(el("rect",{x:x0,y:20,width:w,height:26,rx:6,fill:"var(--track)"}));
+  svg.append(el("path",{d:rbar(x0,20,w*frac-(frac<1?2:0),26),fill:over?"#e66767":"var(--bar)"}));
+  svg.append(el("text",{x:x0,y:12,class:"val"},`${f0(used)} lb loaded (${Math.round(100*used/payload)}%)`));
+  svg.append(el("text",{x:W,y:12,"text-anchor":"end",class:"val"},over?`${f0(used-payload)} lb over`:`${f0(payload-used)} lb to spare`));
+  svg.append(el("text",{x:x0,y:66},"0"));svg.append(el("text",{x:W,y:66,"text-anchor":"end"},f0(payload)+" lb payload"));
+  host.append(svg)}
+let sk="lb",sd=-1;
+const COLS=[["Category","cat"],["Item","item"],["lb","lb",1],["% of payload","pct",1],["Basis","conf"],["Where the number comes from","basis"]];
+function draw(){
+  const P=num("payload")||1, R=lines().map(r=>({...r,pct:100*r.lb/P}));
+  const tot=R.reduce((s,r)=>s+r.lb,0), build=R.filter(r=>BUILD.has(r.cat)).reduce((s,r)=>s+r.lb,0);
+  const h=$("headline");h.replaceChildren(document.createTextNode("The whole build is about "));const s=document.createElement("span");s.className="hl";s.textContent=`${f0(build)} lb, ${f1(100*build/P)}% of payload`;h.append(s,document.createTextNode("; people, water and gear are the rest"));
+  const st=$("stats");st.replaceChildren();
+  for(const [n,l] of [[f0(P)+" lb","Payload"],[f0(build)+" lb","Build: cabinets, bed, power, shower"],[f0(tot-build)+" lb","People, water, gear"],[f0(tot)+" lb","Total loaded"],[(tot>P?"-":"")+f0(Math.abs(P-tot))+" lb",tot>P?"Over payload":"To spare"]]){
+    const d=document.createElement("div");d.className="stat";const a=document.createElement("div");a.className="n";a.textContent=n;const b=document.createElement("div");b.className="l";b.textContent=l;d.append(a,b);st.append(d)}
+  meter(tot,P);
+  const cats=[...new Set(R.map(r=>r.cat))].map(c=>({c,v:R.filter(r=>r.cat===c).reduce((s,r)=>s+r.lb,0)})).sort((a,b)=>b.v-a.v);
+  hbars($("chartCat"),cats.map(x=>({label:x.c,value:x.v,text:`${f0(x.v)} lb`,tipBig:`${f1(x.v)} lb`,tipSmall:`${x.c}: ${f1(100*x.v/P)}% of payload`})),{left:210,step:m=>m>250?100:m>100?50:20,aria:"Pounds by category"});
+  const shell=25.6, SAVE=[
+    ["Honeycomb bed panels vs Baltic birch (Config B, 28\")",56*(BB-HC)],["Honeycomb bed panels vs Baltic birch (Config B, 24\")",48*(BB-HC)],
+    ["Honeycomb bed panels vs Baltic birch (Config A)",27.5*(BB-HC)],["T-slot + Coroplast galley box vs 3/4\" softwood ply",shell*2.2-28.5],
+    ["Thin-skin honeycomb galley box vs T-slot + Coroplast",28.5-shell*0.48],["Honeycomb countertop vs 3/4\" bamboo",4.625*(90/32-0.48)],
+    ["32\" basin vs 48\" basin",10.6-5.34],["1/2\" bamboo countertop vs 3/4\"",4.625*(90-65)/32]].sort((a,b)=>b[1]-a[1]);
+  hbars($("chartSave"),SAVE.map(([l,v])=>({label:l,value:v,text:`${f1(v)} lb · ${(100*v/P).toFixed(1)}%`,tipBig:`${f1(v)} lb saved`,tipSmall:`${l}: ${(100*v/P).toFixed(2)}% of payload`})),{left:430,step:m=>m>50?20:10,aria:"Pounds saved by each lighter choice"});
+  const fc=$("fCat"),cur=fc.value;fc.replaceChildren(new Option("All",""));for(const c of cats)fc.append(new Option(c.c,c.c));fc.value=[...fc.options].some(o=>o.value===cur)?cur:"";
+  const q=$("q").value.trim().toLowerCase(),cf=$("fConf").value,cat=fc.value;
+  const rs=R.filter(r=>(!cat||r.cat===cat)&&(!cf||r.conf===cf)&&(!q||(r.item+" "+r.cat+" "+r.basis).toLowerCase().includes(q)))
+    .sort((a,b)=>{const x=a[sk],y=b[sk];return (typeof x==="number"?x-y:String(x).localeCompare(String(y)))*sd});
+  const t=$("tbl");t.replaceChildren();const hr=t.createTHead().insertRow();
+  for(const [lab,k,n] of COLS){const th=document.createElement("th");th.textContent=lab;if(n)th.className="n";th.tabIndex=0;if(k===sk)th.setAttribute("aria-sort",sd>0?"ascending":"descending");
+    const go=()=>{sd=k===sk?-sd:(n?-1:1);sk=k;draw()};th.onclick=go;th.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();go()}};hr.append(th)}
+  const tb=t.createTBody();
+  for(const r of rs){const tr=tb.insertRow();tr.insertCell().textContent=r.cat;const c=tr.insertCell();c.textContent=r.item;c.style.minWidth="220px";
+    const a=tr.insertCell();a.className="n";a.textContent=f1(r.lb);const p=tr.insertCell();p.className="n";p.textContent=r.pct.toFixed(2)+"%";
+    const pc=tr.insertCell(),pl=document.createElement("span");pl.className="pill p-"+({Read:"read",Derived:"derived",Est:"est",Yours:"you"})[r.conf];pl.textContent=r.conf;pc.append(pl);
+    const bc=tr.insertCell();if(r.url){const l=document.createElement("a");l.href=r.url;l.target="_blank";l.rel="noopener";l.textContent=r.basis;bc.append(l)}else bc.textContent=r.basis}
+  const fr=t.createTFoot().insertRow(),f=fr.insertCell();f.colSpan=2;f.textContent=`${rs.length} of ${R.length} lines shown`;
+  const fa=fr.insertCell();fa.className="n";fa.textContent=f1(rs.reduce((s,r)=>s+r.lb,0));const fp=fr.insertCell();fp.className="n";fp.textContent=(100*rs.reduce((s,r)=>s+r.lb,0)/P).toFixed(1)+"%";fr.insertCell();fr.insertCell();
+}
+for(const id of ["payload","people","plb","water","gear","matt","q"])$(id).oninput=draw;
+for(const id of ["bed","bedmat","top","basin","fCat","fConf"])$(id).onchange=draw;
+draw();
+</script>
+</body>
+</html>
