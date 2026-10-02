@@ -42,7 +42,7 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 <p>Written 2026-09-30. Working copy with the end-view drawing:
 <a href="https://claude.ai/code/artifact/ee036884-b578-4366-9dab-3cd3ee89aafe">https://claude.ai/code/artifact/ee036884-b578-4366-9dab-3cd3ee89aafe</a></p>
 <h2>Start here</h2>
-<p>Both beds use the same parts: aluminum honeycomb panels resting on 1&quot; T-slot rails bolted to the van&#39;s wall ribs. Build Config A first; Config B reuses its wall rails.</p>
+<p>Both beds use the same parts: aluminum honeycomb panels on a 1&quot; T-slot frame that stands on the van floor. <strong>Revised 2026-10-02:</strong> the first draft hung the beds from the wall ribs and ceiling. Ford&#39;s body builder manual rules that out (see &quot;What Ford allows&quot; below), so both layouts are now floor-standing frames with the walls used only to steady them.</p>
 <table>
 <thead>
 <tr>
@@ -58,7 +58,7 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 </tr>
 <tr>
 <td>Mattress area</td>
-<td>about 60&quot; x 66&quot; (queen width, wall-to-wall length)</td>
+<td>about 60&quot; x 66&quot; (a queen trimmed to the van&#39;s width)</td>
 <td>four bunks about 24&quot; or 28&quot; x 72&quot;, two per side, stacked</td>
 </tr>
 <tr>
@@ -74,7 +74,7 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 <tr>
 <td>Fold away?</td>
 <td>Front half hinges up</td>
-<td>Each bunk swings up flat against the wall</td>
+<td>Each bunk swings up flat against the wall; its legs fold</td>
 </tr>
 <tr>
 <td>Time, first build</td>
@@ -142,8 +142,19 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 <li><input disabled="" type="checkbox"> Everyone&#39;s height who will sleep in it.</li>
 </ul>
 <p>The narrowest of the eight wall-to-wall numbers sets the bed length in Config A.</p>
+<h2>What Ford allows</h2>
+<p>From Ford&#39;s Transit Body and Equipment Mounting Manual, section 5.3.1 Racking Systems (2020 North America edition; the 2016 edition was not read):</p>
+<ul>
+<li>&quot;Upper fixing locations are not structural and take a 30kg maximum load only.&quot; That is 66 lb per wall point, far less than a sleeper.</li>
+<li>&quot;Frames should be rigid, self-supporting and bolted through the floor, use reinforcements on the underfloor.&quot;</li>
+<li>&quot;Load compartment tie downs can also be used for additional fixing locations.&quot; The factory D-ring points are the no-drill anchors.</li>
+<li>&quot;Do not drill into closed frame body members.&quot; Re-paint and seal every drilled edge.</li>
+<li>Check the manual&#39;s &quot;precautionary drill zones&quot; figures before drilling the cargo walls: wiring runs behind them.</li>
+<li>&quot;No load bearing fixing to the lining only&quot;, and through bolts get a spreader plate.</li>
+</ul>
+<p>So: the frame carries the sleepers to the floor. Wall ties only stop the frame from swaying, and nothing hangs from the ceiling.</p>
 <h2>Config A: east-west queen-ish</h2>
-<p>A 60&quot; x 66&quot; platform across the back of the van, in two 30&quot; x 66&quot; panels, sitting on three rails. Total panel weight is about 38 lb; the same platform in 18 mm Baltic birch would be about 69 lb.</p>
+<p>A 60&quot; x 66&quot; platform across the back of the van, in two 30&quot; x 66&quot; panels, on a six-leg frame. Total panel weight is about 38 lb; the same platform in 18 mm Baltic birch would be about 69 lb.</p>
 <table>
 <thead>
 <tr>
@@ -155,7 +166,7 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 <tbody><tr>
 <td>Rear panel</td>
 <td>30&quot; x 66&quot; x 3/4&quot;</td>
-<td>Fixed. Sits on the two wall rails and the center rail</td>
+<td>Fixed, bolted to the rails</td>
 </tr>
 <tr>
 <td>Front panel</td>
@@ -163,19 +174,24 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 <td>Lifts or hinges up for garage access</td>
 </tr>
 <tr>
-<td>Wall rails</td>
-<td>2 x 60&quot; of 1&quot; T-slot</td>
-<td>One on each wall, bolted into the ribs with rivnuts</td>
+<td>Rails</td>
+<td>3 x 60&quot; of 1&quot; T-slot, running front to back</td>
+<td>Two side rails about 10&quot; in from each wall (inboard of the wheel wells) and one center rail</td>
 </tr>
 <tr>
-<td>Center rail</td>
-<td>1 x 60&quot; of 1&quot; T-slot</td>
-<td>Runs front to back at mid-span (33&quot; from each wall) so each panel spans 33&quot;, not 66&quot;</td>
+<td>Legs</td>
+<td>6, length = bed height minus 1-3/4&quot;</td>
+<td>Two under each rail, feet bolted to the floor or to the factory tie-down points</td>
 </tr>
 <tr>
-<td>Center legs</td>
-<td>2 pieces, length = bed height minus 1-3/4&quot; (the 3/4&quot; panel plus the 1&quot; rail on top of the legs)</td>
-<td>From the floor to the center rail, between the wheel wells</td>
+<td>Cross ties</td>
+<td>2 x about 46&quot;</td>
+<td>Join the three rails at the front and back so the frame is one rigid piece</td>
+</tr>
+<tr>
+<td>Wall ties</td>
+<td>4 brackets, one near each corner</td>
+<td>Steady the frame only; each carries well under Ford&#39;s 66 lb</td>
 </tr>
 <tr>
 <td>Bed height</td>
@@ -185,12 +201,13 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 </tbody></table>
 <ul>
 <li>Panel length is set by the narrowest wall-to-wall number, minus 1/2&quot; of clearance. 66&quot; is a placeholder.</li>
-<li>Why the center rail: Flatiron&#39;s data only covers a 4 x 8 panel held on all four edges. A panel held on two edges over 66&quot; is a case no source here covers, so the design halves the span instead of trusting it.</li>
+<li>Spans: each panel rests on three rails about 23&quot; apart and overhangs about 10&quot; to each wall. Flatiron&#39;s data only covers a 4 x 8 panel held on all four edges, so the design keeps spans short and the load test in Safety proves it.</li>
+<li>1&quot; extrusion legs are a starting point. If the frame sways under a load test, add diagonal braces or step the legs up to 1.5&quot; extrusion.</li>
 <li>Sit-up room: at a 30&quot; bed height with a 4&quot; mattress and a 70&quot; ceiling, about 35&quot; above the mattress.</li>
 </ul>
 <p>Cut plan: a stock 48&quot; x 96&quot; sheet holds one 30&quot; x 66&quot; piece, so Config A needs 2 sheets, leaving two 18&quot; x 66&quot; offcuts for shelves. A custom 60&quot; x 96&quot; sheet (Flatiron makes up to 5&#39; x 12&#39; on request) would hold both pieces; ask for that price.</p>
-<h2>Config B: four portaledge-style twins</h2>
-<p>Four bunks running front to back, two on each wall, stacked. Each bunk hangs from a rail on the wall. The upper bunks are held level by two straps from the ceiling, like a climber&#39;s portaledge; the lower bunks stand on two fold-down legs, because their straps would have to pass through the bunk above. Folded, each bunk swings up flat against the wall and the floor is clear.</p>
+<h2>Config B: four fold-up twins</h2>
+<p>Four bunks running front to back, two on each wall, stacked. A climber&#39;s portaledge hangs from above; Ford&#39;s 66 lb limit on wall and roof points rules that out for a person&#39;s weight, so these keep the fold-flat idea and stand on the floor. Each side is a frame of three posts against the wall carrying two rails. Each bunk hinges on its rail and stands on two fold-down legs at the aisle edge. Folded, the bunk swings up flat against the wall and its legs fold against it.</p>
 <table>
 <thead>
 <tr>
@@ -205,29 +222,39 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 <td>72&quot; long fits an adult up to about 6&#39;; 126&quot; of cargo length leaves 54&quot; in front</td>
 </tr>
 <tr>
-<td>Wall rails</td>
+<td>Wall posts</td>
+<td>6 (3 per side), about 43&quot; tall</td>
+<td>Stand on the floor against the wall, feet bolted down; carry both rails</td>
+</tr>
+<tr>
+<td>Rails</td>
 <td>4 x 72&quot; of 1&quot; T-slot</td>
-<td>One per bunk, bolted into the ribs with rivnuts</td>
+<td>Two per side, at the lower and upper bunk heights, bolted to the posts</td>
 </tr>
 <tr>
 <td>Hinge</td>
-<td>Along the wall edge of each bunk</td>
+<td>Along the rail edge of each bunk</td>
 <td>Lets the bunk swing up to stow</td>
 </tr>
 <tr>
-<td>Ceiling track</td>
-<td>2 runs of L-track, front to back</td>
-<td>Anchor for the upper bunks&#39; straps</td>
+<td>Fold-down legs</td>
+<td>2 per bunk at the aisle edge: about 15&quot; (lower), about 43&quot; (upper)</td>
+<td>The upper bunk&#39;s legs pass just outside the lower bunk&#39;s edge</td>
 </tr>
 <tr>
-<td>Straps</td>
-<td>2 per upper bunk, outer front and back corners; lower bunks get 2 fold-down legs instead</td>
-<td>Hold the outer edge level</td>
+<td>Wall ties</td>
+<td>1 per post</td>
+<td>Steady the posts only</td>
+</tr>
+<tr>
+<td>Stow straps</td>
+<td>1 per bunk</td>
+<td>Hold the folded bunk and its mattress against the wall while driving</td>
 </tr>
 <tr>
 <td>Lower bunk height</td>
 <td>about 16&quot; to the panel top</td>
-<td>Clears the 11&quot; wheel wells</td>
+<td>Clears the 11&quot; wheel wells; posts stand fore and aft of the wells</td>
 </tr>
 <tr>
 <td>Upper bunk height</td>
@@ -237,9 +264,85 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 </tbody></table>
 <ul>
 <li>Width: 24&quot; bunks get two pieces from one stock 48&quot; x 96&quot; sheet, so 2 sheets cover all four. 28&quot; bunks get one piece per 48&quot; x 96&quot; sheet, or two per 48&quot; x 144&quot; sheet (2 long sheets). A standard twin mattress is 38&quot; wide; these are cot-width bunks.</li>
-<li>Between bunks: lower at 16&quot;, upper at 44&quot; leaves about 27&quot; before mattresses; a 2&quot; pad leaves about 25&quot;.</li>
+<li>Between bunks: lower at 16&quot;, upper at 44&quot; leaves about 27&quot; before mattresses; a 4&quot; pad leaves about 23&quot;.</li>
 <li>Both sides together: two 24&quot; bunks take 48&quot; of the roughly 66&quot; between finished walls, leaving an 18&quot; aisle. Two 28&quot; bunks leave 10&quot;.</li>
 <li>Weight: four 24&quot; x 72&quot; panels are 48 sq ft, about 66 lb; four 28&quot; panels about 77 lb (Flatiron&#39;s 44 lb per 4 x 8 sheet).</li>
+</ul>
+<h2>Mattresses</h2>
+<p>The brief: very comfortable, and still portable, collapsible or inflatable. Thickness is about 4&quot; for every option here.</p>
+<table>
+<thead>
+<tr>
+<th>Mattress</th>
+<th>Size</th>
+<th>Weight</th>
+<th>Packs to</th>
+<th>Price</th>
+<th>Fits</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://hest.com/products/dually">HEST Dually Wide</a> (memory foam, folds in half)</td>
+<td>60&quot; x 72&quot; x 3.9&quot;</td>
+<td>26 lb (retailer figure)</td>
+<td>72&quot; x 30&quot; x 8&quot;</td>
+<td>$629</td>
+<td><strong>A</strong>: full platform width. 72&quot; is longer than the roughly 66&quot; between walls, so the ends curl up about 3&quot; each</td>
+</tr>
+<tr>
+<td>HEST Dually Short</td>
+<td>50&quot; x 64&quot;</td>
+<td>not read</td>
+<td>folds in half</td>
+<td>$529</td>
+<td><strong>A</strong>: sits inside 66&quot; with no curl; 10&quot; narrower than the platform; for sleepers under about 5&#39;4&quot;</td>
+</tr>
+<tr>
+<td>Two <a href="https://seatosummit.com/products/comfort-deluxe-self-inflating-sleeping-pad">Sea to Summit Comfort Deluxe SI, Regular Wide</a> (self-inflating)</td>
+<td>72&quot; x 25&quot; x 4&quot; each, 50&quot; together</td>
+<td>4.2 lb each</td>
+<td>28&quot; x 7&quot; x 7&quot; each</td>
+<td>$265 each</td>
+<td><strong>A</strong> as a pair; <strong>B</strong>: one per bunk, the exact bunk length</td>
+</tr>
+<tr>
+<td>Two Exped MegaMat 10 M (self-inflating)</td>
+<td>72&quot; x 25.6&quot; x 4&quot; each</td>
+<td>4.6 lb each (retailer figure)</td>
+<td>26.4&quot; x 7.1&quot; each</td>
+<td>$239.95 each (retailer price)</td>
+<td><strong>A</strong> as a pair; <strong>B</strong>: one per bunk</td>
+</tr>
+<tr>
+<td>Exped MegaMat Duo 10 M</td>
+<td>72&quot; x 41&quot; x 3.9&quot;</td>
+<td>7.5 lb (retailer figure)</td>
+<td>22&quot; x 11&quot;</td>
+<td>about $297 (retailer price)</td>
+<td><strong>A</strong>, but 41&quot; is narrow for two</td>
+</tr>
+<tr>
+<td><a href="https://hest.com/products/foamy">HEST Foamy Short</a> (memory foam, rolls)</td>
+<td>25&quot; x 64&quot; x 3.9&quot;</td>
+<td>9.5 lb (retailer figure)</td>
+<td>10&quot; x 25&quot; roll</td>
+<td>$279</td>
+<td><strong>B</strong>: for sleepers under about 5&#39;4&quot;</td>
+</tr>
+<tr>
+<td>HEST Foamy</td>
+<td>25&quot; x 78&quot;</td>
+<td>11 lb (HEST)</td>
+<td>roll</td>
+<td>$329</td>
+<td><strong>B</strong> only if the bunks grow to 78&quot;</td>
+</tr>
+</tbody></table>
+<ul>
+<li><strong>Config A pick:</strong> the HEST Dually Wide if comfort comes first. It is foam, needs no inflating, and folds in half onto the fixed rear panel when the front panel lifts. Two Sea to Summit Regular Wides if packing small comes first (8.4 lb, two 28&quot; rolls).</li>
+<li><strong>Config B pick:</strong> one Sea to Summit Regular Wide or Exped MegaMat 10 M per bunk. At 72&quot; x 25&quot; they match the bunk, weigh under 5 lb, and roll small or stay strapped to the folded bunk.</li>
+<li>A 25&quot; pad on a 24&quot; bunk overhangs half an inch each side, which an air pad tolerates.</li>
+<li>Sea to Summit and HEST sizes and prices were read from the makers&#39; own pages on 2026-10-02. Figures marked retailer came from search results for REI and other sellers and were not opened.</li>
 </ul>
 <h2>Parts and prices</h2>
 <p>The panel: <a href="https://www.flatironpanelproducts.com/store.html?model_number=AHP-04038--M-75">Flatiron stock aluminum honeycomb panel</a>, 3/4&quot; thick, 0.040&quot; 5052 aluminum skins on a 3.6 lb/cu ft aluminum honeycomb core, epoxy-primed. Per the <a href="https://www.flatironpanelproducts.com/wp-content/uploads/2020/02/Flatiron-Stock-AHP04038-Data-Sheet-2-11-2020.pdf">data sheet</a>: 44 lb per 4 x 8 sheet, 0.014&quot; deflection under 500 lb spread over a 4 x 8 held on all edges, core crush resistance 150 psi, glue rated -50°F to 250°F, A+ fire rating (ASTM E84). Also sold in black or white Kynar paint and clear anodized.</p>
@@ -274,33 +377,41 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 <td>1&quot; T-slot extrusion, 96&quot; bar</td>
 <td>TNUTZ EX-1010</td>
 <td>$25.46</td>
-<td>3 = $76.38</td>
-<td>4 = $101.84</td>
-<td>4 = $101.84</td>
+<td>5 = $127.30 (454&quot; used)</td>
+<td>9 = $229.14 (782&quot; used)</td>
+<td>9 = $229.14</td>
 </tr>
 <tr>
 <td>Inside corner bracket, 2-hole</td>
 <td>TNUTZ CB-010-B</td>
 <td>$2.30</td>
-<td>24 = $55.20</td>
-<td>16 = $36.80</td>
-<td>16 = $36.80</td>
+<td>36 = $82.80</td>
+<td>42 = $96.60</td>
+<td>42 = $96.60</td>
 </tr>
 <tr>
 <td>T-nut + 1/4-20 screw, stainless</td>
 <td>TNUTZ COMBO-010-A-SS</td>
 <td>$0.55</td>
-<td>48 = $26.40</td>
-<td>32 = $17.60</td>
-<td>32 = $17.60</td>
+<td>72 = $39.60</td>
+<td>84 = $46.20</td>
+<td>84 = $46.20</td>
 </tr>
 <tr>
-<td>1/4-20 rivet nuts, 25-pack</td>
+<td>1/4-20 rivet nuts, 25-pack (wall ties)</td>
 <td>Amazon B0D95C9G5L</td>
 <td>$9.39</td>
 <td>$9.39</td>
 <td>$9.39</td>
 <td>$9.39</td>
+</tr>
+<tr>
+<td>Floor bolts, spreader plates, sealant</td>
+<td>Home Depot</td>
+<td></td>
+<td>$30 est</td>
+<td>$30 est</td>
+<td>$30 est</td>
 </tr>
 <tr>
 <td>1/4-20 stainless button heads for the rivnuts</td>
@@ -319,7 +430,7 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 <td>$60 est</td>
 </tr>
 <tr>
-<td>Inserts for hold-down bolts</td>
+<td>Inserts for hold-down and hinge bolts</td>
 <td>Flatiron quote or DIY</td>
 <td></td>
 <td>$40 est</td>
@@ -327,7 +438,7 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 <td>$60 est</td>
 </tr>
 <tr>
-<td>Heavy-duty hinge along each bunk&#39;s wall edge</td>
+<td>Hinge along each bunk&#39;s rail edge</td>
 <td>Home Depot</td>
 <td></td>
 <td></td>
@@ -335,39 +446,47 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 <td>$80 est</td>
 </tr>
 <tr>
-<td>L-track for the ceiling, 2 runs</td>
-<td>Amazon</td>
+<td>Pivots and locks for 8 fold-down legs</td>
+<td>Amazon or TNUTZ</td>
 <td></td>
 <td></td>
 <td>$60 est</td>
 <td>$60 est</td>
 </tr>
 <tr>
-<td>Straps (upper bunks) and fold-down legs (lower bunks)</td>
+<td>Stow straps, 4</td>
 <td>Amazon</td>
 <td></td>
 <td></td>
-<td>$80 est</td>
-<td>$80 est</td>
+<td>$20 est</td>
+<td>$20 est</td>
 </tr>
 <tr>
 <td>Read off pages</td>
 <td></td>
 <td></td>
-<td>$1,848.87</td>
-<td>$1,847.13</td>
-<td>$2,687.45</td>
+<td>$1,940.59</td>
+<td>$2,062.83</td>
+<td>$2,903.15</td>
 </tr>
 <tr>
 <td>With est items</td>
 <td></td>
 <td></td>
-<td>about $1,940</td>
-<td>about $2,200</td>
-<td>about $3,040</td>
+<td>about $2,060</td>
+<td>about $2,380</td>
+<td>about $3,220</td>
+</tr>
+<tr>
+<td>Mattress pick</td>
+<td></td>
+<td></td>
+<td>$629 (Dually Wide) or $530 (two Sea to Summit)</td>
+<td>$1,060 (four Sea to Summit)</td>
+<td>$1,060</td>
 </tr>
 </tbody></table>
-<p>TNUTZ and Amazon prices read 2026-09-20; Flatiron 2026-09-30. A rivnut tool (est $45 to $60) is extra if not owned.</p>
+<p>TNUTZ and Amazon prices read 2026-09-20; Flatiron 2026-09-30; mattresses 2026-10-02. A rivnut tool (est $45 to $60) is extra if not owned. Frame weight: about 21 lb of extrusion for Config A, about 36 lb for Config B.</p>
 <h2>Tools</h2>
 <p>The easiest path is to have Flatiron CNC-cut the panels (router ±0.008&quot;; saw ±0.063&quot;), so honeycomb is never cut at home.</p>
 <ul>
@@ -388,28 +507,27 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 <li><input disabled="" type="checkbox"> Finish the measuring checklist.</li>
 <li><input disabled="" type="checkbox"> Pick the bed height (30&quot; to 36&quot;).</li>
 <li><input disabled="" type="checkbox"> Write the panel length: narrowest wall-to-wall at that height, minus 1/2&quot;.</li>
-<li><input disabled="" type="checkbox"> Email Flatiron (<a href="mailto:sales@flatironpanelproducts.com">sales@flatironpanelproducts.com</a>, 303-664-9601) for two 30&quot; x panel-length pieces, CNC cut, edges closed, inserts at the hold-down points. Ask the price of a custom 60&quot; x 96&quot; sheet too.</li>
-<li><input disabled="" type="checkbox"> Order the T-slot bars cut to length from TNUTZ: two wall rails and one center rail at 60&quot;, two legs at bed height minus 1-3/4&quot;.</li>
-<li><input disabled="" type="checkbox"> Order the brackets, T-nut screws and rivnuts.</li>
+<li><input disabled="" type="checkbox"> Find the factory tie-down points on the floor and note which ones a leg could bolt to.</li>
+<li><input disabled="" type="checkbox"> Email Flatiron (<a href="mailto:sales@flatironpanelproducts.com">sales@flatironpanelproducts.com</a>, 303-664-9601) for two 30&quot; x panel-length pieces, CNC cut, edges closed, inserts at the hold-down points. Ask the price of a custom 60&quot; x 96&quot; sheet too. (A first quote request went out 2026-10-02.)</li>
+<li><input disabled="" type="checkbox"> Order the T-slot bars cut to length from TNUTZ: three rails at 60&quot;, six legs at bed height minus 1-3/4&quot;, two cross ties at the rail spacing.</li>
+<li><input disabled="" type="checkbox"> Order the brackets, T-nut screws, rivnuts and the mattress.</li>
 </ul>
-<p>Phase 2: Wall rails (about 3 hours)</p>
+<p>Phase 2: Build the frame on the garage floor (about 3 hours)</p>
 <ul>
-<li><input disabled="" type="checkbox"> Mark the top of the rail on both walls at three ribs: bed height minus 3/4&quot; (the panel).</li>
-<li><input disabled="" type="checkbox"> Check the marks are level across the van with the level on a straight board.</li>
-<li><input disabled="" type="checkbox"> Drill the first rivnut hole in the first rib.</li>
-<li><input disabled="" type="checkbox"> Set the first rivnut and test it with a bolt.</li>
-<li><input disabled="" type="checkbox"> Set the rest: at least two per rib the rail crosses.</li>
-<li><input disabled="" type="checkbox"> Slide T-nuts into a wall rail, one per bracket.</li>
-<li><input disabled="" type="checkbox"> Bolt the brackets to the rivnuts, then the rail to the brackets.</li>
-<li><input disabled="" type="checkbox"> Level the rail and tighten.</li>
-<li><input disabled="" type="checkbox"> Repeat the last three steps on the other wall.</li>
+<li><input disabled="" type="checkbox"> Bolt two legs to each rail with two brackets per leg.</li>
+<li><input disabled="" type="checkbox"> Stand the three rail-and-leg pieces up, side rails about 46&quot; apart, center rail between them.</li>
+<li><input disabled="" type="checkbox"> Join them with the two cross ties, front and back.</li>
+<li><input disabled="" type="checkbox"> Check the frame is square: measure both diagonals; they should match.</li>
+<li><input disabled="" type="checkbox"> Put a drop of thread locker on each bolt and tighten.</li>
 </ul>
-<p>Phase 3: Center rail and legs (about 2 hours)</p>
+<p>Phase 3: Fix the frame in the van (about 3 hours)</p>
 <ul>
-<li><input disabled="" type="checkbox"> Join each leg to the center rail with two brackets.</li>
-<li><input disabled="" type="checkbox"> Stand the frame in place, centered between the walls.</li>
-<li><input disabled="" type="checkbox"> Check the center rail is level with the wall rails.</li>
-<li><input disabled="" type="checkbox"> Bolt the leg feet to the floor (measure what is under the floor first).</li>
+<li><input disabled="" type="checkbox"> Carry the frame in and set it between the wheel wells&#39; inboard faces.</li>
+<li><input disabled="" type="checkbox"> Check the rails are level front to back and side to side; shim a foot if not.</li>
+<li><input disabled="" type="checkbox"> Bolt each foot down: to a factory tie-down point where one lines up, otherwise through the floor with a spreader plate underneath (look under the van at each spot first).</li>
+<li><input disabled="" type="checkbox"> Seal and paint every drilled hole.</li>
+<li><input disabled="" type="checkbox"> Mark four wall-tie spots on ribs near the frame corners, clear of the wiring zones in Ford&#39;s figures.</li>
+<li><input disabled="" type="checkbox"> Set a rivnut at each and bolt a bracket from the rib to the frame.</li>
 </ul>
 <p>Phase 4: Panels (about 2 hours)</p>
 <ul>
@@ -419,63 +537,68 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 <li><input disabled="" type="checkbox"> Dry-fit the front panel.</li>
 <li><input disabled="" type="checkbox"> Decide: bolted down, or hinged to the rear panel to lift for garage access.</li>
 <li><input disabled="" type="checkbox"> Fit the hinge or the bolts.</li>
-<li><input disabled="" type="checkbox"> Lie on it. Bounce on it. Check nothing creaks or moves.</li>
 </ul>
-<p>Phase 5: Finish (1 hour)</p>
+<p>Phase 5: Test and finish (1 to 2 hours)</p>
 <ul>
+<li><input disabled="" type="checkbox"> Load each panel with about 1.5x the heaviest sleeper for an hour (water jugs: 8.34 lb per gallon).</li>
+<li><input disabled="" type="checkbox"> Push the loaded frame sideways. If it sways, add diagonal braces before going further.</li>
 <li><input disabled="" type="checkbox"> End caps on any exposed rail end.</li>
 <li><input disabled="" type="checkbox"> Mattress on.</li>
 <li><input disabled="" type="checkbox"> Drive a bumpy road; re-check every bolt.</li>
 </ul>
 <h2>Build steps: Config B</h2>
-<p>Build one bunk completely, sleep on it, then build the other three the same way.</p>
+<p>Build one lower bunk completely, sleep on it, then build the rest the same way.</p>
 <p>Phase 1: Decide and order (1 to 2 hours, then wait for shipping)</p>
 <ul>
 <li><input disabled="" type="checkbox"> Finish the measuring checklist.</li>
 <li><input disabled="" type="checkbox"> Pick the bunk width: 24&quot; (cheaper, 18&quot; aisle) or 28&quot; (roomier, 10&quot; aisle).</li>
 <li><input disabled="" type="checkbox"> Pick the two heights (proposed: 16&quot; lower, 44&quot; upper, to the panel top).</li>
-<li><input disabled="" type="checkbox"> Email Flatiron for four bunk panels, CNC cut, edges closed, with inserts for the hinge and the strap or leg points.</li>
-<li><input disabled="" type="checkbox"> Order four 72&quot; T-slot rails from TNUTZ, plus brackets, T-nut screws and rivnuts.</li>
-<li><input disabled="" type="checkbox"> Order the ceiling L-track, the straps, the fold-down legs and the hinges.</li>
+<li><input disabled="" type="checkbox"> Email Flatiron for four bunk panels, CNC cut, edges closed, with inserts for the hinge and the leg pivots.</li>
+<li><input disabled="" type="checkbox"> Order from TNUTZ: six posts, four 72&quot; rails, four lower legs, four upper legs, plus brackets, T-nut screws and rivnuts.</li>
+<li><input disabled="" type="checkbox"> Order the hinges, leg pivots, stow straps and four mattresses.</li>
 </ul>
-<p>Phase 2: First bunk only, a lower one (about 4 hours)</p>
+<p>Phase 2: One side&#39;s wall frame (about 3 hours)</p>
 <ul>
-<li><input disabled="" type="checkbox"> Mark the top of the lower rail on one wall: lower bunk height minus 3/4&quot;.</li>
-<li><input disabled="" type="checkbox"> Set rivnuts in each rib the rail crosses, two per rib.</li>
-<li><input disabled="" type="checkbox"> Bolt the rail to the wall with brackets and level it.</li>
-<li><input disabled="" type="checkbox"> Fit the hinge along the rail&#39;s top edge.</li>
-<li><input disabled="" type="checkbox"> Bolt the bunk panel&#39;s wall edge to the hinge.</li>
-<li><input disabled="" type="checkbox"> Fit the two fold-down legs under the panel&#39;s outer front and back corners.</li>
-<li><input disabled="" type="checkbox"> Fold the legs down to the floor.</li>
-<li><input disabled="" type="checkbox"> Check the panel is level and adjust the legs.</li>
-<li><input disabled="" type="checkbox"> Swing it up to the stowed position and strap it to the wall.</li>
+<li><input disabled="" type="checkbox"> Bolt the lower and upper rails to three posts on the garage floor, with thread locker.</li>
+<li><input disabled="" type="checkbox"> Stand the frame against the wall, posts fore and aft of the wheel well.</li>
+<li><input disabled="" type="checkbox"> Bolt each post&#39;s foot to the floor or a factory tie-down point; seal any drilled hole.</li>
+<li><input disabled="" type="checkbox"> Tie each post to a rib with one rivnut and bracket.</li>
 </ul>
-<p>Phase 3: Test (one night)</p>
+<p>Phase 3: First bunk, a lower one (about 3 hours)</p>
+<ul>
+<li><input disabled="" type="checkbox"> Fit the hinge along the lower rail.</li>
+<li><input disabled="" type="checkbox"> Bolt the bunk panel&#39;s wall edge to the hinge.</li>
+<li><input disabled="" type="checkbox"> Fit the two fold-down legs under the panel&#39;s aisle-edge corners.</li>
+<li><input disabled="" type="checkbox"> Fold the legs down to the floor and check the panel is level.</li>
+<li><input disabled="" type="checkbox"> Load-test it: 1.5x the heaviest sleeper for an hour.</li>
+<li><input disabled="" type="checkbox"> Swing it up to the stowed position and strap it to the posts.</li>
+</ul>
+<p>Phase 4: Test (one night)</p>
 <ul>
 <li><input disabled="" type="checkbox"> Sleep on it.</li>
 <li><input disabled="" type="checkbox"> Note anything that creaked, sagged or rattled while driving.</li>
 <li><input disabled="" type="checkbox"> Fix it on this bunk before copying the design.</li>
 </ul>
-<p>Phase 4: The other three (about 6 hours)</p>
+<p>Phase 5: The other three (about 8 hours)</p>
 <ul>
-<li><input disabled="" type="checkbox"> Upper bunk, same wall: mark at upper height minus 3/4&quot;, fit the rail and hinge as in Phase 2, then fit one run of L-track to the ceiling above its outer edge and hang it on two straps instead of legs.</li>
-<li><input disabled="" type="checkbox"> Lower bunk, other wall.</li>
-<li><input disabled="" type="checkbox"> Upper bunk, other wall (the second L-track run goes in here).</li>
+<li><input disabled="" type="checkbox"> Upper bunk, same side: hinge on the upper rail, long legs to the floor just outside the lower bunk&#39;s edge. Load-test it.</li>
+<li><input disabled="" type="checkbox"> Other side: wall frame (Phase 2), then lower and upper bunks.</li>
 </ul>
-<p>Phase 5: Finish (1 hour)</p>
+<p>Phase 6: Finish (1 hour)</p>
 <ul>
 <li><input disabled="" type="checkbox"> End caps, pads on.</li>
 <li><input disabled="" type="checkbox"> Stow all four, drive a bumpy road, re-check every bolt and strap.</li>
 </ul>
 <h2>Safety</h2>
-<p>No source here rates this exact setup (panel on rails, rails on rivnuts in the ribs), so the design adds margin and testing proves it.</p>
+<p>No source here rates this exact frame, so the design adds margin and a load test proves it.</p>
 <ul>
-<li>Load: Flatiron&#39;s only load figure is 0.014&quot; of sag under 500 lb on a 4 x 8 sheet held on all four edges. Config A halves the span with a center rail; Config B bunks span 24&quot; to 28&quot;. Before anyone sleeps on it, load each panel with about 1.5x the heaviest sleeper (sandbags or water jugs) for an hour and check for sag or creaks.</li>
+<li>Walls and roof: Ford limits upper wall fixing points to 30 kg (66 lb) each and calls them not structural. Nothing that holds a person hangs from them.</li>
+<li>Load: Flatiron&#39;s only load figure is 0.014&quot; of sag under 500 lb on a 4 x 8 sheet held on all four edges. Config A&#39;s rails are about 23&quot; apart; Config B bunks span 24&quot; to 28&quot;. Load each panel with about 1.5x the heaviest sleeper for an hour and check for sag, sway or creaks.</li>
 <li>Point loads: the core resists crushing up to 150 psi. A knee or a heel is far below that; a chair leg or a jack is not.</li>
-<li>Crash: everything up high has to stay put in a crash. Bolt panels down; never lay them loose on the rails. Strap stowed bunks to the wall. Check Ford&#39;s Transit body builder guidance for approved wall attachment points before drilling ribs.</li>
-<li>Straps: rated working load at least 300 lb each, covering a 250 lb sleeper plus the panel with margin across 2 straps (a design choice, not a published rule).</li>
+<li>Crash: everything has to stay put. Bolt panels to the frame and the frame to the floor; never lay panels loose. Strap stowed bunks and mattresses.</li>
+<li>Drilling: check under the floor (fuel tank, lines, wiring) and Ford&#39;s wiring-zone figures for the walls before any hole. Seal and paint each one.</li>
 <li>Heat: the panel glue is rated -50°F to 250°F; a parked car in the sun measured 116°F inside and 157°F on the dashboard (<a href="https://news.asu.edu/20180516-discoveries-asu-study-hot-cars-can-hit-deadly-temperatures-within-one-hour">ASU study</a>).</li>
-<li>Fire: the stock panels are A+ under ASTM E84 (a building test). The mattress foam is the real fire load; FMVSS 302 (no faster than 102 mm per minute) is the benchmark for vehicle interiors (<a href="https://www.law.cornell.edu/cfr/text/49/571.302">49 CFR 571.302</a>).</li>
+<li>Fire: the stock panels are A+ under ASTM E84 (a building test). The mattress is the real fire load; FMVSS 302 (no faster than 102 mm per minute) is the benchmark for vehicle interiors (<a href="https://www.law.cornell.edu/cfr/text/49/571.302">49 CFR 571.302</a>).</li>
 <li>Pinch points: hinged panels and fold-down legs pinch fingers. Lift from the edge, never from the hinge side.</li>
 </ul>
 <h2>Open decisions</h2>
@@ -486,11 +609,15 @@ h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-siz
 <li><input disabled="" type="checkbox"> Panel finish: epoxy-primed, black or white Kynar, or clear anodized.</li>
 <li><input disabled="" type="checkbox"> Inserts by Flatiron (ask the price) or DIY potted inserts.</li>
 <li><input disabled="" type="checkbox"> Anyone over about 5&#39;5&quot;? Config A then means sleeping diagonally or curled; Config B fits up to about 6&#39;.</li>
-<li><input disabled="" type="checkbox"> Ask Flatiron: price of a custom 60&quot; x 96&quot; sheet, and a freight quote to Salt Lake City.</li>
+<li><input disabled="" type="checkbox"> Flatiron quote requested 2026-10-02: panels for both layouts, a custom 60&quot; x 96&quot; sheet, inserts, edge closures, freight to Salt Lake City.</li>
+<li><input disabled="" type="checkbox"> Mattress: HEST Dually Wide or two Sea to Summit pads (A); Sea to Summit or Exped singles (B).</li>
+<li><input disabled="" type="checkbox"> Legs: stay with 1&quot; extrusion or step up to 1.5&quot; after the load test.</li>
 </ul>
 <h2>Sources</h2>
 <ul>
 <li><a href="https://www.flatironpanelproducts.com/wp-content/uploads/2020/02/Flatiron-Stock-AHP04038-Data-Sheet-2-11-2020.pdf">Flatiron stock panel data sheet</a>, <a href="https://www.flatironpanelproducts.com/store.html">online store</a>, <a href="https://www.flatironpanelproducts.com/inserts-and-fasteners.html">inserts and fasteners</a></li>
+<li><a href="https://madocumentupload.marketingassociates.com/api/Document/GetFile?v1=5035889&amp;v2=091319013011&amp;v3=60&amp;v4=db6e3859fd52ef6048a1a6be5fe1ab8feb599e19672137d2e1205185&amp;v5=False">Ford Transit Body and Equipment Mounting Manual, 2020 North America</a>, section 5.3.1</li>
+<li><a href="https://hest.com/products/dually">HEST Dually</a>, <a href="https://hest.com/products/foamy">HEST Foamy</a>, <a href="https://seatosummit.com/products/comfort-deluxe-self-inflating-sleeping-pad">Sea to Summit Comfort Deluxe SI</a></li>
 <li><a href="https://upfitsupply.com/blogs/measurement-guides/ford-transit-130-wb-interior-cargo-measurements">Upfit Supply: Transit 130 WB interior measurements</a></li>
 <li><a href="https://emerycustombuilds.com/transit-van-conversions/dimensions/">Emery Custom Builds: Transit dimensions</a></li>
 <li><a href="https://www.tnutz.com/product/ex-1010/">TNUTZ EX-1010</a>, <a href="https://www.tnutz.com/product/cb-010-b/">CB-010-B</a>, <a href="https://www.tnutz.com/product/combo-010-a/">COMBO-010-A</a></li>

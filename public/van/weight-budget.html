@@ -86,7 +86,7 @@
     <div class="controls">
       <div class="field"><label for="bed">Bed</label><select id="bed"><option value="A">A: east-west queen-ish</option><option value="B24">B: four bunks, 24"</option><option value="B28">B: four bunks, 28"</option><option value="none">No bed</option></select></div>
       <div class="field"><label for="bedmat">Bed panels</label><select id="bedmat"><option value="hc">Aluminum honeycomb 3/4"</option><option value="bb">Baltic birch 18 mm</option></select></div>
-      <div class="field"><label for="matt">Mattresses lb</label><input type="number" id="matt" value="0" min="0" step="1"></div>
+      <div class="field"><label for="matt">Mattresses</label><select id="matt"><option value="none">None yet</option><option value="dw">A: HEST Dually Wide</option><option value="s2">A: two Sea to Summit pads</option><option value="e2">A: two Exped MegaMat 10 M</option><option value="s4">B: four Sea to Summit pads</option><option value="e4">B: four Exped MegaMat 10 M</option><option value="f4">B: four HEST Foamy Short</option></select></div>
       <div class="field"><label for="top">Countertop</label><select id="top"><option value="b34">Bamboo 3/4"</option><option value="b12">Bamboo 1/2"</option><option value="hc">Aluminum honeycomb</option></select></div>
       <div class="field"><label for="basin">Shower basin</label><select id="basin"><option value="L">Jasonwell L 48"</option><option value="S">Jasonwell S 32"</option></select></div>
     </div>
@@ -149,9 +149,11 @@ const U={
 const TOPS={b34:["Bamboo top 3/4\", 36 x 18-1/2\"",4.625*90/32,"Derived","Plyboo 90 lb per 4x8; FLEXISPOT publishes no weight",U.plyboo],
             b12:["Bamboo top 1/2\", 36 x 18-1/2\"",4.625*65/32,"Derived","Plyboo 65 lb per 4x8",U.plyboo],
             hc:["Aluminum honeycomb top 0.702\", before a laminate face",4.625*0.48,"Derived","0.48 lb/sq ft listing",U.oms]};
-const BEDS={A:{sf:27.5,rail:238,brk:24,cmb:48,hw:0,label:"two 30 x 66\" panels"},
-            B24:{sf:48,rail:288,brk:16,cmb:32,hw:15,label:"four 24 x 72\" panels"},
-            B28:{sf:56,rail:288,brk:16,cmb:32,hw:15,label:"four 28 x 72\" panels"}};
+const BEDS={A:{sf:27.5,rail:454,brk:36,cmb:72,hw:5,label:"two 30 x 66\" panels"},
+            B24:{sf:48,rail:782,brk:42,cmb:84,hw:20,label:"four 24 x 72\" panels"},
+            B28:{sf:56,rail:782,brk:42,cmb:84,hw:20,label:"four 28 x 72\" panels"}};
+const MATT={none:[0,""],dw:[26,"HEST Dually Wide, 26 lb (retailer figure)"],s2:[2*4.18,"two Sea to Summit Comfort Deluxe SI Regular Wide, 1,895 g each"],e2:[2*4.6,"two Exped MegaMat 10 M, 4.6 lb each (retailer figure)"],
+            s4:[4*4.18,"four Sea to Summit Comfort Deluxe SI Regular Wide, 1,895 g each"],e4:[4*4.6,"four Exped MegaMat 10 M, 4.6 lb each (retailer figure)"],f4:[4*9.5,"four HEST Foamy Short, 9.5 lb each (retailer figure)"]};
 function lines(){
   const R=[], add=(cat,item,lb,conf,basis,url)=>R.push({cat,item,lb,conf,basis,url});
   add("Power and fridge","Goal Zero Yeti 1000 Lithium",40,"Read","Goal Zero spec: 40 lb",U.yeti);
@@ -178,10 +180,10 @@ function lines(){
   const b=BEDS[$("bed").value];
   if(b){const hc=$("bedmat").value==="hc";
     add("Bed",(hc?"Honeycomb 3/4\", ":"Baltic birch 18 mm, ")+b.label,b.sf*(hc?HC:BB),"Derived",hc?"Flatiron: 44 lb per 4x8":"63 lb per 5x5 sheet",hc?U.flat:U.pc);
-    add("Bed","T-slot rails and legs, "+b.rail+" in",b.rail/12*AL,"Derived","0.548 lb/ft",U.tn);
+    add("Bed","T-slot frame, "+b.rail+" in",b.rail/12*AL,"Derived","0.548 lb/ft",U.tn);
     add("Bed",b.brk+" brackets and "+b.cmb+" T-nut screws",b.brk*BRK+b.cmb*CMB,"Derived","TNUTZ part weights","https://www.tnutz.com/product/cb-010-b/");
-    if(b.hw) add("Bed","Hinges, straps, fold-down legs, ceiling track",b.hw,"Est","not yet chosen",null);
-    if(num("matt")) add("Bed","Mattresses",num("matt"),"Yours","input above",null);}
+    add("Bed",b===BEDS.A?"Floor bolts and spreader plates":"Hinges, leg pivots, stow straps, floor bolts",b.hw,"Est","not yet chosen",null);
+    const m=MATT[$("matt").value]; if(m[0]) add("Bed","Mattresses: "+m[1],m[0],$("matt").value==="s2"||$("matt").value==="s4"?"Read":"Est",$("matt").value==="s2"||$("matt").value==="s4"?"Sea to Summit spec table":"retailer figure from search results, not opened",$("matt").value==="s2"||$("matt").value==="s4"?"https://seatosummit.com/products/comfort-deluxe-self-inflating-sleeping-pad":null);}
   if(num("water")) add("Water",f0(num("water"))+" gal of water",num("water")*8.34,"Yours","8.34 lb per gallon",null);
   if(num("people")*num("plb")) add("People",f0(num("people"))+" people at "+f0(num("plb"))+" lb",num("people")*num("plb"),"Yours","input above; 150 lb is the FMVSS 110 figure",U.fmvss);
   if(num("gear")) add("Gear","Food, clothes, bikes, skis, tools",num("gear"),"Yours","input above",null);
@@ -252,8 +254,8 @@ function draw(){
   const fr=t.createTFoot().insertRow(),f=fr.insertCell();f.colSpan=2;f.textContent=`${rs.length} of ${R.length} lines shown`;
   const fa=fr.insertCell();fa.className="n";fa.textContent=f1(rs.reduce((s,r)=>s+r.lb,0));const fp=fr.insertCell();fp.className="n";fp.textContent=(100*rs.reduce((s,r)=>s+r.lb,0)/P).toFixed(1)+"%";fr.insertCell();fr.insertCell();
 }
-for(const id of ["payload","people","plb","water","gear","matt","q"])$(id).oninput=draw;
-for(const id of ["bed","bedmat","top","basin","fCat","fConf"])$(id).onchange=draw;
+for(const id of ["payload","people","plb","water","gear","q"])$(id).oninput=draw;
+for(const id of ["bed","bedmat","matt","top","basin","fCat","fConf"])$(id).onchange=draw;
 draw();
 </script>
 </body>
