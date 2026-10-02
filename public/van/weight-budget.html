@@ -87,7 +87,7 @@
       <div class="field"><label for="bed">Bed</label><select id="bed"><option value="A">A: east-west queen-ish</option><option value="B24">B: four bunks, 24"</option><option value="B28">B: four bunks, 28"</option><option value="none">No bed</option></select></div>
       <div class="field"><label for="bedmat">Bed panels</label><select id="bedmat"><option value="hc">Aluminum honeycomb 3/4"</option><option value="bb">Baltic birch 18 mm</option></select></div>
       <div class="field"><label for="matt">Mattresses</label><select id="matt"><option value="none">None yet</option><option value="dw">A: HEST Dually Wide</option><option value="s2">A: two Sea to Summit pads</option><option value="e2">A: two Exped MegaMat 10 M</option><option value="s4">B: four Sea to Summit pads</option><option value="e4">B: four Exped MegaMat 10 M</option><option value="f4">B: four HEST Foamy Short</option></select></div>
-      <div class="field"><label for="top">Countertop</label><select id="top"><option value="b34">Bamboo 3/4"</option><option value="b12">Bamboo 1/2"</option><option value="hc">Aluminum honeycomb</option></select></div>
+      <div class="field"><label for="top">Countertop</label><select id="top"><option value="b34">Bamboo 3/4"</option><option value="b12">Bamboo 1/2"</option><option value="fl">Flatiron 3/4" from bed offcut</option><option value="hc">Thin-skin honeycomb</option></select></div>
       <div class="field"><label for="basin">Shower basin</label><select id="basin"><option value="L">Jasonwell L 48"</option><option value="S">Jasonwell S 32"</option></select></div>
     </div>
   </section>
@@ -148,6 +148,7 @@ const U={
 };
 const TOPS={b34:["Bamboo top 3/4\", 36 x 18-1/2\"",4.625*90/32,"Derived","Plyboo 90 lb per 4x8; FLEXISPOT publishes no weight",U.plyboo],
             b12:["Bamboo top 1/2\", 36 x 18-1/2\"",4.625*65/32,"Derived","Plyboo 65 lb per 4x8",U.plyboo],
+            fl:["Flatiron 3/4\" honeycomb top, 36 x 18\", from the bed offcut",4.5*HC,"Derived","Flatiron: 44 lb per 4x8",U.flat],
             hc:["Aluminum honeycomb top 0.702\", before a laminate face",4.625*0.48,"Derived","0.48 lb/sq ft listing",U.oms]};
 const BEDS={A:{sf:27.5,rail:454,brk:36,cmb:72,hw:5,label:"two 30 x 66\" panels"},
             B24:{sf:48,rail:782,brk:42,cmb:84,hw:20,label:"four 24 x 72\" panels"},
