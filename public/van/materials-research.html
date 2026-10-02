@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Materials research</title>
+<style>
+:root{color-scheme:dark;--bg:#0a0e14;--card:#141c28;--line:#243244;--txt:#dce6f2;--dim:#8fa3bb;--gold:#ffd166;--bamboo:#d9a441}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:20px 16px 60px}
+.van-nav{display:flex;gap:8px;margin-bottom:18px}.van-nav a{color:var(--gold,#ffd166);text-decoration:none;border:1px solid var(--line,#243244);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+h1{font-size:26px;line-height:1.25;margin:0 0 12px}
+h2{font-size:21px;margin:34px 0 10px;padding-top:18px;border-top:1px solid var(--line)}
+h3{font-size:17px;margin:22px 0 8px;color:var(--gold)}
+a{color:var(--bamboo);word-break:break-word}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.9em;background:rgba(255,255,255,.07);padding:1px 5px;border-radius:5px}
+pre{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;overflow-x:auto;font-size:12px;line-height:1.35}
+pre code{background:none;padding:0;font-size:inherit}
+table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:13.5px;margin:10px 0 16px}
+th,td{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top;white-space:nowrap}
+td:last-child,th:last-child{white-space:normal;min-width:180px}
+th{background:var(--card);color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+strong{color:#fff}
+li{margin:4px 0}
+input[type=checkbox]{margin-right:6px}
+blockquote{margin:0;padding-left:12px;border-left:3px solid var(--line);color:var(--dim)}
+.stamp{color:var(--dim);font-size:12px;margin-bottom:14px}
+ul.docs{list-style:none;padding:0;margin:0}
+ul.docs li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:0 0 12px}
+ul.docs a{display:block;font-size:19px;font-weight:700;color:var(--gold);text-decoration:none;margin-bottom:4px}
+ul.docs span{color:var(--dim);font-size:14px}
+h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-size:13px;text-transform:uppercase;letter-spacing:.12em}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="van-nav"><a href="/van/">Van docs</a></nav>
+<div class="stamp">Synced from dreamvan 2026-10-02</div>
+<h1>Van build research: materials, cabinets, shower, bed</h1>
+<p>Collected 2026-09-28 to 2026-10-02 for the 2016 Transit 130&quot; WB medium roof. Every number below was read off the linked page unless marked <strong>est</strong> (a ballpark) or <strong>derived</strong> (arithmetic from read numbers). Re-check prices before ordering.</p>
+<h2>Where everything lives</h2>
+<table>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Answer in one line</th>
+<th>Full detail</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Cabinet weight by material</td>
+<td>Aluminum + Coroplast is about 1/3 the weight of 3/4&quot; plywood</td>
+<td><code>cabinet-weights-dashboard.html</code> (site: /van/cabinet-weights.html)</td>
+</tr>
+<tr>
+<td>Galley doors, latches, drawers</td>
+<td>1/4&quot; ply doors on two HI-010-A hinges, LAIFUCAM slam latch, Camp&#39;N drawer catch</td>
+<td><code>galley-cabinet.md</code>, section &quot;Doors, latches and drawer retention&quot;</td>
+</tr>
+<tr>
+<td>Shower</td>
+<td>Jasonwell L 48&quot; basin under a 45.7&quot; circular ceiling track</td>
+<td><code>shower-dashboard.html</code> (site: /van/shower.html)</td>
+</tr>
+<tr>
+<td>Lightest galley box</td>
+<td>Honeycomb sandwich panel; bent 0.050&quot; aluminum is the tool-friendly middle</td>
+<td>this file, below</td>
+</tr>
+<tr>
+<td>Countertop</td>
+<td>Bamboo is the heaviest option; aluminum honeycomb is 2.2 lb vs 13.0 lb</td>
+<td>this file, below</td>
+</tr>
+<tr>
+<td>Why DIY builds skip honeycomb</td>
+<td>Price, inserts at every fastener, open cut edges, no repair path</td>
+<td>this file, below</td>
+</tr>
+<tr>
+<td>Material by use (floor, walls, bed, shower)</td>
+<td>StarBoard XL for the shower, honeycomb or Baltic birch for the bed, ply for the floor</td>
+<td>this file, below</td>
+</tr>
+<tr>
+<td>Bed platform</td>
+<td>Honeycomb on T-slot rails; east-west queen-ish or four bunks</td>
+<td><code>bed-platform-honeycomb.md</code></td>
+</tr>
+<tr>
+<td>Vendors and outreach</td>
+<td>NUDO quote request sent 2026-09-30</td>
+<td>this file, below</td>
+</tr>
+</tbody></table>
+<h2>Standard cabinet weights</h2>
+<p>One 36&quot; base (34-1/2 H x 24 D) and one 36&quot; upper (30 H x 12 D), each built four ways, computed from a parts list (hinges, pulls, fasteners and finish left out).</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Softwood ply 23/32</th>
+<th>Hardwood veneer-core 3/4</th>
+<th>Baltic birch 18mm</th>
+<th>1010 aluminum + 4 mm Coroplast</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Base</td>
+<td>86.0 lb</td>
+<td>96.5 lb</td>
+<td>98.5 lb</td>
+<td>34.0 lb</td>
+</tr>
+<tr>
+<td>Upper</td>
+<td>58.1 lb</td>
+<td>65.2 lb</td>
+<td>66.6 lb</td>
+<td>22.3 lb</td>
+</tr>
+</tbody></table>
+<p>Inputs: softwood ply 2.2 lb/sq ft (<a href="https://wood.tcaup.umich.edu/lectures/2021/D510.pdf">APA D510 Table 13</a>); hardwood veneer-core 2.47 (<a href="https://hooddistribution.com/resources/product-weights/">Hood Distribution</a>, the table has no unit label); Baltic birch 63 lb per 5x5 sheet (<a href="https://www.plywoodcompany.com/pd/birch-baltic-b-bb-18mm-5x5/582">Plywood Company TX</a>); TNUTZ EX-1010 0.548 lb/ft (<a href="https://www.tnutz.com/product/ex-1010/">TNUTZ</a>); Coroplast 4 mm 150 and 6 mm 286 lb per 1,000 sq ft (<a href="https://www.professionalplastics.com/professionalplastics/content/CoroplastSpecifications.pdf">spec sheet</a>); NKBA sizes (<a href="https://elearning.nkba.org/wp-content/uploads/2023/11/Chapter-6-Illustrating-CabinetryCasework.pdf">Chapter 6</a>). In the 1010 build about 75% of the weight is extrusion.</p>
+<h2>Lightest galley box (36 W x 18 D x 34 H, no doors, drawers or top)</h2>
+<table>
+<thead>
+<tr>
+<th>Build</th>
+<th>Weight</th>
+<th>Cost</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1/4&quot; carbon skins on aluminum honeycomb</td>
+<td>10.5 lb + joinery (derived)</td>
+<td>$1,728.99 per 4x4 panel, needs 2</td>
+<td><a href="https://www.rockwestcomposites.com/902-44.html">Rock West 902-44</a>: 6.54 lb for 16 sq ft</td>
+</tr>
+<tr>
+<td>0.702&quot; aluminum honeycomb, thin skins</td>
+<td>12.3 lb + joinery (derived)</td>
+<td>listing unavailable</td>
+<td><a href="https://www.amazon.com/dp/B0CVVXP2DL">Online Metal Supply on Amazon</a>: 0.48 lb/sq ft</td>
+</tr>
+<tr>
+<td>Bent 5052 aluminum 0.040&quot;</td>
+<td>14.6 lb, about 16 with flanges (est +10%)</td>
+<td>needs a 36&quot; brake</td>
+<td><a href="https://mcneilus.com/resources/Aluminum-Sheet.pdf">McNeilus chart</a>: 0.570 lb/sq ft</td>
+</tr>
+<tr>
+<td>Bent 5052 aluminum 0.050&quot;</td>
+<td>18.3 lb, about 20 with flanges</td>
+<td>same</td>
+<td>0.713 lb/sq ft</td>
+</tr>
+<tr>
+<td>Bent 5052 aluminum 0.063&quot;</td>
+<td>23.0 lb, about 25 with flanges</td>
+<td>same</td>
+<td>0.898 lb/sq ft</td>
+</tr>
+<tr>
+<td>Current: 1010 T-slot + 4 mm Coroplast</td>
+<td>28.5 lb</td>
+<td>$360.46 (derived from the galley BOM: extrusion, brackets, screws, Coroplast, gasket)</td>
+<td>extrusion 22.7, joints 2.5, panels 3.4</td>
+</tr>
+</tbody></table>
+<p>Note: Flatiron&#39;s stock honeycomb has thicker 0.040&quot; skins: 44 lb per 4x8 at 3/4&quot; (1.375 lb/sq ft), so its weight lands near bent 0.063&quot; sheet, with far more stiffness.</p>
+<h2>Countertop (36&quot; x 18-1/2&quot;)</h2>
+<table>
+<thead>
+<tr>
+<th>Top</th>
+<th>Weight</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Bamboo 3/4&quot;</td>
+<td>13.0 lb (FLEXISPOT publishes none; Plyboo&#39;s 90 lb per 4x8 used)</td>
+<td><a href="https://www.plyboo.com/products/plywood-veneer/edge-grain-bamboo-plywood/">Plyboo</a></td>
+</tr>
+<tr>
+<td>Baltic birch 18 mm</td>
+<td>11.7 lb</td>
+<td>Plywood Company TX</td>
+</tr>
+<tr>
+<td>Bamboo 1/2&quot;</td>
+<td>9.4 lb</td>
+<td>Plyboo, 65 lb per 4x8</td>
+</tr>
+<tr>
+<td>Aluminum honeycomb 0.702&quot;</td>
+<td>2.2 lb, before a laminate skin</td>
+<td>0.48 lb/sq ft</td>
+</tr>
+<tr>
+<td>Carbon/aluminum honeycomb 1/4&quot;</td>
+<td>1.9 lb, too thin to span 36&quot;</td>
+<td>Rock West</td>
+</tr>
+</tbody></table>
+<h2>Why DIY builds rarely use aluminum honeycomb</h2>
+<ul>
+<li>Price: Flatiron 4x8 sheets run $679.26 (1/4&quot;) to $912.15 (1&quot;), against $86 to $107 for a 5x5 sheet of 18 mm Baltic birch.</li>
+<li>Fasteners: a screw pulls out of the skin. Every hinge, slide, latch and catch needs a potted or two-piece insert (<a href="https://www.flatironpanelproducts.com/inserts-and-fasteners.html">Flatiron</a>, <a href="https://www.chemical-concepts.com/collections/honeycomb-sandwich-panel-threaded-inserts-deform-nut-tc-sc1/">Chemical Concepts</a>).</li>
+<li>Cut edges expose open cells and need edge closures; a wrong hole or a dent is permanent.</li>
+<li>The saving on a van galley is about 16 lb, small next to water and batteries.</li>
+<li>Best fit: few fasteners, stays put. A countertop or a bed platform; worst fit is a box full of hardware.</li>
+</ul>
+<h2>Material suitability by use</h2>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>lb/sq ft</th>
+<th>Floor</th>
+<th>Bed panel</th>
+<th>Wall liner</th>
+<th>Shower</th>
+<th>Key limits</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>King StarBoard HDPE</td>
+<td>1.25 (1/4&quot;) to 3.75 (3/4&quot;)</td>
+<td>wet-zone wear layer only</td>
+<td>no, heavy and flexible</td>
+<td>heavy</td>
+<td>yes</td>
+<td>Passed FMVSS 302; flex modulus 185,000 psi; heat deflection 210°F; screw withdrawal 657 lb; expands 0.00006 in/in/°F (48&quot; grows about 1/4&quot; from 70°F to 160°F) (<a href="https://www.kingplastic.com/products/king-starboard/">King</a>, <a href="https://www.kingplastic.com/wp-content/uploads/2014/06/Expansion_Contraction-Worksheet.pdf">worksheet</a>)</td>
+</tr>
+<tr>
+<td>King StarBoard XL (cellular)</td>
+<td>1.0 to 3.0</td>
+<td>no</td>
+<td>no</td>
+<td>ok</td>
+<td><strong>best pick</strong></td>
+<td>Passed FMVSS 302; flex 130,000 psi; heat deflection 188°F; screw hold 325 lb (<a href="https://www.kingplastic.com/products/king-starboard-xl/">King</a>)</td>
+</tr>
+<tr>
+<td>Expanded PVC (Sintra)</td>
+<td>0.71 to 0.94 at 6 mm</td>
+<td>no</td>
+<td>no</td>
+<td>ok away from glass</td>
+<td>yes, cheaper</td>
+<td>Max service 140°F; Class A (ASTM E84) at 5 mm or less (<a href="https://lairdplastics.com/all-products/white-pvc-sintra/">Laird</a>)</td>
+</tr>
+<tr>
+<td>Acrylic (ACRYLITE)</td>
+<td>1.42 at 6 mm</td>
+<td>no</td>
+<td>no</td>
+<td>small panels</td>
+<td>splash panels</td>
+<td>Flex 480,000 psi but brittle; continuous service 160°F; &quot;usually burns rapidly to completion&quot; (<a href="https://www.acrylite.co/files/content/acrylite.co/documents/product-information/ACRYLITE-Premium-FF-Technical%20Information.pdf">ACRYLITE</a>)</td>
+</tr>
+<tr>
+<td>PP honeycomb (Polyreflex)</td>
+<td>0.41 to 0.92</td>
+<td>maybe, ask for load data</td>
+<td>no</td>
+<td>ok</td>
+<td>ok</td>
+<td>Sold for van lining and flooring; UL94 V-0 to V-2 by grade (<a href="https://www.polyreflex.com/pid18299144/PP-Honeycomb-Panels.htm">Polyreflex</a>)</td>
+</tr>
+<tr>
+<td>Aluminum honeycomb</td>
+<td>0.48 (thin skins) to 1.375 (Flatiron 3/4&quot;)</td>
+<td>structural only with inserts</td>
+<td><strong>best pick</strong></td>
+<td>1/4&quot; NUDO under 0.72</td>
+<td>with HPL or FRP face</td>
+<td>Inserts at every fastener; Flatiron A+ fire rating</td>
+</tr>
+<tr>
+<td>Baltic birch</td>
+<td>0.40 (3 mm) to 2.52 (18 mm)</td>
+<td><strong>yes</strong></td>
+<td>yes, the fallback</td>
+<td>3 mm yes</td>
+<td>no</td>
+<td>Rots when wet</td>
+</tr>
+<tr>
+<td>Bamboo (Plyboo)</td>
+<td>1.09 to 2.81</td>
+<td>no</td>
+<td>heavy</td>
+<td>accent walls</td>
+<td>no</td>
+<td>Weight</td>
+</tr>
+<tr>
+<td>MDF (thermofoil core)</td>
+<td>2.34 to 2.81</td>
+<td>no</td>
+<td>no</td>
+<td>no</td>
+<td>no</td>
+<td>Swells when wet</td>
+</tr>
+<tr>
+<td>Coroplast</td>
+<td>0.15 / 0.286</td>
+<td>no</td>
+<td>no</td>
+<td>yes, lightest</td>
+<td>liner only, seal cut edges</td>
+<td>Flutes wick water at cut edges</td>
+</tr>
+</tbody></table>
+<p>Context: FMVSS 302 limits interior trim, panels and floor coverings to burning no faster than 102 mm per minute (<a href="https://www.law.cornell.edu/cfr/text/49/571.302">49 CFR 571.302</a>); it binds vehicle makers and is the benchmark for a conversion. Parked in the sun, cars averaged 116°F inside and 157°F on dashboards after an hour (<a href="https://news.asu.edu/20180516-discoveries-asu-study-hot-cars-can-hit-deadly-temperatures-within-one-hour">ASU</a>).</p>
+<h2>Van dimensions used</h2>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Value</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Inside roof height, medium roof</td>
+<td>70&quot; (Upfit) vs about 72&quot; (Emery)</td>
+<td><a href="https://upfitsupply.com/blogs/measurement-guides/ford-transit-130-wb-interior-cargo-measurements">Upfit Supply</a>, <a href="https://emerycustombuilds.com/transit-van-conversions/dimensions/">Emery</a></td>
+</tr>
+<tr>
+<td>Width at widest point</td>
+<td>about 70&quot;</td>
+<td>Emery</td>
+</tr>
+<tr>
+<td>Between wheel wells</td>
+<td>53&quot; (Upfit) vs about 55&quot; (Emery)</td>
+<td>both</td>
+</tr>
+<tr>
+<td>Wheel wells</td>
+<td>35&quot; L x 11&quot; H x 8&quot; D</td>
+<td>Upfit</td>
+</tr>
+<tr>
+<td>Cargo length behind front seats</td>
+<td>about 126&quot;</td>
+<td>Emery</td>
+</tr>
+<tr>
+<td>Side door / rear door opening</td>
+<td>36&quot; / 53&quot;</td>
+<td>Upfit</td>
+</tr>
+<tr>
+<td>Aisle beside the 18&quot; galley</td>
+<td>about 51&quot; (derived: 53 + 2 x 8 - 18)</td>
+<td>derived</td>
+</tr>
+</tbody></table>
+<h2>Vendors</h2>
+<table>
+<thead>
+<tr>
+<th>Vendor</th>
+<th>What</th>
+<th>Contact</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://www.nudo.com/products/wall-panels/nucomb-a/">NUDO Products</a> (Springfield, IL)</td>
+<td>NuComb-A aluminum honeycomb, laminated HPL, FRP or veneer faces; made to order; under 23 lb per 4x8 at 1/4&quot;</td>
+<td><a href="mailto:info@nudo.com">info@nudo.com</a>, (800) 826-4132</td>
+<td>Quote and sample request for a 36&quot; x 18-1/2&quot; countertop sent 2026-09-30; sink cutout given as about 13&quot; x 13&quot; pending a measurement</td>
+</tr>
+<tr>
+<td><a href="https://www.flatironpanelproducts.com/store.html">Flatiron Panel Products</a> (Lafayette, CO)</td>
+<td>Stock aluminum honeycomb, CNC cutting, potted inserts, edge closures; up to 5&#39; x 12&#39; custom</td>
+<td><a href="mailto:sales@flatironpanelproducts.com">sales@flatironpanelproducts.com</a>, 303-664-9601</td>
+<td>Not contacted</td>
+</tr>
+<tr>
+<td><a href="https://www.allalhome.com/">Allal / Shandong QuanLv Home</a> (Longkou, Shandong)</td>
+<td>Complete aluminum RV furniture, custom size, T/T or L/C</td>
+<td><a href="mailto:zoesui@allalhome.com">zoesui@allalhome.com</a></td>
+<td>Not contacted</td>
+</tr>
+<tr>
+<td><a href="https://www.alcombfurniture.com/aboutus.html">Alcomb Furniture</a> (Foshan)</td>
+<td>Stone-faced honeycomb countertops and cabinets</td>
+<td><a href="mailto:info@alcombfurniture.com">info@alcombfurniture.com</a></td>
+<td>Not contacted</td>
+</tr>
+<tr>
+<td><a href="https://www.rockwestcomposites.com/902-44.html">Rock West Composites</a></td>
+<td>Carbon-skin honeycomb panels</td>
+<td></td>
+<td>Backordered at last check</td>
+</tr>
+</tbody></table>
+<h2>Open items</h2>
+<ul>
+<li>Measure the sink rim and send NUDO the real cutout size.</li>
+<li>Measure the van with the checklist in <code>bed-platform-honeycomb.md</code>.</li>
+<li>Ceiling: bare ribs or paneled (sets how the shower track mounts).</li>
+<li>Showerer height against a 70&quot; ceiling.</li>
+<li>Slam latch keeper hole size, LONTAN slide hole size, whether HI-010-A ships with bolts.</li>
+<li>Update the galley doc&#39;s shower section and <code>bom.db</code> once the shower choices are final.</li>
+</ul>
+
+</div>
+</body>
+</html>
