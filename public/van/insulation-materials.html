@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Insulation: report</title>
+<style>
+:root{color-scheme:dark;--bg:#0a0e14;--card:#141c28;--line:#243244;--txt:#dce6f2;--dim:#8fa3bb;--gold:#ffd166;--bamboo:#d9a441}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:20px 16px 60px}
+.van-nav{display:flex;gap:8px;margin-bottom:18px}.van-nav a{color:var(--gold,#ffd166);text-decoration:none;border:1px solid var(--line,#243244);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+h1{font-size:26px;line-height:1.25;margin:0 0 12px}
+h2{font-size:21px;margin:34px 0 10px;padding-top:18px;border-top:1px solid var(--line)}
+h3{font-size:17px;margin:22px 0 8px;color:var(--gold)}
+a{color:var(--bamboo);word-break:break-word}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.9em;background:rgba(255,255,255,.07);padding:1px 5px;border-radius:5px}
+pre{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;overflow-x:auto;font-size:12px;line-height:1.35}
+pre code{background:none;padding:0;font-size:inherit}
+table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:13.5px;margin:10px 0 16px}
+th,td{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top;white-space:nowrap}
+td:last-child,th:last-child{white-space:normal;min-width:180px}
+th{background:var(--card);color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+strong{color:#fff}
+li{margin:4px 0}
+input[type=checkbox]{margin-right:6px}
+blockquote{margin:0;padding-left:12px;border-left:3px solid var(--line);color:var(--dim)}
+.stamp{color:var(--dim);font-size:12px;margin-bottom:14px}
+ul.docs{list-style:none;padding:0;margin:0}
+ul.docs li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:0 0 12px}
+ul.docs a{display:block;font-size:19px;font-weight:700;color:var(--gold);text-decoration:none;margin-bottom:4px}
+ul.docs span{color:var(--dim);font-size:14px}
+h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-size:13px;text-transform:uppercase;letter-spacing:.12em}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="van-nav"><a href="/van/">Van docs</a></nav>
+<div class="stamp">Synced from dreamvan 2026-10-04</div>
+<h1>Van Insulation: Materials Report</h1>
+<p>2026-10-04. Exported from the Claude Doc <a href="https://claude.ai/code/artifact/72caf014-96c7-4a99-8439-d6b9e8ad971b">https://claude.ai/code/artifact/72caf014-96c7-4a99-8439-d6b9e8ad971b</a>. Sortable version: <code>insulation-materials-dashboard.html</code>.</p>
+<h2>The picks</h2>
+<p>3M Thinsulate SM600L in the walls and ceiling, 1/2&quot; XPS foam under the subfloor, and insulated covers on the cab glass. About <strong>40 lb and $718</strong> for the whole van including the sound deadener and adhesive, and the cab covers are the part that matters most on a cold night.</p>
+<table>
+<thead>
+<tr>
+<th>Surface</th>
+<th>Pick</th>
+<th>R-value</th>
+<th>lb/sq ft</th>
+<th>$/sq ft</th>
+<th>For this van</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ceiling and walls, 172 sq ft</td>
+<td><a href="https://multimedia.3m.com/mws/media/2667470O/thinsulate-acoustic-insulation-sm600l-tds.pdf">3M Thinsulate SM600L</a>, 1.65&quot;</td>
+<td>about 5.2 (retailers; 3M&#39;s data sheet publishes none)</td>
+<td>0.14 (672 g/m², 3M)</td>
+<td>$1.79 to $2.26</td>
+<td>about 24 lb, $382 (one 30 ft roll plus one 10 ft roll)</td>
+<td>Self-extinguishing to FMVSS 302 on 3M&#39;s own sheet, hydrophobic so it sheds condensation, fits the rib cavities without cutting, holds with spray adhesive, and comes out again if a wire needs chasing</td>
+</tr>
+<tr>
+<td>Floor, 57 sq ft</td>
+<td><a href="https://www.homedepot.com/p/13NGX">Owens Corning Foamular NGX 1/2&quot; XPS</a> under the 3/8&quot; subfloor</td>
+<td>3</td>
+<td>about 0.06 (<strong>est</strong> from 1.5 lb/cu ft)</td>
+<td>$0.72</td>
+<td>about 4 lb, $45.94 (2 sheets)</td>
+<td>Takes the compression a floor sees, adds only 1/2&quot; of height, and the plywood above it is the fire barrier</td>
+</tr>
+<tr>
+<td>Cab glass</td>
+<td><a href="https://vanessential.com/products/transit-van-front-cab-kit">VanEssential Transit front cab bundle</a>: windshield plus two door windows</td>
+<td>not published</td>
+<td>3.9 lb total</td>
+<td></td>
+<td>$209.95</td>
+<td>Single-pane glass is the biggest heat loss in the van and no wall insulation touches it; a fitted cover also stops the cab fogging</td>
+</tr>
+<tr>
+<td>Large flat panels only</td>
+<td>Kilmat 80 mil butyl, 18 sq ft</td>
+<td>none (sound, not heat)</td>
+<td>about 0.45 (<strong>est</strong>)</td>
+<td>$2.22</td>
+<td>about 8 lb, $39.99</td>
+<td>Stops the roof and quarter panels drumming; 25% coverage is enough</td>
+</tr>
+</tbody></table>
+<p>Havelock Wool is the close second for the walls and ceiling: R 7.8 in 2&quot;, Class A fire rated, $2.00 per sq ft, but 0.2 lb/sq ft and it needs the full 2&quot; cavity. Foam board and spray foam are cheaper per R but are foam plastics in a steel box: they burn, and spray foam is permanent.</p>
+<p><strong>Do these first:</strong></p>
+<ol>
+<li>Measure the rib and bow cavity depth at six spots (walls at three heights, roof at two bows and the center) before buying anything 2&quot; thick.</li>
+<li>Order the cab covers now; they work on day one with no install.</li>
+<li>Decide wool or Thinsulate for the walls from the two rows below.</li>
+</ol>
+<h2>What the job is</h2>
+<p>The van&#39;s charter is ski base camp through Summit, Eagle and Teton winters, so this is a cold-side problem: keep heat in, keep the steel dry, and keep the cab from fogging. Four things set what insulation can do:</p>
+<ul>
+<li><strong>The ribs conduct around it.</strong> Every wall rib and roof bow is a steel path from inside to out. Filling the cavities to R 5 to 8 gives a wall that performs more like R 3 to 4 overall; a house wall is R 13 to 20. Past filling the cavities, more R-value buys little.</li>
+<li><strong>Glass loses more than walls.</strong> The windshield and two door windows are single-pane and uninsulated. Covers on them matter more than another inch anywhere else.</li>
+<li><strong>Condensation is the enemy.</strong> Warm breath meets cold steel behind the panels and runs down to the floor seams. The fix is insulation that does not hold water (hydrophobic Thinsulate, or wool that buffers it), no plastic vapor barrier that traps it against the skin, and the Fan-Tastic vent running low while sleeping.</li>
+<li><strong>The heater does the work.</strong> Insulation sets how long the heater runs; it does not replace it. The charter&#39;s heat reference is a Webasto Air Top 2000. That decision is outside this report.</li>
+</ul>
+<p>The roof is also the hottest surface in summer, where the same insulation plus the fan carry the day.</p>
+<h2>What Ford&#39;s manual says</h2>
+<p>The <a href="https://madocumentupload.marketingassociates.com/api/Document/GetFile?v1=5035889&amp;v2=091319013011&amp;v3=60&amp;v4=db6e3859fd52ef6048a1a6be5fe1ab8feb599e19672137d2e1205185&amp;v5=False">Transit Body and Equipment Mounting Manual</a> (2020 North America edition) has no section on cargo-area thermal insulation. Three things in it still apply:</p>
+<ul>
+<li>Wiring runs behind the walls and roof bows in the &quot;precautionary drill zones&quot; (section 4.1.12). Insulation goes in around the harnesses, never over a connector, and nothing gets stapled or screwed through them.</li>
+<li>Fixings into the lining &quot;may be inadequate&quot; (5.6.1), so insulation cannot be the thing that holds a panel; the panel holds to furring on the ribs and the insulation sits behind it.</li>
+<li>Materials near the engine bay must take -40°F to 257°F (4.1); inside the cargo area the limits are the products&#39; own. 3M rates SM600L to 120°C (248°F); expanded PVC and acrylic in the lining report are limited to 140°F and 160°F.</li>
+</ul>
+<p>Fire: FMVSS 302 (burn no faster than 102 mm per minute) governs interior materials in new vehicles and is the benchmark here. Thinsulate SM600L carries a self-extinguishing rating to it on 3M&#39;s data sheet. Foam plastics (XPS, EPS, polyiso, spray foam) carry building-code ratings instead and are meant to sit behind a barrier, which in this van is the plywood lining.</p>
+<h2>The surfaces and cavities</h2>
+<p>The same derived areas as the lining report: about 54 sq ft of ceiling, 118 sq ft of walls and 57 sq ft of floor. Cavity depth is the number that decides between 1.65&quot; Thinsulate and 2&quot; wool, and it has not been measured in this van.</p>
+<table>
+<thead>
+<tr>
+<th>Surface</th>
+<th>Area</th>
+<th>Depth available</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ceiling</td>
+<td>about 54 sq ft</td>
+<td>roof bows; <strong>measure</strong></td>
+<td>Forum builds fill the bow cavities and run a continuous layer under the bows</td>
+</tr>
+<tr>
+<td>Walls</td>
+<td>about 118 sq ft</td>
+<td>rib cavities; <strong>measure</strong> at three heights</td>
+<td>The lower wall behind the galley and bed frames is the easy part; the upper wall curves</td>
+</tr>
+<tr>
+<td>Floor</td>
+<td>about 57 sq ft</td>
+<td>the corrugation depth, under the subfloor</td>
+<td>1/2&quot; board sits on the ridges; thicker board raises the floor</td>
+</tr>
+<tr>
+<td>Doors</td>
+<td>slider and two rear doors</td>
+<td>thin; wiring and latch mechanisms inside</td>
+<td>Ford warns about weight on the doors; thin Thinsulate only, kept clear of the latch and check arm</td>
+</tr>
+<tr>
+<td>Cab</td>
+<td>glass and the cab floor</td>
+<td>none</td>
+<td>Covers, not insulation</td>
+</tr>
+</tbody></table>
+<p>Sheet and roll counts below carry 15% waste. Thinsulate comes 60&quot; wide, which spans the ceiling between the upper walls in one width.</p>
+<h2>Every candidate</h2>
+<p>Prices read 2026-10-04: Home Depot at the 21st South store in Salt Lake City, Amazon search results, and the makers&#39; own pages where linked. R-values are the makers&#39; or sellers&#39; figures at the stated thickness. Weights marked <strong>est</strong> are from a typical density, not a published figure.</p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Thickness</th>
+<th>R-value</th>
+<th>lb/sq ft</th>
+<th>$/sq ft</th>
+<th>Fire</th>
+<th>Moisture</th>
+<th>Installs by</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://multimedia.3m.com/mws/media/2667470O/thinsulate-acoustic-insulation-sm600l-tds.pdf">3M Thinsulate SM600L</a>, 60&quot; roll</td>
+<td>1.65&quot; (42 mm)</td>
+<td>about 5.2 (retailers; 3M&#39;s sheet lists none)</td>
+<td>0.14 (672 g/m²)</td>
+<td>$2.26 (<a href="https://www.amazon.com/dp/B0CLSSF562">10 ft roll, $113.20</a>) or $1.79 (30 ft roll, $269, Amazon B0DP3NGNGQ)</td>
+<td>Self-extinguishing per SAE J369 / FMVSS 302 (3M)</td>
+<td>hydrophobic fibers; 120°C rated</td>
+<td>spray adhesive to the skin, pressed into cavities, trimmed with scissors</td>
+<td><strong>Pick for walls and ceiling</strong></td>
+</tr>
+<tr>
+<td><a href="https://havelockwool.com/products/havelock-wool-van-insulation-100-sqft">Havelock Wool van batts, R8</a></td>
+<td>2&quot;</td>
+<td>7.8 (3.9 per inch, Havelock)</td>
+<td>about 0.2 (<strong>derived</strong>: boxes ship at about 20 lb per 100 sq ft)</td>
+<td>$2.00 ($200 per 100 sq ft box)</td>
+<td>Class A flame spread and smoke (Havelock)</td>
+<td>absorbs and releases moisture, resists mold (Havelock)</td>
+<td>friction fit, twine or spray adhesive</td>
+<td><strong>Second pick.</strong> More R, more weight, needs 2&quot; of depth</td>
+</tr>
+<tr>
+<td><a href="https://www.homedepot.com/p/13NGX">Owens Corning Foamular NGX XPS</a>, 4 x 8</td>
+<td>1/2&quot;</td>
+<td>3</td>
+<td>about 0.06 (<strong>est</strong>, 1.5 lb/cu ft)</td>
+<td>$0.72 ($22.97)</td>
+<td>foam plastic; needs a thermal barrier over it</td>
+<td>closed cell, does not absorb water</td>
+<td>glued or laid flat</td>
+<td><strong>Pick for under the subfloor</strong></td>
+</tr>
+<tr>
+<td>Foamular NGX F-150 XPS</td>
+<td>1&quot;</td>
+<td>5</td>
+<td>about 0.12 (<strong>est</strong>)</td>
+<td>$0.89 ($28.63, HD 20WENGX)</td>
+<td>same</td>
+<td>same</td>
+<td>cut to fit between ribs, foamed at the edges</td>
+<td>Cheapest R-5; stiff, so it does not follow the wall curve, and the gaps leak</td>
+</tr>
+<tr>
+<td>Foamular NGX F-150 XPS</td>
+<td>1.5&quot;</td>
+<td>7.5</td>
+<td>about 0.19 (<strong>est</strong>)</td>
+<td>$1.22 ($38.88, HD 88WDNGX)</td>
+<td>same</td>
+<td>same</td>
+<td>same</td>
+<td>Only where a flat 1.5&quot; cavity exists</td>
+</tr>
+<tr>
+<td>Foamular NGX F-250 XPS</td>
+<td>2&quot;</td>
+<td>10</td>
+<td>about 0.25 (<strong>est</strong>)</td>
+<td>$1.68 ($53.71, HD 52DDNGX)</td>
+<td>same</td>
+<td>same</td>
+<td>same</td>
+<td>Too thick for most cavities here</td>
+</tr>
+<tr>
+<td><a href="https://www.homedepot.com/p/320821">Henry R-Tech EPS</a>, foil-faced</td>
+<td>1&quot;</td>
+<td>3.85</td>
+<td>about 0.08 (<strong>est</strong>, 1 lb/cu ft)</td>
+<td>$0.50 ($15.98)</td>
+<td>foam plastic</td>
+<td>closed cell, foil faces</td>
+<td>same as XPS</td>
+<td>Cheapest board per sq ft; lower R than XPS and crumbles when cut</td>
+</tr>
+<tr>
+<td>Henry R-Tech EPS</td>
+<td>1.5&quot;</td>
+<td>5.78</td>
+<td>about 0.12 (<strong>est</strong>)</td>
+<td>$0.72 ($22.98, HD 320817)</td>
+<td>same</td>
+<td>same</td>
+<td>same</td>
+<td>Same notes</td>
+</tr>
+<tr>
+<td>Polyiso board (Rmax, Johns Manville)</td>
+<td>1&quot;</td>
+<td>about 6 per inch (industry figure, <strong>from memory</strong>)</td>
+<td>about 0.17 (<strong>est</strong>)</td>
+<td>not read; not stocked at the 21st South store (the search returned EPS and XPS)</td>
+<td>foam plastic, foil faced</td>
+<td>loses R-value in deep cold (an industry finding, <strong>from memory</strong>)</td>
+<td>same as XPS</td>
+<td>Highest R per inch of the boards, but it has to be ordered and it drops off in exactly the weather this van sees</td>
+</tr>
+<tr>
+<td><a href="https://www.homedepot.com/p/12031949">Froth-Pak 200 spray foam kit</a></td>
+<td>sprayed; 200 board ft</td>
+<td>about 6 per inch (closed cell, <strong>from memory</strong>)</td>
+<td>about 0.17 per inch (<strong>est</strong>, 2 lb/cu ft)</td>
+<td>$2.15 per sq ft at 1&quot; ($429 per kit)</td>
+<td>foam plastic</td>
+<td>closed cell, seals the skin</td>
+<td>two-part kit, respirator, one shot</td>
+<td>No. Permanent: wiring, rivnuts and panels can never come back out, and a bad mix sits in the walls forever</td>
+</tr>
+<tr>
+<td><a href="https://www.homedepot.com/p/48x25RI">Everbilt double reflective bubble (Reflectix type)</a>, 48&quot; x 25 ft</td>
+<td>5/16&quot;</td>
+<td>radiant barrier only; R depends on an air gap it will not have behind a panel</td>
+<td>about 0.03 (<strong>est</strong>)</td>
+<td>$0.61 ($61 per 100 sq ft)</td>
+<td>foil faces</td>
+<td>it is a vapor barrier: traps moisture against the skin</td>
+<td>stapled or taped</td>
+<td>No as insulation. Fine as a window cover material</td>
+</tr>
+<tr>
+<td><a href="https://www.amazon.com/dp/B07TKXMPH7">Noico Red XPE closed-cell foam</a>, self-adhesive</td>
+<td>150 mil (4 mm)</td>
+<td>about 0.5 (<strong>est</strong>)</td>
+<td>about 0.1 (<strong>est</strong>)</td>
+<td>$1.39 ($49.99 per 36 sq ft)</td>
+<td>not read</td>
+<td>closed cell</td>
+<td>peel and stick</td>
+<td>A thin thermal break over the ribs, where thicker material cannot go</td>
+</tr>
+<tr>
+<td><a href="https://www.amazon.com/dp/B082Q2J2T4">Kilmat 80 mil butyl sound deadener</a></td>
+<td>80 mil</td>
+<td>none (mass, not insulation)</td>
+<td>about 0.45 (<strong>est</strong>)</td>
+<td>$2.22 ($39.99 per 18 sq ft)</td>
+<td>butyl and foil; not read</td>
+<td>sealed to the skin</td>
+<td>peel, stick, roll</td>
+<td><strong>Pick, 25% coverage on the big flat panels</strong> to stop drumming; it is not insulation</td>
+</tr>
+<tr>
+<td>Rockwool mineral wool board</td>
+<td>3&quot;</td>
+<td>about 4.2 per inch (<strong>from memory</strong>)</td>
+<td>heavy</td>
+<td>$31 per sq ft on Amazon in 24 x 48 boards; batts not found in van-useful sizes</td>
+<td>noncombustible</td>
+<td>does not hold water</td>
+<td>friction fit</td>
+<td>No: the right R and fire story at the wrong weight, thickness and price</td>
+</tr>
+<tr>
+<td>Lizard Skin or ceramic paint</td>
+<td>coating</td>
+<td>negligible</td>
+<td></td>
+<td>not read</td>
+<td></td>
+<td></td>
+<td>sprayed</td>
+<td>No: a sound and heat coating with no published R-value worth the cost</td>
+</tr>
+</tbody></table>
+<p>Two cautions that apply across the table. Every R-value here is the maker&#39;s figure at the stated thickness, and a van wall never reaches it because the ribs bypass the insulation. And foam boards cut to fit leave gaps at the ribs and the wall curve; the gaps, not the R-value, decide how the wall performs.</p>
+<h2>Windows, doors and the cab</h2>
+<p>This cargo van has three pieces of glass, all in the cab, and the cab is the one place wall insulation never reaches. A fitted insulated cover is the whole answer there.</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Product</th>
+<th>Price</th>
+<th>Weight</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Windshield + two front door windows</td>
+<td><a href="https://vanessential.com/products/transit-van-front-cab-kit">VanEssential Transit Stealth front cab bundle</a></td>
+<td>$209.95</td>
+<td>1,315 g windshield + 454 g pair of door covers (VanEssential shipping weights)</td>
+<td>Fitted to the 2015 and later Transit; the &quot;Stealth&quot; line is dark both sides so the van reads as empty from outside</td>
+</tr>
+<tr>
+<td>Same, reflective outer face</td>
+<td><a href="https://vanessential.com/products/transit-reflective-front-cab-bundle">Reflective front cab bundle</a></td>
+<td>$229.95</td>
+<td>not published</td>
+<td>Pick this one if summer sun matters more than stealth</td>
+</tr>
+<tr>
+<td>Cheap stand-in</td>
+<td><a href="https://www.amazon.com/dp/B09FPC53L1">Proadsy custom-fit Transit windshield sunshade</a></td>
+<td>$21.99</td>
+<td>not published</td>
+<td>A sunshade, not an insulated cover; blocks sun, not cold</td>
+</tr>
+<tr>
+<td>Cab partition</td>
+<td>the lining report&#39;s wall material, or a curtain</td>
+<td>see lining report</td>
+<td></td>
+<td>A partition or a heavy curtain at the B-pillar turns the cab into a buffer zone and shrinks the volume the heater warms. Van Made Gear&#39;s fabric cab partition is $685 for scale</td>
+</tr>
+<tr>
+<td>Slider and rear doors</td>
+<td>Thinsulate SM600L, cut from the wall rolls</td>
+<td>included above</td>
+<td></td>
+<td>Keep clear of the latch, lock rod and the slider&#39;s check arm; glue so it cannot sag into the mechanism</td>
+</tr>
+<tr>
+<td>Floor to cab step</td>
+<td>none</td>
+<td></td>
+<td></td>
+<td>Leave the step alone; it is a wear surface</td>
+</tr>
+</tbody></table>
+<p>No window covers for the cargo area because this van has no cargo-area glass. If windows are ever added, VanEssential sells the matching covers at $69.95 to $109.95 each.</p>
+<h2>Install order and keeping it dry</h2>
+<p>Insulation goes in after the wiring and before the lining, and nothing here needs a drill.</p>
+<ol>
+<li><strong>Measure the cavities.</strong> Rib depth at three wall heights, roof bow depth at two bows and the center span, and the floor corrugation depth. Write them on the weight budget page. (20 minutes.)</li>
+<li><strong>Wash the steel.</strong> Isopropyl on every panel the butyl or adhesive will touch. (30 minutes.)</li>
+<li><strong>Butyl on the big flat panels.</strong> One 18 sq ft Kilmat box, torn into palm-sized pieces, rolled onto the center of each roof section between bows and each quarter panel, 25% coverage. Knock on the panel; when it thuds instead of rings, stop. (1 hour.)</li>
+<li><strong>Run the wiring.</strong> Every circuit the electrical plan calls for, in split loom, before anything covers the ribs. Leave a pull string in each run.</li>
+<li><strong>Thinsulate, ceiling first.</strong> Spray 3M 90 (or the adhesive the retailer bundles) on the steel, press the 60&quot; width up between the walls, then stuff strips into each bow cavity. Walls next, cavities first, then the face. Scissors cut it; no mask needed. (Half a day.)</li>
+<li><strong>Doors.</strong> Thin strips in the door skins, glued, clear of the latch and the check arm. (1 hour.)</li>
+<li><strong>Floor.</strong> 1/2&quot; XPS laid on the corrugation ridges, then the 3/8&quot; subfloor from the lining report over it; the subfloor&#39;s own lashing-point anchors hold both. No glue to the floor pan. (2 hours.)</li>
+<li><strong>Lining.</strong> Furring and panels per the lining report.</li>
+</ol>
+<p><strong>Moisture, in three rules.</strong> No plastic vapor barrier anywhere: a van skin is already a vapor barrier, and a second one on the warm side traps breath between the two. Choose insulation that sheds water (Thinsulate) or buffers it (wool) so a wet night dries out through the panel gaps. And crack the Fan-Tastic vent low while sleeping, because two people exhale about a liter of water a night and it has to leave the van somewhere.</p>
+<p><strong>Thinsulate wins over wool on two of those.</strong> Wool is 0.2 lb/sq ft to Thinsulate&#39;s 0.14, needs the full 2&quot;, and holds water it then has to release; Thinsulate&#39;s fibers are hydrophobic and it comes back out intact. Wool wins on R-value and on fire rating (Class A against self-extinguishing), and it is the pick if the measured cavities turn out deeper than 2&quot;.</p>
+<h2>Totals and open items</h2>
+<p>The kit as picked, with 15% waste on the rolls and boards. Weight is before adhesive and ties.</p>
+<table>
+<thead>
+<tr>
+<th>Line</th>
+<th>Qty</th>
+<th>Unit</th>
+<th>Ext.</th>
+<th>lb</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Thinsulate SM600L 30 ft x 60&quot; (150 sq ft), Amazon B0DP3NGNGQ</td>
+<td>1</td>
+<td>$269.00</td>
+<td>$269.00</td>
+<td>21</td>
+</tr>
+<tr>
+<td>Thinsulate SM600L 10 ft x 60&quot; (50 sq ft), Amazon B0CLSSF562</td>
+<td>1</td>
+<td>$113.20</td>
+<td>$113.20</td>
+<td>7 (about 3 lb of it goes in the van)</td>
+</tr>
+<tr>
+<td>Foamular NGX 1/2&quot; XPS 4 x 8, HD 13NGX</td>
+<td>2</td>
+<td>$22.97</td>
+<td>$45.94</td>
+<td>4 (<strong>est</strong>)</td>
+</tr>
+<tr>
+<td>Kilmat 80 mil, 18 sq ft, Amazon B082Q2J2T4</td>
+<td>1</td>
+<td>$39.99</td>
+<td>$39.99</td>
+<td>8 (<strong>est</strong>)</td>
+</tr>
+<tr>
+<td>VanEssential Transit front cab bundle</td>
+<td>1</td>
+<td>$209.95</td>
+<td>$209.95</td>
+<td>3.9</td>
+</tr>
+<tr>
+<td>3M 90 spray adhesive, 2 cans (<strong>est</strong>)</td>
+<td>2</td>
+<td>$20</td>
+<td>$40</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td></td>
+<td></td>
+<td><strong>$718.08</strong></td>
+<td><strong>about 40 lb installed</strong></td>
+</tr>
+</tbody></table>
+<p>The wool alternative for walls and ceiling: two 100 sq ft boxes, $400, about 40 lb, and the kit total becomes $736 and about 56 lb. The foam-board alternative at 1&quot; XPS everywhere is $187 in boards and about 25 lb, with the fire and fit problems in the table.</p>
+<p>On the weight budget page this is a line of about 40 lb against the 3,940 lb payload, one percent. Weight is not the reason to choose between these; depth, fire rating and moisture are.</p>
+<p><strong>Open items</strong></p>
+<ul>
+<li>Measure the cavities (walls at three heights, roof bows, floor corrugation) before ordering.</li>
+<li>Confirm 3M 90 is the adhesive the roll ships with or buy it; the two-can count is an estimate.</li>
+<li>Decide Stealth or Reflective for the cab bundle.</li>
+<li>Heater choice is the other half of this question and lives outside this report.</li>
+<li>Polyiso is not stocked locally; if a 1&quot; board is wanted for a flat section, a lumber yard order is required and the cold-weather derating has to be weighed.</li>
+</ul>
+<h2>Sources</h2>
+<p>Every number above was read from one of these on 2026-10-04 unless marked <strong>est</strong> (from a typical density), <strong>derived</strong> (computed from a published figure) or <strong>from memory</strong> (an industry figure not re-read today).</p>
+<ul>
+<li><a href="https://multimedia.3m.com/mws/media/2667470O/thinsulate-acoustic-insulation-sm600l-tds.pdf">3M Thinsulate SM600L technical data sheet, February 2026</a>: 672 g/m², 42 mm, 15.3 kg/m³, self-extinguishing per SAE J369 (FMVSS 302, ISO 3795, DIN 75200), 120°C for 2,000 hours. The sheet publishes no R-value; the 5.2 figure is the retailers&#39;.</li>
+<li><a href="https://www.campervan-hq.com/products/3m-thinsulate-insulation-sm600l">Campervan HQ SM600L page</a>: 1.65&quot;, 0.95 lb/cu ft, meets FMVSS 302.</li>
+<li>Amazon B0CLSSF562 ($113.20, 10 ft x 60&quot;) and B0DP3NGNGQ ($269, 30 ft x 60&quot;), read earlier in this project.</li>
+<li><a href="https://havelockwool.com/products/havelock-wool-van-insulation-100-sqft">Havelock Wool van insulation R8</a>: $200 per 100 sq ft, 3.9 per inch, 23 x 46.5 x 2&quot; batts, Class A, boxes about 20 lb.</li>
+<li>Home Depot, 21st South store, Salt Lake City: Foamular NGX 13NGX $22.97, 20WENGX $28.63, 88WDNGX $38.88, 52DDNGX $53.71; Henry R-Tech 320821 $15.98 and 320817 $22.98; Everbilt 48x25RI $61.00; Froth-Pak 200 (12031949) $429.00.</li>
+<li>Amazon search, read by title and price: Kilmat 80 mil 18 sq ft B082Q2J2T4 $39.99; Noico Red 150 mil 36 sq ft B07TKXMPH7 $49.99; Rockwool ProRox SL940 48 x 24 x 3&quot; board B07YM3522P $248.04; Proadsy Transit windshield shade B09FPC53L1 $21.99.</li>
+<li><a href="https://vanessential.com/products.json">VanEssential product feed</a>: Transit Stealth front cab bundle $209.95, windshield cover 1,315 g, front door pair 454 g, reflective cab bundle $229.95, middle and rear quarter covers $69.95 to $109.95.</li>
+<li>Van Made Gear product feed: Transit cab partition $685.</li>
+<li>Ford Transit Body and Equipment Mounting Manual, 2020 North America: no cargo-area insulation section; wiring zones 4.1.12, lining fixings 5.6.1, engine-bay temperature range 4.1.</li>
+<li>Areas derived in the lining report from the Upfit Supply 130 WB measurement guide: ceiling 54, walls 118, floor 57 sq ft.</li>
+</ul>
+
+</div>
+</body>
+</html>
