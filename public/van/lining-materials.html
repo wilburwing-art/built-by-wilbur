@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Ceiling, walls and floor: report</title>
+<style>
+:root{color-scheme:dark;--bg:#0a0e14;--card:#141c28;--line:#243244;--txt:#dce6f2;--dim:#8fa3bb;--gold:#ffd166;--bamboo:#d9a441}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:20px 16px 60px}
+.van-nav{display:flex;gap:8px;margin-bottom:18px}.van-nav a{color:var(--gold,#ffd166);text-decoration:none;border:1px solid var(--line,#243244);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+h1{font-size:26px;line-height:1.25;margin:0 0 12px}
+h2{font-size:21px;margin:34px 0 10px;padding-top:18px;border-top:1px solid var(--line)}
+h3{font-size:17px;margin:22px 0 8px;color:var(--gold)}
+a{color:var(--bamboo);word-break:break-word}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.9em;background:rgba(255,255,255,.07);padding:1px 5px;border-radius:5px}
+pre{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;overflow-x:auto;font-size:12px;line-height:1.35}
+pre code{background:none;padding:0;font-size:inherit}
+table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:13.5px;margin:10px 0 16px}
+th,td{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top;white-space:nowrap}
+td:last-child,th:last-child{white-space:normal;min-width:180px}
+th{background:var(--card);color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+strong{color:#fff}
+li{margin:4px 0}
+input[type=checkbox]{margin-right:6px}
+blockquote{margin:0;padding-left:12px;border-left:3px solid var(--line);color:var(--dim)}
+.stamp{color:var(--dim);font-size:12px;margin-bottom:14px}
+ul.docs{list-style:none;padding:0;margin:0}
+ul.docs li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:0 0 12px}
+ul.docs a{display:block;font-size:19px;font-weight:700;color:var(--gold);text-decoration:none;margin-bottom:4px}
+ul.docs span{color:var(--dim);font-size:14px}
+h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-size:13px;text-transform:uppercase;letter-spacing:.12em}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="van-nav"><a href="/van/">Van docs</a></nav>
+<div class="stamp">Synced from dreamvan 2026-10-04</div>
+<h1>Van ceiling, walls and floor: materials report</h1>
+<p>Written 2026-10-03. Working copy as a Claude Doc:
+<a href="https://claude.ai/code/artifact/470d098c-1a1d-4ff5-9b5a-f1383886cedd">https://claude.ai/code/artifact/470d098c-1a1d-4ff5-9b5a-f1383886cedd</a>
+Sortable version of the candidate tables: <code>lining-materials-dashboard.html</code>
+(site: /van/lining-materials.html).</p>
+<h2>The picks</h2>
+<p>Thin plywood on the ceiling and walls, as Ford recommends, and a 3/8&quot; plywood subfloor under a rolled vinyl top. The whole set is about <strong>177 to 211 lb and $690 to $1,030</strong>, depending on the floor covering.</p>
+<table>
+<thead>
+<tr>
+<th>Surface</th>
+<th>Pick</th>
+<th>lb/sq ft</th>
+<th>$/sq ft</th>
+<th>For this van</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ceiling</td>
+<td>1/5&quot; hardwood plywood underlayment, fabric-wrapped (Marathon tweed, already on the galley list)</td>
+<td>about 0.6</td>
+<td>$2.12</td>
+<td>54 sq ft: about 34 lb, $115</td>
+<td>Ford&#39;s 6 mm class; bends to the roof curve; fabric hides seams and screws. Coroplast is lighter (0.15) but sags between bows</td>
+</tr>
+<tr>
+<td>Walls</td>
+<td>1/5&quot; hardwood plywood, painted; StarBoard XL where the shower stands</td>
+<td>about 0.5</td>
+<td>$0.95 plus the StarBoard panel</td>
+<td>118 sq ft: about 59 lb, $112</td>
+<td>Ford&#39;s 6 mm class; takes screws for pockets and lights; the HDPE panel is the only waterproof option with a vehicle fire pass</td>
+</tr>
+<tr>
+<td>Floor</td>
+<td>3/8&quot; sheathing plywood (Ford&#39;s 9 mm) under Lonseal Loneco vinyl, or under Rubber-Cal coin PVC to save weight and money</td>
+<td>1.7 with Loneco, 1.1 with coin</td>
+<td>$8.39 with Loneco, $3.26 with coin</td>
+<td>57 sq ft: about 98 lb and $481 with Loneco, about 63 lb and $187 with coin</td>
+<td>Loneco is the van-industry standard at 0.6 lb/sq ft and 0.080&quot; thick; the coin roll is a quarter of the price and its weight is not published</td>
+</tr>
+</tbody></table>
+<p>The ready-made alternative is Legend&#39;s DuraTherm liners (ceiling $417.35, walls $1,083.75): pre-cut, insulated, and three to ten times the cost per square foot of plywood.</p>
+<p>Do these first:</p>
+<ol>
+<li>Decide whether the shower zone gets StarBoard XL; it sets one wall panel&#39;s size.</li>
+<li>Measure the real panel areas (the figures here are derived from published van dimensions).</li>
+<li>Buy one 1/5&quot; underlayment sheet ($22.53) and bend it against the roof curve before ordering the rest.</li>
+</ol>
+<h2>What Ford says about lining the cargo area</h2>
+<p>Ford&#39;s own guidance is thin plywood, pre-drilled and machine cut, fixed without drilling the floor. From the <a href="https://madocumentupload.marketingassociates.com/api/Document/GetFile?v1=5035889&amp;v2=091319013011&amp;v3=60&amp;v4=db6e3859fd52ef6048a1a6be5fe1ab8feb599e19672137d2e1205185&amp;v5=False">Transit Body and Equipment Mounting Manual</a>, 2020 North America edition, sections 5.6.1 and 5.6.2 (the 2016 edition was not read):</p>
+<ul>
+<li>&quot;It is recommended to use 9mm thickness for floors and 6mm thickness for side and door lining.&quot; Plywood should be water resistant (WBP, water and boil proof).</li>
+<li>&quot;Do not drill through floor panels, use existing load lashing points when securing the panels.&quot; A plywood floor should be joint free, with aluminum floor trims.</li>
+<li>Panels should be precision cut by machine, not by hand jigsaw, and pre-drilled.</li>
+<li>&quot;Varnish or paint wooden interior cargo area panels if exposed to high humidity conditions.&quot;</li>
+<li>&quot;Fixing to the lining material may be inadequate for normal safe operation of the vehicle.&quot; Plan through-bolting for anything heavy, like racking or a bed, before the lining goes on.</li>
+<li>Extra weight on the doors may need reinforcement at the hinge and check arm.</li>
+<li>Check the &quot;No Drill Zones&quot; and wiring routing figures before any hole in the walls or doors.</li>
+</ul>
+<p>Ford does not name a fire standard for lining in this section. FMVSS 302 (burn no faster than 102 mm per minute) is the federal rule for interior materials in new vehicles and the benchmark used in this report (<a href="https://www.law.cornell.edu/cfr/text/49/571.302">49 CFR 571.302</a>).</p>
+<h2>The surfaces</h2>
+<p>About 54 sq ft of ceiling, 118 sq ft of walls and 57 sq ft of floor. All three are <strong>derived</strong> from published dimensions, not measured in this van.</p>
+<table>
+<thead>
+<tr>
+<th>Surface</th>
+<th>Basis</th>
+<th>Area</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ceiling</td>
+<td>126&quot; cargo length x about 62&quot; between the upper walls</td>
+<td>about 54 sq ft</td>
+</tr>
+<tr>
+<td>Walls</td>
+<td>two sides at 126&quot; x about 50&quot; from wheel well to ceiling, plus about 30 sq ft of door panels</td>
+<td>about 118 sq ft</td>
+</tr>
+<tr>
+<td>Floor</td>
+<td>126&quot; x 70&quot;, minus two 35&quot; x 8&quot; wheel wells</td>
+<td>about 57 sq ft</td>
+</tr>
+</tbody></table>
+<p>Sources for the dimensions: <a href="https://upfitsupply.com/blogs/measurement-guides/ford-transit-130-wb-interior-cargo-measurements">Upfit Supply</a> (53&quot; between wheel wells, wells 35&quot; x 11&quot; x 8&quot;, roof 70&quot;) and <a href="https://emerycustombuilds.com/transit-van-conversions/dimensions/">Emery Custom Builds</a> (about 70&quot; wide, 126&quot; long). Sheet counts assume 4 x 8 sheets at 32 sq ft with 15% waste.</p>
+<h2>Ceiling</h2>
+<p>The ceiling carries nothing but itself, so the lightest sheet that bends to the roof curve and takes a finish wins. Prices read 2026-10-03 at Home Depot (21st South, Salt Lake City) unless a link says otherwise. Weights marked <strong>derived</strong> come from a published density or a thicker sheet of the same product; <strong>est</strong> is a ballpark.</p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>lb/sq ft</th>
+<th>$/sq ft</th>
+<th>Fire</th>
+<th>Moisture</th>
+<th>Attaches by</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1/5&quot; hardwood plywood underlayment (HD 431178, $22.53 per 4 x 8)</td>
+<td>about 0.5 (<strong>derived</strong> from Hood&#39;s 1/4&quot; import plywood at 0.63)</td>
+<td>$0.70</td>
+<td>untreated wood, no rating</td>
+<td>paint or fabric it; Ford says varnish in humid use</td>
+<td>screws into furring strips on the roof bows</td>
+<td><strong>Pick.</strong> Ford&#39;s 6 mm class, bends easily, cheapest</td>
+</tr>
+<tr>
+<td>1/4&quot; sanded plywood, 0.225&quot; (HD 562941, $38.62)</td>
+<td>0.63 (Hood)</td>
+<td>$1.21</td>
+<td>same</td>
+<td>same</td>
+<td>same</td>
+<td>Stiffer, flatter face if left bare; nearly twice the price</td>
+</tr>
+<tr>
+<td>3 mm Baltic birch</td>
+<td>0.40 (10 lb per 5 x 5)</td>
+<td>not read</td>
+<td>same</td>
+<td>same</td>
+<td>same</td>
+<td>Lightest wood; needs a 5 x 5 supplier</td>
+</tr>
+<tr>
+<td>Vans Are Swell 6 mm birch ceiling kit for the 130&quot; medium roof (<a href="https://vansareswell.com/products/transit-130-ceiling-panels">$1,240</a>)</td>
+<td>about 0.8 (<strong>derived</strong> from 18 mm at 2.52)</td>
+<td>$22.86</td>
+<td>same</td>
+<td>raw wood; urethane finish is $260 more</td>
+<td>hardware included</td>
+<td>Pre-cut to this van; the price is the labor you skip</td>
+</tr>
+<tr>
+<td>Legend DuraTherm ceiling liner, 130&quot; mid roof (<a href="https://upfitsupply.com/products/legend-duratherm-ceiling-liner-ford-transit">$417.35</a>)</td>
+<td>not published</td>
+<td>$7.69</td>
+<td>not stated</td>
+<td>polypropylene skins, foam and foil backing</td>
+<td>pre-drilled, hardware included</td>
+<td>Insulated (R 4 to 6, 0.4&quot; thick) and fitted; the fastest route</td>
+</tr>
+<tr>
+<td>Coroplast 4 mm (Amazon B0842P77SH, $28 per four 48 x 24)</td>
+<td>0.15</td>
+<td>$0.88</td>
+<td>not rated</td>
+<td>waterproof; cut edges wick</td>
+<td>screws with washers into furring</td>
+<td>Lightest and cheapest; sags between supports closer than 16&quot; apart</td>
+</tr>
+<tr>
+<td>Headliner fabric, 1/8&quot; foam-backed, 60&quot; (Amazon B071GGLTXX, $22.97 a yard) over the 1/5&quot; ply</td>
+<td>about 0.1 added (<strong>est</strong>)</td>
+<td>$1.53 added</td>
+<td>fabric is sold for car headliners</td>
+<td>foam backing</td>
+<td>contact adhesive</td>
+<td>The soft finish over the ply pick</td>
+</tr>
+<tr>
+<td>Marathon tweed, 54&quot; (Perfect Fit, $19.16 a yard) over the 1/5&quot; ply</td>
+<td>about 0.12 added (<strong>est</strong>)</td>
+<td>$1.42 added</td>
+<td>polyolefin, not rated</td>
+<td>wipeable</td>
+<td>3M 90 contact adhesive, already on the galley list</td>
+<td>Same fabric as the cabinet lining, so one look throughout</td>
+</tr>
+<tr>
+<td>Tongue-and-groove pine 1 x 6 (HD 168PPTG, $8.24 per 8 ft, about 5-1/8&quot; face)</td>
+<td>about 1.6 (<strong>est</strong> from pine at 25 to 28 lb/cu ft)</td>
+<td>$2.41</td>
+<td>untreated wood</td>
+<td>finish it</td>
+<td>screws into furring</td>
+<td>The cabin look at three times the ply&#39;s weight</td>
+</tr>
+<tr>
+<td>Tongue-and-groove cedar 1 x 4 (HD 727956, $8.49 per 8 ft, about 3-1/8&quot; face)</td>
+<td>about 1.3 (<strong>est</strong> from cedar at 23 lb/cu ft)</td>
+<td>$4.08</td>
+<td>untreated wood</td>
+<td>cedar resists rot</td>
+<td>same</td>
+<td>Lighter than pine, smells good, most expensive wood</td>
+</tr>
+<tr>
+<td>NUDO NuComb-A 1/4&quot; aluminum honeycomb with a laminated face (<a href="https://www.nudo.com/products/wall-panels/nucomb-a/">NUDO</a>)</td>
+<td>under 0.72</td>
+<td>quote pending</td>
+<td>Class A (ASTM E84)</td>
+<td>aluminum skins</td>
+<td>inserts or edge channels; no screws into the skin</td>
+<td>Finished face arrives on the panel; price unknown</td>
+</tr>
+<tr>
+<td>Glasliner FRP 0.090&quot; (HD MFTF12IXA480009600, $47.98 per 4 x 8)</td>
+<td>about 0.6 (<strong>est</strong>)</td>
+<td>$1.50</td>
+<td>not read</td>
+<td>waterproof, washable</td>
+<td>adhesive or screws with trim strips</td>
+<td>Shower-zone ceiling if the shower is enclosed; plain white elsewhere</td>
+</tr>
+<tr>
+<td>1/16&quot; PVC panel (HD 688840, $25.98 per 4 x 8)</td>
+<td>about 0.45 (<strong>est</strong>)</td>
+<td>$0.81</td>
+<td>not read</td>
+<td>waterproof</td>
+<td>same</td>
+<td>A cheaper plastic sheet than FRP, less stiff</td>
+</tr>
+<tr>
+<td>5052 aluminum sheet 0.032&quot; (Amazon B0DYWC838M, $75.40 per 24 x 48)</td>
+<td>0.456 (McNeilus chart)</td>
+<td>$9.43 on Amazon; a metal supplier will be far less (not read)</td>
+<td>noncombustible</td>
+<td>condensation forms on bare metal</td>
+<td>rivets or screws into furring</td>
+<td>Cold to the touch and drums; the commercial-van look</td>
+</tr>
+</tbody></table>
+<p>Two things apply to every wood row: Ford wants the panels pre-drilled and machine cut, and an untreated plywood ceiling has no fire rating. Insulation between the roof skin and the panel is a separate decision; 3M Thinsulate SM600L runs <a href="https://www.amazon.com/dp/B0CLSSF562">$113.20 per 10 ft x 60&quot;</a>, about $2.26 per sq ft.</p>
+<h2>Walls</h2>
+<p>Walls take hits, hold pockets and lights, and get wet near the shower, so they want a little more stiffness than the ceiling and a waterproof panel in one zone. Ford&#39;s recommendation is 6 mm plywood. The ceiling rows above apply to walls too; this table adds what changes and the wall-only options.</p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>lb/sq ft</th>
+<th>$/sq ft</th>
+<th>Fire</th>
+<th>Moisture</th>
+<th>Attaches by</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1/5&quot; hardwood plywood underlayment, painted (HD 431178)</td>
+<td>about 0.5 (<strong>derived</strong>)</td>
+<td>$0.70 plus paint</td>
+<td>untreated wood</td>
+<td>paint both faces</td>
+<td>screws into rib furring; through-bolt anything heavy to the body, never to the panel</td>
+<td><strong>Pick for most of the wall.</strong> Ford&#39;s 6 mm class; screws hold the mesh pockets and lights</td>
+</tr>
+<tr>
+<td>1/4&quot; sanded plywood (HD 562941)</td>
+<td>0.63</td>
+<td>$1.21</td>
+<td>same</td>
+<td>same</td>
+<td>same</td>
+<td>Flatter and stiffer for the lower wall where gear leans</td>
+</tr>
+<tr>
+<td>Vans Are Swell 6 mm birch wall kit for the 130&quot; (<a href="https://vansareswell.com/products/transit-130-wall-paneling">$1,630</a>)</td>
+<td>about 0.8 (<strong>derived</strong>)</td>
+<td>$13.87</td>
+<td>same</td>
+<td>raw; urethane finish $330 more</td>
+<td>hardware and 1/2&quot; furring included; sized for a 1.125&quot; floor</td>
+<td>Pre-cut, including the slider door lower panel</td>
+</tr>
+<tr>
+<td>Legend DuraTherm wall liner, 130&quot; mid roof (<a href="https://upfitsupply.com/products/legend-duratherm-wall-liner-ford-transit">$1,083.75</a>)</td>
+<td>not published</td>
+<td>$9.22</td>
+<td>not stated</td>
+<td>polypropylene skins, foam and foil backing</td>
+<td>pre-drilled, hardware included</td>
+<td>Insulated and fitted; grey or white</td>
+</tr>
+<tr>
+<td>Legend EconoLite wall liner, 130&quot; mid roof ($662 at Elite Truck, from search results, not opened)</td>
+<td>not published</td>
+<td>$5.61</td>
+<td>not stated</td>
+<td>polypropylene</td>
+<td>pre-drilled</td>
+<td>The uninsulated version</td>
+</tr>
+<tr>
+<td>Westcan plywood ceiling liner kit, 3/16&quot; ply (Westcan, Canada, $407.08 on the page; currency not stated)</td>
+<td>about 0.45 (<strong>est</strong>)</td>
+<td>about $7.50</td>
+<td>untreated wood</td>
+<td>raw</td>
+<td>pre-cut</td>
+<td>Only if a Canadian order makes sense</td>
+</tr>
+<tr>
+<td>King StarBoard XL 1/4&quot; (<a href="https://www.kingplastic.com/products/king-starboard-xl/">King</a>)</td>
+<td>1.0</td>
+<td>not read; 1/2&quot; is $341 per 54 x 96 at Buck Woodcraft ($9.47)</td>
+<td>passed FMVSS 302</td>
+<td>waterproof, will not rot</td>
+<td>screws in slotted holes (expands 0.00006 in/in/°F)</td>
+<td><strong>Pick for the shower zone</strong>, one panel</td>
+</tr>
+<tr>
+<td>Expanded PVC 6 mm (Sintra)</td>
+<td>0.71 to 0.94</td>
+<td>not read</td>
+<td>Class A (ASTM E84) at 5 mm or less</td>
+<td>waterproof</td>
+<td>screws or adhesive</td>
+<td>Shower-zone alternative; max service 140°F, so not beside glass</td>
+</tr>
+<tr>
+<td>Glasliner FRP 0.090&quot; (HD, $47.98 per 4 x 8)</td>
+<td>about 0.6 (<strong>est</strong>)</td>
+<td>$1.50</td>
+<td>not read</td>
+<td>waterproof, washable</td>
+<td>adhesive over a backer</td>
+<td>Cheapest waterproof wall; needs a flat backer</td>
+</tr>
+<tr>
+<td>Coroplast 4 mm</td>
+<td>0.15</td>
+<td>$0.88</td>
+<td>not rated</td>
+<td>waterproof</td>
+<td>screws with washers</td>
+<td>Fine behind cabinets and in the garage; dents and flexes on an open wall</td>
+</tr>
+<tr>
+<td>Polypropylene honeycomb 6 to 12 mm (<a href="https://www.polyreflex.com/pid18299144/PP-Honeycomb-Panels.htm">Polyreflex</a>)</td>
+<td>0.41 to 0.92</td>
+<td>not read; sold by the pallet from China</td>
+<td>UL94 V-0 to V-2 by grade</td>
+<td>waterproof</td>
+<td>screws with washers, edge tape</td>
+<td>Sold for van lining; no US retail price found</td>
+</tr>
+<tr>
+<td>5052 aluminum sheet 0.032&quot;</td>
+<td>0.456</td>
+<td>$9.43 on Amazon</td>
+<td>noncombustible</td>
+<td>condensation</td>
+<td>rivets</td>
+<td>Garage and lower wall where gear slides</td>
+</tr>
+<tr>
+<td>Aluminum honeycomb (Flatiron 3/4&quot; at 1.375, NUDO 1/4&quot; under 0.72)</td>
+<td>0.72 to 1.375</td>
+<td>$26 per sq ft for Flatiron stock; NUDO quote pending</td>
+<td>Class A</td>
+<td>aluminum</td>
+<td>inserts; no screws into the skin</td>
+<td>Too costly for a wall that carries nothing</td>
+</tr>
+</tbody></table>
+<p>Notes on the wall: Ford says fixings into the lining &quot;may be inadequate&quot; for anything that matters, so pockets and lights go into the ply and anything heavier goes through to a rib. The slider door and rear doors add weight at the hinges; Ford warns the door may need reinforcing if the lining is heavy, which is another reason to keep the doors at 1/5&quot; ply or Coroplast.</p>
+<h2>Floor</h2>
+<p>The floor is two layers: a plywood subfloor that spans the corrugations and takes point loads, and a wear surface on top. Ford&#39;s number for the subfloor is 9 mm, water-and-boil-proof, in one joint-free piece, held at the factory tie-down points rather than by holes in the floor pan.</p>
+<p>Subfloor</p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>lb/sq ft</th>
+<th>$/sq ft</th>
+<th>Notes</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>3/8&quot; sheathing plywood, 0.344&quot; (HD 19837, $24.38 per 4 x 8)</td>
+<td>1.1 (APA D510)</td>
+<td>$0.76</td>
+<td>Ford&#39;s 9 mm, give or take; exterior glue, rough face</td>
+<td><strong>Pick.</strong> Two sheets, with a joint across the van under a cabinet</td>
+</tr>
+<tr>
+<td>15/32&quot; sheathing plywood (HD 20159, $28.84)</td>
+<td>1.4 (APA)</td>
+<td>$0.90</td>
+<td>stiffer over the corrugations</td>
+<td>Use if the subfloor must also take furniture bolts</td>
+</tr>
+<tr>
+<td>23/32&quot; sheathing plywood (HD 20660, $43.48)</td>
+<td>2.2 (APA)</td>
+<td>$1.36</td>
+<td>the common van-build choice</td>
+<td>63 lb heavier than 3/8&quot; over this floor, for stiffness the corrugations do not need</td>
+</tr>
+<tr>
+<td>1/2&quot; BCX sanded plywood, 2 x 4 (HD 109119, $28.85)</td>
+<td>1.22 (Hood, 1/2&quot; import)</td>
+<td>$3.61</td>
+<td>sanded face</td>
+<td>Only for a small patch; 2 x 4 sheets cost 4x per square foot</td>
+</tr>
+<tr>
+<td>12 mm Baltic birch</td>
+<td>about 1.7 (<strong>derived</strong>)</td>
+<td>not read</td>
+<td>void-free, flat</td>
+<td>Overkill under a vinyl top</td>
+</tr>
+<tr>
+<td>Aluminum honeycomb (Flatiron)</td>
+<td>1.375 at 3/4&quot;</td>
+<td>$26</td>
+<td>inserts at every bolt; core crushes above 150 psi</td>
+<td>No: a floor takes jack stands and chair legs</td>
+</tr>
+</tbody></table>
+<p>Wear surface</p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>lb/sq ft</th>
+<th>$/sq ft</th>
+<th>Thickness</th>
+<th>Notes</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Lonseal Loneco Topseal (<a href="https://www.campervan-hq.com/products/lonseal-flooring-loneco-topseal">Campervan HQ</a>, $45.78 per linear foot of 72&quot; roll)</td>
+<td>0.6 (Lonseal spec)</td>
+<td>$7.63</td>
+<td>0.080&quot;, 0.032&quot; wear layer</td>
+<td>the van-conversion standard; FloorScore, low VOC; 72&quot; wide covers the 70&quot; floor in one piece</td>
+<td><strong>Pick if the budget allows.</strong> One 11 ft length, about $504</td>
+</tr>
+<tr>
+<td>Lonseal Lonplate I (<a href="https://www.campervan-hq.com/products/lonseal-flooring-lonplate-i">Campervan HQ</a>, $56.90 per linear foot)</td>
+<td>0.8</td>
+<td>$9.48</td>
+<td>0.140&quot;, 0.068&quot; wear layer</td>
+<td>diamond plate texture, embossed</td>
+<td>Tougher wear layer for a gear-hauling floor</td>
+</tr>
+<tr>
+<td>Rubber-Cal Coin Grip PVC, 2 mm, 4 x 8 (HD 03-165-2MM-BK08, $79.98)</td>
+<td>not read</td>
+<td>$2.50</td>
+<td>2 mm</td>
+<td>commercial-grade PVC, 4 ft wide so it needs a seam</td>
+<td><strong>Pick on a budget.</strong> Two sheets, one seam down the middle</td>
+</tr>
+<tr>
+<td>Husky coin vinyl, 7.5 x 17 ft roll (HD HK70CN717SGRHD, $349.99)</td>
+<td>not read</td>
+<td>$2.75</td>
+<td>not read</td>
+<td>garage flooring; one piece covers the floor with waste</td>
+<td>Thinner feel than Lonseal, no seam</td>
+</tr>
+<tr>
+<td>G-Floor small coin, 8.5 x 22 ft (HD GF60SC8622MB, $469.99)</td>
+<td>not read</td>
+<td>$2.51</td>
+<td>60 mil</td>
+<td>garage flooring</td>
+<td>Same class as Husky</td>
+</tr>
+<tr>
+<td>TrafficMaster vinyl sheet, 10 mil, 12 ft wide (HD, $1.03 to $1.38)</td>
+<td>not read</td>
+<td>$1.03 to $1.38</td>
+<td>10 mil</td>
+<td>house flooring; thin wear layer, glue-down</td>
+<td>Cheapest; expect scuffs from gear</td>
+</tr>
+<tr>
+<td>Rubber-Cal recycled rubber, 1/4&quot; (HD 03_101_WAB_410, $124 per 4 x 10)</td>
+<td>not read; rubber at 1/4&quot; is heavy (<strong>est</strong> over 1.2)</td>
+<td>$3.10</td>
+<td>1/4&quot;</td>
+<td>quiet, grippy, smells of rubber</td>
+<td>The weight argues against it</td>
+</tr>
+</tbody></table>
+<p>Edge and seam: Ford wants aluminum floor trims at the edges. One tube of sealant along the wheel-well edges and the door sills keeps wash water out of the subfloor. If the subfloor bolts to the factory tie-down points, the D-rings come out and their threaded holes take countersunk bolts; the rings can go back in on top of the floor.</p>
+<h2>Ready-made kits for the Transit 130&quot; medium roof</h2>
+<p>Kits trade money for the fitting and cutting. The plywood route costs about $285 for ceiling and walls in material, fabric and paint; the kits run $1,500 to $2,870.</p>
+<table>
+<thead>
+<tr>
+<th>Kit</th>
+<th>Ceiling</th>
+<th>Walls</th>
+<th>Material</th>
+<th>Insulated</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Legend DuraTherm</td>
+<td>$417.35</td>
+<td>$1,083.75</td>
+<td>polypropylene skins on a fluted core, foam and foil backing, 0.4&quot;</td>
+<td>R 4 to 6</td>
+<td><a href="https://upfitsupply.com/products/legend-duratherm-wall-liner-ford-transit">Upfit Supply</a>, prices read 2026-10-03</td>
+</tr>
+<tr>
+<td>Legend EconoLite</td>
+<td>not found</td>
+<td>$662</td>
+<td>polypropylene</td>
+<td>no</td>
+<td>Elite Truck, from search results</td>
+</tr>
+<tr>
+<td>Vans Are Swell, raw birch</td>
+<td>$1,240</td>
+<td>$1,630</td>
+<td>6 mm birch plywood, pre-cut, hardware included</td>
+<td>no</td>
+<td><a href="https://vansareswell.com/collections/transit-130-paneling">Vans Are Swell</a>, read 2026-10-03</td>
+</tr>
+<tr>
+<td>Vans Are Swell, upholstered</td>
+<td>$2,180</td>
+<td>$3,310</td>
+<td>same, Duramax marine fabric</td>
+<td>no</td>
+<td>same</td>
+</tr>
+<tr>
+<td>Westcan plywood liner, 3/16&quot;</td>
+<td>$407.08 (currency not stated; Canadian firm)</td>
+<td>page did not load</td>
+<td>3/16&quot; plywood</td>
+<td>no</td>
+<td><a href="https://shop.westcanmanufacturing.com/product/plywood-ceiling-liner-kit-14-transit-130-wb-med-roof/">Westcan</a></td>
+</tr>
+<tr>
+<td>Plywood, cut here</td>
+<td>about $40 in sheets</td>
+<td>about $85 in sheets</td>
+<td>1/5&quot; hardwood underlayment</td>
+<td>no</td>
+<td>Home Depot</td>
+</tr>
+</tbody></table>
+<p>No kit page states a weight or a fire rating.</p>
+<h2>How it all attaches</h2>
+<p>The lining hangs on the body; nothing heavy hangs on the lining.</p>
+<ol>
+<li>Furring first. Screw or rivnut 1/2&quot; plywood strips (Vans Are Swell includes them; Home Depot 1/2&quot; BCX 2 x 4 at $28.85 cuts into about ten) to the wall ribs and roof bows, outside Ford&#39;s wiring and no-drill zones. The panels then screw to the furring, so every panel screw is in wood.</li>
+<li>Pre-drill and machine-cut the panels as Ford says. A circular saw with a plywood blade, or a track saw, for the long cuts; a jigsaw only for the wheel-well notches.</li>
+<li>Ceiling panels in two or three pieces across the van so each piece bends to the roof curve. Fabric hides the joints.</li>
+<li>Wall panels in sections that match the rib spacing, with the lower panel removable where the galley and bed frames bolt through to the body.</li>
+<li>Floor: cut the 3/8&quot; subfloor in two pieces with the joint under the galley, lay it dry, mark the tie-down points from below, and bolt through them with countersunk bolts. Vinyl goes down with the maker&#39;s adhesive or loose-laid under the trims.</li>
+<li>Shower panel in slotted holes with stainless screws and washers, with a bead of sealant along the floor edge.</li>
+<li>Grommets wherever a wire passes through sheet metal, and a windscreen-type sealer, per Ford.</li>
+</ol>
+<p>Thread locker on any bolt into aluminum, and a drive on a rough road before the fabric goes on, so loose screws are found while they are still reachable.</p>
+<h2>The recommended set, totaled</h2>
+<p>About 211 lb and $1,031 with Loneco on the floor; about 177 lb plus the coin roll, and $687, with the coin PVC. Sheet counts carry 15% waste.</p>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>Material</th>
+<th>Sheets or length</th>
+<th>Weight</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ceiling</td>
+<td>1/5&quot; underlayment, 54 sq ft</td>
+<td>2 sheets</td>
+<td>27 lb</td>
+<td>$45.06</td>
+</tr>
+<tr>
+<td>Ceiling finish</td>
+<td>Marathon tweed, 54 sq ft</td>
+<td>5 yards</td>
+<td>about 7 lb (<strong>est</strong>)</td>
+<td>$95.80</td>
+</tr>
+<tr>
+<td>Walls</td>
+<td>1/5&quot; underlayment, 118 sq ft</td>
+<td>5 sheets</td>
+<td>59 lb</td>
+<td>$112.65</td>
+</tr>
+<tr>
+<td>Walls finish</td>
+<td>paint, both faces</td>
+<td>1 gallon</td>
+<td>about 3 lb (<strong>est</strong>)</td>
+<td>about $30 (<strong>est</strong>)</td>
+</tr>
+<tr>
+<td>Shower zone</td>
+<td>StarBoard XL 1/4&quot;, one 24 x 48 panel</td>
+<td>1</td>
+<td>8 lb</td>
+<td>not read; about $75 (<strong>est</strong> from the 1/2&quot; price)</td>
+</tr>
+<tr>
+<td>Subfloor</td>
+<td>3/8&quot; sheathing, 57 sq ft</td>
+<td>2 sheets</td>
+<td>63 lb</td>
+<td>$48.76</td>
+</tr>
+<tr>
+<td>Floor top, option 1</td>
+<td>Lonseal Loneco, 11 ft of 72&quot; roll</td>
+<td>11 linear ft</td>
+<td>34 lb</td>
+<td>$503.58</td>
+</tr>
+<tr>
+<td>Floor top, option 2</td>
+<td>Rubber-Cal Coin Grip 4 x 8</td>
+<td>2 sheets</td>
+<td>not published</td>
+<td>$159.96</td>
+</tr>
+<tr>
+<td>Fasteners, furring, adhesive, trims, sealant</td>
+<td></td>
+<td></td>
+<td>about 10 lb (<strong>est</strong>)</td>
+<td>about $120 (<strong>est</strong>)</td>
+</tr>
+<tr>
+<td><strong>Total with Loneco</strong></td>
+<td></td>
+<td></td>
+<td><strong>about 211 lb</strong></td>
+<td><strong>about $1,031</strong></td>
+</tr>
+<tr>
+<td><strong>Total with coin PVC</strong></td>
+<td></td>
+<td></td>
+<td><strong>about 177 lb plus the coin roll</strong></td>
+<td><strong>about $687</strong></td>
+</tr>
+</tbody></table>
+<p>On the weight budget (<code>weight-budget-dashboard.html</code>), that is about 5% of a 3,940 lb payload, in the same range as the whole galley and bed.</p>
+<p>Still open</p>
+<ul>
+<li>Measure the real ceiling, wall and floor areas; every total above is derived.</li>
+<li>NUDO&#39;s quote decides whether a faced honeycomb ceiling beats fabric-wrapped ply.</li>
+<li>StarBoard XL 1/4&quot; sheet price from a plastics distributor; only the 1/2&quot; was read.</li>
+<li>Whether the van still has its factory floor covering, and whether it stays under the new subfloor.</li>
+<li>Insulation under the panels is a separate report; Thinsulate SM600L is priced above for scale.</li>
+</ul>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://madocumentupload.marketingassociates.com/api/Document/GetFile?v1=5035889&amp;v2=091319013011&amp;v3=60&amp;v4=db6e3859fd52ef6048a1a6be5fe1ab8feb599e19672137d2e1205185&amp;v5=False">Ford Transit Body and Equipment Mounting Manual, 2020 North America</a>, sections 5.3.1, 5.6.1, 5.6.2</li>
+<li><a href="https://www.law.cornell.edu/cfr/text/49/571.302">FMVSS 302, 49 CFR 571.302</a></li>
+<li>Home Depot, 21st South store, read 2026-10-03: plywood models 431178, 562941, 19837, 20159, 20660, 109119; pine 168PPTG; cedar 727956; Glasliner MFTF12IXA480009600; PVC 688840; Husky HK70CN717SGRHD; Rubber-Cal 03-165-2MM-BK08 and 03_101_WAB_410; G-Floor GF60SC8622MB; TrafficMaster vinyl sheet</li>
+<li><a href="https://upfitsupply.com/products/legend-duratherm-ceiling-liner-ford-transit">Upfit Supply: Legend DuraTherm ceiling</a> and <a href="https://upfitsupply.com/products/legend-duratherm-wall-liner-ford-transit">wall</a> liners</li>
+<li><a href="https://vansareswell.com/products/transit-130-ceiling-panels">Vans Are Swell: Transit 130&quot; ceiling</a> and <a href="https://vansareswell.com/products/transit-130-wall-paneling">wall</a> paneling</li>
+<li><a href="https://www.campervan-hq.com/products/lonseal-flooring-loneco-topseal">Campervan HQ: Lonseal Loneco</a> and <a href="https://www.campervan-hq.com/products/lonseal-flooring-lonplate-i">Lonplate I</a></li>
+<li><a href="https://shop.westcanmanufacturing.com/product/plywood-ceiling-liner-kit-14-transit-130-wb-med-roof/">Westcan plywood ceiling liner</a></li>
+<li><a href="https://wood.tcaup.umich.edu/lectures/2021/D510.pdf">APA D510 Panel Design Specification</a>, Table 13; <a href="https://hooddistribution.com/resources/product-weights/">Hood Distribution panel weights</a>; <a href="https://mcneilus.com/resources/Aluminum-Sheet.pdf">McNeilus aluminum sheet chart</a></li>
+<li><a href="https://www.kingplastic.com/products/king-starboard-xl/">King StarBoard XL</a>; <a href="https://www.polyreflex.com/pid18299144/PP-Honeycomb-Panels.htm">Polyreflex PP honeycomb</a>; <a href="https://www.nudo.com/products/wall-panels/nucomb-a/">NUDO NuComb-A</a>; <a href="https://www.professionalplastics.com/professionalplastics/content/CoroplastSpecifications.pdf">Coroplast spec sheet</a></li>
+<li>Amazon, read 2026-10-03: headliner fabric B071GGLTXX, aluminum sheet B0DYWC838M, Thinsulate B0CLSSF562</li>
+<li><a href="https://upfitsupply.com/blogs/measurement-guides/ford-transit-130-wb-interior-cargo-measurements">Upfit Supply: Transit 130 WB measurements</a>; <a href="https://emerycustombuilds.com/transit-van-conversions/dimensions/">Emery Custom Builds</a></li>
+</ul>
+
+</div>
+</body>
+</html>
