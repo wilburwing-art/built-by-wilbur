@@ -2,7 +2,7 @@
 // they are readable on a phone at builtbywilbur.com/pottery/. Unlisted:
 // every page carries a noindex meta and vercel.json adds the header.
 // Wired into dev and build; the output is committed like public/van/.
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs"
+import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs"
 import { fileURLToPath } from "node:url"
 import path from "node:path"
 import { renderMarkdown, indexPage } from "./lib/doc-page.mjs"
@@ -21,6 +21,14 @@ const DOCS = [
 ]
 
 mkdirSync(OUT, { recursive: true })
+// Images live beside the markdown in data/pottery/img/<doc>/ and are copied
+// through unchanged, so public/pottery/ stays fully generated.
+const IMG = path.join(SRC, "img")
+if (existsSync(IMG)) {
+  rmSync(path.join(OUT, "img"), { recursive: true, force: true })
+  cpSync(IMG, path.join(OUT, "img"), { recursive: true })
+  console.log("build-pottery-docs: img/ copied")
+}
 const stamp = `Pyns Pottery studio builds · ${new Date().toISOString().slice(0, 10)}`
 for (const doc of DOCS) {
   const md = readFileSync(path.join(SRC, doc.src), "utf8")
