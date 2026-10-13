@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Power clay extruder</title>
+<style>
+:root{color-scheme:dark;--bg:#0a0e14;--card:#141c28;--line:#243244;--txt:#dce6f2;--dim:#8fa3bb;--gold:#ffd166;--bamboo:#d9a441;--todo:#ffb4a2}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:20px 16px 60px}
+.doc-nav{display:flex;gap:8px;margin-bottom:18px}.doc-nav a{color:var(--gold,#ffd166);text-decoration:none;border:1px solid var(--line,#243244);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+h1{font-size:26px;line-height:1.25;margin:0 0 12px}
+h2{font-size:21px;margin:34px 0 10px;padding-top:18px;border-top:1px solid var(--line)}
+h3{font-size:17px;margin:22px 0 8px;color:var(--gold)}
+a{color:var(--bamboo);word-break:break-word}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.9em;background:rgba(255,255,255,.07);padding:1px 5px;border-radius:5px}
+code.copy{cursor:pointer}
+code.copied{background:var(--gold);color:#000}
+pre{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;overflow-x:auto;font-size:12px;line-height:1.35}
+pre code{background:none;padding:0;font-size:inherit}
+table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:13.5px;margin:10px 0 16px}
+th,td{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top;white-space:nowrap}
+td:last-child,th:last-child{white-space:normal;min-width:180px}
+th{background:var(--card);color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+strong{color:#fff}
+li{margin:4px 0}
+input[type=checkbox]{margin-right:6px}
+blockquote{margin:0;padding-left:12px;border-left:3px solid var(--line);color:var(--dim)}
+mark.todo{background:var(--todo);color:#000;border-radius:5px;padding:1px 6px;font:600 .85em ui-monospace,SFMono-Regular,Menlo,monospace;white-space:nowrap}
+.callout{background:var(--card);border:1px solid var(--todo);border-left-width:4px;border-radius:12px;padding:12px 14px;margin:14px 0}
+.callout p{margin:0}
+.callout p+p{margin-top:8px}
+.stamp{color:var(--dim);font-size:12px;margin-bottom:14px}
+ul.docs{list-style:none;padding:0;margin:0}
+ul.docs li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:0 0 12px}
+ul.docs a{display:block;font-size:19px;font-weight:700;color:var(--gold);text-decoration:none;margin-bottom:4px}
+ul.docs span{color:var(--dim);font-size:14px}
+h2.group{border-top:none;padding-top:0;margin-top:26px;color:var(--dim);font-size:13px;text-transform:uppercase;letter-spacing:.12em}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="doc-nav"><a href="/pottery/">Pottery builds</a></nav>
+<div class="stamp">Pyns Pottery studio builds · 2026-10-13</div>
+<h1>Power Clay Extruder: DeWalt Cordless Caulk Gun Conversion</h1>
+<p>Converting a DeWalt 20V MAX cordless caulk gun into a motorized handheld clay extruder for coils, handles, and other solid forms at Pyns Pottery. The Shimpo handheld extruder does not fit the caulk gun directly, so the conversion uses a 1-1/2&quot; PVC barrel sized like a standard caulk cartridge.</p>
+<h2>The Tools</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Model / SKU</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Cordless caulk gun</td>
+<td><code>DEWALT DCE560B 20V MAX Cordless Caulking Gun 10oz</code></td>
+<td>Bare tool. Runs on existing DeWalt 20V MAX batteries. Variable speed trigger plus a separate speed dial for min/max flow. Quick-connect interchangeable canister trays. 4.1 lb.</td>
+</tr>
+<tr>
+<td>Larger alternative</td>
+<td><code>DEWALT DCE570B 20V MAX Cordless Caulking Gun 29oz</code></td>
+<td>Larger carriage. Possible option for keeping the Shimpo 2-1/4&quot; barrel. <mark class="todo">TODO: MEASURE</mark> carriage inside diameter vs. Shimpo barrel before buying.</td>
+</tr>
+<tr>
+<td>Manual extruder (existing)</td>
+<td><code>Shimpo Handheld Extruder C-116-91</code></td>
+<td>2-1/4&quot; diameter barrel, threads into its own ratchet handle. Stainless dies: 5/8&quot; square, 5/8&quot; round, 5/8&quot; triangle, 1-3/16&quot; x 3/8&quot; rectangle, multi-coil die (12 x 1/4&quot; holes), blank die.</td>
+</tr>
+</tbody></table>
+<h2>Compatibility: Shimpo vs. DCE560B</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Shimpo C-116-91</th>
+<th>DCE560B 10 oz cradle</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Barrel / cartridge diameter</td>
+<td>2-1/4&quot; barrel</td>
+<td>Standard 10 oz caulk cartridge (1-3/4&quot; inside diameter)</td>
+</tr>
+<tr>
+<td>Mounting</td>
+<td>Threads into its own ratchet handle</td>
+<td>Cradle holds a cartridge; plunger on a toothed rack</td>
+</tr>
+<tr>
+<td>Direct fit?</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody></table>
+<p><strong>Conclusion:</strong> The Shimpo barrel and dies do not drop into the DCE560B. Build a new barrel from 1-1/2&quot; PVC pipe, which matches the size of a standard caulk tube.</p>
+<h2>Parts List</h2>
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Copy/paste name</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Barrel</td>
+<td><code>1-1/2 in. Schedule 40 PVC pipe</code></td>
+<td>Clay chamber. Cut to about 8-1/4&quot; long.</td>
+</tr>
+<tr>
+<td>Die collar</td>
+<td><code>1-1/2 in. PVC coupling</code> (or reducer coupling)</td>
+<td>Holds the die on the front end of the barrel.</td>
+</tr>
+<tr>
+<td>Plunger plug</td>
+<td><code>1/4 in. acrylic sheet</code> (Plexiglas)</td>
+<td>Disc between the gun&#39;s plunger and the clay.</td>
+</tr>
+<tr>
+<td>Hole saw</td>
+<td><code>1-1/2 in. hole saw</code></td>
+<td>Cuts the plunger plug disc.</td>
+</tr>
+<tr>
+<td>Die stock</td>
+<td>Blank Shimpo die or flat acrylic / stainless</td>
+<td>New dies sized to the collar.</td>
+</tr>
+</tbody></table>
+<blockquote class="callout"><p><strong>To verify</strong> before grinding: <mark class="todo">TODO: MEASURE</mark> the actual ID of the purchased PVC pipe and the OD of the DCE560B plunger.</p>
+</blockquote>
+<h2>Build Steps</h2>
+<ol>
+<li><strong>Cut the barrel.</strong> Cut the 1-1/2&quot; PVC to about 8-1/4&quot; long. A standard caulk tube is 8-1/2&quot; long; going slightly shorter lets the plunger enter more easily.</li>
+<li><strong>Bevel the loading end.</strong> Lightly bevel the inside of the back (loading) end so clay and the plunger plug slide in cleanly.</li>
+<li><strong>Make the die collar.</strong> Attach the coupling/reducer to the non-beveled front end so a die can be trapped between the pipe end and the collar.</li>
+<li><strong>Remove and fit the plunger.</strong> Remove the plunger from the gun&#39;s toothed rod by loosening the center screw. Grind or sand the plunger edge until it slides freely inside the PVC ID.</li>
+<li><strong>Cut the plunger plug.</strong> Use the 1-1/2&quot; hole saw to cut an acrylic disc that sits between the plunger and the clay. This keeps clay off the plunger and rack, the same job the plastic plug in a caulk tube does.</li>
+<li><strong>Make dies.</strong> The Shimpo dies are sized for its 2-1/4&quot; barrel and will not seat in the 1-1/2&quot; collar. Either cut new dies from the blank die or acrylic/stainless stock sized to the collar, or turn down existing dies. Put the smooth (chamfered) side of the die facing inward so clay flows through more easily.</li>
+<li><strong>Load and run.</strong> Wedge and roll soft clay into a coil slightly smaller than the barrel ID, feed it into the beveled end leaving room for the plug, drop in the plug, set the barrel in the cradle, and extrude.</li>
+</ol>
+<h2>Use Notes</h2>
+<ul>
+<li><strong>Clay consistency:</strong> Use soft clay. Clay is far denser than caulk or sealant, and stiff clay can overload or bend the plunger and rack.</li>
+<li><strong>Run length:</strong> Expect roughly 7 feet of handle-size extrusion per load (reported by another builder with a similar setup).</li>
+<li><strong>Speed:</strong> Start on the lowest speed dial setting and increase once the extrusion is flowing evenly.</li>
+<li><strong>Straight extrusions:</strong> Lay the gun on the table and guide the extrusion with the free hand, or hold it vertically and extrude toward the floor.</li>
+<li><strong>Drip / creep:</strong> DeWalt&#39;s cordless caulk guns are known for weaker drip control. Expect a little clay creep after releasing the trigger.</li>
+<li><strong>Dual use:</strong> The gun still works as a normal caulk gun with the standard 10 oz cradle.</li>
+</ul>
+<h2>Cleaning</h2>
+<ul>
+<li>Remove the die collar and push remaining clay out with the plunger.</li>
+<li>Let clay dry on dies, then soak so it slakes off.</li>
+<li>Keep the gun body and rack dry; wipe off any slip immediately.</li>
+</ul>
+<h2>Open Questions / To Verify</h2>
+<ul>
+<li><mark class="todo">TODO: MEASURE</mark> DCE570B (29 oz) carriage inside diameter vs. Shimpo 2-1/4&quot; barrel. If it fits, the Shimpo barrel and dies could be reused without the PVC build.</li>
+<li><mark class="todo">TODO: MEASURE</mark> PVC pipe ID and ground plunger fit.</li>
+<li><mark class="todo">TODO: TEST</mark> stiffest clay body the DCE560B handles reliably.</li>
+</ul>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://ceramicartsnetwork.org/ceramics-monthly/ceramics-monthly-article/Tips-and-Tools-Extruder-Conversion-210773">Ceramics Monthly: Tips and Tools, Extruder Conversion</a></li>
+<li><a href="https://community.ceramicartsdaily.org/topic/17893-power-caulk-gun-to-extruder-conversion/">Ceramic Arts Daily forum: Power caulk gun to extruder conversion</a></li>
+<li><a href="https://community.ceramicartsdaily.org/topic/41994-best-handheld-extruder-for-feet-for-large-pots">Ceramic Arts Daily forum: Best handheld extruder for feet</a></li>
+<li><a href="https://community.ceramicartsdaily.org/topic/22970-using-sausage-caulk-guns-18x1-thrust-ratios-as-clay-extruders/">Ceramic Arts Daily forum: Sausage caulk guns as clay extruders</a></li>
+<li><a href="https://www.dickblick.com/categories/clayextruders">Blick: Clay Extruders (Shimpo barrel diameter)</a></li>
+<li><a href="https://www.theceramicshop.com/content/20462/hand-extruder-instructions/">The Ceramic Shop: Handheld Extruder Instructions</a></li>
+<li><a href="https://www.protoolreviews.com/best-caulk-gun-reviews/?p=155362">Pro Tool Reviews: Best Caulk Gun Reviews</a></li>
+</ul>
+
+</div>
+<script>
+document.querySelectorAll("p code, li code, td code").forEach(function(c){
+  c.classList.add("copy");c.title="Tap to copy";
+  c.addEventListener("click",function(){
+    navigator.clipboard.writeText(c.textContent).then(function(){
+      c.classList.add("copied");setTimeout(function(){c.classList.remove("copied")},700)
+    })
+  })
+})
+</script>
+</body>
+</html>
