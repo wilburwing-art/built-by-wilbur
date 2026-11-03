@@ -1,0 +1,258 @@
+{
+  "slug": "marry-me-chicken-noodle-soup",
+  "name": "Marry Me Chicken Noodle Soup",
+  "category": "Dinner",
+  "emoji": "🍲",
+  "desc": "Creamy chicken noodle soup with sun-dried tomatoes, spinach, and Parmesan; all the Marry Me chicken flavors in a cozy pot.",
+  "time": "45 min",
+  "minutes": 45,
+  "difficulty": "Easy",
+  "addedOn": "2026-11-01",
+  "source": {
+    "url": "https://www.tiktok.com/@cookwithauds/video/7697054000876653838",
+    "site": "TikTok @cookwithauds",
+    "title": "Marry Me Chicken Noodle Soup",
+    "matchType": "original",
+    "evidence": "Creator's own video, Audrey Rogers (@cookwithauds; also https://www.instagram.com/cookwithauds/). Ingredient list, servings, times and calories from her Osta Recipes page; directions are the owner's method built from that ingredient list.",
+    "checkedOn": "2026-11-01"
+  },
+  "servings": {
+    "count": 8,
+    "basis": "publisher",
+    "source": "https://ostarecipes.com/recipes/3WALxdHkmLbqwRgbB5U4"
+  },
+  "ingredients": [
+    {
+      "raw": "Chicken + seasoning:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 lbs chicken breasts",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "chicken breasts",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp sun-dried tomato oil (from the jar)",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "sun-dried tomato oil",
+      "prep": null,
+      "note": "from the jar"
+    },
+    {
+      "raw": "4 tsp Italian seasoning",
+      "qty": 4,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "Italian seasoning",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tbsp onion powder",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp garlic powder",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tsp salt",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 tsp black pepper",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "Soup:",
+      "qty": null,
+      "qtyMax": null,
+      "unit": null,
+      "item": null,
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 tbsp butter",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 yellow onion, diced",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": null,
+      "item": "yellow onion",
+      "prep": "diced",
+      "note": null
+    },
+    {
+      "raw": "1 cup carrots, grated",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "carrots",
+      "prep": "grated",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup celery, grated",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "celery",
+      "prep": "grated",
+      "note": null
+    },
+    {
+      "raw": "6 cloves garlic, minced",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null
+    },
+    {
+      "raw": "1/2 cup sun-dried tomatoes, chopped",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "sun-dried tomatoes",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tbsp tomato paste",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tbsp",
+      "item": "tomato paste",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 1/2 tsp chicken bouillon",
+      "qty": 1.5,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "chicken bouillon",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 tsp red pepper flakes",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "tsp",
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "6 cups chicken broth",
+      "qty": 6,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "chicken broth",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1 cup heavy cream",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "2 cups fresh spinach, chopped",
+      "qty": 2,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "fresh spinach",
+      "prep": "chopped",
+      "note": null
+    },
+    {
+      "raw": "1 lb super wide egg noodles",
+      "qty": 1,
+      "qtyMax": null,
+      "unit": "lb",
+      "item": "super wide egg noodles",
+      "prep": null,
+      "note": null
+    },
+    {
+      "raw": "1/2 cup Parmesan, freshly grated",
+      "qty": 0.5,
+      "qtyMax": null,
+      "unit": "cup",
+      "item": "Parmesan",
+      "prep": "freshly grated",
+      "note": null
+    }
+  ],
+  "steps": [
+    "Season the chicken: pat the chicken breasts dry. Rub with the sun-dried tomato oil, then season with the Italian seasoning, onion powder, garlic powder, salt, and black pepper.",
+    "Prep the veggies: dice the onion, grate the carrots and celery, mince the garlic, and chop the sun-dried tomatoes and spinach.",
+    "Brown the chicken: oil a Dutch oven over medium-high heat and add the chicken breasts. Only brown them on both sides; they finish cooking in the soup.",
+    "Remove the chicken breasts to a plate.",
+    "In the same pot, melt the butter, then add the onion, carrots, and celery. Add the sun-dried tomatoes, then the chicken bouillon, then the garlic, then the tomato paste, then the red pepper flakes, stirring between each. Pour in the chicken broth and return the chicken breasts. Cook on medium for 15 to 20 min, until the chicken is cooked through (165°F).",
+    "While the soup cooks, cook the egg noodles in a separate pot per the package and drain.",
+    "Pull the chicken breasts from the pot and shred them with two forks.",
+    "Stir the heavy cream into the pot, then the shredded chicken, then the spinach until it wilts. Serve the soup over the noodles and top with the Parmesan."
+  ],
+  "tips": [
+    "Store the noodles and soup separately so the noodles don't soak up all the broth.",
+    "Do not boil after the cream goes in or it can break.",
+    "About 425 calories per serving, per the creator's page.",
+    "The creator lists 20 min prep and 20 min cook. The directions here are the owner's own method built from her ingredient list; her official step-by-step is paywalled on Osta Recipes."
+  ],
+  "references": [
+    {
+      "url": "https://ostarecipes.com/recipes/3WALxdHkmLbqwRgbB5U4",
+      "site": "Osta Recipes (creator's page, subscription)",
+      "title": "Marry Me Chicken Noodle Soup",
+      "usedFor": "ingredient list, 8 servings, 20 min prep and 20 min cook, 425 calories per serving",
+      "checkedOn": "2026-11-01"
+    }
+  ]
+}
