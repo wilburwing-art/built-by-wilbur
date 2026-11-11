@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Wilbur's Woodshop Manifest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: shop-wall manifest. Ruler header, a two-path fork panel, a compact filter rail, then category lists of tag-like rows. */
+:root{
+  --bg:#eef0ec; --panel:#ffffff; --ink:#1c211e; --muted:#5d665f; --line:#d3d8d1;
+  --accent:#2f6b4f; --accent-soft:#dcebe2; --amber:#a86a12; --amber-soft:#f6ead2;
+  --slate:#3d5a80; --slate-soft:#e0e8f2; --chip:#e3e7e1; --danger:#b23a2b; --danger-soft:#f8e1dd;
+  --display:"Barlow Condensed","Arial Narrow",sans-serif;
+  --body:"IBM Plex Sans",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141816; --panel:#1c211e; --ink:#e6ebe6; --muted:#9aa59c; --line:#2f3732;
+  --accent:#6fbf96; --accent-soft:#213a2d; --amber:#e0a74a; --amber-soft:#3a2d17;
+  --slate:#93b4dc; --slate-soft:#1f2a3a; --chip:#262d29; --danger:#ef8b7b; --danger-soft:#3a1f1b; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141816; --panel:#1c211e; --ink:#e6ebe6; --muted:#9aa59c; --line:#2f3732;
+  --accent:#6fbf96; --accent-soft:#213a2d; --amber:#e0a74a; --amber-soft:#3a2d17;
+  --slate:#93b4dc; --slate-soft:#1f2a3a; --chip:#262d29; --danger:#ef8b7b; --danger-soft:#3a1f1b; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 48px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:1000px;margin:0 auto}
+header{padding-block:28px 18px;border-bottom:2px solid var(--ink)}
+.ruler{height:12px;background:repeating-linear-gradient(90deg,var(--ink) 0 1px,transparent 1px 12px);opacity:.35;margin-bottom:18px}
+h1{font:800 clamp(34px,7vw,56px)/0.95 var(--display);letter-spacing:.01em;margin:0;text-transform:uppercase;text-wrap:balance}
+.sub{color:var(--muted);margin:10px 0 0;max-width:64ch}
+.sync{font:500 12px var(--mono);color:var(--muted);margin-top:10px}
+.sync b{color:var(--accent);font-weight:500}
+.fork{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}
+.path{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px;min-width:0;cursor:pointer;text-align:left;color:var(--ink);font:inherit}
+.path[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.path h3{font:700 22px/1 var(--display);text-transform:uppercase;letter-spacing:.03em;margin:0 0 6px;display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.path h3 small{font:500 12px var(--mono);color:var(--muted);letter-spacing:0;white-space:nowrap}
+.path p{margin:0;color:var(--muted);font-size:14px}
+.path .kpi{margin-top:10px;font:500 13px var(--mono);display:flex;flex-wrap:wrap;gap:4px 14px}
+.core-row{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin-top:12px}
+.core-note{margin:0;font-size:13.5px;color:var(--muted);flex:1 1 300px;min-width:0}
+.corebtn{font:700 15px var(--display);text-transform:uppercase;letter-spacing:.04em;padding:7px 14px;border-radius:6px;border:1px solid var(--line);background:var(--chip);color:var(--ink);cursor:pointer}
+.corebtn[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.controls{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+#q{flex:1 1 220px;min-width:0;font:15px var(--body);padding:8px 12px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink)}
+.count{font:500 13px var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.filters{display:flex;flex-direction:column;gap:8px;margin-top:18px}
+.fg{display:grid;grid-template-columns:84px 1fr;gap:8px;align-items:center}
+.fg>span{font:600 11px var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-block:2px;min-width:0}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;font:600 13px var(--body);border:1px solid var(--line);background:var(--chip);color:var(--ink);padding:5px 11px;border-radius:999px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.chip i{font:500 11px var(--mono);font-style:normal;color:var(--muted)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip[aria-pressed="true"] i{color:var(--bg);opacity:.75}
+.chip.c-portable[aria-pressed="false"]{background:var(--amber-soft);color:var(--amber);border-color:transparent}
+.chip.c-stationary[aria-pressed="false"]{background:var(--slate-soft);color:var(--slate);border-color:transparent}
+.chip:disabled{opacity:.4;cursor:default}
+.jump{display:flex;gap:4px 14px;flex-wrap:wrap;margin-top:14px;font-size:13px}
+.jump a{color:var(--accent);text-decoration:none}
+.jump a i{font:500 11px var(--mono);font-style:normal;color:var(--muted);margin-left:3px}
+section{scroll-margin-top:72px}
+@media (max-width:640px){.fg{grid-template-columns:1fr;gap:4px}}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.legend{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:14px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+section{margin-top:30px}
+h2{font:700 26px/1 var(--display);text-transform:uppercase;letter-spacing:.03em;margin:0 0 4px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+h2 small{font:500 12px var(--mono);color:var(--muted);letter-spacing:0}
+.why{color:var(--muted);margin:0 0 10px;font-size:14px;max-width:72ch}
+.list{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:28px 1fr 56px auto;gap:12px;align-items:start;padding:12px 2px;border-bottom:1px solid var(--line)}
+.row.is-owned .name{color:var(--muted)}
+.row.is-owned .pn{text-decoration:line-through;text-decoration-color:var(--accent)}
+.own{width:22px;height:22px;margin-top:2px;border:2px solid var(--muted);border-radius:4px;background:transparent;cursor:pointer;display:grid;place-items:center;padding:0;color:var(--bg)}
+.own[aria-pressed="true"]{background:var(--accent);border-color:var(--accent)}
+.own svg{width:14px;height:14px}
+.main{min-width:0}
+.name{font-weight:600}
+.pn{font:500 13.5px/1.45 var(--mono);background:var(--accent-soft);padding:2px 6px;border-radius:3px;display:inline;word-break:break-word;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.pn.generic{background:transparent;border:1px dashed var(--line)}
+.note{color:var(--muted);font-size:13.5px;margin-top:4px;max-width:72ch}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.tag{font:600 11px var(--mono);text-transform:uppercase;letter-spacing:.06em;padding:2px 7px;border-radius:3px;border:1px solid var(--line);color:var(--muted)}
+.tag.core{background:var(--chip);color:var(--ink);border-color:transparent}
+.tag.portable{background:var(--amber-soft);color:var(--amber);border-color:transparent}
+.tag.stationary{background:var(--slate-soft);color:var(--slate);border-color:transparent}
+.tag.verified{color:var(--accent);border-color:var(--accent)}
+.qty{font:500 14px var(--mono);font-variant-numeric:tabular-nums;text-align:center;padding-top:1px}
+.qty span{display:block;font:500 10px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.acts{display:flex;flex-direction:column;gap:6px;align-items:stretch;min-width:112px}
+.btn{font:600 12px var(--body);padding:5px 10px;border-radius:5px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer;text-decoration:none;text-align:center;white-space:nowrap}
+a.btn{color:var(--accent)}
+a.btn.primary{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+.rets{display:flex;flex-wrap:wrap;gap:4px 18px;font:500 13px var(--mono);margin-top:6px;color:var(--muted)}
+.rets b{color:var(--ink);font-weight:500}
+.ret{font:600 11px var(--mono);text-transform:uppercase;letter-spacing:.06em;padding:3px 22px 3px 8px;border-radius:3px;border:1px dashed var(--muted);background-color:transparent;color:var(--muted);cursor:pointer;appearance:none;-webkit-appearance:none;background-image:linear-gradient(45deg,transparent 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,transparent 50%);background-position:calc(100% - 11px) 50%,calc(100% - 7px) 50%;background-size:4px 4px;background-repeat:no-repeat}
+.ret option{text-transform:none;color:var(--ink);background:var(--panel)}
+.ret.rs-returned{border-style:solid;border-color:var(--ink);color:var(--bg);background-color:var(--ink)}
+.row.is-returned{opacity:.6}
+.row.is-returned .pn{text-decoration:line-through;text-decoration-color:var(--muted)}
+.ret.rs-planned{border-style:solid;border-color:var(--amber);color:var(--amber);background:var(--amber-soft)}
+.ret.rs-started{border-style:solid;border-color:var(--danger);color:var(--danger);background:var(--danger-soft)}
+.tag.paid{font-variant-numeric:tabular-nums}
+.row.is-ret .pn{text-decoration:line-through;text-decoration-color:var(--danger)}
+.cnote{margin-top:20px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;max-width:78ch}
+.cnote h3{font:700 22px/1 var(--display);text-transform:uppercase;letter-spacing:.03em;margin:0 0 8px}
+.cnote p{margin:4px 0;font-size:14px;color:var(--muted)}
+.cnote b{color:var(--ink)}
+.btn.rmv{color:var(--muted);background:transparent}
+.btn.rmv.armed{color:var(--bg);background:var(--danger);border-color:var(--danger)}
+.storeline{font:500 11px var(--mono);color:var(--muted);text-align:center}
+.empty{color:var(--muted);padding:24px 0}
+footer{margin-top:40px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:14px;display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--accent)}
+@media (max-width:640px){
+  .fork{grid-template-columns:1fr}
+  .row{grid-template-columns:26px 1fr 44px}
+  .acts{grid-column:2 / 4;flex-direction:row;flex-wrap:wrap;min-width:0}
+  .storeline{align-self:center}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="ruler" aria-hidden="true"></div>
+  <h1>Woodshop Manifest</h1>
+  <p class="sub">Every woodworking tool and supply from our past conversations, gathered onto one shop wall: the cabinet kits, milling iron, Japanese hand tools, clamps, dust, sharpening, and the bending ply for the van's curved cabinets. Tick what you own; it is remembered in this browser.</p>
+  <div class="sync" id="sync">Connecting to saved checkmarks…</div>
+  <div class="rets" id="rets"></div>
+
+  <div class="fork" id="fork">
+    <button class="path" data-path="portable" aria-pressed="false" id="path-portable">
+      <h3>Portable shop <small id="k-portable"></small></h3>
+      <p>Track saw, router, and a dog-hole top do the table saw's, jointer's, and miter saw's work. Everything folds into ToughSystem boxes and rides in the Transit. Buy S4S lumber instead of milling it.</p>
+    </button>
+    <button class="path" data-path="stationary" aria-pressed="false" id="path-stationary">
+      <h3>Stationary shop <small id="k-stationary"></small></h3>
+      <p>Table saw, jointer, planer, bandsaw, and a real dust collector stay in the garage. This is the path that turns rough-sawn walnut or your own chainsaw-milled slabs into flat, square stock.</p>
+    </button>
+  </div>
+  <div class="core-row"><button class="corebtn" id="path-core" aria-pressed="false">Show core kit only</button><p class="core-note">Both paths share the core kit: track saw, routers, joinery jigs, clamps, sanding, hand tools, sharpening, layout, safety, and materials. Tap a path card to show core plus that path. <span id="k-core"></span></p></div>
+
+  <div class="legend">
+    <span><span class="tag core">Core</span> needed on either path</span>
+    <span><span class="tag portable">Portable</span> only for the van-ready shop</span>
+    <span><span class="tag stationary">Stationary</span> only for the garage iron shop</span>
+    <span><span class="tag verified">Verified</span> model number confirmed by a live search</span>
+    <span><span class="pn generic">dashed</span> generic search term, no single model</span>
+  </div>
+</header>
+
+<div class="filters" id="filters" aria-label="Filters"></div>
+<nav class="jump" id="jump" aria-label="Jump to category"></nav>
+<div class="controls">
+  <input id="q" type="search" placeholder="Filter by name or model" aria-label="Filter tools">
+  <span class="count" id="count"></span>
+  <button class="btn" id="clear" type="button">Clear filters</button>
+</div>
+
+<div class="cnote" id="cnote" hidden>
+  <h3>Compact router shop</h3>
+  <p><b>Covered:</b> sheet goods, square crosscuts, miters, dados, rabbets, edge profiles, and template work.</p>
+  <p><b>Rough lumber:</b> flattening sled for the first face, or buy S4S for face frames and edging. The track saw trues edges with a straight-line rip.</p>
+  <p><b>Curves:</b> cut proud with the DCS334B, then flush-trim against an MDF template. A benchtop bandsaw only wins on tight radii and resawing.</p>
+  <p><b>Small parts:</b> the weak spot. Plan parallel guides, a coping sled, and push blocks before buying more tools.</p>
+  <p>Planer, bandsaw, and push block show here as the optional fixes for those gaps. Role filters are relaxed in this view so every table and saw option appears.</p>
+</div>
+<main id="out"></main>
+
+<footer>
+  <div>Prices are left off because none were re-verified today. A <b>Verified</b> tag means the model number was confirmed by a live search, either in a past chat or on Nov 5, 2026. Untagged model numbers came from earlier chats without a live check, so confirm the listing before you buy.</div>
+  <div>Owned items come from Home Depot order history, Nov 5, 2026. Use the status menu on any owned row to set Keeping, Plan to return, Return started, or Returned. Returned items stay on the list as a record of the refund but no longer count as owned; tick the box again if you rebuy one. Correction from the Nov 5 check: the DEWALT DCS578B is the 60V sidewinder circular saw with an electric brake, not a worm-drive-style saw.</div>
+  <div>Source chats: cabinet tool kits (Oct 30), clamp set (Oct 28), Japanese hammer and tool roll (Oct 12), drying milled wood (Sep 25), cordless HEPA extractor (Sep 24), bending plywood for van curves (Aug 17), best-in-class list and portable woodshop v2 (Jul 7), $5k Home Depot starter set (Jul 7), DeWalt haul audit (Jun 13), track saw vs circular saw (Jun 10). Chats inside the Tools and Dream van build projects were not searchable and are not included.</div>
+</footer>
+</div>
+
+<script>
+// [id, cat, name, copy, path, role, qty, store, verified, generic, note]
+const CATS=[
+ ["compact","Compact router shop","Track saw, router, and a folding dog-hole top. Pick one track saw; the table follows the rail. Tap Compact router shop under Setup to see this whole kit, including the tools from other categories it relies on."],
+ ["cut","Sheet breakdown and cutting","Baltic birch sheets come apart on the track saw over a foam bed. On the stationary path, the table saw takes the narrow rips and dados."],
+ ["mill","Milling rough lumber","Only for the stationary path. Plywood and S4S lumber skip all of this."],
+ ["route","Routers and bits","The router does the most jobs per dollar: rabbets, dados, flush trimming, and template-routing curved parts."],
+ ["join","Joinery and hardware jigs","Pocket holes and dowels cover most carcass joinery. The Kreg hardware jigs set drawer slides and cup hinges dead square."],
+ ["drill","Drilling and driving",""],
+ ["dust","Sanding and dust","Fine hardwood and MDF dust shares the garage with pottery silica, so extraction is a health purchase."],
+ ["bench","Bench and workholding","Glue-ups and bent laminations eat clamps fast. Counts are minimums."],
+ ["hand","Japanese hand tools and storage","Built around the BlackBros chisels and the 12 in pull saw already in the canvas bag."],
+ ["plane","Planes and fitting",""],
+ ["sharp","Sharpening",""],
+ ["layout","Layout and measuring",""],
+ ["mat","Sheet goods, glue, and finish","For the van's curved uppers and lowers. Intermountain Wood Products, 3050 S 900 W, stocks bending ply and Baltic birch."],
+ ["safe","Safety",""],
+ ["batt","Batteries","60V packs feed the saws and extractor. Light 20V packs go on handheld tools."]
+];
+const I=[
+ ["dcs525b", "compact", "20V plunge track saw", "DEWALT DCS525B 20V MAX XR 6-1/2 in Plunge Track Saw (Tool Only)", "core", "primary", 1, "amz", 1, 0, "Listed at $429.00 pre-sale at Ohio Power Tool, ToolUp, and Burns Tools, with an estimated ship date of 11/03/2026 to 11/10/2026 (from the attached chat). Bare tool: no battery, charger, or track. DCS525ST adds two 30 in tracks. Wireless tool control can start a compatible DeWalt vac."],
+ ["dws5130", "compact", "30 in dual-sided track", "DEWALT DWS5130 30 in Track", "core", "primary", 2, "amz", 1, 0, "DeWalt's 1/32 in accuracy claim is measured on this track. Check whether your DWS5023 102 in track fits the DCS525B before buying longer rails."],
+ ["mft", "compact", "Festool multifunction table", "Festool 495315 MFT/3 Multifunction Table", "portable", "alternate", 1, "wc", 1, 0, "Built around Festool's FS rail and hinged rail bracket. Festool makes no router insert for it. Check that a DeWalt track fits the bracket."],
+ ["acs", "compact", "Kreg project table top", "Kreg ACS-TTOP Adaptive Cutting System Project Table Top", "portable", "alternate", 1, "hd", 1, 0, "Designed around Kreg's own track. The base is sold separately as ACS-TBASE."],
+ ["dwst", "compact", "Folding base", "DEWALT DWST11556 Express Folding Workbench", "portable", "primary", 1, "hd", 1, 0, "33 x 24 in plastic top with no dog holes or rail hinge. Use it as the folding base under a shop-made top."],
+ ["diytop", "compact", "Shop-made dog-hole top", "3/4 in Baltic birch plywood MFT top 20mm dog holes", "portable", "primary", 1, "yard", 0, 1, "Bore the 20mm grid with the UJK Parf guide or a router template."],
+ ["rplate", "compact", "Router plate insert", "router table insert plate", "portable", "primary", 1, "amz", 0, 1, "Cut into one end of the shop-made top to get the router table the MFT/3 lacks."],
+ ["sled", "compact", "Router flattening sled", "router flattening sled", "portable", "primary", 1, "amz", 0, 1, "Build it yourself. Flattens the first face of wide slabs. A planer only makes the second face parallel, so S4S hardwood may let you skip both."],
+ ["coping", "compact", "Coping sled", "router table coping sled", "portable", "primary", 1, "amz", 0, 1, "Holds short and narrow parts on the router table."],
+ ["pipe", "compact", "Pipe clamps", "pipe clamps 3/4 in", "core", "primary", 12, "hd", 0, 1, "Owned: a dozen. Good for glue-ups. The track and dog-hole top still need quick F-clamps or rail clamps."],
+ ["vacad", "compact", "Vac hose adapters", "dust extractor hose adapter kit", "core", "primary", 1, "amz", 0, 1, "Router dust port first, then the track saw. Routing edge profiles is the worst dust source."],
+ ["ts", "cut", "Track saw kit", "DEWALT DCS520ST1 60V MAX FLEXVOLT 6-1/2 in Track Saw Kit with 59 in Track", "core", "primary", 1, "hd", 1, 0, "Cuts 2-1/8 in deep at 90 degrees. Bare tool is DCS520B since FlexVolt batteries are on hand."],
+ ["ts102", "cut", "Long track for full 8 ft rips", "DEWALT DWS5023 102 in Track Saw Track", "core", "primary", 1, "hd", 1, 0, ""],
+ ["tsclamp", "cut", "Track clamps", "DEWALT DWS5026 Track Saw Clamps", "core", "primary", 1, "hd", 1, 0, "One pack."],
+ ["rail", "cut", "Rail square", "TSO Products GRS-16 PE Guide Rail Square", "portable", "primary", 1, "amz", 0, 0, "Locks square crosscuts so the track saw covers miter work on wide stock."],
+ ["pguide", "cut", "Parallel guides", "POWERTEC 71393 Parallel Guide System", "portable", "primary", 1, "amz", 0, 0, "Repeatable rip widths, standing in for a table saw fence."],
+ ["pguide2", "cut", "Parallel guides, premium", "TSO Products TPG Parallel Guide System", "portable", "upgrade", 1, "amz", 0, 0, ""],
+ ["bora", "cut", "Folding cutting stand", "Bora Centipede CK6S Work Stand", "core", "primary", 1, "hd", 0, 0, "Folds flat for the Transit. CK9S is the larger version."],
+ ["foam", "cut", "Sacrificial cutting bed", "2 in rigid foam insulation board 4x8", "core", "primary", 1, "hd", 0, 1, ""],
+ ["jig", "cut", "Jigsaw", "DEWALT DCS334B 20V MAX XR Jigsaw", "core", "primary", 1, "hd", 1, 0, "Rough-cuts curves and bending forms before router trimming."],
+ ["tsaw", "cut", "10 in table saw", "DEWALT DWE7491RS 10 in Jobsite Table Saw with Rolling Stand", "stationary", "primary", 1, "hd", 1, 0, "Takes a full dado stack."],
+ ["tsaw60", "cut", "Cordless table saw", "DEWALT DCS7485T1 60V MAX FLEXVOLT 8-1/4 in Table Saw Kit", "stationary", "alternate", 1, "hd", 1, 0, "24 in rip, 45 lb bare, battery powered. No full dado stack."],
+ ["dado", "cut", "Dado stack", "Freud SD208S 8 in Dado Set", "stationary", "primary", 1, "amz", 0, 0, "Corded 10 in saw only."],
+ ["zci", "cut", "Zero-clearance insert", "zero clearance insert for DEWALT DWE7491RS", "stationary", "primary", 1, "amz", 0, 1, ""],
+ ["blade50", "cut", "Combination blade", "Diablo 10 in 50T combination saw blade", "stationary", "primary", 1, "hd", 0, 0, ""],
+ ["blade80", "cut", "Fine-finish blade", "Diablo 10 in 80T fine finish saw blade", "stationary", "primary", 1, "hd", 0, 0, "Clean plywood crosscuts."],
+ ["miter", "cut", "12 in sliding miter saw", "DEWALT DCS781B 60V MAX 12 in Double Bevel Sliding Miter Saw", "stationary", "primary", 1, "hd", 1, 0, "Face frames, edge banding stock, trim."],
+ ["miter7", "cut", "Compact sliding miter saw", "DEWALT DCS361B 20V MAX 7-1/4 in Sliding Miter Saw", "portable", "upgrade", 1, "hd", 0, 0, "Only if narrow-stock crosscuts get slow on the track saw."],
+ ["circ", "cut", "60V circular saw", "DEWALT DCS578B 60V MAX Brushless 7-1/4 in Circular Saw with Brake", "core", "alternate", 1, "hd", 1, 0, "Sidewinder with brake. The combo kit's 20V circular saw already covers freehand rough cuts."],
+ ["kcirc", "cut", "20V 6-1/2 in circular saw (combo kit)", "DEWALT 20V MAX 6-1/2 in Circular Saw", "core", "backup", 1, "hd", 0, 0, "Owned, from the 6-tool ToughSystem combo kit. Takes the Diablo 6-1/2 in blades."],
+ ["kmulti", "cut", "Oscillating multi-tool (combo kit)", "DEWALT ATOMIC 20V MAX Oscillating Multi-Tool", "core", "primary", 1, "hd", 0, 0, "Owned, from the combo kit. Flush cuts and van fitment work."],
+ ["kgrind", "cut", "4.5 in angle grinder (combo kit)", "DEWALT 20V MAX XR 4.5 in Small Angle Grinder", "core", "backup", 1, "hd", 0, 0, "Owned, from the combo kit. Takes carving and shaping discs for rough curves."],
+ ["d24", "cut", "6-1/2 in framing blade", "DIABLO D0624X 6-1/2 in 24T Framing Circular Saw Blade", "core", "backup", 1, "hd", 1, 0, "Owned. Fits the combo kit circular saw. Does not fit the DCS520 track saw (20mm arbor)."],
+ ["d60", "cut", "6-1/2 in finish blade", "DIABLO D0660X 6-1/2 in 60T Ultra Finish Circular Saw Blade", "core", "backup", 1, "hd", 1, 0, "Owned. Fits the combo kit circular saw, not the track saw."],
+ ["planer", "mill", "13 in planer with stand", "DEWALT DW735XW7350 13 in Planer with Mobile Stand", "stationary", "primary", 1, "hd", 1, 0, "Bare planer is DEWALT DW735X."],
+ ["jointer", "mill", "8 in spiral jointer", "WEN JT833H 8 in Spiral Benchtop Jointer", "stationary", "primary", 1, "hd", 1, 0, "16 staggered carbide inserts."],
+ ["jointer6", "mill", "6 in spiral jointer", "WEN JT630H 6 in Spiral Benchtop Jointer", "stationary", "alternate", 1, "hd", 0, 0, "Smaller and cheaper."],
+ ["bsaw", "mill", "Benchtop bandsaw", "WEN 3962 Two-Speed Band Saw with Stand and Worklight", "stationary", "primary", 1, "hd", 0, 0, "Curves and light resawing."],
+ ["bsaw14", "mill", "14 in resaw bandsaw", "Laguna 14BX 2.5HP Bandsaw", "stationary", "upgrade", 1, "wc", 0, 0, ""],
+ ["rblade", "mill", "Resaw blade", "Timber Wolf 1/2 in 3 TPI bandsaw blade", "stationary", "primary", 1, "amz", 0, 0, "Match blade length to the saw."],
+ ["chainsaw", "mill", "60V 20 in chainsaw", "DEWALT DCCS677B FLEXVOLT 60V MAX 20 in Brushless Chainsaw", "stationary", "primary", 1, "hd", 0, 0, "Bundle with case, extra bar, and chain. Shipped back Nov 6, 2026."],
+ ["cbar", "mill", "Spare 20 in bars", "DEWALT 20 in 3/8 in Pitch Replacement Chainsaw Bar", "stationary", "primary", 2, "hd", 0, 0, "One came in the chainsaw bundle; one bought separately. Both shipped back Nov 6, 2026."],
+ ["cchain", "mill", "Spare 20 in chains", "DEWALT DWC120 20 in 3/8 Pitch 0.050 Gauge 68 Link Chainsaw Chain", "stationary", "primary", 2, "hd", 0, 0, "One came in the chainsaw bundle; one bought separately. Both shipped back Nov 6, 2026."],
+ ["coil", "mill", "Bar and chain oil", "POWERCARE AP99500 1 qt Bar and Chain Oil", "stationary", "primary", 2, "hd", 0, 0, "Owned: two."],
+ ["vguide", "mill", "Vertical cutting guide", "SKYSHALO V2-6 Chainsaw Mill Vertical Lumber Cutting Guide", "stationary", "primary", 1, "hd", 0, 0, "Owned. Cuts 2 to 6 in boards."],
+ ["peeler", "mill", "Log debarker", "WRIGHTMASTER WM-LPD Log Peeler Chainsaw Debarker Attachment", "stationary", "primary", 1, "hd", 0, 0, "Owned. Strip bark before stacking to keep beetles out."],
+ ["csmill", "mill", "Chainsaw mill", "Granberg Alaskan MKIV Chainsaw Mill", "stationary", "upgrade", 1, "amz", 0, 0, "Slabbing wide logs. The SKYSHALO guide covers narrow boards now."],
+ ["seal", "mill", "End-grain sealer", "Anchorseal 2 Hybrid Log and Lumber End Grain Sealer 1 gallon", "stationary", "primary", 1, "amz", 0, 0, ""],
+ ["mm", "mill", "Pinless moisture meter", "Wagner Meters Orion 910 Pinless Wood Moisture Meter", "stationary", "primary", 1, "amz", 0, 0, "Interior work wants 6 to 8 percent."],
+ ["mm2", "mill", "Pin moisture meter", "General Tools MMD4E Digital Moisture Meter", "stationary", "alternate", 1, "amz", 0, 0, ""],
+ ["dc", "mill", "Dust collector", "WEN DC1300 1300 CFM Dust Collector", "stationary", "primary", 1, "hd", 0, 0, "A planer buries a shop vac in minutes."],
+ ["cyc", "mill", "Cyclone separator", "POWERTEC 70000 Dust Cyclone Separator", "stationary", "primary", 1, "amz", 0, 0, ""],
+ ["hose", "mill", "Collection hose and blast gates", "4 in dust collection hose and blast gates kit", "stationary", "primary", 1, "amz", 0, 1, ""],
+ ["rcomp", "route", "Compact router", "DEWALT DCW600B 20V MAX XR Compact Router", "core", "primary", 1, "hd", 0, 0, "Edge profiles, rabbets, flush trimming."],
+ ["rmid", "route", "Mid-size router", "DEWALT DCW620B 20V MAX XR Mid-Size Router", "portable", "primary", 1, "hd", 0, 0, "Heavier dados and template work handheld."],
+ ["rmak", "route", "Corded compact router", "Makita RT0701C Compact Router", "core", "backup", 1, "amz", 0, 0, "Corded backup. Its 65mm body fits a Gordix CNC later."],
+ ["r618", "route", "Full-size router combo", "DEWALT DW618PK Fixed/Plunge Base Router Combo Kit", "stationary", "primary", 1, "hd", 0, 0, "Fixed base lives in the router table."],
+ ["rtable", "route", "Router table", "Kreg PRS2100 Benchtop Router Table", "stationary", "primary", 1, "hd", 0, 0, "The cabinet-kit chat named the Kreg PRS1045; the PRS2100 is the benchtop pick from the July list."],
+ ["ryobibits", "route", "24-piece router bit set", "RYOBI A252401 24-Piece Router Bit Set", "core", "primary", 1, "hd", 1, 0, "Owned. 1/4 in shank, fits the DCW600B. Straight, flush trim, roundover, rabbeting, chamfer, cove, ogee, dovetail, core box, V-groove, keyhole, and mortising bits. Take light passes with the 3/4 in and larger bits on a compact router."],
+ ["bstr", "route", "Straight bit set", "1/4 in shank straight router bit set", "core", "primary", 1, "amz", 0, 1, "Covered by your RYOBI A252401 set: 1/4, 3/8, 1/2, and 3/4 in straight bits."],
+ ["bflush", "route", "Flush trim bit", "flush trim router bit 1/4 in shank bearing", "core", "primary", 1, "amz", 0, 1, "Covered by your RYOBI A252401 set: 1/2 in flush trim bit. Ryobi's listing doesn't state the bearing, so check the bit has one before template work."],
+ ["bround", "route", "Roundover bit", "1/8 in roundover router bit", "core", "primary", 1, "amz", 0, 1, "Covered by your RYOBI A252401 set, which also has 1/4, 3/8, and 1/2 in roundovers."],
+ ["bdado", "route", "Plywood dado bit", "Freud 16-103 23/32 in Mortising Bit 1/4 in Shank", "core", "primary", 1, "amz", 1, 0, "Needs a 1/4 in shank for the DCW600B. Home Depot's Diablo DR16116 ($26.57) and DR12150 ($23.53) and the DR89650 set ($79.97, Nov 10, 2026) are all 1/2 in shank; they fit the DW618PK, not the compact router."],
+ ["bspiral", "route", "Upcut spiral bit", "1/2 in shank 1/4 in upcut spiral bit", "core", "primary", 1, "amz", 0, 1, ""],
+ ["brs", "route", "Rail and stile set", "rail and stile router bit set 1/2 in shank", "stationary", "primary", 1, "amz", 0, 1, "Frame and panel doors."],
+ ["bwhite", "route", "Quality bit set", "Whiteside 401 Router Bit Set", "core", "upgrade", 1, "amz", 0, 0, ""],
+ ["dove", "route", "Dovetail jig", "Porter-Cable 4216 Dovetail Jig", "core", "upgrade", 1, "amz", 0, 0, "Premium: Leigh RTJ400."],
+ ["kreg720", "join", "Pocket-hole jig", "Kreg Pocket-Hole Jig 720PRO", "core", "primary", 1, "hd", 0, 0, ""],
+ ["kreg320", "join", "Van pocket-hole jig", "Kreg 320 Pocket-Hole Jig", "portable", "backup", 1, "hd", 0, 0, "Pocket-size kit for jobs away from the garage."],
+ ["kscrew", "join", "Pocket screws", "Kreg 1-1/4 in fine thread pocket screws", "core", "primary", 1, "hd", 0, 0, "Fine thread for plywood."],
+ ["kslide", "join", "Drawer slide jig", "Kreg Drawer Slide Mounting Jig", "core", "primary", 1, "hd", 0, 0, ""],
+ ["khinge", "join", "Concealed hinge jig", "Kreg Concealed Hinge Jig KHI-HINGE", "core", "primary", 1, "hd", 1, 0, ""],
+ ["kshelf", "join", "Shelf pin jig", "Kreg Shelf Pin Jig KMA3200", "core", "primary", 1, "hd", 1, 0, ""],
+ ["eband", "join", "Edge banding trimmer", "double sided edge banding trimmer", "core", "primary", 1, "amz", 0, 1, ""],
+ ["biscuit", "join", "Biscuit joiner", "DEWALT DCW682B 20V MAX XR Brushless Biscuit Joiner", "core", "alternate", 1, "hd", 1, 0, "Alignment more than strength. Dowels do the same job."],
+ ["biscuits", "join", "Biscuits", "#20 beech wood biscuits 1000 pack", "core", "alternate", 1, "amz", 0, 1, "Only with the biscuit joiner."],
+ ["dowel", "join", "Doweling jig", "Dowelmax Classic Doweling Jig", "core", "primary", 1, "amz", 0, 0, "Budget: Milescraft 1319 JointMate."],
+ ["mpal", "join", "Loose tenon jig", "Mortise Pal loose tenon jig", "core", "alternate", 1, "amz", 0, 0, ""],
+ ["domino", "join", "Loose tenon joiner", "Festool Domino DF 500 Q-Plus", "core", "upgrade", 1, "wc", 0, 0, ""],
+ ["drill", "drill", "Hammer drill (combo kit)", "DEWALT ATOMIC 20V MAX 1/2 in Hammer Drill", "core", "primary", 1, "hd", 0, 0, "Owned. The 6-tool ToughSystem combo kit also holds an ATOMIC impact driver, 4.5 in angle grinder, 2Ah and 5Ah batteries, a 4A charger, and a ToughSystem 2.0 rolling toolbox."],
+ ["impact", "drill", "Impact driver", "DEWALT DCF850B 20V MAX ATOMIC Impact Driver", "core", "primary", 1, "hd", 0, 0, "Owned. You now have three impact drivers: this one, the combo kit ATOMIC, and the raffle DCF845."],
+ ["dcd806", "drill", "XR hammer drill (raffle kit)", "DEWALT DCD806 20V MAX XR Brushless 1/2 in Hammer Drill", "core", "primary", 1, "hd", 1, 0, "Won in a raffle, part of DCK250QQ2. Two speeds, 0 to 650 and 0 to 2,000 RPM. Your second hammer drill with the combo kit ATOMIC."],
+ ["dcf845", "drill", "XR impact driver (raffle kit)", "DEWALT DCF845 20V MAX XR Brushless 1/4 in 3-Speed Impact Driver", "core", "primary", 1, "hd", 1, 0, "Won in a raffle, part of DCK250QQ2. 1,825 in-lbs, 3,400 RPM."],
+ ["bits", "drill", "Driver bits and holders", "DEWALT DWMF35SET MAXFIT ULTRA 35-Piece Bit Set", "core", "primary", 1, "hd", 0, 0, "Owned. Also own DW2054 and Milwaukee 48-32-4502 magnetic holders and a DWMF3ID bit."],
+ ["ryobi", "drill", "Impact bit holder sets", "RYOBI AR2013G Impact Rated Bit Holder Set (3-Piece)", "core", "backup", 2, "hd", 0, 0, "Two sets."],
+ ["comp", "drill", "Pancake compressor", "DEWALT DWFP55125 2.5 Gal 140 psi Pancake Air Compressor", "core", "primary", 1, "hd", 0, 0, "Owned. Runs a brad nailer and blows out dust. The DXCM2520B from June is also on hand."],
+ ["dguide", "drill", "Drill guide", "Milescraft 1318 DrillMate Drill Guide", "portable", "primary", 1, "hd", 0, 0, "Square holes without a drill press."],
+ ["dpress", "drill", "Benchtop drill press", "WEN 4214T 12 in Variable Speed Drill Press", "stationary", "primary", 1, "hd", 0, 0, ""],
+ ["ros", "dust", "Random orbit sander (combo kit)", "DEWALT 20V MAX 5 in Random Orbital Sander", "core", "primary", 1, "hd", 0, 0, "Owned, from the combo kit."],
+ ["ros2", "dust", "Corded random orbit sander", "DEWALT DWE6423K Random Orbit Sander", "core", "backup", 1, "hd", 0, 0, "For long bench sessions."],
+ ["discs", "dust", "Sanding discs", "5 in 8 hole hook and loop sanding discs 80 120 180 220", "core", "primary", 1, "hd", 0, 1, "Mesh option: Mirka Abranet 5 in."],
+ ["hepa", "dust", "Cordless HEPA extractor", "DEWALT DCV585B FLEXVOLT 60V MAX Dust Extractor", "core", "alternate", 1, "hd", 1, 0, "Being replaced by the DXCVXA06B."],
+ ["vac06", "dust", "20V cordless 6 gal wet/dry vac", "DEWALT DXCVXA06B 20V MAX Cordless 6 Gallon 4 HP Wet/Dry Vacuum", "core", "primary", 1, "amz", 1, 0, "Planned buy, replacing the DCV585B. Tool only, with semi-automatic filter cleaning and a 9 ft locking hose. Listings found at Amazon, Lowe's, and Acme Tools; check the filter rating for fine wood and silica dust."],
+ ["dwv9000", "dust", "Sander hose adapter", "DEWALT DWV9000 Universal Quick Connector", "core", "primary", 1, "hd", 1, 0, "Bought for the DCV585B hose. Confirm it fits the DXCVXA06B hose before buying."],
+ ["hvac", "dust", "Handheld vac", "DEWALT DCV501HB 20V Handheld Vacuum", "core", "backup", 1, "hd", 0, 0, "Cleanup only."],
+ ["vac581", "dust", "Wet-dry vac", "DEWALT DCV581H Wet-Dry Vacuum", "core", "alternate", 1, "hd", 0, 0, "Pair with an Oneida Dust Deputy DIY Cyclone on a bucket."],
+ ["dwv012", "dust", "Corded extractor", "DEWALT DWV012 10 Gallon Dust Extractor", "stationary", "alternate", 1, "hd", 0, 0, ""],
+ ["fsm", "bench", "Small F-clamps", "Bessey GSCC4PK-C", "core", "primary", 1, "hd", 1, 0, "Pack of four: two 6 in, two 12 in."],
+ ["f24", "bench", "24 in F-clamps", "Bessey GSCC2.524", "core", "primary", 2, "hd", 1, 0, ""],
+ ["p24", "bench", "24 in parallel clamps", "Bessey KRE3524 K-Body REVO", "core", "primary", 4, "hd", 1, 0, "Lighter option: Bessey KRJR-24, 900 lb vs 1700 lb."],
+ ["p40", "bench", "40 in parallel clamps", "Bessey KRE3540 K-Body REVO", "core", "primary", 2, "hd", 1, 0, ""],
+ ["p50", "bench", "50 in parallel clamps", "Bessey KRE3550 K-Body REVO", "core", "primary", 2, "amz", 1, 0, "Confirmed at several retailers; Home Depot listing not confirmed."],
+ ["band", "bench", "Band clamps", "POWERTEC band clamp 2 pack", "core", "primary", 1, "hd", 1, 0, "Round legs and splayed frames."],
+ ["trig", "bench", "Trigger clamps", "DEWALT DWHT83192 Trigger Clamps", "core", "primary", 1, "hd", 0, 0, ""],
+ ["cab", "bench", "Cabinet clamps", "Bessey cabinet clamps", "stationary", "primary", 4, "amz", 0, 1, ""],
+ ["sq", "bench", "Assembly squares", "Rockler Clamp-It Assembly Square", "core", "primary", 4, "amz", 0, 0, ""],
+ ["cauls", "bench", "Cauls", "curved clamping cauls", "core", "primary", 4, "amz", 0, 1, "Spread pressure on veneer and panel glue-ups."],
+ ["parf", "bench", "Dog-hole top guide", "UJK Parf Guide System Mark II", "portable", "primary", 1, "amz", 0, 0, "Drill your own MFT-style top. This is the portable path's workbench."],
+ ["roubo", "bench", "Garage workbench", "Benchcrafted Split Top Roubo Bench Kit", "stationary", "upgrade", 1, "amz", 0, 0, "Shop-built torsion box assembly table is the cheaper primary."],
+ ["torsion", "bench", "Assembly table", "torsion box assembly table plans", "stationary", "primary", 1, "amz", 0, 1, "Built from 3/4 in MDF or Baltic birch."],
+ ["light", "bench", "Shop light", "FEIT ELECTRIC ADJ4000/5K/LED 400W Equivalent Adjustable Garage Light", "core", "primary", 1, "hd", 0, 0, "Owned."],
+ ["vise", "bench", "Bench vise", "Eclipse 9 in Quick Release Vise", "stationary", "primary", 1, "amz", 0, 0, ""],
+ ["chisel", "hand", "Bench chisels", "BlackBros chisels 1/2 to 1 in", "core", "primary", 1, "amz", 0, 0, "Owned. Steel striking caps, safe to hit with a genno."],
+ ["buck", "hand", "Beater chisels", "BUCK BROS. Economy Wood Chisel Set (3-Piece)", "core", "backup", 1, "hd", 0, 0, "Owned. Good for chopping around nails and glue squeeze-out."],
+ ["pullsaw", "hand", "Pull saw", "Japanese pull saw 6 in blade", "core", "primary", 1, "amz", 0, 1, "The 12 in overall saw in the bag."],
+ ["genno8", "hand", "Genno hammer", "KAKURI Chisel Hammer 8 oz (225g) Japanese Woodworking Carpenter Hammer", "core", "primary", 1, "amz", 1, 0, "Matches the 1/2 to 1 in chisels."],
+ ["genno13", "hand", "Heavy genno", "KAKURI Chisel Hammer GENNO 13 oz (375g) Japanese Woodworking Carpenter Hammer", "core", "upgrade", 1, "amz", 1, 0, "For deep mortises."],
+ ["croll", "hand", "Chisel roll", "Japanese canvas chisel roll", "core", "primary", 1, "amz", 0, 1, "Hardwick and Sons makes a 20-pouch version."],
+ ["sroll", "hand", "Saw roll", "Gyokucho Small Japanese Saw Roll Canvas 350mm 5 Compartments", "core", "primary", 1, "amz", 1, 0, "Fits the 12 in saw; blade range 125 to 200mm."],
+ ["ryoba", "hand", "Ryoba combination saw", "Gyokucho Razorsaw Ryoba 240mm", "core", "primary", 1, "amz", 0, 0, "Value pick: Suizan Ryoba 9.5 Inch."],
+ ["dozuki", "hand", "Dozuki joinery saw", "Gyokucho Razorsaw Dozuki 240mm", "core", "primary", 1, "amz", 0, 0, ""],
+ ["kebiki", "hand", "Marking gauge", "Japanese kebiki marking gauge single blade", "core", "primary", 1, "amz", 0, 1, ""],
+ ["knife", "hand", "Marking knife", "Japanese shirabiki marking knife", "core", "primary", 1, "amz", 0, 1, ""],
+ ["shinwa", "hand", "Carpenter square", "Shinwa 12 inch stainless steel carpenter square 62081", "core", "primary", 1, "amz", 0, 0, ""],
+ ["oire", "hand", "Japanese chisel set", "Japanese oire nomi bench chisel set 24mm 12mm 6mm", "core", "upgrade", 1, "amz", 0, 1, ""],
+ ["block", "plane", "Low-angle block plane", "WoodRiver Low Angle Block Plane", "core", "primary", 1, "wc", 0, 0, "Premium: Veritas DX60 or Lie-Nielsen 60-1/2."],
+ ["no4", "plane", "No. 4 smoothing plane", "WoodRiver No. 4 Bench Plane V3", "stationary", "primary", 1, "wc", 1, 0, "Premium: Lie-Nielsen No. 4 Smoothing Plane."],
+ ["scraper", "plane", "Card scrapers", "card scraper set", "stationary", "primary", 1, "amz", 0, 1, ""],
+ ["narex", "plane", "Western chisel set", "Narex Richter bench chisel set 4 piece", "portable", "backup", 1, "amz", 0, 0, "A second set that lives in the van."],
+ ["stones", "sharp", "Whetstones", "Shapton Kuromaku 1000 and 5000 ceramic whetstone", "core", "primary", 1, "amz", 0, 0, ""],
+ ["atoma", "sharp", "Flattening plate", "Atoma 140 diamond plate", "core", "primary", 1, "amz", 0, 0, ""],
+ ["honing", "sharp", "Honing guide", "Veritas Mk.II Honing Guide", "core", "upgrade", 1, "wc", 0, 0, ""],
+ ["empire12", "layout", "Combination square", "EMPIRE e250 12 in Combination Square", "core", "primary", 1, "hd", 0, 0, "Owned."],
+ ["combo", "layout", "Precision combination square", "Starrett 12 in combination square", "core", "upgrade", 1, "amz", 0, 0, "Buy-once upgrade over the Empire. Alt: Woodpeckers 12 in."],
+ ["speed", "layout", "Rafter square", "EMPIRE e2992 7 in Laser Etched Aluminum Rafter Square", "core", "primary", 1, "hd", 0, 0, "Owned. Fills the speed-square slot."],
+ ["tape", "layout", "Tape measure", "Stanley FatMax 25 ft tape measure", "core", "primary", 1, "hd", 0, 0, ""],
+ ["wp", "layout", "Precision square", "Woodpeckers 1281R Precision Square", "core", "upgrade", 1, "amz", 0, 0, "Budget: iGaging 4 in Double Square."],
+ ["multi", "layout", "Multi-mark", "Kreg KMA2900 Multi-Mark", "core", "primary", 1, "hd", 0, 0, ""],
+ ["tite", "layout", "Wheel marking gauge", "Tite-Mark Marking Gauge", "core", "upgrade", 1, "amz", 0, 0, ""],
+ ["bply", "mat", "Bending plywood", "3/8 in bending plywood", "core", "primary", 1, "yard", 0, 1, "Two to three layers per curved panel. Mind barrel vs column grain."],
+ ["bpop", "mat", "Face veneer", "3mm bending poplar plywood", "core", "primary", 1, "yard", 0, 1, "Visible curved faces."],
+ ["kerf", "mat", "Kerf-bend panel", "Kerfkore flexible panel", "core", "alternate", 1, "yard", 0, 0, ""],
+ ["bb", "mat", "Structural sheets", "3/4 in Baltic birch plywood 5x5", "core", "primary", 1, "yard", 0, 1, "Flat carcass panels and bed platform."],
+ ["mdf", "mat", "Bending form stock", "3/4 in MDF sheet 4x8", "core", "primary", 1, "hd", 0, 1, ""],
+ ["unibond", "mat", "Lamination glue", "Unibond 800 urea resin glue", "core", "primary", 1, "amz", 0, 0, "Low springback. Alt: Titebond III Ultimate Wood Glue."],
+ ["tb2", "mat", "General wood glue", "Titebond II Premium Wood Glue gallon", "core", "primary", 1, "hd", 0, 0, ""],
+ ["spread", "mat", "Glue spreaders", "silicone glue spreader brush kit", "core", "primary", 1, "amz", 0, 1, ""],
+ ["finish", "mat", "Interior finish", "water-based polyurethane satin quart", "core", "primary", 1, "hd", 0, 1, "No finish came up in past chats. Pick one before the first cabinet."],
+ ["resp", "safe", "Respirator", "3M Rugged Comfort 6502QL Half Facepiece Respirator", "core", "primary", 1, "hd", 0, 0, "With 3M 2097 P100 Filters."],
+ ["gog", "safe", "Safety goggles", "DEWALT DPG82-11C Concealer Clear Anti-Fog Goggles", "core", "primary", 1, "hd", 0, 0, "Owned."],
+ ["cglove", "safe", "Chainsaw gloves", "OREGON Protective Orange and Black Chainsaw Gloves", "stationary", "primary", 1, "hd", 0, 0, "Owned."],
+ ["ears", "safe", "Hearing protection", "3M WorkTunes Connect Hearing Protector", "core", "primary", 1, "hd", 0, 0, ""],
+ ["grr", "safe", "Push block", "MICROJIG GRR-RIPPER GR-100 3D Pushblock", "stationary", "primary", 1, "amz", 1, 0, "For the table saw and router table."],
+ ["feather", "safe", "Featherboards", "magnetic featherboard for table saw", "stationary", "primary", 2, "amz", 0, 1, ""],
+ ["b609", "batt", "FlexVolt 9.0Ah", "DEWALT DCB609 FLEXVOLT 9.0Ah Battery", "core", "primary", 4, "hd", 1, 0, "Owned: four. Includes a DCB609-2 two-pack."],
+ ["b612", "batt", "FlexVolt 12.0Ah", "DEWALT DCB612 FLEXVOLT 20V/60V MAX 12.0Ah Battery", "core", "primary", 2, "hd", 1, 0, "Owned: two. Returning both for two DCB6112s."],
+ ["b606", "batt", "FlexVolt 6.0Ah", "DEWALT DCB606-2 FLEXVOLT 20V/60V MAX 6.0Ah Battery 2 Pack", "core", "primary", 4, "hd", 0, 0, "Owned: four, from two DCB606-2 packs. Returning all four with no replacement."],
+ ["c104", "batt", "4-port charger", "DEWALT DCB104 12V/20V/60V MAX 4-Port Charger", "core", "primary", 1, "hd", 0, 0, "Holding until a higher-amperage 4-port model releases."],
+ ["c118", "batt", "Fast chargers", "DEWALT DCB118 20V and FLEXVOLT 12 Amp Fan Cooled Fast Charger", "core", "primary", 2, "hd", 0, 0, "Owned: two."],
+ ["c094", "batt", "Charger and USB-C kit", "DEWALT DCB094K 20V MAX Charger and USB-C Adaptor Kit", "core", "backup", 1, "hd", 0, 0, ""],
+ ["b245", "batt", "20V starter pack", "DEWALT DCB245-2C 20V Starter Pack", "core", "primary", 1, "hd", 0, 0, ""],
+ ["b6112", "batt", "Tabless FlexVolt 12.0Ah", "DEWALT DCB6112 20V/60V MAX FLEXVOLT 12Ah Tabless Battery", "core", "primary", 2, "hd", 1, 0, "Planned buy: two, replacing the two DCB612s."],
+ ["bp520", "batt", "Light 20V pack", "DEWALT DCBP520 20V MAX 5.0Ah Battery", "core", "upgrade", 1, "hd", 1, 0, "For routers, sander, drill."],
+ ["b2108", "batt", "High-output 20V pack", "DEWALT DCB2108 20V MAX 8.0Ah Battery", "core", "alternate", 1, "hd", 1, 0, ""],
+ ["b2104", "batt", "20V 4Ah POWERPACK (raffle kit)", "DEWALT DCB2104 20V MAX XR POWERPACK 4Ah Battery", "core", "primary", 2, "hd", 1, 0, "Won in a raffle, part of DCK250QQ2."],
+ ["c1104", "batt", "12V/20V charger (raffle kit)", "DEWALT DCB1104 12V/20V MAX Charger", "core", "backup", 1, "hd", 0, 0, "Won in a raffle, part of DCK250QQ2."]
+];
+const PAID={};
+const RET={keep:"Keeping",planned:"Plan to return",started:"Return started",returned:"Returned"};
+const has=k=>!!owned[k]&&status[k]!=="returned";
+const SEED_STATUS={"b606":"returned","b612":"planned","c094":"started","c104":"returned","cbar":"returned","cchain":"returned","chainsaw":"returned","hepa":"planned","ryobi":"started","vguide":"returned"};
+const COMPACT=new Set(["dcs525b","dws5130","mft","acs","dwst","diytop","rplate","sled","coping","pipe","vacad","parf","tsclamp","pguide","jig","rcomp","ryobibits","bstr","bflush","bround","bdado","khinge","kshelf","kreg720","drill","impact","ros","discs","vac06","hepa","dwv9000","fsm","f24","trig","planer","bsaw","grr","resp","ears"]);
+const SEED_OWNED=["b2104","b245","b606","b609","b612","bflush","bits","bround","bstr","buck","c094","c104","c1104","c118","cbar","cchain","cglove","chainsaw","chisel","comp","d24","d60","dcd806","dcf845","discs","drill","ears","empire12","gog","hepa","hvac","impact","jig","kcirc","kgrind","kmulti","light","peeler","pipe","pullsaw","rcomp","resp","ros","ryobi","ryobibits","speed","trig","vguide"];
+const STORES={hd:["Home Depot",q=>"https://www.homedepot.com/s/"+encodeURIComponent(q)],amz:["Amazon",q=>"https://www.amazon.com/s?k="+encodeURIComponent(q)],wc:["Woodcraft",q=>"https://www.woodcraft.com/search?q="+encodeURIComponent(q)],yard:["Lumberyard",null]};
+const amz=q=>"https://www.amazon.com/s?k="+encodeURIComponent(q);
+const F0={setup:"all",path:"",role:"primary",have:"all",store:"all",rs:"all",ver:false,ret:false,gen:false};let F={...F0};let status={...SEED_STATUS};let owned={},q="",db=null,ref=null,writing=false,pending=null;
+const LK="woodshop-owned-v4",SK="woodshop-status-v1",XK="woodshop-removed-v1";
+let removed={};try{removed=JSON.parse(localStorage.getItem(XK)||"{}")||{}}catch(e){removed={}}
+let armed=null;
+try{const st=JSON.parse(localStorage.getItem(SK)||"null");if(st)status=st}catch(e){}
+try{owned=JSON.parse(localStorage.getItem(LK)||"null")||Object.fromEntries(SEED_OWNED.map(k=>[k,true]))}catch(e){owned=Object.fromEntries(SEED_OWNED.map(k=>[k,true]))}
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const check='<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 8.5l3.2 3L13 4.5"/></svg>';
+const syncEl=document.getElementById("sync");
+function setSync(h){syncEl.innerHTML=h}
+function cache(){try{localStorage.setItem(LK,JSON.stringify(owned));localStorage.setItem(SK,JSON.stringify(status));localStorage.setItem(XK,JSON.stringify(removed))}catch(e){}}
+function show(it,f=F){
+  const P=it[4],path=f.path;
+  if(path==="core"&&P!=="core")return false;
+  if((path==="portable"||path==="stationary")&&P!=="core"&&P!==path)return false;
+  if(path.endsWith("-only")&&P!==path.replace("-only",""))return false;
+  if(f.rm?!removed[it[0]]:removed[it[0]])return false;
+  if(f.setup==="compact"&&!COMPACT.has(it[0]))return false;
+  if(f.role==="primary"&&f.setup!=="compact"&&it[5]!=="primary"&&!owned[it[0]])return false;
+  if(!["all","primary"].includes(f.role)&&it[5]!==f.role)return false;
+  const o=has(it[0]);
+  if(f.have==="need"&&o)return false;
+  if(f.have==="owned"&&!o)return false;
+  if(f.store!=="all"&&it[7]!==f.store)return false;
+  const rs=owned[it[0]]?(status[it[0]]||"keep"):"";
+  if(f.rs!=="all"&&rs!==f.rs)return false;
+  if(f.ver&&!it[8])return false;
+  if(f.gen&&!it[9])return false;
+  if(f.ret&&!/Return by/.test(it[10]))return false;
+  if(q&&!(it[2]+" "+it[3]+" "+it[10]).toLowerCase().includes(q))return false;
+  return true;
+}
+const GROUPS=[
+ ["setup","Setup",[["all","Everything"],["compact","Compact router shop"]]],
+ ["path","Path",[["","All"],["core","Core only"],["portable","Core + portable","c-portable"],["stationary","Core + stationary","c-stationary"],["portable-only","Portable only","c-portable"],["stationary-only","Stationary only","c-stationary"]]],
+ ["role","Role",[["primary","Primary + owned"],["all","Everything"],["alternate","Alternates"],["upgrade","Upgrades"],["backup","Backups"]]],
+ ["have","Owned",[["all","All"],["need","Still need"],["owned","Owned"]]],
+ ["store","Store",[["all","Any"],["hd","Home Depot"],["amz","Amazon"],["wc","Woodcraft"],["yard","Lumberyard"]]],
+ ["rs","Returns",[["all","All"],["keep","Keeping"],["planned","Plan to return"],["started","Return started"],["returned","Returned"]]],
+ ["flags","Narrow",[["ver","Verified models"],["gen","Generic search terms"],["rm","Removed items"]]]
+];
+function drawFilters(){
+  let h="";
+  GROUPS.forEach(([g,label,opts])=>{
+    h+=`<div class="fg"><span>${label}</span><div class="chips" role="group" aria-label="${label}">`;
+    opts.forEach(([v,l,cls])=>{
+      let on,n;
+      if(g==="flags"){on=F[v];n=I.filter(it=>show(it,{...F,[v]:true})).length}
+      else{on=F[g]===v;n=I.filter(it=>show(it,{...F,[g]:v})).length}
+      h+=`<button class="chip ${cls||""}" type="button" data-g="${g}" data-v="${v}" aria-pressed="${on}" ${!on&&!n?"disabled":""}>${l}<i>${n}</i></button>`});
+    h+="</div></div>"});
+  document.getElementById("filters").innerHTML=h;
+}
+document.getElementById("filters").addEventListener("click",e=>{
+  const c=e.target.closest(".chip");if(!c||c.disabled)return;
+  const g=c.dataset.g,v=c.dataset.v;
+  if(g==="flags")F[v]=!F[v];else if(g==="path")setPath(F.path===v?"":v,true);else F[g]=v;
+  render();
+});
+function retSummary(){
+  const sum=st=>{const ks=I.filter(it=>owned[it[0]]&&status[it[0]]===st);return [ks.length,ks.reduce((a,it)=>a+(PAID[it[0]]||0),0)]};
+  const [sn,sv]=sum("started"),[pn,pv]=sum("planned"),[rn,rv]=sum("returned");
+  document.getElementById("rets").innerHTML=`<span><b>${rn}</b> returned · <b>$${rv.toFixed(2)}</b> refunded</span><span><b>${sn}</b> returns started · <b>$${sv.toFixed(2)}</b> coming back</span><span><b>${pn}</b> planned · <b>$${pv.toFixed(2)}</b> at stake</span>`;
+}
+function kpis(){
+  const need=p=>I.filter(it=>it[4]===p&&it[5]==="primary"&&!has(it[0])).length;
+  document.getElementById("k-portable").textContent=need("portable")+" to source";
+  document.getElementById("k-stationary").textContent=need("stationary")+" to source";
+  document.getElementById("k-core").textContent="Core primaries still to source: "+need("core")+".";
+}
+function render(){
+  document.getElementById("cnote").hidden=F.setup!=="compact";
+  let html="",shown=0;
+  CATS.forEach(([id,t,why])=>{
+    const rows=I.filter(it=>it[1]===id&&show(it));
+    if(!rows.length)return;shown+=rows.length;
+    const all=I.filter(it=>it[1]===id),got=all.filter(it=>has(it[0])).length;
+    html+=`<section id="cat-${id}"><h2>${t}<small>${got}/${all.length} owned</small></h2>${why?`<p class="why">${why}</p>`:""}<div class="list">`;
+    rows.forEach(it=>{
+      const [k,,name,copy,p,r,qty,st,ver,gen,note]=it,o=has(k),ow=!!owned[k],cur=status[k]||"keep",S=STORES[st];
+      const links=S[1]?`<a class="btn primary" href="${S[1](copy)}" target="_blank" rel="noopener">${S[0]}</a>${st!=="amz"?`<a class="btn" href="${amz(copy)}" target="_blank" rel="noopener">Amazon</a>`:""}`:`<a class="btn" href="${amz(copy)}" target="_blank" rel="noopener">Amazon</a><span class="storeline">Intermountain Wood Products</span>`;
+      html+=`<div class="row${o?" is-owned":""}${ow&&cur!=="keep"&&cur!=="returned"?" is-ret":""}${ow&&cur==="returned"?" is-returned":""}"><button class="own" aria-pressed="${o}" aria-label="Mark ${esc(name)} owned" data-k="${k}">${o?check:""}</button>
+      <div class="main"><div class="name">${esc(name)}</div><div><span class="pn${gen?" generic":""}">${esc(copy)}</span></div>${note?`<div class="note">${esc(note)}</div>`:""}
+      <div class="meta">${ow?`<select class="ret rs-${cur}" id="rs-${k}" data-k="${k}" aria-label="Return status for ${esc(name)}">${Object.entries(RET).map(([v,l])=>`<option value="${v}"${v===cur?" selected":""}>${l}</option>`).join("")}</select>`:""}${ow&&PAID[k]!=null?`<span class="tag paid">${PAID[k]?"Paid $"+PAID[k].toFixed(2):"Free"}</span>`:""}<span class="tag ${p}">${p}</span>${r!=="primary"?`<span class="tag">${r}</span>`:""}${ver?`<span class="tag verified">Verified</span>`:""}</div></div>
+      <div class="qty">${qty}<span>qty</span></div>
+      <div class="acts"><button class="btn copy" data-copy="${esc(copy)}">Copy name</button>${links}${removed[k]?`<button class="btn rmv" type="button" data-k="${k}">Restore</button>`:`<button class="btn rmv${armed===k?" armed":""}" type="button" data-k="${k}" aria-label="Remove ${esc(name)} from the manifest">${armed===k?"Tap to confirm":"Remove"}</button>`}</div></div>`});
+    html+="</div></section>"});
+  document.getElementById("out").innerHTML=shown?html:'<p class="empty">Nothing matches these filters. Tap Clear filters or widen a group.</p>';
+  document.getElementById("count").textContent=shown+" of "+I.length+" items";
+  document.getElementById("jump").innerHTML=CATS.map(([id,t])=>{const n=I.filter(it=>it[1]===id&&show(it)).length;return n?`<a href="#cat-${id}" data-cat="${id}">${t}<i>${n}</i></a>`:""}).join("");
+  drawFilters();kpis();retSummary();
+}
+function setPath(v,noRender){F.path=v||"";document.querySelectorAll(".path").forEach(x=>x.setAttribute("aria-pressed",x.dataset.path===F.path));const cb=document.getElementById("path-core");if(cb)cb.setAttribute("aria-pressed",F.path==="core");if(!noRender)render()}
+document.getElementById("fork").addEventListener("click",e=>{const b=e.target.closest(".path");if(!b)return;setPath(F.path===b.dataset.path?"":b.dataset.path)});
+document.getElementById("path-core").addEventListener("click",()=>setPath(F.path==="core"?"":"core"));
+document.getElementById("q").addEventListener("input",e=>{q=e.target.value.toLowerCase().trim();render()});
+document.getElementById("clear").addEventListener("click",()=>{F={...F0};q="";document.getElementById("q").value="";setPath("")});
+document.getElementById("jump").addEventListener("click",e=>{const a=e.target.closest("a[data-cat]");if(!a)return;e.preventDefault();const el=document.getElementById("cat-"+a.dataset.cat);if(el)el.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})});
+async function push(){
+  if(!ref){cache();return}
+  if(writing){pending=true;return}
+  writing=true;
+  try{await ref.set({items:{...owned},status:{...status},removed:{...removed}});setSync("<b>Synced</b> across your devices")}
+  catch(e){setSync("Could not save to the shared list ("+esc(e&&e.code||"error")+"). Checkmarks are kept in this browser only.")}
+  writing=false;if(pending){pending=false;push()}
+}
+document.getElementById("out").addEventListener("change",e=>{
+  const sel=e.target.closest("select.ret");if(!sel)return;
+  const k=sel.dataset.k;if(sel.value==="keep")delete status[k];else status[k]=sel.value;cache();render();push();
+});
+document.getElementById("out").addEventListener("click",e=>{
+  const xb=e.target.closest(".rmv");
+  if(xb){const k=xb.dataset.k;
+    if(removed[k]){delete removed[k];armed=null;cache();render();push();return}
+    if(armed!==k){armed=k;render();setTimeout(()=>{if(armed===k){armed=null;render()}},4000);return}
+    armed=null;removed[k]=true;cache();render();push();return}
+  const ob=e.target.closest(".own");
+  if(ob){const k=ob.dataset.k;if(owned[k]&&status[k]==="returned"){delete status[k]}else if(owned[k]){delete owned[k];delete status[k]}else owned[k]=true;cache();render();push();return}
+  const cb=e.target.closest(".copy");
+  if(cb){const t=cb.dataset.copy;const done=()=>{cb.textContent="Copied";setTimeout(()=>cb.textContent="Copy name",1200)};
+    try{navigator.clipboard.writeText(t).then(done,()=>sel(cb))}catch(err){sel(cb)}}
+});
+function sel(cb){const pn=cb.closest(".row").querySelector(".pn");const r=document.createRange();r.selectNodeContents(pn);const s=getSelection();s.removeAllRanges();s.addRange(r);cb.textContent="Selected";setTimeout(()=>cb.textContent="Copy name",1400)}
+render();
+(async()=>{
+  try{db=window.claude&&window.claude.use?await window.claude.use("db"):null}catch(e){db=null}
+  if(!db){setSync("Checkmarks and return statuses are saved in this browser only.");return}
+  ref=db.doc("shop/owned");
+  const t=setTimeout(()=>setSync("The shared list can't be reached yet. Showing checkmarks from this browser."),10000);
+  ref.onSnapshot(snap=>{
+    if(!snap.fromCache)clearTimeout(t);
+    if(snap.exists){const d=snap.data()||{};owned={...(d.items||{})};status={...(d.status||{})};removed={...(d.removed||{})};cache();render();setSync("<b>Synced</b> across your devices")}
+    else{clearTimeout(t);setSync("No shared checkmarks yet. Tick a box to start the synced list.")}
+  },err=>{clearTimeout(t);ref=null;setSync("Sync stopped ("+esc(err&&err.code||"error")+"). Checkmarks are kept in this browser only.")});
+})();
+</script>
+
+</body>
+</html>
