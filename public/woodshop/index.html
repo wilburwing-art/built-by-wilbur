@@ -440,7 +440,7 @@ document.getElementById("filters").addEventListener("click",e=>{
 function retSummary(){
   const sum=st=>{const ks=I.filter(it=>owned[it[0]]&&status[it[0]]===st);return [ks.length,ks.reduce((a,it)=>a+(PAID[it[0]]||0),0)]};
   const [sn,sv]=sum("started"),[pn,pv]=sum("planned"),[rn,rv]=sum("returned");
-  document.getElementById("rets").innerHTML=`<span><b>${rn}</b> returned · <b>$${rv.toFixed(2)}</b> refunded</span><span><b>${sn}</b> returns started · <b>$${sv.toFixed(2)}</b> coming back</span><span><b>${pn}</b> planned · <b>$${pv.toFixed(2)}</b> at stake</span>`;
+  document.getElementById("rets").innerHTML=`<span><b>${rn}</b> returned</span><span><b>${sn}</b> returns started</span><span><b>${pn}</b> planned</span>`;
 }
 function kpis(){
   const need=p=>I.filter(it=>it[4]===p&&it[5]==="primary"&&!has(it[0])).length;
