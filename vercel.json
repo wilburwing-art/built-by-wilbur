@@ -51,6 +51,15 @@
       ]
     },
     {
+      "source": "/woodshop/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
       "source": "/woodshop/:path*",
       "headers": [
         {
